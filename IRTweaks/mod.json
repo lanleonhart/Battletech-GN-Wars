@@ -1,0 +1,325 @@
+{
+	"Name": "IRTweaks",
+	"Enabled": true,
+	"Hidden": true,
+	"Version": "0.9.6.9",
+	"Description": "Miscellaneous Tweaks and Fixes",
+	"Author": "IceRaptor",
+	"Website": "https://github.com/IceRaptor/IRTweaks",
+	"Contact": "",
+	"DLL": "IRTweaks.dll",
+	"DependsOn": [
+		"IRBTModUtils",
+		"Custom Ammo Categories"
+	],
+	"OptionallyDependsOn": [
+		"CBTBehaviorsEnhanced"
+	],
+	"Settings": {
+		"Debug": false,
+		"Trace": false,
+		"Fixes": {
+			"AbilityResourceFix": true,
+			"AlternateMechNamingStyle": false,
+			"BuildingDamageColorChange": false,
+			"BraceOnMeleeWithJuggernaut": true,
+			"BulkPurchasing": false,
+			"BulkScrapping": false,
+			"CombatLog": false,
+			"CTDestructInjuryFix": true,
+			"DamageReductionInCombatHud": false,
+			"DifficultyModsFromStats": true,
+			"DisableCampaign": true,
+			"DisableDebug": true,
+			"DisableCombatSaves": true,
+			"DisableCombatRestarts": true,
+			"DisableLowFundsNotification": true,
+			"DisableMPHashCalculation": true,
+			"EventRequirementsScopeFix": true,
+			"ExtendedStats": false,
+			"FactionValueFix": true,
+			"FlexibleSensorLock": false,
+			"MaxArmorMaxesArmor": true,
+			"MechbayAdvancedStripping": true,
+			"MechbayLayout": true,
+			"MechbayLayoutDisableStore": true,
+			"MultiTargetStat": true,
+			"OnWeaponFireFix": true,
+			"PainTolerance": true,
+			"PathfinderTeamFix": true,
+			"PreventHeadShots": false,
+			"RandomStartByDifficulty": true,
+			"ReduceSaveCompression": true,
+			"RestoreMechTagsOnReady": true,
+			"ScaleObjectiveBuildingStructure": true,
+			"ShowAllArgoUpgrades": true,
+			"SimGameDifficultyLabelsReplacer": false,
+			"SkirmishAlwaysUnlimited": true,
+			"SkirmishReset": false,
+			"SkipDeleteSavePopup": true,
+			"SpawnProtection": true,
+			"StreamlinedMainMenu": true,
+			"TgtComputerTonnageDisplay": true,
+			"TurnDirectorStartFirstRoundFix": true,
+			"UrbanExplosionsFix": false,
+			"WeakAgainstMeleeFix": true,
+			"WeaponTooltip": true
+		},
+		"Abilities": {
+			"FlexibleSensorLockId": "AbilityDefT5A",
+			"JuggernautId": "AbilityDefGu8",
+			"MultiTargetId": "AbilityDefG5",
+			"BraceEffectConfig": {
+				"ID": "EffectsOnBrace",
+				"Name": "EffectsOnBracing",
+				"Description": "Effects happen on brace",
+				"effectDataJO": [
+					{
+						"durationData": {
+							"duration": 1,
+							"stackLimit": 1
+						},
+						"targetingData": {
+							"effectTriggerType": "Passive",
+							"effectTargetType": "Creator",
+							"showInStatusPanel": true
+						},
+						"effectType": "StatisticEffect",
+						"Description": {
+							"Id": "BraceAOE_DR",
+							"Name": "AOE DR",
+							"Details": "Braced Units take 20% less AOE damage.",
+							"Icon": "allied-star"
+						},
+						"nature": "Buff",
+						"statisticData": {
+							"statName": "CACAoEDamageMult",
+							"operation": "Float_Add",
+							"modValue": "-0.2",
+							"modType": "System.Single"
+						}
+					}
+				]
+			}
+		},
+		"CheatDetection": {
+			"CheatDetection": true,
+			"CheatDetectionNotify": true,
+			"CheatDetectionStat": "CheatFoundS2"
+		},
+		"Combat": {
+			"DisableCTMaxInjureTags": [
+				"ProtoMech"
+			],
+			"TorsoMountStatName": "isTorsoMount",
+			"CalledShot": {
+				"DisableAllLocations": true,
+				"DisableHeadshots": true,
+				"EnableTacticsModifier": true,
+				"BaseModifier": -1,
+				"PilotTags": {}
+			},
+			"ToHitStatMods": {
+				"WeaponToHitMods": [
+					{
+						"SourceStatName": "WeaponIgnoreEVASIVE_AeroUnit",
+						"TargetStatName": "AeroUnit",
+						"Multi": false,
+						"Type": "EVASIVE"
+					}
+				],
+				"ActorToHitMods": [
+					{
+						"SourceStatName": "ActorIgnoreDEFENSE_AeroUnit",
+						"TargetStatName": "AeroUnit",
+						"Multi": true,
+						"Type": "DEFENSE"
+					},
+					{
+						"SourceStatName": "ActorABSOLUTE_AeroUnit",
+						"TargetStatName": "AeroUnit",
+						"Multi": false,
+						"Type": "ABSOLUTE"
+					}
+				]
+			},
+			"DamageModsBySkill": {
+				"DisplayFloatiesOnTrigger": true,
+				"StabilityMods": [
+					{
+						"StatName": "GunneryStabBonus1",
+						"Probability": 0.15,
+						"Multiplier": 1.15
+					}
+				],
+				"HeatMods": [
+					{
+						"StatName": "GunneryHeatBonus1",
+						"Probability": 0.15,
+						"Multiplier": 1.15
+					}
+				],
+				"APDmgMods": [],
+				"StdDmgMods": [
+					{
+						"StatName": "GunnderyDmgBonus1",
+						"Probability": 0.15,
+						"Multiplier": 1.15
+					}
+				]
+			},
+			"FlexibleSensorLock": {
+				"FreeActionWithAbility": false,
+				"FreeActionWithStat": false,
+				"FreeActionStatName": "IR_FreeSensorLock",
+				"AlsoAppliesToActiveProbe": false
+			},
+			"ObstructionTweaks": {
+				"DRMechLocs": [
+					"LeftLeg",
+					"RightLeg"
+				],
+				"DRVehicleLocs": [
+					"Front",
+					"Rear",
+					"Left",
+					"Right"
+				],
+				"QuadTags": [
+					"unit_quad"
+				],
+				"ObstructionDRByTags": {
+					"unit_mech": 0.5,
+					"unit_vehicle": 0.5,
+					"unit_quad": 0.25
+				}
+			},
+			"OnWeaponFireOpts": {
+				"SelfKnockdownCheckStatName": "SelfknockdownCheck_OnFire",
+				"IgnoreSelfKnockdownTag": "big_chungus",
+				"SelfKnockdownTonnageFactor": 0.01,
+				"SelfKnockdownTonnageBonusThreshold": 100.0,
+				"SelfKnockdownTonnageBonusFactor": 0.05,
+				"SelfKnockdownPilotingFactor": 0.01,
+				"SelfKnockdownBracedFactor": 100.0
+			},
+			"OnWeaponHitOpts": {
+				"ForceShutdownOnHitStat": "OnHitShutdownChance",
+				"IgnoreShutdownTag": "DontTazeMeBro",
+				"ResistShutdownGutsFactor": 0.01
+			},
+			"PainTolerance": {
+				"ResistPerGuts": 15,
+				"HeadDamageResistPenaltyPerArmorPoint": 2,
+				"HeadHitArmorOnlyResistPenaltyMulti": 0.3,
+				"AmmoExplosionResistPenaltyPerCapacityPercentile": 1,
+				"OverheatResistPenaltyPerHeatPercentile": 1,
+				"KnockdownResistPenalty": 6,
+				"SideLocationDestroyedResistPenalty": 10,
+				"CTLocationDestroyedResistPenalty": 10
+			},
+			"ScaledStructure": {
+				"DefaultScale": {
+					"Mod": 0,
+					"Multi": 1.0
+				},
+				"ContractScaling": {
+					"DestroyBase_DeniableDestruction": {
+						"Mod": 59,
+						"Multi": 5
+					}
+				},
+				"StoryScale": {
+					"Mod": 0,
+					"Multi": 1.0
+				},
+				"UseStoryScale": false,
+				"DifficultyScaling": {
+					"1": {
+						"Mod": 5,
+						"Multi": 1.0
+					},
+					"2": {
+						"Mod": 10,
+						"Multi": 1.25
+					},
+					"3": {
+						"Mod": 15,
+						"Multi": 1.5
+					},
+					"4": {
+						"Mod": 20,
+						"Multi": 2.0
+					},
+					"5": {
+						"Mod": 25,
+						"Multi": 2.5
+					},
+					"6": {
+						"Mod": 30,
+						"Multi": 3.0
+					},
+					"7": {
+						"Mod": 35,
+						"Multi": 3.5
+					},
+					"8": {
+						"Mod": 40,
+						"Multi": 4.0
+					},
+					"9": {
+						"Mod": 45,
+						"Multi": 4.5
+					},
+					"10": {
+						"Mod": 50,
+						"Multi": 5.0
+					},
+					"11": {
+						"Mod": 55,
+						"Multi": 5.5
+					},
+					"12": {
+						"Mod": 60,
+						"Multi": 6.0
+					}
+				}
+			},
+			"SpawnProtection": {
+				"ApplyGuard": true,
+				"EvasionPips": 8,
+				"ApplyToEnemies": true,
+				"ApplyToAllies": true,
+				"ApplyToNeutrals": true,
+				"ApplyToReinforcements": true
+			},
+			"TurretArmorAndStructure": {
+				"StructureMultiplierTurret": 0,
+				"ArmorMultiplierTurret": 0
+			}
+		},
+		"Misc": {
+			"DifficultyUIScaling": {
+				"StartOnlyScalar": 40,
+				"StartOnlyPositionY": 40,
+				"RegularPositionY": 40
+			},
+			"MechLabRefitReqs": {
+				"MechLabRefitReqs": {
+					"requires_refitHarness": "argoUpgrade_mechBay_refitHarness"
+				}
+			}
+		},
+		"Store": {
+			"QuantityOnShift": 5,
+			"QuantityOnControl": 20
+		}
+	},
+	"Manifest": [
+		{
+			"Type": "SimGameStatDescDef",
+			"Path": "simGameStatDesc",
+			"AddToDB": true
+		}
+	]
+}

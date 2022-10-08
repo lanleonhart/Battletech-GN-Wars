@@ -1,0 +1,64 @@
+04:23:00.607 Assembly version: 0.7.0.0
+04:23:00.612 === MOD CONFIG BEGIN ===
+04:23:00.612   Debug: False Trace: False
+04:23:00.612   FEATURES => BiomeBreaches: False  PermanentEvasion: True  StartupChecks: False
+04:23:00.612   ToHitSelfJumped: 2
+04:23:00.612 
+04:23:00.612 === CUSTOM CATEGORY OPTIONS ===
+04:23:00.612   ShoulderActuatorCategoryId: 'ArmShoulder'  UpperArmActuatorCategoryId: 'ArmUpperActuator'  LowerArmActuatorCategoryId: 'ArmLowerActuator,OmniLowerActuator'  HandActuatorCategoryId: 'ArmHandActuator,OmniHandActuator'  
+04:23:00.612   HipActuatorCategoryId: 'LegHip'  UpperLegActuatorCategoryId: 'LegUpperActuator'  LowerLegActuatorCategoryId: 'LegLowerActuator'  FootActuatorCategoryId: 'LegFootActuator'  
+04:23:00.618 
+04:23:00.618 === HEAT OPTIONS ===
+04:23:00.620   Movement mods: 15 : 0, 30 : -1, 45 : -1, 60 : -2, 75 : -2, 93 : -3, 111 : -3, 129 : -4, 147 : -4, 
+04:23:00.620   Firing mods: 24 : 1, 39 : 2, 51 : 3, 72 : 4, 99 : 5, 123 : 6, 144 : 7, 
+04:23:00.620   Shutdown chances: 42 : 0.1, 54 : 0.3, 66 : 0.6, 78 : 0.8, 90 : 0.9, 102 : 1, 114 : 1.1, 126 : 1.2, 138 : 1.3, 150 : -1, 
+04:23:00.620   Ammo Explosion chances: 60 : 0.4, 90 : 0.6, 120 : 1, 
+04:23:00.620   Pilot Injury chances: 84 : 0.3, 117 : 0.6, 141 : 0.8, 
+04:23:00.620   System Failure chances: 108 : 0.3, 132 : 0.6, 
+04:23:00.620   ShowLowOverheatAnim: 42  ShowExtremeOverheatAnim: 90
+04:23:00.620   ShutdownFallThreshold: 0.75
+04:23:00.620   MaxHeat: 150  WarnAtHeat: 42
+04:23:00.620 
+04:23:00.621 === MELEE OPTIONS ===
+04:23:00.621   ExtraHitsAverageAllDamage: False  ProneTargetAttackModifier: -2  FilterCanUseInMeleeWeaponsByAttack: True
+04:23:00.621   -- CHARGE OPTIONS --
+04:23:00.621   AttackerDamagePerTargetTon: 2  AttackerInstabilityPerTargetTon: 1
+04:23:00.621   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 1
+04:23:00.621   DamageClusterDivisor: 25
+04:23:00.621   Unsteady => AttackerOnHit: False  AttackerOnMiss: True  TargetOnHit: False
+04:23:00.621   -- DFA OPTIONS --
+04:23:00.621   AttackerDamagePerTargetTon: 1.5  AttackerInstabilityPerTargetTon: 1
+04:23:00.621   TargetDamagePerAttackerTon: 2  TargetInstabilityPerAttackerTon: 1
+04:23:00.621   DamageClusterDivisor: 25
+04:23:00.621   Unsteady => AttackerOnHit: True  AttackerOnMiss: False  TargetOnHit: True
+04:23:00.621   -- KICK OPTIONS --
+04:23:00.621   BaseAttackBonus: -2  LegActuatorDamageMalus: 2  FootActuatorDamageMalus: 1
+04:23:00.621   TargetDamagePerAttackerTon: 1  TargetInstabilityPerAttackerTon: 0.5
+04:23:00.621   LegActuatorDamageReduction: 0.5
+04:23:00.621   Unsteady => AttackerOnHit: False  AttackerOnMiss: True  TargetOnHit: True
+04:23:00.621   -- PHYSICAL WEAPON OPTIONS --
+04:23:00.621   DefaultDamagePerAttackTon: 2  DefaultInstabilityPerAttackerTon: 1
+04:23:00.621   ArmActuatorDamageMalus: 2
+04:23:00.621   Unsteady Default => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
+04:23:00.621   -- PUNCH OPTIONS --
+04:23:00.621   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 0.5
+04:23:00.621   ArmActuatorDamageMalus: 2  HandActuatorDamageMalus: 1
+04:23:00.621   ArmActuatorDamageReduction: 0.5
+04:23:00.621   Unsteady => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
+04:23:00.621 
+04:23:00.621 === MOVE OPTIONS ===
+04:23:00.621   MinimumMove: 40m  HeatMovePenalty: 24m  RunMulti: x1.5
+04:23:00.621   FallAfterChances =>   Jump: 0.3  Run: 0.3
+04:23:00.621   MPMetersPerHex: 24m
+04:23:00.621 
+04:23:00.621 === PILOTING OPTIONS ===
+04:23:00.621   StabilityCheck: 0.3
+04:23:00.621   DFAReductionMulti: x0.05  FallingDamagePerTenTons: 5
+04:23:00.621 
+04:23:00.621 === SKILL CHECKS OPTIONS ===
+04:23:00.621   PilotingSkillMulti: x0.05  GutsSkillMulti: 0.05
+04:23:00.621 === BREACHES OPTIONS ===
+04:23:00.621   ThinAtmoCheck: 0.03  VacuumCheck: 0.17
+04:23:00.621 
+04:23:00.621 === MOD CONFIG END ===
+04:23:00.621 INFO: No errors reading settings file.

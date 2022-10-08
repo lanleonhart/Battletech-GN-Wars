@@ -1,0 +1,119 @@
+Levels :Spam True :Debug True :Info True :Warn True
+[Info] Harmony? 1.2.0.1
+[Info] Unity? 2018.4.2f1
+[Info] Product? BATTLETECH-1.9.1-686R
+[Info] ModTek? 2.0.7.0
+[Info] Initialized com.github.m22spencer.BattletechPerformanceFix 2.13.0.18294
+[Info] Mod-Dir? E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\BattletechPerformanceFix
+[Info] BattletechPerformanceFix found BattleTech 1.9.1 and will now load
+[Info] Features ----------
+[Info] Feature HarmonyPatches is ON
+[Info] Feature LocalizationPatches is ON
+[Info] Feature MechlabFix is ON
+[Info] Feature LoadFixes is ON
+[Info] Feature NoSalvageSoftlock is ON
+[Info] Feature DataLoaderGetEntryCheck is ON
+[Info] Feature ShopTabLagFix is ON
+[Info] Feature ContractLagFix is ON
+[Info] Feature EnableLoggingDuringLoads is ON
+[Info] Feature ExtraLogging is ON
+[Info] Feature ShaderDependencyOverride is ON
+[Info] Feature DisableDeployAudio is OFF
+[Info] Feature RemovedFlashpointFix is ON
+[Info] Feature DisableSimAnimations is ON
+[Info] Feature RemovedContractsFix is ON
+[Info] Feature VersionManifestPatches is ON
+[Info] Feature MemoryLeakFix is ON
+[Info] Feature EnableConsole is OFF
+[Info] Patches ----------
+[Info] Feature HarmonyPatches:
+[Info] Patch: MethodInvoker.GetHandler -> HarmonyPatches.GetHandler_Pre
+[Info] Patch: AccessTools.MakeDeepCopy -> HarmonyPatches.MakeDeepCopy_Transpile
+[Info] Feature LocalizationPatches:
+[Info] Patch: StringsProviderBase`1.StringForKeyFormat -> LocalizationPatches.StringForKeyFormat_Pre
+[Info] Patch: StringsProviderBase`1.StringForKeyFormat -> LocalizationPatches.StringForKeyFormat_Post
+[Info] Feature MechlabFix:
+[Info] Patch: AAR_SalvageScreen.BeginSalvageScreen -> MechlabFix.BeginSalvageScreen_Pre
+[Info] Patch: MechLabPanel.PopulateInventory -> MechlabFix.PopulateInventory_Pre
+[Info] Patch: MechLabPanel.ConfirmRevertMech -> MechlabFix.ConfirmRevertMech_Pre
+[Info] Patch: MechLabPanel.ExitMechLab -> MechlabFix.ExitMechLab_Pre
+[Info] Patch: ScrollRect.LateUpdate -> MechlabFix.LateUpdate_Pre
+[Info] Patch: MechLabInventoryWidget.OnAddItem -> MechlabFix.OnAddItem_Pre
+[Info] Patch: MechLabInventoryWidget.OnRemoveItem -> MechlabFix.OnRemoveItem_Pre
+[Info] Patch: MechLabInventoryWidget.OnItemGrab -> MechlabFix.OnItemGrab_Pre
+[Info] Patch: MechLabInventoryWidget.ApplyFiltering -> MechlabFix.ApplyFiltering_Pre
+[Info] Patch: MechLabPanel.MechCanEquipItem -> MechlabFix.MechCanEquipItem_Pre
+[Info] Patch: MechLabInventoryWidget.ApplySorting -> MechlabFix.ApplySorting_Pre
+[Info] Feature LoadFixes:
+[Spam] CheckPatch is NYI
+[Info] Feature NoSalvageSoftlock:
+[Spam] CheckPatch is NYI
+[Info] Feature DataLoaderGetEntryCheck:
+[Spam] CheckPatch is NYI
+[Info] Feature ShopTabLagFix:
+[Spam] CheckPatch is NYI
+[Spam] CheckPatch is NYI
+[Info] Feature ContractLagFix:
+[Debug] EncounterLayerData ctors 1
+[Info] Feature EnableLoggingDuringLoads:
+[Info] Feature ExtraLogging:
+[Info] Patch: LanceOverride.RequestLance -> ExtraLogging.RequestLance_Pre
+[Info] Patch: SimGameState.PrepContract -> ExtraLogging.PrepContract_Pre
+[Info] Patch: SimGameState.PrepContract -> ExtraLogging.PrepContract_Post
+[Info] Patch: LanceSpawnerGameLogic.InitializeTaggedLance -> ExtraLogging.InitializeTaggedLance_Pre
+[Info] Feature ShaderDependencyOverride:
+[Info] Patch: AssetBundleManager.IsBundleLoaded -> ShaderDependencyOverride.GetManager
+[Info] Patch: AssetBundleManager.GenerateWebRequest -> ShaderDependencyOverride.GetManager
+[Info] Patch: AssetBundleManager.IsBundleLoaded -> ShaderDependencyOverride.WithShaderDeps
+[Info] Patch: AssetBundleManager.GenerateWebRequest -> ShaderDependencyOverride.WithShaderDeps
+[Info] Feature RemovedFlashpointFix:
+[Info] Patch: SimGameState.Rehydrate -> RemovedFlashpointFix.Rehydrate_Pre
+[Info] Feature DisableSimAnimations:
+[Info] Patch: SimGameCameraController.Init -> DisableSimAnimations.Init_Pre
+[Info] Patch: SGRoomController_MechBay.TransitionMech -> DisableSimAnimations.TransitionMech_Pre
+[Info] Feature RemovedContractsFix:
+[Info] Patch: SimGameState.Rehydrate -> RemovedContractsFix.Rehydrate_Pre
+[Info] Feature VersionManifestPatches:
+[Info] Patch: VersionManifestBase.Contains -> VersionManifestPatches.Contains_Pre
+[Info] Feature MemoryLeakFix:
+[Info] Patch: BattleTechSimAnalytics.BeginSession -> MemoryLeakFix.Session_Transpile
+[Info] TranspileReplaceCall: UpdateMessageSubscriptions -> Void _UpdateMessageSubscriptions(BattleTech.Analytics.Sim.BattleTechSimAnalytics, Boolean)
+[Info] Patch: BattleTechSimAnalytics.EndSession -> MemoryLeakFix.Session_Transpile
+[Info] TranspileReplaceCall: UpdateMessageSubscriptions -> Void _UpdateMessageSubscriptions(BattleTech.Analytics.Sim.BattleTechSimAnalytics, Boolean)
+[Info] Patch: SimGameUXCreator.OnSimGameInitializeComplete -> MemoryLeakFix.OnSimGameInitializeComplete_Post
+[Spam] System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction] Contract_ctor_Transpile(System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction]) called
+[Debug] TranspileNopIndicesRange: nopping indices 125-134
+[Info] Patch: Contract.PostDeserialize -> MemoryLeakFix.PostDeserialize_Transpile
+[Spam] System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction] PostDeserialize_Transpile(System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction]) called
+[Debug] TranspileNopIndicesRange: nopping indices 21-27
+[Spam] System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction] ContractObjectiveOverride_ctor_Transpile(System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction]) called
+[Debug] TranspileNopIndicesRange: nopping indices 5-14
+[Spam] System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction] ContractObjectiveOverride_ctor_cogl_Transpile(System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction]) called
+[Debug] TranspileNopIndicesRange: nopping indices 9-18
+[Spam] System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction] ObjectiveOverride_ctor_Transpile(System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction]) called
+[Debug] TranspileNopIndicesRange: nopping indices 8-17
+[Spam] System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction] ObjectiveOverride_ctor_ogl_Transpile(System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction]) called
+[Debug] TranspileNopIndicesRange: nopping indices 12-21
+[Spam] System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction] DialogueContentOverride_ctor_Transpile(System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction]) called
+[Debug] TranspileNopIndicesRange: nopping indices 23-32
+[Spam] System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction] DialogueContentOverride_ctor_dc_Transpile(System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction]) called
+[Debug] TranspileNopIndicesRange: nopping indices 60-69
+[Info] Patch: InterpolatedText.Init -> MemoryLeakFix.Init_Transpile
+[Spam] System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction] Init_Transpile(System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction]) called
+[Debug] TranspileNopIndicesRange: nopping indices 3-10
+[Info] Patch: Contract.Finalize -> MemoryLeakFix.TranspileNopAll
+[Info] Patch: ContractObjectiveOverride.Finalize -> MemoryLeakFix.TranspileNopAll
+[Info] Patch: ObjectiveOverride.Finalize -> MemoryLeakFix.TranspileNopAll
+[Info] Patch: DialogueContentOverride.Finalize -> MemoryLeakFix.TranspileNopAll
+[Info] Patch: InterpolatedText.Finalize -> MemoryLeakFix.TranspileNopAll
+[Info] Patch: DialogueContent.ContractInitialize -> MemoryLeakFix.DialogueContent_ContractInitialize_Post
+[Info] Patch: ConversationContent.ContractInitialize -> MemoryLeakFix.ConversationContent_ContractInitialize_Post
+[Info] Patch: DialogBucketDef.ContractInitialize -> MemoryLeakFix.DialogBucketDef_ContractInitialize_Post
+[Info] Patch: GameInstanceSave.PostSerialization -> MemoryLeakFix.PostSerialization_Post
+[Info] Runtime ----------
+[Info] Patch out sensitive data log dumps
+[Info] LogLevel info
+Levels :Spam False :Debug False :Info True :Warn True
+[Info] Sorted in 22.4714 ms
+[Info] Sorted in 17.5085 ms
+[Info] Filter took 60.0616 ms and resulted in 436 -> 217 items

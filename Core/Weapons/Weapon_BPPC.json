@@ -1,0 +1,154 @@
+{
+    "Category" : "Energy",
+    "Type" : "PPC",
+    "WeaponSubType" : "PPC",
+    "MinRange" : 0,
+    "MaxRange" : 500,
+    "RangeSplit" : [
+        125,
+        250,
+        500
+    ],
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 50,
+    "Damage" : 75,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 3,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 3,
+    "Instability" : 20,
+    "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
+    "Description" : {
+        "Cost" : 180000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Vidar Armaments",
+        "Model" : "Burst Particle Projector Cannon",
+        "UIName" : "BPPC",
+        "Id" : "Weapon_BPPC",
+        "Name" : "BPPC",
+        "Details" : "The BPPC is a short-mid range particle projection cannon that fires 3 quick bursts of plasma. Designed and developed in 3037 by Vidar Armaments Corporation on the planet Caph. The partical amplification produces higher output, but at the cost of increased heat generation.",
+        "Icon" : "particle"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "PPC",
+    "BattleValue" : 0,
+    "InventorySize" : 5,
+    "Tonnage" : 10,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "FireDelayMultiplier": 0.25,
+    "Modes": [
+        {
+          "Id": "x1",
+          "UIName": "x1",
+          "Name": "x1 Shot",
+          "Description": "PPC Fires 1 Shot",
+          "isBaseMode": false,
+          "ShotsWhenFired": -2,
+          "RefireModifier": -2,
+          "HeatGenerated": 17,
+          "FlatJammingChance": 0.06,
+          "GunneryJammingMult": 0.01,
+          "GunneryJammingBase": 1
+        },
+        {
+          "Id": "x2",
+          "UIName": "x2",
+          "Name": "x2 Shots",
+          "Description": "BPPC Fires 2 Shots",
+          "isBaseMode": false,
+          "ShotsWhenFired": -1,
+          "RefireModifier": -1,
+          "HeatGenerated": 34,
+          "FlatJammingChance": 0.12,
+          "GunneryJammingMult": 0.01,
+          "GunneryJammingBase": 1
+        },
+        {
+          "Id": "x3",
+          "UIName": "x3",
+          "Name": "x3 Shots",
+          "Description": "BPPC Fires 3 Shots",
+          "isBaseMode": true,
+          "HeatGenerated": 50,
+          "FlatJammingChance": 0.18,
+          "GunneryJammingMult": 0.01,
+          "GunneryJammingBase": 1
+        }
+    ],
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 0,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "AbilityDefPPC",
+                "Name" : "SENSORS IMPAIRED",
+                "Details" : "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_short"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
