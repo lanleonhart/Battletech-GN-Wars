@@ -1,17 +1,24 @@
 {
-    "Category" : "Energy",
-    "Type" : "PPC",
-    "WeaponSubType" : "PPC",
-    "MinRange" : 0,
-    "MaxRange" : 500,
-    "RangeSplit" : [
-        125,
-        250,
-        500
+    "Custom": {
+      "Category": [
+        {
+          "CategoryID": "w/e/p/ppc"
+        }
+    ]   
+},
+    "Category": "Energy",
+    "Type": "PPC",
+    "WeaponSubType": "PPC",
+    "MinRange": 0,
+    "MaxRange": 500,
+    "RangeSplit": [
+      125,
+      250,
+      500
     ],
     "ammoCategoryID" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 50,
+    "HeatGenerated" : 70,
     "Damage" : 75,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -37,7 +44,7 @@
         "UIName" : "BPPC",
         "Id" : "Weapon_BPPC",
         "Name" : "BPPC",
-        "Details" : "The BPPC is a short-mid range particle projection cannon that fires 3 quick bursts of plasma. Designed and developed in 3037 by Vidar Armaments Corporation on the planet Caph. The partical amplification produces higher output, but at the cost of increased heat generation.",
+        "Details" : "The Burst Particle Projector Cannon was designed by Vidar Armaments during Project Moss on Planet Caph. Designed with a select fire in mind, this weapon is able to fire a maximum of 3 PPC bolts in quick succession. In field trials technical reports confirm the retention of STD PPC damage output with a noted increase of heat production. The first unit exploded upon firing injurying several technicians nearby.",
         "Icon" : "particle"
     },
     "BonusValueA" : "",
@@ -51,7 +58,8 @@
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
-    "FireDelayMultiplier": 0.25,
+    "ProjectileSpeedMultiplier": 2,
+    "FireDelayMultiplier": 0,
     "Modes": [
         {
           "Id": "x1",
@@ -61,8 +69,8 @@
           "isBaseMode": false,
           "ShotsWhenFired": -2,
           "RefireModifier": -2,
-          "HeatGenerated": 17,
-          "FlatJammingChance": 0.06,
+          "HeatGenerated": -52,
+          "FlatJammingChance": 0.055,
           "GunneryJammingMult": 0.01,
           "GunneryJammingBase": 1
         },
@@ -74,8 +82,8 @@
           "isBaseMode": false,
           "ShotsWhenFired": -1,
           "RefireModifier": -1,
-          "HeatGenerated": 34,
-          "FlatJammingChance": 0.12,
+          "HeatGenerated": -35,
+          "FlatJammingChance": 0.11,
           "GunneryJammingMult": 0.01,
           "GunneryJammingBase": 1
         },
@@ -85,8 +93,7 @@
           "Name": "x3 Shots",
           "Description": "BPPC Fires 3 Shots",
           "isBaseMode": true,
-          "HeatGenerated": 50,
-          "FlatJammingChance": 0.18,
+          "FlatJammingChance": 0.22,
           "GunneryJammingMult": 0.01,
           "GunneryJammingBase": 1
         }
@@ -151,4 +158,4 @@
         ],
         "tagSetSourceFile" : ""
     }
-}
+  }

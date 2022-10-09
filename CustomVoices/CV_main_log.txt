@@ -1,40 +1,34 @@
-[00:22:54.773]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomVoices version: 0.0.0.10
+[22:48:42.154]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomVoices version: 0.0.0.10
 
-[00:22:55.280]AudioEngine.Init
+[22:48:42.694]AudioEngine.Init
 System.DllNotFoundException: bass
   at (wrapper managed-to-native) ManagedBass.Bass.Init(int,int,ManagedBass.DeviceInitFlags,intptr,intptr)
   at CustomVoices.AudioEngine.Init () [0x0001e] in <759e2792def149ff9b55dbc1233b653e>:0 
-  at CustomVoices.Core.Init (System.String directory, System.String settingsJson) [0x00199] in <759e2792def149ff9b55dbc1233b653e>:0 [00:23:06.416]FinishedLoading
+  at CustomVoices.Core.Init (System.String directory, System.String settingsJson) [0x00199] in <759e2792def149ff9b55dbc1233b653e>:0 [22:48:53.861]FinishedLoading
  customResource:VoicePackDef
  customResource:AudioFile
  customResource:AudioFileSettings
-[00:23:06.420]CustomMusicHelper.Init start
-[00:23:06.463]CustomMusicHelper.Init finish
-[00:23:08.290]UIManager.Awake
-[00:23:08.290]AudioEngine.Init
-[00:23:08.290]System.DllNotFoundException: bass
+[22:48:53.864]CustomMusicHelper.Init start
+[22:48:53.903]CustomMusicHelper.Init finish
+[22:48:55.496]UIManager.Awake
+[22:48:55.496]AudioEngine.Init
+[22:48:55.496]System.DllNotFoundException: bass
   at (wrapper managed-to-native) ManagedBass.Bass.Init(int,int,ManagedBass.DeviceInitFlags,intptr,intptr)
   at CustomVoices.AudioEngine.Init () [0x0001e] in <759e2792def149ff9b55dbc1233b653e>:0 
   at CustomVoices.UIManager_Awake.Postfix (BattleTech.UI.UIManager __instance) [0x00018] in <759e2792def149ff9b55dbc1233b653e>:0 
-[00:23:12.165]AudioEventManager.LoadAudioSettings
-[00:23:12.165]System.NullReferenceException: Object reference not set to an instance of an object
+[22:48:59.298]AudioEventManager.LoadAudioSettings
+[22:48:59.298]System.NullReferenceException: Object reference not set to an instance of an object
   at CustomVoices.AudioEventManager_LoadAudioSettings.Postfix () [0x00037] in <759e2792def149ff9b55dbc1233b653e>:0 
-[00:23:12.167]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
-[00:23:12.391]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
-[00:23:19.872]AudioEventManager.SetMusicState menu_loading in_menus None stopOldMusic:False custMusicIsPlayed:False
-[00:23:24.146]WwiseManager.SuspendSoundEngine
-[00:23:24.773]Log flushing
-[00:23:37.609]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
-[00:23:37.618]AudioEventManager.SetMusicState nothing in_menus None stopOldMusic:False custMusicIsPlayed:False
-[00:23:37.665]AudioEventManager.SetMusicState Sim_Game argo alive stopOldMusic:False custMusicIsPlayed:False
-[00:23:43.202]WwiseManager.WakeupSoundEngine
-[00:23:44.855]AudioEventManager.SetMusicState Sim_Game Mech_Bay alive stopOldMusic:False custMusicIsPlayed:False
-[00:23:44.901]AudioEventManager.SetMusicState Sim_Game Mech_Bay alive stopOldMusic:False custMusicIsPlayed:False
-[00:23:50.540]AudioEventManager.SetMusicState Sim_Game argo alive stopOldMusic:False custMusicIsPlayed:False
-[00:23:54.774]Log flushing
-[00:23:58.603]AudioEventManager.LoadAudioSettings
-[00:23:58.603]System.NullReferenceException: Object reference not set to an instance of an object
-  at CustomVoices.AudioEventManager_LoadAudioSettings.Postfix () [0x00037] in <759e2792def149ff9b55dbc1233b653e>:0 
-[00:23:58.791]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
-[00:24:24.775]Log flushing
-[00:24:54.777]Log flushing
+[22:48:59.299]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
+[22:48:59.489]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
+[22:49:12.155]Log flushing
+[22:49:24.070]WwiseManager.SuspendSoundEngine
+[22:49:42.157]Log flushing
+[22:50:12.157]Log flushing
+[22:50:42.157]Log flushing
+[22:51:12.158]Log flushing
+[22:51:42.159]Log flushing
+[22:52:12.160]Log flushing
+[22:52:42.160]Log flushing
+[22:53:12.161]Log flushing
+[22:53:42.161]Log flushing
