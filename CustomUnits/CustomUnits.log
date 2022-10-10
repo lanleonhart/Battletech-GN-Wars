@@ -1,5 +1,5 @@
-[22:48:46.373]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits version: 0.0.0.119
-[22:48:46.373]Loading buildin shaders
+[21:47:37.794]Initing... C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits version: 0.0.0.119
+[21:47:37.795]Loading buildin shaders
  shader found Legacy Shaders/Particles/Alpha Blended Premultiply:262
  shader not found Mobile/Particles/Additive
  shader not found Particles/Alpha Blended
@@ -43,12 +43,12 @@
   srm4 lrm5:0.9 lrm10:0.5 lrm15:0.4 arrow:0.8 lrm20:0.3 srm2:0.9 srm4:1 srm6:0.9
   srm2 lrm5:0.6 lrm10:0.2 lrm15:0.2 arrow:0.5 lrm20:0.2 srm2:1 srm4:0.6 srm6:0.6
   arrow arrow:1
-[22:48:46.441]Helper assembly CustomUnitsHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:48:46.920]MechRepresentation.LateUpdate Transpiler
+[21:47:37.844]Helper assembly CustomUnitsHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[21:47:38.138]MechRepresentation.LateUpdate Transpiler
  found AudioEventManager.CreateVOQueue call 46
  found AudioEventManager.QueueVOEvent call 4C
  found AudioEventManager.StartVOQueue call 4F
-[22:48:46.945]Mech.CanEngageTarget searching
+[21:47:38.152]Mech.CanEngageTarget searching
  get_GameRep
  get_PilotableActorDef
  get_MechDef
@@ -226,32 +226,13 @@
   params:2
    BattleTech.ICombatant
    System.String&
-[22:48:47.124]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
-[22:48:47.124]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[21:47:38.296]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[21:47:38.296]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
 ToHit.GetAllModifiers transpliter
  source method found
  target method found
-[22:48:47.646]SGRoomController_MechBay.Prepare p_Unlocks not null
-[22:48:47.647]SGRoomController_MechBay.Prepare p_Unlocks not null
-ToHit.GetAllModifiers transpliter
- source method found
- target method found
- methodCallIndex found 55
-  result[54].opcode = ldc.i4.0
-  result[53].opcode = ldarg.s
-  result[52].opcode = ldarg.0
- this opcode found changing to attacker
-ToHit.GetAllModifiers transpliter
- source method found
- target method found
- methodCallIndex found 58
-  result[57].opcode = ldc.i4.0
-  result[56].opcode = ldarg.s
-  result[55].opcode = ldarg.0
- this opcode found changing to attacker
-[22:48:48.008]UnitSpawnPointGameLogic.Spawn Transpiler
-[22:48:48.114]MWTrayState:MWTrayState
-[22:48:48.115]MWTrayState:MWTrayState
+[21:47:38.630]SGRoomController_MechBay.Prepare p_Unlocks not null
+[21:47:38.631]SGRoomController_MechBay.Prepare p_Unlocks not null
 ToHit.GetAllModifiers transpliter
  source method found
  target method found
@@ -268,6 +249,9 @@ ToHit.GetAllModifiers transpliter
   result[56].opcode = ldarg.s
   result[55].opcode = ldarg.0
  this opcode found changing to attacker
+[21:47:38.847]UnitSpawnPointGameLogic.Spawn Transpiler
+[21:47:38.898]MWTrayState:MWTrayState
+[21:47:38.899]MWTrayState:MWTrayState
 ToHit.GetAllModifiers transpliter
  source method found
  target method found
@@ -284,8 +268,29 @@ ToHit.GetAllModifiers transpliter
   result[56].opcode = ldarg.s
   result[55].opcode = ldarg.0
  this opcode found changing to attacker
-[22:48:54.419]FinishedLoading
+ToHit.GetAllModifiers transpliter
+ source method found
+ target method found
+ methodCallIndex found 55
+  result[54].opcode = ldc.i4.0
+  result[53].opcode = ldarg.s
+  result[52].opcode = ldarg.0
+ this opcode found changing to attacker
+ToHit.GetAllModifiers transpliter
+ source method found
+ target method found
+ methodCallIndex found 58
+  result[57].opcode = ldc.i4.0
+  result[56].opcode = ldarg.s
+  result[55].opcode = ldarg.0
+ this opcode found changing to attacker
+[21:47:41.300]FinishedLoading
  Assembly:mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+ Assembly:ModTekPreloader, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+ Assembly:Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ Assembly:0Harmony, Version=1.2.0.1, Culture=neutral, PublicKeyToken=null
+ Assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+ Assembly:ModTek, Version=2.0.7.0, Culture=neutral, PublicKeyToken=null
  Assembly:UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:UnityEngine.ARModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -348,12 +353,12 @@ ToHit.GetAllModifiers transpliter
  Assembly:UnityEngine.XRModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
  Assembly:System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+ Assembly:System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
  Assembly:UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:UnityEngine.Networking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:UnityEngine.SpatialTracking, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
- Assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:InControl.Examples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:InControl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -367,7 +372,6 @@ ToHit.GetAllModifiers transpliter
  Assembly:BattleTech.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
  Assembly:Lidgren.Network, Version=2012.1.7.0, Culture=neutral, PublicKeyToken=null
- Assembly:Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
  Assembly:NGettext, Version=0.2.1.0, Culture=neutral, PublicKeyToken=null
  Assembly:Open.Nat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f22a6a4582336c76
  Assembly:protobuf-net, Version=2.0.0.565, Culture=neutral, PublicKeyToken=257b51d87d2e4d67
@@ -397,43 +401,39 @@ ToHit.GetAllModifiers transpliter
  Assembly:I18N.West, Version=2.0.5.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
  Assembly:Sigil, Version=4.7.0.0, Culture=neutral, PublicKeyToken=2d06c3494341c8ab
  Assembly:Mono.Data.Sqlite, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
- Assembly:System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
  Assembly:System.EnterpriseServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
  Assembly:System.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
  Assembly:System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
- Assembly:0Harmony, Version=1.2.0.1, Culture=neutral, PublicKeyToken=null
+ Assembly:Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
  Assembly:System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
- Assembly:Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
  Assembly:System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
- Assembly:System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+ Assembly:System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
  Assembly:System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
  Assembly:System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
- Assembly:System.ServiceModel.Internals, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
  Assembly:Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
- Assembly:ModTek, Version=2.0.7.0, Culture=neutral, PublicKeyToken=null
  Assembly:HarmonySharedState, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
- Assembly:BattletechPerformanceFix, Version=2.13.0.18294, Culture=neutral, PublicKeyToken=null
- Assembly:CrystalClear, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:CustomComponents, Version=8.5.1.0, Culture=neutral, PublicKeyToken=null
+ Assembly:IRBTModUtils, Version=1.21.0.0, Culture=neutral, PublicKeyToken=null
+ Assembly:MechEngineer, Version=2.3.11.0, Culture=neutral, PublicKeyToken=null
  Assembly:CustomLocalization, Version=0.0.0.39, Culture=neutral, PublicKeyToken=null
+ Assembly:BattletechPerformanceFix, Version=2.13.0.18294, Culture=neutral, PublicKeyToken=null
+ Assembly:CommanderPortraitLoader, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null
+ Assembly:CrystalClear, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:CustomLocalSettings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ Assembly:CustomPilotDecorator, Version=0.0.0.2, Culture=neutral, PublicKeyToken=null
  Assembly:CustomPrewarm, Version=0.0.0.8, Culture=neutral, PublicKeyToken=null
  Assembly:CustomVoices, Version=0.0.0.10, Culture=neutral, PublicKeyToken=null
  Assembly:ManagedBass, Version=3.1.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
- Assembly:IRBTModUtils, Version=1.21.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:MechEditorMod, Version=1.0.0.6, Culture=neutral, PublicKeyToken=null
- Assembly:MechEngineer, Version=2.3.11.0, Culture=neutral, PublicKeyToken=null
  Assembly:MissionControl, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null
  Assembly:SkipIntro, Version=1.8.0.38578, Culture=neutral, PublicKeyToken=null
- Assembly:CommanderPortraitLoader, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null
  Assembly:CustomAmmoCategories, Version=0.0.1.223, Culture=neutral, PublicKeyToken=null
  Assembly:CustomAmmoCategoriesPrivate, Version=0.0.0.2, Culture=neutral, PublicKeyToken=null
  Assembly:MessagePack, Version=1.7.3.7, Culture=neutral, PublicKeyToken=b4a0369545f0a1be
  Assembly:AttackImprovementMod, Version=3.1.0.44, Culture=neutral, PublicKeyToken=null
  Assembly:CustomActivatableEquipment, Version=0.0.0.105, Culture=neutral, PublicKeyToken=null
- Assembly:CustomPilotDecorator, Version=0.0.0.2, Culture=neutral, PublicKeyToken=null
  Assembly:CustomUnits, Version=0.0.0.119, Culture=neutral, PublicKeyToken=null
  Assembly:CustomDeploy, Version=0.0.0.2, Culture=neutral, PublicKeyToken=null
  Assembly:CustomUnitsHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -447,13 +447,10 @@ ToHit.GetAllModifiers transpliter
  Assembly:System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
  MechEngineer.Features.OverrideStatTooltips.Helper.MechDefMovementStatistics found MechDefMovementStatistics
   MechEngineer.Features.OverrideStatTooltips.Helper.MechDefMovementStatistics GetJumpCapacity found
-[22:48:54.561]customResource:CustomMechRepresentationDef
-[22:48:54.562]customResource:CustomPrefabDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_left_leg.json
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_right_leg.json
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_torso.json
-[22:48:54.566]customResource:DropSlotsDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_simgame_layout.json
+[21:47:41.398]customResource:CustomMechRepresentationDef
+[21:47:41.398]customResource:CustomPrefabDef
+[21:47:41.398]customResource:DropSlotsDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_simgame_layout.json
  id:default_simgame_layout
  {
   "Description": {
@@ -469,7 +466,7 @@ ToHit.GetAllModifiers transpliter
     "default_default_lance2"
   ]
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_skirmish_layout.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_skirmish_layout.json
  id:default_skirmish_layout
  {
   "Description": {
@@ -485,8 +482,8 @@ ToHit.GetAllModifiers transpliter
     "default_default_lance2"
   ]
 }
-[22:48:54.577]customResource:DropLanceDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance1.json
+[21:47:41.403]customResource:DropLanceDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance1.json
  id:default_default_lance1
  {
   "Description": {
@@ -506,7 +503,7 @@ ToHit.GetAllModifiers transpliter
     "default_vehicle_slot"
   ]
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance2.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance2.json
  id:default_default_lance2
  {
   "Description": {
@@ -523,8 +520,8 @@ ToHit.GetAllModifiers transpliter
     "default_omni_hotdrop"
   ]
 }
-[22:48:54.582]customResource:DropSlotDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_mech_slot.json
+[21:47:41.406]customResource:DropSlotDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_mech_slot.json
  id:default_mech_slot
  {
   "Description": {
@@ -541,7 +538,7 @@ ToHit.GetAllModifiers transpliter
   "HotDrop": false,
   "UseMaxUnits": true
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_hotdrop.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_hotdrop.json
  id:default_omni_hotdrop
  {
   "Description": {
@@ -560,7 +557,7 @@ ToHit.GetAllModifiers transpliter
   "HotDrop": true,
   "UseMaxUnits": false
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_slot.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_slot.json
  id:default_omni_slot
  {
   "Description": {
@@ -578,7 +575,7 @@ ToHit.GetAllModifiers transpliter
   "HotDrop": false,
   "UseMaxUnits": true
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_vehicle_slot.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_vehicle_slot.json
  id:default_vehicle_slot
  {
   "Description": {
@@ -595,8 +592,8 @@ ToHit.GetAllModifiers transpliter
   "HotDrop": false,
   "UseMaxUnits": true
 }
-[22:48:54.585]customResource:DropSlotDecorationDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_hotdrop.json
+[21:47:41.408]customResource:DropSlotDecorationDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_hotdrop.json
  id:decoration_slot_hotdrop
  {
   "Description": {
@@ -606,7 +603,7 @@ ToHit.GetAllModifiers transpliter
     "Icon": "landing-safe-svgrepo-com"
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_mech.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_mech.json
  id:decoration_slot_mech
  {
   "Description": {
@@ -616,7 +613,7 @@ ToHit.GetAllModifiers transpliter
     "Icon": "battle-mech"
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_vehicle.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_vehicle.json
  id:decoration_slot_vehicle
  {
   "Description": {
@@ -626,8 +623,8 @@ ToHit.GetAllModifiers transpliter
     "Icon": "tank"
   }
 }
-[22:48:54.587]customResource:PilotingClassDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericMechClass.json
+[21:47:41.409]customResource:PilotingClassDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericMechClass.json
  id:GenericMechClass
  {
   "unitTags": [
@@ -646,7 +643,7 @@ ToHit.GetAllModifiers transpliter
   "expertiseGenerationMinCount": 1,
   "ExcludeClasses": []
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericVehicleClass.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericVehicleClass.json
  id:GenericVehicleClass
  {
   "unitTags": [
@@ -665,8 +662,8 @@ ToHit.GetAllModifiers transpliter
   "expertiseGenerationMinCount": 1,
   "ExcludeClasses": []
 }
-[22:48:54.591]customResource:DropClassDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericMechClass.json
+[21:47:41.412]customResource:DropClassDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericMechClass.json
  id:GenericMechClass
  {
   "Description": {
@@ -676,7 +673,7 @@ ToHit.GetAllModifiers transpliter
     "Icon": null
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericVehicleClass.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericVehicleClass.json
  id:GenericVehicleClass
  {
   "Description": {
@@ -686,8 +683,8 @@ ToHit.GetAllModifiers transpliter
     "Icon": null
   }
 }
-[22:48:54.594]customResource:CustomHangarDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\battle_armor_bays.json
+[21:47:41.413]customResource:CustomHangarDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\battle_armor_bays.json
  id:battle_armor_bays
  {
   "Description": {
@@ -698,7 +695,7 @@ ToHit.GetAllModifiers transpliter
   },
   "PositionShift": 200
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\vehicle_bays.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\vehicle_bays.json
  id:vehicle_bays
  {
   "Description": {
@@ -709,18 +706,17 @@ ToHit.GetAllModifiers transpliter
   },
   "PositionShift": 100
 }
-[22:48:54.599]PilotingClassHelper.Validate
+[21:47:41.417]PilotingClassHelper.Validate
  GenericMechClass
  GenericVehicleClass
-[22:48:54.606]Harmony log Mech.InitGameRep
+[21:47:41.421]Harmony log Mech.InitGameRep
  Prefixes:
   MechEngineer.Features.HardpointFix index:1 method:Prefix
   io.mission.customunits index:2 method:InitGameRepStatic
  Postfixes:
   MechEngineer.Features.HardpointFix index:1 method:Postfix
-[22:48:55.786]SaveManager:C:/Users/Silver/AppData/LocalLow/Harebrained Schemes/BATTLETECH\S0
-flush
-[22:48:57.418]ApplicationConstants.FromJSON. PrewarmRequests:
+[21:47:42.367]SaveManager:C:/Users/Aegis/AppData/LocalLow/Harebrained Schemes/BATTLETECH\S0
+[21:47:43.253]ApplicationConstants.FromJSON. PrewarmRequests:
  BaseDescriptionDef:All
  VehicleDef:All
  AmmunitionDef:All
@@ -765,14 +761,14 @@ flush
  additional melee def:Weapon_MeleeAttack
  chassisdef_shadowhawk_SHD-2H  isFake:False
  additional melee def:Weapon_MeleeAttack
-[22:48:58.109]ContentPackIndex.TryFinalizeDataLoad
-[22:48:58.119]ContentPackIndex.TryFinalizeDataLoad
-[22:48:58.144]ContentPackIndex.TryFinalizeDataLoad
-[22:48:58.144]ContentPackIndex.TryFinalizeDataLoad
-[22:48:58.252]ContentPackIndex.TryFinalizeDataLoad
-[22:48:58.263]ContentPackIndex.TryFinalizeDataLoad
-[22:48:58.389]ContentPackIndex.TryFinalizeDataLoad
-[22:48:58.731]ContentPackIndex.TryFinalizeDataLoad
+[21:47:43.759]ContentPackIndex.TryFinalizeDataLoad
+[21:47:43.766]ContentPackIndex.TryFinalizeDataLoad
+[21:47:43.786]ContentPackIndex.TryFinalizeDataLoad
+[21:47:43.786]ContentPackIndex.TryFinalizeDataLoad
+[21:47:43.846]ContentPackIndex.TryFinalizeDataLoad
+[21:47:43.854]ContentPackIndex.TryFinalizeDataLoad
+[21:47:43.962]ContentPackIndex.TryFinalizeDataLoad
+[21:47:44.184]ContentPackIndex.TryFinalizeDataLoad
  adding MechDef vehicledef_APC_Sleipnir data/vehicle/vehicledef_APC_Sleipnir.json
  adding MechDef vehicledef_APC_Vargr data/vehicle/vehicledef_APC_Vargr.json
  adding MechDef vehicledef_APC_Wheeled data/vehicle/vehicledef_APC_Wheeled.json
@@ -838,180 +834,180 @@ flush
  adding ChassisDef vehiclechassisdef_SCHREK_SPPC Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/vehiclechassisdef_SCHREK_SPPC.json
  adding ChassisDef vehiclechassisdef_SCORPION_MKII Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/vehiclechassisdef_SCORPION_MKII.json
  adding ChassisDef vehiclechassisdef_STRIKER_Narc Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/vehiclechassisdef_STRIKER_Narc.json
-[22:48:59.304]DataManager.PoolGameObject IntroCinematicLauncher(IntroCinematicLauncher(Clone)) -> null
-[22:48:59.741]MechDef.CollectInventoryPrefabs mechdef_spider_SDR-5V inventory:33
+[21:47:44.456]DataManager.PoolGameObject IntroCinematicLauncher(IntroCinematicLauncher(Clone)) -> null
+[21:47:44.818]MechDef.CollectInventoryPrefabs mechdef_spider_SDR-5V inventory:33
  index:0 index:1 index:2 index:3 index:4 index:5 index:6 index:7 index:8 index:9 index:10 index:11 index:12 index:13 index:14 index:15 index:16 index:17 index:18 index:19 index:20 index:21 index:22 index:23 index:24 index:25 index:26 index:27 index:28 index:29 index:30 index:31 index:32 chassisdef_spider_SDR-5V  isFake:False
  additional melee def:Weapon_MeleeAttack
-[22:49:01.920]VehicleDef.RequestInventoryPrefabs
-[22:49:01.920]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:null
+[21:47:46.589]VehicleDef.RequestInventoryPrefabs
+[21:47:46.590]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.921]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Sleipnir chassis:vehiclechassisdef_APC_Sleipnir
-[22:49:01.922]VehicleDef.RequestInventoryPrefabs
-[22:49:01.922]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:null
+[21:47:46.590]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Sleipnir chassis:vehiclechassisdef_APC_Sleipnir
+[21:47:46.591]VehicleDef.RequestInventoryPrefabs
+[21:47:46.591]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.922]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Vargr chassis:vehiclechassisdef_APC_Vargr
-[22:49:01.923]VehicleDef.RequestInventoryPrefabs
-[22:49:01.923]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:null
+[21:47:46.591]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Vargr chassis:vehiclechassisdef_APC_Vargr
+[21:47:46.592]VehicleDef.RequestInventoryPrefabs
+[21:47:46.592]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.923]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Wheeled chassis:vehiclechassisdef_APC_Wheeled
-[22:49:01.924]VehicleDef.RequestInventoryPrefabs
-[22:49:01.924]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:null
+[21:47:46.592]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Wheeled chassis:vehiclechassisdef_APC_Wheeled
+[21:47:46.592]VehicleDef.RequestInventoryPrefabs
+[21:47:46.592]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.924]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_BULLDOG chassis:vehiclechassisdef_BULLDOG
-[22:49:01.925]VehicleDef.RequestInventoryPrefabs
-[22:49:01.925]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:null
+[21:47:46.592]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_BULLDOG chassis:vehiclechassisdef_BULLDOG
+[21:47:46.593]VehicleDef.RequestInventoryPrefabs
+[21:47:46.593]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.925]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_LRM chassis:vehiclechassisdef_CARRIER_LRM
-[22:49:01.926]VehicleDef.RequestInventoryPrefabs
-[22:49:01.926]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:null
+[21:47:46.593]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_LRM chassis:vehiclechassisdef_CARRIER_LRM
+[21:47:46.594]VehicleDef.RequestInventoryPrefabs
+[21:47:46.594]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.926]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_SRM chassis:vehiclechassisdef_CARRIER_SRM
-[22:49:01.927]VehicleDef.RequestInventoryPrefabs
-[22:49:01.927]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:null
+[21:47:46.594]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_SRM chassis:vehiclechassisdef_CARRIER_SRM
+[21:47:46.594]VehicleDef.RequestInventoryPrefabs
+[21:47:46.594]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.927]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER chassis:vehiclechassisdef_DEMOLISHER
-[22:49:01.927]VehicleDef.RequestInventoryPrefabs
-[22:49:01.927]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:null
+[21:47:46.594]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER chassis:vehiclechassisdef_DEMOLISHER
+[21:47:46.595]VehicleDef.RequestInventoryPrefabs
+[21:47:46.595]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.927]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON chassis:vehiclechassisdef_GALLEON
-[22:49:01.928]VehicleDef.RequestInventoryPrefabs
-[22:49:01.928]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:null
+[21:47:46.595]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON chassis:vehiclechassisdef_GALLEON
+[21:47:46.596]VehicleDef.RequestInventoryPrefabs
+[21:47:46.596]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.928]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MANTICORE chassis:vehiclechassisdef_MANTICORE
-[22:49:01.929]VehicleDef.RequestInventoryPrefabs
-[22:49:01.929]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
+[21:47:46.596]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MANTICORE chassis:vehiclechassisdef_MANTICORE
+[21:47:46.596]VehicleDef.RequestInventoryPrefabs
+[21:47:46.596]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.929]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ chassis:vehiclechassisdef_MOBILEHQ
-[22:49:01.929]VehicleDef.RequestInventoryPrefabs
-[22:49:01.929]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
+[21:47:46.596]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ chassis:vehiclechassisdef_MOBILEHQ
+[21:47:46.596]VehicleDef.RequestInventoryPrefabs
+[21:47:46.596]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.929]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ_ARMORED chassis:vehiclechassisdef_MOBILEHQ
-[22:49:01.930]VehicleDef.RequestInventoryPrefabs
-[22:49:01.930]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:null
+[21:47:46.596]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ_ARMORED chassis:vehiclechassisdef_MOBILEHQ
+[21:47:46.597]VehicleDef.RequestInventoryPrefabs
+[21:47:46.597]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.930]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK chassis:vehiclechassisdef_SCHREK
-[22:49:01.931]VehicleDef.RequestInventoryPrefabs
-[22:49:01.931]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:null
+[21:47:46.597]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK chassis:vehiclechassisdef_SCHREK
+[21:47:46.597]VehicleDef.RequestInventoryPrefabs
+[21:47:46.597]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.931]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION chassis:vehiclechassisdef_SCORPION
-[22:49:01.932]VehicleDef.RequestInventoryPrefabs
-[22:49:01.932]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
+[21:47:46.597]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION chassis:vehiclechassisdef_SCORPION
+[21:47:46.598]VehicleDef.RequestInventoryPrefabs
+[21:47:46.598]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.932]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
-[22:49:01.932]VehicleDef.RequestInventoryPrefabs
-[22:49:01.932]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
+[21:47:46.598]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
+[21:47:46.599]VehicleDef.RequestInventoryPrefabs
+[21:47:46.599]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.932]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
-[22:49:01.933]VehicleDef.RequestInventoryPrefabs
-[22:49:01.933]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:null
+[21:47:46.599]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
+[21:47:46.599]VehicleDef.RequestInventoryPrefabs
+[21:47:46.599]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.933]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER chassis:vehiclechassisdef_STRIKER
-[22:49:01.934]VehicleDef.RequestInventoryPrefabs
-[22:49:01.934]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:null
+[21:47:46.599]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER chassis:vehiclechassisdef_STRIKER
+[21:47:46.600]VehicleDef.RequestInventoryPrefabs
+[21:47:46.600]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.934]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND chassis:vehiclechassisdef_SWIFTWIND
-[22:49:01.935]VehicleDef.RequestInventoryPrefabs
-[22:49:01.935]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:null
+[21:47:46.600]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND chassis:vehiclechassisdef_SWIFTWIND
+[21:47:46.600]VehicleDef.RequestInventoryPrefabs
+[21:47:46.600]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.935]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND_ARMORED chassis:vehiclechassisdef_SWIFTWIND_ARMORED
-[22:49:01.935]VehicleDef.RequestInventoryPrefabs
-[22:49:01.935]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:null
+[21:47:46.600]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND_ARMORED chassis:vehiclechassisdef_SWIFTWIND_ARMORED
+[21:47:46.601]VehicleDef.RequestInventoryPrefabs
+[21:47:46.601]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.935]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE1 chassis:vehiclechassisdef_TARGETVEHICLE1
-[22:49:01.936]VehicleDef.RequestInventoryPrefabs
-[22:49:01.936]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:null
+[21:47:46.601]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE1 chassis:vehiclechassisdef_TARGETVEHICLE1
+[21:47:46.601]VehicleDef.RequestInventoryPrefabs
+[21:47:46.601]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.936]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE2 chassis:vehiclechassisdef_TARGETVEHICLE2
-[22:49:01.937]VehicleDef.RequestInventoryPrefabs
-[22:49:01.937]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
+[21:47:46.601]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE2 chassis:vehiclechassisdef_TARGETVEHICLE2
+[21:47:46.602]VehicleDef.RequestInventoryPrefabs
+[21:47:46.602]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.937]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_AMMOTRANSPORT chassis:vehiclechassisdef_MOBILEHQ
-[22:49:01.938]VehicleDef.RequestInventoryPrefabs
-[22:49:01.938]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:null
+[21:47:46.602]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_AMMOTRANSPORT chassis:vehiclechassisdef_MOBILEHQ
+[21:47:46.603]VehicleDef.RequestInventoryPrefabs
+[21:47:46.603]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.938]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLANT chassis:vehiclechassisdef_GALLANT
-[22:49:01.939]VehicleDef.RequestInventoryPrefabs
-[22:49:01.939]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:null
+[21:47:46.603]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLANT chassis:vehiclechassisdef_GALLANT
+[21:47:46.603]VehicleDef.RequestInventoryPrefabs
+[21:47:46.603]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.939]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_PACKRAT chassis:vehiclechassisdef_PACKRAT
-[22:49:01.939]VehicleDef.RequestInventoryPrefabs
-[22:49:01.939]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:null
+[21:47:46.603]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_PACKRAT chassis:vehiclechassisdef_PACKRAT
+[21:47:46.604]VehicleDef.RequestInventoryPrefabs
+[21:47:46.604]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.939]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_ROTUNDA chassis:vehiclechassisdef_ROTUNDA
-[22:49:01.940]VehicleDef.RequestInventoryPrefabs
-[22:49:01.940]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:null
+[21:47:46.604]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_ROTUNDA chassis:vehiclechassisdef_ROTUNDA
+[21:47:46.604]VehicleDef.RequestInventoryPrefabs
+[21:47:46.604]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.940]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Alsvin chassis:vehiclechassisdef_APC_Alsvin
-[22:49:01.941]VehicleDef.RequestInventoryPrefabs
-[22:49:01.941]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:null
+[21:47:46.604]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Alsvin chassis:vehiclechassisdef_APC_Alsvin
+[21:47:46.605]VehicleDef.RequestInventoryPrefabs
+[21:47:46.605]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.941]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Arvakr chassis:vehiclechassisdef_APC_Arvakr
-[22:49:01.941]VehicleDef.RequestInventoryPrefabs
-[22:49:01.941]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:null
+[21:47:46.605]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Arvakr chassis:vehiclechassisdef_APC_Arvakr
+[21:47:46.605]VehicleDef.RequestInventoryPrefabs
+[21:47:46.605]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.941]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_Inferno chassis:vehiclechassisdef_CARRIER_Inferno
-[22:49:01.942]VehicleDef.RequestInventoryPrefabs
-[22:49:01.942]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:null
+[21:47:46.605]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_Inferno chassis:vehiclechassisdef_CARRIER_Inferno
+[21:47:46.606]VehicleDef.RequestInventoryPrefabs
+[21:47:46.606]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.942]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER_LBX chassis:vehiclechassisdef_DEMOLISHER_LBX
-[22:49:01.943]VehicleDef.RequestInventoryPrefabs
-[22:49:01.943]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:null
+[21:47:46.606]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER_LBX chassis:vehiclechassisdef_DEMOLISHER_LBX
+[21:47:46.606]VehicleDef.RequestInventoryPrefabs
+[21:47:46.606]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.943]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON_TAG chassis:vehiclechassisdef_GALLEON_TAG
-[22:49:01.945]VehicleDef.RequestInventoryPrefabs
-[22:49:01.945]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
+[21:47:46.606]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON_TAG chassis:vehiclechassisdef_GALLEON_TAG
+[21:47:46.607]VehicleDef.RequestInventoryPrefabs
+[21:47:46.607]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.945]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
-[22:49:01.946]VehicleDef.RequestInventoryPrefabs
-[22:49:01.946]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
+[21:47:46.607]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
+[21:47:46.607]VehicleDef.RequestInventoryPrefabs
+[21:47:46.607]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.946]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
-[22:49:01.946]VehicleDef.RequestInventoryPrefabs
-[22:49:01.946]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:null
+[21:47:46.607]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
+[21:47:46.607]VehicleDef.RequestInventoryPrefabs
+[21:47:46.608]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.946]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK_SPPC chassis:vehiclechassisdef_SCHREK_SPPC
-[22:49:01.947]VehicleDef.RequestInventoryPrefabs
-[22:49:01.947]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:null
+[21:47:46.608]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK_SPPC chassis:vehiclechassisdef_SCHREK_SPPC
+[21:47:46.608]VehicleDef.RequestInventoryPrefabs
+[21:47:46.608]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.947]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION_MKII chassis:vehiclechassisdef_SCORPION_MKII
-[22:49:01.948]VehicleDef.RequestInventoryPrefabs
-[22:49:01.948]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:null
+[21:47:46.608]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION_MKII chassis:vehiclechassisdef_SCORPION_MKII
+[21:47:46.608]VehicleDef.RequestInventoryPrefabs
+[21:47:46.608]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:49:01.948]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER_Narc chassis:vehiclechassisdef_STRIKER_Narc
+[21:47:46.608]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER_Narc chassis:vehiclechassisdef_STRIKER_Narc
  vehiclechassisdef_APC_Sleipnir
  additional melee def:Weapon_MeleeAttack
  vehiclechassisdef_APC_Vargr
@@ -1072,46 +1068,47 @@ flush
  additional melee def:Weapon_MeleeAttack
  vehiclechassisdef_STRIKER_Narc
  additional melee def:Weapon_MeleeAttack
-[22:49:02.496]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
-[22:49:02.496]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:not null
-[22:49:02.502]HardpointDataDef.Loaded:hardpointdatadef_rotunda HardpointData:1
-[22:49:02.526]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:not null
-[22:49:02.526]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:not null
-[22:49:02.526]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:not null
-[22:49:02.527]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:not null
-[22:49:02.529]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:not null
+[21:47:46.993]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
+[21:47:46.993]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:not null
+[21:47:46.997]HardpointDataDef.Loaded:hardpointdatadef_rotunda HardpointData:1
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:not null
+[21:47:47.005]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:not null
+[21:47:47.018]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:not null
 flush
-[22:49:06.411]HUDMechArmorReadout.Init gameObject:uixPrfPanl_SIM_mechPaperdoll-Element-MANAGED parent:obj_paperdoll
-[22:49:06.436]HUDMechArmorReadout.BayShowMech null
-[22:49:06.450]DataManager.PoolGameObject uixPrfWidget_profileBreadcrumb_widget(uixPrfWidget_profileBreadcrumb_widget(Clone)) -> null
-[22:49:06.450]DataManager.PoolGameObject uixPrfPanl_mainMenu-Screen_V3(uixPrfPanl_mainMenu-Screen_V3(Clone)) -> null
+flush
+[21:47:57.928]HUDMechArmorReadout.Init gameObject:uixPrfPanl_SIM_mechPaperdoll-Element-MANAGED parent:obj_paperdoll
+[21:47:57.946]HUDMechArmorReadout.BayShowMech null
+[21:47:57.956]DataManager.PoolGameObject uixPrfWidget_profileBreadcrumb_widget(uixPrfWidget_profileBreadcrumb_widget(Clone)) -> null
+[21:47:57.956]DataManager.PoolGameObject uixPrfPanl_mainMenu-Screen_V3(uixPrfPanl_mainMenu-Screen_V3(Clone)) -> null
  chassisdef_atlas_AS7-D-HT  isFake:False
  additional melee def:Weapon_MeleeAttack
  chassisdef_atlas_AS7-D  isFake:False
@@ -1353,94 +1350,94 @@ flush
  additional melee def:Weapon_MeleeAttack
  vehiclechassisdef_APC_Sleipnir  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.039]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Sleipnir
+[21:47:58.370]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Sleipnir
  vehiclechassisdef_APC_Vargr  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.041]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Vargr
+[21:47:58.372]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Vargr
  vehiclechassisdef_APC_Wheeled  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.044]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Wheeled
+[21:47:58.373]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Wheeled
  vehiclechassisdef_BULLDOG  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.046]ChassisDef.GatherDependencies fake vehiclechassisdef_BULLDOG
+[21:47:58.375]ChassisDef.GatherDependencies fake vehiclechassisdef_BULLDOG
  vehiclechassisdef_CARRIER_LRM  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.048]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_LRM
+[21:47:58.376]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_LRM
  vehiclechassisdef_CARRIER_SRM  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.050]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_SRM
+[21:47:58.378]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_SRM
  vehiclechassisdef_DEMOLISHER  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.052]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER
+[21:47:58.379]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER
  vehiclechassisdef_GALLEON  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.055]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON
+[21:47:58.382]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON
  vehiclechassisdef_MANTICORE  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.058]ChassisDef.GatherDependencies fake vehiclechassisdef_MANTICORE
+[21:47:58.383]ChassisDef.GatherDependencies fake vehiclechassisdef_MANTICORE
  vehiclechassisdef_MOBILEHQ  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.060]ChassisDef.GatherDependencies fake vehiclechassisdef_MOBILEHQ
+[21:47:58.385]ChassisDef.GatherDependencies fake vehiclechassisdef_MOBILEHQ
  vehiclechassisdef_SCHREK  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.062]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK
+[21:47:58.386]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK
  vehiclechassisdef_SCORPION  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.064]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION
+[21:47:58.388]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION
  vehiclechassisdef_SLDFDroneHeavy  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.066]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneHeavy
+[21:47:58.390]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneHeavy
  vehiclechassisdef_SLDFDroneMedium  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.069]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneMedium
+[21:47:58.391]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneMedium
  vehiclechassisdef_STRIKER  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.071]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER
+[21:47:58.393]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER
  vehiclechassisdef_SWIFTWIND  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.073]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND
+[21:47:58.394]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND
  vehiclechassisdef_SWIFTWIND_ARMORED  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.075]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND_ARMORED
+[21:47:58.396]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND_ARMORED
  vehiclechassisdef_TARGETVEHICLE1  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.077]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE1
+[21:47:58.397]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE1
  vehiclechassisdef_TARGETVEHICLE2  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.080]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE2
+[21:47:58.399]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE2
  vehiclechassisdef_GALLANT  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.082]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLANT
+[21:47:58.400]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLANT
  vehiclechassisdef_PACKRAT  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.084]ChassisDef.GatherDependencies fake vehiclechassisdef_PACKRAT
+[21:47:58.401]ChassisDef.GatherDependencies fake vehiclechassisdef_PACKRAT
  vehiclechassisdef_ROTUNDA  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.086]ChassisDef.GatherDependencies fake vehiclechassisdef_ROTUNDA
+[21:47:58.403]ChassisDef.GatherDependencies fake vehiclechassisdef_ROTUNDA
  vehiclechassisdef_APC_Alsvin  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.088]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Alsvin
+[21:47:58.404]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Alsvin
  vehiclechassisdef_APC_Arvakr  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.090]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Arvakr
+[21:47:58.406]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Arvakr
  vehiclechassisdef_CARRIER_Inferno  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.092]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_Inferno
+[21:47:58.408]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_Inferno
  vehiclechassisdef_DEMOLISHER_LBX  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.094]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER_LBX
+[21:47:58.409]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER_LBX
  vehiclechassisdef_GALLEON_TAG  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.096]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON_TAG
+[21:47:58.410]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON_TAG
  vehiclechassisdef_SCHREK_SPPC  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.098]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK_SPPC
+[21:47:58.411]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK_SPPC
  vehiclechassisdef_SCORPION_MKII  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.100]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION_MKII
+[21:47:58.413]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION_MKII
  vehiclechassisdef_STRIKER_Narc  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:49:07.102]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER_Narc
+[21:47:58.414]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER_Narc
  chassisdef_marauder_MAD-DER-C  isFake:False
  additional melee def:Weapon_MeleeAttack
  chassisdef_locust_LCT-1Vb  isFake:False
@@ -1567,15 +1564,13 @@ flush
  additional melee def:Weapon_MeleeAttack
  chassisdef_deploy_director  isFake:False
  additional melee def:Weapon_MeleeAttack
-[22:49:07.671]ChassisDef.DependenciesLoaded chassisdef_shadowhawk_SHD-2D loadWeight:10 is not loaded
+[21:47:58.772]ChassisDef.DependenciesLoaded chassisdef_shadowhawk_SHD-2D loadWeight:10 is not loaded
  component Gear_Quirk_ImprovedLifeSupport_ShadowHawk dependencies is not loaded
  additional melee def:Weapon_MeleeAttack
-[22:49:07.674]ChassisDef.DependenciesLoaded chassisdef_shadowhawk_SHD-2H loadWeight:10 is not loaded
+[21:47:58.774]ChassisDef.DependenciesLoaded chassisdef_shadowhawk_SHD-2H loadWeight:10 is not loaded
  component Gear_Quirk_ImprovedLifeSupport_ShadowHawk dependencies is not loaded
  additional melee def:Weapon_MeleeAttack
-[22:49:07.675]ChassisDef.DependenciesLoaded chassisdef_spider_SDR-5V loadWeight:10 is not loaded
- component Gear_Quirk_NimbleJumper_Spider dependencies is not loaded
- additional melee def:Weapon_MeleeAttack
+ additional melee def:Weapon_MeleeAttack  exists
 {
     "MechTags": {
         "items": [
@@ -1784,113 +1779,403 @@ flush
   at Newtonsoft.Json.Linq.JObject.Parse (System.String json, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0000c] in <bcfe3779d9974effb214d2a48329f488>:0 
   at Newtonsoft.Json.Linq.JObject.Parse (System.String json) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
   at CustomUnits.MechDef_FromJSON_fake.Prefix (BattleTech.MechDef __instance, System.String& json) [0x0000b] in <5e07b6184aa647a483486a467d352ca6>:0 
-[22:49:07.907]ChassisDef.DependenciesLoaded chassisdef_annihilator_ANH-1A loadWeight:10 is not loaded
- Icon uixTxrIcon_annihilator is not loaded
+[21:47:58.932]ChassisDef.DependenciesLoaded chassisdef_shadowhawk_SHD-2D loadWeight:10 is not loaded
+ component Gear_Quirk_ImprovedLifeSupport_ShadowHawk dependencies is not loaded
  additional melee def:Weapon_MeleeAttack
-[22:49:07.907]ChassisDef.DependenciesLoaded chassisdef_annihilator_ANH-JH loadWeight:10 is not loaded
- Icon uixTxrIcon_annihilator is not loaded
+[21:47:58.933]ChassisDef.DependenciesLoaded chassisdef_shadowhawk_SHD-2H loadWeight:10 is not loaded
+ component Gear_Quirk_ImprovedLifeSupport_ShadowHawk dependencies is not loaded
  additional melee def:Weapon_MeleeAttack
-[22:49:08.346]!!!WARNING!!! hardpoint data definition hardpointdatadef_battlemaster contains duplicates weapon prefab identifiers mg in one group chrPrfWeap_battlemaster_leftarm_mg_bh1
-[22:49:08.426]!!!WARNING!!! hardpoint data definition hardpointdatadef_urbie contains duplicates weapon prefab identifiers artillery in one group chrprfweap_urbie_rightarm_artillery_bh1
-[22:49:11.123]Pilot.InitAbilities pilot_kbeta_witness
-[22:49:11.123]Pilot.InitAbilities pilot_kbeta_wildfire
-[22:49:11.124]Pilot.InitAbilities pilot_kbeta_sumo
-[22:49:11.124]Pilot.InitAbilities pilot_kbeta_showboat
-[22:49:11.124]Pilot.InitAbilities pilot_kbeta_paradise
-[22:49:11.124]Pilot.InitAbilities pilot_kbeta_ozone
-[22:49:11.124]Pilot.InitAbilities pilot_kbeta_mockingbird
-[22:49:11.124]Pilot.InitAbilities pilot_kbeta_kraken
-[22:49:11.124]Pilot.InitAbilities pilot_kbeta_bulwark
-[22:49:11.124]Pilot.InitAbilities pilot_kbeta_buckshot
-[22:49:11.124]Pilot.InitAbilities pilot_kbeta_arclight
-[22:49:11.124]Pilot.InitAbilities pilot_kbeta_apex
-[22:49:12.195]sorting disabled
-[22:49:12.247]LanceLoadoutSlot.SetData -23708
-[22:49:12.249]LanceLoadoutSlot.SetData -24114
-[22:49:12.249]LanceLoadoutSlot.SetData -24520
-[22:49:12.249]LanceLoadoutSlot.SetData -24926
-[22:49:12.298]HUDMechArmorReadout.BayShowMech null
-[22:49:12.299]LanceLoadoutSlot.SetData -23708
-[22:49:12.300]LanceLoadoutSlot.SetData -24114
-[22:49:12.300]LanceLoadoutSlot.SetData -24520
-[22:49:12.300]LanceLoadoutSlot.SetData -24926
-[22:49:12.325]Pilot.InitAbilities pilot_kbeta_arclight
-[22:49:12.325]LanceLoadoutSlot.SetData -23708
-[22:49:12.357]PilotDef.DependenciesLoaded pilot_kbeta_arclight
-[22:49:12.365]LanceLoadoutSlot.OnAddItem -23708
-[22:49:12.366]LanceLoadoutSlot.OnAddItem -23708
-[22:49:12.374]Pilot.InitAbilities pilot_kbeta_kraken
-[22:49:12.374]LanceLoadoutSlot.SetData -24114
-[22:49:12.377]PilotDef.DependenciesLoaded pilot_kbeta_kraken
-[22:49:12.381]LanceLoadoutSlot.OnAddItem -24114
-[22:49:12.382]LanceLoadoutSlot.OnAddItem -24114
-[22:49:12.389]Pilot.InitAbilities pilot_kbeta_wildfire
-[22:49:12.389]LanceLoadoutSlot.SetData -24520
-[22:49:12.394]PilotDef.DependenciesLoaded pilot_kbeta_wildfire
-[22:49:12.398]LanceLoadoutSlot.OnAddItem -24520
-[22:49:12.398]LanceLoadoutSlot.OnAddItem -24520
-[22:49:12.405]Pilot.InitAbilities pilot_kbeta_bulwark
-[22:49:12.405]LanceLoadoutSlot.SetData -24926
-[22:49:12.410]PilotDef.DependenciesLoaded pilot_kbeta_bulwark
-[22:49:12.414]LanceLoadoutSlot.OnAddItem -24926
-[22:49:12.414]LanceLoadoutSlot.OnAddItem -24926
-[22:49:14.446]DataManager.PoolGameObject uixPrfPanl_GenericPopup(uixPrfPanl_GenericPopup(Clone)) -> null
+[21:47:58.934]ChassisDef.DependenciesLoaded chassisdef_kingcrab_KGC-0000 loadWeight:10 is not loaded
+ Icon uixTxrIcon_kingcrab is not loaded
+ additional melee def:Weapon_MeleeAttack
+[21:47:58.934]ChassisDef.DependenciesLoaded chassisdef_kingcrab_KGC-0000 loadWeight:10 is not loaded
+ Icon uixTxrIcon_kingcrab is not loaded
+ additional melee def:Weapon_MeleeAttack
+[21:48:01.411]Pilot.InitAbilities pilot_kbeta_witness
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_wildfire
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_sumo
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_showboat
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_paradise
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_ozone
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_mockingbird
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_kraken
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_bulwark
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_buckshot
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_arclight
+[21:48:01.412]Pilot.InitAbilities pilot_kbeta_apex
+[21:48:02.117]sorting disabled
+[21:48:02.210]LanceLoadoutSlot.SetData -23706
+[21:48:02.211]LanceLoadoutSlot.SetData -24112
+[21:48:02.211]LanceLoadoutSlot.SetData -24518
+[21:48:02.211]LanceLoadoutSlot.SetData -24924
+[21:48:02.238]HUDMechArmorReadout.BayShowMech null
+[21:48:02.240]LanceLoadoutSlot.SetData -23706
+[21:48:02.240]LanceLoadoutSlot.SetData -24112
+[21:48:02.240]LanceLoadoutSlot.SetData -24518
+[21:48:02.240]LanceLoadoutSlot.SetData -24924
+[21:48:02.260]Pilot.InitAbilities pilot_kbeta_arclight
+[21:48:02.260]LanceLoadoutSlot.SetData -23706
+[21:48:02.292]PilotDef.DependenciesLoaded pilot_kbeta_arclight
+[21:48:02.300]LanceLoadoutSlot.OnAddItem -23706
+[21:48:02.301]LanceLoadoutSlot.OnAddItem -23706
+[21:48:02.307]Pilot.InitAbilities pilot_kbeta_kraken
+[21:48:02.307]LanceLoadoutSlot.SetData -24112
+[21:48:02.309]PilotDef.DependenciesLoaded pilot_kbeta_kraken
+[21:48:02.313]LanceLoadoutSlot.OnAddItem -24112
+[21:48:02.313]LanceLoadoutSlot.OnAddItem -24112
+[21:48:02.318]Pilot.InitAbilities pilot_kbeta_wildfire
+[21:48:02.318]LanceLoadoutSlot.SetData -24518
+[21:48:02.322]PilotDef.DependenciesLoaded pilot_kbeta_wildfire
+[21:48:02.326]LanceLoadoutSlot.OnAddItem -24518
+[21:48:02.326]LanceLoadoutSlot.OnAddItem -24518
+[21:48:02.331]Pilot.InitAbilities pilot_kbeta_bulwark
+[21:48:02.331]LanceLoadoutSlot.SetData -24924
+[21:48:02.334]PilotDef.DependenciesLoaded pilot_kbeta_bulwark
+[21:48:02.336]LanceLoadoutSlot.OnAddItem -24924
+[21:48:02.337]LanceLoadoutSlot.OnAddItem -24924
 flush
-[22:49:16.427]HUDMechArmorReadout.DisplayedMechDef mechdef_banshee_BNC-3Q chassis:chassisdef_banshee_BNC-3Q isFake:False info:False
-[22:49:16.427]HUDMechArmorReadout.BayShowMech chassisdef_banshee_BNC-3Q
-[22:49:16.428]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_banshee_BNC-3Q
+[21:48:15.192]MechValidationRules.ValidateMechCanBeFielded mechdef_bullshark_BSK-MAZ chassisdef_bullshark_BSK-MAZ fake:False result:False inMaintaince = False
+ badStructure = True
+ badWeapon = True
+ CanBeFielded:False
+[21:48:15.198]HUDMechArmorReadout.DisplayedMechDef mechdef_bullshark_BSK-MAZ chassis:chassisdef_bullshark_BSK-MAZ isFake:False info:False
+[21:48:15.198]HUDMechArmorReadout.BayShowMech chassisdef_bullshark_BSK-MAZ
+[21:48:15.199]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_bullshark_BSK-MAZ
  structure 706/706
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:Head
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:Head
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:RightArm
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:LeftArm
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:RightTorso
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:LeftTorsoRear
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:CenterTorso
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:CenterTorsoRear
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:LeftTorso
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:RightTorsoRear
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:LeftArm
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:RightArm
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:RightLeg
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:LeftLeg
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:LeftLeg
-[22:49:16.429]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:RightLeg
-[22:49:16.430]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:Head
-[22:49:16.430]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:CenterTorso
-[22:49:16.430]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:LeftTorso
-[22:49:16.430]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:RightTorso
-[22:49:16.430]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:LeftArm
-[22:49:16.430]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:RightArm
-[22:49:16.430]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:LeftLeg
-[22:49:16.431]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_banshee_BNC-3Q location:RightLeg
-[22:49:16.431]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_banshee_BNC-3Q
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:Head
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:Head
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:RightArm
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:LeftArm
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:RightTorso
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:LeftTorsoRear
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:CenterTorso
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:CenterTorsoRear
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:LeftTorso
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:RightTorsoRear
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:LeftArm
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:RightArm
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:RightLeg
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:LeftLeg
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:LeftLeg
+[21:48:15.200]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:RightLeg
+[21:48:15.201]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:Head
+[21:48:15.201]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:CenterTorso
+[21:48:15.201]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:LeftTorso
+[21:48:15.201]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:RightTorso
+[21:48:15.201]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:LeftArm
+[21:48:15.201]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:RightArm
+[21:48:15.201]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:LeftLeg
+[21:48:15.201]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_bullshark_BSK-MAZ location:RightLeg
+[21:48:15.201]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_bullshark_BSK-MAZ
  structure 706/706
-[22:49:17.611]MechLabPanel.InitWidgets
+[21:48:17.447]HUDMechArmorReadout.DisplayedMechDef mechdef_kingcrab_KGC-0000 chassis:chassisdef_kingcrab_KGC-0000 isFake:False info:False
+[21:48:17.447]HUDMechArmorReadout.BayShowMech chassisdef_kingcrab_KGC-0000
+[21:48:17.447]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_kingcrab_KGC-0000
+ structure 741/741
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:Head
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:Head
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightArm
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftArm
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightTorso
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftTorsoRear
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:CenterTorso
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:CenterTorsoRear
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftTorso
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightTorsoRear
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftArm
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightArm
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightLeg
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftLeg
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftLeg
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightLeg
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:Head
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:CenterTorso
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftTorso
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightTorso
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftArm
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightArm
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftLeg
+[21:48:17.447]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightLeg
+[21:48:17.447]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_kingcrab_KGC-0000
+ structure 741/741
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.448]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:17.449]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
 flush
+[21:48:18.215]HUDMechArmorReadout.DisplayedMechDef mechdef_CUSTOM_e01a4d50-7533-461f-b138-b3aa0288b692 chassis:chassisdef_kingcrab_KGC-0000 isFake:False info:False
+[21:48:18.215]HUDMechArmorReadout.BayShowMech chassisdef_kingcrab_KGC-0000
+[21:48:18.215]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_kingcrab_KGC-0000
+ structure 741/741
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:Head
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:Head
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightArm
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftArm
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightTorso
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftTorsoRear
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:CenterTorso
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:CenterTorsoRear
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftTorso
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightTorsoRear
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftArm
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightArm
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightLeg
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftLeg
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftLeg
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightLeg
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:Head
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:CenterTorso
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftTorso
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightTorso
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftArm
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightArm
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftLeg
+[21:48:18.215]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightLeg
+[21:48:18.215]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_kingcrab_KGC-0000
+ structure 741/741
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.215]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:18.216]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:19.601]MechLabPanel.InitWidgets
+[21:48:19.786]MechLabPanel.OnRequestResourcesComplete prefix
+[21:48:20.214]MechLabPanel.OnRequestResourcesComplete postfix
 flush
+[21:48:30.612]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:30.614]ShowDropErrorMessage:'Mech has too many weapons mounted in the RIGHT TORSO
+[21:48:31.287]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:36.649]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:36.650]ShowDropErrorMessage:Cannot add Arrow IV: Not enough free slots.
 flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
+[21:48:39.426]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:39.427]ShowDropErrorMessage:Cannot add Arrow IV: Not enough free slots.
+[21:48:39.975]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:42.285]DataManager.PoolGameObject uixPrfPanl_GenericPopup(uixPrfPanl_GenericPopup(Clone)) -> null
+[21:48:43.518]DataManager.PoolGameObject uixPrfPanl_GenericPopup(uixPrfPanl_GenericPopup(Clone)) -> null
+[21:48:43.556]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.557]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.557]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.558]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.559]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.559]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.560]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.560]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.561]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.562]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.562]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.563]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.564]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.564]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.565]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.566]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.566]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.567]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.568]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.568]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.569]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.570]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.570]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.571]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.572]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.572]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.573]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.573]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.574]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.575]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.575]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.576]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.576]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.577]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.578]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.578]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.579]DataManager.PoolGameObject uixPrfPanl_ML_component-Element(uixPrfPanl_ML_component-Element(Clone)) -> null
+[21:48:43.580]DataManager.PoolGameObject uixPrfPanl_ITEM_weapon-Element(uixPrfPanl_ITEM_inventory-Element_NOTLISTVIEW(Clone)) -> null
+[21:48:43.582]DataManager.PoolGameObject uixPrfPanl_ITEM_weapon-Element(uixPrfPanl_ITEM_inventory-Element_NOTLISTVIEW(Clone)) -> null
+[21:48:43.583]DataManager.PoolGameObject uixPrfPanl_ITEM_weapon-Element(uixPrfPanl_ITEM_inventory-Element_NOTLISTVIEW(Clone)) -> null
+[21:48:43.585]DataManager.PoolGameObject uixPrfPanl_ITEM_weapon-Element(uixPrfPanl_ITEM_inventory-Element_NOTLISTVIEW(Clone)) -> null
+[21:48:43.587]DataManager.PoolGameObject uixPrfPanl_ITEM_weapon-Element(uixPrfPanl_ITEM_inventory-Element_NOTLISTVIEW(Clone)) -> null
+[21:48:43.588]DataManager.PoolGameObject uixPrfPanl_ITEM_weapon-Element(uixPrfPanl_ITEM_inventory-Element_NOTLISTVIEW(Clone)) -> null
+[21:48:43.590]DataManager.PoolGameObject uixPrfPanl_ITEM_weapon-Element(uixPrfPanl_ITEM_inventory-Element_NOTLISTVIEW(Clone)) -> null
+[21:48:43.591]DataManager.PoolGameObject uixPrfPanl_ITEM_weapon-Element(uixPrfPanl_ITEM_inventory-Element_NOTLISTVIEW(Clone)) -> null
+[21:48:43.592]DataManager.PoolGameObject uixPrfPanl_ML_main-Widget(uixPrfPanl_ML_main-Widget(Clone)) -> null
+[21:48:43.611]HUDMechArmorReadout.DisplayedMechDef mechdef_kingcrab_KGC-0000 chassis:chassisdef_kingcrab_KGC-0000 isFake:False info:False
+[21:48:43.611]HUDMechArmorReadout.BayShowMech chassisdef_kingcrab_KGC-0000
+[21:48:43.612]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_kingcrab_KGC-0000
+ structure 741/741
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:Head
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:Head
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightArm
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftArm
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightTorso
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftTorsoRear
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:CenterTorso
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:CenterTorsoRear
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftTorso
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightTorsoRear
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftArm
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightArm
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightLeg
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftLeg
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftLeg
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightLeg
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:Head
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:CenterTorso
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftTorso
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightTorso
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftArm
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightArm
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:LeftLeg
+[21:48:43.612]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_kingcrab_KGC-0000 location:RightLeg
+[21:48:43.612]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_kingcrab_KGC-0000
+ structure 741/741
+[21:48:43.612]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.612]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.612]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.612]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.612]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.612]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.612]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.612]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.613]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
+[21:48:43.618]MechLabPanel.ExitMechLab postfix
+[21:48:45.004]LanceLoadoutSlot.SetData -23706
+[21:48:45.004]DataManager.PoolGameObject uixPrfPanl_LC_MechSlot(uixPrfPanl_LC_MechSlot(Clone)) -> null
+[21:48:45.007]DataManager.PoolGameObject uixPrfPanl_SIM_mechWarriorSlot-Element(uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)) -> null
+[21:48:45.010]LanceLoadoutSlot.SetData -24112
+[21:48:45.010]DataManager.PoolGameObject uixPrfPanl_LC_MechSlot(uixPrfPanl_LC_MechSlot(Clone)) -> null
+[21:48:45.012]DataManager.PoolGameObject uixPrfPanl_SIM_mechWarriorSlot-Element(uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)) -> null
+[21:48:45.015]LanceLoadoutSlot.SetData -24518
+[21:48:45.015]DataManager.PoolGameObject uixPrfPanl_LC_MechSlot(uixPrfPanl_LC_MechSlot(Clone)) -> null
+[21:48:45.017]DataManager.PoolGameObject uixPrfPanl_SIM_mechWarriorSlot-Element(uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)) -> null
+[21:48:45.020]LanceLoadoutSlot.SetData -24924
+[21:48:45.020]DataManager.PoolGameObject uixPrfPanl_LC_MechSlot(uixPrfPanl_LC_MechSlot(Clone)) -> null
+[21:48:45.023]DataManager.PoolGameObject uixPrfPanl_SIM_mechWarriorSlot-Element(uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)) -> null
+[21:48:45.025]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.026]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.027]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.028]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.029]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.030]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.031]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.032]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.033]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.034]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.035]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.036]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.036]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.038]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.039]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.040]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.040]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.041]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.042]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.043]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.044]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.045]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.046]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.047]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.048]DataManager.PoolGameObject uixPrfPanl_SK_lance-Element(uixPrfPanl_SK_lance-Element(Clone)) -> null
+[21:48:45.049]DataManager.PoolGameObject uixPrfPanl_SK_SkirmishMechBay(uixPrfPanl_SK_SkirmishMechBay(Clone)) -> null
 flush

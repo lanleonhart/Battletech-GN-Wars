@@ -10,37 +10,22 @@
 	"Description": "Ammo Depot",
 	"Author": "Lan",
 
+	"DataAddendumEntries": [
+     
+        {
+            "name": "BattleTech.AmmoCategoryEnumeration",
+            "path": "AmmoCategory.json"
+        }
+        
+    ],
 	"Manifest": [
 		{
 			"Type": "AmmunitionDef",
-			"Path": "factory/ammunition"
+			"Path": "Ammo"
 		},
 		{
 			"Type": "AmmunitionBoxDef",
-			"Path": "factory/ammunitionBox"
-		},
-		{ "Type": "AmmunitionDef", "Path": "Ammo" },
-		
-		{ "Type": "AmmunitionBoxDef", "Path": "SRM" },
-		{ "Type": "AmmunitionBoxDef", "Path": "MRM" },
-		{ "Type": "AmmunitionBoxDef", "Path": "HMRM" },
-		{ "Type": "AmmunitionBoxDef", "Path": "LRM" },
-		{ "Type": "AmmunitionBoxDef", "Path": "ATM" },
-	
-		{ "Type": "AmmunitionBoxDef", "Path": "ClanAmmo" },
-		
-		{ "Type": "AmmunitionBoxDef", "Path": "Mortar" },
-		{ "Type": "AmmunitionBoxDef", "Path": "AC" },
-		{ "Type": "AmmunitionBoxDef", "Path": "Artillery" },
-		{ "Type": "AmmunitionBoxDef", "Path": "Gauss" },
-		
-		{ "Type": "AmmunitionBoxDef", "Path": "MG" },
-		
-		{ "Type": "AmmunitionBoxDef", "Path": "NARC" },
-	
-	
-
-		
-		{ "Type": "AmmoDef", "Path": "Ammo" }
+			"Path": "AmmunitionBox"
+		}
     ]
 }
