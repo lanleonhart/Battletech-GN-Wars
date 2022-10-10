@@ -1,0 +1,115 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/g/gauss"
+			}
+		]
+	},
+    "MinRange" : 25,
+    "MaxRange" : 400,
+    "RangeSplit" : [
+        50,
+        200,
+        400
+    ],
+    "Category" : "Ballistic",
+    "Type" : "Gauss",
+    "WeaponSubType" : "Gauss",
+    "ammoCategoryID" : "GAUSS",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 14,
+    "Damage" : 12,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "StructureDamage" : 0,
+    "AccuracyModifier" : 1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 4,
+    "ProjectilesPerShot" : 2,
+    "AttackRecoil" : 4,
+    "Instability" : 20,
+	"CanExplode" : true,
+    "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
+    "Description" : {
+        "Cost" : 1480000,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "Comstar",
+        "Model" : "Experimental Model 001",
+        "UIName" : "Dual Downsized Gauss Rifle",
+        "Id" : "Dual Downsized Gauss Rifle",
+        "Name" : "D-D-GR",
+        "Details" : "Designed for Comstar's Marauder-DER production run. The D-D-GR is a Dual Downsized Guass rifles it's mounted together on a rotating barrel. The weapon was tested by the 323rd Com Guards on Dromini, against a Draconis Combine patrol with great success.   ",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Gauss",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 6,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "FireDelayMultiplier": 1,
+  "Modes": [
+    {
+      "Id": "x1",
+      "UIName": "x2",
+      "isBaseMode": false,
+      "ShotsWhenFired": -2,
+      "HeatGenerated": -8,
+      "RefireModifier": -1,
+      "FlatJammingChance": 0.03,
+      "GunneryJammingMult": 0.02,
+      "GunneryJammingBase": 1
+      
+    },
+    {
+      "Id": "x2",
+      "UIName": "x4",
+      "isBaseMode": true,
+      "FlatJammingChance": 0.12,
+      "GunneryJammingMult": 0.01,
+      "GunneryJammingBase": 1
+      
+    },
+    {
+      "Id": "x3",
+      "UIName": "x6",
+      "isBaseMode": false,
+      "ShotsWhenFired": 2,
+      "HeatGenerated": 8,
+      "RefireModifier": 2,
+      "AccuracyModifier": 1,
+      "FlatJammingChance": 0.18,
+      "GunneryJammingMult": 0.01,
+      "GunneryJammingBase": 1
+      
+    }
+  ],
+    
+    
+    
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_extreme"
+			
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,28 +1,55 @@
-[21:47:35.642]Initing... C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomVoices version: 0.0.0.10
+[22:44:58.326]Initing... C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomVoices version: 0.0.0.10
 
-[21:47:36.019]AudioEngine.Init
+[22:44:58.722]AudioEngine.Init
 System.DllNotFoundException: bass
   at (wrapper managed-to-native) ManagedBass.Bass.Init(int,int,ManagedBass.DeviceInitFlags,intptr,intptr)
   at CustomVoices.AudioEngine.Init () [0x0001e] in <759e2792def149ff9b55dbc1233b653e>:0 
-  at CustomVoices.Core.Init (System.String directory, System.String settingsJson) [0x00199] in <759e2792def149ff9b55dbc1233b653e>:0 [21:47:40.964]FinishedLoading
+  at CustomVoices.Core.Init (System.String directory, System.String settingsJson) [0x00199] in <759e2792def149ff9b55dbc1233b653e>:0 [22:45:03.800]FinishedLoading
  customResource:VoicePackDef
   resource:figing_voicepack_voicepack=C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomVoices\voicepacks\figing_voicepack_voicepack.json
   resource:tex=C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomVoices\voicepacks\tex.json
   resource:tex_voicepack_voicepack=C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomVoices\voicepacks\tex_voicepack_voicepack.json
  customResource:AudioFile
  customResource:AudioFileSettings
-[21:47:40.974]CustomMusicHelper.Init start
-[21:47:41.003]CustomMusicHelper.Init finish
-[21:47:42.012]UIManager.Awake
-[21:47:42.012]AudioEngine.Init
-[21:47:42.012]System.DllNotFoundException: bass
+[22:45:03.809]CustomMusicHelper.Init start
+[22:45:03.834]CustomMusicHelper.Init finish
+[22:45:04.826]UIManager.Awake
+[22:45:04.826]AudioEngine.Init
+[22:45:04.826]System.DllNotFoundException: bass
   at (wrapper managed-to-native) ManagedBass.Bass.Init(int,int,ManagedBass.DeviceInitFlags,intptr,intptr)
   at CustomVoices.AudioEngine.Init () [0x0001e] in <759e2792def149ff9b55dbc1233b653e>:0 
   at CustomVoices.UIManager_Awake.Postfix (BattleTech.UI.UIManager __instance) [0x00018] in <759e2792def149ff9b55dbc1233b653e>:0 
-[21:47:44.450]AudioEventManager.LoadAudioSettings
-[21:47:44.450]System.NullReferenceException: Object reference not set to an instance of an object
+[22:45:07.180]AudioEventManager.LoadAudioSettings
+[22:45:07.180]System.NullReferenceException: Object reference not set to an instance of an object
   at CustomVoices.AudioEventManager_LoadAudioSettings.Postfix () [0x00037] in <759e2792def149ff9b55dbc1233b653e>:0 
-[21:47:44.451]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
-[21:47:44.607]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
-[21:48:05.644]Log flushing
-[21:48:35.645]Log flushing
+[22:45:07.180]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
+[22:45:07.328]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
+[22:45:28.328]Log flushing
+[22:45:58.328]Log flushing
+[22:46:28.329]Log flushing
+[22:46:58.329]Log flushing
+[22:47:28.329]Log flushing
+[22:47:58.330]Log flushing
+[22:48:28.331]Log flushing
+[22:48:58.331]Log flushing
+[22:49:28.332]Log flushing
+[22:49:58.333]Log flushing
+[22:50:14.200]WwiseManager.SuspendSoundEngine
+[22:50:28.333]Log flushing
+[22:50:52.237]WwiseManager.WakeupSoundEngine
+[22:50:53.890]WwiseManager.SuspendSoundEngine
+[22:50:58.334]Log flushing
+[22:51:28.334]Log flushing
+[22:51:58.335]Log flushing
+[22:52:28.335]Log flushing
+[22:52:58.335]Log flushing
+[22:53:28.336]Log flushing
+[22:53:58.336]Log flushing
+[22:54:28.336]Log flushing
+[22:54:58.337]Log flushing
+[22:55:28.338]Log flushing
+[22:55:58.339]Log flushing
+[22:56:17.318]WwiseManager.WakeupSoundEngine
+[22:56:28.340]Log flushing
+[22:56:53.473]WwiseManager.SuspendSoundEngine
+[22:56:58.340]Log flushing
