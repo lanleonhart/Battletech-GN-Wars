@@ -1,0 +1,231 @@
+{
+    "Description": {
+        "Cost": 7400000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Marauder GN-000",
+        "Id": "chassisdef_marauder_MAD-GN-000",
+        "Name": "GN Marauder",
+		"Details": "Upon finding the Aeolia Schenberg's memory core, Primus Leonhart ordered the development of this unit. This unit features bleeding edge technology superior to that of the Star League, due to unit costs rising only one unit was produced. This unit is equiped with an experimental peruptual energy device. This mech comes standard with a GN Beam Rifle & Shield, and limited expansion locations"
+		
+    },
+    "MovementCapDefID": "movedef_marauder_MAD-3R",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_marauder",
+    "PrefabIdentifier": "chrPrfMech_marauderBase-001",
+    "PrefabBase": "marauder",
+    "Tonnage": 75,
+    "InitialTonnage": 32.5,
+    "weightClass": "HEAVY",
+    "Heatsinks": 0,
+    "MaxJumpjets": 4,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 95,
+    "MeleeInstability": 75,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 95,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": true
+                }
+              
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 13.5,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 13.5,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": 2.5,
+            "y": 7,
+            "z": -2.5
+        },
+        {
+            "x": -2.5,
+            "y": 7,
+            "z": -2.5
+        }
+    ],
+    "VariantName": "MAD-GN",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Ranged Assault",
+    "YangsThoughts": "Where ever you found this mech, I suggest returning it Boss. This looks like bleeding edge tech from Constar. This mech features state of the art manipulator arms opposed to the standard Marauder Arms. Honestly I have no idea how this works, dont break it!"
+    ,
+    "FixedEquipment" : [{
+        "MountedLocation": "LeftArm",
+        "ComponentDefID": "GN_Shield",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+    {
+        "MountedLocation": "LeftArm",
+        "ComponentDefID": "Weapon_SRM_SRM4_GN",
+        "ComponentDefType": "Weapon",
+
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+    {
+        "MountedLocation": "RightArm",
+        "ComponentDefID": "Weapon_Laser_GNRifle",
+        "ComponentDefType": "Weapon",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+    {
+        "MountedLocation": "RightTorso",
+        "ComponentDefID": "Integrated_Flight_Pack",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+    {
+        "MountedLocation": "LeftTorso",
+        "ComponentDefID": "Integrated_Flight_PackL",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    }
+      
+    ]
+}
