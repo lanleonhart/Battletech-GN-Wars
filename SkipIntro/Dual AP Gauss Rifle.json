@@ -6,7 +6,7 @@
 			}
 		]
 	},
-    "MinRange" : 25,
+    "MinRange" : 50,
     "MaxRange" : 400,
     "RangeSplit" : [
         50,
@@ -31,8 +31,8 @@
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 1,
-    "ShotsWhenFired" : 4,
-    "ProjectilesPerShot" : 2,
+    "ShotsWhenFired" : 2,
+    "ProjectilesPerShot" : 1,
     "AttackRecoil" : 4,
     "Instability" : 20,
 	"CanExplode" : true,
@@ -65,9 +65,8 @@
     {
       "Id": "x1",
       "UIName": "x2",
-      "isBaseMode": false,
-      "ShotsWhenFired": -2,
-      "HeatGenerated": -8,
+      "isBaseMode": true,
+      "ShotsWhenFired": 2,
       "RefireModifier": -1,
       "FlatJammingChance": 0.03,
       "GunneryJammingMult": 0.02,
@@ -78,6 +77,8 @@
       "Id": "x2",
       "UIName": "x4",
       "isBaseMode": true,
+      "HeatGenerated": 4,
+      "ShotsWhenFired": 4,
       "FlatJammingChance": 0.12,
       "GunneryJammingMult": 0.01,
       "GunneryJammingBase": 1
@@ -87,7 +88,7 @@
       "Id": "x3",
       "UIName": "x6",
       "isBaseMode": false,
-      "ShotsWhenFired": 2,
+      "ShotsWhenFired": 6,
       "HeatGenerated": 8,
       "RefireModifier": 2,
       "AccuracyModifier": 1,
@@ -107,7 +108,7 @@
         "items" : [
             "component_type_stock",
             "component_type_lostech",
-            "range_extreme"
+            "range_short"
 			
         ],
         "tagSetSourceFile" : ""
