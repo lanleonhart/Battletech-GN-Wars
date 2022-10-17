@@ -1,0 +1,990 @@
+10/16/2022 8:26:50 PM ModTek v2.0.7+5.Branch.master.Sha.9528f87b5318bf646128506ee5cc611f5280b470 (2022-07-27)
+--------------------------------------------------------------------------------
+ProductName: BATTLETECH
+ProductVersion: 1.9.1
+Platform: STEAM
+BuildRevision: cdbbe62917b8c241c9d22c8540fee15595373c89
+BuildBranch: live
+BuildDate: 2020-02-26T07:33:27
+BuildStamp: 200226-live-cdbbe62
+BuildNumber: 686R
+
+00:26:50.712 CustomComponents [ERROR] True
+00:26:51.210 CustomComponents [LOG] Loaded CustomComponents v0.13 for bt 1.9.1
+00:26:51.210 CustomComponents [DEBUG] done
+00:26:51.363 MechEngineer [LOG] version 2.3.11-Legacy.1+3.Branch.Legacy.Sha.f6f89dbcf120443d40b6152bc1313c5ead126751
+00:26:51.369 MechEngineer [LOG] OrderedStatusEffectsFeature enabled
+00:26:51.388 MechEngineer [LOG] OverrideTonnageFeature enabled
+00:26:51.408 MechEngineer [LOG] HeatSinkCapacityStatFeature enabled
+00:26:51.641 MechEngineer [LOG] EngineFeature enabled
+00:26:51.646 MechEngineer [LOG] MoveMultiplierStatFeature enabled
+00:26:51.649 MechEngineer [LOG] CompressFloatieMessagesFeature enabled
+00:26:51.774 MechEngineer [LOG] DamageIgnoreFeature enabled
+00:26:51.779 MechEngineer [LOG] PlaceholderEffectsFeature enabled
+00:26:52.011 MechEngineer [LOG] CriticalEffectsFeature enabled
+00:26:52.017 MechEngineer [LOG] AccuracyEffectsFeature enabled
+00:26:52.030 MechEngineer [LOG] OverrideDescriptionsFeature enabled
+00:26:52.032 MechEngineer [LOG] ArmActuatorFeature enabled
+00:26:52.038 MechEngineer [LOG] DynamicSlotsFeature enabled
+00:26:52.066 MechEngineer [LOG] ShutdownInjuryProtectionFeature enabled
+00:26:52.192 MechEngineer [LOG] MechLabSlotsFeature enabled
+00:26:52.256 MechEngineer [LOG] InvalidInventoryFeature enabled
+00:26:52.428 MechEngineer [LOG] ComponentExplosionsFeature enabled
+00:26:52.431 MechEngineer [LOG] ArmorStructureRatioFeature enabled
+00:26:52.444 MechEngineer [LOG] ArmorStructureChangesFeature enabled
+00:26:52.460 MechEngineer [LOG] HardpointFixFeature enabled
+00:26:52.468 MechEngineer [LOG] AutoFixerFeature enabled
+00:26:52.486 MechEngineer [LOG] GlobalsFeature enabled
+00:26:52.491 MechEngineer [LOG] TurretMechComponentsFeature enabled
+00:26:52.536 MechEngineer [LOG] TurretLimitedAmmoFeature enabled
+00:26:52.543 MechEngineer [LOG] OverrideGhostVFXFeature enabled
+00:26:52.908 MechEngineer [LOG] OmniSlotsFeature enabled
+00:26:52.939 MechEngineer [LOG] TagManagerFeature enabled
+00:26:52.976 MechEngineer [LOG] OverrideStatTooltipsFeature enabled
+00:26:52.976 MechEngineer [LOG] PerformanceFeature disabled
+00:26:52.976 MechEngineer [LOG] DebugSaveMechToFileFeature disabled
+00:26:52.977 MechEngineer [LOG] DebugCycleCombatSoundsFeature disabled
+00:26:52.977 MechEngineer [LOG] DebugScreenshotMechsFeature disabled
+00:26:52.977 MechEngineer [LOG] started
+00:26:53.479 BattletechPerformanceFix [LOG] Harmony? 1.2.0.1
+00:26:53.479 BattletechPerformanceFix [LOG] Unity? 2018.4.2f1
+00:26:53.479 BattletechPerformanceFix [LOG] Product? BATTLETECH-1.9.1-686R
+00:26:53.479 BattletechPerformanceFix [LOG] Initialized com.github.m22spencer.BattletechPerformanceFix 2.13.0.18294
+00:26:53.479 BattletechPerformanceFix [LOG] Mod-Dir? C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\BattletechPerformanceFix
+00:26:53.481 BattletechPerformanceFix [LOG] BattletechPerformanceFix found BattleTech 1.9.1 and will now load
+00:26:53.486 BattletechPerformanceFix [LOG] Features ----------
+00:26:53.487 BattletechPerformanceFix [LOG] Feature HarmonyPatches is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature LocalizationPatches is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature MechlabFix is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature LoadFixes is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature NoSalvageSoftlock is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature DataLoaderGetEntryCheck is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature ShopTabLagFix is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature ContractLagFix is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature EnableLoggingDuringLoads is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature ExtraLogging is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature ShaderDependencyOverride is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature DisableDeployAudio is OFF
+00:26:53.487 BattletechPerformanceFix [LOG] Feature RemovedFlashpointFix is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature DisableSimAnimations is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature RemovedContractsFix is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature VersionManifestPatches is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature MemoryLeakFix is ON
+00:26:53.487 BattletechPerformanceFix [LOG] Feature EnableConsole is OFF
+00:26:53.487 BattletechPerformanceFix [LOG] Patches ----------
+00:26:53.487 BattletechPerformanceFix [LOG] Feature HarmonyPatches:
+00:26:53.491 BattletechPerformanceFix [LOG] Patch: MethodInvoker.GetHandler -> HarmonyPatches.GetHandler_Pre
+00:26:53.492 BattletechPerformanceFix [LOG] Patch: AccessTools.MakeDeepCopy -> HarmonyPatches.MakeDeepCopy_Transpile
+00:26:53.523 BattletechPerformanceFix [LOG] Feature LocalizationPatches:
+00:26:53.524 BattletechPerformanceFix [LOG] Patch: StringsProviderBase`1.StringForKeyFormat -> LocalizationPatches.StringForKeyFormat_Pre
+00:26:53.527 BattletechPerformanceFix [LOG] Patch: StringsProviderBase`1.StringForKeyFormat -> LocalizationPatches.StringForKeyFormat_Post
+00:26:53.528 BattletechPerformanceFix [LOG] Feature MechlabFix:
+00:26:53.529 BattletechPerformanceFix [LOG] Patch: AAR_SalvageScreen.BeginSalvageScreen -> MechlabFix.BeginSalvageScreen_Pre
+00:26:53.530 BattletechPerformanceFix [LOG] Patch: MechLabPanel.PopulateInventory -> MechlabFix.PopulateInventory_Pre
+00:26:53.532 BattletechPerformanceFix [LOG] Patch: MechLabPanel.ConfirmRevertMech -> MechlabFix.ConfirmRevertMech_Pre
+00:26:53.534 BattletechPerformanceFix [LOG] Patch: MechLabPanel.ExitMechLab -> MechlabFix.ExitMechLab_Pre
+00:26:53.535 BattletechPerformanceFix [LOG] Patch: ScrollRect.LateUpdate -> MechlabFix.LateUpdate_Pre
+00:26:53.537 BattletechPerformanceFix [LOG] Patch: MechLabInventoryWidget.OnAddItem -> MechlabFix.OnAddItem_Pre
+00:26:53.539 BattletechPerformanceFix [LOG] Patch: MechLabInventoryWidget.OnRemoveItem -> MechlabFix.OnRemoveItem_Pre
+00:26:53.540 BattletechPerformanceFix [LOG] Patch: MechLabInventoryWidget.OnItemGrab -> MechlabFix.OnItemGrab_Pre
+00:26:53.541 BattletechPerformanceFix [LOG] Patch: MechLabInventoryWidget.ApplyFiltering -> MechlabFix.ApplyFiltering_Pre
+00:26:53.543 BattletechPerformanceFix [LOG] Patch: MechLabPanel.MechCanEquipItem -> MechlabFix.MechCanEquipItem_Pre
+00:26:53.544 BattletechPerformanceFix [LOG] Patch: MechLabInventoryWidget.ApplySorting -> MechlabFix.ApplySorting_Pre
+00:26:53.546 BattletechPerformanceFix [LOG] Feature LoadFixes:
+00:26:53.549 BattletechPerformanceFix [LOG] Feature NoSalvageSoftlock:
+00:26:53.550 BattletechPerformanceFix [LOG] Feature DataLoaderGetEntryCheck:
+00:26:53.552 BattletechPerformanceFix [LOG] Feature ShopTabLagFix:
+00:26:53.555 BattletechPerformanceFix [LOG] Feature ContractLagFix:
+00:26:53.652 BattletechPerformanceFix [LOG] Feature EnableLoggingDuringLoads:
+00:26:53.653 BattletechPerformanceFix [LOG] Feature ExtraLogging:
+00:26:53.654 BattletechPerformanceFix [LOG] Patch: LanceOverride.RequestLance -> ExtraLogging.RequestLance_Pre
+00:26:53.656 BattletechPerformanceFix [LOG] Patch: SimGameState.PrepContract -> ExtraLogging.PrepContract_Pre
+00:26:53.658 BattletechPerformanceFix [LOG] Patch: SimGameState.PrepContract -> ExtraLogging.PrepContract_Post
+00:26:53.659 BattletechPerformanceFix [LOG] Patch: LanceSpawnerGameLogic.InitializeTaggedLance -> ExtraLogging.InitializeTaggedLance_Pre
+00:26:53.660 BattletechPerformanceFix [LOG] Feature ShaderDependencyOverride:
+00:26:53.660 BattletechPerformanceFix [LOG] Patch: AssetBundleManager.IsBundleLoaded -> ShaderDependencyOverride.GetManager
+00:26:53.661 BattletechPerformanceFix [LOG] Patch: AssetBundleManager.GenerateWebRequest -> ShaderDependencyOverride.GetManager
+00:26:53.663 BattletechPerformanceFix [LOG] Patch: AssetBundleManager.IsBundleLoaded -> ShaderDependencyOverride.WithShaderDeps
+00:26:53.666 BattletechPerformanceFix [LOG] Patch: AssetBundleManager.GenerateWebRequest -> ShaderDependencyOverride.WithShaderDeps
+00:26:53.671 BattletechPerformanceFix [LOG] Feature RemovedFlashpointFix:
+00:26:53.672 BattletechPerformanceFix [LOG] Patch: SimGameState.Rehydrate -> RemovedFlashpointFix.Rehydrate_Pre
+00:26:53.677 BattletechPerformanceFix [LOG] Feature DisableSimAnimations:
+00:26:53.677 BattletechPerformanceFix [LOG] Patch: SimGameCameraController.Init -> DisableSimAnimations.Init_Pre
+00:26:53.679 BattletechPerformanceFix [LOG] Patch: SGRoomController_MechBay.TransitionMech -> DisableSimAnimations.TransitionMech_Pre
+00:26:53.679 BattletechPerformanceFix [LOG] Feature RemovedContractsFix:
+00:26:53.680 BattletechPerformanceFix [LOG] Patch: SimGameState.Rehydrate -> RemovedContractsFix.Rehydrate_Pre
+00:26:53.684 BattletechPerformanceFix [LOG] Feature VersionManifestPatches:
+00:26:53.685 BattletechPerformanceFix [LOG] Patch: VersionManifestBase.Contains -> VersionManifestPatches.Contains_Pre
+00:26:53.686 BattletechPerformanceFix [LOG] Feature MemoryLeakFix:
+00:26:53.687 BattletechPerformanceFix [LOG] Patch: BattleTechSimAnalytics.BeginSession -> MemoryLeakFix.Session_Transpile
+00:26:53.687 BattletechPerformanceFix [LOG] TranspileReplaceCall: UpdateMessageSubscriptions -> Void _UpdateMessageSubscriptions(BattleTech.Analytics.Sim.BattleTechSimAnalytics, Boolean)
+00:26:53.688 BattletechPerformanceFix [LOG] Patch: BattleTechSimAnalytics.EndSession -> MemoryLeakFix.Session_Transpile
+00:26:53.689 BattletechPerformanceFix [LOG] TranspileReplaceCall: UpdateMessageSubscriptions -> Void _UpdateMessageSubscriptions(BattleTech.Analytics.Sim.BattleTechSimAnalytics, Boolean)
+00:26:53.690 BattletechPerformanceFix [LOG] Patch: SimGameUXCreator.OnSimGameInitializeComplete -> MemoryLeakFix.OnSimGameInitializeComplete_Post
+00:26:53.714 BattletechPerformanceFix [LOG] Patch: Contract.PostDeserialize -> MemoryLeakFix.PostDeserialize_Transpile
+00:26:53.728 BattletechPerformanceFix [LOG] Patch: InterpolatedText.Init -> MemoryLeakFix.Init_Transpile
+00:26:53.730 BattletechPerformanceFix [LOG] Patch: Contract.Finalize -> MemoryLeakFix.TranspileNopAll
+00:26:53.731 BattletechPerformanceFix [LOG] Patch: ContractObjectiveOverride.Finalize -> MemoryLeakFix.TranspileNopAll
+00:26:53.733 BattletechPerformanceFix [LOG] Patch: ObjectiveOverride.Finalize -> MemoryLeakFix.TranspileNopAll
+00:26:53.735 BattletechPerformanceFix [LOG] Patch: DialogueContentOverride.Finalize -> MemoryLeakFix.TranspileNopAll
+00:26:53.736 BattletechPerformanceFix [LOG] Patch: InterpolatedText.Finalize -> MemoryLeakFix.TranspileNopAll
+00:26:53.738 BattletechPerformanceFix [LOG] Patch: DialogueContent.ContractInitialize -> MemoryLeakFix.DialogueContent_ContractInitialize_Post
+00:26:53.739 BattletechPerformanceFix [LOG] Patch: ConversationContent.ContractInitialize -> MemoryLeakFix.ConversationContent_ContractInitialize_Post
+00:26:53.740 BattletechPerformanceFix [LOG] Patch: DialogBucketDef.ContractInitialize -> MemoryLeakFix.DialogBucketDef_ContractInitialize_Post
+00:26:53.742 BattletechPerformanceFix [LOG] Patch: GameInstanceSave.PostSerialization -> MemoryLeakFix.PostSerialization_Post
+00:26:53.742 BattletechPerformanceFix [LOG] Runtime ----------
+00:26:53.743 BattletechPerformanceFix [LOG] Patch out sensitive data log dumps
+00:26:53.744 BattletechPerformanceFix [LOG] LogLevel info
+00:26:54.432 MissionControl [LOG] Loading MissionControl settings
+00:26:54.466 MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Assault_Battle_Lance'
+00:26:54.467 MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Battle_Lance'
+00:26:54.467 MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Heavy_Battle_Lance'
+00:26:54.468 MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Light_Battle_Lance'
+00:26:54.468 MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Medium_Battle_Lance'
+00:26:54.469 MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Assault_Battle_Lance'
+00:26:54.469 MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Battle_Lance'
+00:26:54.469 MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Battle_Lance_Elite'
+00:26:54.470 MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Heavy_Battle_Lance'
+00:26:54.470 MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Light_Battle_Lance'
+00:26:54.470 MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Medium_Battle_Lance'
+00:26:54.471 MissionControl [LOG] [DataManager] Loaded lance override 'Reference_Example_Lance'
+00:26:54.475 MissionControl [DEBUG] [InjectMessageScopes] Injecting custom message MissionControl.Messages.MessageTypes[] into 'MessageCenter.MessageScope.CombatGame'
+00:26:54.475 MissionControl [DEBUG] [InjectMessageScopes] Injecting custom message MissionControl.Messages.MessageTypes[] into 'MessageCenter.MessageScope.CombatGame'
+00:26:54.476 MissionControl [DEBUG] [InjectMessageScopes] Injecting custom message MissionControl.Messages.MessageTypes[] into 'MessageCenter.MessageScope.CombatGame'
+00:26:54.476 MissionControl [DEBUG] [InjectMessageScopes] Injecting custom message MissionControl.Messages.MessageTypes[] into 'MessageCenter.MessageScope.CombatGame'
+00:26:58.537 Unity [LOG] MDDB Reloaded
+00:26:59.430 Unity [LOG] MDDB Reloaded
+00:27:00.798 MechEngineer [LOG] loaded
+00:27:02.622 Unity [LOG] Starting ThreadPool with 1 thread(s).
+00:27:02.678 ModLoader [LOG] Using default Mods path C:\Users\Aegis\OneDrive\Documents\My Games
+00:27:02.777 Unity [LOG] Loading culture CULTURE_DE_DE
+00:27:02.778 Unity [LOG] Loading culture CULTURE_RU_RU
+00:27:02.778 Unity [LOG] Loading culture CULTURE_FR_FR
+00:27:03.624 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:03.702 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:05.152 MissionControl [DEBUG] [DataManager.SubscribeDeferredDefs] DataManager is currently loading. Subscribing for Deferred Defs after DataManager loading has completed
+00:27:05.209 Unity [LOG] Using Wide Video for Background
+00:27:05.301 Unity [LOG] MenuCamera::SetMenuQualitySettings using BT application settings
+00:27:05.318 MissionControl [DEBUG] [DataManager.SubscribeDeferredDefs] DataManager is NOT currently loading. Loading MC deferred defs.
+00:27:05.318 MissionControl [DEBUG] [DataManager.LoadDeferredDefs] Loading Deferred Defs
+00:27:05.320 MissionControl [DEBUG] [DataManager.LoadCustomContractTypes] Loaded '2' custom contract type(s)
+00:27:05.321 MissionControl [DEBUG] [DataManager.AddContractType] Adding custom contract type: SoloDuel
+00:27:05.321 MissionControl [DEBUG] [DataManager.AddContractType] Adding custom contract type: DuoDuel
+00:27:05.496 Unity [LOG] Counted 0 save slots
+00:27:05.496 Unity [LOG] Counted 101 save slots
+00:27:05.497 Unity [LOG] Counted 93 save slots
+00:27:07.228 MissionControl [DEBUG] [RequestResourcesAndProcess] Finished load request for mechdef_spider_SDR-5V
+00:27:07.241 MissionControl [DEBUG] [RequestResourcesAndProcess] Finished load request for pilot_default
+00:27:10.074 Unity [LOG] MainMenu::OnPooled
+00:27:10.324 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Atlas] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.325 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Atlas] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.327 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Atlas] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.327 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Atlas] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.330 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Awesome] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.332 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Awesome] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.335 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Banshee] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.337 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Banshee] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.339 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CommandMech_Battlemaster] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.342 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Blackjack] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.344 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CommandMech_BlackKnight] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.347 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CommandMech_BlackKnight] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.349 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Cataphract] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.398 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NimbleJumper_Catapult] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.401 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NimbleJumper_Catapult] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.403 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Centurion] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.406 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Centurion] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.410 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Cicada] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.412 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Cicada] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.414 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Commando] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.416 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Commando] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.418 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_Dragon] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.420 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCoolingJacket_Enforcer] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.422 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NimbleJumper_Firestarter] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.424 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Grasshopper] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.426 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Griffin] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.428 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Griffin] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.432 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Cowl_Highlander] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.434 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Cowl_Highlander] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.437 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Cowl_Highlander] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.439 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.440 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.442 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.442 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.444 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_JagerMech] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.447 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_JagerMech] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.449 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCoolingJacket_Jenner] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.451 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_KingCrab] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.453 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Kintaro] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.455 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Locust] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.457 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Locust] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.459 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Locust] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.461 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CombatComputer_Orion] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.463 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CombatComputer_Orion] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.465 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Panther] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.468 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCommunications_Quickdraw] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.470 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCommunications_Quickdraw] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.471 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.471 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.473 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CombatComputer_Stalker] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.475 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_MultiTrac_Thunderbolt] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.477 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_MultiTrac_Thunderbolt] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.479 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_MultiTrac_Thunderbolt] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.481 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Trebuchet] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.491 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Urbanmech] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.492 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [hardpointdatadef_urbie] [HardpointDataDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.494 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Victor] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.496 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Victor] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.498 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Vindicator] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.500 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCommunications_Wolverine] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.501 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCommunications_Wolverine] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.503 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Zeus] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.505 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Banshee] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.507 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Blackjack] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.509 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NimbleJumper_Catapult] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.512 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Urbanmech] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.512 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [hardpointdatadef_urbie] [HardpointDataDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.514 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Urbanmech] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.514 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [hardpointdatadef_urbie] [HardpointDataDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.517 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Vindicator] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.519 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CommandMech_Marauder] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.521 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Warhammer] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.523 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Warhammer] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.527 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Locust] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.529 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NimbleJumper_Spider] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.538 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CommandMech_Battlemaster] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.540 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CombatComputer_GrandDragon] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.545 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Trebuchet] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.551 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Zeus] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.613 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.615 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.618 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.619 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.621 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.623 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.624 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.627 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.628 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.630 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.632 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.633 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.635 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.637 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.639 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.640 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.642 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.643 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.645 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.646 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.648 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.649 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.651 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.652 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.654 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.655 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.656 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.702 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.704 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.705 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.711 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Atlas] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.711 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Atlas] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.713 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Atlas] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.714 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Atlas] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.716 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Atlas] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.716 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Atlas] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.719 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Awesome] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.721 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Awesome] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.723 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Banshee] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.725 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CommandMech_Battlemaster] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.727 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CommandMech_Battlemaster] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.729 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Blackjack] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.731 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Blackjack] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.733 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CommandMech_BlackKnight] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.735 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CommandMech_BlackKnight] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.737 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Cataphract] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.739 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Cataphract] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.741 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NimbleJumper_Catapult] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.743 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Centurion] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.745 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Cicada] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.748 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Commando] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.749 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Commando] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.752 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Commando] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.754 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Commando] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.756 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_Dragon] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.758 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCoolingJacket_Enforcer] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.760 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NimbleJumper_Firestarter] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.762 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NimbleJumper_Firestarter] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.764 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NimbleJumper_Firestarter] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.767 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Griffin] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.769 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Cowl_Highlander] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.771 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.771 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.773 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.774 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.776 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.776 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.778 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.779 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Battlefists_Hunchback] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.780 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_JagerMech] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.782 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCoolingJacket_Jenner] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.784 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCoolingJacket_Jenner] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.786 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_TSM_Prototype_Bergan] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.787 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_TSM_Prototype_Bergan] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.789 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Locust] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.791 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CombatComputer_Orion] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.793 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CombatComputer_Orion] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.795 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Panther] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.797 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedTargeting_Panther] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.799 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCommunications_Quickdraw] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.801 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.803 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NimbleJumper_Spider] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.805 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CombatComputer_Stalker] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.807 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CombatComputer_Stalker] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.809 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_CombatComputer_Stalker] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.811 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_MultiTrac_Thunderbolt] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.813 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Trebuchet] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.815 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Trebuchet] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.817 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Urbanmech] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.818 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [hardpointdatadef_urbie] [HardpointDataDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.820 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_NarrowProfile_Urbanmech] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.820 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [hardpointdatadef_urbie] [HardpointDataDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.822 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Victor] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.824 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Victor] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.827 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_Rugged_Vindicator] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.829 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCommunications_Wolverine] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.831 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedCommunications_Wolverine] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.833 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Zeus] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.835 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Zeus] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.837 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_EasytoPilot_Zeus] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:10.842 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [hardpointdatadef_kingcrab_a] [HardpointDataDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.027 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_BAP] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.029 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_BAP] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.086 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Weapon_RocketLauncher_RL20_0_STOCK] [WeaponDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.087 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Weapon_RocketLauncher_RL20_0_STOCK] [WeaponDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.087 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Weapon_RocketLauncher_RL20_0_STOCK] [WeaponDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.087 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Weapon_Autocannon_AC20_HRIFLE] [WeaponDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.113 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_ArtemisIV_LRM] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.114 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_ArtemisIV_LRM] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.114 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_ArtemisIV_LRM] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.115 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_ArtemisIV_SRM] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.115 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_TargetingTrackingSystem_ARTEMISIV] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.159 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.160 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.162 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.162 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.350 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.351 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.351 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.351 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Quirk_ImprovedLifeSupport_ShadowHawk] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.386 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Cockpit_CommandConsole] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.400 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Cockpit_CommandConsole] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.439 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_TargetingTrackingSystem_ARTEMISIV] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.440 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Guardian_ECM] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.440 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_ArtemisIV_SRM] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.441 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_ArtemisIV_SRM] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.456 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Weapon_Laser_MediumLaser_-1-Agra] [WeaponDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.456 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Weapon_Laser_MediumLaser_-1-Agra] [WeaponDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.462 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_Generic_MG_half] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.464 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Cockpit_CommandConsole] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.469 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Weapon_Laser_LargeLaser_-1-Tronel] [WeaponDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.494 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_Generic_MG_half] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.497 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_Generic_SRM_half] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.500 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_Generic_MG_half] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.503 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Ammo_AmmunitionBox_Generic_MG_half] [AmmunitionBoxDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.511 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Gear_Cockpit_CommandConsole] [UpgradeDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:11.514 Data.DataManager.ContainedLoadRequest [ERROR] ManifestEntry is null for [Weapon_Laser_BinaryLaserCannon_1-Defiance] [WeaponDef] - resourceIds are case sensitive, so be sure to check that too
+00:27:14.080 CustomComponents [ERROR] [CC]Found NULL in Shadow Hawk(mechdef_shadowhawk_SHD-2D)
+00:27:14.080 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedLifeSupport_ShadowHawk
+00:27:14.081 CustomComponents [ERROR] [CC]Found NULL in Shadow Hawk(mechdef_shadowhawk_SHD-2H)
+00:27:14.081 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedLifeSupport_ShadowHawk
+00:27:14.081 CustomComponents [ERROR] [CC]Found NULL in Royal Atlas II(mechdef_atlas_AS7-D-HT)
+00:27:14.081 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Atlas
+00:27:14.081 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Atlas
+00:27:14.081 CustomComponents [ERROR] [CC]Found NULL in Blackjack(mechdef_blackjack_BJ-1DC)
+00:27:14.081 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Blackjack
+00:27:14.081 CustomComponents [ERROR] [CC]Found NULL in Battlemaster(mechdef_battlemaster_BLR-1G-DC)
+00:27:14.081 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CommandMech_Battlemaster
+00:27:14.081 CustomComponents [ERROR] [CC]--- NULL --- Gear_Cockpit_CommandConsole
+00:27:14.081 CustomComponents [ERROR] [CC]Found NULL in Battlemaster(mechdef_battlemaster_BLR-1D)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CommandMech_Battlemaster
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Banshee(mechdef_banshee_BNC-3Q)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Banshee
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Awesome(mechdef_awesome_AWS-8V)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Awesome
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Awesome(mechdef_awesome_AWS-8R)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Awesome
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Atlas(mechdef_atlas_AS7-RS)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Atlas
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Atlas
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Atlas(mechdef_atlas_AS7-D-DC)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Atlas
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Atlas
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Cockpit_CommandConsole
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Atlas(mechdef_atlas_AS7-A)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Atlas
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Atlas
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Battlemaster(mechdef_battlemaster_BLR-1S)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CommandMech_Battlemaster
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Blackjack(mechdef_blackjack_BJ-1DB)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Blackjack
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Rhythm Nation(mechdef_Centurion_fp_justinAllard)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Centurion
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Battlemaster(mechdef_battlemaster_BLR-1G_fp_morganKell)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CommandMech_Battlemaster
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Commando(mechdef_commando_COM-1B)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Commando
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Cicada(mechdef_cicada_CDA-2A)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Cicada
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Centurion(mechdef_centurion_CN9-AS)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Centurion
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Weapon_RocketLauncher_RL20_0_STOCK
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Weapon_RocketLauncher_RL20_0_STOCK
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Weapon_RocketLauncher_RL20_0_STOCK
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Weapon_Autocannon_AC20_HRIFLE
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Centurion(mechdef_centurion_CN9-A)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Centurion
+00:27:14.082 CustomComponents [ERROR] [CC]Found NULL in Black Knight(mechdef_blackknight_BL-6-KNT)
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CommandMech_BlackKnight
+00:27:14.082 CustomComponents [ERROR] [CC]--- NULL --- Gear_BAP
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Blackjack(mechdef_blackjack_BJ-1)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Blackjack
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Blackjack(mechdef_blackjack_BJ-1-STARTER)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Blackjack
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Battlemaster(mechdef_battlemaster_BLR-1G)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CommandMech_Battlemaster
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Banshee(mechdef_banshee_BNC-3M)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Banshee
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Banshee(mechdef_banshee_BNC-3E)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Banshee
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Awesome(mechdef_awesome_AWS-8T)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Awesome
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Awesome(mechdef_awesome_AWS-8Q)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Awesome
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Atlas(mechdef_atlas_AS7-D)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Atlas
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Atlas
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Commando(mechdef_commando_COM-3A)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Commando
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Commando(mechdef_commando_COM-2D-BI)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Commando
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Commando(mechdef_commando_COM-1D)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Commando
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Commando(mechdef_commando_COM-1C)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Commando
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Cicada(mechdef_cicada_CDA-2B)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Cicada
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Centurion(mechdef_centurion_CN9-AH)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Centurion
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Catapult(mechdef_catapult_CPLT-A1)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Catapult
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Cataphract(mechdef_cataphract_CTF-2X)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Cataphract
+00:27:14.083 CustomComponents [ERROR] [CC]Found NULL in Black Knight(mechdef_blackknight_BL-7-KNT)
+00:27:14.083 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CommandMech_BlackKnight
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Black Knight(mechdef_blackknight_BL-7-KNT-L)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CommandMech_BlackKnight
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Catapult(mechdef_catapult_CPLT-C4)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Catapult
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Koschei(mechdef_Griffin_fp_justinAllard)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Griffin
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Awesome Dragon(mechdef_Dragon_fp_justinAllard)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedLifeSupport_Dragon
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Occam's Missile(mechdef_Catapult_fp_justinAllard)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Catapult
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Enforcer(mechdef_enforcer_ENF-4R_fp_morganKell)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCoolingJacket_Enforcer
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in JagerMech(mechdef_jagermech_JM6-A)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_JagerMech
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Hunchback(mechdef_hunchback_HBK-4G)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Royal Highlander(mechdef_highlander_HGN-732b)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Cowl_Highlander
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_ArtemisIV_LRM
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_ArtemisIV_LRM
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_ArtemisIV_LRM
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_ArtemisIV_SRM
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_TargetingTrackingSystem_ARTEMISIV
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Griffin(mechdef_griffin_GRF-1N)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Griffin
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Grasshopper(mechdef_grasshopper_GHR-5H)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Grasshopper
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Firestarter(mechdef_firestarter_FS9-H)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Firestarter
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Enforcer(mechdef_enforcer_ENF-4R)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCoolingJacket_Enforcer
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Dragon(mechdef_dragon_DRG-1N)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedLifeSupport_Dragon
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Commando(mechdef_commando_COM-2D)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Commando
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Cicada(mechdef_cicada_CDA-3C)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Cicada
+00:27:14.084 CustomComponents [ERROR] [CC]Found NULL in Centurion(mechdef_centurion_CN9-AL)
+00:27:14.084 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Centurion
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Catapult(mechdef_catapult_CPLT-K2)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Catapult
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Catapult(mechdef_catapult_CPLT-C1)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Catapult
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Cataphract(mechdef_cataphract_CTF-1X)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Cataphract
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Royal Black Knight(mechdef_blackknight_BL-6b-KNT)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CommandMech_BlackKnight
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_BAP
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in JagerMech(mechdef_jagermech_JM6-B)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_JagerMech
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Hunchback(mechdef_hunchback_HBK-4SP)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Hunchback(mechdef_hunchback_HBK-4N)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Hunchback(mechdef_hunchback_HBK-4J)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Hunchback(mechdef_hunchback_HBK-4H)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Highlander(mechdef_highlander_HGN-733C)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Cowl_Highlander
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Royal Griffin(mechdef_griffin_GRF-2N)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Griffin
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_TargetingTrackingSystem_ARTEMISIV
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Guardian_ECM
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_ArtemisIV_SRM
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_ArtemisIV_SRM
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Firestarter(mechdef_firestarter_FS9-M)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Firestarter
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Firestarter(mechdef_firestarter_FS9-K)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Firestarter
+00:27:14.085 CustomComponents [ERROR] [CC]Found NULL in Firestarter(mechdef_firestarter_FS9-A)
+00:27:14.085 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Firestarter
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Enforcer(mechdef_enforcer_ENF-3R)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCoolingJacket_Enforcer
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Dragon(mechdef_dragon_DRG-1C)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedLifeSupport_Dragon
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Grand Dragon(mechdef_granddragon_DRG-1G)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_GrandDragon
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Orion(mechdef_orion_ON1-K_fp_morganKell)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_Orion
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Jenner(mechdef_jenner_JR7-D_fp_morganKell)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCoolingJacket_Jenner
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Custom JagerMech(mechdef_jagermech_JM6-S_fp_headhunting)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_JagerMech
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Quickdraw(mechdef_quickdraw_QKD-4G)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCommunications_Quickdraw
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Panther(mechdef_panther_PNT-9R)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Panther
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Panther(mechdef_panther1b_PNT-9R)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Panther
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Orion(mechdef_orion_ON1-K)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_Orion
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Locust(mechdef_locust_LCT-1M)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Locust
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Kintaro(mechdef_kintaro_KTO-18)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Kintaro
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Kingcrab(mechdef_kingcrab_KGC-V-0000)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_KingCrab
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in King Crab(mechdef_kingcrab_KGC-0000)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_KingCrab
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Jenner(mechdef_jenner_JR7-D)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCoolingJacket_Jenner
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in JagerMech(mechdef_jagermech_JM6-S)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_JagerMech
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Hunchback(mechdef_hunchback_HBK-4P)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Battlefists_Hunchback
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Highlander(mechdef_highlander_HGN-733P)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Cowl_Highlander
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Highlander(mechdef_highlander_HGN-733)
+00:27:14.086 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Cowl_Highlander
+00:27:14.086 CustomComponents [ERROR] [CC]Found NULL in Griffin(mechdef_griffin_GRF-1S)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Griffin
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Quickdraw(mechdef_quickdraw_QKD-4H)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCommunications_Quickdraw
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Panther(mechdef_panther_PNT-8Z)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Panther
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Weapon_Laser_LargeLaser_-1-Tronel
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Orion(mechdef_orion_ON1-VA)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_Orion
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Orion(mechdef_orion_ON1-V-DC)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_Orion
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Cockpit_CommandConsole
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Locust(mechdef_locust_LCT-3V)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Locust
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_Generic_MG_half
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Locust(mechdef_locust_LCT-1L)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_TSM_Prototype_Bergan
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_TSM_Prototype_Bergan
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Jenner(mechdef_jenner_JR7-F)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCoolingJacket_Jenner
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Jenner(mechdef_jenner_JR7-A)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCoolingJacket_Jenner
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Weapon_Laser_MediumLaser_-1-Agra
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Weapon_Laser_MediumLaser_-1-Agra
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Shadow Hawk-UMBRA(UNLOCKED_chrPrfMech_shadowhawkBacker-UMBRA-SHD-2H)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedLifeSupport_ShadowHawk
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Shadow Hawk-UMBRA(UNLOCKED_chrPrfMech_shadowhawkBacker-UMBRA-SHD-2D)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedLifeSupport_ShadowHawk
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Locust(mechdef_locust_LCT-1E)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Locust
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Stalker(mechdef_fp_morganKell_stalker_STK-3F)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_Stalker
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Victor(mechdef_victor_VTR-9B)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Victor
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Trebuchet(mechdef_trebuchet_TBT-5N)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Trebuchet
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Thunderbolt(mechdef_thunderbolt_TDR-5S)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_MultiTrac_Thunderbolt
+00:27:14.087 CustomComponents [ERROR] [CC]Found NULL in Stalker(mechdef_stalker_STK-3F)
+00:27:14.087 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_Stalker
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Quickdraw(mechdef_quickdraw_QKD-5A)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCommunications_Quickdraw
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Orion(mechdef_orion_ON1-V)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_Orion
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Locust(mechdef_locust_LCT-1V)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Locust
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Locust(mechdef_locust_LCT-1S)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Locust
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Victor(mechdef_victor_VTR-9A1)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Victor
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_Generic_MG_half
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Victor(mechdef_victor_VTR-9A)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Victor
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_Generic_SRM_half
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in UrbanMech(mechdef_urbanmech_UM-R60X)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Urbanmech
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_Generic_MG_half
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in UrbanMech(mechdef_urbanmech_UM-R60C)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Urbanmech
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Trebuchet(mechdef_trebuchet_TBT-5S)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Trebuchet
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Trebuchet(mechdef_trebuchet_TBT-5J)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Trebuchet
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Thunderbolt(mechdef_thunderbolt_TDR-5D)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_MultiTrac_Thunderbolt
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Stalker(mechdef_stalker_STK-4P)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_Stalker
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Stalker(mechdef_stalker_STK-4N)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_Stalker
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Stalker(mechdef_stalker_STK-3H)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CombatComputer_Stalker
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Spider(mechdef_spider_SDR-5D)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Spider
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Shadow Hawk(mechdef_shadowhawk_SHD-2K)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedLifeSupport_ShadowHawk
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Trebuchet(mechdef_trebuchet_TBT-7K)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Trebuchet
+00:27:14.088 CustomComponents [ERROR] [CC]Found NULL in Spider(mechdef_spider_SDR-5K)
+00:27:14.088 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NimbleJumper_Spider
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Warhammer(mechdef_warhammer_WHM-6D)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Warhammer
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Marauder(mechdef_marauder_MAD-3R)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_CommandMech_Marauder
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in UrbanMech(mechdef_urbanmech_UM-R90)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Urbanmech
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in UrbanMech(mechdef_urbanmech_UM-R60L)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Urbanmech
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Banshee(mechdef_banshee_BNC-3S)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Banshee
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Custom Thunderbolt(mechdef_thunderbolt_TDR-5SE_fp_headhunting)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_MultiTrac_Thunderbolt
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Zeus(mechdef_zeus_ZEU-6S)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Zeus
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Wolverine(mechdef_wolverine_WVR-6K)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCommunications_Wolverine
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Vindicator(mechdef_vindicator_VND-1R)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Vindicator
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Victor(mechdef_victor_VTR-9S)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Victor
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in UrbanMech(mechdef_urbanmech_UM-R60)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Urbanmech
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Test Dummy(mechdef_urbanmech_TESTDUMMY)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_NarrowProfile_Urbanmech
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Thunderbolt(mechdef_thunderbolt_TDR-5SS)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_MultiTrac_Thunderbolt
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Thunderbolt(mechdef_thunderbolt_TDR-5SE)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_MultiTrac_Thunderbolt
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Shadow Hawk(mechdef_shadowhawk1b_SHD-2D)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedLifeSupport_ShadowHawk
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Zeus(mechdef_zeus_ZEU-6Y)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Zeus
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Weapon_Laser_BinaryLaserCannon_1-Defiance
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Zeus(mechdef_zeus_ZEU-6S-DC)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Zeus
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Cockpit_CommandConsole
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Zeus(mechdef_zeus_ZEU-6A)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Zeus
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Wolverine(mechdef_wolverine_WVR-6M)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCommunications_Wolverine
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Wolverine(mechdef_wolverine_WVR-6D)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCommunications_Wolverine
+00:27:14.089 CustomComponents [ERROR] [CC]Found NULL in Vindicator(mechdef_vindicator_VND-1X)
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Vindicator
+00:27:14.089 CustomComponents [ERROR] [CC]--- NULL --- Ammo_AmmunitionBox_Generic_MG_half
+00:27:14.090 CustomComponents [ERROR] [CC]Found NULL in Zeus(mechdef_zeus_ZEU-6T)
+00:27:14.090 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_EasytoPilot_Zeus
+00:27:14.090 CustomComponents [ERROR] [CC]Found NULL in Warhammer(mechdef_warhammer_WHM-6R)
+00:27:14.090 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Warhammer
+00:27:14.090 CustomComponents [ERROR] [CC]Found NULL in Vindicator(mechdef_vindicator_VND-1AA)
+00:27:14.090 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_Rugged_Vindicator
+00:27:14.090 CustomComponents [ERROR] [CC]Found NULL in Wolverine(mechdef_wolverine_WVR-6R)
+00:27:14.090 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedCommunications_Wolverine
+00:27:14.090 CustomComponents [ERROR] [CC]Found NULL in Panther(mechdef_panther_PNT-9ALAG)
+00:27:14.090 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Panther
+00:27:14.090 CustomComponents [ERROR] [CC]Found NULL in Cataphract(mechdef_cataphract_CTF-4X)
+00:27:14.090 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Cataphract
+00:27:14.090 CustomComponents [ERROR] [CC]Found NULL in Blackjack(mechdef_blackjack_BJ-1X)
+00:27:14.090 CustomComponents [ERROR] [CC]--- NULL --- Gear_Quirk_ImprovedTargeting_Blackjack
+00:27:14.200 MechEngineer [LOG] Auto fixing mechDef=mechdef_shadowhawk_SHD-2D chassisDef=chassisdef_shadowhawk_SHD-2D
+00:27:14.205 MechEngineer [LOG] Auto fixing mechDef=mechdef_shadowhawk_SHD-2H chassisDef=chassisdef_shadowhawk_SHD-2H
+00:27:14.206 MechEngineer [LOG] Auto fixing mechDef=mechdef_spider_SDR-5V chassisDef=chassisdef_spider_SDR-5V
+00:27:14.206 MechEngineer [LOG] Auto fixing mechDef=mechdef_atlas_AS7-D-HT chassisDef=chassisdef_atlas_AS7-D-HT
+00:27:14.207 MechEngineer [LOG]  Overuse found
+00:27:14.208 MechEngineer [LOG] Auto fixing mechDef=mechdef_blackjack_BJ-1DC chassisDef=chassisdef_blackjack_BJ-1DC
+00:27:14.209 MechEngineer [LOG] Auto fixing mechDef=mechdef_battlemaster_BLR-1G-DC chassisDef=chassisdef_battlemaster_BLR-1G-DC
+00:27:14.210 MechEngineer [LOG] Auto fixing mechDef=mechdef_battlemaster_BLR-1D chassisDef=chassisdef_battlemaster_BLR-1D
+00:27:14.210 MechEngineer [LOG] Auto fixing mechDef=mechdef_banshee_BNC-3Q chassisDef=chassisdef_banshee_BNC-3Q
+00:27:14.211 MechEngineer [LOG] Auto fixing mechDef=mechdef_awesome_AWS-8V chassisDef=chassisdef_awesome_AWS-8V
+00:27:14.211 MechEngineer [LOG] Auto fixing mechDef=mechdef_awesome_AWS-8R chassisDef=chassisdef_awesome_AWS-8R
+00:27:14.212 MechEngineer [LOG] Auto fixing mechDef=mechdef_atlas_AS7-RS chassisDef=chassisdef_atlas_AS7-RS
+00:27:14.212 MechEngineer [LOG] Auto fixing mechDef=mechdef_atlas_AS7-D-DC chassisDef=chassisdef_atlas_AS7-D-DC
+00:27:14.213 MechEngineer [LOG] Auto fixing mechDef=mechdef_atlas_AS7-A chassisDef=chassisdef_atlas_AS7-A
+00:27:14.213 MechEngineer [LOG]  Overuse found
+00:27:14.214 MechEngineer [LOG] Auto fixing mechDef=mechdef_battlemaster_BLR-1S chassisDef=chassisdef_battlemaster_BLR-1S
+00:27:14.215 MechEngineer [LOG] Auto fixing mechDef=mechdef_atlas_AS7-GG chassisDef=chassisdef_atlas_AS7-GG
+00:27:14.219 MechEngineer [LOG] Auto fixing mechDef=mechdef_blackjack_BJ-1DB chassisDef=chassisdef_blackjack_BJ-1DB
+00:27:14.219 MechEngineer [LOG] Auto fixing mechDef=mechdef_Centurion_fp_justinAllard chassisDef=chassisdef_centurion_CN9-A
+00:27:14.220 MechEngineer [LOG]  Overuse found
+00:27:14.220 MechEngineer [LOG] Auto fixing mechDef=mechdef_battlemaster_BLR-1G_fp_morganKell chassisDef=chassisdef_battlemaster_BLR-1G
+00:27:14.221 MechEngineer [LOG] Auto fixing mechDef=mechdef_commando_COM-1B chassisDef=chassisdef_commando_COM-1B
+00:27:14.222 MechEngineer [LOG] Auto fixing mechDef=mechdef_cicada_CDA-2A chassisDef=chassisdef_cicada_CDA-2A
+00:27:14.222 MechEngineer [LOG] Auto fixing mechDef=mechdef_centurion_CN9-AS chassisDef=chassisdef_centurion_CN9-A
+00:27:14.223 MechEngineer [LOG] Auto fixing mechDef=mechdef_centurion_CN9-A chassisDef=chassisdef_centurion_CN9-A
+00:27:14.223 MechEngineer [LOG] Auto fixing mechDef=mechdef_blackknight_BL-6-KNT chassisDef=chassisdef_blackknight_BL-6-KNT
+00:27:14.224 MechEngineer [LOG] Auto fixing mechDef=mechdef_blackjack_BJ-1 chassisDef=chassisdef_blackjack_BJ-1
+00:27:14.224 MechEngineer [LOG] Auto fixing mechDef=mechdef_blackjack_BJ-1-STARTER chassisDef=chassisdef_blackjack_BJ-1
+00:27:14.225 MechEngineer [LOG] Auto fixing mechDef=mechdef_battlemaster_BLR-1G chassisDef=chassisdef_battlemaster_BLR-1G
+00:27:14.225 MechEngineer [LOG] Auto fixing mechDef=mechdef_banshee_BNC-3M chassisDef=chassisdef_banshee_BNC-3M
+00:27:14.226 MechEngineer [LOG] Auto fixing mechDef=mechdef_banshee_BNC-3E chassisDef=chassisdef_banshee_BNC-3E
+00:27:14.227 MechEngineer [LOG] Auto fixing mechDef=mechdef_awesome_AWS-8T chassisDef=chassisdef_awesome_AWS-8T
+00:27:14.227 MechEngineer [LOG] Auto fixing mechDef=mechdef_awesome_AWS-8Q chassisDef=chassisdef_awesome_AWS-8Q
+00:27:14.227 MechEngineer [LOG] Auto fixing mechDef=mechdef_atlas_AS7-D chassisDef=chassisdef_atlas_AS7-D
+00:27:14.228 MechEngineer [LOG] Auto fixing mechDef=mechdef_commando_COM-3A chassisDef=chassisdef_commando_COM-3A
+00:27:14.228 MechEngineer [LOG] Auto fixing mechDef=mechdef_commando_COM-2D-BI chassisDef=chassisdef_commando_COM-2D-BI
+00:27:14.229 MechEngineer [LOG] Auto fixing mechDef=mechdef_commando_COM-1D chassisDef=chassisdef_commando_COM-1D
+00:27:14.229 MechEngineer [LOG] Auto fixing mechDef=mechdef_commando_COM-1C chassisDef=chassisdef_commando_COM-1C
+00:27:14.230 MechEngineer [LOG] Auto fixing mechDef=mechdef_cicada_CDA-2B chassisDef=chassisdef_cicada_CDA-2B
+00:27:14.230 MechEngineer [LOG] Auto fixing mechDef=mechdef_centurion_CN9-AH chassisDef=chassisdef_centurion_CN9-AH
+00:27:14.231 MechEngineer [LOG] Auto fixing mechDef=mechdef_catapult_CPLT-A1 chassisDef=chassisdef_catapult_CPLT-A1
+00:27:14.231 MechEngineer [LOG] Auto fixing mechDef=mechdef_cataphract_CTF-2X chassisDef=chassisdef_cataphract_CTF-2X
+00:27:14.232 MechEngineer [LOG] Auto fixing mechDef=mechdef_blackknight_BL-7-KNT chassisDef=chassisdef_blackknight_BL-7-KNT
+00:27:14.232 MechEngineer [LOG] Auto fixing mechDef=mechdef_blackknight_BL-7-KNT-L chassisDef=chassisdef_blackknight_BL-7-KNT-L
+00:27:14.233 MechEngineer [LOG] Auto fixing mechDef=mechdef_catapult_CPLT-C4 chassisDef=chassisdef_catapult_CPLT-C4
+00:27:14.233 MechEngineer [LOG] Auto fixing mechDef=mechdef_Griffin_fp_justinAllard chassisDef=chassisdef_griffin_GRF-1N
+00:27:14.234 MechEngineer [LOG] Auto fixing mechDef=mechdef_Dragon_fp_justinAllard chassisDef=chassisdef_dragon_DRG-1N
+00:27:14.235 MechEngineer [LOG]  Overuse found
+00:27:14.235 MechEngineer [LOG] Auto fixing mechDef=mechdef_Catapult_fp_justinAllard chassisDef=chassisdef_catapult_CPLT-C1
+00:27:14.236 MechEngineer [LOG] Auto fixing mechDef=mechdef_enforcer_ENF-4R_fp_morganKell chassisDef=chassisdef_enforcer_ENF-4R
+00:27:14.237 MechEngineer [LOG] Auto fixing mechDef=mechdef_jagermech_JM6-A chassisDef=chassisdef_jagermech_JM6-A
+00:27:14.237 MechEngineer [LOG] Auto fixing mechDef=mechdef_hunchback_HBK-4G chassisDef=chassisdef_hunchback_HBK-4G
+00:27:14.238 MechEngineer [LOG] Auto fixing mechDef=mechdef_highlander_HGN-732b chassisDef=chassisdef_highlander_HGN-732b
+00:27:14.287 MechEngineer [LOG] Auto fixing mechDef=mechdef_griffin_GRF-1N chassisDef=chassisdef_griffin_GRF-1N
+00:27:14.288 MechEngineer [LOG] Auto fixing mechDef=mechdef_grasshopper_GHR-5H chassisDef=chassisdef_grasshopper_GHR-5H
+00:27:14.288 MechEngineer [LOG] Auto fixing mechDef=mechdef_firestarter_FS9-H chassisDef=chassisdef_firestarter_FS9-H
+00:27:14.289 MechEngineer [LOG] Auto fixing mechDef=mechdef_enforcer_ENF-4R chassisDef=chassisdef_enforcer_ENF-4R
+00:27:14.289 MechEngineer [LOG] Auto fixing mechDef=mechdef_dragon_DRG-1N chassisDef=chassisdef_dragon_DRG-1N
+00:27:14.290 MechEngineer [LOG] Auto fixing mechDef=mechdef_commando_COM-2D chassisDef=chassisdef_commando_COM-2D
+00:27:14.290 MechEngineer [LOG] Auto fixing mechDef=mechdef_cicada_CDA-3C chassisDef=chassisdef_cicada_CDA-3C
+00:27:14.290 MechEngineer [LOG] Auto fixing mechDef=mechdef_centurion_TARGETDUMMY chassisDef=chassisdef_centurion_TARGETDUMMY
+00:27:14.291 MechEngineer [LOG] Auto fixing mechDef=mechdef_centurion_CN9-AL chassisDef=chassisdef_centurion_CN9-AL
+00:27:14.291 MechEngineer [LOG] Auto fixing mechDef=mechdef_catapult_CPLT-K2 chassisDef=chassisdef_catapult_CPLT-K2
+00:27:14.292 MechEngineer [LOG] Auto fixing mechDef=mechdef_catapult_CPLT-C1 chassisDef=chassisdef_catapult_CPLT-C1
+00:27:14.292 MechEngineer [LOG] Auto fixing mechDef=mechdef_cataphract_CTF-1X chassisDef=chassisdef_cataphract_CTF-1X
+00:27:14.293 MechEngineer [LOG] Auto fixing mechDef=mechdef_blackknight_BL-6b-KNT chassisDef=chassisdef_blackknight_BL-6b-KNT
+00:27:14.293 MechEngineer [LOG] Auto fixing mechDef=mechdef_jagermech_JM6-B chassisDef=chassisdef_jagermech_JM6-B
+00:27:14.294 MechEngineer [LOG] Auto fixing mechDef=mechdef_hunchback_HBK-4SP chassisDef=chassisdef_hunchback_HBK-4SP
+00:27:14.294 MechEngineer [LOG] Auto fixing mechDef=mechdef_hunchback_HBK-4N chassisDef=chassisdef_hunchback_HBK-4N
+00:27:14.295 MechEngineer [LOG] Auto fixing mechDef=mechdef_hunchback_HBK-4J chassisDef=chassisdef_hunchback_HBK-4J
+00:27:14.295 MechEngineer [LOG] Auto fixing mechDef=mechdef_hunchback_HBK-4H chassisDef=chassisdef_hunchback_HBK-4H
+00:27:14.295 MechEngineer [LOG] Auto fixing mechDef=mechdef_highlander_HGN-733C chassisDef=chassisdef_highlander_HGN-733C
+00:27:14.296 MechEngineer [LOG] Auto fixing mechDef=mechdef_griffin_GRF-2N chassisDef=chassisdef_griffin_GRF-2N
+00:27:14.296 MechEngineer [LOG] Auto fixing mechDef=mechdef_firestarter_FS9-M chassisDef=chassisdef_firestarter_FS9-M
+00:27:14.297 MechEngineer [LOG] Auto fixing mechDef=mechdef_firestarter_FS9-K chassisDef=chassisdef_firestarter_FS9-K
+00:27:14.297 MechEngineer [LOG] Auto fixing mechDef=mechdef_firestarter_FS9-A chassisDef=chassisdef_firestarter_FS9-A
+00:27:14.298 MechEngineer [LOG] Auto fixing mechDef=mechdef_enforcer_ENF-3R chassisDef=chassisdef_enforcer_ENF-3R
+00:27:14.298 MechEngineer [LOG] Auto fixing mechDef=mechdef_dragon_DRG-1C chassisDef=chassisdef_dragon_DRG-1C
+00:27:14.299 MechEngineer [LOG] Auto fixing mechDef=mechdef_granddragon_DRG-1G chassisDef=chassisdef_granddragon_DRG-1G
+00:27:14.299 MechEngineer [LOG] Auto fixing mechDef=mechdef_griffin_GRF-4N_fp_greed chassisDef=chassisdef_griffin_GRF-4N
+00:27:14.300 MechEngineer [LOG] Auto fixing mechDef=mechdef_orion_ON1-K_fp_morganKell chassisDef=chassisdef_orion_ON1-K
+00:27:14.301 MechEngineer [LOG] Auto fixing mechDef=mechdef_jenner_JR7-D_fp_morganKell chassisDef=chassisdef_jenner_JR7-D
+00:27:14.302 MechEngineer [LOG] Auto fixing mechDef=mechdef_jagermech_JM6-S_fp_headhunting chassisDef=chassisdef_jagermech_JM6-S
+00:27:14.302 MechEngineer [LOG] Auto fixing mechDef=mechdef_quickdraw_QKD-4G chassisDef=chassisdef_quickdraw_QKD-4G
+00:27:14.303 MechEngineer [LOG] Auto fixing mechDef=mechdef_panther_PNT-9R chassisDef=chassisdef_panther_PNT-9R
+00:27:14.303 MechEngineer [LOG] Auto fixing mechDef=mechdef_panther1b_PNT-9R chassisDef=chassisdef_panther_PNT-9R
+00:27:14.304 MechEngineer [LOG] Auto fixing mechDef=mechdef_orion_ON1-K chassisDef=chassisdef_orion_ON1-K
+00:27:14.305 MechEngineer [LOG] Auto fixing mechDef=mechdef_locust_LCT-1M chassisDef=chassisdef_locust_LCT-1M
+00:27:14.305 MechEngineer [LOG] Auto fixing mechDef=mechdef_kintaro_KTO-18 chassisDef=chassisdef_kintaro_KTO-18
+00:27:14.305 MechEngineer [LOG] Auto fixing mechDef=mechdef_kingcrab_KGC-V-0000 chassisDef=chassisdef_kingcrab_KGC-0000
+00:27:14.306 MechEngineer [LOG] Auto fixing mechDef=mechdef_kingcrab_KGC-0000 chassisDef=chassisdef_kingcrab_KGC-0000
+00:27:14.307 MechEngineer [LOG] Auto fixing mechDef=mechdef_jenner_JR7-D chassisDef=chassisdef_jenner_JR7-D
+00:27:14.307 MechEngineer [LOG] Auto fixing mechDef=mechdef_jagermech_JM6-S chassisDef=chassisdef_jagermech_JM6-S
+00:27:14.308 MechEngineer [LOG] Auto fixing mechDef=mechdef_hunchback_HBK-4P chassisDef=chassisdef_hunchback_HBK-4P
+00:27:14.308 MechEngineer [LOG] Auto fixing mechDef=mechdef_highlander_HGN-733P chassisDef=chassisdef_highlander_HGN-733P
+00:27:14.308 MechEngineer [LOG]  Overuse found
+00:27:14.309 MechEngineer [LOG] Auto fixing mechDef=mechdef_highlander_HGN-733 chassisDef=chassisdef_highlander_HGN-733
+00:27:14.310 MechEngineer [LOG] Auto fixing mechDef=mechdef_griffin_GRF-4N chassisDef=chassisdef_griffin_GRF-4N
+00:27:14.311 MechEngineer [LOG] Auto fixing mechDef=mechdef_griffin_GRF-1S chassisDef=chassisdef_griffin_GRF-1S
+00:27:14.311 MechEngineer [LOG] Auto fixing mechDef=mechdef_quickdraw_QKD-4H chassisDef=chassisdef_quickdraw_QKD-4H
+00:27:14.312 MechEngineer [LOG] Auto fixing mechDef=mechdef_panther_PNT-8Z chassisDef=chassisdef_panther_PNT-8Z
+00:27:14.312 MechEngineer [LOG] Auto fixing mechDef=mechdef_orion_ON1-VA chassisDef=chassisdef_orion_ON1-VA
+00:27:14.313 MechEngineer [LOG] Auto fixing mechDef=mechdef_orion_ON1-V-DC chassisDef=chassisdef_orion_ON1-V-DC
+00:27:14.313 MechEngineer [LOG] Auto fixing mechDef=mechdef_locust_LCT-3V chassisDef=chassisdef_locust_LCT-3V
+00:27:14.314 MechEngineer [LOG] Auto fixing mechDef=mechdef_locust_LCT-1L chassisDef=chassisdef_locust_LCT-1L
+00:27:14.314 MechEngineer [LOG] Auto fixing mechDef=mechdef_jenner_JR7-F chassisDef=chassisdef_jenner_JR7-F
+00:27:14.314 MechEngineer [LOG] Auto fixing mechDef=mechdef_jenner_JR7-A chassisDef=chassisdef_jenner_JR7-A
+00:27:14.315 MechEngineer [LOG] Auto fixing mechDef=mechdef_locust_LCT-1Vb chassisDef=chassisdef_locust_LCT-1Vb
+00:27:14.315 MechEngineer [LOG] Auto fixing mechDef=UNLOCKED_chrPrfMech_shadowhawkBacker-UMBRA-SHD-2H chassisDef=chassisdef_shadowhawk_SHD-2H
+00:27:14.316 MechEngineer [LOG] Auto fixing mechDef=UNLOCKED_chrPrfMech_shadowhawkBacker-UMBRA-SHD-2D chassisDef=chassisdef_shadowhawk_SHD-2D
+00:27:14.317 MechEngineer [LOG] Auto fixing mechDef=mechdef_locust_LCT-1E chassisDef=chassisdef_locust_LCT-1E
+00:27:14.317 MechEngineer [LOG] Auto fixing mechDef=mechdef_fp_morganKell_stalker_STK-3F chassisDef=chassisdef_stalker_STK-3F
+00:27:14.318 MechEngineer [LOG] Auto fixing mechDef=mechdef_victor_VTR-9B chassisDef=chassisdef_victor_VTR-9B
+00:27:14.319 MechEngineer [LOG] Auto fixing mechDef=mechdef_trebuchet_TBT-5N chassisDef=chassisdef_trebuchet_TBT-5N
+00:27:14.319 MechEngineer [LOG] Auto fixing mechDef=mechdef_thunderbolt_TDR-5S chassisDef=chassisdef_thunderbolt_TDR-5S
+00:27:14.320 MechEngineer [LOG] Auto fixing mechDef=mechdef_stalker_STK-3F chassisDef=chassisdef_stalker_STK-3F
+00:27:14.320 MechEngineer [LOG] Auto fixing mechDef=mechdef_quickdraw_QKD-5A chassisDef=chassisdef_quickdraw_QKD-5A
+00:27:14.321 MechEngineer [LOG] Auto fixing mechDef=mechdef_panther_TARGETDUMMY chassisDef=chassisdef_panther_TARGETDUMMY
+00:27:14.321 MechEngineer [LOG] Auto fixing mechDef=mechdef_orion_ON1-V chassisDef=chassisdef_orion_ON1-V
+00:27:14.322 MechEngineer [LOG] Auto fixing mechDef=mechdef_locust_LCT-1V chassisDef=chassisdef_locust_LCT-1V
+00:27:14.322 MechEngineer [LOG] Auto fixing mechDef=mechdef_locust_LCT-1S chassisDef=chassisdef_locust_LCT-1S
+00:27:14.322 MechEngineer [LOG] Auto fixing mechDef=mechdef_victor_VTR-9A1 chassisDef=chassisdef_victor_VTR-9A1
+00:27:14.323 MechEngineer [LOG] Auto fixing mechDef=mechdef_victor_VTR-9A chassisDef=chassisdef_victor_VTR-9A
+00:27:14.324 MechEngineer [LOG] Auto fixing mechDef=mechdef_urbanmech_UM-R60X chassisDef=chassisdef_urbanmech_UM-R60X
+00:27:14.324 MechEngineer [LOG] Auto fixing mechDef=mechdef_urbanmech_UM-R60C chassisDef=chassisdef_urbanmech_UM-R60C
+00:27:14.324 MechEngineer [LOG] Auto fixing mechDef=mechdef_trebuchet_TBT-5S chassisDef=chassisdef_trebuchet_TBT-5S
+00:27:14.325 MechEngineer [LOG] Auto fixing mechDef=mechdef_trebuchet_TBT-5J chassisDef=chassisdef_trebuchet_TBT-5J
+00:27:14.325 MechEngineer [LOG] Auto fixing mechDef=mechdef_thunderbolt_TDR-5D chassisDef=chassisdef_thunderbolt_TDR-5D
+00:27:14.326 MechEngineer [LOG] Auto fixing mechDef=mechdef_stalker_STK-4P chassisDef=chassisdef_stalker_STK-4P
+00:27:14.326 MechEngineer [LOG] Auto fixing mechDef=mechdef_stalker_STK-4N chassisDef=chassisdef_stalker_STK-4N
+00:27:14.327 MechEngineer [LOG] Auto fixing mechDef=mechdef_stalker_STK-3H chassisDef=chassisdef_stalker_STK-3H
+00:27:14.327 MechEngineer [LOG] Auto fixing mechDef=mechdef_spider_SDR-5D chassisDef=chassisdef_spider_SDR-5D
+00:27:14.328 MechEngineer [LOG] Auto fixing mechDef=mechdef_shadowhawk_SHD-2K chassisDef=chassisdef_shadowhawk_SHD-2K
+00:27:14.328 MechEngineer [LOG] Auto fixing mechDef=mechdef_trebuchet_TBT-7K chassisDef=chassisdef_trebuchet_TBT-7K
+00:27:14.329 MechEngineer [LOG] Auto fixing mechDef=mechdef_battlemaster_BLR-1GB chassisDef=chassisdef_battlemaster_BLR-1GB
+00:27:14.330 MechEngineer [LOG] Auto fixing mechDef=mechdef_spider_SDR-5K chassisDef=chassisdef_spider_SDR-5K
+00:27:14.330 MechEngineer [LOG] Auto fixing mechDef=mechdef_warhammer_WHM-6D chassisDef=chassisdef_warhammer_WHM-6D
+00:27:14.331 MechEngineer [LOG] Auto fixing mechDef=mechdef_marauder_MAD-3R chassisDef=chassisdef_marauder_MAD-3R
+00:27:14.331 MechEngineer [LOG] Auto fixing mechDef=mechdef_urbanmech_UM-R90 chassisDef=chassisdef_urbanmech_UM-R90
+00:27:14.332 MechEngineer [LOG] Auto fixing mechDef=mechdef_urbanmech_UM-R60L chassisDef=chassisdef_urbanmech_UM-R60L
+00:27:14.332 MechEngineer [LOG] Auto fixing mechDef=mechdef_banshee_BNC-3S chassisDef=chassisdef_banshee_BNC-3S
+00:27:14.332 MechEngineer [LOG]  Overuse found
+00:27:14.334 MechEngineer [LOG] Auto fixing mechDef=mechdef_thunderbolt_TDR-5SE_fp_headhunting chassisDef=chassisdef_thunderbolt_TDR-5SE
+00:27:14.335 MechEngineer [LOG] Auto fixing mechDef=mechdef_zeus_ZEU-6S chassisDef=chassisdef_zeus_ZEU-6S
+00:27:14.336 MechEngineer [LOG] Auto fixing mechDef=mechdef_wolverine_WVR-6K chassisDef=chassisdef_wolverine_WVR-6K
+00:27:14.336 MechEngineer [LOG] Auto fixing mechDef=mechdef_vindicator_VND-1R chassisDef=chassisdef_vindicator_VND-1R
+00:27:14.337 MechEngineer [LOG] Auto fixing mechDef=mechdef_victor_VTR-9S chassisDef=chassisdef_victor_VTR-9S
+00:27:14.337 MechEngineer [LOG] Auto fixing mechDef=mechdef_urbanmech_UM-R60 chassisDef=chassisdef_urbanmech_UM-R60
+00:27:14.338 MechEngineer [LOG] Auto fixing mechDef=mechdef_urbanmech_TESTDUMMY chassisDef=chassisdef_urbanmech_UM-R60
+00:27:14.338 MechEngineer [LOG] Auto fixing mechDef=mechdef_thunderbolt_TDR-5SS chassisDef=chassisdef_thunderbolt_TDR-5SS
+00:27:14.339 MechEngineer [LOG] Auto fixing mechDef=mechdef_thunderbolt_TDR-5SE chassisDef=chassisdef_thunderbolt_TDR-5SE
+00:27:14.339 MechEngineer [LOG] Auto fixing mechDef=mechdef_shadowhawk1b_SHD-2D chassisDef=chassisdef_shadowhawk_SHD-2H
+00:27:14.340 MechEngineer [LOG] Auto fixing mechDef=mechdef_zeus_ZEU-6Y chassisDef=chassisdef_zeus_ZEU-6Y
+00:27:14.341 MechEngineer [LOG] Auto fixing mechDef=mechdef_zeus_ZEU-6S-DC chassisDef=chassisdef_zeus_ZEU-6S-DC
+00:27:14.341 MechEngineer [LOG] Auto fixing mechDef=mechdef_zeus_ZEU-6A chassisDef=chassisdef_zeus_ZEU-6A
+00:27:14.342 MechEngineer [LOG] Auto fixing mechDef=mechdef_wolverine_WVR-6M chassisDef=chassisdef_wolverine_WVR-6M
+00:27:14.342 MechEngineer [LOG] Auto fixing mechDef=mechdef_wolverine_WVR-6D chassisDef=chassisdef_wolverine_WVR-6D
+00:27:14.343 MechEngineer [LOG] Auto fixing mechDef=mechdef_vindicator_VND-1X chassisDef=chassisdef_vindicator_VND-1X
+00:27:14.344 MechEngineer [LOG] Auto fixing mechDef=mechdef_javelin_JVN-10A chassisDef=chassisdef_javelin_JVN-10A
+00:27:14.344 MechEngineer [LOG]  Overuse found
+00:27:14.345 MechEngineer [LOG] Auto fixing mechDef=mechdef_cataphract_CTF-0X chassisDef=chassisdef_cataphract_CTF-0X
+00:27:14.346 MechEngineer [LOG] Auto fixing mechDef=mechdef_hatchetman_HCT-3F chassisDef=chassisdef_hatchetman_HCT-3F
+00:27:14.346 MechEngineer [LOG]  Overuse found
+00:27:14.347 MechEngineer [LOG] Auto fixing mechDef=mechdef_cyclops_CP-10-HQ chassisDef=chassisdef_cyclops_CP-10-HQ
+00:27:14.348 MechEngineer [LOG]  Overuse found
+00:27:14.348 MechEngineer [LOG] Auto fixing mechDef=mechdef_crab_CRB-27 chassisDef=chassisdef_crab_CRB-27
+00:27:14.349 MechEngineer [LOG] Auto fixing mechDef=mechdef_zeus_ZEU-6T chassisDef=chassisdef_zeus_ZEU-6T
+00:27:14.350 MechEngineer [LOG] Auto fixing mechDef=mechdef_zeus_ZEU-5T chassisDef=chassisdef_zeus_ZEU-5T
+00:27:14.351 MechEngineer [LOG] Auto fixing mechDef=mechdef_warhammer_WHM-7A chassisDef=chassisdef_warhammer_WHM-7A
+00:27:14.352 MechEngineer [LOG] Auto fixing mechDef=mechdef_marauder_MAD-3D chassisDef=chassisdef_marauder_MAD-3D
+00:27:14.353 MechEngineer [LOG]  Overuse found
+00:27:14.354 MechEngineer [LOG] Auto fixing mechDef=mechdef_marauder_MAD-2R chassisDef=chassisdef_marauder_MAD-2R
+00:27:14.355 MechEngineer [LOG] Auto fixing mechDef=mechdef_marauder_MAD-CM chassisDef=chassisdef_marauder_MAD-CM
+00:27:14.356 MechEngineer [LOG] Auto fixing mechDef=mechdef_marauder_MAD-BH chassisDef=chassisdef_marauder_MAD-BH
+00:27:14.357 MechEngineer [LOG] Auto fixing mechDef=mechdef_warhammer_WHM-BW chassisDef=chassisdef_warhammer_WHM-BW
+00:27:14.358 MechEngineer [LOG] Auto fixing mechDef=mechdef_warhammer_WHM-6R chassisDef=chassisdef_warhammer_WHM-6R
+00:27:14.359 MechEngineer [LOG] Auto fixing mechDef=mechdef_vindicator_VND-1AA chassisDef=chassisdef_vindicator_VND-1AA
+00:27:14.359 MechEngineer [LOG] Auto fixing mechDef=mechdef_wolverine_WVR-6R chassisDef=chassisdef_wolverine_WVR-6R
+00:27:14.360 MechEngineer [LOG] Auto fixing mechDef=mechdef_flea_FLE-15 chassisDef=chassisdef_flea_FLE-15
+00:27:14.360 MechEngineer [LOG]  Overuse found
+00:27:14.361 MechEngineer [LOG] Auto fixing mechDef=mechdef_bullshark_BSK-M3 chassisDef=chassisdef_bullshark_BSK-M3
+00:27:14.362 MechEngineer [LOG]  Overuse found
+00:27:14.362 MechEngineer [LOG] Auto fixing mechDef=mechdef_assassin_ASN-101 chassisDef=chassisdef_assassin_ASN-101
+00:27:14.363 MechEngineer [LOG] Auto fixing mechDef=mechdef_archer_ARC-2R chassisDef=chassisdef_archer_ARC-2R
+00:27:14.363 MechEngineer [LOG]  Overuse found
+00:27:14.364 MechEngineer [LOG] Auto fixing mechDef=mechdef_annihilator_ANH-1A chassisDef=chassisdef_annihilator_ANH-1A
+00:27:14.364 MechEngineer [LOG]  Overuse found
+00:27:14.365 MechEngineer [LOG] Auto fixing mechDef=mechdef_raven_RVN-1X chassisDef=chassisdef_raven_RVN-1X
+00:27:14.366 MechEngineer [LOG] Auto fixing mechDef=mechdef_javelin_JVN-10N chassisDef=chassisdef_javelin_JVN-10N
+00:27:14.367 MechEngineer [LOG]  Overuse found
+00:27:14.367 MechEngineer [LOG] Auto fixing mechDef=mechdef_javelin_JVN-10F chassisDef=chassisdef_javelin_JVN-10F
+00:27:14.368 MechEngineer [LOG] Auto fixing mechDef=mechdef_hatchetman_HCT-3X chassisDef=chassisdef_hatchetman_HCT-3X
+00:27:14.369 MechEngineer [LOG]  Overuse found
+00:27:14.370 MechEngineer [LOG] Auto fixing mechDef=mechdef_cyclops_CP-10-Z chassisDef=chassisdef_cyclops_CP-10-Z
+00:27:14.370 MechEngineer [LOG]  Overuse found
+00:27:14.371 MechEngineer [LOG] Auto fixing mechDef=mechdef_cyclops_CP-10-Q chassisDef=chassisdef_cyclops_CP-10-Q
+00:27:14.371 MechEngineer [LOG]  Overuse found
+00:27:14.372 MechEngineer [LOG] Auto fixing mechDef=mechdef_crab__fp_gladiator_BSC-27 chassisDef=chassisdef_crab__fp_gladiator_BSC-27
+00:27:14.372 MechEngineer [LOG]  Overuse found
+00:27:14.373 MechEngineer [LOG] Auto fixing mechDef=mechdef_crab_CRB-27b chassisDef=chassisdef_crab_CRB-27b
+00:27:14.374 MechEngineer [LOG] Auto fixing mechDef=mechdef_crab_BSC-27_fp_gladiator chassisDef=chassisdef_crab__fp_gladiator_BSC-27
+00:27:14.374 MechEngineer [LOG]  Overuse found
+00:27:14.375 MechEngineer [LOG] Auto fixing mechDef=mechdef_vulcan_VL-2T chassisDef=chassisdef_vulcan_VL-2T
+00:27:14.375 MechEngineer [LOG]  Overuse found
+00:27:14.376 MechEngineer [LOG] Auto fixing mechDef=mechdef_rifleman_RFL-3C chassisDef=chassisdef_rifleman_RFL-3C
+00:27:14.376 MechEngineer [LOG]  Overuse found
+00:27:14.376 MechEngineer [LOG] Auto fixing mechDef=mechdef_phoenixhawk_PXH-1 chassisDef=chassisdef_phoenixhawk_PXH-1
+00:27:14.377 MechEngineer [LOG] Auto fixing mechDef=mechdef_flea_FLE-4 chassisDef=chassisdef_flea_FLE-4
+00:27:14.378 MechEngineer [LOG]  Overuse found
+00:27:14.378 MechEngineer [LOG] Auto fixing mechDef=mechdef_bullshark_BSK-MAZ chassisDef=chassisdef_bullshark_BSK-MAZ
+00:27:14.379 MechEngineer [LOG]  Overuse found
+00:27:14.379 MechEngineer [LOG] Auto fixing mechDef=mechdef_assassin_ASN-21 chassisDef=chassisdef_assassin_ASN-21
+00:27:14.380 MechEngineer [LOG] Auto fixing mechDef=mechdef_archer_ARC-XO chassisDef=chassisdef_archer_ARC-XO
+00:27:14.380 MechEngineer [LOG]  Overuse found
+00:27:14.381 MechEngineer [LOG] Auto fixing mechDef=mechdef_archer_ARC-LS chassisDef=chassisdef_archer_ARC-LS
+00:27:14.382 MechEngineer [LOG] Auto fixing mechDef=mechdef_archer_ARC-2S chassisDef=chassisdef_archer_ARC-2S
+00:27:14.382 MechEngineer [LOG]  Overuse found
+00:27:14.383 MechEngineer [LOG] Auto fixing mechDef=mechdef_annihilator_ANH-JH chassisDef=chassisdef_annihilator_ANH-JH
+00:27:14.384 MechEngineer [LOG] Auto fixing mechDef=mechdef_raven_RVN-3X chassisDef=chassisdef_raven_RVN-3X
+00:27:14.385 MechEngineer [LOG] Auto fixing mechDef=mechdef_vulcan_VL-5T chassisDef=chassisdef_vulcan_VL-5T
+00:27:14.385 MechEngineer [LOG]  Overuse found
+00:27:14.386 MechEngineer [LOG] Auto fixing mechDef=mechdef_rifleman_RFL-RIP chassisDef=chassisdef_rifleman_RFL-RIP
+00:27:14.387 MechEngineer [LOG]  Overuse found
+00:27:14.387 MechEngineer [LOG] Auto fixing mechDef=mechdef_rifleman_RFL-4D chassisDef=chassisdef_rifleman_RFL-4D
+00:27:14.388 MechEngineer [LOG] Auto fixing mechDef=mechdef_rifleman_RFL-3N chassisDef=chassisdef_rifleman_RFL-3N
+00:27:14.388 MechEngineer [LOG]  Overuse found
+00:27:14.389 MechEngineer [LOG] Auto fixing mechDef=mechdef_phoenixhawk_PXH-1K chassisDef=chassisdef_phoenixhawk_PXH-1K
+00:27:14.390 MechEngineer [LOG] Auto fixing mechDef=mechdef_phoenixhawk_PXH-1b chassisDef=chassisdef_phoenixhawk_PXH-1b
+00:27:14.390 MechEngineer [LOG] Auto fixing mechDef=mechdef_deploy_director chassisDef=chassisdef_deploy_director
+00:27:14.391 MechEngineer [LOG] Auto fixing mechDef=mechdef_panther_PNT-9ALAG chassisDef=chassisdef_panther_PNT-9ALAG
+00:27:14.391 MechEngineer [LOG] Auto fixing mechDef=mechdef_cataphract_CTF-4X chassisDef=chassisdef_cataphract_CTF-4X
+00:27:14.392 MechEngineer [LOG] Auto fixing mechDef=mechdef_blackjack_BJ-1X chassisDef=chassisdef_blackjack_BJ-1X
+00:27:17.355 CustomComponents [DEBUG] [CC]Mech validation for Atlas start from True
+00:27:17.355 CustomComponents [DEBUG] [CC]- fixed validation
+00:27:17.358 CustomComponents [DEBUG] [CC]- component validation
+00:27:17.358 CustomComponents [DEBUG] [CC]- validation passed
+00:27:19.505 BattletechPerformanceFix [LOG] Sorted in 19.2789 ms
+00:27:19.714 BattletechPerformanceFix [LOG] Sorted in 78.072 ms
+00:27:19.734 BattletechPerformanceFix [LOG] Filter took 97.3574 ms and resulted in 454 -> 228 items
+00:27:21.857 BattletechPerformanceFix [LOG] Sorted in 13.6844 ms
+00:27:21.858 BattletechPerformanceFix [LOG] Filter took 15.3637 ms and resulted in 454 -> 60 items
+00:52:15.742 MessageCenter [ERROR] CRITICAL ERROR, PLEASE REPORT:
+	Delegate ReportSessionEndHandler - Standard for message type OnAppShutdown failed with exception 
+	Object reference not set to an instance of an object
+	  at BattleTech.Network.Services.BattleTechAnalyticsAPI.get_HasServers () [0x00005] in <4184af8dbeb44635831353f4d349631c>:0 
+	  at BattleTech.Network.Services.BattleTechAnalyticsAPI.RequestNext (System.Boolean warn) [0x00008] in <4184af8dbeb44635831353f4d349631c>:0 
+	  at BattleTech.Network.Services.BattleTechAnalyticsAPI.ReportEvent (BattleTech.Common.Models.AnalyticsEventInfo info, System.Boolean post) [0x00146] in <4184af8dbeb44635831353f4d349631c>:0 
+	  at BattleTech.Network.Services.BattleTechAnalyticsAPI.ReportSessionEnd (System.Boolean isApplicationQuit, System.Nullable`1[T] endTimeOverride) [0x00047] in <4184af8dbeb44635831353f4d349631c>:0 
+	  at BattleTech.Network.Services.BattleTechAnalyticsAPI.ReportSessionEndHandler (MessageCenterMessage message) [0x00008] in <4184af8dbeb44635831353f4d349631c>:0 
+	  at MessageCenter.SendMessagesForType (MessageCenterMessageType messageType, MessageCenterMessage message) [0x00037] in <4184af8dbeb44635831353f4d349631c>:0 
+00:52:16.782 Unity [LOG] Stopping ThreadPool
+00:52:16.783 Unity [LOG] Threadpool stopped
+00:52:17.451 Unity [ERROR] NullReferenceException: Object reference not set to an instance of an object
+00:52:17.451 Unity [ERROR] NullReferenceException: Object reference not set to an instance of an object

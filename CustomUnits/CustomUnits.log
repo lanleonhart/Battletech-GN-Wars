@@ -1,5 +1,5 @@
-[22:44:38.467]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits version: 0.0.0.119
-[22:44:38.468]Loading buildin shaders
+[20:26:56.424]Initing... C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits version: 0.0.0.119
+[20:26:56.425]Loading buildin shaders
  shader found Legacy Shaders/Particles/Alpha Blended Premultiply:262
  shader not found Mobile/Particles/Additive
  shader not found Particles/Alpha Blended
@@ -43,12 +43,12 @@
   srm4 lrm5:0.9 lrm10:0.5 lrm15:0.4 arrow:0.8 lrm20:0.3 srm2:0.9 srm4:1 srm6:0.9
   srm2 lrm5:0.6 lrm10:0.2 lrm15:0.2 arrow:0.5 lrm20:0.2 srm2:1 srm4:0.6 srm6:0.6
   arrow arrow:1
-[22:44:38.559]Helper assembly CustomUnitsHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:44:39.013]MechRepresentation.LateUpdate Transpiler
+[20:26:56.492]Helper assembly CustomUnitsHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[20:26:56.813]MechRepresentation.LateUpdate Transpiler
  found AudioEventManager.CreateVOQueue call 46
  found AudioEventManager.QueueVOEvent call 4C
  found AudioEventManager.StartVOQueue call 4F
-[22:44:39.035]Mech.CanEngageTarget searching
+[20:26:56.829]Mech.CanEngageTarget searching
  get_GameRep
  get_PilotableActorDef
  get_MechDef
@@ -226,32 +226,13 @@
   params:2
    BattleTech.ICombatant
    System.String&
-[22:44:39.216]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
-[22:44:39.217]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[20:26:56.961]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[20:26:56.961]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
 ToHit.GetAllModifiers transpliter
  source method found
  target method found
-[22:44:39.701]SGRoomController_MechBay.Prepare p_Unlocks not null
-[22:44:39.702]SGRoomController_MechBay.Prepare p_Unlocks not null
-ToHit.GetAllModifiers transpliter
- source method found
- target method found
- methodCallIndex found 55
-  result[54].opcode = ldc.i4.0
-  result[53].opcode = ldarg.s
-  result[52].opcode = ldarg.0
- this opcode found changing to attacker
-ToHit.GetAllModifiers transpliter
- source method found
- target method found
- methodCallIndex found 58
-  result[57].opcode = ldc.i4.0
-  result[56].opcode = ldarg.s
-  result[55].opcode = ldarg.0
- this opcode found changing to attacker
-[22:44:40.037]UnitSpawnPointGameLogic.Spawn Transpiler
-[22:44:40.118]MWTrayState:MWTrayState
-[22:44:40.119]MWTrayState:MWTrayState
+[20:26:57.320]SGRoomController_MechBay.Prepare p_Unlocks not null
+[20:26:57.320]SGRoomController_MechBay.Prepare p_Unlocks not null
 ToHit.GetAllModifiers transpliter
  source method found
  target method found
@@ -268,6 +249,9 @@ ToHit.GetAllModifiers transpliter
   result[56].opcode = ldarg.s
   result[55].opcode = ldarg.0
  this opcode found changing to attacker
+[20:26:57.551]UnitSpawnPointGameLogic.Spawn Transpiler
+[20:26:57.633]MWTrayState:MWTrayState
+[20:26:57.634]MWTrayState:MWTrayState
 ToHit.GetAllModifiers transpliter
  source method found
  target method found
@@ -284,7 +268,23 @@ ToHit.GetAllModifiers transpliter
   result[56].opcode = ldarg.s
   result[55].opcode = ldarg.0
  this opcode found changing to attacker
-[22:44:45.864]FinishedLoading
+ToHit.GetAllModifiers transpliter
+ source method found
+ target method found
+ methodCallIndex found 55
+  result[54].opcode = ldc.i4.0
+  result[53].opcode = ldarg.s
+  result[52].opcode = ldarg.0
+ this opcode found changing to attacker
+ToHit.GetAllModifiers transpliter
+ source method found
+ target method found
+ methodCallIndex found 58
+  result[57].opcode = ldc.i4.0
+  result[56].opcode = ldarg.s
+  result[55].opcode = ldarg.0
+ this opcode found changing to attacker
+[20:27:01.226]FinishedLoading
  Assembly:mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
  Assembly:ModTekPreloader, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
@@ -413,27 +413,27 @@ ToHit.GetAllModifiers transpliter
  Assembly:Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
  Assembly:HarmonySharedState, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
- Assembly:BattletechPerformanceFix, Version=2.13.0.18294, Culture=neutral, PublicKeyToken=null
- Assembly:CrystalClear, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:CustomComponents, Version=8.5.1.0, Culture=neutral, PublicKeyToken=null
+ Assembly:IRBTModUtils, Version=1.21.0.0, Culture=neutral, PublicKeyToken=null
+ Assembly:MechEngineer, Version=2.3.11.0, Culture=neutral, PublicKeyToken=null
  Assembly:CustomLocalization, Version=0.0.0.39, Culture=neutral, PublicKeyToken=null
+ Assembly:BattletechPerformanceFix, Version=2.13.0.18294, Culture=neutral, PublicKeyToken=null
+ Assembly:CommanderPortraitLoader, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null
+ Assembly:CrystalClear, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:CustomLocalSettings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ Assembly:CustomPilotDecorator, Version=0.0.0.2, Culture=neutral, PublicKeyToken=null
  Assembly:CustomPrewarm, Version=0.0.0.8, Culture=neutral, PublicKeyToken=null
  Assembly:CustomVoices, Version=0.0.0.10, Culture=neutral, PublicKeyToken=null
  Assembly:ManagedBass, Version=3.1.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
- Assembly:IRBTModUtils, Version=1.21.0.0, Culture=neutral, PublicKeyToken=null
  Assembly:MechEditorMod, Version=1.0.0.6, Culture=neutral, PublicKeyToken=null
- Assembly:MechEngineer, Version=2.3.11.0, Culture=neutral, PublicKeyToken=null
  Assembly:MissionControl, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null
  Assembly:SkipIntro, Version=1.8.0.38578, Culture=neutral, PublicKeyToken=null
- Assembly:CommanderPortraitLoader, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null
  Assembly:CustomAmmoCategories, Version=0.0.1.223, Culture=neutral, PublicKeyToken=null
  Assembly:CustomAmmoCategoriesPrivate, Version=0.0.0.2, Culture=neutral, PublicKeyToken=null
  Assembly:MessagePack, Version=1.7.3.7, Culture=neutral, PublicKeyToken=b4a0369545f0a1be
  Assembly:AttackImprovementMod, Version=3.1.0.44, Culture=neutral, PublicKeyToken=null
  Assembly:CustomActivatableEquipment, Version=0.0.0.105, Culture=neutral, PublicKeyToken=null
- Assembly:CustomPilotDecorator, Version=0.0.0.2, Culture=neutral, PublicKeyToken=null
  Assembly:CustomUnits, Version=0.0.0.119, Culture=neutral, PublicKeyToken=null
  Assembly:CustomDeploy, Version=0.0.0.2, Culture=neutral, PublicKeyToken=null
  Assembly:CustomUnitsHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -447,13 +447,10 @@ ToHit.GetAllModifiers transpliter
  Assembly:System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
  MechEngineer.Features.OverrideStatTooltips.Helper.MechDefMovementStatistics found MechDefMovementStatistics
   MechEngineer.Features.OverrideStatTooltips.Helper.MechDefMovementStatistics GetJumpCapacity found
-[22:44:45.969]customResource:CustomMechRepresentationDef
-[22:44:45.969]customResource:CustomPrefabDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_left_leg.json
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_right_leg.json
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_torso.json
-[22:44:45.975]customResource:DropSlotsDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_simgame_layout.json
+[20:27:01.332]customResource:CustomMechRepresentationDef
+[20:27:01.332]customResource:CustomPrefabDef
+[20:27:01.332]customResource:DropSlotsDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_simgame_layout.json
  id:default_simgame_layout
  {
   "Description": {
@@ -469,7 +466,7 @@ ToHit.GetAllModifiers transpliter
     "default_default_lance2"
   ]
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_skirmish_layout.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_skirmish_layout.json
  id:default_skirmish_layout
  {
   "Description": {
@@ -485,8 +482,8 @@ ToHit.GetAllModifiers transpliter
     "default_default_lance2"
   ]
 }
-[22:44:45.983]customResource:DropLanceDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance1.json
+[20:27:01.337]customResource:DropLanceDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance1.json
  id:default_default_lance1
  {
   "Description": {
@@ -506,7 +503,7 @@ ToHit.GetAllModifiers transpliter
     "default_vehicle_slot"
   ]
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance2.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance2.json
  id:default_default_lance2
  {
   "Description": {
@@ -523,8 +520,8 @@ ToHit.GetAllModifiers transpliter
     "default_omni_hotdrop"
   ]
 }
-[22:44:45.987]customResource:DropSlotDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_mech_slot.json
+[20:27:01.340]customResource:DropSlotDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_mech_slot.json
  id:default_mech_slot
  {
   "Description": {
@@ -541,7 +538,7 @@ ToHit.GetAllModifiers transpliter
   "HotDrop": false,
   "UseMaxUnits": true
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_hotdrop.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_hotdrop.json
  id:default_omni_hotdrop
  {
   "Description": {
@@ -560,7 +557,7 @@ ToHit.GetAllModifiers transpliter
   "HotDrop": true,
   "UseMaxUnits": false
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_slot.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_slot.json
  id:default_omni_slot
  {
   "Description": {
@@ -578,7 +575,7 @@ ToHit.GetAllModifiers transpliter
   "HotDrop": false,
   "UseMaxUnits": true
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_vehicle_slot.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_vehicle_slot.json
  id:default_vehicle_slot
  {
   "Description": {
@@ -595,8 +592,8 @@ ToHit.GetAllModifiers transpliter
   "HotDrop": false,
   "UseMaxUnits": true
 }
-[22:44:45.990]customResource:DropSlotDecorationDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_hotdrop.json
+[20:27:01.342]customResource:DropSlotDecorationDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_hotdrop.json
  id:decoration_slot_hotdrop
  {
   "Description": {
@@ -606,7 +603,7 @@ ToHit.GetAllModifiers transpliter
     "Icon": "landing-safe-svgrepo-com"
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_mech.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_mech.json
  id:decoration_slot_mech
  {
   "Description": {
@@ -616,7 +613,7 @@ ToHit.GetAllModifiers transpliter
     "Icon": "battle-mech"
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_vehicle.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_vehicle.json
  id:decoration_slot_vehicle
  {
   "Description": {
@@ -626,8 +623,8 @@ ToHit.GetAllModifiers transpliter
     "Icon": "tank"
   }
 }
-[22:44:45.992]customResource:PilotingClassDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericMechClass.json
+[20:27:01.344]customResource:PilotingClassDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericMechClass.json
  id:GenericMechClass
  {
   "unitTags": [
@@ -646,7 +643,7 @@ ToHit.GetAllModifiers transpliter
   "expertiseGenerationMinCount": 1,
   "ExcludeClasses": []
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericVehicleClass.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericVehicleClass.json
  id:GenericVehicleClass
  {
   "unitTags": [
@@ -665,8 +662,8 @@ ToHit.GetAllModifiers transpliter
   "expertiseGenerationMinCount": 1,
   "ExcludeClasses": []
 }
-[22:44:45.996]customResource:DropClassDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericMechClass.json
+[20:27:01.346]customResource:DropClassDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericMechClass.json
  id:GenericMechClass
  {
   "Description": {
@@ -676,7 +673,7 @@ ToHit.GetAllModifiers transpliter
     "Icon": null
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericVehicleClass.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericVehicleClass.json
  id:GenericVehicleClass
  {
   "Description": {
@@ -686,8 +683,8 @@ ToHit.GetAllModifiers transpliter
     "Icon": null
   }
 }
-[22:44:45.999]customResource:CustomHangarDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\battle_armor_bays.json
+[20:27:01.348]customResource:CustomHangarDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\battle_armor_bays.json
  id:battle_armor_bays
  {
   "Description": {
@@ -698,7 +695,7 @@ ToHit.GetAllModifiers transpliter
   },
   "PositionShift": 200
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\vehicle_bays.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\vehicle_bays.json
  id:vehicle_bays
  {
   "Description": {
@@ -709,18 +706,17 @@ ToHit.GetAllModifiers transpliter
   },
   "PositionShift": 100
 }
-[22:44:46.004]PilotingClassHelper.Validate
+[20:27:01.351]PilotingClassHelper.Validate
  GenericMechClass
  GenericVehicleClass
-[22:44:46.011]Harmony log Mech.InitGameRep
+[20:27:01.356]Harmony log Mech.InitGameRep
  Prefixes:
   MechEngineer.Features.HardpointFix index:1 method:Prefix
   io.mission.customunits index:2 method:InitGameRepStatic
  Postfixes:
   MechEngineer.Features.HardpointFix index:1 method:Postfix
-[22:44:47.231]SaveManager:C:/Users/Silver/AppData/LocalLow/Harebrained Schemes/BATTLETECH\S0
-flush
-[22:44:49.279]ApplicationConstants.FromJSON. PrewarmRequests:
+[20:27:02.341]SaveManager:C:/Users/Aegis/AppData/LocalLow/Harebrained Schemes/BATTLETECH\S0
+[20:27:03.421]ApplicationConstants.FromJSON. PrewarmRequests:
  BaseDescriptionDef:All
  VehicleDef:All
  AmmunitionDef:All
@@ -765,14 +761,14 @@ flush
  additional melee def:Weapon_MeleeAttack
  chassisdef_shadowhawk_SHD-2H  isFake:False
  additional melee def:Weapon_MeleeAttack
-[22:44:50.026]ContentPackIndex.TryFinalizeDataLoad
-[22:44:50.036]ContentPackIndex.TryFinalizeDataLoad
-[22:44:50.064]ContentPackIndex.TryFinalizeDataLoad
-[22:44:50.064]ContentPackIndex.TryFinalizeDataLoad
-[22:44:50.069]ContentPackIndex.TryFinalizeDataLoad
-[22:44:50.081]ContentPackIndex.TryFinalizeDataLoad
-[22:44:50.155]ContentPackIndex.TryFinalizeDataLoad
-[22:44:50.533]ContentPackIndex.TryFinalizeDataLoad
+[20:27:03.983]ContentPackIndex.TryFinalizeDataLoad
+[20:27:03.992]ContentPackIndex.TryFinalizeDataLoad
+[20:27:04.013]ContentPackIndex.TryFinalizeDataLoad
+[20:27:04.013]ContentPackIndex.TryFinalizeDataLoad
+[20:27:04.074]ContentPackIndex.TryFinalizeDataLoad
+[20:27:04.082]ContentPackIndex.TryFinalizeDataLoad
+[20:27:04.201]ContentPackIndex.TryFinalizeDataLoad
+[20:27:04.432]ContentPackIndex.TryFinalizeDataLoad
  adding MechDef vehicledef_APC_Sleipnir data/vehicle/vehicledef_APC_Sleipnir.json
  adding MechDef vehicledef_APC_Vargr data/vehicle/vehicledef_APC_Vargr.json
  adding MechDef vehicledef_APC_Wheeled data/vehicle/vehicledef_APC_Wheeled.json
@@ -838,180 +834,181 @@ flush
  adding ChassisDef vehiclechassisdef_SCHREK_SPPC Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/vehiclechassisdef_SCHREK_SPPC.json
  adding ChassisDef vehiclechassisdef_SCORPION_MKII Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/vehiclechassisdef_SCORPION_MKII.json
  adding ChassisDef vehiclechassisdef_STRIKER_Narc Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/vehiclechassisdef_STRIKER_Narc.json
-[22:44:51.124]DataManager.PoolGameObject IntroCinematicLauncher(IntroCinematicLauncher(Clone)) -> null
-[22:44:51.698]MechDef.CollectInventoryPrefabs mechdef_spider_SDR-5V inventory:10
- index:0 index:1 index:2 index:3 index:4 index:5 index:6 index:7 index:8 index:9 chassisdef_spider_SDR-5V  isFake:False
+[20:27:04.731]DataManager.PoolGameObject IntroCinematicLauncher(IntroCinematicLauncher(Clone)) -> null
+[20:27:05.414]MechDef.CollectInventoryPrefabs mechdef_spider_SDR-5V inventory:33
+ index:0 index:1 index:2 index:3 index:4 index:5 index:6 index:7 index:8 index:9 index:10 index:11 index:12 index:13 index:14 index:15 index:16 index:17 index:18 index:19 index:20 index:21 index:22 index:23 index:24 index:25 index:26 index:27 index:28 index:29 index:30 index:31 index:32 chassisdef_spider_SDR-5V  isFake:False
  additional melee def:Weapon_MeleeAttack
-[22:44:54.017]VehicleDef.RequestInventoryPrefabs
-[22:44:54.017]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:null
+flush
+[20:27:07.462]VehicleDef.RequestInventoryPrefabs
+[20:27:07.462]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.017]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Sleipnir chassis:vehiclechassisdef_APC_Sleipnir
-[22:44:54.019]VehicleDef.RequestInventoryPrefabs
-[22:44:54.019]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:null
+[20:27:07.462]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Sleipnir chassis:vehiclechassisdef_APC_Sleipnir
+[20:27:07.464]VehicleDef.RequestInventoryPrefabs
+[20:27:07.464]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.019]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Vargr chassis:vehiclechassisdef_APC_Vargr
-[22:44:54.020]VehicleDef.RequestInventoryPrefabs
-[22:44:54.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:null
+[20:27:07.464]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Vargr chassis:vehiclechassisdef_APC_Vargr
+[20:27:07.464]VehicleDef.RequestInventoryPrefabs
+[20:27:07.464]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.020]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Wheeled chassis:vehiclechassisdef_APC_Wheeled
-[22:44:54.020]VehicleDef.RequestInventoryPrefabs
-[22:44:54.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:null
+[20:27:07.464]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Wheeled chassis:vehiclechassisdef_APC_Wheeled
+[20:27:07.465]VehicleDef.RequestInventoryPrefabs
+[20:27:07.465]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.020]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_BULLDOG chassis:vehiclechassisdef_BULLDOG
-[22:44:54.021]VehicleDef.RequestInventoryPrefabs
-[22:44:54.021]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:null
+[20:27:07.465]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_BULLDOG chassis:vehiclechassisdef_BULLDOG
+[20:27:07.467]VehicleDef.RequestInventoryPrefabs
+[20:27:07.467]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.021]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_LRM chassis:vehiclechassisdef_CARRIER_LRM
-[22:44:54.022]VehicleDef.RequestInventoryPrefabs
-[22:44:54.022]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:null
+[20:27:07.467]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_LRM chassis:vehiclechassisdef_CARRIER_LRM
+[20:27:07.468]VehicleDef.RequestInventoryPrefabs
+[20:27:07.468]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.022]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_SRM chassis:vehiclechassisdef_CARRIER_SRM
-[22:44:54.023]VehicleDef.RequestInventoryPrefabs
-[22:44:54.023]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:null
+[20:27:07.468]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_SRM chassis:vehiclechassisdef_CARRIER_SRM
+[20:27:07.469]VehicleDef.RequestInventoryPrefabs
+[20:27:07.469]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.023]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER chassis:vehiclechassisdef_DEMOLISHER
-[22:44:54.069]VehicleDef.RequestInventoryPrefabs
-[22:44:54.069]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:null
+[20:27:07.469]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER chassis:vehiclechassisdef_DEMOLISHER
+[20:27:07.469]VehicleDef.RequestInventoryPrefabs
+[20:27:07.469]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.069]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON chassis:vehiclechassisdef_GALLEON
-[22:44:54.071]VehicleDef.RequestInventoryPrefabs
-[22:44:54.071]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:null
+[20:27:07.469]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON chassis:vehiclechassisdef_GALLEON
+[20:27:07.470]VehicleDef.RequestInventoryPrefabs
+[20:27:07.470]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.071]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MANTICORE chassis:vehiclechassisdef_MANTICORE
-[22:44:54.072]VehicleDef.RequestInventoryPrefabs
-[22:44:54.072]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
+[20:27:07.470]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MANTICORE chassis:vehiclechassisdef_MANTICORE
+[20:27:07.471]VehicleDef.RequestInventoryPrefabs
+[20:27:07.471]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.072]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ chassis:vehiclechassisdef_MOBILEHQ
-[22:44:54.073]VehicleDef.RequestInventoryPrefabs
-[22:44:54.073]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
+[20:27:07.471]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ chassis:vehiclechassisdef_MOBILEHQ
+[20:27:07.472]VehicleDef.RequestInventoryPrefabs
+[20:27:07.472]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.073]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ_ARMORED chassis:vehiclechassisdef_MOBILEHQ
-[22:44:54.073]VehicleDef.RequestInventoryPrefabs
-[22:44:54.073]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:null
+[20:27:07.472]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ_ARMORED chassis:vehiclechassisdef_MOBILEHQ
+[20:27:07.473]VehicleDef.RequestInventoryPrefabs
+[20:27:07.473]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.073]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK chassis:vehiclechassisdef_SCHREK
-[22:44:54.074]VehicleDef.RequestInventoryPrefabs
-[22:44:54.074]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:null
+[20:27:07.473]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK chassis:vehiclechassisdef_SCHREK
+[20:27:07.474]VehicleDef.RequestInventoryPrefabs
+[20:27:07.474]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.074]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION chassis:vehiclechassisdef_SCORPION
-[22:44:54.075]VehicleDef.RequestInventoryPrefabs
-[22:44:54.075]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
+[20:27:07.474]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION chassis:vehiclechassisdef_SCORPION
+[20:27:07.475]VehicleDef.RequestInventoryPrefabs
+[20:27:07.475]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.075]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
-[22:44:54.076]VehicleDef.RequestInventoryPrefabs
-[22:44:54.076]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
+[20:27:07.475]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
+[20:27:07.475]VehicleDef.RequestInventoryPrefabs
+[20:27:07.475]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.076]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
-[22:44:54.076]VehicleDef.RequestInventoryPrefabs
-[22:44:54.076]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:null
+[20:27:07.475]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
+[20:27:07.476]VehicleDef.RequestInventoryPrefabs
+[20:27:07.476]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.076]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER chassis:vehiclechassisdef_STRIKER
-[22:44:54.077]VehicleDef.RequestInventoryPrefabs
-[22:44:54.077]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:null
+[20:27:07.476]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER chassis:vehiclechassisdef_STRIKER
+[20:27:07.477]VehicleDef.RequestInventoryPrefabs
+[20:27:07.477]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.077]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND chassis:vehiclechassisdef_SWIFTWIND
-[22:44:54.077]VehicleDef.RequestInventoryPrefabs
-[22:44:54.077]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:null
+[20:27:07.477]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND chassis:vehiclechassisdef_SWIFTWIND
+[20:27:07.478]VehicleDef.RequestInventoryPrefabs
+[20:27:07.478]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.077]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND_ARMORED chassis:vehiclechassisdef_SWIFTWIND_ARMORED
-[22:44:54.078]VehicleDef.RequestInventoryPrefabs
-[22:44:54.078]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:null
+[20:27:07.478]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND_ARMORED chassis:vehiclechassisdef_SWIFTWIND_ARMORED
+[20:27:07.478]VehicleDef.RequestInventoryPrefabs
+[20:27:07.478]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.078]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE1 chassis:vehiclechassisdef_TARGETVEHICLE1
-[22:44:54.079]VehicleDef.RequestInventoryPrefabs
-[22:44:54.079]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:null
+[20:27:07.478]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE1 chassis:vehiclechassisdef_TARGETVEHICLE1
+[20:27:07.479]VehicleDef.RequestInventoryPrefabs
+[20:27:07.479]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.079]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE2 chassis:vehiclechassisdef_TARGETVEHICLE2
-[22:44:54.079]VehicleDef.RequestInventoryPrefabs
-[22:44:54.079]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
+[20:27:07.479]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE2 chassis:vehiclechassisdef_TARGETVEHICLE2
+[20:27:07.480]VehicleDef.RequestInventoryPrefabs
+[20:27:07.480]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.079]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_AMMOTRANSPORT chassis:vehiclechassisdef_MOBILEHQ
-[22:44:54.081]VehicleDef.RequestInventoryPrefabs
-[22:44:54.081]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:null
+[20:27:07.480]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_AMMOTRANSPORT chassis:vehiclechassisdef_MOBILEHQ
+[20:27:07.481]VehicleDef.RequestInventoryPrefabs
+[20:27:07.481]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.081]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLANT chassis:vehiclechassisdef_GALLANT
-[22:44:54.081]VehicleDef.RequestInventoryPrefabs
-[22:44:54.081]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:null
+[20:27:07.481]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLANT chassis:vehiclechassisdef_GALLANT
+[20:27:07.481]VehicleDef.RequestInventoryPrefabs
+[20:27:07.481]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.081]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_PACKRAT chassis:vehiclechassisdef_PACKRAT
-[22:44:54.082]VehicleDef.RequestInventoryPrefabs
-[22:44:54.082]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:null
+[20:27:07.481]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_PACKRAT chassis:vehiclechassisdef_PACKRAT
+[20:27:07.482]VehicleDef.RequestInventoryPrefabs
+[20:27:07.482]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.082]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_ROTUNDA chassis:vehiclechassisdef_ROTUNDA
-[22:44:54.083]VehicleDef.RequestInventoryPrefabs
-[22:44:54.083]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:null
+[20:27:07.482]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_ROTUNDA chassis:vehiclechassisdef_ROTUNDA
+[20:27:07.483]VehicleDef.RequestInventoryPrefabs
+[20:27:07.483]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.083]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Alsvin chassis:vehiclechassisdef_APC_Alsvin
-[22:44:54.083]VehicleDef.RequestInventoryPrefabs
-[22:44:54.083]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:null
+[20:27:07.483]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Alsvin chassis:vehiclechassisdef_APC_Alsvin
+[20:27:07.483]VehicleDef.RequestInventoryPrefabs
+[20:27:07.483]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.083]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Arvakr chassis:vehiclechassisdef_APC_Arvakr
-[22:44:54.084]VehicleDef.RequestInventoryPrefabs
-[22:44:54.084]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:null
+[20:27:07.483]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Arvakr chassis:vehiclechassisdef_APC_Arvakr
+[20:27:07.484]VehicleDef.RequestInventoryPrefabs
+[20:27:07.484]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.084]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_Inferno chassis:vehiclechassisdef_CARRIER_Inferno
-[22:44:54.085]VehicleDef.RequestInventoryPrefabs
-[22:44:54.085]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:null
+[20:27:07.484]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_Inferno chassis:vehiclechassisdef_CARRIER_Inferno
+[20:27:07.484]VehicleDef.RequestInventoryPrefabs
+[20:27:07.484]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.085]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER_LBX chassis:vehiclechassisdef_DEMOLISHER_LBX
-[22:44:54.085]VehicleDef.RequestInventoryPrefabs
-[22:44:54.085]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:null
+[20:27:07.484]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER_LBX chassis:vehiclechassisdef_DEMOLISHER_LBX
+[20:27:07.485]VehicleDef.RequestInventoryPrefabs
+[20:27:07.485]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.085]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON_TAG chassis:vehiclechassisdef_GALLEON_TAG
-[22:44:54.086]VehicleDef.RequestInventoryPrefabs
-[22:44:54.086]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
+[20:27:07.485]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON_TAG chassis:vehiclechassisdef_GALLEON_TAG
+[20:27:07.486]VehicleDef.RequestInventoryPrefabs
+[20:27:07.486]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.086]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
-[22:44:54.087]VehicleDef.RequestInventoryPrefabs
-[22:44:54.087]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
+[20:27:07.486]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
+[20:27:07.486]VehicleDef.RequestInventoryPrefabs
+[20:27:07.486]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.087]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
-[22:44:54.087]VehicleDef.RequestInventoryPrefabs
-[22:44:54.087]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:null
+[20:27:07.486]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
+[20:27:07.487]VehicleDef.RequestInventoryPrefabs
+[20:27:07.487]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.087]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK_SPPC chassis:vehiclechassisdef_SCHREK_SPPC
-[22:44:54.088]VehicleDef.RequestInventoryPrefabs
-[22:44:54.088]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:null
+[20:27:07.487]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK_SPPC chassis:vehiclechassisdef_SCHREK_SPPC
+[20:27:07.487]VehicleDef.RequestInventoryPrefabs
+[20:27:07.487]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.088]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION_MKII chassis:vehiclechassisdef_SCORPION_MKII
-[22:44:54.088]VehicleDef.RequestInventoryPrefabs
-[22:44:54.088]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:null
+[20:27:07.487]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION_MKII chassis:vehiclechassisdef_SCORPION_MKII
+[20:27:07.488]VehicleDef.RequestInventoryPrefabs
+[20:27:07.488]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:null
  DataManager:not null
  VehicleChassis:False
-[22:44:54.088]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER_Narc chassis:vehiclechassisdef_STRIKER_Narc
+[20:27:07.488]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER_Narc chassis:vehiclechassisdef_STRIKER_Narc
  vehiclechassisdef_APC_Sleipnir
  additional melee def:Weapon_MeleeAttack
  vehiclechassisdef_APC_Vargr
@@ -1072,45 +1069,45 @@ flush
  additional melee def:Weapon_MeleeAttack
  vehiclechassisdef_STRIKER_Narc
  additional melee def:Weapon_MeleeAttack
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:not null
-[22:44:54.666]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:not null
-[22:44:54.667]HardpointDataDef.Loaded:hardpointdatadef_rotunda HardpointData:1
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:not null
-[22:44:54.671]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:not null
-[22:44:54.674]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
-[22:44:54.674]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:not null
-[22:44:56.135]HUDMechArmorReadout.Init gameObject:uixPrfPanl_SIM_mechPaperdoll-Element-MANAGED parent:obj_paperdoll
-[22:44:56.156]HUDMechArmorReadout.BayShowMech null
-[22:44:56.178]DataManager.PoolGameObject uixPrfWidget_profileBreadcrumb_widget(uixPrfWidget_profileBreadcrumb_widget(Clone)) -> null
-[22:44:56.178]DataManager.PoolGameObject uixPrfPanl_mainMenu-Screen_V3(uixPrfPanl_mainMenu-Screen_V3(Clone)) -> null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:not null
+[20:27:08.020]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:not null
+[20:27:08.021]HardpointDataDef.Loaded:hardpointdatadef_rotunda HardpointData:1
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:not null
+[20:27:08.025]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:not null
+[20:27:08.038]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
+[20:27:08.038]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:not null
+[20:27:10.049]HUDMechArmorReadout.Init gameObject:uixPrfPanl_SIM_mechPaperdoll-Element-MANAGED parent:obj_paperdoll
+[20:27:10.066]HUDMechArmorReadout.BayShowMech null
+[20:27:10.076]DataManager.PoolGameObject uixPrfWidget_profileBreadcrumb_widget(uixPrfWidget_profileBreadcrumb_widget(Clone)) -> null
+[20:27:10.076]DataManager.PoolGameObject uixPrfPanl_mainMenu-Screen_V3(uixPrfPanl_mainMenu-Screen_V3(Clone)) -> null
  chassisdef_atlas_AS7-D-HT  isFake:False
  additional melee def:Weapon_MeleeAttack
  chassisdef_atlas_AS7-D  isFake:False
@@ -1352,102 +1349,224 @@ flush
  additional melee def:Weapon_MeleeAttack
  vehiclechassisdef_APC_Sleipnir  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.723]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Sleipnir
+[20:27:10.614]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Sleipnir
  vehiclechassisdef_APC_Vargr  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.725]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Vargr
+[20:27:10.616]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Vargr
  vehiclechassisdef_APC_Wheeled  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.727]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Wheeled
+[20:27:10.618]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Wheeled
  vehiclechassisdef_BULLDOG  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.729]ChassisDef.GatherDependencies fake vehiclechassisdef_BULLDOG
+[20:27:10.620]ChassisDef.GatherDependencies fake vehiclechassisdef_BULLDOG
  vehiclechassisdef_CARRIER_LRM  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.732]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_LRM
+[20:27:10.621]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_LRM
  vehiclechassisdef_CARRIER_SRM  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.734]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_SRM
+[20:27:10.623]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_SRM
  vehiclechassisdef_DEMOLISHER  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.736]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER
+[20:27:10.625]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER
  vehiclechassisdef_GALLEON  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.739]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON
+[20:27:10.627]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON
  vehiclechassisdef_MANTICORE  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.741]ChassisDef.GatherDependencies fake vehiclechassisdef_MANTICORE
+[20:27:10.629]ChassisDef.GatherDependencies fake vehiclechassisdef_MANTICORE
  vehiclechassisdef_MOBILEHQ  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.743]ChassisDef.GatherDependencies fake vehiclechassisdef_MOBILEHQ
+[20:27:10.630]ChassisDef.GatherDependencies fake vehiclechassisdef_MOBILEHQ
  vehiclechassisdef_SCHREK  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.746]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK
+[20:27:10.632]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK
  vehiclechassisdef_SCORPION  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.748]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION
+[20:27:10.634]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION
  vehiclechassisdef_SLDFDroneHeavy  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.750]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneHeavy
+[20:27:10.636]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneHeavy
  vehiclechassisdef_SLDFDroneMedium  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.752]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneMedium
+[20:27:10.637]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneMedium
  vehiclechassisdef_STRIKER  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.754]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER
+[20:27:10.639]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER
  vehiclechassisdef_SWIFTWIND  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.756]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND
+[20:27:10.641]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND
  vehiclechassisdef_SWIFTWIND_ARMORED  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.759]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND_ARMORED
+[20:27:10.642]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND_ARMORED
  vehiclechassisdef_TARGETVEHICLE1  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.761]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE1
+[20:27:10.644]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE1
  vehiclechassisdef_TARGETVEHICLE2  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.763]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE2
+[20:27:10.645]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE2
  vehiclechassisdef_GALLANT  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.765]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLANT
+[20:27:10.647]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLANT
  vehiclechassisdef_PACKRAT  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.767]ChassisDef.GatherDependencies fake vehiclechassisdef_PACKRAT
+[20:27:10.648]ChassisDef.GatherDependencies fake vehiclechassisdef_PACKRAT
  vehiclechassisdef_ROTUNDA  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.769]ChassisDef.GatherDependencies fake vehiclechassisdef_ROTUNDA
+[20:27:10.650]ChassisDef.GatherDependencies fake vehiclechassisdef_ROTUNDA
  vehiclechassisdef_APC_Alsvin  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.771]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Alsvin
+[20:27:10.651]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Alsvin
  vehiclechassisdef_APC_Arvakr  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.773]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Arvakr
+[20:27:10.653]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Arvakr
  vehiclechassisdef_CARRIER_Inferno  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.775]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_Inferno
+[20:27:10.654]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_Inferno
  vehiclechassisdef_DEMOLISHER_LBX  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.777]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER_LBX
+[20:27:10.655]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER_LBX
  vehiclechassisdef_GALLEON_TAG  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.779]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON_TAG
+[20:27:10.701]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON_TAG
  vehiclechassisdef_SCHREK_SPPC  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.781]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK_SPPC
+[20:27:10.703]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK_SPPC
  vehiclechassisdef_SCORPION_MKII  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.783]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION_MKII
+[20:27:10.704]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION_MKII
  vehiclechassisdef_STRIKER_Narc  isFake:True
  additional melee def:Weapon_MeleeAttack
-[22:44:56.785]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER_Narc
+[20:27:10.706]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER_Narc
  chassisdef_locust_LCT-1Vb  isFake:False
  additional melee def:Weapon_MeleeAttack
- chassisdef_marauder_MAD-GN-000  isFake:False
+ chassisdef_atlas_AS7-A  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_atlas_AS7-D-DC  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_atlas_AS7-RS  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_awesome_AWS-8R  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_awesome_AWS-8V  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_banshee_BNC-3Q  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_battlemaster_BLR-1D  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_battlemaster_BLR-1G-DC  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_blackjack_BJ-1DC  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_blackjack_BJ-1X  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_blackknight_BL-7-KNT-L  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_blackknight_BL-7-KNT  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_cataphract_CTF-2X  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_cataphract_CTF-4X  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_catapult_CPLT-A1  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_centurion_CN9-AH  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_cicada_CDA-2B  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_commando_COM-1C  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_commando_COM-1D  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_commando_COM-2D-BI  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_commando_COM-3A  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_dragon_DRG-1C  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_enforcer_ENF-3R  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_firestarter_FS9-A  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_firestarter_FS9-K  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_firestarter_FS9-M  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_griffin_GRF-2N  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_highlander_HGN-733C  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_hunchback_HBK-4H  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_hunchback_HBK-4J  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_hunchback_HBK-4N  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_hunchback_HBK-4SP  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_jagermech_JM6-B  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_jenner_JR7-A  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_jenner_JR7-F  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_locust_LCT-1L  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_locust_LCT-3V  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_orion_ON1-V-DC  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_orion_ON1-VA  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_panther_PNT-8Z  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_panther_PNT-9ALAG  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_quickdraw_QKD-4H  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_shadowhawk_SHD-2K  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_spider_SDR-5D  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_stalker_STK-3H  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_stalker_STK-4N  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_stalker_STK-4P  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_thunderbolt_TDR-5D  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_trebuchet_TBT-5J  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_trebuchet_TBT-5S  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_urbanmech_UM-R60C  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_urbanmech_UM-R60X  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_victor_VTR-9A  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_victor_VTR-9A1  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_vindicator_VND-1X  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_wolverine_WVR-6D  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_wolverine_WVR-6M  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_zeus_ZEU-6A  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_zeus_ZEU-6S-DC  isFake:False
+ additional melee def:Weapon_MeleeAttack
+ chassisdef_zeus_ZEU-6Y  isFake:False
  additional melee def:Weapon_MeleeAttack
  chassisdef_deploy_director  isFake:False
  additional melee def:Weapon_MeleeAttack
- additional melee def:Weapon_MeleeAttack  exists
- additional melee def:Weapon_MeleeAttack  exists
+[20:27:11.159]ChassisDef.DependenciesLoaded chassisdef_shadowhawk_SHD-2D loadWeight:10 is not loaded
+ component Gear_Quirk_ImprovedLifeSupport_ShadowHawk dependencies is not loaded
+ additional melee def:Weapon_MeleeAttack
+[20:27:11.161]ChassisDef.DependenciesLoaded chassisdef_shadowhawk_SHD-2H loadWeight:10 is not loaded
+ component Gear_Quirk_ImprovedLifeSupport_ShadowHawk dependencies is not loaded
+ additional melee def:Weapon_MeleeAttack
  additional melee def:Weapon_MeleeAttack  exists
 {
     "MechTags": {
@@ -1657,18 +1776,235 @@ flush
   at Newtonsoft.Json.Linq.JObject.Parse (System.String json, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0000c] in <bcfe3779d9974effb214d2a48329f488>:0 
   at Newtonsoft.Json.Linq.JObject.Parse (System.String json) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
   at CustomUnits.MechDef_FromJSON_fake.Prefix (BattleTech.MechDef __instance, System.String& json) [0x0000b] in <5e07b6184aa647a483486a467d352ca6>:0 
-[22:44:57.234]ChassisDef.DependenciesLoaded chassisdef_annihilator_ANH-1A loadWeight:10 is not loaded
- Icon uixTxrIcon_annihilator is not loaded
+[20:27:11.350]ChassisDef.DependenciesLoaded chassisdef_shadowhawk_SHD-2D loadWeight:10 is not loaded
+ component Gear_Quirk_ImprovedLifeSupport_ShadowHawk dependencies is not loaded
  additional melee def:Weapon_MeleeAttack
-[22:44:57.234]ChassisDef.DependenciesLoaded chassisdef_annihilator_ANH-JH loadWeight:10 is not loaded
- Icon uixTxrIcon_annihilator is not loaded
+[20:27:11.351]ChassisDef.DependenciesLoaded chassisdef_shadowhawk_SHD-2H loadWeight:10 is not loaded
+ component Gear_Quirk_ImprovedLifeSupport_ShadowHawk dependencies is not loaded
  additional melee def:Weapon_MeleeAttack
- additional melee def:Weapon_MeleeAttack  exists
- additional melee def:Weapon_MeleeAttack  exists
-[22:44:57.238]ChassisDef.DependenciesLoaded chassisdef_kingcrab_KGC-0000 loadWeight:10 is not loaded
- Icon uixTxrIcon_kingcrab is not loaded
- additional melee def:Weapon_MeleeAttack
-[22:44:57.238]ChassisDef.DependenciesLoaded chassisdef_kingcrab_KGC-0000 loadWeight:10 is not loaded
- Icon uixTxrIcon_kingcrab is not loaded
- additional melee def:Weapon_MeleeAttack
+[20:27:14.073]Pilot.InitAbilities pilot_kbeta_witness
+[20:27:14.073]Pilot.InitAbilities pilot_kbeta_wildfire
+[20:27:14.073]Pilot.InitAbilities pilot_kbeta_sumo
+[20:27:14.074]Pilot.InitAbilities pilot_kbeta_showboat
+[20:27:14.074]Pilot.InitAbilities pilot_kbeta_paradise
+[20:27:14.074]Pilot.InitAbilities pilot_kbeta_ozone
+[20:27:14.074]Pilot.InitAbilities pilot_kbeta_mockingbird
+[20:27:14.074]Pilot.InitAbilities pilot_kbeta_kraken
+[20:27:14.074]Pilot.InitAbilities pilot_kbeta_bulwark
+[20:27:14.074]Pilot.InitAbilities pilot_kbeta_buckshot
+[20:27:14.074]Pilot.InitAbilities pilot_kbeta_arclight
+[20:27:14.074]Pilot.InitAbilities pilot_kbeta_apex
+[20:27:14.777]sorting disabled
+[20:27:14.819]LanceLoadoutSlot.SetData -23724
+[20:27:14.820]LanceLoadoutSlot.SetData -24130
+[20:27:14.820]LanceLoadoutSlot.SetData -24536
+[20:27:14.820]LanceLoadoutSlot.SetData -24942
+[20:27:14.847]HUDMechArmorReadout.BayShowMech null
+[20:27:14.849]LanceLoadoutSlot.SetData -23724
+[20:27:14.849]LanceLoadoutSlot.SetData -24130
+[20:27:14.849]LanceLoadoutSlot.SetData -24536
+[20:27:14.849]LanceLoadoutSlot.SetData -24942
+[20:27:14.902]Pilot.InitAbilities pilot_kbeta_arclight
+[20:27:14.902]LanceLoadoutSlot.SetData -23724
+[20:27:14.926]PilotDef.DependenciesLoaded pilot_kbeta_arclight
+[20:27:14.933]LanceLoadoutSlot.OnAddItem -23724
+[20:27:14.933]LanceLoadoutSlot.OnAddItem -23724
+[20:27:14.939]Pilot.InitAbilities pilot_kbeta_kraken
+[20:27:14.939]LanceLoadoutSlot.SetData -24130
+[20:27:14.941]PilotDef.DependenciesLoaded pilot_kbeta_kraken
+[20:27:14.945]LanceLoadoutSlot.OnAddItem -24130
+[20:27:14.945]LanceLoadoutSlot.OnAddItem -24130
+[20:27:14.950]Pilot.InitAbilities pilot_kbeta_wildfire
+[20:27:14.950]LanceLoadoutSlot.SetData -24536
+[20:27:14.954]PilotDef.DependenciesLoaded pilot_kbeta_wildfire
+[20:27:14.958]LanceLoadoutSlot.OnAddItem -24536
+[20:27:14.958]LanceLoadoutSlot.OnAddItem -24536
+[20:27:14.963]Pilot.InitAbilities pilot_kbeta_bulwark
+[20:27:14.963]LanceLoadoutSlot.SetData -24942
+[20:27:14.966]PilotDef.DependenciesLoaded pilot_kbeta_bulwark
+[20:27:14.968]LanceLoadoutSlot.OnAddItem -24942
+[20:27:14.969]LanceLoadoutSlot.OnAddItem -24942
+flush
+[20:27:17.363]HUDMechArmorReadout.DisplayedMechDef mechdef_atlas_AS7-RS chassis:chassisdef_atlas_AS7-RS isFake:False info:False
+[20:27:17.363]HUDMechArmorReadout.BayShowMech chassisdef_atlas_AS7-RS
+[20:27:17.363]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_atlas_AS7-RS
+ structure 746/746
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:Head
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:Head
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:RightArm
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:LeftArm
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:RightTorso
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:LeftTorsoRear
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:CenterTorso
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:CenterTorsoRear
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:LeftTorso
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:RightTorsoRear
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:LeftArm
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:RightArm
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:RightLeg
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:LeftLeg
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:LeftLeg
+[20:27:17.364]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:RightLeg
+[20:27:17.365]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:Head
+[20:27:17.365]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:CenterTorso
+[20:27:17.365]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:LeftTorso
+[20:27:17.365]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:RightTorso
+[20:27:17.365]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:LeftArm
+[20:27:17.365]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:RightArm
+[20:27:17.365]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:LeftLeg
+[20:27:17.365]HUDMechArmorReadout.GetCurrentStructureForLocation chassisdef_atlas_AS7-RS location:RightLeg
+[20:27:17.365]HUDMechArmorReadout.ResetArmorStructureBars chassisdef_atlas_AS7-RS
+ structure 746/746
+[20:27:19.263]MechLabPanel.InitWidgets
+[20:27:19.483]MechLabPanel.OnRequestResourcesComplete prefix
+[20:27:19.938]MechLabPanel.OnRequestResourcesComplete postfix
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
 flush
