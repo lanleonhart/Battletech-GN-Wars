@@ -19,7 +19,11 @@
         "Type": "WeaponDef",
         "Path": "Weapons"
     },
-        {
+    {
+        "Type": "AudioFileSettings",
+        "Path": "audio_settings"
+      },    
+    {
             "Type": "ChassisDef",
             "Path": "Chassis"
         },
@@ -50,8 +54,13 @@
         {
             "Type": "ammunitionboxDef",
             "Path": "ammunitionbox"
-        }
-        ],
+        },
+        {
+            "Type": "AudioFile",
+            "Path": "audio"
+          }
+        
+    ],
     "DependsOn": [
 
         "MechEngineer",

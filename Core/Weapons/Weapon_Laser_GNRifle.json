@@ -27,7 +27,7 @@
     "EvasivePipsIgnored" : 2,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "AccuracyModifier" : 1,
+    "AccuracyModifier" : 6,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
@@ -50,6 +50,11 @@
     "ImprovedBallistic": true,
     "ColorChangeRule": "t0",
     "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
+    "FireDelayMultiplier": -1,
+    "preFireStartSFX": "GNBeam",
+    "preFireStopSFX": "",
+    "delayedSFX": "",
+    "delayedSFXDelay": 0,
     "Description" : {
         "Cost" : 140000,
         "Rarity" : 0,
@@ -73,8 +78,8 @@
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
-    "ProjectileSpeedMultiplier": 2,
-    "FireDelayMultiplier": 0,
+    "ProjectileSpeedMultiplier": 0.75,
+
     "Modes": [
       {
         "Id": "x1",
