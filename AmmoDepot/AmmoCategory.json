@@ -243,8 +243,8 @@
             "Name": "GNParticles",
             "FriendlyName": "GNParticles",
             "IsBallistic": false,
-            "IsMissile": true,
-            "IsEnergy": false,
+            "IsMissile": false,
+            "IsEnergy": true,
             "IsSupport": false,
             "UsesInternalAmmo": true,
             "UIColorRef": "Energy",
@@ -254,6 +254,20 @@
         },
         {
             "ID": 21,
+            "Name": "GNParticlesTau",
+            "FriendlyName": "GNParticlesTau",
+            "IsBallistic": false,
+            "IsMissile": false,
+            "IsEnergy": true,
+            "IsSupport": false,
+            "UsesInternalAmmo": true,
+            "UIColorRef": "Energy",
+            "FallbackUIColor": null,
+            "Icon": "GNParticles",
+            "OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
+        },
+        {
+            "ID": 22,
             "Name": "GNMissiles",
             "FriendlyName": "GNMissiles",
             "IsBallistic": false,
@@ -267,7 +281,7 @@
             "OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
         },
         {
-            "ID": 22,
+            "ID": 23,
             "Name": "GNMissilesTau",
             "FriendlyName": "GNMissilesTau",
             "IsBallistic": false,
@@ -276,7 +290,7 @@
             "IsSupport": false,
             "UsesInternalAmmo": true,
             "UIColorRef": "Missile",
-            "FallbackUIColor": null,
+            "FallbackUIColor": "",
             "Icon": "GNParticles",
             "OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
         }
