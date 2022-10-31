@@ -1,0 +1,145 @@
+{
+  "Custom": {
+     
+     
+      "ActivatableComponent": {
+          "ButtonName": "GN Field",
+          "CanActivateAfterFire": false,
+          "CanActivateAfterMove": false,
+          "FailFlatChance": 0.01,
+          "FailRoundsStart": 1,
+          "FailChancePerTurn": 0.12,
+          "FailCheckOnActivationEnd": true,
+          "CanNotBeActivatedManualy": false,
+          "statusEffects": [
+              {
+                "durationData": {
+                  "duration": -1,
+                  "stackLimit": -1
+                },
+                "targetingData": {
+                  "effectTargetsCreator": true,
+                  "effectTriggerType": "Passive",
+                  "effectTargetType": "Creator",
+                  "showInTargetPreview": true,
+                  "showInStatusPanel": true
+                },
+                "effectType": "StatisticEffect",
+                "Description": {
+                  "Id": "GNField",
+                  "Name": "GN Field",
+                  "Details": "GN Field reduce All Damage Taken.",
+                  "Icon": "GNField"
+                },
+                "nature": "Buff",
+                "statisticData": {
+                  "statName": "DamageReductionMultiplierAll",
+                  "operation": "Float_Multiply",
+                  "modValue": "0.4",
+                  "modType": "System.Single"
+                }
+              },
+              {
+                "durationData": {
+                  "duration": -1,
+                  "stackLimit": -1
+                },
+                "targetingData": {
+                  "effectTriggerType": "Passive",
+                  "effectTargetType": "Creator",
+                  "showInTargetPreview": false,
+                  "showInStatusPanel": false
+                },
+                "effectType": "StatisticEffect",
+                "Description": {
+                  "Id": "GN Field",
+                  "Name": "Increased Heat",
+                  "Details": "Heat generation from active GN Field",
+                  "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+                },
+                "nature": "Buff",
+                "statisticData": {
+                  "statName": "HeatGenerated",
+                  "operation": "Float_Multiply",
+                  "modValue": "1.4",
+                  "modType": "System.Single",
+                  "targetCollection": "Weapon"
+                }
+                
+              }
+            ],
+            "offlineStatusEffects": []
+      },
+  "Color": {
+              "UIColor": "Gray"
+      },
+    "CriticalEffects": {
+    "LinkedStatisticName": "GN Field"
+  },
+  "Linked": {
+     "Links": [
+          {
+            "ComponentDefId": "Linked_GNField",
+            "Location": "LeftTorso"
+          },
+          {
+            "ComponentDefId": "Linked_GNField",
+            "Location": "RightTorso"
+          },
+          {
+            "ComponentDefId": "Linked_GNField",
+            "Location": "LeftArm"
+          },
+          {
+            "ComponentDefId": "Linked_GNField",
+            "Location": "RightArm"
+          },
+          {
+            "ComponentDefId": "Linked_GNField",
+            "Location": "LeftLeg"
+          },
+          {
+            "ComponentDefId": "Linked_GNField",
+            "Location": "RightLeg"
+          },
+          {
+            "ComponentDefId": "Linked_GNField",
+            "Location": "Head"
+          }
+          
+        ]
+  }
+},
+"Description": {
+  "Cost": 2500000,
+  "Rarity": 10,
+  "Purchasable": false,
+  "Manufacturer": "Comstar",
+  "Model": "GN Field",
+  "UIName": "GN Field Generator",
+  "Id": "GN Field",
+  "Name": "GN Field",
+  "Details": "GN Fields are generated from field emitters located throughout the frame of the machine. These fields require an enormous amount of GN particles to generate. When active the field reduces incoming damage. Requires a GN Frame to equip.",
+  "Icon": "GNField"
+},
+"BonusValueA": "-60% Damage Taken",
+"BonusValueB": ", +40 Heat Generation",
+"ComponentType": "Upgrade",
+"ComponentSubType": "NotSet",
+"PrefabIdentifier": "",
+"BattleValue": 0,
+"InventorySize": 2,
+"Tonnage": 5,
+"AllowedLocations": "CenterTorso",
+"DisallowedLocations": "All",
+"CriticalComponent": false,
+"ComponentTags": {
+  "items": [
+    "component_type_stock"
+   
+  ],
+  "tagSetSourceFile": ""
+}
+
+}
+
