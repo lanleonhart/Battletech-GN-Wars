@@ -1,0 +1,145 @@
+{
+  "Custom": {
+     
+     
+      "ActivatableComponent": {
+          "ButtonName": "GN Field",
+          "CanActivateAfterFire": false,
+          "CanActivateAfterMove": false,
+          "FailFlatChance": 0.01,
+          "FailRoundsStart": 1,
+          "FailChancePerTurn": 0.12,
+          "FailCheckOnActivationEnd": true,
+          "CanNotBeActivatedManualy": false,
+          "statusEffects": [
+              {
+                "durationData": {
+                  "duration": -1,
+                  "stackLimit": -1
+                },
+                "targetingData": {
+                  "effectTargetsCreator": true,
+                  "effectTriggerType": "Passive",
+                  "effectTargetType": "Creator",
+                  "showInTargetPreview": true,
+                  "showInStatusPanel": true
+                },
+                "effectType": "StatisticEffect",
+                "Description": {
+                  "Id": "GNFieldTau",
+                  "Name": "GN Field Tau",
+                  "Details": "GN Field Tau reduces All Damage Taken.",
+                  "Icon": "GNFieldTau"
+                },
+                "nature": "Buff",
+                "statisticData": {
+                  "statName": "DamageReductionMultiplierAll",
+                  "operation": "Float_Multiply",
+                  "modValue": "0.8",
+                  "modType": "System.Single"
+                }
+              },
+              {
+                "durationData": {
+                  "duration": -1,
+                  "stackLimit": -1
+                },
+                "targetingData": {
+                  "effectTriggerType": "Passive",
+                  "effectTargetType": "Creator",
+                  "showInTargetPreview": false,
+                  "showInStatusPanel": false
+                },
+                "effectType": "StatisticEffect",
+                "Description": {
+                  "Id": "GN Field",
+                  "Name": "Increased Heat",
+                  "Details": "Heat generation from active GN Field",
+                  "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+                },
+                "nature": "Buff",
+                "statisticData": {
+                  "statName": "HeatGenerated",
+                  "operation": "Float_Multiply",
+                  "modValue": "1.3",
+                  "modType": "System.Single",
+                  "targetCollection": "Weapon"
+                }
+                
+              }
+            ],
+            "offlineStatusEffects": []
+      },
+  "Color": {
+              "UIColor": "Gray"
+      },
+    "CriticalEffects": {
+    "LinkedStatisticName": "GN Field Tau"
+  },
+  "Linked": {
+     "Links": [
+          {
+            "ComponentDefId": "Linked_GNFieldTau",
+            "Location": "LeftTorso"
+          },
+          {
+            "ComponentDefId": "Linked_GNFieldTau",
+            "Location": "RightTorso"
+          },
+          {
+            "ComponentDefId": "Linked_GNFieldTau",
+            "Location": "LeftArm"
+          },
+          {
+            "ComponentDefId": "Linked_GNFieldTau",
+            "Location": "RightArm"
+          },
+          {
+            "ComponentDefId": "Linked_GNFieldTau",
+            "Location": "LeftLeg"
+          },
+          {
+            "ComponentDefId": "Linked_GNFieldTau",
+            "Location": "RightLeg"
+          },
+          {
+            "ComponentDefId": "Linked_GNFieldTau",
+            "Location": "Head"
+          }
+          
+        ]
+  }
+},
+"Description": {
+  "Cost": 2500000,
+  "Rarity": 10,
+  "Purchasable": false,
+  "Manufacturer": "Marshal Engineering",
+  "Model": "GN Field Tau",
+  "UIName": "GN Field Tau Generator",
+  "Id": "GN Field Tau",
+  "Name": "GN Field Tau",
+  "Details": "GN Fields are generated from field emitters located throughout the frame of the machine. These fielf GN particles field reduces incoming damage. Requires a GN Frame to equip.",
+  "Icon": "GNFieldTau"
+},
+"BonusValueA": "-20% Damage Taken",
+"BonusValueB": ", +30% Heat Generation",
+"ComponentType": "Upgrade",
+"ComponentSubType": "NotSet",
+"PrefabIdentifier": "",
+"BattleValue": 0,
+"InventorySize": 2,
+"Tonnage": 5,
+"AllowedLocations": "CenterTorso",
+"DisallowedLocations": "All",
+"CriticalComponent": false,
+"ComponentTags": {
+  "items": [
+    "component_type_stock"
+   
+  ],
+  "tagSetSourceFile": ""
+}
+
+}
+
