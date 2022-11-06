@@ -32,8 +32,54 @@
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
-    "statusEffects" : [
-        
+    "statusEffects" : [ 
+    {    
+    "durationData" : {
+        "duration" : -1,
+        "ticksOnActivations" : false,
+        "useActivationsOfTarget" : false,
+        "ticksOnEndOfRound" : false,
+        "ticksOnMovements" : false,
+        "stackLimit" : 1, 
+        "clearedWhenAttacked" : false,
+        "activeTrackedEffect" : false
+    },
+    "targetingData" : {
+        "effectTriggerType" : "TurnUpdate", 
+        "triggerLimit" : 0, 
+        "extendDurationOnTrigger" : 0,
+        "specialRules" : "NotSet",
+        "effectTargetType" : "Creator", 
+        "range" : 0,
+        "forcePathRebuild" : false,
+        "forceVisRebuild" : false,
+        "showInTargetPreview" : true, 
+        "showInStatusPanel" : false, 
+        "hideApplicationFloatie" : false 
+    },
+    "effectType" : "StatisticEffect",
+    "Description" : {
+        "Id" : "StatusEffect-GN-AmmoRegen", 
+        "Name" : "GN PARTICLE GENERATION",
+        "Details" : "This unit will regenerate [AMT] ammo per turn.",
+        "Icon" : "GNDrive" 
+    },
+    "statisticData" : {
+        "appliesEachTick" : false,
+        "effectsPersistAfterDestruction" : false,
+        "statName" : "CurrentAmmo",
+        "operation" : "Int_Add", 
+        "modValue" : "2",
+        "modType" : "System.Int32",
+        "additionalRules" : "NotSet",
+        "targetCollection" : "Weapon", 
+        "targetWeaponCategory" : "NotSet",
+        "targetWeaponType" : "NotSet", 
+        "targetAmmoCategory" : "NotSet",
+        "targetWeaponSubType" : "NotSet" 
+    },
+    "nature" : "Buff" 
+}
     ],
     "ComponentTags" : {
         "items" : [
