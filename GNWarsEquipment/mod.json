@@ -1,0 +1,47 @@
+{
+	"Name": "GNTechEquipment",
+	"Enabled": true,
+	"Hidden": false,
+	"Version": "1.0",
+    "CustomResourceTypes": [
+        "MEBonusDescriptions",
+        "MECriticalEffects",
+        "CCCategories",
+        "CCDefaults",
+        "CCTagRestrictions",
+        "CustomSVGIcon"
+
+    ],
+
+
+        "Manifest": [
+       
+        {
+			"Type": "UpgradeDef",
+			"Path": "internals"
+		},
+        {
+            "Type": "SVGAsset",
+            "Path": "icons",
+            "ShouldMergeJSON": false
+        },
+        {   "Type": "JumpJetDef",
+			"Path": "Jumpjets"
+        },
+        {
+            "Type": "HeatSinkDef",
+            "Path": "engine_parts"
+        },
+          {
+            "Type": "CCCategories",
+            "Path": "categories/",
+            "ShouldMergeJSON": false
+        }
+        
+    ],
+    "DependsOn": [
+
+        "MechEngineer",
+    "CustomComponents"
+    ]
+}

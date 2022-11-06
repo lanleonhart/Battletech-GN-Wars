@@ -295,8 +295,8 @@
 					},
 					{
 						"Tag": "",
-						"Icon": "uixSvgIcon_equipment_ThermalExchanger",
-						"Tooltip": "Show engine shielding",
+						"Icon": "CATEngine",
+						"Tooltip": "Show engines",
 						"Filter": {
 							"Categories": [
 								"EngineShield"
@@ -306,24 +306,12 @@
 					},
 					{
 						"Tag": "",
-						"Icon": "uixSvgIcon_equipment_Heatsink",
+						"Icon": "CATCoolingkit",
 						"Tooltip": "Cooling Kits",
 						"Filter": {
 							"Categories": [
 								"Cooling",
-								"CoolingSystemCDHS"
-							],
-							"NotCategories": [
-								"EngineShield"
-							]
-						}
-					},
-					{
-						"Tag": "",
-						"Icon": "EngineCooling",
-						"Tooltip": "Engine Cooling",
-						"Filter": {
-							"Categories": [
+								"CoolingSystemCDHS",
 								"EngineHeatBlock"
 							],
 							"NotCategories": [
@@ -333,7 +321,7 @@
 					},
 					{
 						"Tag": "",
-						"Icon": "uixSvgIcon_equipment_Heatsink",
+						"Icon": "CATHeatsink",
 						"Tooltip": "Show heatsinks and heat control equipment",
 						"Filter": {
 							"ComponentTypes": [
@@ -349,7 +337,7 @@
 						}
 					},
 					{
-						"Icon": "vibrating-shield",
+						"Icon": "CATArmor",
 						"Tag": "",
 						"Tooltip": "Show Armor",
 						"Filter": {
@@ -364,7 +352,7 @@
 						}
 					},
 					{
-						"Icon": "Structure",
+						"Icon": "CATStructure",
 						"Tag": "",
 						"Tooltip": "Show Structure",
 						"Filter": {
