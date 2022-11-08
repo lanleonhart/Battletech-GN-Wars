@@ -1,7 +1,7 @@
 {
 	"Name": "GNTechEquipment",
-	"Enabled": true,
-	"Hidden": false,
+	"Enabled": false,
+	"Hidden": true,
 	"Version": "1.0",
     "CustomResourceTypes": [
         "MEBonusDescriptions",
@@ -17,16 +17,16 @@
         "Manifest": [
        
         {
-			"Type": "UpgradeDef",
-			"Path": "internals"
+			"Type": "HeatSinkDef",
+			"Path": "heatsinks"
 		},
         {
-            "Type": "SVGAsset",
-            "Path": "icons",
-            "ShouldMergeJSON": false
+            "Type": "HeatSinkDef",
+            "Path": "engine_parts"
         },
-        {   "Type": "JumpJetDef",
-			"Path": "Jumpjets"
+        {
+            "Type": "UpgradeDef",
+            "Path": "internals"
         },
         {
             "Type": "HeatSinkDef",

@@ -1,0 +1,29 @@
+{
+	"Name": "GN Wars Weapons",
+	"Enabled": true,
+	"Hidden": false,
+	"Version": "1.0",
+    "CustomResourceTypes": [
+        "MEBonusDescriptions",
+        "MECriticalEffects",
+        "CCCategories",
+        "CCDefaults",
+        "CCTagRestrictions",
+        "CustomSVGIcon"
+
+    ],
+
+
+        "Manifest": [
+        {
+        "Type": "WeaponDef",
+        "Path": "Weapon"
+        }
+        
+    ],
+    "DependsOn": [
+
+        "MechEngineer",
+    "CustomComponents"
+    ]
+}
