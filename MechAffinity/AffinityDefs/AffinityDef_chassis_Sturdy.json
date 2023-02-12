@@ -1,0 +1,55 @@
+{
+  "id": "AffinityDef_chassis_Sturdy",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "chassisNames": [
+      "chrPrfMech_shadowhawkBase-001_55",
+      "chrPrfMech_dragonBase-001_60"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "missionsRequired": 15,
+        "levelName": "Sturdy",
+        "decription": "Is Incredibly Resistant to Pilot Hits (+1 Pilot Health)",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its life support systems by 1, reducing pilot hits even further.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-PilotHits",
+              "Name": "Mech Affinity Pilot Damage Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Int32",
+              "modValue": "1",
+              "operation": "Int_Add",
+              "statName": "BonusHealth",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
