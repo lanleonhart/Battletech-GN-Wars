@@ -44,10 +44,10 @@
 		"Manufacturer": "Aldren Industries",
 		"Model": "Long Tom Artillery",
 		"UIName": "Long Tom Artillery",
-		"Id": "Weapon_Autocannon_LONGTOM",
+		"Id": "Weapon_Autocannon_LongTom",
 		"Name": "Long Tom Artillery",
 		"Details": "The Long Tom Artillery Piece is the largest conventional artillery piece designed by Armstrong Industries. It is the primary weapon of the LT-MOB-25 Mobile Long Tom Artillery vehicle, which is better known as the Mobile Long Tom. \n\n <b><color=#ffcc00>Uses LongTom Ammo.</color></b>",
-		"Icon": "Art-illery"
+		"Icon": "uixSvgIcon_weapon_Ballistic"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -55,39 +55,26 @@
 	"ComponentSubType": "Weapon",
 	"PrefabIdentifier": "artillery",
 	"BattleValue": 0,
-	"InventorySize": 13,
-	"Tonnage": 30,
+	"InventorySize": 8,
+	"Tonnage": 18,
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"ImprovedBallistic": true,
 	"Modes": [
 		{
-			"Id": "directfire",
-			"UIName": "Direct",
-			"isBaseMode": false,
-			"AccuracyModifier": 1.0,
-			"IndirectFireCapable": false,
-			"ShortRange": -120.0,
-			"MediumRange": -540.0,
-			"LongRange": -810.0,
-			"MaxRange": -1080.0
-		},
-		{
 			"Id": "indirectfire",
 			"UIName": "Indirect",
 			"isBaseMode": true,
 			"AlwaysIndirectVisuals": true,
 			"IndirectFireCapable": true,
-			"ForbiddenRange": 120
+			"ForbiddenRange": 400
 		}
 	],
 	"statusEffects": [],
 	"ComponentTags": {
 		"items": [
-			"OmniRestriction.{location}",
 			"component_type_stock",
-			"mr-resize-12",
 			"range_extreme"
 		],
 		"tagSetSourceFile": ""

@@ -1,185 +1,80 @@
-18:48:30.121 Assembly version: 0.7.0.0
-18:48:30.125 === MOD CONFIG BEGIN ===
-18:48:30.125   Debug: False Trace: False
-18:48:30.125   FEATURES => BiomeBreaches: False  PermanentEvasion: True  StartupChecks: False
-18:48:30.125   ToHitSelfJumped: 2
-18:48:30.125 
-18:48:30.125 === CUSTOM CATEGORY OPTIONS ===
-18:48:30.125   ShoulderActuatorCategoryId: 'ArmShoulder'  UpperArmActuatorCategoryId: 'ArmUpperActuator'  LowerArmActuatorCategoryId: 'ArmLowerActuator,OmniLowerActuator'  HandActuatorCategoryId: 'ArmHandActuator,OmniHandActuator'  
-18:48:30.125   HipActuatorCategoryId: 'LegHip'  UpperLegActuatorCategoryId: 'LegUpperActuator'  LowerLegActuatorCategoryId: 'LegLowerActuator'  FootActuatorCategoryId: 'LegFootActuator'  
-18:48:30.131 
-18:48:30.131 === HEAT OPTIONS ===
-18:48:30.132   Movement mods: 15 : 0, 30 : -1, 45 : -1, 60 : -2, 75 : -2, 93 : -3, 111 : -3, 129 : -4, 147 : -4, 
-18:48:30.132   Firing mods: 24 : 1, 39 : 2, 51 : 3, 72 : 4, 99 : 5, 123 : 6, 144 : 7, 
-18:48:30.133   Shutdown chances: 42 : 0.1, 54 : 0.3, 66 : 0.6, 78 : 0.8, 90 : 0.9, 102 : 1, 114 : 1.1, 126 : 1.2, 138 : 1.3, 150 : -1, 
-18:48:30.133   Ammo Explosion chances: 60 : 0.4, 90 : 0.6, 120 : 1, 
-18:48:30.133   Pilot Injury chances: 84 : 0.3, 117 : 0.6, 141 : 0.8, 
-18:48:30.133   System Failure chances: 108 : 0.3, 132 : 0.6, 
-18:48:30.133   ShowLowOverheatAnim: 42  ShowExtremeOverheatAnim: 90
-18:48:30.133   ShutdownFallThreshold: 0.75
-18:48:30.133   MaxHeat: 150  WarnAtHeat: 42
-18:48:30.133 
-18:48:30.133 === MELEE OPTIONS ===
-18:48:30.133   ExtraHitsAverageAllDamage: False  ProneTargetAttackModifier: -2  FilterCanUseInMeleeWeaponsByAttack: True
-18:48:30.133   -- CHARGE OPTIONS --
-18:48:30.133   AttackerDamagePerTargetTon: 2  AttackerInstabilityPerTargetTon: 1
-18:48:30.133   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 1
-18:48:30.133   DamageClusterDivisor: 25
-18:48:30.133   Unsteady => AttackerOnHit: False  AttackerOnMiss: True  TargetOnHit: False
-18:48:30.133   -- DFA OPTIONS --
-18:48:30.133   AttackerDamagePerTargetTon: 1.5  AttackerInstabilityPerTargetTon: 1
-18:48:30.133   TargetDamagePerAttackerTon: 2  TargetInstabilityPerAttackerTon: 1
-18:48:30.133   DamageClusterDivisor: 25
-18:48:30.133   Unsteady => AttackerOnHit: True  AttackerOnMiss: False  TargetOnHit: True
-18:48:30.133   -- KICK OPTIONS --
-18:48:30.133   BaseAttackBonus: -2  LegActuatorDamageMalus: 2  FootActuatorDamageMalus: 1
-18:48:30.133   TargetDamagePerAttackerTon: 1  TargetInstabilityPerAttackerTon: 0.5
-18:48:30.133   LegActuatorDamageReduction: 0.5
-18:48:30.133   Unsteady => AttackerOnHit: False  AttackerOnMiss: True  TargetOnHit: True
-18:48:30.133   -- PHYSICAL WEAPON OPTIONS --
-18:48:30.133   DefaultDamagePerAttackTon: 2  DefaultInstabilityPerAttackerTon: 1
-18:48:30.133   ArmActuatorDamageMalus: 2
-18:48:30.133   Unsteady Default => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
-18:48:30.133   -- PUNCH OPTIONS --
-18:48:30.133   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 0.5
-18:48:30.133   ArmActuatorDamageMalus: 2  HandActuatorDamageMalus: 1
-18:48:30.133   ArmActuatorDamageReduction: 0.5
-18:48:30.133   Unsteady => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
-18:48:30.133 
-18:48:30.133 === MOVE OPTIONS ===
-18:48:30.133   MinimumMove: 40m  HeatMovePenalty: 24m  RunMulti: x1.5
-18:48:30.133   FallAfterChances =>   Jump: 0.3  Run: 0.3
-18:48:30.133   MPMetersPerHex: 24m
-18:48:30.133 
-18:48:30.133 === PILOTING OPTIONS ===
-18:48:30.133   StabilityCheck: 0.3
-18:48:30.133   DFAReductionMulti: x0.05  FallingDamagePerTenTons: 5
-18:48:30.133 
-18:48:30.133 === SKILL CHECKS OPTIONS ===
-18:48:30.133   PilotingSkillMulti: x0.05  GutsSkillMulti: 0.05
-18:48:30.133 === BREACHES OPTIONS ===
-18:48:30.133   ThinAtmoCheck: 0.03  VacuumCheck: 0.17
-18:48:30.133 
-18:48:30.133 === MOD CONFIG END ===
-18:48:30.133 INFO: No errors reading settings file.
-18:49:20.167 Setting overheat threshold to 42 and maxHeat to 150 for actor:Spider__AF6932BD
-18:49:22.395 Setting overheat threshold to 42 and maxHeat to 150 for actor:Marauder_Paradise_7B9F1E30
-18:49:22.572 Setting overheat threshold to 42 and maxHeat to 150 for actor:Marauder_Mockingbird_EC1A10DE
-18:49:22.642 Setting overheat threshold to 42 and maxHeat to 150 for actor:Marauder_Showboat_57245CBC
-18:49:22.713 Setting overheat threshold to 42 and maxHeat to 150 for actor:Marauder_Kraken_BF79B444
-18:49:22.786 Setting overheat threshold to 42 and maxHeat to 150 for actor:Locust_Showboat_37443683
-18:49:22.963 Setting overheat threshold to 42 and maxHeat to 150 for actor:Vindicator_Wildfire_67C4C2EB
-18:49:23.054 Setting overheat threshold to 42 and maxHeat to 150 for actor:Hunchback_Ozone_D48D4653
-18:49:23.099 Setting overheat threshold to 42 and maxHeat to 150 for actor:Atlas_Sumo_35E8359A
-18:49:34.167 Interleaved mode set to: REMAIN_INTERLEAVED
-18:49:41.014 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:41.015   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:41.015   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:44.885 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:44.885   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:44.885   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:44.934 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:44.934   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:44.934   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:45.183 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:45.183   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:45.183   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:45.313 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:45.313   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:45.313   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:45.332 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:45.332   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:45.332   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:47.276 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:47.276   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:47.276   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:47.297 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:47.298   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:47.298   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:47.523 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:47.523   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:47.523   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:47.668 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:47.668   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:47.668   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:47.756 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:47.756   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:47.756   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:48.357 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:48.357   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:48.357   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:50.900 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:50.900   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:50.900   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:49:50.943 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:49:50.943   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:49:50.943   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:50:01.117 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:50:01.117   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:50:01.117   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:50:01.172 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:50:01.172   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:50:01.172   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:50:01.203 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:50:01.203   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:50:01.203   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:50:01.224 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:50:01.224   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:50:01.224   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:50:09.568 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:09.568   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:09.568   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:09.708 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:09.708   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:09.708   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:09.746 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:09.746   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:09.746   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:09.801 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:09.801   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:09.801   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:09.844 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:09.844   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:09.844   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:09.865 Calculating heat check modifier for actor: Marauder_Paradise_7B9F1E30
-18:50:09.865   AdjustedSkill: 3 = actorSkill: 3 - malus: 0.
-18:50:09.865   CheckMod: 0.15 = adjustedSkill: 3 * multi: 0.05
-18:50:09.865 Calculating pilot check modifier for actor: Marauder_Paradise_7B9F1E30
-18:50:09.865   AdjustedSkill: 8 = actorSkill: 8 - malus: 0.
-18:50:09.865   CheckMod: 0.4 = adjustedSkill: 8 * multi: 0.05
-18:50:09.901 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:09.901   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:09.901   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:10.288 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:10.288   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:10.288   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:10.491 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:10.491   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:10.491   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:10.563 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:10.563   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:10.563   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:10.629 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:10.629   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:10.629   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:10.808 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:10.808   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:10.808   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:10.880 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:10.880   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:10.880   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:11.908 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:11.908   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:11.908   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:12.377 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:12.377   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:12.377   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:13.509 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:13.509   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:13.509   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:14.411 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:14.411   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:14.411   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
-18:50:14.436 Calculating heat check modifier for actor: Marauder_Mockingbird_EC1A10DE
-18:50:14.436   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
-18:50:14.436   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
+15:32:55.693 Assembly version: 0.9.20.4
+15:32:55.693 ModDir is:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CBTBehaviorsEnhanced
+15:32:55.693 mod.json settings are:({"Debug":true,"Trace":false,"Features":{"BiomeBreaches":true,"PermanentEvasion":true,"StartupChecks":true},"Developer":{"ForceFallAfterJump":false,"ForceInvalidateAllMeleeAttacks":false,"DebugHeatToAdd":0},"ToHitSelfJumped":3,"CustomCategories":{"HipActuatorCategoryId":["LegHip"],"UpperLegActuatorCategoryId":["LegUpperActuator"],"LowerLegActuatorCategoryId":["LegLowerActuator"],"FootActuatorCategoryId":["LegFootActuator"],"ShoulderActuatorCategoryId":["ArmShoulder"],"UpperArmActuatorCategoryId":["ArmUpperActuator"],"LowerArmActuatorCategoryId":["ArmLowerActuator","OmniLowerActuator"],"HandActuatorCategoryId":["ArmHandActuator","OmniHandActuator"]},"Heat":{"Movement":{"15":-1,"30":-2,"45":-3,"60":-4,"75":-5,"93":-6,"111":-7,"129":-8,"147":-9},"Firing":{"24":1,"39":2,"51":3,"72":4,"99":5,"123":6,"144":7},"Shutdown":{"42":0.1,"54":0.3,"66":0.6,"78":0.8,"90":0.9,"102":1.0,"114":1.1,"126":1.2,"138":1.3,"150":-1},"Explosion":{"57":0.1,"69":0.2,"84":0.3,"105":0.4,"120":0.5,"135":0.6,"150":0.75},"PilotInjury":{"84":0.3,"117":0.6,"141":0.8},"SystemFailures":{"108":0.3,"132":0.6},"ShowLowOverheatAnim":42,"ShowExtremeOverheatAnim":90,"ShutdownFallThreshold":0.75,"MaxHeat":150,"WarnAtHeat":42},"Melee":{"Charge":{"AttackerDamagePerTargetTon":0.5,"TargetDamagePerAttackerTon":0.5,"AttackerInstabilityPerTargetTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"DamageClusterDivisor":25.0,"UnsteadyAttackerOnHit":true,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"DFA":{"AttackerDamagePerTargetTon":1.5,"TargetDamagePerAttackerTon":1.5,"AttackerInstabilityPerTargetTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"DamageClusterDivisor":25.0,"UnsteadyAttackerOnHit":true,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"Kick":{"BaseAttackBonus":-2,"LegActuatorDamageMalus":2,"FootActuatorDamageMalus":1,"TargetDamagePerAttackerTon":1,"TargetInstabilityPerAttackerTon":0.5,"LegActuatorDamageReduction":0.5,"UnsteadyAttackerOnHit":false,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"PhysicalWeapon":{"ArmActuatorDamageMalus":2,"DefaultDamagePerAttackerTon":0.2,"DefaultInstabilityPerAttackerTon":0.2,"DefaultUnsteadyAttackerOnHit":false,"DefaultUnsteadyAttackerOnMiss":false,"DefaultUnsteadyTargetOnHit":false},"Punch":{"ArmActuatorDamageMalus":2,"HandActuatorDamageMalus":1,"TargetDamagePerAttackerTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"ArmActuatorDamageReduction":0.5,"UnsteadyAttackerOnHit":false,"UnsteadyAttackerOnMiss":false,"UnsteadyTargetOnHit":false},"Turrets":{"DefaultTonnage":100.0,"LightTonnage":35.0,"MediumTonnage":55.0,"HeavyTonnage":75.0},"AllowMeleeFromSprint":true,"ProneTargetAttackModifier":-2,"ExtraHitsAverageAllDamage":true,"FilterCanUseInMeleeWeaponsByAttack":true}})
+15:32:55.703 === MOD CONFIG BEGIN ===
+15:32:55.703   Debug: True Trace: False
+15:32:55.703   FEATURES => BiomeBreaches: True  PermanentEvasion: True  StartupChecks: True
+15:32:55.703   ToHitSelfJumped: 3
+15:32:55.703 
+15:32:55.703 === CUSTOM CATEGORY OPTIONS ===
+15:32:55.703   ShoulderActuatorCategoryId: 'ArmShoulder'  UpperArmActuatorCategoryId: 'ArmUpperActuator'  LowerArmActuatorCategoryId: 'ArmLowerActuator,OmniLowerActuator'  HandActuatorCategoryId: 'ArmHandActuator,OmniHandActuator'  
+15:32:55.703   HipActuatorCategoryId: 'LegHip'  UpperLegActuatorCategoryId: 'LegUpperActuator'  LowerLegActuatorCategoryId: 'LegLowerActuator'  FootActuatorCategoryId: 'LegFootActuator'  
+15:32:55.703 
+15:32:55.703 === HEAT OPTIONS ===
+15:32:55.704   Movement mods: 15 : -1, 30 : -2, 45 : -3, 60 : -4, 75 : -5, 93 : -6, 111 : -7, 129 : -8, 147 : -9, 
+15:32:55.704   Firing mods: 24 : 1, 39 : 2, 51 : 3, 72 : 4, 99 : 5, 123 : 6, 144 : 7, 
+15:32:55.705   Shutdown chances: 42 : 0.1, 54 : 0.3, 66 : 0.6, 78 : 0.8, 90 : 0.9, 102 : 1, 114 : 1.1, 126 : 1.2, 138 : 1.3, 150 : -1, 
+15:32:55.705   Ammo Explosion chances: 57 : 0.1, 69 : 0.2, 84 : 0.3, 105 : 0.4, 120 : 0.5, 135 : 0.6, 150 : 0.75, 
+15:32:55.705   Pilot Injury chances: 84 : 0.3, 117 : 0.6, 141 : 0.8, 
+15:32:55.705   System Failure chances: 108 : 0.3, 132 : 0.6, 
+15:32:55.705   ShowLowOverheatAnim: 42  ShowExtremeOverheatAnim: 90
+15:32:55.705   ShutdownFallThreshold: 0.75
+15:32:55.705   MaxHeat: 150  WarnAtHeat: 42
+15:32:55.705 
+15:32:55.705 === MELEE OPTIONS ===
+15:32:55.705   ExtraHitsAverageAllDamage: True  ProneTargetAttackModifier: -2  FilterCanUseInMeleeWeaponsByAttack: True
+15:32:55.705   -- CHARGE OPTIONS --
+15:32:55.705   AttackerDamagePerTargetTon: 0.5  AttackerInstabilityPerTargetTon: 0.5
+15:32:55.705   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 0.5
+15:32:55.705   DamageClusterDivisor: 25
+15:32:55.705   Unsteady => AttackerOnHit: True  AttackerOnMiss: True  TargetOnHit: True
+15:32:55.705   TargetVehicleEvasionPipsRemoved: 4
+15:32:55.705 
+15:32:55.705   -- DFA OPTIONS --
+15:32:55.705   AttackerDamagePerTargetTon: 1.5  AttackerInstabilityPerTargetTon: 0.5
+15:32:55.705   TargetDamagePerAttackerTon: 1.5  TargetInstabilityPerAttackerTon: 0.5
+15:32:55.705   DamageClusterDivisor: 25
+15:32:55.705   Unsteady => AttackerOnHit: True  AttackerOnMiss: True  TargetOnHit: True
+15:32:55.705   TargetVehicleEvasionPipsRemoved: 4
+15:32:55.705 
+15:32:55.705   -- KICK OPTIONS --
+15:32:55.705   BaseAttackBonus: -2  LegActuatorDamageMalus: 2  FootActuatorDamageMalus: 1
+15:32:55.705   TargetDamagePerAttackerTon: 1  TargetInstabilityPerAttackerTon: 0.5
+15:32:55.705   LegActuatorDamageReduction: 0.5
+15:32:55.705   Unsteady => AttackerOnHit: False  AttackerOnMiss: True  TargetOnHit: True
+15:32:55.706   TargetVehicleEvasionPipsRemoved: 4
+15:32:55.706 
+15:32:55.706   -- PHYSICAL WEAPON OPTIONS --
+15:32:55.706   DefaultDamagePerAttackTon: 0.2  DefaultInstabilityPerAttackerTon: 0.2
+15:32:55.706   ArmActuatorDamageMalus: 2
+15:32:55.706   Unsteady Default => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
+15:32:55.706   TargetVehicleEvasionPipsRemoved: 0
+15:32:55.706 
+15:32:55.706   -- PUNCH OPTIONS --
+15:32:55.706   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 0.5
+15:32:55.706   ArmActuatorDamageMalus: 2  HandActuatorDamageMalus: 1
+15:32:55.706   ArmActuatorDamageReduction: 0.5
+15:32:55.706   Unsteady => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
+15:32:55.706   TargetVehicleEvasionPipsRemoved: 0
+15:32:55.706 
+15:32:55.706   -- SWARM OPTIONS --
+15:32:55.706 
+15:32:55.706 === MOVE OPTIONS ===
+15:32:55.706   MinimumMove: 40m  HeatMovePenalty: -24m  RunMulti: x1.5
+15:32:55.706   FallAfterChances =>   Jump: 0.3  Run: 0.3
+15:32:55.706   MPMetersPerHex: 24m
+15:32:55.706 
+15:32:55.706 === PILOTING OPTIONS ===
+15:32:55.706   StabilityCheck: 0.3
+15:32:55.706   DFAReductionMulti: x0.05  FallingDamagePerTenTons: 5
+15:32:55.706 
+15:32:55.706 === SKILL CHECKS OPTIONS ===
+15:32:55.706   PilotingSkillMulti: x0.05  GutsSkillMulti: 0.05
+15:32:55.706 === BREACHES OPTIONS ===
+15:32:55.706   ThinAtmoCheck: 0.03  VacuumCheck: 0.17
+15:32:55.706 
+15:32:55.706 === MOD CONFIG END ===
+15:32:55.706 INFO: No errors reading settings file.
+15:32:59.894 Invoking FinishedLoading
+15:32:59.894 Initializing IRBTModUtils movement feature modifiers.
+15:32:59.895 Enabling MechEngineer functionality

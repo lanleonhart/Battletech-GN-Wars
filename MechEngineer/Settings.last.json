@@ -1,6 +1,6 @@
 {
     "GeneratedSettingsFilesReadonlyDescription" : "If true, generated last and default settings files are set to readonly, to indicate that those are not intended to be edited.",
-    "GeneratedSettingsFilesReadonly" : true,
+    "GeneratedSettingsFilesReadonly" : false,
     "BetterLog" : {
         "LevelDescription" : "The log level that will be logged, debug will tax the performance at some places and fill the logfile considerably.",
         "Enabled" : true,
@@ -47,7 +47,7 @@
         "EnabledDescription" : "Enables statistic effects for multiplying structure and armor values, happens before/after combat."
     },
     "ArmorStructureRatio" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "CBT rule enforcement, that armor at every mechs location is not more than 2 times the structure, head is allowed to be 3 times.",
         "IgnoreChassisTag" : "ignore_armor_structure_ratio"
     },
@@ -549,7 +549,7 @@
         "AllowMixingHeatSinkTypesDescription" : "Allow heat sinks patchwork.",
         "EngineMissingFallbackHeatSinkCapacity" : 30,
         "EngineMissingFallbackHeatSinkCapacityDescription" : "Heat sink capacity if no engine is detected.",
-        "CBTWalkAndRunMPRounding" : false,
+        "CBTWalkAndRunMPRounding" : true,
         "AdditionalWalkSpeed" : 24,
         "AdditionalRunSpeed" : 60,
         "MovementPointDistanceMultiplier" : 24,
@@ -795,8 +795,8 @@
         "MechLabViewMechAnchorY" : -20,
         "MechLabGeneralSlots" : 3,
         "MechLabGeneralWidgetLabel" : "General",
-        "HideHelpButton" : false,
-        "HideECMButton" : false
+        "HideHelpButton" : true,
+        "HideECMButton" : true
     },
     "MoveMultiplierStat" : {
         "Enabled" : true,
@@ -904,7 +904,7 @@
         "EnabledDescription" : "Turrets can now use components and benefit from their status effects."
     },
     "TagManager" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "Manipulates MechDef and ComponentDef Tags",
         "LostechStockWeaponVariantFix" : true,
         "LostechStockWeaponVariantDescription" : "Fixes lostech variant weapon tagging by checking if id ends with -STOCK.",

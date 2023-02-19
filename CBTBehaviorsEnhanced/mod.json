@@ -1,6 +1,6 @@
 {
     "Name": "CBTBehaviorsEnhanced",
-    "Enabled": true,
+    "Enabled": false,
     "Version": "0.8.0",
     "Description": "Provides TableTop like behaviors for heat, movement, and more",
     "Author": "FrostRaptor",
@@ -19,7 +19,7 @@
         "CharlesB"
     ],
     "Settings": {
-        "Debug": false,
+        "Debug": true,
         "Trace": false,
         "Features": {
             "BiomeBreaches": true,
@@ -70,12 +70,7 @@
                 "93": -6,
                 "111": -7,
                 "129": -8,
-                "147": -9,
-                "163": -10,
-                "187": -11,
-                "204": -12,
-                "227": -13,
-                "250": -14
+                "147": -9
             },
             "Firing": {
                 "24": 1,
@@ -188,8 +183,8 @@
         "RunMulti": 1.5,
         "FallAfterRunChance": 0.30,
         "FallAfterJumpChance": 0.30,
-        "MinimumMove": 0,
-        "HeatMovePenalty": 12.0,
+        "MinimumMove": 40.0,
+        "HeatMovePenalty": 24.0,
         "SpeedAsMP": false,
         "MPMetersPerHex": 24.0
     },
