@@ -1,80 +1,1412 @@
-15:32:55.693 Assembly version: 0.9.20.4
-15:32:55.693 ModDir is:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CBTBehaviorsEnhanced
-15:32:55.693 mod.json settings are:({"Debug":true,"Trace":false,"Features":{"BiomeBreaches":true,"PermanentEvasion":true,"StartupChecks":true},"Developer":{"ForceFallAfterJump":false,"ForceInvalidateAllMeleeAttacks":false,"DebugHeatToAdd":0},"ToHitSelfJumped":3,"CustomCategories":{"HipActuatorCategoryId":["LegHip"],"UpperLegActuatorCategoryId":["LegUpperActuator"],"LowerLegActuatorCategoryId":["LegLowerActuator"],"FootActuatorCategoryId":["LegFootActuator"],"ShoulderActuatorCategoryId":["ArmShoulder"],"UpperArmActuatorCategoryId":["ArmUpperActuator"],"LowerArmActuatorCategoryId":["ArmLowerActuator","OmniLowerActuator"],"HandActuatorCategoryId":["ArmHandActuator","OmniHandActuator"]},"Heat":{"Movement":{"15":-1,"30":-2,"45":-3,"60":-4,"75":-5,"93":-6,"111":-7,"129":-8,"147":-9},"Firing":{"24":1,"39":2,"51":3,"72":4,"99":5,"123":6,"144":7},"Shutdown":{"42":0.1,"54":0.3,"66":0.6,"78":0.8,"90":0.9,"102":1.0,"114":1.1,"126":1.2,"138":1.3,"150":-1},"Explosion":{"57":0.1,"69":0.2,"84":0.3,"105":0.4,"120":0.5,"135":0.6,"150":0.75},"PilotInjury":{"84":0.3,"117":0.6,"141":0.8},"SystemFailures":{"108":0.3,"132":0.6},"ShowLowOverheatAnim":42,"ShowExtremeOverheatAnim":90,"ShutdownFallThreshold":0.75,"MaxHeat":150,"WarnAtHeat":42},"Melee":{"Charge":{"AttackerDamagePerTargetTon":0.5,"TargetDamagePerAttackerTon":0.5,"AttackerInstabilityPerTargetTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"DamageClusterDivisor":25.0,"UnsteadyAttackerOnHit":true,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"DFA":{"AttackerDamagePerTargetTon":1.5,"TargetDamagePerAttackerTon":1.5,"AttackerInstabilityPerTargetTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"DamageClusterDivisor":25.0,"UnsteadyAttackerOnHit":true,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"Kick":{"BaseAttackBonus":-2,"LegActuatorDamageMalus":2,"FootActuatorDamageMalus":1,"TargetDamagePerAttackerTon":1,"TargetInstabilityPerAttackerTon":0.5,"LegActuatorDamageReduction":0.5,"UnsteadyAttackerOnHit":false,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"PhysicalWeapon":{"ArmActuatorDamageMalus":2,"DefaultDamagePerAttackerTon":0.2,"DefaultInstabilityPerAttackerTon":0.2,"DefaultUnsteadyAttackerOnHit":false,"DefaultUnsteadyAttackerOnMiss":false,"DefaultUnsteadyTargetOnHit":false},"Punch":{"ArmActuatorDamageMalus":2,"HandActuatorDamageMalus":1,"TargetDamagePerAttackerTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"ArmActuatorDamageReduction":0.5,"UnsteadyAttackerOnHit":false,"UnsteadyAttackerOnMiss":false,"UnsteadyTargetOnHit":false},"Turrets":{"DefaultTonnage":100.0,"LightTonnage":35.0,"MediumTonnage":55.0,"HeavyTonnage":75.0},"AllowMeleeFromSprint":true,"ProneTargetAttackModifier":-2,"ExtraHitsAverageAllDamage":true,"FilterCanUseInMeleeWeaponsByAttack":true}})
-15:32:55.703 === MOD CONFIG BEGIN ===
-15:32:55.703   Debug: True Trace: False
-15:32:55.703   FEATURES => BiomeBreaches: True  PermanentEvasion: True  StartupChecks: True
-15:32:55.703   ToHitSelfJumped: 3
-15:32:55.703 
-15:32:55.703 === CUSTOM CATEGORY OPTIONS ===
-15:32:55.703   ShoulderActuatorCategoryId: 'ArmShoulder'  UpperArmActuatorCategoryId: 'ArmUpperActuator'  LowerArmActuatorCategoryId: 'ArmLowerActuator,OmniLowerActuator'  HandActuatorCategoryId: 'ArmHandActuator,OmniHandActuator'  
-15:32:55.703   HipActuatorCategoryId: 'LegHip'  UpperLegActuatorCategoryId: 'LegUpperActuator'  LowerLegActuatorCategoryId: 'LegLowerActuator'  FootActuatorCategoryId: 'LegFootActuator'  
-15:32:55.703 
-15:32:55.703 === HEAT OPTIONS ===
-15:32:55.704   Movement mods: 15 : -1, 30 : -2, 45 : -3, 60 : -4, 75 : -5, 93 : -6, 111 : -7, 129 : -8, 147 : -9, 
-15:32:55.704   Firing mods: 24 : 1, 39 : 2, 51 : 3, 72 : 4, 99 : 5, 123 : 6, 144 : 7, 
-15:32:55.705   Shutdown chances: 42 : 0.1, 54 : 0.3, 66 : 0.6, 78 : 0.8, 90 : 0.9, 102 : 1, 114 : 1.1, 126 : 1.2, 138 : 1.3, 150 : -1, 
-15:32:55.705   Ammo Explosion chances: 57 : 0.1, 69 : 0.2, 84 : 0.3, 105 : 0.4, 120 : 0.5, 135 : 0.6, 150 : 0.75, 
-15:32:55.705   Pilot Injury chances: 84 : 0.3, 117 : 0.6, 141 : 0.8, 
-15:32:55.705   System Failure chances: 108 : 0.3, 132 : 0.6, 
-15:32:55.705   ShowLowOverheatAnim: 42  ShowExtremeOverheatAnim: 90
-15:32:55.705   ShutdownFallThreshold: 0.75
-15:32:55.705   MaxHeat: 150  WarnAtHeat: 42
-15:32:55.705 
-15:32:55.705 === MELEE OPTIONS ===
-15:32:55.705   ExtraHitsAverageAllDamage: True  ProneTargetAttackModifier: -2  FilterCanUseInMeleeWeaponsByAttack: True
-15:32:55.705   -- CHARGE OPTIONS --
-15:32:55.705   AttackerDamagePerTargetTon: 0.5  AttackerInstabilityPerTargetTon: 0.5
-15:32:55.705   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 0.5
-15:32:55.705   DamageClusterDivisor: 25
-15:32:55.705   Unsteady => AttackerOnHit: True  AttackerOnMiss: True  TargetOnHit: True
-15:32:55.705   TargetVehicleEvasionPipsRemoved: 4
-15:32:55.705 
-15:32:55.705   -- DFA OPTIONS --
-15:32:55.705   AttackerDamagePerTargetTon: 1.5  AttackerInstabilityPerTargetTon: 0.5
-15:32:55.705   TargetDamagePerAttackerTon: 1.5  TargetInstabilityPerAttackerTon: 0.5
-15:32:55.705   DamageClusterDivisor: 25
-15:32:55.705   Unsteady => AttackerOnHit: True  AttackerOnMiss: True  TargetOnHit: True
-15:32:55.705   TargetVehicleEvasionPipsRemoved: 4
-15:32:55.705 
-15:32:55.705   -- KICK OPTIONS --
-15:32:55.705   BaseAttackBonus: -2  LegActuatorDamageMalus: 2  FootActuatorDamageMalus: 1
-15:32:55.705   TargetDamagePerAttackerTon: 1  TargetInstabilityPerAttackerTon: 0.5
-15:32:55.705   LegActuatorDamageReduction: 0.5
-15:32:55.705   Unsteady => AttackerOnHit: False  AttackerOnMiss: True  TargetOnHit: True
-15:32:55.706   TargetVehicleEvasionPipsRemoved: 4
-15:32:55.706 
-15:32:55.706   -- PHYSICAL WEAPON OPTIONS --
-15:32:55.706   DefaultDamagePerAttackTon: 0.2  DefaultInstabilityPerAttackerTon: 0.2
-15:32:55.706   ArmActuatorDamageMalus: 2
-15:32:55.706   Unsteady Default => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
-15:32:55.706   TargetVehicleEvasionPipsRemoved: 0
-15:32:55.706 
-15:32:55.706   -- PUNCH OPTIONS --
-15:32:55.706   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 0.5
-15:32:55.706   ArmActuatorDamageMalus: 2  HandActuatorDamageMalus: 1
-15:32:55.706   ArmActuatorDamageReduction: 0.5
-15:32:55.706   Unsteady => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
-15:32:55.706   TargetVehicleEvasionPipsRemoved: 0
-15:32:55.706 
-15:32:55.706   -- SWARM OPTIONS --
-15:32:55.706 
-15:32:55.706 === MOVE OPTIONS ===
-15:32:55.706   MinimumMove: 40m  HeatMovePenalty: -24m  RunMulti: x1.5
-15:32:55.706   FallAfterChances =>   Jump: 0.3  Run: 0.3
-15:32:55.706   MPMetersPerHex: 24m
-15:32:55.706 
-15:32:55.706 === PILOTING OPTIONS ===
-15:32:55.706   StabilityCheck: 0.3
-15:32:55.706   DFAReductionMulti: x0.05  FallingDamagePerTenTons: 5
-15:32:55.706 
-15:32:55.706 === SKILL CHECKS OPTIONS ===
-15:32:55.706   PilotingSkillMulti: x0.05  GutsSkillMulti: 0.05
-15:32:55.706 === BREACHES OPTIONS ===
-15:32:55.706   ThinAtmoCheck: 0.03  VacuumCheck: 0.17
-15:32:55.706 
-15:32:55.706 === MOD CONFIG END ===
-15:32:55.706 INFO: No errors reading settings file.
-15:32:59.894 Invoking FinishedLoading
-15:32:59.894 Initializing IRBTModUtils movement feature modifiers.
-15:32:59.895 Enabling MechEngineer functionality
+02:34:11.348 Assembly version: 0.9.20.4
+02:34:11.348 ModDir is:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CBTBehaviorsEnhanced
+02:34:11.348 mod.json settings are:({"Debug":true,"Trace":false,"Features":{"BiomeBreaches":true,"PermanentEvasion":true,"StartupChecks":true},"Developer":{"ForceFallAfterJump":false,"ForceInvalidateAllMeleeAttacks":false,"DebugHeatToAdd":0},"ToHitSelfJumped":3,"CustomCategories":{"HipActuatorCategoryId":["LegHip"],"UpperLegActuatorCategoryId":["LegUpperActuator"],"LowerLegActuatorCategoryId":["LegLowerActuator"],"FootActuatorCategoryId":["LegFootActuator"],"ShoulderActuatorCategoryId":["ArmShoulder"],"UpperArmActuatorCategoryId":["ArmUpperActuator"],"LowerArmActuatorCategoryId":["ArmLowerActuator","OmniLowerActuator"],"HandActuatorCategoryId":["ArmHandActuator","OmniHandActuator"]},"Heat":{"Movement":{"15":-1,"30":-2,"45":-3,"60":-4,"75":-5,"93":-6,"111":-7,"129":-8,"147":-9},"Firing":{"24":1,"39":2,"51":3,"72":4,"99":5,"123":6,"144":7},"Shutdown":{"42":0.1,"54":0.3,"66":0.6,"78":0.8,"90":0.9,"102":1.0,"114":1.1,"126":1.2,"138":1.3,"150":-1},"Explosion":{"57":0.1,"69":0.2,"84":0.3,"105":0.4,"120":0.5,"135":0.6,"150":0.75},"PilotInjury":{"84":0.3,"117":0.6,"141":0.8},"SystemFailures":{"108":0.3,"132":0.6},"ShowLowOverheatAnim":42,"ShowExtremeOverheatAnim":90,"ShutdownFallThreshold":0.75,"MaxHeat":150,"WarnAtHeat":42},"Melee":{"Charge":{"AttackerDamagePerTargetTon":0.5,"TargetDamagePerAttackerTon":0.5,"AttackerInstabilityPerTargetTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"DamageClusterDivisor":25.0,"UnsteadyAttackerOnHit":true,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"DFA":{"AttackerDamagePerTargetTon":1.5,"TargetDamagePerAttackerTon":1.5,"AttackerInstabilityPerTargetTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"DamageClusterDivisor":25.0,"UnsteadyAttackerOnHit":true,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"Kick":{"BaseAttackBonus":-2,"LegActuatorDamageMalus":2,"FootActuatorDamageMalus":1,"TargetDamagePerAttackerTon":1,"TargetInstabilityPerAttackerTon":0.5,"LegActuatorDamageReduction":0.5,"UnsteadyAttackerOnHit":false,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"PhysicalWeapon":{"ArmActuatorDamageMalus":2,"DefaultDamagePerAttackerTon":0.2,"DefaultInstabilityPerAttackerTon":0.2,"DefaultUnsteadyAttackerOnHit":false,"DefaultUnsteadyAttackerOnMiss":false,"DefaultUnsteadyTargetOnHit":false},"Punch":{"ArmActuatorDamageMalus":2,"HandActuatorDamageMalus":1,"TargetDamagePerAttackerTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"ArmActuatorDamageReduction":0.5,"UnsteadyAttackerOnHit":false,"UnsteadyAttackerOnMiss":false,"UnsteadyTargetOnHit":false},"Turrets":{"DefaultTonnage":100.0,"LightTonnage":35.0,"MediumTonnage":55.0,"HeavyTonnage":75.0},"AllowMeleeFromSprint":true,"ProneTargetAttackModifier":-2,"ExtraHitsAverageAllDamage":true,"FilterCanUseInMeleeWeaponsByAttack":true}})
+02:34:11.353 === MOD CONFIG BEGIN ===
+02:34:11.353   Debug: True Trace: False
+02:34:11.353   FEATURES => BiomeBreaches: True  PermanentEvasion: True  StartupChecks: True
+02:34:11.354   ToHitSelfJumped: 3
+02:34:11.354 
+02:34:11.354 === CUSTOM CATEGORY OPTIONS ===
+02:34:11.354   ShoulderActuatorCategoryId: 'ArmShoulder'  UpperArmActuatorCategoryId: 'ArmUpperActuator'  LowerArmActuatorCategoryId: 'ArmLowerActuator,OmniLowerActuator'  HandActuatorCategoryId: 'ArmHandActuator,OmniHandActuator'  
+02:34:11.354   HipActuatorCategoryId: 'LegHip'  UpperLegActuatorCategoryId: 'LegUpperActuator'  LowerLegActuatorCategoryId: 'LegLowerActuator'  FootActuatorCategoryId: 'LegFootActuator'  
+02:34:11.354 
+02:34:11.354 === HEAT OPTIONS ===
+02:34:11.355   Movement mods: 15 : -1, 30 : -2, 45 : -3, 60 : -4, 75 : -5, 93 : -6, 111 : -7, 129 : -8, 147 : -9, 
+02:34:11.355   Firing mods: 24 : 1, 39 : 2, 51 : 3, 72 : 4, 99 : 5, 123 : 6, 144 : 7, 
+02:34:11.355   Shutdown chances: 42 : 0.1, 54 : 0.3, 66 : 0.6, 78 : 0.8, 90 : 0.9, 102 : 1, 114 : 1.1, 126 : 1.2, 138 : 1.3, 150 : -1, 
+02:34:11.355   Ammo Explosion chances: 57 : 0.1, 69 : 0.2, 84 : 0.3, 105 : 0.4, 120 : 0.5, 135 : 0.6, 150 : 0.75, 
+02:34:11.356   Pilot Injury chances: 84 : 0.3, 117 : 0.6, 141 : 0.8, 
+02:34:11.356   System Failure chances: 108 : 0.3, 132 : 0.6, 
+02:34:11.356   ShowLowOverheatAnim: 42  ShowExtremeOverheatAnim: 90
+02:34:11.356   ShutdownFallThreshold: 0.75
+02:34:11.356   MaxHeat: 150  WarnAtHeat: 42
+02:34:11.356 
+02:34:11.356 === MELEE OPTIONS ===
+02:34:11.356   ExtraHitsAverageAllDamage: True  ProneTargetAttackModifier: -2  FilterCanUseInMeleeWeaponsByAttack: True
+02:34:11.356   -- CHARGE OPTIONS --
+02:34:11.356   AttackerDamagePerTargetTon: 0.5  AttackerInstabilityPerTargetTon: 0.5
+02:34:11.356   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 0.5
+02:34:11.356   DamageClusterDivisor: 25
+02:34:11.356   Unsteady => AttackerOnHit: True  AttackerOnMiss: True  TargetOnHit: True
+02:34:11.356   TargetVehicleEvasionPipsRemoved: 4
+02:34:11.356 
+02:34:11.356   -- DFA OPTIONS --
+02:34:11.356   AttackerDamagePerTargetTon: 1.5  AttackerInstabilityPerTargetTon: 0.5
+02:34:11.356   TargetDamagePerAttackerTon: 1.5  TargetInstabilityPerAttackerTon: 0.5
+02:34:11.356   DamageClusterDivisor: 25
+02:34:11.356   Unsteady => AttackerOnHit: True  AttackerOnMiss: True  TargetOnHit: True
+02:34:11.356   TargetVehicleEvasionPipsRemoved: 4
+02:34:11.356 
+02:34:11.356   -- KICK OPTIONS --
+02:34:11.356   BaseAttackBonus: -2  LegActuatorDamageMalus: 2  FootActuatorDamageMalus: 1
+02:34:11.356   TargetDamagePerAttackerTon: 1  TargetInstabilityPerAttackerTon: 0.5
+02:34:11.356   LegActuatorDamageReduction: 0.5
+02:34:11.356   Unsteady => AttackerOnHit: False  AttackerOnMiss: True  TargetOnHit: True
+02:34:11.356   TargetVehicleEvasionPipsRemoved: 4
+02:34:11.356 
+02:34:11.356   -- PHYSICAL WEAPON OPTIONS --
+02:34:11.356   DefaultDamagePerAttackTon: 0.2  DefaultInstabilityPerAttackerTon: 0.2
+02:34:11.356   ArmActuatorDamageMalus: 2
+02:34:11.356   Unsteady Default => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
+02:34:11.356   TargetVehicleEvasionPipsRemoved: 0
+02:34:11.356 
+02:34:11.356   -- PUNCH OPTIONS --
+02:34:11.356   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 0.5
+02:34:11.356   ArmActuatorDamageMalus: 2  HandActuatorDamageMalus: 1
+02:34:11.356   ArmActuatorDamageReduction: 0.5
+02:34:11.356   Unsteady => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
+02:34:11.356   TargetVehicleEvasionPipsRemoved: 0
+02:34:11.356 
+02:34:11.356   -- SWARM OPTIONS --
+02:34:11.356 
+02:34:11.356 === MOVE OPTIONS ===
+02:34:11.356   MinimumMove: 40m  HeatMovePenalty: -24m  RunMulti: x1.5
+02:34:11.356   FallAfterChances =>   Jump: 0.3  Run: 0.3
+02:34:11.356   MPMetersPerHex: 24m
+02:34:11.356 
+02:34:11.356 === PILOTING OPTIONS ===
+02:34:11.356   StabilityCheck: 0.3
+02:34:11.356   DFAReductionMulti: x0.05  FallingDamagePerTenTons: 5
+02:34:11.356 
+02:34:11.356 === SKILL CHECKS OPTIONS ===
+02:34:11.356   PilotingSkillMulti: x0.05  GutsSkillMulti: 0.05
+02:34:11.356 === BREACHES OPTIONS ===
+02:34:11.356   ThinAtmoCheck: 0.03  VacuumCheck: 0.17
+02:34:11.356 
+02:34:11.356 === MOD CONFIG END ===
+02:34:11.356 INFO: No errors reading settings file.
+02:34:18.812 Invoking FinishedLoading
+02:34:18.812 Initializing IRBTModUtils movement feature modifiers.
+02:34:18.812 Enabling MechEngineer functionality
+02:37:38.618 AA:IES entered- setting CanShootAfterSprinting for actor:Stalker  GN
+02:37:38.628 Setting overheat threshold to 42 and maxHeat to 150 for actor:Stalker  GN_Buckshot_7B9F1E30
+02:37:38.845 AA:IES entered- setting CanShootAfterSprinting for actor:Marauder
+02:37:38.845 Setting overheat threshold to 42 and maxHeat to 150 for actor:Marauder_Kraken_EC1A10DE
+02:37:39.039 AA:IES entered- setting CanShootAfterSprinting for actor:Marauder
+02:37:39.039 Setting overheat threshold to 42 and maxHeat to 150 for actor:Marauder_Mockingbird_57245CBC
+02:37:39.211 AA:IES entered- setting CanShootAfterSprinting for actor:Highlander
+02:37:39.212 Setting overheat threshold to 42 and maxHeat to 150 for actor:Highlander_Paradise_37443683
+02:37:39.312 AA:IES entered- setting CanShootAfterSprinting for actor:Highlander
+02:37:39.312 Setting overheat threshold to 42 and maxHeat to 150 for actor:Highlander_Mockingbird_67C4C2EB
+02:37:39.366 AA:IES entered- setting CanShootAfterSprinting for actor:Highlander
+02:37:39.366 Setting overheat threshold to 42 and maxHeat to 150 for actor:Highlander_Showboat_D48D4653
+02:37:39.444 AA:IES entered- setting CanShootAfterSprinting for actor:Highlander
+02:37:39.444 Setting overheat threshold to 42 and maxHeat to 150 for actor:Highlander_Kraken_35E8359A
+02:37:52.788 Interleaved mode set to: REMAIN_INTERLEAVED
+02:37:52.788 Biome of highlandsSpring detected. No special behaviors.
+02:37:57.778  == Checking units for contact with enemy ==
+02:37:57.778  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.778  -- Unit: Marauder_Kraken_EC1A10DE hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.778  -- Unit: Marauder_Mockingbird_57245CBC hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  -- Unit: Highlander_Paradise_37443683 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  -- Unit: Highlander_Showboat_D48D4653 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  -- Unit: Highlander_Kraken_35E8359A hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  == DONE ==
+02:37:57.779  == Checking units for contact with enemy ==
+02:37:57.779  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  -- Unit: Marauder_Kraken_EC1A10DE hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  -- Unit: Marauder_Mockingbird_57245CBC hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  -- Unit: Highlander_Paradise_37443683 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  -- Unit: Highlander_Showboat_D48D4653 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  -- Unit: Highlander_Kraken_35E8359A hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.779  == DONE ==
+02:37:57.919  == Checking units for contact with enemy ==
+02:37:57.919  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.919  -- Unit: Marauder_Kraken_EC1A10DE hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.919  -- Unit: Marauder_Mockingbird_57245CBC hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.919  -- Unit: Highlander_Paradise_37443683 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.919  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.919  -- Unit: Highlander_Showboat_D48D4653 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.919  -- Unit: Highlander_Kraken_35E8359A hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.919  == DONE ==
+02:37:57.936  == Checking units for contact with enemy ==
+02:37:57.936  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.936  -- Unit: Marauder_Kraken_EC1A10DE hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.936  -- Unit: Marauder_Mockingbird_57245CBC hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.936  -- Unit: Highlander_Paradise_37443683 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.936  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.936  -- Unit: Highlander_Showboat_D48D4653 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.936  -- Unit: Highlander_Kraken_35E8359A hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.936  == DONE ==
+02:37:57.938  == Checking units for contact with enemy ==
+02:37:57.938  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.938  -- Unit: Marauder_Kraken_EC1A10DE hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.938  -- Unit: Marauder_Mockingbird_57245CBC hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.938  -- Unit: Highlander_Paradise_37443683 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.938  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.938  -- Unit: Highlander_Showboat_D48D4653 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.938  -- Unit: Highlander_Kraken_35E8359A hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.938  == DONE ==
+02:37:57.939  == Checking units for contact with enemy ==
+02:37:57.939  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.939  -- Unit: Marauder_Kraken_EC1A10DE hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.939  -- Unit: Marauder_Mockingbird_57245CBC hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.939  -- Unit: Highlander_Paradise_37443683 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.939  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.939  -- Unit: Highlander_Showboat_D48D4653 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.939  -- Unit: Highlander_Kraken_35E8359A hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.939  == DONE ==
+02:37:57.940  == Checking units for contact with enemy ==
+02:37:57.940  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Marauder_Kraken_EC1A10DE hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Marauder_Mockingbird_57245CBC hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Highlander_Paradise_37443683 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Highlander_Showboat_D48D4653 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Highlander_Kraken_35E8359A hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  == DONE ==
+02:37:57.940  == Checking units for contact with enemy ==
+02:37:57.940  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Marauder_Kraken_EC1A10DE hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Marauder_Mockingbird_57245CBC hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Highlander_Paradise_37443683 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.940  -- Unit: Highlander_Showboat_D48D4653 hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.941  -- Unit: Highlander_Kraken_35E8359A hasContact: False  highestVisLevel => selfCache: None  parentCache: None
+02:37:57.941  == DONE ==
+02:37:58.466 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:37:58.467 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:37:58.467   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:37:58.467   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:37:58.624 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:37:58.624 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:37:58.624   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:37:58.624   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:37:59.115 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:37:59.115 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:37:59.115   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:37:59.115   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:37:59.238 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:37:59.238 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:37:59.238   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:37:59.238   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:00.048 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:00.048 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:00.048   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:00.048   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:00.159 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:00.159 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:00.159   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:00.159   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:00.225 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:00.225 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:00.225   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:00.225   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:00.324 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:00.324 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:00.324   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:00.324   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:00.371 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:00.371 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:00.371   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:00.371   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:00.440 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:00.441 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:00.441   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:00.441   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:00.476 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:00.476 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:00.476   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:00.476   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:00.779 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:00.779 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:00.779   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:00.779   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:02.279 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:02.279 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:02.279   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:02.279   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:04.804 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:04.804 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:04.804   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:04.804   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:06.483 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:06.483 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:06.483   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:06.483   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:06.519 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:06.519 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:06.519   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:06.519   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:08.743 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:08.743 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:08.743   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:08.743   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:09.031 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:09.031 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:09.031   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:09.031   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:09.118 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:09.118 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:09.118   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:09.118   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:09.879 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:09.879 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:09.879   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:09.879   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:11.892 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:11.892 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:11.892   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:11.892   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:11.915 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:11.915 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:11.915   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:11.915   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:12.035 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:12.035 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:12.035   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:12.035   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:12.062 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:12.062 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:12.062   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:12.062   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:12.103 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:12.103 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:12.103   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:12.103   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:12.128 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:12.128 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:12.128   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:12.128   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:12.153 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:12.153 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:12.153   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:12.153   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:12.202 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:12.202 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:12.202   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:12.202   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:12.991 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:12.991 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:12.991   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:12.991   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:13.043 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:13.044 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:13.044   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:13.044   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:13.066 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:13.066 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:13.066   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:13.066   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:13.207 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:13.207 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:13.207   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:13.207   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:13.556 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:13.556 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:13.556   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:13.556   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:15.263 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:15.263 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:15.263   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:15.263   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:15.790 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:15.790 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:15.790   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:15.790   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:15.838 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:15.838 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:15.838   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:15.838   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:15.901 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:15.901 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:15.901   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:15.901   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:20.821 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:20.821 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:20.821   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:20.821   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:20.871 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:20.871 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:20.871   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:20.871   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:25.016 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:25.017 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:25.017   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:25.017   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:26.114 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:26.114 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:26.114   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:26.114   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:26.279 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:26.279 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:26.279   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:26.279   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:26.302 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:26.302 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:26.302   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:26.302   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:26.325 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:26.325 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:26.325   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:26.325   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:26.347 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:26.347 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:26.347   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:26.347   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:26.532 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:26.532 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:26.532   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:26.532   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:26.553 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:26.553 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:26.553   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:26.553   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:26.862 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:26.862 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:26.862   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:26.862   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:26.900 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:26.900 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:26.900   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:26.900   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:27.224 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:27.224 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:27.224   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:27.224   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:27.552 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:27.552 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:27.552   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:27.552   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:29.690 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:29.690 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:29.690   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:29.691   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:29.714 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:29.715 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:29.715   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:29.715   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:29.736 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:29.736 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:29.736   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:29.736   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:29.775 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:29.775 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:29.775   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:29.775   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:29.795 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:29.795 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:29.795   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:29.795   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:29.830 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:29.830 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:29.830   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:29.830   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:29.881 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:29.881 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:29.881   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:29.881   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:29.972 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:29.972 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:29.972   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:29.972   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:30.117 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:30.117 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:30.117   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:30.117   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:30.153 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:30.153 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:30.153   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:30.153   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:30.174 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:30.174 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:30.174   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:30.174   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:30.446 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:30.446 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:30.446   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:30.446   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:30.516 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:30.516 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:30.516   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:30.516   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:30.567 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:30.567 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:30.567   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:30.567   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:31.020 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:31.020 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:31.020   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:31.020   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:31.041 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:31.041 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:31.042   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:31.042   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:31.062 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:31.063 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:31.063   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:31.063   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:32.133 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:32.133 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:32.133   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:32.133   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:32.174 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:32.174 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:32.174   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:32.174   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:32.852 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:32.852 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:32.852   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:32.852   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:33.825 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:33.825 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:33.825   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:33.825   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:33.902 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:33.902 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:33.902   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:33.902   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:33.923 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:33.923 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:33.923   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:33.923   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:33.943 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:33.943 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:33.943   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:33.943   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:33.963 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:33.963 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:33.963   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:33.963   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:34.035 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:34.035 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:34.035   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:34.035   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:34.058 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:34.058 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:34.058   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:34.058   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:39.249 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:39.249 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:39.249   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:39.249   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:39.270 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:39.270 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:39.270   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:39.270   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:39.388 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:39.388 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:39.388   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:39.389   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:39.489 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:39.489 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:39.489   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:39.489   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:39.888 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:39.888 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:39.888   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:39.888   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:39.950 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:39.950 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:39.950   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:39.950   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:39.972 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:39.972 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:39.972   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:39.972   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:39.993 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:39.993 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:39.993   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:39.993   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:40.316 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:40.316 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:40.316   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:40.316   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:40.501 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:40.501 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:40.501   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:40.501   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:40.778 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:40.778 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:40.778   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:40.778   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:41.025 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:41.025 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:41.025   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:41.025   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:41.913 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:41.913 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:41.913   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:41.913   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:42.200 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:42.200 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:42.200   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:42.200   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:42.431 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:42.431 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:42.431   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:42.431   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:42.602 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:42.602 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:42.602   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:42.602   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:42.837 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:42.837 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:42.837   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:42.837   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:43.155 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:43.155 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:43.155   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:43.155   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:43.180 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:43.180 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:43.180   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:43.180   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:44.139 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:44.139 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:44.139   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:44.139   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:44.163 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:38:44.163 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:38:44.163   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:44.163   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:46.898 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:46.898 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:46.898   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:46.898   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:46.945 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:46.945 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:46.945   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:46.945   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:46.979 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:46.979 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:46.979   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:46.979   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:47.138 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:47.138 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:47.138   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:47.138   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:47.737 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:47.737 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:47.737   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:47.737   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:47.924 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:47.924 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:47.924   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:47.924   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:48.038 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:48.038 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:48.038   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:48.038   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:48.061 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:48.061 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:48.061   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:48.061   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:48.513 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:48.513 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:48.513   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:48.513   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:49.067 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:49.067 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:49.067   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:49.067   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:50.164 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:50.164 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:50.164   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:50.164   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:50.239 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:50.239 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:50.239   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:50.239   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:50.611 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:50.611 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:50.611   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:50.611   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:50.672 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:50.672 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:50.672   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:50.672   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:51.058 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:51.058 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:51.058   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:51.058   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:51.762 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:51.762 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:51.762   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:51.762   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:51.831 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:51.831 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:51.831   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:51.831   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:51.929 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:51.929 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:51.929   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:51.929   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:52.456 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:52.456 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:52.456   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:52.456   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:52.716 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:52.716 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:52.716   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:52.716   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:53.814 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:53.814 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:53.814   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:53.814   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:54.161 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:54.161 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:54.161   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:54.161   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:54.284 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:54.284 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:54.284   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:54.284   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:54.497 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:54.497 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:54.497   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:54.497   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:54.555 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:54.555 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:54.555   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:54.555   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:54.606 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:54.606 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:54.606   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:54.606   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:54.716 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:54.716 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:54.716   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:54.716   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:54.829 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:54.829 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:54.829   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:54.829   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:54.858 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:54.858 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:54.858   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:54.858   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:54.863  == Checking units for contact with enemy ==
+02:38:54.863  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: True  highestVisLevel => selfCache: None  parentCache: Blip1Type
+02:38:54.863  -- Unit: Marauder_Kraken_EC1A10DE hasContact: True  highestVisLevel => selfCache: None  parentCache: Blip1Type
+02:38:54.863  -- Unit: Marauder_Mockingbird_57245CBC hasContact: True  highestVisLevel => selfCache: None  parentCache: Blip1Type
+02:38:54.863  -- Unit: Highlander_Paradise_37443683 hasContact: True  highestVisLevel => selfCache: None  parentCache: Blip1Type
+02:38:54.863  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: True  highestVisLevel => selfCache: None  parentCache: Blip1Type
+02:38:54.863  -- Unit: Highlander_Showboat_D48D4653 hasContact: True  highestVisLevel => selfCache: None  parentCache: Blip1Type
+02:38:54.863  -- Unit: Highlander_Kraken_35E8359A hasContact: True  highestVisLevel => selfCache: None  parentCache: Blip1Type
+02:38:54.863  == DONE ==
+02:38:54.934 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:54.934 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:54.934   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:54.934   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:55.187 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:55.187 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:55.187   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:55.187   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:55.284 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:55.284 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:55.284   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:55.284   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:55.635 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:55.636 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:55.636   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:55.636   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:55.692 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:55.692 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:55.692   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:55.692   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:55.732 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:55.732 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:55.732   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:55.732   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:55.732 Calculating pilot check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:55.732 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 2 normalized to 2
+02:38:55.732   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:55.732   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:55.733   failedInjuryCheck: False
+02:38:55.734   failedSystemFailureCheck: False
+02:38:55.791 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:55.791 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:55.791   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:55.791   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:55.814 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:55.814 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:55.814   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:55.814   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:55.886 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:55.886 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:55.886   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:55.886   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:55.959 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:55.959 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:55.959   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:55.959   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.008 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.008 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.008   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.008   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.069 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:56.069 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:38:56.069   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.069   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.069 Calculating pilot check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:38:56.069 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 2 normalized to 2
+02:38:56.069   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:38:56.069   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:38:56.069   failedInjuryCheck: False
+02:38:56.069   failedSystemFailureCheck: False
+02:38:56.295 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.295 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.295   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.295   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.396 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.396 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.396   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.396   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.477 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.477 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.477   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.477   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.500 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.500 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.500   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.500   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.545 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.545 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.545   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.545   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.611 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.611 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.611   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.611   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.704 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.704 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.704   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.704   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.735 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.735 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.735   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.735   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.937 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.937 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.937   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.937   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:56.983 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:56.983 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:56.983   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:56.983   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:57.239 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:57.239 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:57.239   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:57.239   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:38:57.656 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:38:57.656 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:38:57.656   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:38:57.656   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:02.042 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:02.042 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:02.042   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:02.042   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:02.042 Calculating pilot check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:02.042 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:02.042   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:02.042   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:02.042   failedInjuryCheck: False
+02:39:02.042   failedSystemFailureCheck: False
+02:39:02.356 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:02.356 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:02.356   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:02.356   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:02.356 Calculating pilot check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:02.356 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:02.356   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:02.356   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:02.356   failedInjuryCheck: False
+02:39:02.356   failedSystemFailureCheck: False
+02:39:10.397 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:39:10.397 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:39:10.397   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:10.397   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:10.427 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:39:10.427 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:39:10.427   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:10.427   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:10.452 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:39:10.452 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:39:10.452   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:10.452   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:10.662 Invoking auto select.
+02:39:10.663 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:39:10.663 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:39:10.663   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:10.663   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:10.664 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:39:10.664 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:39:10.664   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:10.664   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:10.664 Calculating pilot check modifier for actor: Marauder_Mockingbird_57245CBC
+02:39:10.664 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 2 normalized to 2
+02:39:10.664   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:10.664   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:10.664   failedInjuryCheck: False
+02:39:10.664   failedSystemFailureCheck: False
+02:39:10.954 Calculating heat check modifier for actor: Marauder_Mockingbird_57245CBC
+02:39:10.954 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 4 normalized to 4
+02:39:10.954   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:10.954   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:10.954 Calculating pilot check modifier for actor: Marauder_Mockingbird_57245CBC
+02:39:10.955 Actor: Marauder_Mockingbird_57245CBC has rawSkill: 2 normalized to 2
+02:39:10.955   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:10.955   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:10.955   failedInjuryCheck: False
+02:39:10.955   failedSystemFailureCheck: False
+02:39:11.361 TD isInterleaved: False  isInterleavePending: True  isNonInterleavePending: False
+02:39:11.362  -- TEAM: Effect Manager --
+02:39:11.362  -- TEAM: World --
+02:39:11.362  -- TEAM: Player 1 --
+02:39:11.362  ---- UNIT: Stalker  GN_Buckshot_7B9F1E30
+02:39:11.362  ---- UNIT: Marauder_Kraken_EC1A10DE
+02:39:11.362  ---- UNIT: Marauder_Mockingbird_57245CBC
+02:39:11.362  -- TEAM: Player 1 Support --
+02:39:11.362  -- TEAM: Player 2 --
+02:39:11.362  ---- UNIT: Highlander_Paradise_37443683
+02:39:11.362  ---- UNIT: Highlander_Mockingbird_67C4C2EB
+02:39:11.362  ---- UNIT: Highlander_Showboat_D48D4653
+02:39:11.362  ---- UNIT: Highlander_Kraken_35E8359A
+02:39:11.362  -- TEAM: Player 2 Support --
+02:39:11.362  -- TEAM: EmployerTeam --
+02:39:11.362  -- TEAM: EmployersAllyTeam --
+02:39:11.362  -- TEAM: TargetTeam --
+02:39:11.362  -- TEAM: TargetsAllyTeam --
+02:39:11.362  -- TEAM: NeutralToAllTeam --
+02:39:11.362  -- TEAM: HostileToAllTeam --
+02:39:11.362 There are 0 unusedUnits in the current phase
+02:39:11.362 Incrementing ActiveTurnActor
+02:39:11.362  == Checking units for contact with enemy ==
+02:39:11.362  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.362  -- Unit: Marauder_Kraken_EC1A10DE hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.362  -- Unit: Marauder_Mockingbird_57245CBC hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.362  -- Unit: Highlander_Paradise_37443683 hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.362  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.362  -- Unit: Highlander_Showboat_D48D4653 hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.362  -- Unit: Highlander_Kraken_35E8359A hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.362  == DONE ==
+02:39:11.370 ON ROUND END: isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+02:39:11.370  == Checking units for contact with enemy ==
+02:39:11.370  -- Unit: Stalker  GN_Buckshot_7B9F1E30 hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.370  -- Unit: Marauder_Kraken_EC1A10DE hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.371  -- Unit: Marauder_Mockingbird_57245CBC hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.371  -- Unit: Highlander_Paradise_37443683 hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.371  -- Unit: Highlander_Mockingbird_67C4C2EB hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.371  -- Unit: Highlander_Showboat_D48D4653 hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.371  -- Unit: Highlander_Kraken_35E8359A hasContact: True  highestVisLevel => selfCache: None  parentCache: LOSFull
+02:39:11.371  == DONE ==
+02:39:12.900 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:12.900 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:12.900   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:12.900   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:14.345 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:14.345 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:14.345   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:14.345   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:14.468 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:14.468 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:14.468   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:14.468   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:14.604 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:14.604 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:14.604   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:14.604   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:15.543 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:15.543 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:15.543   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:15.543   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:15.593 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:15.593 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:15.593   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:15.593   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:15.640 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:15.640 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:15.640   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:15.640   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:15.774 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:15.774 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:15.774   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:15.774   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:16.149 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:16.149 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:16.149   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:16.149   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:16.198 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:39:16.198 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:39:16.198   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:39:16.198   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:39:17.378 TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+02:39:17.378  -- TEAM: Effect Manager --
+02:39:17.378  -- TEAM: World --
+02:39:17.378  -- TEAM: Player 1 --
+02:39:17.378  ---- UNIT: Stalker  GN_Buckshot_7B9F1E30
+02:39:17.378  ---- UNIT: Marauder_Kraken_EC1A10DE
+02:39:17.378  ---- UNIT: Marauder_Mockingbird_57245CBC
+02:39:17.378  -- TEAM: Player 1 Support --
+02:39:17.378  -- TEAM: Player 2 --
+02:39:17.378  ---- UNIT: Highlander_Paradise_37443683
+02:39:17.378  ---- UNIT: Highlander_Mockingbird_67C4C2EB
+02:39:17.378  ---- UNIT: Highlander_Showboat_D48D4653
+02:39:17.378  ---- UNIT: Highlander_Kraken_35E8359A
+02:39:17.378  -- TEAM: Player 2 Support --
+02:39:17.378  -- TEAM: EmployerTeam --
+02:39:17.378  -- TEAM: EmployersAllyTeam --
+02:39:17.378  -- TEAM: TargetTeam --
+02:39:17.378  -- TEAM: TargetsAllyTeam --
+02:39:17.378  -- TEAM: NeutralToAllTeam --
+02:39:17.378  -- TEAM: HostileToAllTeam --
+02:39:17.378 There are 0 unusedUnits in the current phase
+02:39:17.378 Incrementing ActiveTurnActor
+02:39:17.404 Calculating heat check modifier for actor: Highlander_Paradise_37443683
+02:39:17.405 Actor: Highlander_Paradise_37443683 has rawSkill: 1 normalized to 1
+02:39:17.405   AdjustedSkill: 1 = actorSkill: 1 - malus: 0.
+02:39:17.405   CheckMod: 0.05 = adjustedSkill: 1 * multi: 0.05
+02:39:17.414 Calculating heat check modifier for actor: Highlander_Paradise_37443683
+02:39:17.414 Actor: Highlander_Paradise_37443683 has rawSkill: 1 normalized to 1
+02:39:17.414   AdjustedSkill: 1 = actorSkill: 1 - malus: 0.
+02:39:17.414   CheckMod: 0.05 = adjustedSkill: 1 * multi: 0.05
+02:39:17.414 Calculating heat check modifier for actor: Highlander_Paradise_37443683
+02:39:17.414 Actor: Highlander_Paradise_37443683 has rawSkill: 1 normalized to 1
+02:39:17.414   AdjustedSkill: 1 = actorSkill: 1 - malus: 0.
+02:39:17.414   CheckMod: 0.05 = adjustedSkill: 1 * multi: 0.05
+02:39:17.427 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:39:17.438 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:39:17.438 Target: Marauder_Mockingbird_57245CBC is unaffected by pathing - cannot be meleed!
+02:39:17.439 Calculating heat check modifier for actor: Highlander_Paradise_37443683
+02:39:17.439 Actor: Highlander_Paradise_37443683 has rawSkill: 1 normalized to 1
+02:39:17.439   AdjustedSkill: 1 = actorSkill: 1 - malus: 0.
+02:39:17.439   CheckMod: 0.05 = adjustedSkill: 1 * multi: 0.05
+02:39:17.580 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:39:17.581 Target: Marauder_Mockingbird_57245CBC is unaffected by pathing - cannot be meleed!
+02:39:21.531 Calculating heat check modifier for actor: Highlander_Paradise_37443683
+02:39:21.531 Actor: Highlander_Paradise_37443683 has rawSkill: 1 normalized to 1
+02:39:21.531   AdjustedSkill: 1 = actorSkill: 1 - malus: 0.
+02:39:21.531   CheckMod: 0.05 = adjustedSkill: 1 * multi: 0.05
+02:39:21.534 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:39:29.117 Calculating heat check modifier for actor: Highlander_Paradise_37443683
+02:39:29.117 Actor: Highlander_Paradise_37443683 has rawSkill: 1 normalized to 1
+02:39:29.117   AdjustedSkill: 1 = actorSkill: 1 - malus: 0.
+02:39:29.117   CheckMod: 0.05 = adjustedSkill: 1 * multi: 0.05
+02:39:29.117 Calculating pilot check modifier for actor: Highlander_Paradise_37443683
+02:39:29.117 Actor: Highlander_Paradise_37443683 has rawSkill: 6 normalized to 6
+02:39:29.117   AdjustedSkill: 6 = actorSkill: 6 - malus: 0.
+02:39:29.117   CheckMod: 0.3 = adjustedSkill: 6 * multi: 0.05
+02:39:29.117   failedInjuryCheck: False
+02:39:29.117   failedSystemFailureCheck: False
+02:39:29.118   failedAmmoCheck: False
+02:39:29.211 TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+02:39:29.211  -- TEAM: Effect Manager --
+02:39:29.211  -- TEAM: World --
+02:39:29.211  -- TEAM: Player 1 --
+02:39:29.211  ---- UNIT: Stalker  GN_Buckshot_7B9F1E30
+02:39:29.211  ---- UNIT: Marauder_Kraken_EC1A10DE
+02:39:29.211  ---- UNIT: Marauder_Mockingbird_57245CBC
+02:39:29.211  -- TEAM: Player 1 Support --
+02:39:29.211  -- TEAM: Player 2 --
+02:39:29.211  ---- UNIT: Highlander_Paradise_37443683
+02:39:29.211  ---- UNIT: Highlander_Mockingbird_67C4C2EB
+02:39:29.211  ---- UNIT: Highlander_Showboat_D48D4653
+02:39:29.211  ---- UNIT: Highlander_Kraken_35E8359A
+02:39:29.211  -- TEAM: Player 2 Support --
+02:39:29.211  -- TEAM: EmployerTeam --
+02:39:29.211  -- TEAM: EmployersAllyTeam --
+02:39:29.211  -- TEAM: TargetTeam --
+02:39:29.211  -- TEAM: TargetsAllyTeam --
+02:39:29.211  -- TEAM: NeutralToAllTeam --
+02:39:29.211  -- TEAM: HostileToAllTeam --
+02:39:29.211 There are 3 unusedUnits in the current phase
+02:39:29.211 Incrementing ActiveTurnActor
+02:39:29.748 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:29.748 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:29.748   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:29.748   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:31.227 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:31.227 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:31.227   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:31.227   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:31.480 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:31.480 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:31.480   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:31.480   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:31.588 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:31.588 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:31.588   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:31.588   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:31.614 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:31.614 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:31.614   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:31.614   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:32.058 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:32.058 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:32.058   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:32.058   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:32.084 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:32.084 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:32.084   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:32.084   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:32.329 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:32.329 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:32.329   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:32.329   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:34.838 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:34.838 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:34.838   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:34.838   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:42.654 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:42.654 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:42.654   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:42.654   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:39:42.819 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:39:42.819 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:39:42.819   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:39:42.819   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:40:10.347 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:10.347 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:10.347   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:10.347   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:11.004 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:11.004 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:11.004   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:11.004   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:11.047 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:11.047 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:11.047   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:11.047   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:11.089 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:11.089 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:11.089   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:11.089   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:11.113 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:11.113 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:11.113   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:11.113   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:12.270 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:12.270 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:12.270   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:12.270   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:12.309 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:12.309 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:12.309   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:12.309   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:12.380 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:12.380 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:12.380   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:12.380   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:12.406 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:12.406 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:12.406   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:12.406   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:12.596 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:12.596 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:12.596   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:12.596   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:12.622 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:40:12.622 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:40:12.622   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:40:12.622   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:40:12.622 Calculating pilot check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:40:12.622 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 2 normalized to 2
+02:40:12.622   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:12.622   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:12.622   failedInjuryCheck: False
+02:40:12.622   failedSystemFailureCheck: False
+02:40:12.656 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:12.656 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:12.656   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:12.656   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:12.680 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:12.680 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:12.680   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:12.680   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:12.839 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:12.839 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:12.839   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:12.839   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:12.900 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:12.900 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:12.900   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:12.900   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:13.229 Calculating heat check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:40:13.229 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 4 normalized to 4
+02:40:13.229   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:40:13.229   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:40:13.229 Calculating pilot check modifier for actor: Stalker  GN_Buckshot_7B9F1E30
+02:40:13.229 Actor: Stalker  GN_Buckshot_7B9F1E30 has rawSkill: 2 normalized to 2
+02:40:13.229   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:13.229   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:13.229   failedInjuryCheck: False
+02:40:13.229   failedSystemFailureCheck: False
+02:40:13.229 TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+02:40:13.229  -- TEAM: Effect Manager --
+02:40:13.229  -- TEAM: World --
+02:40:13.229  -- TEAM: Player 1 --
+02:40:13.229  ---- UNIT: Stalker  GN_Buckshot_7B9F1E30
+02:40:13.229  ---- UNIT: Marauder_Kraken_EC1A10DE
+02:40:13.229  ---- UNIT: Marauder_Mockingbird_57245CBC
+02:40:13.229  -- TEAM: Player 1 Support --
+02:40:13.229  -- TEAM: Player 2 --
+02:40:13.229  ---- UNIT: Highlander_Paradise_37443683
+02:40:13.229  ---- UNIT: Highlander_Mockingbird_67C4C2EB
+02:40:13.229  ---- UNIT: Highlander_Showboat_D48D4653
+02:40:13.229  ---- UNIT: Highlander_Kraken_35E8359A
+02:40:13.229  -- TEAM: Player 2 Support --
+02:40:13.229  -- TEAM: EmployerTeam --
+02:40:13.229  -- TEAM: EmployersAllyTeam --
+02:40:13.229  -- TEAM: TargetTeam --
+02:40:13.229  -- TEAM: TargetsAllyTeam --
+02:40:13.229  -- TEAM: NeutralToAllTeam --
+02:40:13.229  -- TEAM: HostileToAllTeam --
+02:40:13.229 There are 2 unusedUnits in the current phase
+02:40:13.229 Incrementing ActiveTurnActor
+02:40:13.233 Calculating heat check modifier for actor: Highlander_Mockingbird_67C4C2EB
+02:40:13.233 Actor: Highlander_Mockingbird_67C4C2EB has rawSkill: 4 normalized to 4
+02:40:13.233   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:40:13.233   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:40:13.234 Calculating heat check modifier for actor: Highlander_Mockingbird_67C4C2EB
+02:40:13.234 Actor: Highlander_Mockingbird_67C4C2EB has rawSkill: 4 normalized to 4
+02:40:13.234   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:40:13.234   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:40:13.235 Calculating heat check modifier for actor: Highlander_Mockingbird_67C4C2EB
+02:40:13.235 Actor: Highlander_Mockingbird_67C4C2EB has rawSkill: 4 normalized to 4
+02:40:13.235   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:40:13.235   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:40:13.241 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:40:13.242 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:40:13.242 Target: Marauder_Mockingbird_57245CBC is unaffected by pathing - cannot be meleed!
+02:40:13.242 Calculating heat check modifier for actor: Highlander_Mockingbird_67C4C2EB
+02:40:13.242 Actor: Highlander_Mockingbird_67C4C2EB has rawSkill: 4 normalized to 4
+02:40:13.242   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:40:13.242   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:40:13.540 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:40:13.540 Target: Marauder_Mockingbird_57245CBC is unaffected by pathing - cannot be meleed!
+02:40:13.740 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:13.740 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:13.740   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:13.740   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:14.173 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:14.173 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:14.173   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:14.173   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:14.304 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:14.304 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:14.304   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:14.304   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:14.372 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:14.372 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:14.372   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:14.372   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:14.715 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:14.715 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:14.715   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:14.715   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:16.456 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:16.456 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:16.456   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:16.456   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:19.410 Calculating heat check modifier for actor: Highlander_Mockingbird_67C4C2EB
+02:40:19.410 Actor: Highlander_Mockingbird_67C4C2EB has rawSkill: 4 normalized to 4
+02:40:19.410   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:40:19.410   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:40:19.411 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:40:27.558 Calculating heat check modifier for actor: Highlander_Mockingbird_67C4C2EB
+02:40:27.558 Actor: Highlander_Mockingbird_67C4C2EB has rawSkill: 4 normalized to 4
+02:40:27.558   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:40:27.558   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:40:27.558 Calculating pilot check modifier for actor: Highlander_Mockingbird_67C4C2EB
+02:40:27.558 Actor: Highlander_Mockingbird_67C4C2EB has rawSkill: 2 normalized to 2
+02:40:27.558   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:27.558   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:27.558   failedInjuryCheck: False
+02:40:27.558   failedSystemFailureCheck: False
+02:40:27.558   failedAmmoCheck: False
+02:40:27.656 TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+02:40:27.656  -- TEAM: Effect Manager --
+02:40:27.656  -- TEAM: World --
+02:40:27.656  -- TEAM: Player 1 --
+02:40:27.656  ---- UNIT: Stalker  GN_Buckshot_7B9F1E30
+02:40:27.656  ---- UNIT: Marauder_Kraken_EC1A10DE
+02:40:27.656  ---- UNIT: Marauder_Mockingbird_57245CBC
+02:40:27.656  -- TEAM: Player 1 Support --
+02:40:27.656  -- TEAM: Player 2 --
+02:40:27.656  ---- UNIT: Highlander_Paradise_37443683
+02:40:27.656  ---- UNIT: Highlander_Mockingbird_67C4C2EB
+02:40:27.656  ---- UNIT: Highlander_Showboat_D48D4653
+02:40:27.656  ---- UNIT: Highlander_Kraken_35E8359A
+02:40:27.656  -- TEAM: Player 2 Support --
+02:40:27.656  -- TEAM: EmployerTeam --
+02:40:27.656  -- TEAM: EmployersAllyTeam --
+02:40:27.656  -- TEAM: TargetTeam --
+02:40:27.656  -- TEAM: TargetsAllyTeam --
+02:40:27.656  -- TEAM: NeutralToAllTeam --
+02:40:27.656  -- TEAM: HostileToAllTeam --
+02:40:27.656 There are 2 unusedUnits in the current phase
+02:40:27.656 Incrementing ActiveTurnActor
+02:40:29.008 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:29.008 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:29.008   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:29.008   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:29.046 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:29.047 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:29.047   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:29.047   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:29.283 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:29.283 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:29.283   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:29.283   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:29.425 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:29.425 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:29.425   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:29.425   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:29.465 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:29.465 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:29.465   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:29.465   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:29.772 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:29.772 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:29.772   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:29.772   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:29.851 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:29.851 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:29.851   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:29.851   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:29.886 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:29.886 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:29.886   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:29.886   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:30.327 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:30.327 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:30.327   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:30.327   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:30.416 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:30.416 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:30.416   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:30.416   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:36.348 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:36.348 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:36.348   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:36.348   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:40.760 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:40.760 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:40.760   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:40.760   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:44.312 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:44.312 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:44.312   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:44.312   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:45.400 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:45.400 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:45.400   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:45.400   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:46.078 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:46.078 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:46.078   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:46.078   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:46.649 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:46.649 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:46.649   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:46.650   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:46.683 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:46.683 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:46.683   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:46.683   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:47.594 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:47.594 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:47.594   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:47.594   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:56.061 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:56.061 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:56.061   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:56.061   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:56.122 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:56.122 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:56.122   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:56.122   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:56.319 Calculating heat check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:56.319 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:56.319   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:56.319   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:56.319 Calculating pilot check modifier for actor: Marauder_Kraken_EC1A10DE
+02:40:56.319 Actor: Marauder_Kraken_EC1A10DE has rawSkill: 2 normalized to 2
+02:40:56.319   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:56.319   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:56.319   failedInjuryCheck: False
+02:40:56.319   failedSystemFailureCheck: False
+02:40:56.330 TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+02:40:56.330  -- TEAM: Effect Manager --
+02:40:56.330  -- TEAM: World --
+02:40:56.330  -- TEAM: Player 1 --
+02:40:56.330  ---- UNIT: Stalker  GN_Buckshot_7B9F1E30
+02:40:56.330  ---- UNIT: Marauder_Kraken_EC1A10DE
+02:40:56.330  ---- UNIT: Marauder_Mockingbird_57245CBC
+02:40:56.330  -- TEAM: Player 1 Support --
+02:40:56.330  -- TEAM: Player 2 --
+02:40:56.330  ---- UNIT: Highlander_Paradise_37443683
+02:40:56.330  ---- UNIT: Highlander_Mockingbird_67C4C2EB
+02:40:56.330  ---- UNIT: Highlander_Showboat_D48D4653
+02:40:56.330  ---- UNIT: Highlander_Kraken_35E8359A
+02:40:56.330  -- TEAM: Player 2 Support --
+02:40:56.330  -- TEAM: EmployerTeam --
+02:40:56.330  -- TEAM: EmployersAllyTeam --
+02:40:56.330  -- TEAM: TargetTeam --
+02:40:56.330  -- TEAM: TargetsAllyTeam --
+02:40:56.330  -- TEAM: NeutralToAllTeam --
+02:40:56.330  -- TEAM: HostileToAllTeam --
+02:40:56.330 There are 1 unusedUnits in the current phase
+02:40:56.330 Incrementing ActiveTurnActor
+02:40:56.334 Calculating heat check modifier for actor: Highlander_Showboat_D48D4653
+02:40:56.334 Actor: Highlander_Showboat_D48D4653 has rawSkill: 2 normalized to 2
+02:40:56.334   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:56.334   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:56.335 Calculating heat check modifier for actor: Highlander_Showboat_D48D4653
+02:40:56.335 Actor: Highlander_Showboat_D48D4653 has rawSkill: 2 normalized to 2
+02:40:56.335   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:56.335   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:56.335 Calculating heat check modifier for actor: Highlander_Showboat_D48D4653
+02:40:56.335 Actor: Highlander_Showboat_D48D4653 has rawSkill: 2 normalized to 2
+02:40:56.336   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:56.336   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:56.345 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:40:56.345 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:40:56.345 Target: Marauder_Mockingbird_57245CBC is unaffected by pathing - cannot be meleed!
+02:40:56.346 Calculating heat check modifier for actor: Highlander_Showboat_D48D4653
+02:40:56.346 Actor: Highlander_Showboat_D48D4653 has rawSkill: 2 normalized to 2
+02:40:56.346   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:40:56.346   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:40:56.691 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:40:56.692 Target: Marauder_Mockingbird_57245CBC is unaffected by pathing - cannot be meleed!
+02:41:04.298 Calculating heat check modifier for actor: Highlander_Showboat_D48D4653
+02:41:04.298 Actor: Highlander_Showboat_D48D4653 has rawSkill: 2 normalized to 2
+02:41:04.298   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:41:04.298   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:41:04.299 Target: Marauder_Kraken_EC1A10DE is unaffected by pathing - cannot be meleed!
+02:41:11.739 Calculating heat check modifier for actor: Highlander_Showboat_D48D4653
+02:41:11.739 Actor: Highlander_Showboat_D48D4653 has rawSkill: 2 normalized to 2
+02:41:11.739   AdjustedSkill: 2 = actorSkill: 2 - malus: 0.
+02:41:11.739   CheckMod: 0.1 = adjustedSkill: 2 * multi: 0.05
+02:41:11.739 Calculating pilot check modifier for actor: Highlander_Showboat_D48D4653
+02:41:11.739 Actor: Highlander_Showboat_D48D4653 has rawSkill: 4 normalized to 4
+02:41:11.739   AdjustedSkill: 4 = actorSkill: 4 - malus: 0.
+02:41:11.739   CheckMod: 0.2 = adjustedSkill: 4 * multi: 0.05
+02:41:11.740   failedInjuryCheck: False
+02:41:11.740   failedSystemFailureCheck: False
+02:41:11.740   failedAmmoCheck: False
+02:41:11.851 TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+02:41:11.851  -- TEAM: Effect Manager --
+02:41:11.851  -- TEAM: World --
+02:41:11.851  -- TEAM: Player 1 --
+02:41:11.851  ---- UNIT: Stalker  GN_Buckshot_7B9F1E30
+02:41:11.851  ---- UNIT: Marauder_Kraken_EC1A10DE
+02:41:11.851  ---- UNIT: Marauder_Mockingbird_57245CBC
+02:41:11.851  -- TEAM: Player 1 Support --
+02:41:11.851  -- TEAM: Player 2 --
+02:41:11.851  ---- UNIT: Highlander_Paradise_37443683
+02:41:11.851  ---- UNIT: Highlander_Mockingbird_67C4C2EB
+02:41:11.851  ---- UNIT: Highlander_Showboat_D48D4653
+02:41:11.851  ---- UNIT: Highlander_Kraken_35E8359A
+02:41:11.852  -- TEAM: Player 2 Support --
+02:41:11.852  -- TEAM: EmployerTeam --
+02:41:11.852  -- TEAM: EmployersAllyTeam --
+02:41:11.852  -- TEAM: TargetTeam --
+02:41:11.852  -- TEAM: TargetsAllyTeam --
+02:41:11.852  -- TEAM: NeutralToAllTeam --
+02:41:11.852  -- TEAM: HostileToAllTeam --
+02:41:11.852 There are 1 unusedUnits in the current phase
+02:41:11.852 Incrementing ActiveTurnActor

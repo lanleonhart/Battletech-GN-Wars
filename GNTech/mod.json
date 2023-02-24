@@ -9,13 +9,17 @@
         "CCCategories",
         "CCDefaults",
         "CCTagRestrictions",
-        "CustomSVGIcon"
-
+        "CustomSVGIcon",
+        "CustomActivatableEquipment",
+        "CustomComponents"
     ],
 
 
         "Manifest": [
-       
+        {
+        "Type": "WeaponDef",
+        "Path": "Weapons"
+    },  
     {
             "Type": "ChassisDef",
             "Path": "Chassis"
@@ -43,6 +47,14 @@
         {
             "Type": "HeatSinkDef",
             "Path": "engine_parts"
+        },
+        {
+            "Type": "ammunitionDef",
+            "Path": "ammunition"
+        },
+        {
+            "Type": "ammunitionboxDef",
+            "Path": "ammunitionbox"
         },
         {
             "Type": "AudioFile",

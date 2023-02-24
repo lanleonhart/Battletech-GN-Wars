@@ -19,7 +19,7 @@
         {
             "DamageLevel": "Functional",
             "Location": "Head",
-            "CurrentArmor": 45,
+            "CurrentArmor": 60,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 16,
             "AssignedArmor": 45,
@@ -28,64 +28,64 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 110,
+            "CurrentArmor": 170,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 110,
+            "AssignedArmor": 150,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 85,
+            "CurrentArmor": 240,
             "CurrentRearArmor": 40,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 85,
+            "AssignedArmor": 180,
             "AssignedRearArmor": 40
         },
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 175,
+            "CurrentArmor": 290,
             "CurrentRearArmor": 50,
             "CurrentInternalStructure": 115,
-            "AssignedArmor": 175,
+            "AssignedArmor": 200,
             "AssignedRearArmor": 50
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 85,
+            "CurrentArmor": 240,
             "CurrentRearArmor": 40,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 85,
+            "AssignedArmor": 180,
             "AssignedRearArmor": 40
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 110,
+            "CurrentArmor": 170,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 110,
+            "AssignedArmor": 150,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 90,
+            "CurrentArmor": 160,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 90,
+            "AssignedArmor": 120,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 90,
+            "CurrentArmor": 160,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 90,
+            "AssignedArmor": 120,
             "AssignedRearArmor": -1
         }
     ],
@@ -100,29 +100,12 @@
       },
       {
         "MountedLocation": "RightTorso",
-        "ComponentDefID": "Weapon_Gauss_GN_SDRailgun",
+        "ComponentDefID": "Weapon_Gauss_GN_LightRailgun",
         "ComponentDefType": "Weapon",
         "HardpointSlot": -1,
         "IsFixed": false,
         "DamageLevel": "Functional"
       },
-      {
-        "MountedLocation": "LeftTorso",
-        "ComponentDefID": "Weapon_GNM10",
-        "ComponentDefType": "Weapon",
-        "HardpointSlot": -1,
-        "IsFixed": false,
-        "DamageLevel": "Functional"
-      },
-      {
-        "MountedLocation": "RightTorso",
-        "ComponentDefID": "Ammo_AmmunitionBox_GNMissiles",
-        "ComponentDefType": "AmmunitionBox",
-        "HardpointSlot": -1,
-        "IsFixed": false,
-        "DamageLevel": "Functional"
-      },
-  
       {
         "MountedLocation": "LeftTorso",
         "ComponentDefID": "Ammo_AmmunitionBox_GNSlug",
@@ -146,7 +129,8 @@
             "unit_mech",
             "unit_heavy",
             "unit_release",
-            "unit_ready"
+            "unit_ready",
+            "unit_comstar"
         ],
         "tagSetSourceFile": ""
     }

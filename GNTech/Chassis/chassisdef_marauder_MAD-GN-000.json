@@ -50,7 +50,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 45,
+            "MaxArmor": 60,
             "MaxRearArmor": -1,
             "InternalStructure": 16
         },
@@ -60,11 +60,15 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 120,
+            "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 60
         },
@@ -78,18 +82,18 @@
         ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 160,
+            "MaxArmor": 240,
             "MaxRearArmor": 80,
-            "InternalStructure": 80
+            "InternalStructure": 90
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 230,
+            "MaxArmor": 290,
             "MaxRearArmor": 115,
-            "InternalStructure": 115
+            "InternalStructure": 110
         },
         {
             "Location": "RightTorso",
@@ -101,7 +105,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 160,
+            "MaxArmor": 240,
             "MaxRearArmor": 80,
             "InternalStructure": 80
         },
@@ -115,7 +119,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 120,
+            "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 60
         },
@@ -197,34 +201,6 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
           }, 
-          {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "GNFieldFlight",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-          },
-          {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Linked_GNFieldFLT",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-          }, 
-          {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Linked_GNFieldFRT",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-          },
-          {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Linked_GNFieldFH",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-          },  
           {
 			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Linked_GNFrame",
@@ -335,11 +311,18 @@
         },
         {
           "MountedLocation": "LeftArm",
-          "ComponentDefID": "Weapon_SRM_SRM4_GN",
+          "ComponentDefID": "Weapon_GNVulcan",
           "ComponentDefType": "Weapon",
           "HardpointSlot": -1,
           "DamageLevel": "Functional"
         },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_SRM_SRM8_GN",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+          },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "GN_Shield",
