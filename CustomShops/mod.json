@@ -4,7 +4,7 @@
 	"Website": "https://github.com/BattletechModders/CustomShops",
 
 	"Enabled": true,
-	"DependsOn": ["IRTweaks"],
+	"DependsOn": [],
 	"DLL": "CustomShops.dll",
 	"DLLEntryPoint": "CustomShops.Control.Init",
 	
@@ -14,9 +14,9 @@
 		"DEBUG_BlackMarketAlwaysAvaliable" : false,
 		"DebugType" : "RefreshShop, SaveLoad, ShopInterface, TabSwitch, ShopActions",
 		
-        "SystemShop" : true,
-        "FactionShop" : true,
-        "BlackMarketShop" : true,
+        "SystemShop" : false,
+        "FactionShop" : false,
+        "BlackMarketShop" : false,
         "BuyBackShop" : true,
 		
 		"CheckFakeVehicle": true,

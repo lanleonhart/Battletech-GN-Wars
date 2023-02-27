@@ -1,8 +1,8 @@
 Levels :Spam True :Debug True :Info True :Warn True
-[Info] Harmony? 1.2.0.1
+[Info] Harmony? 1.2.0.0
 [Info] Unity? 2018.4.2f1
 [Info] Product? BATTLETECH-1.9.1-686R
-[Info] ModTek? 2.0.7.0
+[Info] ModTek? 3.1.15.0
 [Info] Initialized com.github.m22spencer.BattletechPerformanceFix 2.13.0.18294
 [Info] Mod-Dir? E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\BattletechPerformanceFix
 [Info] BattletechPerformanceFix found BattleTech 1.9.1 and will now load
@@ -102,10 +102,147 @@ Levels :Spam True :Debug True :Info True :Warn True
 [Spam] System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction] Init_Transpile(System.Collections.Generic.IEnumerable`1[Harmony.CodeInstruction]) called
 [Debug] TranspileNopIndicesRange: nopping indices 3-10
 [Info] Patch: Contract.Finalize -> MemoryLeakFix.TranspileNopAll
+[Exception] HarmonyLib.HarmonyException: IL Compile Error (unknown location) ---> HarmonyLib.HarmonyException: IL Compile Error (unknown location) ---> System.InvalidProgramException: Invalid IL code in (wrapper dynamic-method) BattleTech.Contract:DMD<BattleTech.Contract::Finalize> (BattleTech.Contract): IL_001b: nop       
+
+
+  at (wrapper managed-to-native) System.RuntimeMethodHandle.GetFunctionPointer(intptr)
+  at System.RuntimeMethodHandle.GetFunctionPointer () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.GetFunctionPointer (System.Reflection.MethodBase method, System.RuntimeMethodHandle handle) [0x00000] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.GetNativeStart (System.Reflection.MethodBase method) [0x00019] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.DetourHelper.GetNativeStart (System.Reflection.MethodBase method) [0x00005] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour._TopApply () [0x00025] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour._RefreshChain (System.Reflection.MethodBase method) [0x00151] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour.Apply () [0x00053] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour..ctor (System.Reflection.MethodBase from, System.Reflection.MethodBase to, MonoMod.RuntimeDetour.DetourConfig& config) [0x002ec] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?1500224512(object)
+  at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x0005f] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x00033] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x0005d] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at HarmonyXInterop.HarmonyInterop.ApplyPatch (System.Reflection.MethodBase target, HarmonyXInterop.PatchInfoWrapper add, HarmonyXInterop.PatchInfoWrapper remove) [0x0029b] in <fbb8ab78d90042cc8f9deae4f60cc56f>:0 
+  at Harmony.PatchHandler.Apply () [0x000e2] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at Harmony.PatchProcessor.Patch () [0x000bc] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00016] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at BattletechPerformanceFix.Extensions+<>c__DisplayClass60_0.<Patch>b__6 () [0x00000] in <04e76db3598a4278a907e8500a015d04>:0 
+  at BattletechPerformanceFix.Extensions.Trap[T] (System.Func`1[TResult] f, System.Func`1[TResult] or) [0x00002] in <04e76db3598a4278a907e8500a015d04>:0 
 [Info] Patch: ContractObjectiveOverride.Finalize -> MemoryLeakFix.TranspileNopAll
+[Exception] HarmonyLib.HarmonyException: IL Compile Error (unknown location) ---> HarmonyLib.HarmonyException: IL Compile Error (unknown location) ---> System.InvalidProgramException: Invalid IL code in (wrapper dynamic-method) BattleTech.Framework.ContractObjectiveOverride:DMD<BattleTech.Framework.ContractObjectiveOverride::Finalize> (BattleTech.Framework.ContractObjectiveOverride): IL_001b: nop       
+
+
+  at (wrapper managed-to-native) System.RuntimeMethodHandle.GetFunctionPointer(intptr)
+  at System.RuntimeMethodHandle.GetFunctionPointer () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.GetFunctionPointer (System.Reflection.MethodBase method, System.RuntimeMethodHandle handle) [0x00000] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.GetNativeStart (System.Reflection.MethodBase method) [0x00019] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.DetourHelper.GetNativeStart (System.Reflection.MethodBase method) [0x00005] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour._TopApply () [0x00025] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour._RefreshChain (System.Reflection.MethodBase method) [0x00151] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour.Apply () [0x00053] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour..ctor (System.Reflection.MethodBase from, System.Reflection.MethodBase to, MonoMod.RuntimeDetour.DetourConfig& config) [0x002ec] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?1500224512(object)
+  at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x0005f] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x00033] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x0005d] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at HarmonyXInterop.HarmonyInterop.ApplyPatch (System.Reflection.MethodBase target, HarmonyXInterop.PatchInfoWrapper add, HarmonyXInterop.PatchInfoWrapper remove) [0x0029b] in <fbb8ab78d90042cc8f9deae4f60cc56f>:0 
+  at Harmony.PatchHandler.Apply () [0x000e2] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at Harmony.PatchProcessor.Patch () [0x000bc] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00016] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at BattletechPerformanceFix.Extensions+<>c__DisplayClass60_0.<Patch>b__6 () [0x00000] in <04e76db3598a4278a907e8500a015d04>:0 
+  at BattletechPerformanceFix.Extensions.Trap[T] (System.Func`1[TResult] f, System.Func`1[TResult] or) [0x00002] in <04e76db3598a4278a907e8500a015d04>:0 
 [Info] Patch: ObjectiveOverride.Finalize -> MemoryLeakFix.TranspileNopAll
+[Exception] HarmonyLib.HarmonyException: IL Compile Error (unknown location) ---> HarmonyLib.HarmonyException: IL Compile Error (unknown location) ---> System.InvalidProgramException: Invalid IL code in (wrapper dynamic-method) BattleTech.Framework.ObjectiveOverride:DMD<BattleTech.Framework.ObjectiveOverride::Finalize> (BattleTech.Framework.ObjectiveOverride): IL_001b: nop       
+
+
+  at (wrapper managed-to-native) System.RuntimeMethodHandle.GetFunctionPointer(intptr)
+  at System.RuntimeMethodHandle.GetFunctionPointer () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.GetFunctionPointer (System.Reflection.MethodBase method, System.RuntimeMethodHandle handle) [0x00000] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.GetNativeStart (System.Reflection.MethodBase method) [0x00019] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.DetourHelper.GetNativeStart (System.Reflection.MethodBase method) [0x00005] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour._TopApply () [0x00025] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour._RefreshChain (System.Reflection.MethodBase method) [0x00151] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour.Apply () [0x00053] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour..ctor (System.Reflection.MethodBase from, System.Reflection.MethodBase to, MonoMod.RuntimeDetour.DetourConfig& config) [0x002ec] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?1500224512(object)
+  at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x0005f] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x00033] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x0005d] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at HarmonyXInterop.HarmonyInterop.ApplyPatch (System.Reflection.MethodBase target, HarmonyXInterop.PatchInfoWrapper add, HarmonyXInterop.PatchInfoWrapper remove) [0x0029b] in <fbb8ab78d90042cc8f9deae4f60cc56f>:0 
+  at Harmony.PatchHandler.Apply () [0x000e2] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at Harmony.PatchProcessor.Patch () [0x000bc] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00016] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at BattletechPerformanceFix.Extensions+<>c__DisplayClass60_0.<Patch>b__6 () [0x00000] in <04e76db3598a4278a907e8500a015d04>:0 
+  at BattletechPerformanceFix.Extensions.Trap[T] (System.Func`1[TResult] f, System.Func`1[TResult] or) [0x00002] in <04e76db3598a4278a907e8500a015d04>:0 
 [Info] Patch: DialogueContentOverride.Finalize -> MemoryLeakFix.TranspileNopAll
+[Exception] HarmonyLib.HarmonyException: IL Compile Error (unknown location) ---> HarmonyLib.HarmonyException: IL Compile Error (unknown location) ---> System.InvalidProgramException: Invalid IL code in (wrapper dynamic-method) BattleTech.Framework.DialogueContentOverride:DMD<BattleTech.Framework.DialogueContentOverride::Finalize> (BattleTech.Framework.DialogueContentOverride): IL_001b: nop       
+
+
+  at (wrapper managed-to-native) System.RuntimeMethodHandle.GetFunctionPointer(intptr)
+  at System.RuntimeMethodHandle.GetFunctionPointer () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.GetFunctionPointer (System.Reflection.MethodBase method, System.RuntimeMethodHandle handle) [0x00000] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.GetNativeStart (System.Reflection.MethodBase method) [0x00019] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.DetourHelper.GetNativeStart (System.Reflection.MethodBase method) [0x00005] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour._TopApply () [0x00025] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour._RefreshChain (System.Reflection.MethodBase method) [0x00151] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour.Apply () [0x00053] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour..ctor (System.Reflection.MethodBase from, System.Reflection.MethodBase to, MonoMod.RuntimeDetour.DetourConfig& config) [0x002ec] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?1500224512(object)
+  at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x0005f] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x00033] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x0005d] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at HarmonyXInterop.HarmonyInterop.ApplyPatch (System.Reflection.MethodBase target, HarmonyXInterop.PatchInfoWrapper add, HarmonyXInterop.PatchInfoWrapper remove) [0x0029b] in <fbb8ab78d90042cc8f9deae4f60cc56f>:0 
+  at Harmony.PatchHandler.Apply () [0x000e2] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at Harmony.PatchProcessor.Patch () [0x000bc] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00016] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at BattletechPerformanceFix.Extensions+<>c__DisplayClass60_0.<Patch>b__6 () [0x00000] in <04e76db3598a4278a907e8500a015d04>:0 
+  at BattletechPerformanceFix.Extensions.Trap[T] (System.Func`1[TResult] f, System.Func`1[TResult] or) [0x00002] in <04e76db3598a4278a907e8500a015d04>:0 
 [Info] Patch: InterpolatedText.Finalize -> MemoryLeakFix.TranspileNopAll
+[Exception] HarmonyLib.HarmonyException: IL Compile Error ---> System.InvalidProgramException: Invalid IL code in (wrapper dynamic-method) Localize.InterpolatedText:DMD<Localize.InterpolatedText::Finalize> (Localize.InterpolatedText): IL_0019: nop       
+
+
+  at (wrapper managed-to-native) System.RuntimeMethodHandle.GetFunctionPointer(intptr)
+  at System.RuntimeMethodHandle.GetFunctionPointer () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.GetFunctionPointer (System.Reflection.MethodBase method, System.RuntimeMethodHandle handle) [0x00000] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Platforms.DetourRuntimeILPlatform.GetNativeStart (System.Reflection.MethodBase method) [0x00019] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.DetourHelper.GetNativeStart (System.Reflection.MethodBase method) [0x00005] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour._TopApply () [0x00025] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour._RefreshChain (System.Reflection.MethodBase method) [0x00151] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour.Apply () [0x00053] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at MonoMod.RuntimeDetour.Detour..ctor (System.Reflection.MethodBase from, System.Reflection.MethodBase to, MonoMod.RuntimeDetour.DetourConfig& config) [0x002ec] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?1500224512(object)
+  at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <bbf7055c0fdb4018beccdadfe3e89f44>:0 
+  at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x0005d] in <40f0e05edfaf48a5ad9c0d95dec81b56>:0 
+  at HarmonyXInterop.HarmonyInterop.ApplyPatch (System.Reflection.MethodBase target, HarmonyXInterop.PatchInfoWrapper add, HarmonyXInterop.PatchInfoWrapper remove) [0x0029b] in <fbb8ab78d90042cc8f9deae4f60cc56f>:0 
+  at Harmony.PatchHandler.Apply () [0x000e2] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at Harmony.PatchProcessor.Patch () [0x000bc] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00016] in <bea1f4a5b07f46ca82195a6d2da8dab2>:0 
+  at BattletechPerformanceFix.Extensions+<>c__DisplayClass60_0.<Patch>b__6 () [0x00000] in <04e76db3598a4278a907e8500a015d04>:0 
+  at BattletechPerformanceFix.Extensions.Trap[T] (System.Func`1[TResult] f, System.Func`1[TResult] or) [0x00002] in <04e76db3598a4278a907e8500a015d04>:0 
 [Info] Patch: DialogueContent.ContractInitialize -> MemoryLeakFix.DialogueContent_ContractInitialize_Post
 [Info] Patch: ConversationContent.ContractInitialize -> MemoryLeakFix.ConversationContent_ContractInitialize_Post
 [Info] Patch: DialogBucketDef.ContractInitialize -> MemoryLeakFix.DialogBucketDef_ContractInitialize_Post
@@ -113,5 +250,3 @@ Levels :Spam True :Debug True :Info True :Warn True
 [Info] Runtime ----------
 [Info] Patch out sensitive data log dumps
 [Info] LogLevel info
-Levels :Spam False :Debug False :Info True :Warn True
-[Info] (CL) LanceOverride::RequestLance :contract.Name  :requestedDifficulty 0 :lanceDifficultyAdjustment 0 :contract.Difficulty -1

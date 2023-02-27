@@ -76,6 +76,12 @@
 @Default:120
 @Description:not documented yet
 
+@Name:AIPathingSamplesTreshold
+@Type:integer
+@AppliedTo:Settings
+@Default:200
+@Description:not documented yet
+
 @Name:AIPeerToPeerFirewallPierceThrough
 @Type:boolean
 @AppliedTo:Settings
@@ -164,6 +170,42 @@
 @Type:BloodSettings structure
 @AppliedTo:Settings
 @Default:empty
+@Description:not documented yet
+
+@Name:BuildinBurningFX
+@Type:string
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
+@Name:BuildinBurningFXDisableSmoke
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
+@Description:not documented yet
+
+@Name:BuildinBurningFXSmokeObjects
+@Type:HashSet`1
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
+@Name:BuildinBurningScaleX
+@Type:float
+@AppliedTo:Settings
+@Default:1.2
+@Description:not documented yet
+
+@Name:BuildinBurningScaleY
+@Type:float
+@AppliedTo:Settings
+@Default:1.2
+@Description:not documented yet
+
+@Name:BuildinBurningScaleZ
+@Type:float
+@AppliedTo:Settings
+@Default:1.2
 @Description:not documented yet
 
 @Name:BurnedForestDesignMask
@@ -424,10 +466,28 @@
 @Default:true
 @Description:not documented yet
 
+@Name:FleeMaxTonage
+@Type:float
+@AppliedTo:Settings
+@Default:3
+@Description:not documented yet
+
+@Name:FleeStartTonage
+@Type:float
+@AppliedTo:Settings
+@Default:2
+@Description:not documented yet
+
 @Name:forbiddenRangeEnable
 @Type:boolean
 @AppliedTo:Settings
 @Default:true
+@Description:not documented yet
+
+@Name:ForceBuildinBurningFX
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
 @Description:not documented yet
 
 @Name:ForestBurningDurationBiomeMult
@@ -440,6 +500,12 @@
 @Type:dictionary { "<string>":<float>}
 @AppliedTo:Settings
 @Default:empty
+@Description:not documented yet
+
+@Name:HexSizeForMods
+@Type:float
+@AppliedTo:Settings
+@Default:30
 @Description:not documented yet
 
 @Name:hidableRegionsList
@@ -480,6 +546,18 @@
 
 @Name:LitFireChanceBiomeMult
 @Type:dictionary { "<string>":<float>}
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
+@Name:MapOnlineClientDrawWidget
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:MapOnlineClientLink
+@Type:string
 @AppliedTo:Settings
 @Default:empty
 @Description:not documented yet
@@ -628,6 +706,18 @@
 @Default:0.4
 @Description:not documented yet
 
+@Name:PlayerAlwaysCalledShot
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
+@Description:not documented yet
+
+@Name:PlayerAlwaysCalledShotDirection
+@Type:enum. Possible values: None, FromFront, FromLeft, FromRight, FromBack, FromTop, ToProne, FromArtillery
+@AppliedTo:Settings
+@Default:None
+@Description:not documented yet
+
 @Name:PlayerAlwaysHit
 @Type:boolean
 @AppliedTo:Settings
@@ -650,6 +740,12 @@
 @Type:string
 @AppliedTo:Settings
 @Default:empty
+@Description:not documented yet
+
+@Name:RestoreEjectedWeapons
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
 @Description:not documented yet
 
 @Name:screamsIds
@@ -848,12 +944,6 @@
 @Type:integer
 @AppliedTo:Settings
 @Default:8
-@Description:not documented yet
-
-@Name:UseFastPreloading
-@Type:boolean
-@AppliedTo:Settings
-@Default:false
 @Description:not documented yet
 
 @Name:WeaponBurningDurationBiomeMult
