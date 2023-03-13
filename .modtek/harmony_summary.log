@@ -1,0 +1,3693 @@
+Harmony Patched Methods (after ModTek startup) -- 3/12/2023 9:14:43 PM
+
+Format as follows:
+{assembly name of patched method}
+{name of patched method}
+	{Harmony patch type}
+		{assembly name of patch} ({Harmony id of patch}) {method name of patch}
+
+
+Assembly-CSharp
+ActivateAfterInit.Start:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Patches.ActivateAfterInit_Start_Patch.Prefix
+
+Assembly-CSharp
+AITeam.GetUnitThatCanReachECM:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustAmmoCategoriesPatches.AITeam_GetUnitThatCanReachECM.Prefix
+
+Assembly-CSharp
+AreAnyHostilesInWeaponRangeNode.Tick:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustAmmoCategoriesPatches.AreAnyHostilesInWeaponRangeNode_Tick.Prefix
+
+Assembly-CSharp
+BattleTech.AbstractActor.AddToTeam:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.AbstractActor_AddToTeam.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.AssignAmmoToWeapons:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AbstractActor_AssignAmmoToWeapons.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.CheckEnteredCellsForRegions:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.AbstractActorCheckEnteredCellsForRegionsPatch.Prefix
+
+Assembly-CSharp
+BattleTech.AbstractActor.CheckPilotStatusFromAttack:
+	Transpilers:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.AbstractActor_CheckPilotStatusFromAttack.Transpiler
+
+Assembly-CSharp
+BattleTech.AbstractActor.EvaluateStealthState:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AbstractActor_EvaluateStealthState.Prefix
+
+Assembly-CSharp
+BattleTech.AbstractActor.FlagForDeath:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.MechLocationDestructFixes+Turret_FlagForDeath.Prefix
+
+Assembly-CSharp
+BattleTech.AbstractActor.get_HasBreachingShotAbility:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.AbstractActor_HasBreachingShotAbility.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.HandleDeath:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AbstractActor_HandleDeath.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.InitAbstractActor:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AbstractActor_InitAbstractActor.Prefix
+
+Assembly-CSharp
+BattleTech.AbstractActor.InitEffectStats:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.AbstractActor_InitEffectStats.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AbstractActor_InitStats.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.AbstractActor_InitEffectStats.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.AbstractActor_InitEffectStats.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.AbstractActor_InitEffectStats_AbilityResourceFix.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CAC_API_ShotMods+AbstractActor_InitEffectStats_DamageModsBySkill.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.AbstractActor_InitEffectStats_PainTolerance.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.IsFriendly:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.AbstractActorIsFriendlyPatch.Prefix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.AbstractActor_IsFriendly.Prefix
+
+Assembly-CSharp
+BattleTech.AbstractActor.IsUsingBreachingShotAbility:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.AbstractActor_IsUsingBreachingShotAbility.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.OnActivationBegin:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.DamageHelpers.AbstractActor_OnActivationBegin_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.AbstractActor.OnActivationEnd:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AbstractActor_OnActivationEnd.Prefix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CAC_API_ShotMods+AbstractActor_OnActivationEnd.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AbstractActor_OnActivationEnd_FailRoll.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.OnAuraAdded:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AbstractActor_OnAuraAdded.Prefix
+
+Assembly-CSharp
+BattleTech.AbstractActor.OnAuraRemoved:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AbstractActor_OnAuraRemoved.Prefix
+
+Assembly-CSharp
+BattleTech.AbstractActor.OnEffectEnd:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AbstractActor_OnEffectEnd.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.OnNewRound:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AbstractActor_OnNewRound.Prefix
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.AbstractActor_OnNewRound.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.OnPositionUpdate:
+
+Assembly-CSharp
+BattleTech.AbstractActor.OnRecomputePathing:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.AbstractActorOnRecomputePathingPatch.Prefix
+
+Assembly-CSharp
+BattleTech.AbstractActor.ProcessAddedMark:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AbstractActor_ProcessAddedMark.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.set_DistMovedThisRound:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AbstractActor_DistMovedThisRound_set.Postfix
+
+Assembly-CSharp
+BattleTech.AbstractActor.StealthPipsPreviewFromActorMovement:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AbstractActor_StealthPipsPreviewFromActorMovement_Prefix.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AbstractActor_StealthPipsPreviewFromActorMovement_Postfix.Postfix
+
+Assembly-CSharp
+BattleTech.ActorMovementSequence.CompleteMove:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.ActorMovementSequence_CompleteMoveAuraFloatie.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.ActorMovementSequence_CompleteMoveAura.Postfix
+
+Assembly-CSharp
+BattleTech.ActorMovementSequence.CompleteOrders:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.ActorMovementSequence_CompleteOrders.Postfix
+
+Assembly-CSharp
+BattleTech.AmmoCategoryValue.GetIcon:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSVGAssets.Patches.AmmoCategory_GetIcon.Postfix
+
+Assembly-CSharp
+BattleTech.AmmunitionBox.DamageComponent:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.AmmunitionBox_DamageComponent.Prefix
+	Transpilers:
+		MechEngineer (MechEngineer.Features.ComponentExplosions) MechEngineer.Features.ComponentExplosions.Patches.AmmunitionBox_DamageComponent_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.ApplicationConstants.FromJSON:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSVGAssets.Patches.ApplicationConstants_FromJSON.Postfix
+
+Assembly-CSharp
+BattleTech.Assetbundles.AssetBundleManager.AssetBundleNameToFilepath:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.AssetBundleManager_AssetBundleNameToFilepath_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Assetbundles.AssetBundleManager.AssetBundleNameToFileURL:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.AssetBundleManager_AssetBundleNameToFileURL_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Assetbundles.AssetBundleManager.GenerateWebRequest:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ShaderDependencyOverride.GetManager
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ShaderDependencyOverride.WithShaderDeps
+
+Assembly-CSharp
+BattleTech.Assetbundles.AssetBundleManager.GetAssetFromBundle:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.AssetBundleManagerGetAssetFromBundlePatch.Postfix
+
+Assembly-CSharp
+BattleTech.Assetbundles.AssetBundleManager.IsBundleLoaded:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ShaderDependencyOverride.GetManager
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ShaderDependencyOverride.WithShaderDeps
+
+Assembly-CSharp
+BattleTech.AttackDirector.OnAttackComplete:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.AttackDirector_OnAttackComplete.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.DamageHelpers.AttackDirector_OnAttackCompleteTA.Postfix
+
+Assembly-CSharp
+BattleTech.AttackDirector+AttackSequence.get_IsBreachingShot:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.AttackSequence_IsBreachingShot.Postfix
+
+Assembly-CSharp
+BattleTech.AttackDirector+AttackSequence.OnAttackSequenceResolveDamage:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.AttackDirectorAttackSequence_OnAttackSequenceResolveDamage.Postfix
+
+Assembly-CSharp
+BattleTech.AudioEventManager.LoadAudioSettings:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSoundBankDefs.AudioEventManager_LoadAudioSettings.Postfix
+
+Assembly-CSharp
+BattleTech.AuraCache.AddEffectIfNotPresent:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_AddEffectIfNotPresent_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.AuraConditionsPassed:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_AuraConditionsPassed_Ability_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.AuraConditionsPassed:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_AuraConditionsPassed_Component_Disable.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AuraCache_AuraConditionsPassed.Postfix
+
+Assembly-CSharp
+BattleTech.AuraCache.GetBestECMState:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_GetBestECMState_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.HasAlreadyChecked:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_HasAlreadyChecked_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.IsAffectedByAnyAura:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_IsAffectedByAnyAura_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.IsAffectedByAuraFrom:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_IsAffectedByAuraFrom_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.PreviewAura:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_PreviewAuraA_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.PreviewAura:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_PreviewAuraC_Disable.Prefix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AuraCache_PreviewAura.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.PreviewAurasAffectingMe:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_PreviewAurasAffectingMe_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.PreviewAurasFromActorAffectingMe:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_PreviewAurasFromActorAffectingMe_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.PreviewMyAurasAffecting:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_PreviewMyAurasAffecting_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.PreviewMyAurasAffectingOthers:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_PreviewMyAurasAffectingOthers_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.PreviewMyGhostSpottedCount:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_PreviewMyGhostSpottedCount_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.RefreshECMStates:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_RefreshECMStates_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.RemoveEffectIfPresent:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_RemoveEffectIfPresent_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.ResetForFullRebuild:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_ResetForFullRebuild_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.ShouldAffectThisActor:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_ShouldAffectThisActor_Disable.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AuraCache_ShouldAffectThisActor.Postfix
+
+Assembly-CSharp
+BattleTech.AuraCache.UpdateAllAuras:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_UpdateAllAuras_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.UpdateAura:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_UpdateAura_Ability_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.UpdateAura:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_UpdateAura_Component_Disable.Prefix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AuraCache_UpdateAura.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.UpdateAuras:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_UpdateAuras_Disable.Prefix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.AuraCache_UpdateAurasComponents.Prefix
+
+Assembly-CSharp
+BattleTech.AuraCache.UpdateAurasToActor:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.AuraCache_UpdateAurasToActor_Disable.Prefix
+
+Assembly-CSharp
+BattleTech.BaseComponentRef.RefreshComponentDef:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.BaseComponentRef_RefreshComponentDef.SetFixed
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.AllEntries:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_AllEntries_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.AllEntriesOfResource:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_AllEntriesOfResource_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.AllEntriesOfResourceFromAddendum:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_AllEntriesOfResourceFromAddendum_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.ApplyAddendum:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_ApplyAddendum_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.ApplyMemoryStore:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_ApplyMemoryStore_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.EntryByID:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_EntryByID_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.GetAddendumByName:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_GetAddendumByName_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.GetMemoryStoreByName:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_GetMemoryStoreByName_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.GetMemoryStoresContainingEntry:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_GetMemoryStoresContainingEntry_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.RefreshTypedEntries:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_RefreshTypedEntries_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.RemoveAddendum:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_RemoveAddendum_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.RemoveEntry:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_RemoveEntry_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.RemoveMemoryStore:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_RemoveMemoryStore_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BattleTechResourceLocator.SetContentPackIndex:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.BattleTechResourceLocator_SetContentPackIndex_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.BinkMedia.BinkMediaPlayer.Play:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomVideos.Patches.BinkMediaPlayer_Play_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Building.AttachBuildingToObjective:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.Building_AttachBuildingToObjective.Postfix
+
+Assembly-CSharp
+BattleTech.Building.TakeWeaponDamage:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CAC_API_ShotMods+Building_TakeWeaponDamage_DamageModsBySkill.Postfix
+
+Assembly-CSharp
+BattleTech.ChassisDef.FromJSON:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.AutoFix) MechEngineer.Features.AutoFix.Patches.ChassisDef_FromJSON_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.ChassisDef.RefreshHardpointData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.ChassisDef_RefreshHardpointData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.ChassisDef.refreshLocationReferences:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.ChassisDef_refreshLocationReferences_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.CombatGameState._Init:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatGameState__Init.Postfix
+
+Assembly-CSharp
+BattleTech.CombatGameState.OnCombatGameDestroyed:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatGameState_OnCombatGameDestroyedMap.Prefix
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Patches.CombatGameState_OnCombatGameDestroyed.Postfix
+
+Assembly-CSharp
+BattleTech.CombatGameState.TriggerAutoSaving:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.CombatGameState_TriggerAutoSaving.Prefix
+
+Assembly-CSharp
+BattleTech.Contract.AddMechComponentToSalvage:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Contract_AddMechComponentToSalvage.Prefix
+
+Assembly-CSharp
+BattleTech.Contract.BeginRequestResources:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.ContractBeginPatch.Prefix
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.ContractBeginRequestResourcesPatch.Postfix
+
+Assembly-CSharp
+BattleTech.Contract.CompleteContract:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.Contract_CompleteContract.Prefix
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.Contract_CompleteContract_Patch.Postfix
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.Contract_CompleteContract_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Contract.FinalizeKilledMechWarriors:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.ContractFinalizeKilledMechwarriorsPatch.Prefix
+	Transpilers:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.Contract_FinalizeKilledMechWarriors.Transpiler
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.ContractFinalizeKilledMechwarriorsPatch.Postfix
+
+Assembly-CSharp
+BattleTech.Contract.FinalizeSalvage:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.Contract_FinalizeSalvage_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Contract.GenerateSalvage:
+	Prefixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.Contract_GenerateSalvage.GenerateSalvage
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Contract_GenerateSalvage.GenerateSalvage
+	Transpilers:
+		MechEngineer (MechEngineer.Features.Engines) MechEngineer.Features.Engines.Patches.Contract_GenerateSalvage_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.Contract.get_IsFlashpointCampaignContract:
+	Postfixes:
+		ColourfulFlashPoints (ca.jwolf.ColourfulFlashPoints) ColourfulFlashPoints.Patches.Contract_GetIsFlashpointCampaignContract_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Contract.get_IsFlashpointContract:
+	Postfixes:
+		ColourfulFlashPoints (ca.jwolf.ColourfulFlashPoints) ColourfulFlashPoints.Patches.Contract_GetIsFlashpointContract_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Contract.RequestConversations:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.LoadAtBattleStart.Patches.Contract_RequestConversations_Patch.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.Contract_RequestConversations.Postfix
+
+Assembly-CSharp
+BattleTech.Data.ContentPackIndex.IsResourceOwned:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.ContentPackIndex_IsResourceOwned_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Data.ContentPackIndex.PatchMDD:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.ContentPackIndex_PatchMDD_Patch.Prefix
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.ContentPackIndex_PatchMDD_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Data.ContentPackIndex.TryFinalizeDataLoad:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.ContentPackIndex_TryFinalizeDataLoad_Patch.Prefix
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.ContentPackIndex_TryFinalizeDataLoad_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Data.DataManager.Clear:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Database+DataManager_Clear_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Data.DataManager.PooledInstantiate:
+	Postfixes:
+		CustomLocalSettings (io.kmission.localsettings) CustomSettings.DataManager_PooledInstantiate.Postfix
+
+Assembly-CSharp
+BattleTech.Data.DataManager.PrewarmComplete:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSVGAssets.Patches.DataManager_PrewarmComplete.Postfix
+
+Assembly-CSharp
+BattleTech.Data.DataManager.ProcessPrewarmRequests:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.DataManager_ProcessPrewarmRequests_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Data.DataManager+ResourceLoadRequest`1[[SVGImporter.SVGAsset, Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].Load:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSVGAssets.Patches.SVGAssetLoadRequest_Load.PrefixBase
+
+Assembly-CSharp
+BattleTech.Data.DataManager+SVGAssetLoadRequest.Load:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSVGAssets.Patches.SVGAssetLoadRequest_Load.Prefix
+
+Assembly-CSharp
+BattleTech.Data.LoadRequest.PopPendingRequest:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.LoadRequest_PopPendingRequest_Patch.Prefix
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.LoadRequest_PopPendingRequest_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Data.MetadataDatabase.get_MDD_DB_PATH:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.MetadataDatabase_MDD_DB_PATH_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Data.MetadataDatabase.get_MDD_TMP_PATH:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.MetadataDatabase_MDD_TMP_PATH_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Data.SimGame_MDDExtensions.UpdateContract:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Manifest.Patches.SimGame_MDDExtensions_UpdateContract_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Data.SVGCache.Contains:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Icons.SVGAssets_Contains.Contains
+
+Assembly-CSharp
+BattleTech.Data.SVGCache.GetAsset:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Icons.SVGCache_GetAsset.GetAsset
+
+Assembly-CSharp
+BattleTech.DebugBridge.ApplyCurrentSettings:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Logging.Patches.DebugBridge_ApplyCurrentSettings_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.DebugBridge.get_DEFAULT_SETTINGS_FILE_PATH:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomDebugSettings.Patches.DebugBridge_DEFAULT_SETTINGS_FILE_PATH_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.DebugBridge.GetCustomSettingsFilePath:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomDebugSettings.Patches.DebugBridge_GetCustomSettingsFilePath_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.DebugBridge.GetStreamingAssetsFilePath:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomDebugSettings.Patches.DebugBridge_GetStreamingAssetsFilePath_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Designed.DialogResult.Trigger:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.DialogResultPatch.Prefix
+
+Assembly-CSharp
+BattleTech.EffectManager.CreateEffect:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.EffectManager_CreateEffect.Prefix
+
+Assembly-CSharp
+BattleTech.EffectManager.EffectComplete:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.EffectManager_EffectComplete.Postfix
+
+Assembly-CSharp
+BattleTech.EffectManager.GetTargetStatCollections:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.EffectManager_GetTargetStatCollections.Postfix
+
+Assembly-CSharp
+BattleTech.EmotePortrait.LoadPortrait:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.EmotePortraitLoadPortraitPatch.Postfix
+
+Assembly-CSharp
+BattleTech.EncounterChunkGameLogic.ApplyContractOverride:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.EncounterChunkGameLogicApplyContractOverridePatch.Prefix
+
+Assembly-CSharp
+BattleTech.EncounterLayerData..ctor:
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.EncounterLayerData_Constructor
+
+Assembly-CSharp
+BattleTech.EncounterLayerData.OverridePlots:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.EncounterLayerDataOverridePlotsPatch.Postfix
+
+Assembly-CSharp
+BattleTech.EncounterLayerParent.FirstTimeInitialization:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.EncounterLayerParentFirstTimeInitializationPatch.Prefix
+
+Assembly-CSharp
+BattleTech.EncounterLayerParent.InitializeContract:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.EncounterLayerParentInitializeContractPatch.Prefix
+
+Assembly-CSharp
+BattleTech.EncounterObjectGameLogic.SetState:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.EncounterObjectGameLogicEncounterStartPatch.Prefix
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.EncounterObjectGameLogicEncounterStartPatch.Postfix
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.AudioEventGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.CameraShakeGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.AmbushChunkGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.ArtilleryObjective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.DefendXUnitsChunkGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.DefendXUnitsObjective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.DestroyLanceObjective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.DestroyXUnitsChunkGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.DestroyXUnitsObjective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.EmptyCustomChunkGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.EnsureAllUnitsSurviveObjective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.EnsureUnitsSurviveObjective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.EscortAndDefendLayerGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.EscortChunkGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.EscortXUnitsObjective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.GoToObjective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.OccupyRegionObjective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Designed.TimerObjective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.DialogueGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.DialogueSequenceGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.DropshipGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.DropshipLandingSpotGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.EncounterChunkGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.EncounterLayerData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.EncounterObjectGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Framework.ContractObjectiveGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.Framework.ObjectiveGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.LanceChunkGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.LanceSpawnerGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.ObstructionGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.PlayerLanceChunkGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.PlayerLanceSpawnerGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.RegionGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.RegionPointGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.RouteGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.RoutePointGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.UnitSpawnPointGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.EncounterObjectRef`1[[BattleTech.WorldPointGameLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].UpdateEncounterObjectRef:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Pre
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Transpile
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ContractLagFix.Post
+
+Assembly-CSharp
+BattleTech.FlashpointDef.get_isHeavyMetalCampaign:
+	Postfixes:
+		ColourfulFlashPoints (ca.jwolf.ColourfulFlashPoints) ColourfulFlashPoints.Patches.FlashpointDef_GetisHeavyMetalCampaign_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Framework.ChunkOverride.Copy:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.ChunkOverrideCopyPatch.Prefix
+
+Assembly-CSharp
+BattleTech.Framework.ContractOverride.GenerateUnits:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.ContractOverrideGenerateUnitsPatch.Prefix
+
+Assembly-CSharp
+BattleTech.Framework.LanceOverride.RequestLance:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ExtraLogging.RequestLance_Pre
+
+Assembly-CSharp
+BattleTech.Framework.LanceOverride.RequestLanceComplete:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.LanceOverrideRequestLanceCompletePatch.Prefix
+
+Assembly-CSharp
+BattleTech.Framework.LanceOverride.SelectLanceDefFromList:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.LanceOverrideSelectLanceDefFromListPatch.Prefix
+
+Assembly-CSharp
+BattleTech.Framework.ObjectiveGameLogic.ActivateObjective:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.ObjectiveGameLogicActivateObjectivePatch.Postfix
+
+Assembly-CSharp
+BattleTech.Framework.SmartTriggerResponse.Evaluate:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.SmartTriggerResponseEvalutePatch.Prefix
+
+Assembly-CSharp
+BattleTech.GameInstance.LaunchContract:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.GameInstanceLaunchContractPatch.Prefix
+
+Assembly-CSharp
+BattleTech.GameInstance.LaunchContract:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.DamageHelpers.GameInstance_LaunchContract_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.GameInstance.LaunchContractFromSave:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.GameInstanceLaunchContractFromSavePatch.Postfix
+
+Assembly-CSharp
+BattleTech.GameInstance.Load:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.GameInstance_Load_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.GameRepresentation.PlayVFXAt:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.OverrideGhostVFX) MechEngineer.Features.OverrideGhostVFX.Patches.GameRepresentation_PlayVFXAt_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.GameTipList..ctor:
+	Transpilers:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomGameTips.Patches.GameTipList_ctor_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.HeatSinkDef.FromJSON:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.AutoFix) MechEngineer.Features.AutoFix.Patches.HeatSinkDef_FromJSON_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.IntroCinematicLauncher.Init:
+	Postfixes:
+		SkipIntro (io.github.mpstark.SkipIntro) SkipIntro.Patches.IntroCinematicLauncher_Init_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.ItemCollectionResultGenerator.GenerateItemCollection:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.DEBUG_Patches.ItemCollectionResultGeneratore_GenerateItemCollection.OnICGenerate
+	Postfixes:
+		CustomShops (CustomShops) CustomShops.DEBUG_Patches.ItemCollectionResultGeneratore_GenerateItemCollection.OnICGenerated
+
+Assembly-CSharp
+BattleTech.ItemCollectionResultGenerator.InsertItemCollectionEntry:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.DEBUG_Patches.ItemCollectionResultGenerator_InsertItemCollectionEntry.OnInsert
+
+Assembly-CSharp
+BattleTech.ItemCollectionResultGenerator.OnCollectionComplete:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.DEBUG_Patches.ItemCollectionResultGenerator_OnCollectionComplete.OnComplete
+	Postfixes:
+		CustomShops (CustomShops) CustomShops.DEBUG_Patches.ItemCollectionResultGenerator_OnCollectionComplete.OnCompleted
+
+Assembly-CSharp
+BattleTech.ItemCollectionResultGenerator.OnCollectionDefRetrieved:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.DEBUG_Patches.ItemCollectionResultGenerator_OnCollectionDefRetrieved.OnComplete
+
+Assembly-CSharp
+BattleTech.ItemCollectionResultGenerator.ProcessQueuedReferenceCollections:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.DEBUG_Patches.ItemCollectionResultGenerator_ProcessQueuedReferenceCollections.OnComplete
+
+Assembly-CSharp
+BattleTech.JumpJetDef.FromJSON:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.AutoFix) MechEngineer.Features.AutoFix.Patches.JumpJetDef_FromJSON_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.LanceDef.Copy:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.LanceOverrideCopyPatch.Prefix
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.LanceOverrideCopyPatch.Postfix
+
+Assembly-CSharp
+BattleTech.LanceSpawnerGameLogic.InitializeTaggedLance:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ExtraLogging.InitializeTaggedLance_Pre
+
+Assembly-CSharp
+BattleTech.LanceSpawnerGameLogic.OnUnitSpawnComplete:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.LanceSpawnerGameLogicOnUnitSpawnCompletePatch.Prefix
+
+Assembly-CSharp
+BattleTech.LevelLoader.EnableLogging:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.EnableLoggingDuringLoads.EnableLogging
+
+Assembly-CSharp
+BattleTech.LevelLoader.LoadScene:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.LevelLoaderLoadScenePatch.Prefix
+
+Assembly-CSharp
+BattleTech.LineOfSight.FindSecondaryImpactTarget:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.LineOfSight_FindSecondaryImpactTarget.Postfix
+
+Assembly-CSharp
+BattleTech.MapMetaData.GetCellAt:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.MapMetaDataGetCellAtPatch.Prefix
+
+Assembly-CSharp
+BattleTech.MapMetaDataExporter.LoadMapMetaDataV2:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.MapMetaDataExporterPatch.Prefix
+
+Assembly-CSharp
+BattleTech.Mech.AddAbsoluteInstability:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.DamageHelpers.Mech_AddAbsoluteInstability_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.AddExternalHeat:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.DamageHelpers.Mech_AddExternalHeat_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.ApplyBraced:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.Mech_ApplyBraced.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.Mech_ApplyBraced_OnFire.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.ApplyHeadStructureEffects:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.Mech_ApplyHeadStructureEffects.Prefix
+		MechEngineer (MechEngineer.Features.ComponentExplosions) MechEngineer.Features.ComponentExplosions.Patches.Mech_ApplyHeadStructureEffects_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Mech.ApplyHeatSinks:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.Mech_ApplyHeatSinks.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.CalcJumpHeat:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.Engines) MechEngineer.Features.Engines.Patches.Mech_CalcJumpHeat_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Mech.CancelCreatedEffects:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.HeatSinkCapacityStat) MechEngineer.Features.HeatSinkCapacityStat.Patches.Mech_CancelCreatedEffects_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.Mech.CheckForCrit:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.CriticalEffects) MechEngineer.Features.CriticalEffects.Patches.Mech_CheckForCrit_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.Mech.CheckForHeatDamage:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.ShutdownInjuryProtection) MechEngineer.Features.ShutdownInjuryProtection.Patches.Mech_CheckForHeatDamage_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Mech.CompleteKnockdown:
+	Transpilers:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.Mech_CompleteKnockdown.Transpiler
+
+Assembly-CSharp
+BattleTech.Mech.DamageLocation:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.ComponentExplosions) MechEngineer.Features.ComponentExplosions.Patches.Mech_DamageLocation_Patch.Prefix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.Mech_DamageLocation.Prefix
+
+Assembly-CSharp
+BattleTech.Mech.GenerateFallSequence:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.MechComponent_GenerateFallSequence.Prefix
+
+Assembly-CSharp
+BattleTech.Mech.get_ArmorMultiplier:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.ArmorStructureChanges) MechEngineer.Features.ArmorStructureChanges.Patches.Mech_get_ArmorMultiplier_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.get_IsDead:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.MechLocationDestructFixes+Mech_IsDead.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.get_JumpDistance:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.Engines) MechEngineer.Features.Engines.Patches.Mech_JumpDistance_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Mech.get_MoveMultiplier:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.MoveMultiplierStat) MechEngineer.Features.MoveMultiplierStat.Patches.Mech_MoveMultiplier_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.get_StructureMultiplier:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.ArmorStructureChanges) MechEngineer.Features.ArmorStructureChanges.Patches.Mech_get_StructureMultiplier_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.GetHeatSinkDissipation:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.HeatSinkCapacityStat) MechEngineer.Features.HeatSinkCapacityStat.Patches.Mech_GetHeatSinkDissipation_Patch.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.Mech_GetHeatSinkDissipation.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.GetMaxArmor:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.ArmorStructureChanges) MechEngineer.Features.ArmorStructureChanges.Patches.Mech_GetMaxArmor_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.GetMaxStructure:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.ArmorStructureChanges) MechEngineer.Features.ArmorStructureChanges.Patches.Mech_GetMaxStructure_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.InitEffectStats:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.Engines) MechEngineer.Features.Engines.Patches.Mech_InitEffectStats_Patch.Prefix
+		MechEngineer (MechEngineer.Features.MoveMultiplierStat) MechEngineer.Features.MoveMultiplierStat.Patches.Mech_InitEffectStats_Patch.Prefix
+		MechEngineer (MechEngineer.Features.AccuracyEffects) MechEngineer.Features.AccuracyEffects.Patches.Mech_InitEffectStats_Patch.Prefix
+		MechEngineer (MechEngineer.Features.ShutdownInjuryProtection) MechEngineer.Features.ShutdownInjuryProtection.Patches.Mech_InitEffectStats_Patch.Prefix
+	Postfixes:
+		MechEngineer (MechEngineer.Features.HeatSinkCapacityStat) MechEngineer.Features.HeatSinkCapacityStat.Patches.Mech_InitEffectStats_Patch.Postfix
+		MechEngineer (MechEngineer.Features.Engines) MechEngineer.Features.Engines.Patches.Mech_InitEffectStats_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.InitGameRep:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.Mech_InitGameRep_Patch.Prefix
+	Postfixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.Mech_InitGameRep_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.InitStats:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.ArmorStructureChanges) MechEngineer.Features.ArmorStructureChanges.Patches.Mech_InitStats_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Mech.OnLocationDestroyed:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.MechLocationDestructFixes+Mech_OnLocationDestroyed_Patch.Prefix
+	Transpilers:
+		MechEngineer (MechEngineer.Features.DamageIgnore) MechEngineer.Features.DamageIgnore.Patches.Mech_OnLocationDestroyed_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.Mech.RestartCreatedEffects:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.HeatSinkCapacityStat) MechEngineer.Features.HeatSinkCapacityStat.Patches.Mech_RestartCreatedEffects_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.Mech.TakeWeaponDamage:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.DamageHelpers.Mech_TakeWeaponDamage.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.Mech_TakeWeaponDamage.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CAC_API_ShotMods+Mech_TakeWeaponDamage_DamageModsBySkill.Postfix
+
+Assembly-CSharp
+BattleTech.Mech.ToMechDef:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.ArmorStructureChanges) MechEngineer.Features.ArmorStructureChanges.Patches.Mech_ToMechDef_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.MechComponent.ApplyPassiveEffectToTarget:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.PlaceholderEffects) MechEngineer.Features.PlaceholderEffects.Patches.MechComponent_ApplyPassiveEffectToTarget_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.MechComponent.CancelCreatedEffects:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.MechComponent_CancelCreatedEffects.Prefix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechComponent_CancelCreatedEffects.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechComponent_CancelCreatedEffects.Postfix
+
+Assembly-CSharp
+BattleTech.MechComponent.DamageComponent:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.DamageIgnore) MechEngineer.Features.DamageIgnore.Patches.MechComponent_DamageComponent_Patch.Prefix
+		MechEngineer (MechEngineer.Features.CriticalEffects) MechEngineer.Features.CriticalEffects.Patches.MechComponent_DamageComponent_Patch.Prefix
+	Transpilers:
+		MechEngineer (MechEngineer.Features.CriticalEffects) MechEngineer.Features.CriticalEffects.Patches.MechComponent_DamageComponent_Patch.Transpiler
+	Postfixes:
+		MechEngineer (MechEngineer.Features.CriticalEffects) MechEngineer.Features.CriticalEffects.Patches.MechComponent_DamageComponent_Patch.Postfix
+		MechEngineer (MechEngineer.Features.ComponentExplosions) MechEngineer.Features.ComponentExplosions.Patches.MechComponent_DamageComponent_Patch.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechComponent_DamageComponent.Postfix
+
+Assembly-CSharp
+BattleTech.MechComponent.get_inventorySize:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.DamageIgnore) MechEngineer.Features.DamageIgnore.Patches.MechComponent_inventorySize_Patch.Prefix
+		MechEngineer (MechEngineer.Features.CriticalEffects) MechEngineer.Features.CriticalEffects.Patches.MechComponent_inventorySize_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.MechComponent.InitPassiveSelfEffects:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechComponent_InitPassiveSelfEffects.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechComponent_InitPassiveSelfEffects.Postfix
+
+Assembly-CSharp
+BattleTech.MechComponent.InitStats:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechComponent_InitStats.Postfix
+
+Assembly-CSharp
+BattleTech.MechComponent.RestartPassiveEffects:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.MechComponent_RestartCreatedEffects.Prefix
+
+Assembly-CSharp
+BattleTech.MechComponentDef.GetUIColor:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechComponentDef_GetUIColor.Postfix
+
+Assembly-CSharp
+BattleTech.MechComponentRef.GetUIColor:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechComponentRef_GetUIColor.Postfix
+
+Assembly-CSharp
+BattleTech.MechDef..ctor:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.MechDef_constructor.Postfix
+
+Assembly-CSharp
+BattleTech.MechDef.InsertFixedEquipmentIntoInventory:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Fixes.MechDef_InsertFixedEquipmentIntoInventory.FIX
+
+Assembly-CSharp
+BattleTech.MechDef.RefreshChassis:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideDescriptions) MechEngineer.Features.OverrideDescriptions.Patches.MechDef_RefreshChassis_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.MechDFASequence.get_ConsumesFiring:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.MechDFASequence_ConsumesFiring_Getter.Prefix
+
+Assembly-CSharp
+BattleTech.MechHardpointRules.GetComponentBlankNames:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.MechHardpointRules_GetComponentBlankNames_Patch.Prefix
+	Postfixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.MechHardpointRules_GetComponentBlankNames_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.MechHardpointRules.GetComponentPrefabName:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.MechHardpointRules_GetComponentPrefabName_Patch.Prefix
+	Postfixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.MechHardpointRules_GetComponentPrefabName_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.MechJumpSequence.CompleteJump:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechJumpSequence_CompleteJumpAuraFloatie.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechJumpSequence_CompleteJumpAura.Postfix
+
+Assembly-CSharp
+BattleTech.MechMeleeSequence.CompleteOrders:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.MechMeleeSequence_CompleteOrders.Postfix
+
+Assembly-CSharp
+BattleTech.MechMeleeSequence.get_ConsumesFiring:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.MechMeleeSequence_ConsumesFiring_Getter.Prefix
+
+Assembly-CSharp
+BattleTech.MechRepresentationSimGame.LoadWeapons:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.MechRepresentationSimGame_LoadWeapons_Patch.Prefix
+	Postfixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.MechRepresentationSimGame_LoadWeapons_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.MechShutdownSequence.CheckForHeatDamage:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.ShutdownInjuryProtection) MechEngineer.Features.ShutdownInjuryProtection.Patches.MechShutdownSequence_CheckForHeatDamage_Patch.Prefix
+	Transpilers:
+		MechEngineer (MechEngineer.Features.ShutdownInjuryProtection) MechEngineer.Features.ShutdownInjuryProtection.Patches.MechShutdownSequence_CheckForHeatDamage_Patch.Transpiler
+	Postfixes:
+		MechEngineer (MechEngineer.Features.ShutdownInjuryProtection) MechEngineer.Features.ShutdownInjuryProtection.Patches.MechShutdownSequence_CheckForHeatDamage_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.MechStandInvocation.Invoke:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.MechStandInvocation_Invoke.Prefix
+
+Assembly-CSharp
+BattleTech.MechStartupInvocation.Invoke:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.MechStartupInvocation_Invoke.Prefix
+
+Assembly-CSharp
+BattleTech.MechStatisticsRules.CalculateChassisMeleeStat:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechStatisticsRules_CalculateChassisMeleeStat_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.MechStatisticsRules.CalculateChassisMovementStat:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechStatisticsRules_CalculateChassisMovementStat_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.MechStatisticsRules.CalculateDurabilityStat:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechStatisticsRules_CalculateDurabilityStat_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.MechStatisticsRules.CalculateFirepowerStat:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechStatisticsRules_CalculateFirepowerStat_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.MechStatisticsRules.CalculateHeatEfficiencyStat:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechStatisticsRules_CalculateHeatEfficiencyStat_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.MechStatisticsRules.CalculateMeleeStat:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechStatisticsRules_CalculateMeleeStat_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.MechStatisticsRules.CalculateMovementStat:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechStatisticsRules_CalculateMovementStat_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.MechStatisticsRules.CalculateRangeStat:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechStatisticsRules_CalculateRangeStat_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.MechStatisticsRules.CalculateTonnage:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideTonnage) MechEngineer.Features.OverrideTonnage.Patches.MechStatisticsRules_CalculateTonnage_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.MechStructureRules.GetPassthroughLocation:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.MechLocationDestructFixes+MechStructureRules_GetPassthroughLocation.Postfix
+
+Assembly-CSharp
+BattleTech.MechValidationRules.ValidateMechCanBeFielded:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechValidationRules_ValidateMechCanBeFielded_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.MechValidationRules.ValidateMechDef:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechValidationRulesValidate_ValidateMech_Patch.Postfix
+		MechEngineer (MechEngineer.Features.InvalidInventory) MechEngineer.Features.InvalidInventory.Patches.MechValidationRules_ValidateMechDef_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.MechValidationRules.ValidateMechInventorySlots:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.OmniSlots) MechEngineer.Features.OmniSlots.Patches.MechValidationRules_ValidateMechInventorySlots_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.MechValidationRules.ValidateMechTonnage:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.OverrideTonnage) MechEngineer.Features.OverrideTonnage.Patches.MechValidationRules_ValidateMechTonnage_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.ModSupport.ModLoader.get_AreModsEnabled:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModLoader_AreModsEnabled.Postfix
+
+Assembly-CSharp
+BattleTech.ModSupport.ModLoader.GetCombinedModStatus:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModManagerInstalledModsPanel_GetCombinedModStatus.Postfix
+
+Assembly-CSharp
+BattleTech.ModSupport.ModLoader.Init:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModLoader_Init.Prefix
+
+Assembly-CSharp
+BattleTech.ModSupport.ModLoader.LoadGameModStatus:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModLoader_LoadGameModStatus.Prefix
+
+Assembly-CSharp
+BattleTech.ModSupport.ModLoader.LoadSystemModStatus:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModLoader_LoadSystemModStatus.Prefix
+
+Assembly-CSharp
+BattleTech.ModSupport.ModLoader.SaveModStatusToFile:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModLoader_SaveModStatusToFile.Prefix
+
+Assembly-CSharp
+BattleTech.ObstructionGameLogic.ExplodeBuildingIfNeeded:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.ObstructionGameLogic_ExplodeBuildingIfNeeded.Prefix
+
+Assembly-CSharp
+BattleTech.Pilot.AddExperience:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.Pilot_AddXP.Postfix
+
+Assembly-CSharp
+BattleTech.Pilot.FromPilotDef:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.Pilot_FromPilotDef.Postfix
+
+Assembly-CSharp
+BattleTech.Pilot.get_InjuryReasonDescription:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.ShutdownInjuryProtection) MechEngineer.Features.ShutdownInjuryProtection.Patches.Pilot_InjuryReasonDescription_Patch.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.Pilot_InjuryReasonDescription.Postfix
+
+Assembly-CSharp
+BattleTech.Pilot.InjurePilot:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.PilotInjurePilotPatch.Prefix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.Pilot_InjurePilot.Prefix
+
+Assembly-CSharp
+BattleTech.Pilot.SpendExperience:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.Pilot_SpendXP.Prefix
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.Pilot_SpendXP.Postfix
+
+Assembly-CSharp
+BattleTech.PilotableActorRepresentation.OnPlayerVisibilityChanged:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideGhostVFX) MechEngineer.Features.OverrideGhostVFX.Patches.PilotableActorRepresentation_OnPlayerVisibilityChanged_Patch.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.PilotableActorRepresentation_OnPlayerVisibilityChanged.Postfix
+
+Assembly-CSharp
+BattleTech.Rendering.UrbanWarfare.DestructibleUrbanFlimsy.OnTriggerEnter:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.DestructibleUrbanFlimsy_OnTriggerEnter.Prefix
+
+Assembly-CSharp
+BattleTech.Save.Core.SaveBlock`1[[BattleTech.Save.GameInstanceSave, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].CompressBytes:
+	Transpilers:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SaveBlockGameInstanceSave_CompressBytes_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.Save.GameInstanceSave..ctor:
+	Postfixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.GameInstanceSave_Constructor_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Save.SaveManager..ctor:
+	Postfixes:
+		CustomLocalSettings (io.kmission.localsettings) CustomSettings.SaveManager_Constructor.Postfix
+
+Assembly-CSharp
+BattleTech.Shop.OnItemsCollected:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.DEBUG_Patches.Shop_OnItemsCollected.OnResultReveived
+
+Assembly-CSharp
+BattleTech.Shop.Purchase:
+	Transpilers:
+		CustomShops (CustomShops) CustomShops.Shop_Purchase.RepalceGetPrice
+
+Assembly-CSharp
+BattleTech.SimGameCameraController.Init:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.DisableSimAnimations.Init_Pre
+
+Assembly-CSharp
+BattleTech.SimGameConstantOverride.ApplyOverride:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.RandomStartByDifficulty_SimGameConstantOverride_ApplyOverride.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameDifficulty.RefreshCareerScoreMultiplier:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameDifficulty_RefreshCareerScoreMultiplier.Prefix
+
+Assembly-CSharp
+BattleTech.SimGameState._OnAttachUXComplete:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.SimGameState_OnAttachUXComplete.Postfix
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_OnAttachUXComplete.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState._OnInit:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState__OnInit_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.AddAllyFaction:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_AddAllyFaction.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.AddArgoUpgrade:
+	Postfixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.SimGameState_AddArgoUpgrade.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.AddFunds:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_AddFunds.Prefix
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_AddFunds.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.AddMechPart:
+	Prefixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.SimGameState_AddMechPart.AddMechPart
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_AddMechPart_Patch.Prefix
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_AddMechPart_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.SimGameState.AddPredefinedContract2:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_AddPredefinedContract_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.AddRandomStartingMechs:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.RandomStartByDifficulty_SimGameState_AddRandomStartingMechs.Prefix
+
+Assembly-CSharp
+BattleTech.SimGameState.ApplyArgoUpgrades:
+	Postfixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.SimGameState_ApplyArgoUpgrades.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.ApplySimGameEventResult:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_ApplySimGameEventResult.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.CompleteLanceConfigurationPrep:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.SimGameStateCompleteLanceConfigurationPrepPatch.Prefix
+
+Assembly-CSharp
+BattleTech.SimGameState.CreateBreakContractWarning:
+	Prefixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_CreateBreakContractWarning_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.SimGameState.CreateComponentInstallWorkOrder:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_CreateComponentInstallWorkOrder_Patch.Postfix
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Fixes.SimGameState_CreateComponentInstallWorkOrder.FixCost
+
+Assembly-CSharp
+BattleTech.SimGameState.CreateComponentRepairWorkOrder:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_CreateComponentRepairWorkOrder_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.CreateTravelContract:
+	Prefixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_CreateTravelContract_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.SimGameState.DeductQuarterlyFunds:
+	Prefixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_DeductQuarterlyFunds_Patch.Prefix
+	Postfixes:
+		CustomShops (CustomShops) CustomShops.Patches.SimGameState_DeductQuarterlyFunds.RefreshShops
+
+Assembly-CSharp
+BattleTech.SimGameState.Dehydrate:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.SimGameState_Dehydrate.Prefix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_Dehydrate_CH.Prefix
+	Postfixes:
+		CustomShops (CustomShops) CustomShops.Patches.SimGameState_Dehydrate.SaveShops
+
+Assembly-CSharp
+BattleTech.SimGameState.Destroy:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState__Destroy_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.DismissPilot:
+	Prefixes:
+		CommanderBackgrounds (us.wulfbone.CommanderBackgrounds) CommanderBackgrounds.Mod+SimGameState_DismissPilot_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.SimGameState.FilterActiveMaps:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.SimGameStateFilterActiveMapsPatch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.GenerateContractParticipants:
+	Prefixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_GenerateContractParticipants_Patch.Prefix
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_GenerateContractParticipants_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.GeneratePotentialContracts:
+	Prefixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_GeneratePotentialContracts.Prefix
+
+Assembly-CSharp
+BattleTech.SimGameState.GetAllInventoryMechDefs:
+	Prefixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.SimGameState_GetAllInventoryMechDefs.GetAllChassis
+
+Assembly-CSharp
+BattleTech.SimGameState.GetMechComponentRefForUID:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_GetMechComponentRefForUID.Prefix
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_GetMechComponentRefForUID.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.GetPilotRoninIcon:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.SimGameState_GetPilotRoninIcon.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.GetStatsByScope:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_GetStatsByScope.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.GetTagsByScope:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_GetTagsByScope.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.HasValidContracts:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.SimGameStateHasValidContractsPatch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.HasValidMaps:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.SimGameStateHasValidMapsPatch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.Init:
+	Postfixes:
+		CustomShops (CustomShops) CustomShops.Patches.SimGameState_Init.OnInit
+
+Assembly-CSharp
+BattleTech.SimGameState.InitCompanyStats:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_InitCompanyStats_Patch.Postfix
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.SimGameState_InitCompanyStatsPatch.Postfix
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_InitCompanyStatsPatch.Postfix
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.SimGameState_InitCompanyStatsPatch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.InitializeDataFromDefs:
+	Prefixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.SimGameState_InitializeDataFromDefs_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.SimGameState.ML_InstallComponent:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_ML_InstallComponent_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.OnDayPassed:
+	Postfixes:
+		CustomShops (CustomShops) CustomShops.Patches.SimGameState_OnDayPassed.RefreshShop
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.SimGameState_OnDayPassed.Postfix
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_OnDayPassed.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.OnTargetSystemFound:
+	Prefixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_OnTargetSystemFound.Prefix
+
+Assembly-CSharp
+BattleTech.SimGameState.PrepareBreadcrumb:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_PrepareBreadcrumb_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.PrepContract:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ExtraLogging.PrepContract_Pre
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_PrepContract_Patch.Prefix
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ExtraLogging.PrepContract_Post
+
+Assembly-CSharp
+BattleTech.SimGameState.ReadyMech:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_ReadyMech_Patch.Prefix
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_ReadyMech_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.SimGameState.Rehydrate:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.RemovedFlashpointFix.Rehydrate_Pre
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.RemovedContractsFix.Rehydrate_Pre
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Patches.SimGameState_Rehydrate_Patch.FixMechInMechbay
+		CustomShops (CustomShops) CustomShops.Patches.SimGameState_Rehydrate.LoadShops
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.SimGameState_RehydratePatch.Postfix
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SimGameState_Rehydrate_Patch.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.SimGameState_Rehydrate.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_Rehydrate_CH.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_Rehydrate.Postfix
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.SimGameState_RehydratePatch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.RemoveAllyFaction:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_RemoveAllyFaction.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.RequestDataManagerResources:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Fixes.SimGameState_RequestDataManagerResources_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.SimGameState.ResolveCompleteContract:
+	Prefixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.SimGameState_ResolveCompleteContract.Prefix
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.SimGameStateResolveCompleteContractPatch.Prefix
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.SimGameStateResolveCompleteContractPatch.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.RespondToDefsLoadComplete:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SimGameState_RespondToDefsLoadComplete_Patch.FixDefaults
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.SimGameState_RespondToDefsLoadComplete.FixDefaults
+
+Assembly-CSharp
+BattleTech.SimGameState.SetCurrentSystem:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.Patches.SimGameState_SetCurrentSystem.UpdateSystem
+
+Assembly-CSharp
+BattleTech.SimGameState.SetSimGameStat:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SGS_SetSimGameStat.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.SetupRoninTooltip:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.SimGameState_SetupRoninTooltip.Postfix
+
+Assembly-CSharp
+BattleTech.SimGameState.ShowLowFundsWarning:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameState_ShowLowFundsWarning.Prefix
+
+Assembly-CSharp
+BattleTech.Starmap.PopulateMap:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.Starmap_PopulateMap_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StarmapBorders.OnWillRenderObject:
+	Prefixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.StarmapBorders_OnWillRenderObject.Prefix
+
+Assembly-CSharp
+BattleTech.StarmapRenderer.NormalizeToMapSpace:
+	Prefixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.StarmapRenderer_NormalizeToMapSpace_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.StarmapRenderer.PlaceLogo:
+	Postfixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.StarmapRenderer_Update_Patch+StarmapRenderer_PlaceLogo_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StarmapRenderer.RefreshSystems:
+	Prefixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.StarmapRenderer_RefreshSystems.Prefix
+	Postfixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.StarmapRenderer_RefreshSystems.Postfix
+
+Assembly-CSharp
+BattleTech.StarmapRenderer.Update:
+	Transpilers:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.StarmapRenderer_Update_Patch.Transpiler
+	Postfixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.StarmapRenderer_Update_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StarmapSystemRenderer.SetBlackMarket:
+	Prefixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.StarmapRenderer_Update_Patch+StarmapSystemRenderer_SetBlackMarket_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.StarSystem.CompletedContract:
+	Postfixes:
+		CustomShops (CustomShops) CustomShops.Patches.StarSystem_CompletedContract.RefreshShops
+
+Assembly-CSharp
+BattleTech.StarSystem.Dehydrate:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.Patches.StarSystem_Dehydrate.OverrideSaveShops
+
+Assembly-CSharp
+BattleTech.StarSystem.GenerateInitialContracts:
+	Prefixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.StarSystem_GenerateInitialContracts_Patch.Prefix
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.StarSystem_GenerateInitialContracts_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StarSystem.RefreshBreadcrumbs:
+	Prefixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.StarSystem_RefreshBreadcrumbs.Prefix
+
+Assembly-CSharp
+BattleTech.StarSystem.RefreshShops:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.Patches.StarSystem_RefreshShops.RefreshShops
+
+Assembly-CSharp
+BattleTech.StarSystem.Rehydrate:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.Patches.StarSystem_Rehydrate.OverrideLoadShops
+
+Assembly-CSharp
+BattleTech.StarSystem.ResetContracts:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.StarSystem_ResetContracts_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StatCollection.ModifyStatistic:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.StatCollection_ModifyStatistic.Prefix
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OrderedStatusEffects) MechEngineer.Features.OrderedStatusEffects.Patches.StatCollection_ModifyStatistic_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StatisticEffect.initStatisiticEffect:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.PlaceholderEffects) MechEngineer.Features.PlaceholderEffects.Patches.StatisticEffect_initStatisiticEffect_Patch.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.StatisticEffect_initStatisiticEffect.Postfix
+
+Assembly-CSharp
+BattleTech.StatisticEffect.OnEffectActivationEnd:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.StatisticEffect_OnEffectActivationEnd.Postfix
+
+Assembly-CSharp
+BattleTech.StatisticEffect.OnEffectBegin:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.StatisticEffect_OnEffectBegin.Postfix
+
+Assembly-CSharp
+BattleTech.StatisticEffect.OnEffectEnd:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.StatisticEffect_OnEffectEnd.Postfix
+
+Assembly-CSharp
+BattleTech.StatisticEffect.OnEffectPhaseBegin:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.StatisticEffect_OnEffectPhaseBegin.Postfix
+
+Assembly-CSharp
+BattleTech.StatisticEffect.OnEffectTakeDamage:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.StatisticEffect_OnEffectTakeDamage.Postfix
+
+Assembly-CSharp
+BattleTech.StatTooltipData.SetDurabilityData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.StatTooltipData_SetDurabilityData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StatTooltipData.SetFirepowerData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.StatTooltipData_SetFirepowerData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StatTooltipData.SetHeatData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.StatTooltipData_SetHeatData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StatTooltipData.SetMeleeData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.StatTooltipData_SetMeleeData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StatTooltipData.SetMovementData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.StatTooltipData_SetMovementData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StatTooltipData.SetRangeData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.StatTooltipData_SetRangeData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.StringsProviderBase`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].StringForKeyFormat:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.LocalizationPatches.StringForKeyFormat_Pre
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.LocalizationPatches.StringForKeyFormat_Post
+
+Assembly-CSharp
+BattleTech.Team.AddUnit:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.SpawnProtection_Team_AddUnit.Postfix
+
+Assembly-CSharp
+BattleTech.Team.DelayEnemySpottedVO:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.TeamDelayEnemySpottedVOPatch.Prefix
+
+Assembly-CSharp
+BattleTech.ToHit.GetAllModifiers:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.ToHit_GetAllModifiers.Postfix
+
+Assembly-CSharp
+BattleTech.ToHit.GetAllModifiersDescription:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.ToHit_GetAllModifiersDescription.Postfix
+
+Assembly-CSharp
+BattleTech.ToHit.GetMoraleAttackModifier:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.ToHit_GetMoraleAttackModifier.Postfix
+
+Assembly-CSharp
+BattleTech.ToHit.GetSelfArmMountedModifier:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.AccuracyEffects) MechEngineer.Features.AccuracyEffects.Patches.ToHit_GetSelfArmMountedModifier_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.TurnDirector.BeginNewPhase:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.TurnDirector_BeginNewPhase.Postfix
+
+Assembly-CSharp
+BattleTech.TurnDirector.BeginNewRound:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.TurnDirector_BeginNewRound.Postfix
+
+Assembly-CSharp
+BattleTech.TurnDirector.EndCurrentRound:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.TurnDirector_EndCurrentRound.Postfix
+
+Assembly-CSharp
+BattleTech.TurnDirector.OnFirstContact:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.TurnDirectorOnFirstContactPatch.Postfix
+
+Assembly-CSharp
+BattleTech.TurnDirector.OnInitializeContractComplete:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.ScaleObjectiveBuildingStructure_TurnDirector_OnInitializeContractComplete.Postfix
+
+Assembly-CSharp
+BattleTech.TurnDirector.OnTurnActorActivateComplete:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.TurnDirector_OnTurnActorActivateComplete.Postfix
+
+Assembly-CSharp
+BattleTech.TurnDirector.StartFirstRound:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.TurnDirector_StartFirstRound.Prefix
+
+Assembly-CSharp
+BattleTech.Turret.InitGameRep:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.Turret_InitGameRep_ECMREmove.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.Turret_InitGameRep_Aura.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.Turret_InitGameRep.Postfix
+
+Assembly-CSharp
+BattleTech.Turret.InitStats:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.TurretMechComponents) MechEngineer.Features.TurretMechComponents.Patches.Turret_InitStats_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.Turret.OnNewRound:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.TurretLimitedAmmo) MechEngineer.Features.TurretLimitedAmmo.Patches.Turret_OnNewRound_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.Turret.TakeWeaponDamage:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.DamageHelpers.Turret_TakeWeaponDamage.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.Turret_TakeWeaponDamage.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CAC_API_ShotMods+Turret_TakeWeaponDamage_DamageModsBySkill.Postfix
+
+Assembly-CSharp
+BattleTech.UI.AAR_SalvageChosen.HasAllPriority:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.NoSalvageSoftlock.HasAllPriority
+
+Assembly-CSharp
+BattleTech.UI.AAR_SalvageScreen.BeginSalvageScreen:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.BeginSalvageScreen_Pre
+
+Assembly-CSharp
+BattleTech.UI.AAR_UnitsResult_Screen.FillInData:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.AAR_UnitsResult_Screen_FillInData.Prefix
+
+Assembly-CSharp
+BattleTech.UI.AAR_UnitsResult_Screen.InitializeData:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.AAR_UnitsResult_Screen_InitializeData.Prefix
+
+Assembly-CSharp
+BattleTech.UI.AudioSettingsModule.SaveSettings:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSoundBankDefs.AudioSettingsModule_SaveSettings.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatAuraReticle.get_DesiredAuraProjectionState:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatAuraReticle_DesiredAuraProjectionState.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatAuraReticle.RefreshActiveProbeColor:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatAuraReticle_RefreshActiveProbeColor.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatAuraReticle.RefreshActiveProbeRange:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatAuraReticle_RefreshActiveProbeRange.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatAuraReticle.RefreshActiveProbeState:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatAuraReticle_RefreshActiveProbeState.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatAuraReticle.RefreshAuraRange:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatAuraReticle_RefreshAuraRange.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatAuraReticle.UpdatePosition:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatAuraReticle_UpdatePosition.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatChatModule.Active_OnEnter:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.CombatLog.CombatChatModule_Active_OnEnter_Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatChatModule.CombatInit:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.CombatLog.CombatChatModule_CombatInit_Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatChatModule.Init:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.CombatLog.CombatChatModule_Init_Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatChatModule.Update:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.CombatLog+CombatChatModule_Update.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatDebugHUD.DEBUG_ApplyInstability:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.CombatDebugHUD_DEBUG_ApplyInstability_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatDebugHUD.DEBUG_CompleteAllContractObjectives:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.CombatDebugHUD_DEBUG_CompleteAllContractObjectives_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatDebugHUD.DEBUG_CritTarget:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.CombatDebugHUD_DEBUG_CritTarget_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatDebugHUD.DEBUG_DamageTarget:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.CombatDebugHUD_DEBUG_DamageTarget_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatDebugHUD.DEBUG_KillAllEnemies:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.CombatDebugHUD_DEBUG_KillAllEnemies_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatDebugHUD.DEBUG_KillTarget:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.CombatDebugHUD_DEBUG_KillTarget_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatDebugHUD.DEBUG_KnockdownTarget:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.CombatDebugHUDDEBUG_KnockdownTarget_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatDebugHUD.DEBUG_OverheatTarget:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.CombatDebugHUD_DEBUG_OverheatTarget_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatDebugHUD.SetGodMode:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.CombatDebugHUD_SetGodMode_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUD.Init:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.CombatHUD_InitTags.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUD_InitReapair.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.CombatLog.CombatHUD_Init_Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUD.OnCombatGameDestroyed:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.CombatLog.CombatHUD_OnCombatGameDestroyed_Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUD.Update:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatHUD_Update_HideReticlesHotKey.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDActionButton.ActivateAbility:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatHUDActionButton_ActivateAbility_Confirmed.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDActionButton.TryActivate:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUDEquipmentSlot_IsActive.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDActorDetailsDisplay.RefreshInfo:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.TgtComputerTonnage+CombatHUDActorDetailsDisplay_RefreshInfo_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDAttackModeSelector.ShowFireButton:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUDAttackModeSelector_ShowFireButton.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDButtonBase.OnClick:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatHUDActionButton_ExecuteClick.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDCalledShotPopUp.Update:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatHUDCalledShotPopUp_Update.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDEquipmentSlot.ActivateAbility:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatHUDEquipmentSlot_ActivateAbility_Confirmed.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDFloatieStack.AddFloatie:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.CompressFloatieMessages) MechEngineer.Features.CompressFloatieMessages.Patches.CombatHUDFloatieStack_AddFloatie_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDInWorldElementMgr.AddFloatieMessage:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.CombatLog.CombatHUDInWorldElementMgr_AddFloatieMessage_Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDInWorldElementMgr.AddInWorldActorElements:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.CombatHUDInWorldElementMgrAddInWorldActorElementsPatch.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatAuraReticle_Init_Aura.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDInWorldElementMgr.Init:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatTargetingReticle_Create.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDMechwarriorTray.Init:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Features.CombatHUDMechwarriorTray_Init.Prefix
+	Postfixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Features.CombatHUDMechwarriorTray_Init.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDMechwarriorTray.RefreshTeam:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Features.CombatHUDMechwarriorTray_RefreshTeam.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDMechwarriorTray.ResetAbilityButton:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatHUDMechwarriorTray_ResetAbilityButton.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDMechwarriorTray.ResetAbilityButtons:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatHUDMechwarriorTray_ResetAbilityButtons_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDMechwarriorTray.ResetMechwarriorButtons:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatHUDMechwarriorTray_ResetMechwarriorButtons.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDMechwarriorTray.SetTrayState:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Features.Init.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDMissionEnd.ShowFailure:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.CombatHUDMissionEndShowFailurePatch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDNumFlagHex.UpdateStealthState:
+	Transpilers:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatHUDNumFlagHex_UpdateStealthState.Transpiler
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDRetreatEscMenu.OnRetreatConfirmed:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.CombatHUDRetreatEscMenuOnRetreatConfirmedPatch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDSidePanelHoverElement.OnPointerClick:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUDSidePanelHoverElement_OnPointerClick.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDStatusPanel.PreviewDesignMasks:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatHUDStatusPanel_PreviewDesignMasks.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDStatusPanel.ShowMeleeDamageMultipliers:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatHUDStatusPanel_ShowMeleeDamageMultipliers.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDWeaponPanel.Init:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUDWeaponPanel_Init.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDWeaponPanel.RefreshDisplayedEquipment:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUDWeaponPanel_RefreshDisplayedEquipment.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDWeaponPanel.ResetAbilityButton:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatHUDWeaponPanel_ResetAbilityButton.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDWeaponPanel.ResetDisplayedWeapons:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUDWeaponPanel_ResetDisplayedWeapons.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDWeaponPanel.set_DisplayedActor:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUDWeaponPanel_DisplayedActor.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUDWeaponPanel_SetState.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDWeaponSlot.AddToolTipDetail:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.AccuracyEffects) MechEngineer.Features.AccuracyEffects.Patches.CombatHUDWeaponSlot_AddToolTipDetail_Patch.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUDWeaponSlot_AddToolTipDetail.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatHUDWeaponSlot.SetHitChance:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatHUDWeaponSlot_SetHitChance.Postfix
+
+Assembly-CSharp
+BattleTech.UI.CombatMovementReticle.UpdateReticle:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.CombatMovementReticle_UpdateReticle.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatSelectionHandler.AddFireState:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatSelectionHandler_AddFireState.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatSelectionHandler.AddFireState:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CombatSelectionHandler_AddFireState2.Prefix
+
+Assembly-CSharp
+BattleTech.UI.CombatSelectionHandler.ProcessPressedButtons:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.CombatHUDEquipmentSlot_ProcessPressedButtons.Prefix
+
+Assembly-CSharp
+BattleTech.UI.GenericPopup.HandleEnterKeypress:
+	Prefixes:
+		FellOffACargoShip (de.mad.FellOffACargoShip) FellOffACargoShip.GenericPopup_HandleEnterKeypress_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.HeraldryCreatorPanel.HandleEnterKeypress:
+	Prefixes:
+		FellOffACargoShip (de.mad.FellOffACargoShip) FellOffACargoShip.HeraldryCreatorPanel_HandleEnterKeypress_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.HeraldryNameWidget.OnNameInputEndEdit:
+	Postfixes:
+		FellOffACargoShip (de.mad.FellOffACargoShip) FellOffACargoShip.HeraldryNameWidget_OnNameInputEndEdit_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.HeraldryNameWidget.SetData:
+	Prefixes:
+		FellOffACargoShip (de.mad.FellOffACargoShip) FellOffACargoShip.HeraldryNameWidget_SetData_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.HUDMechArmorReadout.SetHoveredArmor:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.HUDMechArmorReadout_SetHoveredAmor.Postfix
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_InventoryGear.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.InventoryDataObject_InventoryGear_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_InventoryWeapon.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.InventoryDataObject_InventoryWeapon_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_SalvageFullMech.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.InInventoryDataObject_SalvageFullMech_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_SalvageGear.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.InventoryDataObject_SalvageGear_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_SalvageMechPart.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.InInventoryDataObject_SalvageMechPart_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_SalvageWeapon.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.InventoryDataObject_SalvageWeapon_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_ShopFullMech.RefreshPriceOnWidget:
+	Transpilers:
+		CustomShops (CustomShops) CustomShops.InventoryDataObject_ShopFullMech_RefreshPriceOnWidget.RepalceGetPrice
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_ShopGear.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.IInventoryDataObject_ShopGear_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_ShopGear.RefreshPriceOnWidget:
+	Transpilers:
+		CustomShops (CustomShops) CustomShops.InventoryDataObject_ShopGear_RefreshPriceOnWidget.RepalceGetPrice
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_ShopMechPart.RefreshPriceOnWidget:
+	Transpilers:
+		CustomShops (CustomShops) CustomShops.InventoryDataObject_ShopMechPart_RefreshPriceOnWidget.RepalceGetPrice
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_ShopWeapon.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.InventoryDataObject_ShopWeapon_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.InventoryDataObject_ShopWeapon.RefreshPriceOnWidget:
+	Transpilers:
+		CustomShops (CustomShops) CustomShops.InventoryDataObject_ShopWeapon_RefreshPriceOnWidget.RepalceGetPrice
+
+Assembly-CSharp
+BattleTech.UI.InventoryItemElement.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.InventoryItemElement_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.InventoryItemElement_NotListView.OnDestroy:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.Extensions.__Pre
+
+Assembly-CSharp
+BattleTech.UI.InventoryItemElement_NotListView.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.InventoryItemElement_NotListView_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.LanceConfiguratorPanel.ContinueConfirmClicked:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.LanceConfiguratorPanelContinueConfirmClickedPatch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.LanceConfiguratorPanel.CreateLanceConfiguration:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.LanceConfiguratorPanel_CreateLanceConfiguration.Prefix
+	Postfixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.LanceConfiguratorPanel_CreateLanceConfiguration.Postfix
+
+Assembly-CSharp
+BattleTech.UI.LanceConfiguratorPanel.CreateLanceDef:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.LanceConfiguratorPanel_CreateLanceDef.Prefix
+	Postfixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.LanceConfiguratorPanel_CreateLanceDef.Postfix
+
+Assembly-CSharp
+BattleTech.UI.LanceConfiguratorPanel.SetData:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.LanceConfiguratorPanel_SetData.Prefix
+	Postfixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.LanceConfiguratorPanel_SetData.Postfix
+
+Assembly-CSharp
+BattleTech.UI.LanceMechEquipmentList.SetLoadout:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.LanceMechEquipmentList_SetLoadout.Postfix
+
+Assembly-CSharp
+BattleTech.UI.LanceMechEquipmentListItem.SetComponentRef:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.LanceMechEquipmentListItem_SetComponentRef.Postfix
+
+Assembly-CSharp
+BattleTech.UI.LanceMechEquipmentListItem.SetData:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.LanceMechEquipmentListItem_SetData.SetColor
+
+Assembly-CSharp
+BattleTech.UI.LanceMechEquipmentListItem.SetTooltipData:
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.LanceMechEquipmentListItem_SetTooltipData.SetColor
+
+Assembly-CSharp
+BattleTech.UI.LancePreviewPanel.OnLanceConfiguratorCancel:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.LancePreviewPanel_OnLanceConfiguratorCancel.Prefix
+
+Assembly-CSharp
+BattleTech.UI.LancePreviewPanel.OnLanceConfiguratorConfirm:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.LancePreviewPanel_OnLanceConfiguratorConfirm.Prefix
+
+Assembly-CSharp
+BattleTech.UI.LancePreviewPanel.SaveLance:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.LancePreviewPanel_SaveLance.Prefix
+
+Assembly-CSharp
+BattleTech.UI.LancePreviewPanel.SetData:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.LancePreviewPanelSetData.Prefix
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.LancePreviewPanel_SetData.Prefix
+
+Assembly-CSharp
+BattleTech.UI.ListElementController_BASE_NotListView.SetComponentTooltipData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideDescriptions) MechEngineer.Features.OverrideDescriptions.Patches.ListElementController_BASE_NotListView_SetComponentTooltipData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.ListElementController_InventoryGear_NotListView.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ListElementController_InventoryGear_NotListView_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.ListElementController_InventoryWeapon_NotListView.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ListElementController_InventoryWeapon_NotListViewn_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.ListElementController_SalvageFullMech_NotListView.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ListElementController_SalvageFullMech_NotListView_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.ListElementController_SalvageGear_NotListView.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ListElementController_SalvageGear_NotListView_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.ListElementController_SalvageMechPart_NotListView.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ListElementController_SalvageMechPart_NotListView_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.ListElementController_SalvageWeapon_NotListView.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ListElementController_SalvageWeapon_NotListView_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.LoadingCurtain.Hide:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.LoadingCurtainHidePatch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.LoadingCurtain.Init:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.LoadingCurtainEx.LoadingCurtain_Init_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.LoadingCurtain.LateUpdate:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.LoadingCurtainEx.LoadingCurtain_LateUpdate_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.LoadingCurtain.ShowUntil:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.LoadingCurtainEx.LoadingCurtain_ShowUntil_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MainMenu.Init:
+	Prefixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.MainMenu_Init_Patch.Prefix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.MainMenu_Init.Prefix
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.MainMenuInitPatch.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.MainMenu_Init.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MapModule.get_SelectedMap:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.MapModuleSelectedMapPatch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MapModule.get_SelectedMood:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.MapModuleSelectedMoodPatch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MechBayChassisInfoWidget.OnReadyClicked:
+	Prefixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.MechBayChassisInfoWidget_OnReadyClicked.OnReadyClicked
+
+Assembly-CSharp
+BattleTech.UI.MechBayChassisInfoWidget.OnScrapClicked:
+	Prefixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.MechBayChassisInfoWidget_OnScrapClicked.OnReadyClicked
+
+Assembly-CSharp
+BattleTech.UI.MechBayChassisInfoWidget.SetDescriptions:
+	Postfixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.MechBayChassisInfoWidget_SetDescriptions.AddVariantsToDescriptions
+
+Assembly-CSharp
+BattleTech.UI.MechBayChassisUnitElement.SetData:
+	Postfixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.MechBayChassisUnitElement_SetData.SetColor
+
+Assembly-CSharp
+BattleTech.UI.MechBayMechInfoWidget.Awake:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechBayMechInfoWidget_Awake_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechBayMechInfoWidget.SetHardpoints:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OmniSlots) MechEngineer.Features.OmniSlots.Patches.MechBayMechInfoWidget_SetHardpoints_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechBayPanel.CloseMechBay:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.Globals) MechEngineer.Features.Globals.Patches.MechBayPanel_CloseMechBay_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechBayPanel.SelectMech:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.Globals) MechEngineer.Features.Globals.Patches.MechBayPanel_SelectMech_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechDetails.SetDescriptions:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.MechDetails_SetDescriptions.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechDetails.SetStats:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechDetails_SetStats_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget.ApplyFiltering:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.ApplyFiltering_Pre
+		CustomFilters (io.github.denadan.CustomFilters) CustomFilters.Patches.MechLabInventoryWidget_ApplyFiltering.ApplyFiltering
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabInventoryWidget_ApplyFiltering_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget.ApplySorting:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.ApplySorting_Pre
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabInventoryWidget_ApplySorting_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget.OnAddItem:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.OnAddItem_Pre
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget.OnFilterButtonClicked:
+	Prefixes:
+		CustomFilters (io.github.denadan.CustomFilters) CustomFilters.Patches.MechLabInventoryWidget_OnFilterButtonClicked.OnFilterButtonClicked
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget.OnItemGrab:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.OnItemGrab_Pre
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget.OnRemoveItem:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.OnRemoveItem_Pre
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget.ResetFilters:
+	Prefixes:
+		CustomFilters (io.github.denadan.CustomFilters) CustomFilters.Patches.MechLabInventoryWidget_ResetFilters.ResetFiltersPrefix
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget.SetData:
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget.SetFiltersWeapons:
+	Prefixes:
+		CustomFilters (io.github.denadan.CustomFilters) CustomFilters.Patches.MechLabInventoryWidget_SetFilterWeapons.SetFilterWeapons
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget_ListView.AddItemToInventory:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ShopTabLagFix.AddItemToInventory
+
+Assembly-CSharp
+BattleTech.UI.MechLabInventoryWidget_ListView.ApplySorting:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabInventoryWidget_ListView_ApplySorting_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MechLabItemSlotElement.ClearData:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechComponent_ClearData.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabItemSlotElement.OnPointerEnter:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.DynamicSlots) MechEngineer.Features.DynamicSlots.Patches.MechLabItemSlotElement_OnPointerEnter_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MechLabItemSlotElement.OnPointerExit:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.DynamicSlots) MechEngineer.Features.DynamicSlots.Patches.MechLabItemSlotElement_OnPointerExit_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MechLabItemSlotElement.RefreshItemColor:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabSlotItem_RefreshItemColor.ChangeColor
+
+Assembly-CSharp
+BattleTech.UI.MechLabItemSlotElement.SetIconAndText:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.DynamicSlots) MechEngineer.Features.DynamicSlots.Patches.MechLabItemSlotElement_SetIconAndText_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.OnAddItem:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.MechLabSlots) MechEngineer.Features.MechLabSlots.Patches.MechLabLocationWidget_OnAddItem_Patch.Transpiler
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabLocationWidget_OnAddItem_Patch.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechLabLocationWidget_OnAddItem.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.OnDrop:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.MechLabSlots) MechEngineer.Features.MechLabSlots.Patches.MechLabLocationWidget_OnDrop_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.OnItemGrab:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabLocationWidget_OnItemGrab_Patch_IDefaultReplace.Prefix
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabLocationWidget_OnItemGrab_Patch_IDefaultReplace.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.OnMechLabDrop:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.HardpointFix) MechEngineer.Features.HardpointFix.Patches.MechLabLocationWidget_OnMechLabDrop_Patch.Prefix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.MechLabLocationWidget_OnMechLabDrop.Prefix
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabLocationWidget_OnMechLabDrop_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.OnRemoveItem:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabLocationWidjet_OnRemove.Transpiler
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechLabLocationWidget_OnRemoveItem.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.RefreshHardpointData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OmniSlots) MechEngineer.Features.OmniSlots.Patches.MechLabLocationWidget_RefreshHardpointData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.RepairAll:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabLocationWidget_RepairAll_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.SetData:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.MechLabSlots) MechEngineer.Features.MechLabSlots.Patches.MechLabLocationWidget_SetData_Patch.Transpiler
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabLocationWidget_SetData_Patch.Postfix
+		MechEngineer (MechEngineer.Features.MechLabSlots) MechEngineer.Features.MechLabSlots.Patches.MechLabLocationWidget_SetData_Patch.Postfix
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.MechLabLocationWidget_SetData.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.ShowHighlightFrame:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.MechLabSlots) MechEngineer.Features.MechLabSlots.Patches.MechLabLocationWidget_ShowHighlightFrame_Patch.Prefix
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OmniSlots) MechEngineer.Features.OmniSlots.Patches.MechLabLocationWidget_ShowHighlightFrame_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.StripDestroyedComponents:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabLocationWidget_StripDestroyedComponents_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.StripEquipment:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.MechLabLocationWidget_StripEquipment_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.ValidateAdd:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.OmniSlots) MechEngineer.Features.OmniSlots.Patches.MechLabLocationWidget_ValidateAdd_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.ValidateAdd:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.MechLabLocationWidget_ValidateAdd.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabLocationWidget.ValidateAddSimple:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.OmniSlots) MechEngineer.Features.OmniSlots.Patches.MechLabLocationWidget_ValidateAddSimple_Patch.Transpiler
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OmniSlots) MechEngineer.Features.OmniSlots.Patches.MechLabLocationWidget_ValidateAddSimple_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabMechInfoWidget.CalculateTonnage:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideTonnage) MechEngineer.Features.OverrideTonnage.Patches.MechLabMechInfoWidget_CalculateTonnage_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabMechInfoWidget.GetTotalHardpoints:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.Engines) MechEngineer.Features.Engines.Patches.MechLabMechInfoWidget_GetTotalHardpoints_Patch.Postfix
+		MechEngineer (MechEngineer.Features.OmniSlots) MechEngineer.Features.OmniSlots.Patches.MechBayMechInfoWidget_GetTotalHardpoints_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.ConfirmRevertMech:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.ConfirmRevertMech_Pre
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.CreateMechComponentItem:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideDescriptions) MechEngineer.Features.OverrideDescriptions.Patches.MechLabPanel_CreateMechComponentItem_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.ExitMechLab:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.ExitMechLab_Pre
+	Postfixes:
+		MechEngineer (MechEngineer.Features.Globals) MechEngineer.Features.Globals.Patches.MechLabPanel_ExitMechLab_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.GetCantSaveErrorString:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.InvalidInventory) MechEngineer.Features.InvalidInventory.Patches.MechLabPanel_GetCantSaveErrorString_Patch.Prefix
+	Transpilers:
+		MechEngineer (MechEngineer.Features.InvalidInventory) MechEngineer.Features.InvalidInventory.Patches.MechLabPanel_GetCantSaveErrorString_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.GetNonFieldableErrorString:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.InvalidInventory) MechEngineer.Features.InvalidInventory.Patches.MechLabPanel_GetNonFieldableErrorString_Patch.Prefix
+	Transpilers:
+		MechEngineer (MechEngineer.Features.InvalidInventory) MechEngineer.Features.InvalidInventory.Patches.MechLabPanel_GetNonFieldableErrorString_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.InitWidgets:
+	Prefixes:
+		CustomFilters (io.github.denadan.CustomFilters) CustomFilters.MechLabPanel_InitWidgets.PreInit
+	Postfixes:
+		CustomFilters (io.github.denadan.CustomFilters) CustomFilters.MechLabPanel_InitWidgets.Init
+		MechEngineer (MechEngineer.Features.MechLabSlots) MechEngineer.Features.MechLabSlots.Patches.MechLabPanel_InitWidgets_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.LoadMech:
+	Postfixes:
+		CustomFilters (io.github.denadan.CustomFilters) CustomFilters.Patches.MechLabPanel_LoadMech.ApplyFilter
+		MechEngineer (MechEngineer.Features.MechLabSlots) MechEngineer.Features.MechLabSlots.Patches.MechLabPanel_LoadMech_Patch.Postfix
+		MechEngineer (MechEngineer.Features.Globals) MechEngineer.Features.Globals.Patches.MechLabPanel_LoadMech_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.MechCanEquipItem:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.MechCanEquipItem_Pre
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.OnMaxArmor:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.MechLabPanel_OnMaxArmor_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.OnStripEquipment:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.MechLabPanel_OnStripEquipment_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.PopulateInventory:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.PopulateInventory_Pre
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.RefreshDropHighlights:
+	Prefixes:
+		MechEngineer (MechEngineer.Features.MechLabSlots) MechEngineer.Features.MechLabSlots.Patches.MechLabPanel_RefreshDropHighlights_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.SetData:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.MechLabPanel_SetData_1.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.ToggleLayout:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.MechLabPanel_ToggleLayout.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabPanel.ValidateLoadout:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideDescriptions) MechEngineer.Features.OverrideDescriptions.Patches.MechLabPanel_ValidateLoadout_Patch.Postfix
+		MechEngineer (MechEngineer.Features.DynamicSlots) MechEngineer.Features.DynamicSlots.Patches.MechLabPanel_ValidateLoadout_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabStatBlockWidget.Awake:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.MechLabStatBlockWidget_Awake_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.MechLabStockInfoPopup.StockMechDefLoaded:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.MechLabStockInfoPopup_StockMechDefLoaded.Postfix
+
+Assembly-CSharp
+BattleTech.UI.ModManagerInstalledModsPanel.InitializeList:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModManagerInstalledModsPanel_InitializeList.Prefix
+
+Assembly-CSharp
+BattleTech.UI.ModManagerListViewItem.SetData:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModManagerListViewItem_SetData.Postfix
+
+Assembly-CSharp
+BattleTech.UI.ModManagerListViewItem.ToggleItemEnabled:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModManagerListViewItem_ToggleItemEnabled.Prefix
+
+Assembly-CSharp
+BattleTech.UI.ModManagerScreen.Init:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModManagerScreen_InitModResources.Prefix
+
+Assembly-CSharp
+BattleTech.UI.ModManagerScreen.ReceiveButtonPress:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModManagerScreen_ReceiveButtonPress.Prefix
+
+Assembly-CSharp
+BattleTech.UI.ModManagerScreen.ToggleModsEnabled:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModManagerScreen_ToggleModsEnabled.Prefix
+
+Assembly-CSharp
+BattleTech.UI.ModManagerScreen.UnsavedSettings:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.ModLoaderSupport.Patches.ModManagerScreen_UnsavedSettings.Prefix
+
+Assembly-CSharp
+BattleTech.UI.PreGameCareerModeSettingsTotalScoreDescAndBar.RefreshInfo:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.PreGameCareerModeSettingsTotalScoreDescAndBar_RefreshInfo_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SelectionState.get_CanDeselect:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.SelectionState_CanDeselect.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SelectionState.GetNewSelectionStateByType:
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.SelectionState_GetNewSelectionStateByType.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SelectionStateFire.SetCalledShot:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.SelectionStateFire_SetCalledShot_AL.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SelectionStateFire.SetCalledShot:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.SelectionStateFire_SetCalledShot_VCL.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SelectionStateMoraleAttack.get_NeedsCalledShot:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.SelectionStateMoraleAttack_NeedsCalledShot.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SelectionStateMove.GetAllMeleeTargets:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.SelectionStateMove_GetAllMeleeTargets.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SelectionStateMove.ProcessMousePos:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.SelectionStateMove_ProcessMousePos.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.SelectionStateMove_ProcessMousePos.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SelectionStateMoveBase.ProcessMousePos:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatablePatches.SelectionStateMoveBase_ProcessMousePos.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SettingsMenu.OnAddedToHierarchy:
+	Postfixes:
+		CustomLocalSettings (io.kmission.localsettings) CustomSettings.SettingsMenu_OnAddedToHierarchy.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SettingsMenu.ReceiveButtonPress:
+	Postfixes:
+		CustomLocalSettings (io.kmission.localsettings) CustomSettings.SettingsMenu_ReceiveButtonPress.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SG_Shop_FullMechDetailPanel.FillInFullMech:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.SG_Shop_FullMechDetailPanel_FillInFullMech_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SG_Shop_ItemSelectedPanel.FillInHardPoints:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OmniSlots) MechEngineer.Features.OmniSlots.Patches.SG_Shop_ItemSelectedPanel_FillInHardPoints_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SG_Shop_Screen.AddShopInventory:
+	Postfixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.ShopTabLagFix.OnlySortAtEnd
+
+Assembly-CSharp
+BattleTech.UI.SG_Shop_Screen.AddShopItemToWidget:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.SH_Shop_Screen_AddShopItemToWidget.ReplaceShopDefItem
+
+Assembly-CSharp
+BattleTech.UI.SG_Shop_Screen.BeginShop:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.Patches.SG_Shop_Screen_BeginShop.BeginShop
+
+Assembly-CSharp
+BattleTech.UI.SG_Shop_Screen.CheckHaveNoFunds:
+	Transpilers:
+		CustomShops (CustomShops) CustomShops.SG_Shop_Screen_CheckHaveNoFunds.RepalceGetPrice
+
+Assembly-CSharp
+BattleTech.UI.SG_Shop_Screen.OnCompleted:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SG_Shop_Screen_OnCompleted_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SG_Shop_Screen.ReceiveButtonPress:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.DEBUG_Patches.SG_Shop_Screen_ReceiveButtonPress.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SG_Shop_Screen.RefreshColorAreas:
+	Prefixes:
+		CustomShops (CustomShops) CustomShops.Patches.SG_Shop_Screen_RefreshColorAreas.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SG_Shop_Screen.UpdateMoneySpot:
+	Transpilers:
+		CustomShops (CustomShops) CustomShops.SG_Shop_Screen_UpdateMoneySpot.RepalceGetPrice
+
+Assembly-CSharp
+BattleTech.UI.SG_Stores_MultiPurchasePopup.OnCancel:
+	Postfixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.SG_Stores_MultiPurchasePopup_OnCancel.HandleExit
+		CustomShops (CustomShops) CustomShops.SG_Stores_MultiPurchasePopup_OnCancel.HandleExit
+
+Assembly-CSharp
+BattleTech.UI.SG_Stores_MultiPurchasePopup.OnConfirm:
+	Postfixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.SG_Stores_MultiPurchasePopup_OnConfirm.HandleExit
+		CustomShops (CustomShops) CustomShops.SG_Stores_MultiPurchasePopup_OnConfirm.HandleExit
+
+Assembly-CSharp
+BattleTech.UI.SG_Stores_MultiPurchasePopup.Refresh:
+	Postfixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.SG_Stores_MultiPurchasePopup_Refresh.ReplaceTitle
+		CustomShops (CustomShops) CustomShops.SG_Stores_MultiPurchasePopup_Refresh.ReplaceTitle
+
+Assembly-CSharp
+BattleTech.UI.SGBarracksAdvancementPanel.OnValueClick:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SGBarracksAdvancementPanel_OnValueClick_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SGBarracksMWDetailPanel.OnPilotReset:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SGBarracksMWDetailPanel_OnPilotReset.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGBarracksRosterSlot.Refresh:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.SGBarracksRosterSlot_Refresh_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGBarracksServicePanel.SetPilot:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.SGBarracksServicePanel_SetPilot.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGBarracksWidget.ReceiveButtonPress:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SGBarracksWidget_ReceiveButtonPress.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGCaptainsQuartersReputationScreen.RefreshWidgets:
+	Prefixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.SGCaptainsQuartersReputationScreen_RefreshWidgets.Prefix
+	Postfixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.SGCaptainsQuartersReputationScreen_RefreshWidgets.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGCharacterCreationCareerBackgroundSelectionPanel.Done:
+	Prefixes:
+		CommanderBackgrounds (us.wulfbone.CommanderBackgrounds) CommanderBackgrounds.Mod+SGCharacterCreationCareerBackgroundSelectionPanel_Done_Patch.Prefix
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.StarmapRenderer_Update_Patch+SGCharacterCreationCareerBackgroundSelectionPanel_Done_Patch.Prefix
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SGCharacterCreationCareerBackgroundSelectionPanel_Done_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGCmdCenterLanceConfigBG.OnAddedToHierarchy:
+	Postfixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.SGCmdCenterLanceConfigBG_OnAddedToHierarchy.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGContractsWidget.GetContractComparePriority:
+	Prefixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SGContractsWidget_GetContractComparePriority_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SGContractsWidget.Init:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.StreamlinedMainMenu+SGContractsWidget_Init.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGContractsWidget.ListContracts:
+	Postfixes:
+		ColourfulFlashPoints (ca.jwolf.ColourfulFlashPoints) ColourfulFlashPoints.Patches.SGContractsWidget_ListContracts.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGDebugEventWidget.Submit:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SGDebugEventWidget_Submit_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGDifficultySettingObject.CurCareerModifier:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.RandomStartByDifficulty_SGDifficultySettingObject_CurCareerModifier.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SGEngineeringScreen.AddUpgradePip:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.SGEngineeringScreen_AddUpgradePip.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SGEngineeringScreen.CleanUpAllUpgradePips:
+	Postfixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.SGEngineeringScreen_CleanUpAllUpgradePips.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGEngineeringScreen.ClearUpgradePips:
+	Postfixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.SGEngineeringScreen_ClearUpgradePips.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGEngineeringScreen.PopulateUpgradeDictionary:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.SGEngineeringScreen_PopulateUpgradeDictionary.Prefix
+	Transpilers:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SGEngineeringScreen_PopulateUpgradeDictionary_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.UI.SGEventPanel.SetEvent:
+	Postfixes:
+		CustomSalvage (io.github.denadan.CustomSalvage) CustomSalvage.SGEventPanel_SetEvent.ModifyOptions
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationActiveFactionWidget.ActivateFactions:
+	Prefixes:
+		InnerSphereMap (de.morphyum.InnerSphereMap) InnerSphereMap.StarmapRenderer_Update_Patch+SGSystemViewPopulator_UpdateRoutedSystem_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationButton.FlyoutClicked:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationButton_FlyoutClicked.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationButton.OnClick:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationButton_OnClick.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationButton.OnPointerEnter:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationButton_OnPointerEnter.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationButton.ResetFlyoutsToPrefab:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationButton_ResetFlyoutsToPrefab.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationButton.SetStateAccordingToSimDropship:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationButton_SetStateAccordingToSimDropship.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationButton.SetupElement:
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationList.RefreshButtonStates:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationList_RefreshButtonStates.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationList.Start:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationList_Start.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationScreen.GetSystemFlashpoint:
+	Postfixes:
+		ColourfulFlashPoints (ca.jwolf.ColourfulFlashPoints) ColourfulFlashPoints.Patches.SGNavigationScreen_GetSystemFlashpoint.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationScreen.ShowFlashpointSystems:
+	Postfixes:
+		ColourfulFlashPoints (ca.jwolf.ColourfulFlashPoints) ColourfulFlashPoints.Patches.SGNavigationScreen_ShowFlashpointSystems.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGNavigationWidgetLeft.Init:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationWidgetLeft_Init.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGRoomController_Barracks.LeaveRoom:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SGRoomController_Barracks_Close_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SGRoomController_MechBay.TransitionMech:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.DisableSimAnimations.TransitionMech_Pre
+
+Assembly-CSharp
+BattleTech.UI.SGSystemViewPopulator.UpdateRoutedSystem:
+	Postfixes:
+		PersistentMapClient (de.morphyum.PersistentMapClient) PersistentMapClient.SGSystemViewPopulator_UpdateRoutedSystem_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SimGameDifficultySettingsModule.CalculateRawScoreMod:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameDifficultySettingsModule_CalculateRawScoreMod.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SimGameDifficultySettingsModule.InitSettings:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameDifficultySettingsModule_InitSettings_Patch.Prefix
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameDifficultySettingsModule_InitSettings_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SimGameDifficultySettingsModule.UpdateDifficultyScoreBar:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.SimGameDifficultySettingsModule_UpdateDifficultyScoreBar_Patch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SimGameOptionsMenu.QuitPopup:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.SimGameOptionsMenu_QuitPopup.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SimGameOptionsMenu.Update:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.SimGameOptionsMenu_Update.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SkirmishMechBayPanel.LanceConfiguratorDataLoaded:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Patches.SkirmishMechBayPanel_LanceConfiguratorDataLoaded_Patch.FixDefaults
+
+Assembly-CSharp
+BattleTech.UI.SkirmishMechBayPanel.RequestResources:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SkirmishMechBayPanel_RequestResources_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.UI.SkirmishMechBayPanel.SelectLance:
+	Prefixes:
+		BiggerDrops (de.morphyum.BiggerDrops) BiggerDrops.Patches.SkirmishMechBayPanel_SelectLance.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SkirmishSettings_Beta.FinalizeLances:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.SkirmishSettingsBetaFinalizeLancesPatch.Prefix
+
+Assembly-CSharp
+BattleTech.UI.SkirmishSettings_Beta.LaunchMap:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.SkirmishSettingsBetaLaunchMapPatch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.SkirmishSettings_Beta.LoadLanceConfiguratorData:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.SkirmishSettings_Beta_LoadLanceConfiguratorData_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.UI.SkirmishSettings_Beta.OnLoadComplete:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.Patches.SkirmishSettings_Beta_OnLoadComplete_Patch.Prefix
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.SkirmishSettings_Beta_OnLoadComplete.Postfix
+
+Assembly-CSharp
+BattleTech.UI.Tooltips.TooltipPrefab_Equipment.SetData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideDescriptions) MechEngineer.Features.OverrideDescriptions.Patches.TooltipPrefab_EquipmentSetData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.Tooltips.TooltipPrefab_Mech.SetData:
+	Postfixes:
+		MechAffinity (ca.jwolf.MechAffinity) MechAffinity.Patches.TooltipPrefab_Mech_SetData.Postfix
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.TooltipPrefab_Mech_SetData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.Tooltips.TooltipPrefab_Stats.SetData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideStatTooltips) MechEngineer.Features.OverrideStatTooltips.Patches.TooltipPrefab_Stats_SetData_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.UI.Tooltips.TooltipPrefab_Weapon.SetData:
+	Postfixes:
+		MechEngineer (MechEngineer.Features.OverrideDescriptions) MechEngineer.Features.OverrideDescriptions.Patches.TooltipPrefab_WeaponSetData_Patch.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.WeaponTooltips_TooltipPrefab_Weapon_SetData.Postfix
+
+Assembly-CSharp
+BattleTech.UnitSpawnPointGameLogic.initializeActor:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.UnitSpawnPointGameLogic_initializeActor.Postfix
+
+Assembly-CSharp
+BattleTech.UnitSpawnPointGameLogic.LoadDropPodPrefabs:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.UnitSpawnPointGameLogicLoadDropPodPrefabsPatch.Prefix
+
+Assembly-CSharp
+BattleTech.UnityGameInstance.CalcGameHash:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Misc.UnityGameInstance_CalcGameHash.Prefix
+
+Assembly-CSharp
+BattleTech.UnityGameInstance.OnInternetConnectivityResult:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.DisableSensitiveDataLogDump.OnInternetConnectivityResult
+
+Assembly-CSharp
+BattleTech.UpgradeDef.FromJSON:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustAmmoCategoriesPatches.UpgradeDef_FromJSONAuras.Prefix
+	Postfixes:
+		MechEngineer (MechEngineer.Features.AutoFix) MechEngineer.Features.AutoFix.Patches.UpgradeDef_FromJSON_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Vehicle.DamageLocation:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.ComponentExplosions) MechEngineer.Features.ComponentExplosions.Patches.Vehicle_DamageLocation_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.Vehicle.TakeWeaponDamage:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.DamageHelpers.Vehicle_TakeWeaponDamage.Prefix
+	Postfixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustomActivatableEquipment.Vehicle_TakeWeaponDamage.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CAC_API_ShotMods+Vehicle_TakeWeaponDamage_DamageModsBySkill.Postfix
+
+Assembly-CSharp
+BattleTech.VersionManifestBase.Contains:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.VersionManifestPatches.Contains_Pre
+
+Assembly-CSharp
+BattleTech.Weapon.DecrementAmmo:
+	Transpilers:
+		MechEngineer (MechEngineer.Features.TurretLimitedAmmo) MechEngineer.Features.TurretLimitedAmmo.Patches.Weapon_DecrementAmmo_Patch.Transpiler
+
+Assembly-CSharp
+BattleTech.Weapon.InitStats:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CAC_API_ShotMods+Weapon_InitStats_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.Weapon.ProcessOnFiredFloatieEffects:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.Weapon_ProcessOnFiredFloatieEffects_Patch.Postfix
+
+Assembly-CSharp
+BattleTech.WeaponCategoryValue.GetIcon:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSVGAssets.Patches.WeaponCategoryValue_GetIcon.Postfix
+
+Assembly-CSharp
+BattleTech.WeaponDef.FromJSON:
+	Prefixes:
+		CustomActivatableEquipment (io.mission.activatablecomponents) CustAmmoCategoriesPatches.WeaponDef_FromJSONAuras.Prefix
+	Postfixes:
+		MechEngineer (MechEngineer.Features.AutoFix) MechEngineer.Features.AutoFix.Patches.WeaponDef_FromJSON_Patch.Postfix
+
+Assembly-CSharp
+BehaviorNode.LogAI:
+	Prefixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.BehaviourNodeLogAIPatch.Prefix
+
+Assembly-CSharp
+BehaviorTree.InitRootNode:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.BehaviourTreeInitRootNodePatch.Postfix
+
+Assembly-CSharp
+HBS.Data.DataLoader.GetEntry:
+	Transpilers:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.DataLoaderGetEntryCheck.GetEntry
+
+Assembly-CSharp
+HBS.Logging.Logger.CaptureUnityLogs:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Logging.Patches.Logger_CaptureUnityLogs_Patch.Prefix
+
+Assembly-CSharp
+HBS.Logging.Logger.HandleUnityLog:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.LoadingCurtainEx.Logger_HandleUnityLog_Patch.Postfix
+
+Assembly-CSharp
+HBS.Logging.Logger+LogImpl.IsEnabledFor:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Logging.Patches.LogImpl_IsEnabledFor_Patch.Prefix
+
+Assembly-CSharp
+HBS.Logging.Logger+LogImpl.LogAtLevel:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Logging.Patches.LogImpl_LogAtLevel_Patch.Prefix
+	Transpilers:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Logging.Patches.LogImpl_LogAtLevel_Patch.Transpiler
+
+Assembly-CSharp
+HBS.Logging.Logger+LogImpl.set_Level:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Logging.Patches.LogImpl_set_Level_Patch.Prefix
+	Postfixes:
+		ModTek (NullableLogging.NullableLogger) NullableLogging.NullableLogger.LogImpl_set_Level_Postfix
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.Logging.Patches.LogImpl_set_Level_Patch.Postfix
+
+Assembly-CSharp
+HBS.Reflection.ReflectionCache.Get:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ReflectionCache_Get_Patch.Transpiler
+
+Assembly-CSharp
+HBS.Reflection.ReflectionCache.Invoke:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ReflectionCache_Invoke_Patch.Transpiler
+
+Assembly-CSharp
+HBS.Reflection.ReflectionCache.Set:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ReflectionCache_Set.Transpiler
+
+Assembly-CSharp
+HBS.Reflection.ReflectionCache.TryCacheMember:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ReflectionCache_TryCacheMember_Patch.Transpiler
+
+Assembly-CSharp
+HBS.Reflection.ReflectionCache.TryCacheMethod:
+	Transpilers:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.ReflectionCache_TryCacheMethod_Patch.Transpiler
+
+Assembly-CSharp
+HBS.Util.JSONSerializationUtility.RehydrateObjectFromDictionary:
+	Prefixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.JSONSerializationUtility_RehydrateObjectFromDictionary_Patch2.Prefix
+	Postfixes:
+		CustomComponents (io.github.denadan.CustomComponents) CustomComponents.JSONSerializationUtility_RehydrateObjectFromDictionary_Patch.Postfix
+
+Assembly-CSharp
+HBS.Util.JSONSerializationUtility.StripHBSCommentsFromJSON:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.DontStripComments.Prefix
+
+Assembly-CSharp
+ItemRegistry..ctor:
+	Postfixes:
+		MissionControl (co.uk.cwolf.MissionControl) MissionControl.Patches.ItemRegistryPatch.Postfix
+
+Assembly-CSharp
+LoadedAudioBank.LoadBank:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSoundBanks.Patches.LoadedAudioBank_LoadBank_Patch.Prefix
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSoundBanks.Patches.LoadedAudioBank_LoadBank_Patch.Postfix
+
+Assembly-CSharp
+LoadedAudioBank.LoadBankExternal:
+	Prefixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSoundBankDefs.LoadedAudioBank_LoadBankExternal.Prefix
+
+Assembly-CSharp
+LoadedAudioBank.UnloadBank:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSoundBankDefs.LoadedAudioBank_UnloadBank.Postfix
+
+Assembly-CSharp
+MessageCenter.RemoveSubscriber:
+	Prefixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.UI.CombatLog.MessageCenter_RemoveSubscriber_Prefix
+
+Assembly-CSharp
+SplashLauncher.Update:
+	Prefixes:
+		SkipIntro (io.github.mpstark.SkipIntro) SkipIntro.Patches.SplashLauncher_Update_Patch.Prefix
+
+Assembly-CSharp
+VersionInfo.GetReleaseVersion:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Patches.VersionInfo_GetReleaseVersion_Patch.Postfix
+
+Assembly-CSharp
+WwiseManager.LoadCombatBanks:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSoundBankDefs.WwiseManager_LoadCombatBanks.Postfix
+
+Assembly-CSharp
+WwiseManager.UnloadCombatBanks:
+	Postfixes:
+		ModTek (io.github.mpstark.ModTek) ModTek.Features.CustomSoundBankDefs.WwiseManager_UnloadCombatBanks.Postfix
+
+BattletechPerformanceFix
+BattletechPerformanceFix.PatchMechlabLimitItems.FilterUsingHBSCode:
+	Prefixes:
+		CustomFilters (io.github.denadan.CustomFilters) CustomFilters.Patches.PatchMechlabLimitItems_FilterUsingHBSCode.ApplyFiltering
+
+CustomUnits
+CustomUnits.CustomMech.ApplyBraced:
+	Postfixes:
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CustomMech_ApplyBraced.Postfix
+		IRTweaks (us.frostraptor.IRTweaks) IRTweaks.Modules.Combat.CustomMech_ApplyBraced_OnFire.Postfix
+
+UnityEngine.UI
+UnityEngine.UI.ScrollRect.LateUpdate:
+	Prefixes:
+		BattletechPerformanceFix (com.github.m22spencer.BattletechPerformanceFix) BattletechPerformanceFix.MechlabFix.LateUpdate_Pre
+
