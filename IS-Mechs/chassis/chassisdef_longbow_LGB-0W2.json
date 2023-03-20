@@ -1,30 +1,30 @@
 {
     "Description": {
-        "Cost": 7400000,
+        "Cost": 8400000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Orion",
-        "Id": "chassisdef_orion_ON1-V",
-        "Name": "Orion",
-        "Details": "The Orion V trades some of the armor the K model is known for to mount additional weaponry. This increases its overall damage output, but many pilots consider the loss of armor to be risky.",
-        "Icon": "uixTxrIcon_orion"
+        "UIName": "Longbow",
+        "Id": "chassisdef_longbow_LGB-0W2",
+        "Name": "Longbow",
+        "Details": "",
+        "Icon": ""
     },
-    "MovementCapDefID": "movedef_orion_ON1-K",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_orion",
-    "PrefabIdentifier": "chrPrfMech_orionBase-001",
-    "PrefabBase": "orion",
-    "Tonnage": 75,
-    "InitialTonnage": 32.5,
-    "weightClass": "HEAVY",
-    "BattleValue": 7124000,
+    "MovementCapDefID": "movedef_stalker_STK-3F",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_longbow",
+    "PrefabIdentifier": "chrprfmech_longbowbase-001",
+    "PrefabBase": "longbow",
+    "Tonnage": 85,
+    "InitialTonnage": 8.5,
+    "weightClass": "ASSAULT",
+    "BattleValue": 8821000,
     "Heatsinks": 0,
-    "TopSpeed": 64,
+    "TopSpeed": 105,
     "TurnRadius": 90,
-    "MaxJumpjets": 4,
-    "Stability": 160,
+    "MaxJumpjets": 3,
+    "Stability": 200,
     "StabilityDefenses": [
         0,
         0,
@@ -38,14 +38,14 @@
     "SensorRangeMultiplier": 1,
     "Signature": 0,
     "Radius": 8,
-    "PunchesWithLeftArm": true,
-    "MeleeDamage": 95,
-    "MeleeInstability": 75,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 80,
+    "MeleeInstability": 85,
     "MeleeToHitModifier": 0,
-    "DFADamage": 95,
+    "DFADamage": 105,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 95,
-    "DFAInstability": 95,
+    "DFASelfDamage": 105,
+    "DFAInstability": 105,
     "Locations": [
         {
             "Location": "Head",
@@ -60,19 +60,15 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 120,
+            "MaxArmor": 90,
             "MaxRearArmor": -1,
-            "InternalStructure": 60
+            "InternalStructure": 70
         },
         {
             "Location": "LeftTorso",
@@ -84,44 +80,36 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 160,
-            "MaxRearArmor": 80,
-            "InternalStructure": 80
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 230,
-            "MaxRearArmor": 115,
-            "InternalStructure": 115
+            "MaxArmor": 210,
+            "MaxRearArmor": 100,
+            "InternalStructure": 135
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 160,
-            "MaxRearArmor": 80,
-            "InternalStructure": 80
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -129,78 +117,78 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 120,
+            "MaxArmor": 90,
             "MaxRearArmor": -1,
-            "InternalStructure": 60
+            "InternalStructure": 70
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 160,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 80
+            "InternalStructure": 90
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 160,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 80
+            "InternalStructure": 90
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 16,
+            "y": 15,
             "z": 0
         },
         {
             "x": 3.5,
-            "y": 15,
-            "z": 0
+            "y": 16,
+            "z": -1
         },
         {
             "x": -3.5,
-            "y": 15,
-            "z": 0
+            "y": 16,
+            "z": -1
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 16,
+            "y": 15,
             "z": 0
         },
         {
             "x": 3.5,
-            "y": 15,
-            "z": 0
+            "y": 16,
+            "z": -1
         },
         {
             "x": -3.5,
-            "y": 15,
-            "z": 0
+            "y": 16,
+            "z": -1
         },
         {
-            "x": 3,
-            "y": 5,
-            "z": 0
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
         },
         {
-            "x": -3,
-            "y": 5,
-            "z": 0
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
         }
     ],
-    "VariantName": "ON1-V",
+    "VariantName": "LGB-0W2",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler & Close Assault",
-    "YangsThoughts": "The Orion V trades some of the armor the K model is known for to mount additional weaponry. This increases its overall damage output, but many pilots consider the loss of armor to be risky."
+    "StockRole": "Missile Boat",
+    "YangsThoughts": ""
 }

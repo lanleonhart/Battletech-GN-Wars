@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Trebuchet",
-        "Id": "chassisdef_trebuchet_TBT-5N",
+        "Id": "chassisdef_trebuchet_TBT-5S",
         "Name": "Trebuchet",
-        "Details": "One of the lightest dedicated fire support 'Mechs to be found, the Trebuchet 5N can mount enough missiles to give even heavy units pause. However, 'Trenchbuckets' are known for running hot and don't have much in the way of protection.",
+        "Details": "The 5S variant of the Trebuchet modifies the design from a long-range support 'Mech to a close combat machine. The LRM launchers have been completely replaced with two Thunderstroke SRM-6 launchers and an additional eight heat sinks while retaining the three medium lasers. The Free Worlds League's tremendous success with pairing 5S models with 5Ns in the late 3030s would cause their military planners to consider expanding this concept to other units.",
         "Icon": "uixTxrIcon_trebuchet"
     },
     "MovementCapDefID": "movedef_trebuchet_TBT-5N",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_trebuchetBase-001",
     "PrefabBase": "trebuchet",
     "Tonnage": 50,
-    "InitialTonnage": 23.5,
+    "InitialTonnage": 5,
     "weightClass": "MEDIUM",
     "BattleValue": 4665000,
     "Heatsinks": 0,
@@ -116,10 +116,6 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -191,11 +187,11 @@
             "z": 2.5
         }
     ],
-    "VariantName": "TBT-5N",
+    "VariantName": "TBT-5S",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Fire Support",
-    "YangsThoughts": "One of the lightest dedicated fire support 'Mechs to be found, the Trebuchet 5N can mount enough missiles to give even heavy units pause. However, 'Trenchbuckets' are known for running hot and don't have much in the way of protection."
+    "StockRole": "Skirmisher",
+    "YangsThoughts": ""
 }
