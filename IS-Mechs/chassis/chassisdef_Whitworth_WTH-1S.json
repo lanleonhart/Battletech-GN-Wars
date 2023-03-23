@@ -1,0 +1,197 @@
+{
+    "Description": {
+        "Cost": 1800000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Whitworth",
+        "Id": "chassisdef_Whitworth_WTH-1S",
+        "Name": "Whitworth",
+        "Details": "The original production model of the Whitworth prior to its service in the Star League armies. The two LRM-10 missile launchers are replaced with two SRM-6 launchers and four additional heat sinks, allowing the MechWarrior better heat management capabilities. However since this loadout encourages a close combat approach for which the 'Mech is grossly ill-equipped, these were phased out and the variant remains extremely rare.",
+        "Icon": ""
+    },
+    "MovementCapDefID": "movedef_locust_LCT-1V",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_whitworth",
+    "PrefabIdentifier": "chrprfmech_whitworthbase-001",
+    "PrefabBase": "Whitworth",
+    "Tonnage": 40,
+    "InitialTonnage": 4,
+    "weightClass": "MEDIUM",
+    "BattleValue": 1800000,
+    "Heatsinks": 0,
+    "TopSpeed": 97,
+    "TurnRadius": 90,
+    "MaxJumpjets": 8,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 15,
+    "MeleeInstability": 20,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 25,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 25,
+    "DFAInstability": 25,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                "WeaponMount": "Energy",
+                "Omni": false
+            }
+        ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }    
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [{
+                "WeaponMount": "Missile",
+                "Omni": false
+            }],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 120,
+            "MaxRearArmor": 70,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": 70,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }    
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 120,
+            "MaxRearArmor": 70,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": 1.5,
+            "y": 3,
+            "z": 0
+        },
+        {
+            "x": -1.5,
+            "y": 3,
+            "z": 0
+        }
+    ],
+    "VariantName": "WTH-1S",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Missile Boat",
+    "YangsThoughts": ""
+}
