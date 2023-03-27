@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 7100000,
-        "Rarity": 4,
+        "Cost": 7500000,
+        "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Guillotine",
-        "Id": "chassisdef_guillotine_GLT-4L",
-        "Name": "Guillotine",
-        "Details": "The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transitioned from the front-line shock role to that of a heavy raider - a task it excels at thanks to its quick speed and use of jump jets. Its mobility also makes the 'Mech adept at fighting in difficult terrain such as jungle or mountainous regions. The only serious issue with the 'Mech ironically are its weapons, which have been plagued with various problems over the centuries.",
-        "Icon": ""
+        "UIName": "Orion",
+        "Id": "chassisdef_orion_ON1-VA-DC",
+        "Name": "Orion",
+        "Details": "This command subvariant of the 1-V, introduced in 2913, trades 1 ton each of LRM/SRM and autocannon ammunition for a Command Console",
+        "Icon": "uixTxrIcon_orion"
     },
-    "MovementCapDefID": "movedef_grasshopper_GHR-5H",
+    "MovementCapDefID": "movedef_orion_ON1-K",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_grasshopper",
-    "PrefabIdentifier": "chrPrfMech_grasshopperBase-001",
-    "PrefabBase": "guillotine",
-    "Tonnage": 70,
-    "InitialTonnage": 7,
+    "HardpointDataDefID": "hardpointdatadef_orion",
+    "PrefabIdentifier": "chrPrfMech_orionBase-001",
+    "PrefabBase": "orion",
+    "Tonnage": 75,
+    "InitialTonnage": 32.5,
     "weightClass": "HEAVY",
-    "BattleValue": 7602000,
+    "BattleValue": 7124000,
     "Heatsinks": 0,
-    "TopSpeed": 120,
+    "TopSpeed": 64,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 160,
@@ -38,20 +38,18 @@
     "SensorRangeMultiplier": 1,
     "Signature": 0,
     "Radius": 8,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 90,
-    "MeleeInstability": 70,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 95,
+    "MeleeInstability": 75,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 95,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 55,
@@ -62,7 +60,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -72,26 +70,12 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 200,
+            "MaxArmor": 240,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 60
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 200,
-            "MaxRearArmor": 100,
-            "InternalStructure": 75
-        },
-        {
-            "Location": "CenterTorso",
             "Hardpoints": [
                 {
                     "WeaponMount": "Missile",
@@ -99,24 +83,33 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 10,
             "MaxArmor": 220,
-            "MaxRearArmor": 120,
-            "InternalStructure": 110
+            "MaxRearArmor": 100,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 360,
+            "MaxRearArmor": 110,
+            "InternalStructure": 115
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 200,
+            "MaxArmor": 220,
             "MaxRearArmor": 100,
-            "InternalStructure": 75
+            "InternalStructure": 80
         },
         {
             "Location": "RightArm",
@@ -126,66 +119,66 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 200,
+            "MaxArmor": 240,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 60
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
+            "MaxArmor": 320,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 80
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
+            "MaxArmor": 320,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 80
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 18,
+            "y": 16,
             "z": 0
         },
         {
-            "x": 4,
-            "y": 17,
+            "x": 3.5,
+            "y": 15,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 17,
+            "x": -3.5,
+            "y": 15,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 18,
+            "y": 16,
             "z": 0
         },
         {
-            "x": 4,
-            "y": 17,
+            "x": 3.5,
+            "y": 15,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 17,
+            "x": -3.5,
+            "y": 15,
             "z": 0
         },
         {
@@ -199,11 +192,11 @@
             "z": 0
         }
     ],
-    "VariantName": "GLT-4L",
+    "VariantName": "ON1-VA-DC",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher",
+    "StockRole": "Juggernaut",
     "YangsThoughts": ""
 }

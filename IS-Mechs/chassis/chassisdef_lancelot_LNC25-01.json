@@ -1,30 +1,30 @@
 {
     "Description": {
-        "Cost": 4100000,
-        "Rarity": 1,
+        "Cost": 6200000,
+        "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Hunchback",
-        "Id": "chassisdef_hunchback_HBK-4J",
-        "Name": "Hunchback",
-        "Details": "This variant was first employed in 2856 and changes the 'Mech's focus from short range combat to fire support. It does this by removing the large AC/20 and replacing it with two LRM-10 launchers, an additional single heat sink, and three additional medium lasers, replacing the two tons of autocannon ammo in the left torso for two tons of missile reloads. This variant can act as a bodyguard 'Mech for fire support lances without degrading the mission of those lances because of its mix of LRMs and medium lasers.",
-        "Icon": "hunchback"
+        "UIName": "Lancelot",
+        "Id": "chassisdef_lancelot_LNC25-01",
+        "Name": "Lancelot",
+        "Details": "The Lancelot was originally conceived in response to a Star League Defense Force contract for a medium BattleMech that could operate with minimal logistical support, was fast enough to take part in mobile operations and packed sufficient firepower to be a viable threat on the battlefield. With this criteria in mind Krupp Technologies attempted to combine the speed of a medium 'Mech with the survivability of a heavy 'Mech in the Lancelot. Despite the use of a lightweight engine, the production Lancelot ended up in the heavyweight class, but the SLDF was impressed enough with the unit's speed and firepower during its trial runs to make an initial order of 250 in 2581",
+        "Icon": ""
     },
-    "MovementCapDefID": "movedef_centurion_CN9-A",
-    "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_hunchback",
-    "PrefabIdentifier": "chrPrfMech_hunchbackBase-001",
-    "PrefabBase": "hunchback",
-    "Tonnage": 50,
-    "InitialTonnage": 18.5,
-    "weightClass": "MEDIUM",
-    "BattleValue": 4048000,
+    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_lancelot",
+    "PrefabIdentifier": "chrprfmech_lancelotbase-001",
+    "PrefabBase": "lancelot",
+    "Tonnage": 60,
+    "InitialTonnage": 6,
+    "weightClass": "HEAVY",
+    "BattleValue": 6057000,
     "Heatsinks": 0,
-    "TopSpeed": 65,
+    "TopSpeed": 86,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
-    "Stability": 130,
+    "Stability": 160,
     "StabilityDefenses": [
         0,
         0,
@@ -37,30 +37,24 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 5,
+    "Radius": 8,
     "PunchesWithLeftArm": false,
     "MeleeDamage": 80,
-    "MeleeInstability": 50,
+    "MeleeInstability": 65,
     "MeleeToHitModifier": 0,
-    "DFADamage": 65,
+    "DFADamage": 80,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 65,
-    "DFAInstability": 65,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 160,
+            "MaxArmor": 55,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
-
+            "InternalStructure": 15
         },
         {
             "Location": "LeftArm",
@@ -74,25 +68,32 @@
             "InventorySlots": 8,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
+            "InternalStructure": 50
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 200,
+            "MaxArmor": 220,
             "MaxRearArmor": 40,
-            "InternalStructure": 60
+            "InternalStructure": 70
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 260,
+            "MaxArmor": 220,
             "MaxRearArmor": 60,
-            "InternalStructure": 80
+            "InternalStructure": 100
         },
         {
             "Location": "RightTorso",
@@ -100,29 +101,13 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 200,
+            "MaxArmor": 220,
             "MaxRearArmor": 40,
-            "InternalStructure": 60
+            "InternalStructure": 70
         },
         {
             "Location": "RightArm",
@@ -134,10 +119,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 160,
+            "MaxArmor": 80,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
-
+            "InternalStructure": 50
         },
         {
             "Location": "LeftLeg",
@@ -146,7 +130,7 @@
             "InventorySlots": 4,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
-            "InternalStructure": 60
+            "InternalStructure": 70
         },
         {
             "Location": "RightLeg",
@@ -155,22 +139,22 @@
             "InventorySlots": 4,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
-            "InternalStructure": 60
+            "InternalStructure": 70
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 12.5,
+            "y": 14,
             "z": 1
         },
         {
-            "x": 3,
+            "x": 4,
             "y": 13,
             "z": 0
         },
         {
-            "x": -3,
+            "x": -4,
             "y": 13,
             "z": 0
         }
@@ -178,35 +162,35 @@
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 12.5,
+            "y": 14,
             "z": 1
         },
         {
-            "x": 3,
+            "x": 4,
             "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
             "z": 0
         },
         {
             "x": -3,
-            "y": 13,
+            "y": 5,
             "z": 0
-        },
-        {
-            "x": 2.5,
-            "y": 4.5,
-            "z": 2
-        },
-        {
-            "x": -2.5,
-            "y": 4.5,
-            "z": 2
         }
     ],
-    "VariantName": "HBK-4J",
+    "VariantName": "LNC25-01",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Missile Boat",
+    "StockRole": "Skirmisher",
     "YangsThoughts": ""
 }

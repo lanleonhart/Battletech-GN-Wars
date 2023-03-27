@@ -1,30 +1,30 @@
 {
     "Description": {
-        "Cost": 4100000,
-        "Rarity": 1,
+        "Cost": 7800000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Hunchback",
-        "Id": "chassisdef_hunchback_HBK-4J",
-        "Name": "Hunchback",
-        "Details": "This variant was first employed in 2856 and changes the 'Mech's focus from short range combat to fire support. It does this by removing the large AC/20 and replacing it with two LRM-10 launchers, an additional single heat sink, and three additional medium lasers, replacing the two tons of autocannon ammo in the left torso for two tons of missile reloads. This variant can act as a bodyguard 'Mech for fire support lances without degrading the mission of those lances because of its mix of LRMs and medium lasers.",
-        "Icon": "hunchback"
+        "UIName": "Black Knight",
+        "Id": "chassisdef_blackknight_BL-7-KNT",
+        "Name": "Black Knight",
+        "Details": "The Black Knight 6-KNT is a dedicated Energy weapon platform. It can shell out hellish damage with its beams and shrug off a lot of damage\u2026 just gotta make sure to keep its heat in check.",
+        "Icon": ""
     },
-    "MovementCapDefID": "movedef_centurion_CN9-A",
-    "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_hunchback",
-    "PrefabIdentifier": "chrPrfMech_hunchbackBase-001",
-    "PrefabBase": "hunchback",
-    "Tonnage": 50,
-    "InitialTonnage": 18.5,
-    "weightClass": "MEDIUM",
-    "BattleValue": 4048000,
+    "MovementCapDefID": "movedef_blackknight_BL-6-KNT",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_blackknight",
+    "PrefabIdentifier": "chrPrfMech_blackknightBase-001",
+    "PrefabBase": "blackknight",
+    "Tonnage": 75,
+    "InitialTonnage": 7.5,
+    "weightClass": "HEAVY",
+    "BattleValue": 7124000,
     "Heatsinks": 0,
-    "TopSpeed": 65,
+    "TopSpeed": 64,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
-    "Stability": 130,
+    "Stability": 160,
     "StabilityDefenses": [
         0,
         0,
@@ -37,15 +37,15 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 5,
+    "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
-    "MeleeInstability": 50,
+    "MeleeDamage": 95,
+    "MeleeInstability": 75,
     "MeleeToHitModifier": 0,
-    "DFADamage": 65,
+    "DFADamage": 95,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 65,
-    "DFAInstability": 65,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
     "Locations": [
         {
             "Location": "Head",
@@ -53,14 +53,17 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 160,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
-
+            "InternalStructure": 16
         },
         {
             "Location": "LeftArm",
@@ -72,27 +75,40 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 80,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
+            "InternalStructure": 60
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 200,
-            "MaxRearArmor": 40,
-            "InternalStructure": 60
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 260,
-            "MaxRearArmor": 60,
-            "InternalStructure": 80
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
         },
         {
             "Location": "RightTorso",
@@ -106,23 +122,15 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 200,
-            "MaxRearArmor": 40,
-            "InternalStructure": 60
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
         },
         {
             "Location": "RightArm",
@@ -130,83 +138,86 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 160,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
-
+            "InternalStructure": 60
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 60
+            "InternalStructure": 80
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 60
+            "InternalStructure": 80
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 12.5,
+            "y": 18,
             "z": 1
         },
         {
-            "x": 3,
-            "y": 13,
+            "x": 4,
+            "y": 16,
             "z": 0
         },
         {
-            "x": -3,
-            "y": 13,
+            "x": -4,
+            "y": 16,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 12.5,
+            "y": 18,
             "z": 1
         },
         {
+            "x": 4,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 16,
+            "z": 0
+        },
+        {
             "x": 3,
-            "y": 13,
+            "y": 6,
             "z": 0
         },
         {
             "x": -3,
-            "y": 13,
+            "y": 6,
             "z": 0
-        },
-        {
-            "x": 2.5,
-            "y": 4.5,
-            "z": 2
-        },
-        {
-            "x": -2.5,
-            "y": 4.5,
-            "z": 2
         }
     ],
-    "VariantName": "HBK-4J",
+    "VariantName": "BL-7-KNT",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Missile Boat",
+    "StockRole": "Brawler & Ranged Assault",
     "YangsThoughts": ""
 }
