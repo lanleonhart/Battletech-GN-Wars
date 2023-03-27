@@ -1,11 +1,11 @@
-08:51:14.9281 INFO 2023-03-19 Loading AttackImprovementMod Version 3.1.0.44 @ E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomAmmoCategories/
-08:51:14.9281 INFO Game Version 1.9.1, Harmony Version 2.10.1.0, Mod Dll Version 3.1.0.44
+08:30:37.8609 INFO 2023-03-26 Loading AttackImprovementMod Version 3.1.0.44 @ E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomAmmoCategories/
+08:30:37.8619 INFO Game Version 1.9.1, Harmony Version 2.10.1.0, Mod Dll Version 3.1.0.44
 
-08:51:14.9735 INFO Harmony instance "Sheepy.BattleTechMod.AttackImprovementMod"
-08:51:14.9814 FINE Patched: BattleTech.UnityGameInstance Void InitUserSettings() [  : RunGameStarts :  ]
-08:51:14.9894 FINE Patched: BattleTech.SimGameState Void Init(BattleTech.GameInstance, SimGameType, Boolean, BattleTech.SimGameDifficulty) [  : RunCampaignStarts :  ]
-08:51:14.9934 INFO WARNING: Do NOT change settings here. This is just a log.
-08:51:14.9934 INFO Loaded Settings: {
+08:30:37.9178 INFO Harmony instance "Sheepy.BattleTechMod.AttackImprovementMod"
+08:30:37.9257 FINE Patched: BattleTech.UnityGameInstance Void InitUserSettings() [  : RunGameStarts :  ]
+08:30:37.9347 FINE Patched: BattleTech.SimGameState Void Init(BattleTech.GameInstance, SimGameType, Boolean, BattleTech.SimGameDifficulty) [  : RunCampaignStarts :  ]
+08:30:37.9487 INFO WARNING: Do NOT change settings here. This is just a log.
+08:30:37.9487 INFO Loaded Settings: {
   "FixWeaponStats": true,
   "FixMultiTargetBackout": true,
   "AggressiveMultiTargetAssignment": false,
@@ -152,6 +152,26 @@
   "LogFolder": "",
   "SettingVersion": 2007000
 }
-08:51:14.9934 INFO WARNING: Do NOT change settings here. This is just a log.
-08:51:15.0084 FINE Patched: BattleTech.UI.CombatHUD Void Init(BattleTech.CombatGameState) [  : RunCombatStarts :  ]
-08:51:15.0183 FINE Patched: BattleTech.UI.CombatHUD Void OnCombatGameDestroyed() [  : RunCombatEnds :  ]
+08:30:37.9487 INFO WARNING: Do NOT change settings here. This is just a log.
+08:30:37.9547 FINE Patched: BattleTech.UI.CombatHUD Void Init(BattleTech.CombatGameState) [  : RunCombatStarts :  ]
+08:30:37.9656 FINE Patched: BattleTech.UI.CombatHUD Void OnCombatGameDestroyed() [  : RunCombatEnds :  ]
+08:31:03.0114 INFO Detected Mods: 
+08:31:03.0263 FINE Patched: BattleTech.UI.HUDMechArmorReadout Void RefreshMechStructureAndArmor() [  : ShowStructureDamageThroughArmour :  ]
+08:31:03.0413 FINE Patched: BattleTech.UI.HUDMechArmorReadout Void UpdateMechStructureAndArmor(BattleTech.AttackDirection) [  : FixRearStructureDisplay :  ]
+08:31:03.0532 FINE Patched: BattleTech.UI.HUDMechArmorReadout Void Init(BattleTech.UI.CombatHUD, Boolean, Boolean, Boolean) [  : AddPaperDollSideLabel :  ]
+08:31:03.0642 FINE Patched: BattleTech.WeaponDef Void FromJSON(System.String) [  : FixWeaponStats :  ]
+08:31:10.0721 INFO Weapon_LRM_LRM10_2-Delta Instability seems to be already fixed.
+08:31:10.0811 INFO Weapon_LRM_LRM15_2-Delta Instability seems to be already fixed.
+08:31:10.0971 INFO Weapon_LRM_LRM5_2-Delta Instability seems to be already fixed.
+08:31:10.1031 INFO Weapon_PPC_PPCER_0-STOCK statusEffects seems to be already fixed.
+08:31:10.1230 INFO PPC debuff cloned.
+08:31:10.1449 INFO Weapon_SRM_SRM6_1-Holly AccuracyModifier seems to be already fixed.
+08:31:10.1469 INFO Weapon_SRM_SRM6_2-Holly AccuracyModifier seems to be already fixed.
+08:31:10.1529 INFO Weapon_Laser_LargeLaserER_2-BlazeFire BonusValueA seems to be already fixed.
+08:31:10.1549 INFO Weapon_Laser_LargeLaserPulse_2-Exostar BonusValueA seems to be already fixed.
+08:31:10.1569 INFO Weapon_Laser_MediumLaserER_2-BrightBloom BonusValueA seems to be already fixed.
+08:31:10.1589 INFO Weapon_Laser_MediumLaserPulse_2-Magna400P BonusValueA seems to be already fixed.
+08:31:10.1609 INFO Weapon_Laser_SmallLaserER_2-BlazeFire BonusValueA seems to be already fixed.
+08:31:10.1649 INFO Weapon_PPC_PPCER_1-MagnaFirestar statusEffects seems to be already fixed.
+08:31:10.1659 INFO Last weapon checked.
+08:31:10.1669 INFO Weapon_PPC_PPCER_2-TiegartMagnum statusEffects seems to be already fixed.

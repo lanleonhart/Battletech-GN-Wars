@@ -1,0 +1,190 @@
+{
+    "Description": {
+        "Cost": 1800000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Mongoose",
+        "Id": "chassisdef_Mongoose_MON-67",
+        "Name": "Mongoose",
+        "Details": "The Mongoose BattleMech was introduced in 2660 as a deep recon 'Mech and a direct competitor, and hopeful replacement, for the Locust. As the 'Mech reached Star League Defense Force units though, it was found that the Beagle active probe on the Mongoose gave it extremely good command and control features that endeared it to light 'Mech command lances. ",
+        "Icon": "mongoose"
+    },
+    "MovementCapDefID": "movedef_locust_LCT-1V",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_mongoose",
+    "PrefabIdentifier": "chrprfmech_mongoosebase-001",
+    "PrefabBase": "Mongoose",
+    "Tonnage": 25,
+    "InitialTonnage": 2.5,
+    "weightClass": "LIGHT",
+    "BattleValue": 1800000,
+    "Heatsinks": 0,
+    "TopSpeed": 129,
+    "TurnRadius": 90,
+    "MaxJumpjets": 8,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 15,
+    "MeleeInstability": 20,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 25,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 25,
+    "DFAInstability": 25,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [ {
+                "WeaponMount": "Energy",
+                "Omni": false
+            }],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 25,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [ {
+                "WeaponMount": "Energy",
+                "Omni": false
+            }],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 75,
+            "MaxRearArmor": 45,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 65,
+            "MaxRearArmor": 25,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 75,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 75,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": 1.5,
+            "y": 3,
+            "z": 0
+        },
+        {
+            "x": -1.5,
+            "y": 3,
+            "z": 0
+        }
+    ],
+    "VariantName": "MON-68",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Striker",
+    "YangsThoughts": ""
+}
