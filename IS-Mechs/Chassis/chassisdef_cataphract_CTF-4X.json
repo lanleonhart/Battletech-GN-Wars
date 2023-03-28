@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 6200000,
-        "Rarity": 3,
+        "Cost": 6700000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Ostsol",
-        "Id": "chassisdef_Ostsol_OTL-4D",
-        "Name": "Ostsol",
-        "Details": "Ostmann Industries had built up a solid portfolio of BattleMechs by 2693, having drawn up and produced the successful Ostwar, Ostsol, and Ostscout designs. Their attempt at a new member of their line-up, a heavy cavalry BattleMech capable of independant operations, would lead to the development of the Ostsol. Their manufacturing lines, however, were already overloaded by demand for the popular Ostsol, leading Ostsmann to partner with Kong Interstellar to manufacture the design on Kong's lines on Connaught. The pact would be profitable for both companies, and the Ostsol became a popular staple in both House armies and SLDF forces.",
-        "Icon": ""
+        "UIName": "Cataphract",
+        "Id": "chassisdef_cataphract_CTF-4X",
+        "Name": "Cataphract",
+        "Details": "The -4X is a Federated Suns prototype produced following the capture of Tikonov, but it never saw use due to a lukewarm reception. The large laser of the 2X is retained, but all of the other weapons are removed in favor of two autocannon/5s and an LRM-5. In order to fit all of this equipment, the top speed is lowered to 56 km/h. In a strange twist of fate, the copious ammunition bins for the autocannons became popular with the creation of special munitions, making this design much more well-liked than it had been in the past.",
+        "Icon": "uixTxrIcon_cataphract"
     },
-    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+    "MovementCapDefID": "movedef_cataphract_CTF-1X",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_ostsol",
-    "PrefabIdentifier": "chrprfmech_ostsolhotd-001",
-    "PrefabBase": "ostsol",
-    "Tonnage": 60,
-    "InitialTonnage": 6,
+    "HardpointDataDefID": "hardpointdatadef_cataphract",
+    "PrefabIdentifier": "chrPrfMech_cataphractBase-001",
+    "PrefabBase": "cataphract",
+    "Tonnage": 70,
+    "InitialTonnage": 7,
     "weightClass": "HEAVY",
-    "BattleValue": 6057000,
+    "BattleValue": 6577000,
     "Heatsinks": 0,
-    "TopSpeed": 86,
+    "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 160,
@@ -39,33 +39,45 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
-    "MeleeInstability": 65,
+    "MeleeDamage": 90,
+    "MeleeInstability": 70,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 90,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 90,
+    "DFAInstability": 90,
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
-            "InternalStructure": 15
+            "InternalStructure": 16
         },
         {
             "Location": "LeftArm",
             "Hardpoints": [
-                
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 80,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 55
         },
         {
             "Location": "LeftTorso",
@@ -75,15 +87,15 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 40,
-            "InternalStructure": 70
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 80
         },
         {
             "Location": "CenterTorso",
@@ -91,96 +103,92 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 40,
-            "InternalStructure": 100
+            "MaxArmor": 300,
+            "MaxRearArmor": 130,
+            "InternalStructure": 110
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 40,
-            "InternalStructure": 70
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 80
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [  
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 80,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 55
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 260,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 75
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 260,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 75
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 15,
             "z": 1
         },
         {
             "x": 4,
-            "y": 13,
+            "y": 14,
             "z": 0
         },
         {
             "x": -4,
-            "y": 13,
+            "y": 14,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 15,
             "z": 1
         },
         {
             "x": 4,
-            "y": 13,
+            "y": 14,
             "z": 0
         },
         {
             "x": -4,
-            "y": 13,
+            "y": 14,
             "z": 0
         },
         {
@@ -194,11 +202,11 @@
             "z": 0
         }
     ],
-    "VariantName": "OSR-4D",
+    "VariantName": "CTF-4X",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher",
+    "StockRole": "Sniper",
     "YangsThoughts": ""
 }

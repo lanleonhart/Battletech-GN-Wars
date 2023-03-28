@@ -5,23 +5,23 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Ostsol",
-        "Id": "chassisdef_Ostsol_OTL-4D",
-        "Name": "Ostsol",
-        "Details": "Ostmann Industries had built up a solid portfolio of BattleMechs by 2693, having drawn up and produced the successful Ostwar, Ostsol, and Ostscout designs. Their attempt at a new member of their line-up, a heavy cavalry BattleMech capable of independant operations, would lead to the development of the Ostsol. Their manufacturing lines, however, were already overloaded by demand for the popular Ostsol, leading Ostsmann to partner with Kong Interstellar to manufacture the design on Kong's lines on Connaught. The pact would be profitable for both companies, and the Ostsol became a popular staple in both House armies and SLDF forces.",
-        "Icon": ""
+        "UIName": "Thunderbolt",
+        "Id": "chassisdef_thunderbolt_TDR-5D",
+        "Name": "Thunderbolt",
+        "Details": "Introduced in 2821, the 5D is a radical departure from the 5S. All short-range weapons are replaced by an Autocannon/20 in the right torso supplied by two tons of ammunition. The left torso mounts an LRM-10 with one ton of ammunition, and 14 heat sinks keep the 'Mech ice-cold",
+        "Icon": "uixTxrIcon_thunderbolt"
     },
     "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_ostsol",
-    "PrefabIdentifier": "chrprfmech_ostsolhotd-001",
-    "PrefabBase": "ostsol",
-    "Tonnage": 60,
-    "InitialTonnage": 6,
+    "HardpointDataDefID": "hardpointdatadef_thunderbolt",
+    "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
+    "PrefabBase": "thunderbolt",
+    "Tonnage": 65,
+    "InitialTonnage": 6.5,
     "weightClass": "HEAVY",
     "BattleValue": 6057000,
     "Heatsinks": 0,
-    "TopSpeed": 86,
+    "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 160,
@@ -52,18 +52,29 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 55,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
-            "InternalStructure": 15
+            "InternalStructure": 16
         },
         {
             "Location": "LeftArm",
             "Hardpoints": [
-                
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 80,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
@@ -71,7 +82,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -81,53 +92,48 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 40,
-            "InternalStructure": 70
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 40,
-            "InternalStructure": 100
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 40,
-            "InternalStructure": 70
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [  
-            ],
-            "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 80,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
@@ -136,18 +142,18 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 150,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 75
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 150,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 75
         }
     ],
     "LOSSourcePositions": [
@@ -194,11 +200,11 @@
             "z": 0
         }
     ],
-    "VariantName": "OSR-4D",
+    "VariantName": "TDR-5D",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher",
+    "StockRole": "Heavy Skirmisher & Brawler",
     "YangsThoughts": ""
 }
