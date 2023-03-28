@@ -1,28 +1,25 @@
 {
     "Description": {
-        "Cost": 6200000,
-        "Rarity": 3,
+        "Cost": 7000000,
+        "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Ostsol",
-        "Id": "chassisdef_Ostsol_OTL-4D",
-        "Name": "Ostsol",
-        "Details": "Ostmann Industries had built up a solid portfolio of BattleMechs by 2693, having drawn up and produced the successful Ostwar, Ostsol, and Ostscout designs. Their attempt at a new member of their line-up, a heavy cavalry BattleMech capable of independant operations, would lead to the development of the Ostsol. Their manufacturing lines, however, were already overloaded by demand for the popular Ostsol, leading Ostsmann to partner with Kong Interstellar to manufacture the design on Kong's lines on Connaught. The pact would be profitable for both companies, and the Ostsol became a popular staple in both House armies and SLDF forces.",
-        "Icon": ""
+        "UIName": "Archer",
+        "Id": "chassisdef_archer_ARC-2K",
+        "Name": "Archer",
+        "Details": "The 2K Archer was a modification built for the Draconis Combine in 2856, designed to increase its direct firepower capability and give it more staying power on the battlefield once it had run out of ammunition. The 'Mech replaced the LRM-20 launchers with two FarFire 15 LRM-15 launchers and removed all of the medium lasers along with some armor. They used this extra weight to add a Large Laser in each arm, and two heat sinks. Besides its use with Combine forces, this variant became common among the KungsArmé following its formation.",
+        "Icon": "uixTxrIcon_archer"
     },
-    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_ostsol",
-    "PrefabIdentifier": "chrprfmech_ostsolhotd-001",
-    "PrefabBase": "ostsol",
-    "Tonnage": 60,
-    "InitialTonnage": 6,
+    "MovementCapDefID": "movedef_archer_ARC-2S",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_archer",
+    "PrefabIdentifier": "chrPrfMech_archerBase-001",
+    "PrefabBase": "archer",
+    "Tonnage": 70,
+    "InitialTonnage": 7,
     "weightClass": "HEAVY",
-    "BattleValue": 6057000,
     "Heatsinks": 0,
-    "TopSpeed": 86,
-    "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -39,51 +36,54 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
-    "MeleeInstability": 65,
+    "MeleeDamage": 100,
+    "MeleeInstability": 70,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 90,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 90,
+    "DFAInstability": 90,
     "Locations": [
         {
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 55,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
-            "InternalStructure": 15
+            "InternalStructure": 16
         },
         {
             "Location": "LeftArm",
             "Hardpoints": [
-                
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 80,
-            "MaxRearArmor": -1,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 110,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 40,
-            "InternalStructure": 70
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
         },
         {
             "Location": "CenterTorso",
@@ -95,110 +95,115 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }
+                }                
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 220,
-            "MaxRearArmor": 40,
-            "InternalStructure": 100
+            "MaxRearArmor": 110,
+            "InternalStructure": 110
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 40,
-            "InternalStructure": 70
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [  
-            ],
-            "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 80,
+            "MaxArmor": 110,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 55
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 150,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 75
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 150,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 75
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 14,
-            "z": 1
+            "y": 15,
+            "z": -1
         },
         {
             "x": 4,
-            "y": 13,
-            "z": 0
+            "y": 14,
+            "z": -0.5
         },
         {
             "x": -4,
-            "y": 13,
-            "z": 0
+            "y": 14,
+            "z": -0.5
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 14,
-            "z": 1
+            "y": 15,
+            "z": -1
         },
         {
             "x": 4,
-            "y": 13,
-            "z": 0
+            "y": 14,
+            "z": -0.5
         },
         {
             "x": -4,
-            "y": 13,
-            "z": 0
+            "y": 14,
+            "z": -0.5
         },
         {
-            "x": 3,
+            "x": 2.5,
             "y": 5,
-            "z": 0
+            "z": 1
         },
         {
-            "x": -3,
+            "x": -2.5,
             "y": 5,
-            "z": 0
+            "z": 1
         }
     ],
-    "VariantName": "OSR-4D",
+    "VariantName": "ARC-2K",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher",
-    "YangsThoughts": ""
+    "YangsThoughts": "",
+    "StockRole": "Missile Boat"
+    
 }

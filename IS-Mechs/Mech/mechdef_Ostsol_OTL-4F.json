@@ -10,16 +10,12 @@
 			"unit_range_short",
 			"unit_armor_high",
 			"unit_speed_low",
-            "Davion",
-            "Kurita",
-            "Liao",
-            "Marik",
-            "Steiner"
+            "Davion"
 			
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_Ostsol_OTL-4D",
+    "ChassisID": "chassisdef_Ostsol_OTL-4F",
     "HeraldryID": null,
     "Description": {
         "Cost": 7640000,
@@ -27,10 +23,10 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Ostsol OTL-4D",
-        "Id": "mechdef_Ostrsol_OTL-4D",
+        "UIName": "Ostsol OTL-4F",
+        "Id": "mechdef_Ostrsol_OTL-4F",
         "Name": "Ostsol",
-        "Details": "Ostmann Industries had built up a solid portfolio of BattleMechs by 2693, having drawn up and produced the successful Ostwar, Ostsol, and Ostscout designs. Their attempt at a new member of their line-up, a heavy cavalry BattleMech capable of independant operations, would lead to the development of the Ostsol. Their manufacturing lines, however, were already overloaded by demand for the popular Ostsol, leading Ostsmann to partner with Kong Interstellar to manufacture the design on Kong's lines on Connaught. The pact would be profitable for both companies, and the Ostsol became a popular staple in both House armies and SLDF forces.",
+        "Details": "The 4F Ostsol introduced in 2871 was the only common variant of the 'Mech pre–Clan Invasion, completely removing the laser weapons and replacing them with two Dominion-V PPCs in the side torsos. The 'Mech is seen as, in some ways at least, a poor man's Marauder or Warhammer, and the PPC array can quickly overload the sixteen heat sinks. Though, on its own merits, the variant is a good long-range direct fire support 'Mech which uses its top speed of 86.4 km/h to dictate combat ranges against most heavier 'Mechs. ",
         "Icon": ""
     },
     "simGameMechPartCost": 760000,
@@ -111,41 +107,8 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 2,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 2,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 2,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
@@ -156,7 +119,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
@@ -167,10 +130,10 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 2,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
