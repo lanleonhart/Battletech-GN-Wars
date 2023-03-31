@@ -1,0 +1,204 @@
+{
+    "Description": {
+        "Cost": 6200000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Ostsol",
+        "Id": "chassisdef_Ostsol_OTL-4D",
+        "Name": "Ostsol",
+        "Details": "Ostmann Industries had built up a solid portfolio of BattleMechs by 2693, having drawn up and produced the successful Ostwar, Ostsol, and Ostscout designs. Their attempt at a new member of their line-up, a heavy cavalry BattleMech capable of independant operations, would lead to the development of the Ostsol. Their manufacturing lines, however, were already overloaded by demand for the popular Ostsol, leading Ostsmann to partner with Kong Interstellar to manufacture the design on Kong's lines on Connaught. The pact would be profitable for both companies, and the Ostsol became a popular staple in both House armies and SLDF forces.",
+        "Icon": ""
+    },
+    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_ostsol",
+    "PrefabIdentifier": "chrprfmech_ostsolhotd-001",
+    "PrefabBase": "ostsol",
+    "Tonnage": 60,
+    "InitialTonnage": 6,
+    "weightClass": "HEAVY",
+    "BattleValue": 6057000,
+    "Heatsinks": 0,
+    "TopSpeed": 86,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 80,
+    "MeleeInstability": 65,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 80,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 55,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 220,
+            "MaxRearArmor": 40,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 220,
+            "MaxRearArmor": 40,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 220,
+            "MaxRearArmor": 40,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [  
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "OSR-4D",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Skirmisher",
+    "YangsThoughts": ""
+}

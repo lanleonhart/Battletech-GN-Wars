@@ -1,0 +1,224 @@
+{
+    "Description": {
+        "Cost": 10900000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Devastator DVS-1D",
+        "Id": "chassisdef_devastator_DVS-1D",
+        "Name": "Devastator",
+        "Details": "The low-tech version of the Devastator introduced in 3036, the 1D used a standard engine, so components had to be downgraded. The Gauss Rifles became Autocannon/10s and the PPCs were replaced with Large Lasers. One ton of armor was removed, while fifteen single heat sinks strained to keep the 'Mech's heat under control. The vast majority of these that were produced were upgraded by the late 3060s, leaving most 1Ds in the hands of the Taurian Concordat.",
+        "Icon": ""
+    },
+    "MovementCapDefID": "movedef_kingcrab_KGC-0000",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_masondev",
+	"PrefabIdentifier": "chrprfmech_masondevbase-001",
+    "PrefabBase": "kingcrab",
+    "Tonnage": 100,
+    "InitialTonnage": 10,
+    "weightClass": "ASSAULT",
+    "BattleValue": 10206000,
+    "Heatsinks": 0,
+    "TopSpeed": 105,
+    "TurnRadius": 90,
+    "MaxJumpjets": 3,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 125,
+    "MeleeInstability": 100,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 125,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 125,
+    "DFAInstability": 125,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 55,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 320,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 300,
+            "MaxRearArmor": 90,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 470,
+            "MaxRearArmor": 120,
+            "InternalStructure": 155
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 300,
+            "MaxRearArmor": 90,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 320,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14.5,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14.5,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": -1
+        }
+    ],
+    "VariantName": "DVS-1D",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Juggernaut & Close Assault",
+    "YangsThoughts": ""
+}

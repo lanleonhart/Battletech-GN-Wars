@@ -1,0 +1,208 @@
+{
+    "Description": {
+        "Cost": 6200000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Ostroc MK II",
+        "Id": "chassisdef_Ostroc_OSR-9C",
+        "Name": "Ostroc MK II",
+        "Details": "This FrankenMech variant of the Ostroc, built with parts from the Ostwar,[22] swaps the SRM-4 for one SRM-2 launcher in each arm, with one ton of ammunition in the center torso. Half a ton of armor was added to the front torso and legs (adding one point to each leg and side torso, and four to center torso), and four more heat sinks were installed along with three jump jets for a jump capacity of 90 meters. To make room for these components, the engine had to be changed to a Pitban 240, reducing the top speed to 64.8 km/h.",
+        "Icon": ""
+    },
+    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_ostroc",
+    "PrefabIdentifier": "chrprfmech_ostrochotd-001",
+    "PrefabBase": "ostroc",
+    "Tonnage": 60,
+    "InitialTonnage": 6,
+    "weightClass": "HEAVY",
+    "BattleValue": 6057000,
+    "Heatsinks": 0,
+    "TopSpeed": 86,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 80,
+    "MeleeInstability": 65,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 80,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 55,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 220,
+            "MaxRearArmor": 40,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+               
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 220,
+            "MaxRearArmor": 60,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 220,
+            "MaxRearArmor": 40,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "OSR-9C",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Skirmisher",
+    "YangsThoughts": ""
+}

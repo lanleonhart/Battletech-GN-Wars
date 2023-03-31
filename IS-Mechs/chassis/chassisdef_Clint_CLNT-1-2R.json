@@ -1,0 +1,187 @@
+{
+    "Description": {
+        "Cost": 1800000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Clint",
+        "Id": "chassisdef_Clint_CLNT-1-2R",
+        "Name": "Clint",
+        "Details": "The 1-2R Clint was the original prototype variant that carried an Armstrong Buster AC/10 with a single medium laser as a secondary weapon and no jump jets. Only 20 of these were produced, and while some left with Aleksandr Kerensky none have yet resurfaced, though attempts to emulate them have appeared.",
+        "Icon": "clint"
+    },
+    "MovementCapDefID": "movedef_locust_LCT-1V",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_clint",
+    "PrefabIdentifier": "chrprfmech_clintbase-001",
+    "PrefabBase": "Clint",
+    "Tonnage": 40,
+    "InitialTonnage": 4,
+    "weightClass": "MEDIUM",
+    "BattleValue": 1800000,
+    "Heatsinks": 0,
+    "TopSpeed": 97,
+    "TurnRadius": 90,
+    "MaxJumpjets": 8,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 15,
+    "MeleeInstability": 20,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 25,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 25,
+    "DFAInstability": 25,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [{
+                "WeaponMount": "Energy",
+                "Omni": false
+            }],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [ {
+                "WeaponMount": "Energy",
+                "Omni": false
+            }],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 110,
+            "MaxRearArmor": 40,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": 1.5,
+            "y": 3,
+            "z": 0
+        },
+        {
+            "x": -1.5,
+            "y": 3,
+            "z": 0
+        }
+    ],
+    "VariantName": "CLNT-1-2R",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Striker",
+    "YangsThoughts": ""
+}

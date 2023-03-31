@@ -1,0 +1,214 @@
+{
+    "Description": {
+        "Cost": 8400000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Stalker",
+        "Id": "chassisdef_stalker_STK-4P",
+        "Name": "Stalker",
+        "Details": "A strange variant is the STK-4P, showing up in 2998.  Basically a complete rebuild, this version masses 75 tons, shedding 10 tons of weight.  It has 20 heat sinks, the same 13.5 tons of armor (arranged 35 on the center torso, 25 on the right and left torso, the arms have 23 each, the legs have 26 each, the head has 9, the center torso rear 10, and both rear side torsos 7), and uses an even lighter 225 standard Fusion engine.  All for the cost of some internal structure and one LRM launcher. Otherwise it has the same loadout as the -4N",
+        "Icon": "uixTxrIcon_stalker"
+    },
+    "MovementCapDefID": "movedef_stalker_STK-3F",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_stalker",
+    "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
+    "PrefabBase": "stalker",
+    "Tonnage": 75,
+    "InitialTonnage": 7.5,
+    "weightClass": "HEAVY",
+    "BattleValue": 8821000,
+    "Heatsinks": 0,
+    "TopSpeed": 105,
+    "TurnRadius": 90,
+    "MaxJumpjets": 3,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 90,
+    "MeleeInstability": 70,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 90,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 90,
+    "DFAInstability": 90,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 55,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 320,
+            "MaxRearArmor": 70,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 300,
+            "MaxRearArmor": 100,
+            "InternalStructure": 135
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 320,
+            "MaxRearArmor": 70,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 90
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 16,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "STK-4P",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Missile Boat",
+    "YangsThoughts": ""
+}

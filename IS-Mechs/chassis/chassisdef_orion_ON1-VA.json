@@ -1,0 +1,202 @@
+{
+    "Description": {
+        "Cost": 7500000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Orion",
+        "Id": "chassisdef_orion_ON1-K",
+        "Name": "Orion",
+        "Details": "A modification along the same lines as the ON1-V introduced in 2901 the VA model also moves the left torso SRM-4 to the left arm, but removes the LRM launcher rather than armor, to add the second SRM-4 launcher, sacrificing some long-range damage capabilities for superior close-combat capabilities.",
+        "Icon": "uixTxrIcon_orion"
+    },
+    "MovementCapDefID": "movedef_orion_ON1-K",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_orion",
+    "PrefabIdentifier": "chrPrfMech_orionBase-001",
+    "PrefabBase": "orion",
+    "Tonnage": 75,
+    "InitialTonnage": 32.5,
+    "weightClass": "HEAVY",
+    "BattleValue": 7124000,
+    "Heatsinks": 0,
+    "TopSpeed": 64,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 95,
+    "MeleeInstability": 75,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 95,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 55,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 240,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 220,
+            "MaxRearArmor": 100,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 360,
+            "MaxRearArmor": 110,
+            "InternalStructure": 115
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 220,
+            "MaxRearArmor": 100,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 240,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 320,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 320,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 15,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "ON1-VA",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Juggernaut",
+    "YangsThoughts": "A modification along the same lines as the ON1-V introduced in 2901 the VA model also moves the left torso SRM-4 to the left arm, but removes the LRM launcher rather than armor, to add the second SRM-4 launcher, sacrificing some long-range damage capabilities for superior close-combat capabilities."
+}

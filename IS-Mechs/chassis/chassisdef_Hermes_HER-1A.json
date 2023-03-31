@@ -1,0 +1,190 @@
+{
+    "Description": {
+        "Cost": 2600000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Hermes",
+        "Id": "chassisdef_Hermes_HER-1A",
+        "Name": "Hermes",
+        "Details": "The Star League, showing its industrial and economic might, commissioned a new dedicated scout in 2632. Irian BattleMechs Unlimited won the contract, and was able to fulfill initial orders for this new Hermes quicker then anticipated. This caused concern in the SLDF's Quartermaster Command despite the 'Mech apparently meeting all requirements. These suspicions were quickly confirmed, as many 'Mechs in the initial run had unresolved issues with their electronics that made their targeting systems all but useless. While these problems were eventually rectified, the time needed for the fix was not insignificant, and the 'Mech would develop a negative reputation that would follow it during the remainder of the Star League era.",
+        "Icon": ""
+    },
+    "MovementCapDefID": "movedef_spider_SDR-5V",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_hermes",
+    "PrefabIdentifier": "chrprfmech_hermes-001",
+    "PrefabBase": "hermes",
+    "Tonnage": 30,
+    "InitialTonnage": 3,
+    "weightClass": "LIGHT",
+    "BattleValue": 2600000,
+    "Heatsinks": 0,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "MaxJumpjets": 8,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 30,
+    "MeleeInstability": 30,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 40,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 40,
+    "DFAInstability": 40,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 20,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": 40,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 20,
+            "InternalStructure": 3
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+               
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "HER-1A",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Striker",
+    "YangsThoughts": ""
+}
