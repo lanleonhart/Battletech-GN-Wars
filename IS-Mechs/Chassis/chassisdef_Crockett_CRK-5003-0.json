@@ -5,19 +5,19 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "BattleMaster",
-        "Id": "chassisdef_battlemaster_BLR-1D",
-        "Name": "BattleMaster",
-        "Details": "The 1D was a basic modification of the 1G model introduced by House Davion in 2867 as a means of increasing its survivability given the fact the Davions couldn't produce the 'Mech. The SRM-6 and the two rear-firing medium lasers were removed so that six heat sinks and an additional ton of armor could be added. This helped to make the 'Mech more forgiving when dealing with the intensive heat load of its energy weapon heavy arsenal.",
-        "Icon": "uixTxrIcon_battlemaster"
+        "UIName": "Crockett",
+        "Id": "chassisdef_Crockett_CRK-5003-0",
+        "Name": "Crockett",
+        "Details": "The 5003-0 Crockett is a downgraded version of the 'Mech first spotted in 2881. The 'Mech retains the same overall feel of the 5003-1 but uses only technology available to the Great Houses during the Succession Wars. The ER Large Lasers have been replaced with Magna Mark III Large Lasers models and the LB-X autocannon has been downgraded to a standard Blankenberg AC/10. In addition, the double heat sinks that made the 'Mech capable of a very high rate of fire have been downgraded to single versions that can only dissipate half as much heat as those carried by the 5003-1 Crockett. Its electronics were also replaced with a GRPNTR Groundpainter 5 communications system and a Scope 30 RNDST targeting-tracking system.",
+        "Icon": ""
     },
     "MovementCapDefID": "movedef_battlemaster_BLR-1G",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_battlemaster",
-    "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
-    "PrefabBase": "battlemaster",
+    "HardpointDataDefID": "hardpointdatadef_crk",
+	"PrefabIdentifier": "chrprfmech_crkbase-001",
+    "PrefabBase": "crockket",
     "Tonnage": 85,
-    "InitialTonnage": 42.5,
+    "InitialTonnage": 8.5,
     "weightClass": "ASSAULT",
     "BattleValue": 8742000,
     "Heatsinks": 0,
@@ -60,19 +60,11 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -86,26 +78,18 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 280,
-            "MaxRearArmor": 80,
+            "MaxArmor": 250,
+            "MaxRearArmor": 110,
             "InternalStructure": 90
         },
         {
@@ -113,35 +97,36 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 400,
-            "MaxRearArmor": 110,
+            "MaxArmor": 360,
+            "MaxRearArmor": 190,
             "InternalStructure": 135
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
+            
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 280,
-            "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "MaxArmor": 250,
+            "MaxRearArmor": 110,
+            "InternalStructure": 90
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -150,7 +135,7 @@
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 280,
-            "MaxRearArmor": 80,
+            "MaxRearArmor": -1,
             "InternalStructure": 70
         },
         {
@@ -216,7 +201,7 @@
             "z": 1
         }
     ],
-    "VariantName": "BLR-1D",
+    "VariantName": "CRK-5003-0",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""

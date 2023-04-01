@@ -1,29 +1,29 @@
 {
     "Description": {
-        "Cost": 9600000,
-        "Rarity": 5,
+        "Cost": 8800000,
+        "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "BattleMaster",
-        "Id": "chassisdef_battlemaster_BLR-1D",
-        "Name": "BattleMaster",
-        "Details": "The 1D was a basic modification of the 1G model introduced by House Davion in 2867 as a means of increasing its survivability given the fact the Davions couldn't produce the 'Mech. The SRM-6 and the two rear-firing medium lasers were removed so that six heat sinks and an additional ton of armor could be added. This helped to make the 'Mech more forgiving when dealing with the intensive heat load of its energy weapon heavy arsenal.",
-        "Icon": "uixTxrIcon_battlemaster"
+        "UIName": "Highlander",
+        "Id": "chassisdef_highlander_HGN-733C",
+        "Name": "Highlander",
+        "Details": "This model drops a ton each of SRM and LRM ammo. The Autocannon/10 is upgraded to an Autocannon/20.",
+        "Icon": "uixTxrIcon_highlander"
     },
-    "MovementCapDefID": "movedef_battlemaster_BLR-1G",
+    "MovementCapDefID": "movedef_highlander_HGN-733",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_battlemaster",
-    "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
-    "PrefabBase": "battlemaster",
-    "Tonnage": 85,
-    "InitialTonnage": 42.5,
+    "HardpointDataDefID": "hardpointdatadef_highlander",
+    "PrefabIdentifier": "chrPrfMech_highlanderBase-001",
+    "PrefabBase": "highlander",
+    "Tonnage": 90,
+    "InitialTonnage": 9,
     "weightClass": "ASSAULT",
-    "BattleValue": 8742000,
+    "BattleValue": 9642000,
     "Heatsinks": 0,
-    "TopSpeed": 60,
+    "TopSpeed": 105,
     "TurnRadius": 90,
-    "MaxJumpjets": 4,
+    "MaxJumpjets": 3,
     "Stability": 200,
     "StabilityDefenses": [
         0,
@@ -38,21 +38,21 @@
     "SensorRangeMultiplier": 1,
     "Signature": 0,
     "Radius": 8,
-    "PunchesWithLeftArm": true,
+    "PunchesWithLeftArm": false,
     "MeleeDamage": 115,
-    "MeleeInstability": 85,
+    "MeleeInstability": 90,
     "MeleeToHitModifier": 0,
-    "DFADamage": 105,
+    "DFADamage": 115,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 105,
-    "DFAInstability": 105,
+    "DFASelfDamage": 115,
+    "DFAInstability": 115,
     "Locations": [
         {
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 55,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
         },
@@ -60,27 +60,15 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 280,
+            "MaxArmor": 150,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 75
         },
         {
             "Location": "LeftTorso",
@@ -88,34 +76,22 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 280,
-            "MaxRearArmor": 80,
-            "InternalStructure": 90
+            "MaxArmor": 190,
+            "MaxRearArmor": 95,
+            "InternalStructure": 95
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 400,
-            "MaxRearArmor": 110,
-            "InternalStructure": 135
+            "MaxArmor": 290,
+            "MaxRearArmor": 145,
+            "InternalStructure": 145
         },
         {
             "Location": "RightTorso",
@@ -129,53 +105,53 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 280,
-            "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "MaxArmor": 190,
+            "MaxRearArmor": 95,
+            "InternalStructure": 95
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 280,
-            "MaxRearArmor": 80,
-            "InternalStructure": 70
+            "MaxArmor": 150,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 300,
+            "MaxArmor": 190,
             "MaxRearArmor": -1,
-            "InternalStructure": 90
+            "InternalStructure": 95
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 300,
+            "MaxArmor": 190,
             "MaxRearArmor": -1,
-            "InternalStructure": 90
+            "InternalStructure": 95
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 16,
+            "y": 17,
             "z": 0
         },
         {
@@ -192,7 +168,7 @@
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 16,
+            "y": 17,
             "z": 0
         },
         {
@@ -216,11 +192,11 @@
             "z": 1
         }
     ],
-    "VariantName": "BLR-1D",
+    "VariantName": "HGN-733C",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Brawler & Close Assault",
+    "StockRole": "Juggernaut",
     "YangsThoughts": ""
 }

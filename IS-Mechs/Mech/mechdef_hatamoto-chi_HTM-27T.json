@@ -7,12 +7,11 @@
             "unit_role_brawler",
             "unit_release",
 			"unit_range_long",
-			"Davion",
-            "Steiner"
+			"Kurita"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_zeus_ZEU-6A",
+    "ChassisID": "chassisdef_hatamoto-chi_HTM-27T",
     "HeraldryID": null,
     "Description": {
         "Cost": 16580000,
@@ -20,11 +19,11 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Zeus ZEU-6A",
-        "Id": "mechdef_zeus_ZEU-6A",
-        "Name": "Zeus",
-        "Details": "Introduced in 2940, and an apparent precursor to the 6T, the 6A trades the LRM-15 and two heat sinks for three SRM-6's with one ton of ammunition in the right arm",
-        "Icon": "uixTxrIcon_zeus"
+        "UIName": "Hatamoto-Kaze HTM-27T",
+        "Id": "mechdef_hatamoto-chi_HTM-27T",
+        "Name": "Hatamoto-Kaze",
+        "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger, the samurai-themed Hatamoto-Chi was the first post–Succession Wars Draconis Combine BattleMech constructed utilizing recovered LosTech. Tasked by Kanrei Theodore Kurita to reverse engineer examples of the advanced Star League Defense Force BattleMechs provided by ComStar in 3035 for future production, Luthien Armor Works secretly mated the weaponry of the Thug to the form of the maligned Charger. While initially unable to mass produce the advanced Endo Steel chassis required to match the Thug, the appearance of the early Hatamoto-Chi and their endless variations born of the Charger's spacious torso sent the combined Armed Forces of the Federated Commonwealth into confusion during the War of 3039.",
+        "Icon": ""
     },
     "simGameMechPartCost": 1660000,
     "Version": 1,
@@ -41,64 +40,64 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 110,
+            "CurrentArmor": 125,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 65,
-            "AssignedArmor": 110,
+            "AssignedArmor": 125,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 90,
-            "CurrentRearArmor": 30,
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 40,
             "CurrentInternalStructure": 85,
-            "AssignedArmor": 90,
-            "AssignedRearArmor": 35
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 40
         },
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 130,
-            "CurrentRearArmor": 45,
+            "CurrentArmor": 165,
+            "CurrentRearArmor": 50,
             "CurrentInternalStructure": 125,
-            "AssignedArmor": 130,
-            "AssignedRearArmor": 45
+            "AssignedArmor": 165,
+            "AssignedRearArmor": 50
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 90,
-            "CurrentRearArmor": 30,
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 40,
             "CurrentInternalStructure": 85,
-            "AssignedArmor": 90,
-            "AssignedRearArmor": 35
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 40
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 110,
+            "CurrentArmor": 125,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 65,
-            "AssignedArmor": 110,
+            "AssignedArmor": 125,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 120,
+            "CurrentArmor": 165,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 85,
-            "AssignedArmor": 120,
+            "AssignedArmor": 165,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 120,
+            "CurrentArmor": 165,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 85,
-            "AssignedArmor": 120,
+            "AssignedArmor": 165,
             "AssignedRearArmor": -1
         }
     ],
@@ -115,11 +114,44 @@
             "hasPrefabName": false
         },
         {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -127,61 +159,6 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
@@ -203,7 +180,29 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "emod_case",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "emod_case",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
@@ -248,6 +247,17 @@
         },
         {
             "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",

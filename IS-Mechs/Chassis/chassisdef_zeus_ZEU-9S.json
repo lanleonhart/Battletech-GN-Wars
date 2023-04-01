@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 9600000,
-        "Rarity": 5,
+        "Cost": 13900000,
+        "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "BattleMaster",
-        "Id": "chassisdef_battlemaster_BLR-1D",
-        "Name": "BattleMaster",
-        "Details": "The 1D was a basic modification of the 1G model introduced by House Davion in 2867 as a means of increasing its survivability given the fact the Davions couldn't produce the 'Mech. The SRM-6 and the two rear-firing medium lasers were removed so that six heat sinks and an additional ton of armor could be added. This helped to make the 'Mech more forgiving when dealing with the intensive heat load of its energy weapon heavy arsenal.",
-        "Icon": "uixTxrIcon_battlemaster"
+        "UIName": "Zeus",
+        "Id": "chassisdef_zeus_ZEU-9S",
+        "Name": "Zeus",
+        "Details": "The 9S was an upgrade using Star League technology, debuting in 3048. It replaced the standard heat sinks with double-strength models, the eleven tons of standard armor for the same weight in Glasgow Limited Primo Ferro-Fibrous plating, and added CASE to prevent ammunition explosions. It carried as its main weapon a Defiance 1001 ER PPC in its left arm, retained as backup for long-range combat the Coventry Star Fire LRM-15 launcher and replaced the Thunderbolt large laser for a Cyclops XII ER Large Laser. For close combat, the 9S replaced the two medium lasers for Defiance P3M Medium Pulse Lasers.",
+        "Icon": "uixTxrIcon_zeus"
     },
-    "MovementCapDefID": "movedef_battlemaster_BLR-1G",
+    "MovementCapDefID": "movedef_zeus_ZEU-5T",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_battlemaster",
-    "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
-    "PrefabBase": "battlemaster",
-    "Tonnage": 85,
-    "InitialTonnage": 42.5,
+    "HardpointDataDefID": "hardpointdatadef_zeus",
+    "PrefabIdentifier": "chrPrfMech_zeusBase-001",
+    "PrefabBase": "zeus",
+    "Tonnage": 80,
+    "InitialTonnage": 8,
     "weightClass": "ASSAULT",
-    "BattleValue": 8742000,
-    "Heatsinks": 0,
-    "TopSpeed": 60,
+    "BattleValue": 13900000,
+    "Heatsinks": 30,
+    "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 200,
@@ -38,14 +38,14 @@
     "SensorRangeMultiplier": 1,
     "Signature": 0,
     "Radius": 8,
-    "PunchesWithLeftArm": true,
-    "MeleeDamage": 115,
-    "MeleeInstability": 85,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 110,
+    "MeleeInstability": 80,
     "MeleeToHitModifier": 0,
-    "DFADamage": 105,
+    "DFADamage": 100,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 105,
-    "DFAInstability": 105,
+    "DFASelfDamage": 100,
+    "DFAInstability": 100,
     "Locations": [
         {
             "Location": "Head",
@@ -60,36 +60,20 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 280,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 65
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -98,84 +82,76 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 280,
-            "MaxRearArmor": 80,
-            "InternalStructure": 90
+            "MaxArmor": 180,
+            "MaxRearArmor": 60,
+            "InternalStructure": 85
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor": 400,
-            "MaxRearArmor": 110,
-            "InternalStructure": 135
-        },
-        {
-            "Location": "RightTorso",
             "Hardpoints": [
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 260,
+            "MaxRearArmor": 90,
+            "InternalStructure": 125
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 280,
-            "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "MaxArmor": 180,
+            "MaxRearArmor": 60,
+            "InternalStructure": 85
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 280,
-            "MaxRearArmor": 80,
-            "InternalStructure": 70
+            "MaxArmor": 220,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 300,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 90
+            "InternalStructure": 85
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 300,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 90
+            "InternalStructure": 85
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 16,
+            "y": 17,
             "z": 0
         },
         {
@@ -192,7 +168,7 @@
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 16,
+            "y": 17,
             "z": 0
         },
         {
@@ -216,11 +192,11 @@
             "z": 1
         }
     ],
-    "VariantName": "BLR-1D",
+    "VariantName": "ZEU-9S",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Brawler & Close Assault",
+    "StockRole": "Fire Support & Ranged Assault",
     "YangsThoughts": ""
 }

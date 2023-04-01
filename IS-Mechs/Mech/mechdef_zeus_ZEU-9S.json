@@ -7,12 +7,11 @@
             "unit_role_brawler",
             "unit_release",
 			"unit_range_long",
-			"Davion",
             "Steiner"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_zeus_ZEU-6A",
+    "ChassisID": "chassisdef_zeus_ZEU-9S",
     "HeraldryID": null,
     "Description": {
         "Cost": 16580000,
@@ -20,10 +19,10 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Zeus ZEU-6A",
-        "Id": "mechdef_zeus_ZEU-6A",
+        "UIName": "Zeus ZEU-9S",
+        "Id": "mechdef_zeus_ZEU-9S",
         "Name": "Zeus",
-        "Details": "Introduced in 2940, and an apparent precursor to the 6T, the 6A trades the LRM-15 and two heat sinks for three SRM-6's with one ton of ammunition in the right arm",
+        "Details": "The 9S was an upgrade using Star League technology, debuting in 3048. It replaced the standard heat sinks with double-strength models, the eleven tons of standard armor for the same weight in Glasgow Limited Primo Ferro-Fibrous plating, and added CASE to prevent ammunition explosions. It carried as its main weapon a Defiance 1001 ER PPC in its left arm, retained as backup for long-range combat the Coventry Star Fire LRM-15 launcher and replaced the Thunderbolt large laser for a Cyclops XII ER Large Laser. For close combat, the 9S replaced the two medium lasers for Defiance P3M Medium Pulse Lasers.",
         "Icon": "uixTxrIcon_zeus"
     },
     "simGameMechPartCost": 1660000,
@@ -105,7 +104,7 @@
     "inventory": [
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -116,7 +115,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -127,7 +126,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -138,7 +137,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -149,7 +148,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -160,29 +159,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,

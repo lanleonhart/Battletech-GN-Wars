@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 9600000,
-        "Rarity": 5,
+        "Cost": 13900000,
+        "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "BattleMaster",
-        "Id": "chassisdef_battlemaster_BLR-1D",
-        "Name": "BattleMaster",
-        "Details": "The 1D was a basic modification of the 1G model introduced by House Davion in 2867 as a means of increasing its survivability given the fact the Davions couldn't produce the 'Mech. The SRM-6 and the two rear-firing medium lasers were removed so that six heat sinks and an additional ton of armor could be added. This helped to make the 'Mech more forgiving when dealing with the intensive heat load of its energy weapon heavy arsenal.",
-        "Icon": "uixTxrIcon_battlemaster"
+        "UIName": "Hatamoto-Chi HTM-27T",
+        "Id": "chassisdef_hatamoto-chi_HTM-27T",
+        "Name": "Hatamoto-Chi",
+        "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger, the samurai-themed Hatamoto-Chi was the first post–Succession Wars Draconis Combine BattleMech constructed utilizing recovered LosTech. Tasked by Kanrei Theodore Kurita to reverse engineer examples of the advanced Star League Defense Force BattleMechs provided by ComStar in 3035 for future production, Luthien Armor Works secretly mated the weaponry of the Thug to the form of the maligned Charger. While initially unable to mass produce the advanced Endo Steel chassis required to match the Thug, the appearance of the early Hatamoto-Chi and their endless variations born of the Charger's spacious torso sent the combined Armed Forces of the Federated Commonwealth into confusion during the War of 3039.",
+        "Icon": ""
     },
-    "MovementCapDefID": "movedef_battlemaster_BLR-1G",
+    "MovementCapDefID": "movedef_zeus_ZEU-5T",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_battlemaster",
-    "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
-    "PrefabBase": "battlemaster",
-    "Tonnage": 85,
-    "InitialTonnage": 42.5,
+    "HardpointDataDefID": "hardpointdatadef_hatamotochi",
+	"PrefabIdentifier": "chrPrfMech_hatamotochiBase-001",
+    "PrefabBase": "hatamoto",
+    "Tonnage": 80,
+    "InitialTonnage": 8,
     "weightClass": "ASSAULT",
-    "BattleValue": 8742000,
-    "Heatsinks": 0,
-    "TopSpeed": 60,
+    "BattleValue": 13900000,
+    "Heatsinks": 30,
+    "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 200,
@@ -38,14 +38,14 @@
     "SensorRangeMultiplier": 1,
     "Signature": 0,
     "Radius": 8,
-    "PunchesWithLeftArm": true,
-    "MeleeDamage": 115,
-    "MeleeInstability": 85,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 110,
+    "MeleeInstability": 80,
     "MeleeToHitModifier": 0,
-    "DFADamage": 105,
+    "DFADamage": 100,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 105,
-    "DFAInstability": 105,
+    "DFASelfDamage": 100,
+    "DFAInstability": 100,
     "Locations": [
         {
             "Location": "Head",
@@ -60,27 +60,15 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 280,
+            "MaxArmor": 250,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 65
         },
         {
             "Location": "LeftTorso",
@@ -88,56 +76,38 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 280,
+            "MaxArmor": 240,
             "MaxRearArmor": 80,
-            "InternalStructure": 90
+            "InternalStructure": 85
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 400,
-            "MaxRearArmor": 110,
-            "InternalStructure": 135
+            "MaxArmor": 330,
+            "MaxRearArmor": 100,
+            "InternalStructure": 125
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 280,
-            "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "MaxArmor": 240,
+            "MaxRearArmor": 80,
+            "InternalStructure": 85
         },
         {
             "Location": "RightArm",
@@ -149,33 +119,33 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 280,
-            "MaxRearArmor": 80,
-            "InternalStructure": 70
+            "MaxArmor": 250,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 300,
+            "MaxArmor": 240,
             "MaxRearArmor": -1,
-            "InternalStructure": 90
+            "InternalStructure": 85
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 300,
+            "MaxArmor": 240,
             "MaxRearArmor": -1,
-            "InternalStructure": 90
+            "InternalStructure": 85
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 16,
+            "y": 17,
             "z": 0
         },
         {
@@ -192,7 +162,7 @@
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 16,
+            "y": 17,
             "z": 0
         },
         {
@@ -216,11 +186,11 @@
             "z": 1
         }
     ],
-    "VariantName": "BLR-1D",
+    "VariantName": "HTM-27T",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Brawler & Close Assault",
+    "StockRole": "Brawler",
     "YangsThoughts": ""
 }
