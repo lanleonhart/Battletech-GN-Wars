@@ -2,7 +2,7 @@
 	"Name": "IRTweaks",
 	"Enabled": true,
 	"Hidden": true,
-	"Version": "0.9.8.3",
+	"Version": "0.9.8.6",
 	"Description": "Miscellaneous Tweaks and Fixes",
 	"Author": "IceRaptor",
 	"Website": "https://github.com/IceRaptor/IRTweaks",
@@ -25,7 +25,7 @@
 			"BraceOnMeleeWithJuggernaut": true,
 			"BulkPurchasing": false,
 			"BulkScrapping": false,
-			"CombatLog": true,
+			"CombatLog": false,
 			"CTDestructInjuryFix": true,
 			"DamageReductionInCombatHud": false,
 			"DifficultyModsFromStats": true,
@@ -33,6 +33,7 @@
 			"DisableDebug": true,
 			"DisableCombatSaves": true,
 			"DisableCombatRestarts": true,
+			"DisableFiringStat": true,
 			"DisableLowFundsNotification": true,
 			"DisableMPHashCalculation": true,
 			"ExplodingBuildingFix": true,
@@ -334,10 +335,6 @@
 			"Type": "SimGameStatDescDef",
 			"Path": "simGameStatDesc",
 			"AddToDB": true
-		},
-		{
-			"Type": "SimGameDifficultySettingList",
-			"Path": "Menus"
 		}
 	]
 }
