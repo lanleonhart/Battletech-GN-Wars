@@ -28,66 +28,8 @@
          "unitTagSet" : {
             "items" : [
                "unit_medium",
-               "unit_vehicle"
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "excludedUnitTagSet" : {
-            "items" : [
-				"unit_noncombatant",
-				"unit_urbie"
-			],
-
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "pilotTagSet" : {
-            "items" : [
-               "pilot_npc_d3"
-            ],
-            "tagSetSourceFile" : "Tags/PilotTags"
-         },
-         "excludedPilotTagSet" : {
-            "items" : null,
-            "tagSetSourceFile" : "Tags/PilotTags"
-         }
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "Tagged",
-         "pilotId" : "Tagged",
-         "unitTagSet" : {
-            "items" : [
-               "unit_light",
-               "unit_mech"
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "excludedUnitTagSet" : {
-            "items" : [
-               "unit_noncombatant",
-			   "unit_urbie"
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "pilotTagSet" : {
-            "items" : [
-               "pilot_npc_d3"
-            ],
-            "tagSetSourceFile" : "Tags/PilotTags"
-         },
-         "excludedPilotTagSet" : {
-            "items" : null,
-            "tagSetSourceFile" : "Tags/PilotTags"
-         }
-      },
-      {
-         "unitType" : "Vehicle",
-         "unitId" : "Tagged",
-         "pilotId" : "Tagged",
-         "unitTagSet" : {
-            "items" : [
-               "unit_medium",
-               "unit_vehicle"
+               "unit_vehicle",
+               "{CUR_TEAM.faction}"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -118,7 +60,69 @@
             "items" : [
                "unit_light",
                "unit_mech",
-               "unit_lance_vanguard"
+               "{CUR_TEAM.faction}"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "unit_urbie"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+               "pilot_npc_d3"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Vehicle",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_medium",
+               "unit_vehicle",
+               "{CUR_TEAM.faction}"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+				"unit_noncombatant",
+				"unit_urbie"
+			],
+
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+               "pilot_npc_d3"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_light",
+               "unit_mech",
+               "unit_lance_vanguard",
+               "{CUR_TEAM.faction}"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
