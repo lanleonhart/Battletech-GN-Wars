@@ -1,41 +1,18 @@
 {
-  "Custom": {
-    "Category": [
-      {
-        "CategoryID": "Cockpit"
-      },
-      {
-        "CategoryID": "LifeSupportA"
-      },
-      {
-        "CategoryID": "LifeSupportB"
-      }
-    ],
-    "Flags": {
-      "flags": [
-        "ignore_shutdown",
-        "not_broken"
-      ]
-    },
-    "Linked": {
-      "Links": [
+    "Custom": {
+      "Category": [
         {
-          "ComponentDefId": "Gear_Cockpit_LifeSupportA_Torso",
-          "Location": "LeftTorso",
-          "ComponentDefType": "Upgrade"
-        },
-        {
-          "ComponentDefId": "Gear_Cockpit_LifeSupportB_Torso",
-          "Location": "RightTorso",
-          "ComponentDefType": "Upgrade"
+          "CategoryID": "Cockpit"
         }
       ]
-    }
-  },
-  "Description": {
-      "Cost": 1000000,
-      "Rarity": 10,
-      "Purchasable": false,
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+      "Cost": 100000,
+      "Rarity": 5,
+      "Purchasable": true,
       "Manufacturer": "Comstar",
       "Model": "GN",
       "UIName": "GN Cockpit",
@@ -50,9 +27,9 @@
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
     "BattleValue": 0,
-    "InventorySize": 2,
+    "InventorySize": 1,
     "Tonnage": 1,
-    "AllowedLocations": "CenterTorso",
+    "AllowedLocations": "Head",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "statusEffects": [
@@ -110,12 +87,15 @@
           "targetCollection": "Pilot"
         }
       }
-  ],
-  "ComponentTags": {
-    "items": [
-      "component_type_stock"
     ],
-    "tagSetSourceFile": ""
+    "ComponentTags": {
+      "items": [
+        "ignore_shutdown",
+        "component_type_stock",
+        "BAIncompatible",
+        "ProtoIncompatible"
+      ],
+      "tagSetSourceFile": ""
+    }
   }
-}
-
+  
