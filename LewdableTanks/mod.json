@@ -2,31 +2,16 @@
 	"Name": "LewdableTanks",
 	"Author": "Denadan",
 	"Website": "https://github.com/Denadan/LewdableTanks",
+
 	"Enabled": true,
-	"Hidden": true,
-	"DependsOn": [
-		"CustomSalvage",
-		"CustomUnits",
-		"CustomComponents",
-		"CustomShops"
-	],
+	"DependsOn": ["CustomSalvage", "CustomUnits"],
 	"DLL": "LewdableTanks.dll",
 	"DLLEntryPoint": "LewdableTanks.Control.Init",
-	"Settings": {
-		"Recovery": "HpLeftConstant",
-		"LostVehicleAction": "ReturnParts",
-		"FixMechPartCost": true,
-		"AddWeaponToDescription": true,
-		"OmniTechTag": "omni_tank",
-		"FixUIName": true,
-		"AddTonnageToPrefabID": true,
-		"AllowFrankenTank": true,
-		"VehiclePartCostMult": 0.3,
-		"RecoveryChanceConstantMod": -0.5,
-		"RecoveryChanceHPMod": 0.5,
-		"RecoveryChanceHPBase": -0.5,
-		"NoVehiclePartsTag": "no_parts",
-		"ArmorEffectOnHP": 0
-	},
-	"Manifest": []
+	
+	"Settings" : {
+	},	
+		
+	"Manifest": [
+
+    ]
 }
