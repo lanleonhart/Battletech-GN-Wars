@@ -60,10 +60,6 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -112,10 +108,7 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
+                
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -196,11 +189,11 @@
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "GNFrame",
+            "ComponentDefID": "Gear_Cockpit_GN",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
-          }, 
+          },
           {
 			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Linked_GNFrame",
@@ -315,21 +308,7 @@
           "ComponentDefType": "Weapon",
           "HardpointSlot": -1,
           "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_SRM_SRM8_GN",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-          },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "GN_Shield",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-          }
+        }
         
     ]
 }

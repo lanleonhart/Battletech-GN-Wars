@@ -13,7 +13,12 @@
         "CustomActivatableEquipment",
         "CustomComponents"
     ],
-
+    "DataAddendumEntries": [
+        {
+            "name": "BattleTech.WeaponCategoryEnumeration",
+            "path": "WeaponCategory.json"
+        }
+	],
 
         "Manifest": [
         {
@@ -32,6 +37,10 @@
             "Type": "MechDef",
             "Path": "Mech"
         },
+        {
+			"Type": "UpgradeDef",
+			"Path": "Cockpit"
+		},
         {
 			"Type": "UpgradeDef",
 			"Path": "internals"
