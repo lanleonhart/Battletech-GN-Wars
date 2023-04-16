@@ -1,4 +1,4 @@
-[23:10:58.025]Initing... C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomActivatableEquipment version: 0.0.0.127
+[22:06:48.491]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomActivatableEquipment version: 0.0.0.127
 Settings = [{
   "AdditionalInjuryReasonsTable": {},
   "arcTextures": {
@@ -216,9 +216,9 @@ ForceMouseEvents(28);;;;;;;;;;;;;;;;;;;;;;X;X;X;
 (29);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
 (30);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
 (31);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
-[23:10:58.625]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.Location found
-[23:10:58.625]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldHaveTags found
-[23:10:58.625]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldNotHaveTags found
+[22:06:49.200]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.Location found
+[22:06:49.200]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldHaveTags found
+[22:06:49.200]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldNotHaveTags found
  BaseComponentRef.LocalGUID found
  BaseComponentRef.TargetComponentGUID found
  BaseComponentRef.LocalGUID found
@@ -231,12 +231,283 @@ ForceMouseEvents(28);;;;;;;;;;;;;;;;;;;;;;X;X;X;
  BaseComponentRef.TargetComponentGUID found
  LanceMechEquipmentListItem.componentRef found
  LanceMechEquipmentListItem.mechDef found
-[23:10:58.923]WPState:BattleTech.UI.CombatHUDWeaponPanel+WPState
+[22:06:49.462]WPState:BattleTech.UI.CombatHUDWeaponPanel+WPState
  None
  Off
  Loading
  Loaded
  Unloading
+Error:Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected character was encountered: ". Path 'CriticalComponent', line 46, position 4.
+  at Newtonsoft.Json.JsonTextReader.ParsePostValue (System.Boolean ignoreComments) [0x00182] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0005a] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JContainer.ReadContentFrom (Newtonsoft.Json.JsonReader r, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00226] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings options) [0x00030] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0006a] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Parse (System.String json, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0000c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Parse (System.String json) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at CustAmmoCategoriesPatches.UpgradeDef_FromJSONAuras.Prefix (BattleTech.MechComponentDef __instance, System.String& json) [0x00000] in <14c75430c2fa490388880755060427c0>:0 
+IN:{
+
+	"Custom": {
+		"Category" : [
+			{"CategoryID": "Cockpit"},
+			{"CategoryID": "SensorsB"},
+			{"CategoryID": "LifeSupportB"},
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
+			}
+		},
+		"Flags": {
+			"Flags": ["not_broken", "no_salvage"]
+		}
+	},
+
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 870000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "SLDF",
+        "Model" : "Advanced",
+        "UIName" : "Cockpit SLIC",
+        "Id" : "Gear_Cockpit_SLDF_Custom",
+        "Name" : "SLDF SpecOps Cockpit  ",
+        "Details" : "This SpecOps tactical upgrade includes a high-grade ballistic cooling vest, an integrated C3 command helmet, and advanced onboard systems, providing both improved sensor capability as well as protection for the pilot. ",
+        "Icon" : "uixSvgIcon_equipment_Comms"
+    },
+    "BonusValueA" : "+1 Health/Morale.",
+    "BonusValueB" : "+20% Sensors/Sight",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 3,
+    "AllowedLocations" : "Head",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "SLIC-Morale_Gain-T1",
+                "Name" : "SLIC Black Ops",
+                "Details" : "SLIC Black Ops Cockpit Specs.",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MoraleBonusGain",
+                "operation" : "Int_Add",
+                "modValue" : "1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },	
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "SLIC-BLACKOPS",
+                "Name" : "SLIC Black Ops",
+                "Details" : "Increased Sight/Sensors/Health.",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "SensorDistanceAbsolute",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "SLIC-Pilot_HealthAdd-T1",
+                "Name" : "MAX INJURIES INCREASED",
+                "Details" : "Prevents 1 Injuries against a MechWarrior.",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "BonusHealth",
+                "operation" : "Int_Add",
+                "modValue" : "1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Pilot",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "SLIC-Spotting_Gain-T1",
+                "Name" : "SPOTTING DISTANCE INCREASED",
+                "Details" : "Increases spotting distance by 50m.",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "SpotterDistanceAbsolute",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }	
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "noautofix"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
+
+Auras WeaponDef:Weapon_AMS
+Auras WeaponDef:Weapon_Laser_AMS
 Auras WeaponDef:Weapon_AMS
 Auras WeaponDef:Weapon_Laser_AMS
 Error:Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected character was encountered: ". Path 'CriticalComponent', line 46, position 4.
@@ -508,7 +779,7 @@ IN:{
     }
 }
 
-[23:13:25.090]LanceMechEquipmentList.SetLoadout 41
+[22:07:42.172]LanceMechEquipmentList.SetLoadout 34
  Gear_Cockpit_SensorsA_Standard
  Gear_Cockpit_SensorsB_Standard
  emod_armorslots_standard
@@ -520,411 +791,411 @@ IN:{
  emod_engine_cooling
  emod_engine_300
  Linked_GNFrame
- GNFlightPackL
- Ammo_AmmunitionBox_GNSlug
- Ammo_AmmunitionBox_GNSlug
  Linked_GNFrame
- GNFlightPack
- Weapon_Gauss_GN_LightRailgun
  emod_arm_part_shoulder
  emod_arm_part_upper
  emod_arm_part_lower
  emod_arm_part_hand
  Linked_GNFrame
- Weapon_GNVulcan
+ Gear_HandHeld_Slot
  emod_arm_part_shoulder
  emod_arm_part_upper
  emod_arm_part_lower
  emod_arm_part_hand
  Linked_GNFrame
- Weapon_Laser_GNRifle
+ Gear_HandHeld_Slot
  emod_leg_hip
  emod_leg_upper
  emod_leg_lower
  emod_leg_foot
  Linked_GNFrame
- Gear_JumpJet_DistalAttitudeControl
  emod_leg_hip
  emod_leg_upper
  emod_leg_lower
  emod_leg_foot
  Linked_GNFrame
- Gear_JumpJet_DistalAttitudeControl
-[23:13:25.102]ResolveAddonsOnInventory
- Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:092128c8-8bdb-4e74-b5a1-fe47d581fd29 TargetComponentGUID: MountedLocation:Head
- Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:b4314197-bff8-4ce8-8566-5162ea7dc805 TargetComponentGUID: MountedLocation:Head
- emod_armorslots_standard SimGameUID: LocalGUID:7239c722-b051-4dbe-b47f-2f504470ad2a TargetComponentGUID: MountedLocation:CenterTorso
- emod_structureslots_standard SimGameUID: LocalGUID:9421c326-f4bf-4211-9bcf-b51035b01e82 TargetComponentGUID: MountedLocation:CenterTorso
- Gear_Cockpit_GN SimGameUID:FixedEquipment-6992e122-ebda-41da-b53f-fd1823f1d8cd LocalGUID:53d9dc1a-fce0-4d01-a478-811fa3f9f720 TargetComponentGUID: MountedLocation:CenterTorso
- emod_kit_shs SimGameUID: LocalGUID:68212ed7-7570-473f-92a3-4dcfb9b10cd3 TargetComponentGUID: MountedLocation:CenterTorso
- Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:ba7356eb-8a8b-42ea-9b04-dc1e713cd087 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engineslots_GN_Drive SimGameUID:FixedEquipment-c31dbbdc-3cc3-4328-a7be-6c06d3db0920 LocalGUID:988c6bf7-feb2-47e0-9da3-f66158ad3789 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_cooling SimGameUID: LocalGUID:e80693a6-c5a4-4e5b-8403-3c2673647345 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_300 SimGameUID: LocalGUID:bf02205c-7dcf-4fe4-863d-7a4dbfbbc248 TargetComponentGUID: MountedLocation:CenterTorso
- Linked_GNFrame SimGameUID:FixedEquipment-a39c0d2a-5abd-4c4b-8094-a38da75aabf9 LocalGUID:842cc2bd-ea58-45de-a493-4ee98ccc008a TargetComponentGUID: MountedLocation:LeftTorso
- GNFlightPackL SimGameUID:FixedEquipment-41b560e9-6847-4f24-b61f-831237006c09 LocalGUID:2e1484e2-1e19-43b2-bfb8-8a0bf0e6843e TargetComponentGUID: MountedLocation:LeftTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:7e6616b6-2cf4-460e-b6ed-90f0e1c06669 TargetComponentGUID: MountedLocation:LeftTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:78e20f69-110d-4b96-b7b0-6b094d7a31e6 TargetComponentGUID: MountedLocation:LeftTorso
- Linked_GNFrame SimGameUID:FixedEquipment-afc115db-d912-4a4a-acb7-cd2a9e5cb0a2 LocalGUID:3b5922d8-e9fa-4501-aaf3-7858592f3d05 TargetComponentGUID: MountedLocation:RightTorso
- GNFlightPack SimGameUID:FixedEquipment-c63b013a-c633-458f-ba38-8291b2838482 LocalGUID:906dc3c9-82f9-4269-b7b6-91e03f00248e TargetComponentGUID: MountedLocation:RightTorso
- Weapon_Gauss_GN_LightRailgun SimGameUID: LocalGUID:ec648a31-98fe-4ede-9015-e20785cd3014 TargetComponentGUID: MountedLocation:RightTorso
- emod_arm_part_shoulder SimGameUID: LocalGUID:42142244-4f5b-4592-a730-cc6c83c27d11 TargetComponentGUID: MountedLocation:LeftArm
- emod_arm_part_upper SimGameUID: LocalGUID:6b402a78-7a11-416f-9e61-3261fb907e05 TargetComponentGUID: MountedLocation:LeftArm
- emod_arm_part_lower SimGameUID: LocalGUID:e170445a-4371-4281-bc68-cc373fbcfb9f TargetComponentGUID: MountedLocation:LeftArm
- emod_arm_part_hand SimGameUID: LocalGUID:49ce5a3f-7ea7-4829-9a93-7fa3769330bf TargetComponentGUID: MountedLocation:LeftArm
- Linked_GNFrame SimGameUID:FixedEquipment-654fdf21-e38d-4494-bc60-974fed763863 LocalGUID:73be4031-99e1-49fc-b1f8-7591c2d997d4 TargetComponentGUID: MountedLocation:LeftArm
- Weapon_GNVulcan SimGameUID:FixedEquipment-3f2cf576-0e74-44e8-86ed-db0c754232db LocalGUID:a7b7bf5c-7da5-45c0-9522-b9fa09144a16 TargetComponentGUID: MountedLocation:LeftArm
- emod_arm_part_shoulder SimGameUID: LocalGUID:af2c84e2-21d9-4f9e-9116-0aa92cbb7dcc TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_upper SimGameUID: LocalGUID:3efe4836-de94-4455-bcdb-e336397f8ce9 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_lower SimGameUID: LocalGUID:ee26be81-5494-4854-b67a-afe88b71391c TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_hand SimGameUID: LocalGUID:25061b1e-3404-4333-bf7d-ba215592a561 TargetComponentGUID: MountedLocation:RightArm
- Linked_GNFrame SimGameUID:FixedEquipment-7f787803-b9cb-4a4c-b75d-36e15190cfbe LocalGUID:40e0ac01-8672-4c66-9c0d-f2b6550ee089 TargetComponentGUID: MountedLocation:RightArm
- Weapon_Laser_GNRifle SimGameUID:FixedEquipment-663f8cb8-cfb1-49ae-b00e-419198bc3eef LocalGUID:c45cfdc2-e337-4dab-84c2-87a91a69e4fd TargetComponentGUID: MountedLocation:RightArm
- emod_leg_hip SimGameUID: LocalGUID:bc75af4c-4912-434b-8065-474d9b7ae7fd TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_upper SimGameUID: LocalGUID:97031d9b-894d-4c6a-a927-8b1eb6efb004 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_lower SimGameUID: LocalGUID:eb0ad8b7-f861-4e20-a5a4-ac418aba49a3 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_foot SimGameUID: LocalGUID:cae8127a-b04b-4085-9bb4-8e67d681f989 TargetComponentGUID: MountedLocation:LeftLeg
- Linked_GNFrame SimGameUID:FixedEquipment-d6d4df2a-f3a0-4dff-b574-a2ea24887faa LocalGUID:2b233e73-c97c-4107-b7a7-4489c43a6ebd TargetComponentGUID: MountedLocation:LeftLeg
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-f60e6aba-0fb1-41b5-b5a3-ce48599a120e LocalGUID:d5e00843-42ed-4c8e-87e4-f5c8e9380dec TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_hip SimGameUID: LocalGUID:b25a8860-7dec-4c6f-b01e-8362dcba7b55 TargetComponentGUID: MountedLocation:RightLeg
- emod_leg_upper SimGameUID: LocalGUID:09a7286d-a2ca-4037-a716-5272cc6ec0af TargetComponentGUID: MountedLocation:RightLeg
- emod_leg_lower SimGameUID: LocalGUID:42dc7d5f-1c8c-4556-bd41-eb589c26b66f TargetComponentGUID: MountedLocation:RightLeg
- emod_leg_foot SimGameUID: LocalGUID:72cb2ba5-c13b-4f0a-a236-67668515eede TargetComponentGUID: MountedLocation:RightLeg
- Linked_GNFrame SimGameUID:FixedEquipment-0df2f799-b609-4f3e-a9dc-be4836382464 LocalGUID:adc0602e-2f77-4c3c-a9a2-cda7c26f1ee4 TargetComponentGUID: MountedLocation:RightLeg
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-13006eaf-1d62-493b-b9ec-e25a87890869 LocalGUID:883aace5-b99e-455b-8ee6-3a1abef5470c TargetComponentGUID: MountedLocation:RightLeg
-[23:13:27.833]ResolveAddonsOnInventory
- emod_armorslots_standard SimGameUID: LocalGUID:7239c722-b051-4dbe-b47f-2f504470ad2a TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_hip SimGameUID: LocalGUID:bc75af4c-4912-434b-8065-474d9b7ae7fd TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_hip SimGameUID: LocalGUID:b25a8860-7dec-4c6f-b01e-8362dcba7b55 TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_shoulder SimGameUID: LocalGUID:af2c84e2-21d9-4f9e-9116-0aa92cbb7dcc TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_shoulder SimGameUID: LocalGUID:42142244-4f5b-4592-a730-cc6c83c27d11 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:092128c8-8bdb-4e74-b5a1-fe47d581fd29 TargetComponentGUID: MountedLocation:Head
- emod_structureslots_standard SimGameUID: LocalGUID:9421c326-f4bf-4211-9bcf-b51035b01e82 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_upper SimGameUID: LocalGUID:97031d9b-894d-4c6a-a927-8b1eb6efb004 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_upper SimGameUID: LocalGUID:09a7286d-a2ca-4037-a716-5272cc6ec0af TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_upper SimGameUID: LocalGUID:3efe4836-de94-4455-bcdb-e336397f8ce9 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_upper SimGameUID: LocalGUID:6b402a78-7a11-416f-9e61-3261fb907e05 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_GN SimGameUID:FixedEquipment-6992e122-ebda-41da-b53f-fd1823f1d8cd LocalGUID:53d9dc1a-fce0-4d01-a478-811fa3f9f720 TargetComponentGUID: MountedLocation:CenterTorso
- emod_kit_shs SimGameUID: LocalGUID:68212ed7-7570-473f-92a3-4dcfb9b10cd3 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_lower SimGameUID: LocalGUID:eb0ad8b7-f861-4e20-a5a4-ac418aba49a3 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_lower SimGameUID: LocalGUID:42dc7d5f-1c8c-4556-bd41-eb589c26b66f TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_lower SimGameUID: LocalGUID:ee26be81-5494-4854-b67a-afe88b71391c TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_lower SimGameUID: LocalGUID:e170445a-4371-4281-bc68-cc373fbcfb9f TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:b4314197-bff8-4ce8-8566-5162ea7dc805 TargetComponentGUID: MountedLocation:Head
- Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:ba7356eb-8a8b-42ea-9b04-dc1e713cd087 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_foot SimGameUID: LocalGUID:cae8127a-b04b-4085-9bb4-8e67d681f989 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_foot SimGameUID: LocalGUID:72cb2ba5-c13b-4f0a-a236-67668515eede TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_hand SimGameUID: LocalGUID:25061b1e-3404-4333-bf7d-ba215592a561 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_hand SimGameUID: LocalGUID:49ce5a3f-7ea7-4829-9a93-7fa3769330bf TargetComponentGUID: MountedLocation:LeftArm
- emod_engineslots_GN_Drive SimGameUID:FixedEquipment-c31dbbdc-3cc3-4328-a7be-6c06d3db0920 LocalGUID:988c6bf7-feb2-47e0-9da3-f66158ad3789 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_cooling SimGameUID: LocalGUID:e80693a6-c5a4-4e5b-8403-3c2673647345 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_300 SimGameUID: LocalGUID:bf02205c-7dcf-4fe4-863d-7a4dbfbbc248 TargetComponentGUID: MountedLocation:CenterTorso
- Linked_GNFrame SimGameUID:FixedEquipment-a39c0d2a-5abd-4c4b-8094-a38da75aabf9 LocalGUID:842cc2bd-ea58-45de-a493-4ee98ccc008a TargetComponentGUID: MountedLocation:LeftTorso
- Linked_GNFrame SimGameUID:FixedEquipment-654fdf21-e38d-4494-bc60-974fed763863 LocalGUID:73be4031-99e1-49fc-b1f8-7591c2d997d4 TargetComponentGUID: MountedLocation:LeftArm
- Linked_GNFrame SimGameUID:FixedEquipment-d6d4df2a-f3a0-4dff-b574-a2ea24887faa LocalGUID:2b233e73-c97c-4107-b7a7-4489c43a6ebd TargetComponentGUID: MountedLocation:LeftLeg
- Linked_GNFrame SimGameUID:FixedEquipment-afc115db-d912-4a4a-acb7-cd2a9e5cb0a2 LocalGUID:3b5922d8-e9fa-4501-aaf3-7858592f3d05 TargetComponentGUID: MountedLocation:RightTorso
- Linked_GNFrame SimGameUID:FixedEquipment-7f787803-b9cb-4a4c-b75d-36e15190cfbe LocalGUID:40e0ac01-8672-4c66-9c0d-f2b6550ee089 TargetComponentGUID: MountedLocation:RightArm
- Linked_GNFrame SimGameUID:FixedEquipment-0df2f799-b609-4f3e-a9dc-be4836382464 LocalGUID:adc0602e-2f77-4c3c-a9a2-cda7c26f1ee4 TargetComponentGUID: MountedLocation:RightLeg
- GNFlightPackL SimGameUID:FixedEquipment-41b560e9-6847-4f24-b61f-831237006c09 LocalGUID:2e1484e2-1e19-43b2-bfb8-8a0bf0e6843e TargetComponentGUID: MountedLocation:LeftTorso
- GNFlightPack SimGameUID:FixedEquipment-c63b013a-c633-458f-ba38-8291b2838482 LocalGUID:906dc3c9-82f9-4269-b7b6-91e03f00248e TargetComponentGUID: MountedLocation:RightTorso
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-13006eaf-1d62-493b-b9ec-e25a87890869 LocalGUID:883aace5-b99e-455b-8ee6-3a1abef5470c TargetComponentGUID: MountedLocation:RightLeg
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-f60e6aba-0fb1-41b5-b5a3-ce48599a120e LocalGUID:d5e00843-42ed-4c8e-87e4-f5c8e9380dec TargetComponentGUID: MountedLocation:LeftLeg
- Weapon_Laser_GNRifle SimGameUID:FixedEquipment-663f8cb8-cfb1-49ae-b00e-419198bc3eef LocalGUID:c45cfdc2-e337-4dab-84c2-87a91a69e4fd TargetComponentGUID: MountedLocation:RightArm
- Weapon_GNVulcan SimGameUID:FixedEquipment-3f2cf576-0e74-44e8-86ed-db0c754232db LocalGUID:a7b7bf5c-7da5-45c0-9522-b9fa09144a16 TargetComponentGUID: MountedLocation:LeftArm
- Weapon_Gauss_GN_LightRailgun SimGameUID: LocalGUID:ec648a31-98fe-4ede-9015-e20785cd3014 TargetComponentGUID: MountedLocation:RightTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:7e6616b6-2cf4-460e-b6ed-90f0e1c06669 TargetComponentGUID: MountedLocation:LeftTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:78e20f69-110d-4b96-b7b0-6b094d7a31e6 TargetComponentGUID: MountedLocation:LeftTorso
-[23:13:27.861]ResolveAddonsOnInventory
- emod_armorslots_standard SimGameUID: LocalGUID:7239c722-b051-4dbe-b47f-2f504470ad2a TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_hip SimGameUID: LocalGUID:bc75af4c-4912-434b-8065-474d9b7ae7fd TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_hip SimGameUID: LocalGUID:b25a8860-7dec-4c6f-b01e-8362dcba7b55 TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_shoulder SimGameUID: LocalGUID:af2c84e2-21d9-4f9e-9116-0aa92cbb7dcc TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_shoulder SimGameUID: LocalGUID:42142244-4f5b-4592-a730-cc6c83c27d11 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:092128c8-8bdb-4e74-b5a1-fe47d581fd29 TargetComponentGUID: MountedLocation:Head
- emod_structureslots_standard SimGameUID: LocalGUID:9421c326-f4bf-4211-9bcf-b51035b01e82 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_upper SimGameUID: LocalGUID:97031d9b-894d-4c6a-a927-8b1eb6efb004 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_upper SimGameUID: LocalGUID:09a7286d-a2ca-4037-a716-5272cc6ec0af TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_upper SimGameUID: LocalGUID:3efe4836-de94-4455-bcdb-e336397f8ce9 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_upper SimGameUID: LocalGUID:6b402a78-7a11-416f-9e61-3261fb907e05 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_GN SimGameUID:FixedEquipment-6992e122-ebda-41da-b53f-fd1823f1d8cd LocalGUID:53d9dc1a-fce0-4d01-a478-811fa3f9f720 TargetComponentGUID: MountedLocation:CenterTorso
- emod_kit_shs SimGameUID: LocalGUID:68212ed7-7570-473f-92a3-4dcfb9b10cd3 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_lower SimGameUID: LocalGUID:eb0ad8b7-f861-4e20-a5a4-ac418aba49a3 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_lower SimGameUID: LocalGUID:42dc7d5f-1c8c-4556-bd41-eb589c26b66f TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_lower SimGameUID: LocalGUID:ee26be81-5494-4854-b67a-afe88b71391c TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_lower SimGameUID: LocalGUID:e170445a-4371-4281-bc68-cc373fbcfb9f TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:b4314197-bff8-4ce8-8566-5162ea7dc805 TargetComponentGUID: MountedLocation:Head
- Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:ba7356eb-8a8b-42ea-9b04-dc1e713cd087 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_foot SimGameUID: LocalGUID:cae8127a-b04b-4085-9bb4-8e67d681f989 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_foot SimGameUID: LocalGUID:72cb2ba5-c13b-4f0a-a236-67668515eede TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_hand SimGameUID: LocalGUID:25061b1e-3404-4333-bf7d-ba215592a561 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_hand SimGameUID: LocalGUID:49ce5a3f-7ea7-4829-9a93-7fa3769330bf TargetComponentGUID: MountedLocation:LeftArm
- emod_engineslots_GN_Drive SimGameUID:FixedEquipment-c31dbbdc-3cc3-4328-a7be-6c06d3db0920 LocalGUID:988c6bf7-feb2-47e0-9da3-f66158ad3789 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_cooling SimGameUID: LocalGUID:e80693a6-c5a4-4e5b-8403-3c2673647345 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_300 SimGameUID: LocalGUID:bf02205c-7dcf-4fe4-863d-7a4dbfbbc248 TargetComponentGUID: MountedLocation:CenterTorso
- Linked_GNFrame SimGameUID:FixedEquipment-a39c0d2a-5abd-4c4b-8094-a38da75aabf9 LocalGUID:842cc2bd-ea58-45de-a493-4ee98ccc008a TargetComponentGUID: MountedLocation:LeftTorso
- Linked_GNFrame SimGameUID:FixedEquipment-654fdf21-e38d-4494-bc60-974fed763863 LocalGUID:73be4031-99e1-49fc-b1f8-7591c2d997d4 TargetComponentGUID: MountedLocation:LeftArm
- Linked_GNFrame SimGameUID:FixedEquipment-d6d4df2a-f3a0-4dff-b574-a2ea24887faa LocalGUID:2b233e73-c97c-4107-b7a7-4489c43a6ebd TargetComponentGUID: MountedLocation:LeftLeg
- Linked_GNFrame SimGameUID:FixedEquipment-afc115db-d912-4a4a-acb7-cd2a9e5cb0a2 LocalGUID:3b5922d8-e9fa-4501-aaf3-7858592f3d05 TargetComponentGUID: MountedLocation:RightTorso
- Linked_GNFrame SimGameUID:FixedEquipment-7f787803-b9cb-4a4c-b75d-36e15190cfbe LocalGUID:40e0ac01-8672-4c66-9c0d-f2b6550ee089 TargetComponentGUID: MountedLocation:RightArm
- Linked_GNFrame SimGameUID:FixedEquipment-0df2f799-b609-4f3e-a9dc-be4836382464 LocalGUID:adc0602e-2f77-4c3c-a9a2-cda7c26f1ee4 TargetComponentGUID: MountedLocation:RightLeg
- GNFlightPackL SimGameUID:FixedEquipment-41b560e9-6847-4f24-b61f-831237006c09 LocalGUID:2e1484e2-1e19-43b2-bfb8-8a0bf0e6843e TargetComponentGUID: MountedLocation:LeftTorso
- GNFlightPack SimGameUID:FixedEquipment-c63b013a-c633-458f-ba38-8291b2838482 LocalGUID:906dc3c9-82f9-4269-b7b6-91e03f00248e TargetComponentGUID: MountedLocation:RightTorso
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-13006eaf-1d62-493b-b9ec-e25a87890869 LocalGUID:883aace5-b99e-455b-8ee6-3a1abef5470c TargetComponentGUID: MountedLocation:RightLeg
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-f60e6aba-0fb1-41b5-b5a3-ce48599a120e LocalGUID:d5e00843-42ed-4c8e-87e4-f5c8e9380dec TargetComponentGUID: MountedLocation:LeftLeg
- Weapon_Laser_GNRifle SimGameUID:FixedEquipment-663f8cb8-cfb1-49ae-b00e-419198bc3eef LocalGUID:c45cfdc2-e337-4dab-84c2-87a91a69e4fd TargetComponentGUID: MountedLocation:RightArm
- Weapon_GNVulcan SimGameUID:FixedEquipment-3f2cf576-0e74-44e8-86ed-db0c754232db LocalGUID:a7b7bf5c-7da5-45c0-9522-b9fa09144a16 TargetComponentGUID: MountedLocation:LeftArm
- Weapon_Gauss_GN_LightRailgun SimGameUID: LocalGUID:ec648a31-98fe-4ede-9015-e20785cd3014 TargetComponentGUID: MountedLocation:RightTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:7e6616b6-2cf4-460e-b6ed-90f0e1c06669 TargetComponentGUID: MountedLocation:LeftTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:78e20f69-110d-4b96-b7b0-6b094d7a31e6 TargetComponentGUID: MountedLocation:LeftTorso
-[23:13:27.883]ResolveAddonsOnInventory
- emod_armorslots_standard SimGameUID: LocalGUID:7239c722-b051-4dbe-b47f-2f504470ad2a TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_hip SimGameUID: LocalGUID:bc75af4c-4912-434b-8065-474d9b7ae7fd TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_hip SimGameUID: LocalGUID:b25a8860-7dec-4c6f-b01e-8362dcba7b55 TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_shoulder SimGameUID: LocalGUID:af2c84e2-21d9-4f9e-9116-0aa92cbb7dcc TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_shoulder SimGameUID: LocalGUID:42142244-4f5b-4592-a730-cc6c83c27d11 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:092128c8-8bdb-4e74-b5a1-fe47d581fd29 TargetComponentGUID: MountedLocation:Head
- emod_structureslots_standard SimGameUID: LocalGUID:9421c326-f4bf-4211-9bcf-b51035b01e82 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_upper SimGameUID: LocalGUID:97031d9b-894d-4c6a-a927-8b1eb6efb004 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_upper SimGameUID: LocalGUID:09a7286d-a2ca-4037-a716-5272cc6ec0af TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_upper SimGameUID: LocalGUID:3efe4836-de94-4455-bcdb-e336397f8ce9 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_upper SimGameUID: LocalGUID:6b402a78-7a11-416f-9e61-3261fb907e05 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_GN SimGameUID:FixedEquipment-6992e122-ebda-41da-b53f-fd1823f1d8cd LocalGUID:53d9dc1a-fce0-4d01-a478-811fa3f9f720 TargetComponentGUID: MountedLocation:CenterTorso
- emod_kit_shs SimGameUID: LocalGUID:68212ed7-7570-473f-92a3-4dcfb9b10cd3 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_lower SimGameUID: LocalGUID:eb0ad8b7-f861-4e20-a5a4-ac418aba49a3 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_lower SimGameUID: LocalGUID:42dc7d5f-1c8c-4556-bd41-eb589c26b66f TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_lower SimGameUID: LocalGUID:ee26be81-5494-4854-b67a-afe88b71391c TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_lower SimGameUID: LocalGUID:e170445a-4371-4281-bc68-cc373fbcfb9f TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:b4314197-bff8-4ce8-8566-5162ea7dc805 TargetComponentGUID: MountedLocation:Head
- Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:ba7356eb-8a8b-42ea-9b04-dc1e713cd087 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_foot SimGameUID: LocalGUID:cae8127a-b04b-4085-9bb4-8e67d681f989 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_foot SimGameUID: LocalGUID:72cb2ba5-c13b-4f0a-a236-67668515eede TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_hand SimGameUID: LocalGUID:25061b1e-3404-4333-bf7d-ba215592a561 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_hand SimGameUID: LocalGUID:49ce5a3f-7ea7-4829-9a93-7fa3769330bf TargetComponentGUID: MountedLocation:LeftArm
- emod_engineslots_GN_Drive SimGameUID:FixedEquipment-c31dbbdc-3cc3-4328-a7be-6c06d3db0920 LocalGUID:988c6bf7-feb2-47e0-9da3-f66158ad3789 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_cooling SimGameUID: LocalGUID:e80693a6-c5a4-4e5b-8403-3c2673647345 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_300 SimGameUID: LocalGUID:bf02205c-7dcf-4fe4-863d-7a4dbfbbc248 TargetComponentGUID: MountedLocation:CenterTorso
- Linked_GNFrame SimGameUID:FixedEquipment-a39c0d2a-5abd-4c4b-8094-a38da75aabf9 LocalGUID:842cc2bd-ea58-45de-a493-4ee98ccc008a TargetComponentGUID: MountedLocation:LeftTorso
- Linked_GNFrame SimGameUID:FixedEquipment-654fdf21-e38d-4494-bc60-974fed763863 LocalGUID:73be4031-99e1-49fc-b1f8-7591c2d997d4 TargetComponentGUID: MountedLocation:LeftArm
- Linked_GNFrame SimGameUID:FixedEquipment-d6d4df2a-f3a0-4dff-b574-a2ea24887faa LocalGUID:2b233e73-c97c-4107-b7a7-4489c43a6ebd TargetComponentGUID: MountedLocation:LeftLeg
- Linked_GNFrame SimGameUID:FixedEquipment-afc115db-d912-4a4a-acb7-cd2a9e5cb0a2 LocalGUID:3b5922d8-e9fa-4501-aaf3-7858592f3d05 TargetComponentGUID: MountedLocation:RightTorso
- Linked_GNFrame SimGameUID:FixedEquipment-7f787803-b9cb-4a4c-b75d-36e15190cfbe LocalGUID:40e0ac01-8672-4c66-9c0d-f2b6550ee089 TargetComponentGUID: MountedLocation:RightArm
- Linked_GNFrame SimGameUID:FixedEquipment-0df2f799-b609-4f3e-a9dc-be4836382464 LocalGUID:adc0602e-2f77-4c3c-a9a2-cda7c26f1ee4 TargetComponentGUID: MountedLocation:RightLeg
- GNFlightPackL SimGameUID:FixedEquipment-41b560e9-6847-4f24-b61f-831237006c09 LocalGUID:2e1484e2-1e19-43b2-bfb8-8a0bf0e6843e TargetComponentGUID: MountedLocation:LeftTorso
- GNFlightPack SimGameUID:FixedEquipment-c63b013a-c633-458f-ba38-8291b2838482 LocalGUID:906dc3c9-82f9-4269-b7b6-91e03f00248e TargetComponentGUID: MountedLocation:RightTorso
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-13006eaf-1d62-493b-b9ec-e25a87890869 LocalGUID:883aace5-b99e-455b-8ee6-3a1abef5470c TargetComponentGUID: MountedLocation:RightLeg
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-f60e6aba-0fb1-41b5-b5a3-ce48599a120e LocalGUID:d5e00843-42ed-4c8e-87e4-f5c8e9380dec TargetComponentGUID: MountedLocation:LeftLeg
- Weapon_Laser_GNRifle SimGameUID:FixedEquipment-663f8cb8-cfb1-49ae-b00e-419198bc3eef LocalGUID:c45cfdc2-e337-4dab-84c2-87a91a69e4fd TargetComponentGUID: MountedLocation:RightArm
- Weapon_GNVulcan SimGameUID:FixedEquipment-3f2cf576-0e74-44e8-86ed-db0c754232db LocalGUID:a7b7bf5c-7da5-45c0-9522-b9fa09144a16 TargetComponentGUID: MountedLocation:LeftArm
- Weapon_Gauss_GN_LightRailgun SimGameUID: LocalGUID:ec648a31-98fe-4ede-9015-e20785cd3014 TargetComponentGUID: MountedLocation:RightTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:7e6616b6-2cf4-460e-b6ed-90f0e1c06669 TargetComponentGUID: MountedLocation:LeftTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:78e20f69-110d-4b96-b7b0-6b094d7a31e6 TargetComponentGUID: MountedLocation:LeftTorso
-[23:13:27.903]ResolveAddonsOnInventory
- emod_armorslots_standard SimGameUID: LocalGUID:7239c722-b051-4dbe-b47f-2f504470ad2a TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_hip SimGameUID: LocalGUID:bc75af4c-4912-434b-8065-474d9b7ae7fd TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_hip SimGameUID: LocalGUID:b25a8860-7dec-4c6f-b01e-8362dcba7b55 TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_shoulder SimGameUID: LocalGUID:af2c84e2-21d9-4f9e-9116-0aa92cbb7dcc TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_shoulder SimGameUID: LocalGUID:42142244-4f5b-4592-a730-cc6c83c27d11 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:092128c8-8bdb-4e74-b5a1-fe47d581fd29 TargetComponentGUID: MountedLocation:Head
- emod_structureslots_standard SimGameUID: LocalGUID:9421c326-f4bf-4211-9bcf-b51035b01e82 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_upper SimGameUID: LocalGUID:97031d9b-894d-4c6a-a927-8b1eb6efb004 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_upper SimGameUID: LocalGUID:09a7286d-a2ca-4037-a716-5272cc6ec0af TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_upper SimGameUID: LocalGUID:3efe4836-de94-4455-bcdb-e336397f8ce9 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_upper SimGameUID: LocalGUID:6b402a78-7a11-416f-9e61-3261fb907e05 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_GN SimGameUID:FixedEquipment-6992e122-ebda-41da-b53f-fd1823f1d8cd LocalGUID:53d9dc1a-fce0-4d01-a478-811fa3f9f720 TargetComponentGUID: MountedLocation:CenterTorso
- emod_kit_shs SimGameUID: LocalGUID:68212ed7-7570-473f-92a3-4dcfb9b10cd3 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_lower SimGameUID: LocalGUID:eb0ad8b7-f861-4e20-a5a4-ac418aba49a3 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_lower SimGameUID: LocalGUID:42dc7d5f-1c8c-4556-bd41-eb589c26b66f TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_lower SimGameUID: LocalGUID:ee26be81-5494-4854-b67a-afe88b71391c TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_lower SimGameUID: LocalGUID:e170445a-4371-4281-bc68-cc373fbcfb9f TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:b4314197-bff8-4ce8-8566-5162ea7dc805 TargetComponentGUID: MountedLocation:Head
- Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:ba7356eb-8a8b-42ea-9b04-dc1e713cd087 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_foot SimGameUID: LocalGUID:cae8127a-b04b-4085-9bb4-8e67d681f989 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_foot SimGameUID: LocalGUID:72cb2ba5-c13b-4f0a-a236-67668515eede TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_hand SimGameUID: LocalGUID:25061b1e-3404-4333-bf7d-ba215592a561 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_hand SimGameUID: LocalGUID:49ce5a3f-7ea7-4829-9a93-7fa3769330bf TargetComponentGUID: MountedLocation:LeftArm
- emod_engineslots_GN_Drive SimGameUID:FixedEquipment-c31dbbdc-3cc3-4328-a7be-6c06d3db0920 LocalGUID:988c6bf7-feb2-47e0-9da3-f66158ad3789 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_cooling SimGameUID: LocalGUID:e80693a6-c5a4-4e5b-8403-3c2673647345 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_300 SimGameUID: LocalGUID:bf02205c-7dcf-4fe4-863d-7a4dbfbbc248 TargetComponentGUID: MountedLocation:CenterTorso
- Linked_GNFrame SimGameUID:FixedEquipment-a39c0d2a-5abd-4c4b-8094-a38da75aabf9 LocalGUID:842cc2bd-ea58-45de-a493-4ee98ccc008a TargetComponentGUID: MountedLocation:LeftTorso
- Linked_GNFrame SimGameUID:FixedEquipment-654fdf21-e38d-4494-bc60-974fed763863 LocalGUID:73be4031-99e1-49fc-b1f8-7591c2d997d4 TargetComponentGUID: MountedLocation:LeftArm
- Linked_GNFrame SimGameUID:FixedEquipment-d6d4df2a-f3a0-4dff-b574-a2ea24887faa LocalGUID:2b233e73-c97c-4107-b7a7-4489c43a6ebd TargetComponentGUID: MountedLocation:LeftLeg
- Linked_GNFrame SimGameUID:FixedEquipment-afc115db-d912-4a4a-acb7-cd2a9e5cb0a2 LocalGUID:3b5922d8-e9fa-4501-aaf3-7858592f3d05 TargetComponentGUID: MountedLocation:RightTorso
- Linked_GNFrame SimGameUID:FixedEquipment-7f787803-b9cb-4a4c-b75d-36e15190cfbe LocalGUID:40e0ac01-8672-4c66-9c0d-f2b6550ee089 TargetComponentGUID: MountedLocation:RightArm
- Linked_GNFrame SimGameUID:FixedEquipment-0df2f799-b609-4f3e-a9dc-be4836382464 LocalGUID:adc0602e-2f77-4c3c-a9a2-cda7c26f1ee4 TargetComponentGUID: MountedLocation:RightLeg
- GNFlightPackL SimGameUID:FixedEquipment-41b560e9-6847-4f24-b61f-831237006c09 LocalGUID:2e1484e2-1e19-43b2-bfb8-8a0bf0e6843e TargetComponentGUID: MountedLocation:LeftTorso
- GNFlightPack SimGameUID:FixedEquipment-c63b013a-c633-458f-ba38-8291b2838482 LocalGUID:906dc3c9-82f9-4269-b7b6-91e03f00248e TargetComponentGUID: MountedLocation:RightTorso
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-13006eaf-1d62-493b-b9ec-e25a87890869 LocalGUID:883aace5-b99e-455b-8ee6-3a1abef5470c TargetComponentGUID: MountedLocation:RightLeg
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-f60e6aba-0fb1-41b5-b5a3-ce48599a120e LocalGUID:d5e00843-42ed-4c8e-87e4-f5c8e9380dec TargetComponentGUID: MountedLocation:LeftLeg
- Weapon_Laser_GNRifle SimGameUID:FixedEquipment-663f8cb8-cfb1-49ae-b00e-419198bc3eef LocalGUID:c45cfdc2-e337-4dab-84c2-87a91a69e4fd TargetComponentGUID: MountedLocation:RightArm
- Weapon_GNVulcan SimGameUID:FixedEquipment-3f2cf576-0e74-44e8-86ed-db0c754232db LocalGUID:a7b7bf5c-7da5-45c0-9522-b9fa09144a16 TargetComponentGUID: MountedLocation:LeftArm
- Weapon_Gauss_GN_LightRailgun SimGameUID: LocalGUID:ec648a31-98fe-4ede-9015-e20785cd3014 TargetComponentGUID: MountedLocation:RightTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:7e6616b6-2cf4-460e-b6ed-90f0e1c06669 TargetComponentGUID: MountedLocation:LeftTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:78e20f69-110d-4b96-b7b0-6b094d7a31e6 TargetComponentGUID: MountedLocation:LeftTorso
-[23:13:27.928]ResolveAddonsOnInventory
- emod_armorslots_standard SimGameUID: LocalGUID:7239c722-b051-4dbe-b47f-2f504470ad2a TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_hip SimGameUID: LocalGUID:bc75af4c-4912-434b-8065-474d9b7ae7fd TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_hip SimGameUID: LocalGUID:b25a8860-7dec-4c6f-b01e-8362dcba7b55 TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_shoulder SimGameUID: LocalGUID:af2c84e2-21d9-4f9e-9116-0aa92cbb7dcc TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_shoulder SimGameUID: LocalGUID:42142244-4f5b-4592-a730-cc6c83c27d11 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:092128c8-8bdb-4e74-b5a1-fe47d581fd29 TargetComponentGUID: MountedLocation:Head
- emod_structureslots_standard SimGameUID: LocalGUID:9421c326-f4bf-4211-9bcf-b51035b01e82 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_upper SimGameUID: LocalGUID:97031d9b-894d-4c6a-a927-8b1eb6efb004 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_upper SimGameUID: LocalGUID:09a7286d-a2ca-4037-a716-5272cc6ec0af TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_upper SimGameUID: LocalGUID:3efe4836-de94-4455-bcdb-e336397f8ce9 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_upper SimGameUID: LocalGUID:6b402a78-7a11-416f-9e61-3261fb907e05 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_GN SimGameUID:FixedEquipment-6992e122-ebda-41da-b53f-fd1823f1d8cd LocalGUID:53d9dc1a-fce0-4d01-a478-811fa3f9f720 TargetComponentGUID: MountedLocation:CenterTorso
- emod_kit_shs SimGameUID: LocalGUID:68212ed7-7570-473f-92a3-4dcfb9b10cd3 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_lower SimGameUID: LocalGUID:eb0ad8b7-f861-4e20-a5a4-ac418aba49a3 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_lower SimGameUID: LocalGUID:42dc7d5f-1c8c-4556-bd41-eb589c26b66f TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_lower SimGameUID: LocalGUID:ee26be81-5494-4854-b67a-afe88b71391c TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_lower SimGameUID: LocalGUID:e170445a-4371-4281-bc68-cc373fbcfb9f TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:b4314197-bff8-4ce8-8566-5162ea7dc805 TargetComponentGUID: MountedLocation:Head
- Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:ba7356eb-8a8b-42ea-9b04-dc1e713cd087 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_foot SimGameUID: LocalGUID:cae8127a-b04b-4085-9bb4-8e67d681f989 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_foot SimGameUID: LocalGUID:72cb2ba5-c13b-4f0a-a236-67668515eede TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_hand SimGameUID: LocalGUID:25061b1e-3404-4333-bf7d-ba215592a561 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_hand SimGameUID: LocalGUID:49ce5a3f-7ea7-4829-9a93-7fa3769330bf TargetComponentGUID: MountedLocation:LeftArm
- emod_engineslots_GN_Drive SimGameUID:FixedEquipment-c31dbbdc-3cc3-4328-a7be-6c06d3db0920 LocalGUID:988c6bf7-feb2-47e0-9da3-f66158ad3789 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_cooling SimGameUID: LocalGUID:e80693a6-c5a4-4e5b-8403-3c2673647345 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_300 SimGameUID: LocalGUID:bf02205c-7dcf-4fe4-863d-7a4dbfbbc248 TargetComponentGUID: MountedLocation:CenterTorso
- Linked_GNFrame SimGameUID:FixedEquipment-a39c0d2a-5abd-4c4b-8094-a38da75aabf9 LocalGUID:842cc2bd-ea58-45de-a493-4ee98ccc008a TargetComponentGUID: MountedLocation:LeftTorso
- Linked_GNFrame SimGameUID:FixedEquipment-654fdf21-e38d-4494-bc60-974fed763863 LocalGUID:73be4031-99e1-49fc-b1f8-7591c2d997d4 TargetComponentGUID: MountedLocation:LeftArm
- Linked_GNFrame SimGameUID:FixedEquipment-d6d4df2a-f3a0-4dff-b574-a2ea24887faa LocalGUID:2b233e73-c97c-4107-b7a7-4489c43a6ebd TargetComponentGUID: MountedLocation:LeftLeg
- Linked_GNFrame SimGameUID:FixedEquipment-afc115db-d912-4a4a-acb7-cd2a9e5cb0a2 LocalGUID:3b5922d8-e9fa-4501-aaf3-7858592f3d05 TargetComponentGUID: MountedLocation:RightTorso
- Linked_GNFrame SimGameUID:FixedEquipment-7f787803-b9cb-4a4c-b75d-36e15190cfbe LocalGUID:40e0ac01-8672-4c66-9c0d-f2b6550ee089 TargetComponentGUID: MountedLocation:RightArm
- Linked_GNFrame SimGameUID:FixedEquipment-0df2f799-b609-4f3e-a9dc-be4836382464 LocalGUID:adc0602e-2f77-4c3c-a9a2-cda7c26f1ee4 TargetComponentGUID: MountedLocation:RightLeg
- GNFlightPackL SimGameUID:FixedEquipment-41b560e9-6847-4f24-b61f-831237006c09 LocalGUID:2e1484e2-1e19-43b2-bfb8-8a0bf0e6843e TargetComponentGUID: MountedLocation:LeftTorso
- GNFlightPack SimGameUID:FixedEquipment-c63b013a-c633-458f-ba38-8291b2838482 LocalGUID:906dc3c9-82f9-4269-b7b6-91e03f00248e TargetComponentGUID: MountedLocation:RightTorso
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-13006eaf-1d62-493b-b9ec-e25a87890869 LocalGUID:883aace5-b99e-455b-8ee6-3a1abef5470c TargetComponentGUID: MountedLocation:RightLeg
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-f60e6aba-0fb1-41b5-b5a3-ce48599a120e LocalGUID:d5e00843-42ed-4c8e-87e4-f5c8e9380dec TargetComponentGUID: MountedLocation:LeftLeg
- Weapon_Laser_GNRifle SimGameUID:FixedEquipment-663f8cb8-cfb1-49ae-b00e-419198bc3eef LocalGUID:c45cfdc2-e337-4dab-84c2-87a91a69e4fd TargetComponentGUID: MountedLocation:RightArm
- Weapon_GNVulcan SimGameUID:FixedEquipment-3f2cf576-0e74-44e8-86ed-db0c754232db LocalGUID:a7b7bf5c-7da5-45c0-9522-b9fa09144a16 TargetComponentGUID: MountedLocation:LeftArm
- Weapon_Gauss_GN_LightRailgun SimGameUID: LocalGUID:ec648a31-98fe-4ede-9015-e20785cd3014 TargetComponentGUID: MountedLocation:RightTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:7e6616b6-2cf4-460e-b6ed-90f0e1c06669 TargetComponentGUID: MountedLocation:LeftTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:78e20f69-110d-4b96-b7b0-6b094d7a31e6 TargetComponentGUID: MountedLocation:LeftTorso
-[23:13:27.957]ResolveAddonsOnInventory
- emod_armorslots_standard SimGameUID: LocalGUID:7239c722-b051-4dbe-b47f-2f504470ad2a TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_hip SimGameUID: LocalGUID:bc75af4c-4912-434b-8065-474d9b7ae7fd TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_hip SimGameUID: LocalGUID:b25a8860-7dec-4c6f-b01e-8362dcba7b55 TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_shoulder SimGameUID: LocalGUID:af2c84e2-21d9-4f9e-9116-0aa92cbb7dcc TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_shoulder SimGameUID: LocalGUID:42142244-4f5b-4592-a730-cc6c83c27d11 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:092128c8-8bdb-4e74-b5a1-fe47d581fd29 TargetComponentGUID: MountedLocation:Head
- emod_structureslots_standard SimGameUID: LocalGUID:9421c326-f4bf-4211-9bcf-b51035b01e82 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_upper SimGameUID: LocalGUID:97031d9b-894d-4c6a-a927-8b1eb6efb004 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_upper SimGameUID: LocalGUID:09a7286d-a2ca-4037-a716-5272cc6ec0af TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_upper SimGameUID: LocalGUID:3efe4836-de94-4455-bcdb-e336397f8ce9 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_upper SimGameUID: LocalGUID:6b402a78-7a11-416f-9e61-3261fb907e05 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_GN SimGameUID:FixedEquipment-6992e122-ebda-41da-b53f-fd1823f1d8cd LocalGUID:53d9dc1a-fce0-4d01-a478-811fa3f9f720 TargetComponentGUID: MountedLocation:CenterTorso
- emod_kit_shs SimGameUID: LocalGUID:68212ed7-7570-473f-92a3-4dcfb9b10cd3 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_lower SimGameUID: LocalGUID:eb0ad8b7-f861-4e20-a5a4-ac418aba49a3 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_lower SimGameUID: LocalGUID:42dc7d5f-1c8c-4556-bd41-eb589c26b66f TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_lower SimGameUID: LocalGUID:ee26be81-5494-4854-b67a-afe88b71391c TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_lower SimGameUID: LocalGUID:e170445a-4371-4281-bc68-cc373fbcfb9f TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:b4314197-bff8-4ce8-8566-5162ea7dc805 TargetComponentGUID: MountedLocation:Head
- Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:ba7356eb-8a8b-42ea-9b04-dc1e713cd087 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_foot SimGameUID: LocalGUID:cae8127a-b04b-4085-9bb4-8e67d681f989 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_foot SimGameUID: LocalGUID:72cb2ba5-c13b-4f0a-a236-67668515eede TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_hand SimGameUID: LocalGUID:25061b1e-3404-4333-bf7d-ba215592a561 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_hand SimGameUID: LocalGUID:49ce5a3f-7ea7-4829-9a93-7fa3769330bf TargetComponentGUID: MountedLocation:LeftArm
- emod_engineslots_GN_Drive SimGameUID:FixedEquipment-c31dbbdc-3cc3-4328-a7be-6c06d3db0920 LocalGUID:988c6bf7-feb2-47e0-9da3-f66158ad3789 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_cooling SimGameUID: LocalGUID:e80693a6-c5a4-4e5b-8403-3c2673647345 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_300 SimGameUID: LocalGUID:bf02205c-7dcf-4fe4-863d-7a4dbfbbc248 TargetComponentGUID: MountedLocation:CenterTorso
- Linked_GNFrame SimGameUID:FixedEquipment-a39c0d2a-5abd-4c4b-8094-a38da75aabf9 LocalGUID:842cc2bd-ea58-45de-a493-4ee98ccc008a TargetComponentGUID: MountedLocation:LeftTorso
- Linked_GNFrame SimGameUID:FixedEquipment-654fdf21-e38d-4494-bc60-974fed763863 LocalGUID:73be4031-99e1-49fc-b1f8-7591c2d997d4 TargetComponentGUID: MountedLocation:LeftArm
- Linked_GNFrame SimGameUID:FixedEquipment-d6d4df2a-f3a0-4dff-b574-a2ea24887faa LocalGUID:2b233e73-c97c-4107-b7a7-4489c43a6ebd TargetComponentGUID: MountedLocation:LeftLeg
- Linked_GNFrame SimGameUID:FixedEquipment-afc115db-d912-4a4a-acb7-cd2a9e5cb0a2 LocalGUID:3b5922d8-e9fa-4501-aaf3-7858592f3d05 TargetComponentGUID: MountedLocation:RightTorso
- Linked_GNFrame SimGameUID:FixedEquipment-7f787803-b9cb-4a4c-b75d-36e15190cfbe LocalGUID:40e0ac01-8672-4c66-9c0d-f2b6550ee089 TargetComponentGUID: MountedLocation:RightArm
- Linked_GNFrame SimGameUID:FixedEquipment-0df2f799-b609-4f3e-a9dc-be4836382464 LocalGUID:adc0602e-2f77-4c3c-a9a2-cda7c26f1ee4 TargetComponentGUID: MountedLocation:RightLeg
- GNFlightPackL SimGameUID:FixedEquipment-41b560e9-6847-4f24-b61f-831237006c09 LocalGUID:2e1484e2-1e19-43b2-bfb8-8a0bf0e6843e TargetComponentGUID: MountedLocation:LeftTorso
- GNFlightPack SimGameUID:FixedEquipment-c63b013a-c633-458f-ba38-8291b2838482 LocalGUID:906dc3c9-82f9-4269-b7b6-91e03f00248e TargetComponentGUID: MountedLocation:RightTorso
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-13006eaf-1d62-493b-b9ec-e25a87890869 LocalGUID:883aace5-b99e-455b-8ee6-3a1abef5470c TargetComponentGUID: MountedLocation:RightLeg
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-f60e6aba-0fb1-41b5-b5a3-ce48599a120e LocalGUID:d5e00843-42ed-4c8e-87e4-f5c8e9380dec TargetComponentGUID: MountedLocation:LeftLeg
- Weapon_Laser_GNRifle SimGameUID:FixedEquipment-663f8cb8-cfb1-49ae-b00e-419198bc3eef LocalGUID:c45cfdc2-e337-4dab-84c2-87a91a69e4fd TargetComponentGUID: MountedLocation:RightArm
- Weapon_GNVulcan SimGameUID:FixedEquipment-3f2cf576-0e74-44e8-86ed-db0c754232db LocalGUID:a7b7bf5c-7da5-45c0-9522-b9fa09144a16 TargetComponentGUID: MountedLocation:LeftArm
- Weapon_Gauss_GN_LightRailgun SimGameUID: LocalGUID:ec648a31-98fe-4ede-9015-e20785cd3014 TargetComponentGUID: MountedLocation:RightTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:7e6616b6-2cf4-460e-b6ed-90f0e1c06669 TargetComponentGUID: MountedLocation:LeftTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:78e20f69-110d-4b96-b7b0-6b094d7a31e6 TargetComponentGUID: MountedLocation:LeftTorso
-[23:13:27.977]ResolveAddonsOnInventory
- emod_armorslots_standard SimGameUID: LocalGUID:7239c722-b051-4dbe-b47f-2f504470ad2a TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_hip SimGameUID: LocalGUID:bc75af4c-4912-434b-8065-474d9b7ae7fd TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_hip SimGameUID: LocalGUID:b25a8860-7dec-4c6f-b01e-8362dcba7b55 TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_shoulder SimGameUID: LocalGUID:af2c84e2-21d9-4f9e-9116-0aa92cbb7dcc TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_shoulder SimGameUID: LocalGUID:42142244-4f5b-4592-a730-cc6c83c27d11 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:092128c8-8bdb-4e74-b5a1-fe47d581fd29 TargetComponentGUID: MountedLocation:Head
- emod_structureslots_standard SimGameUID: LocalGUID:9421c326-f4bf-4211-9bcf-b51035b01e82 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_upper SimGameUID: LocalGUID:97031d9b-894d-4c6a-a927-8b1eb6efb004 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_upper SimGameUID: LocalGUID:09a7286d-a2ca-4037-a716-5272cc6ec0af TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_upper SimGameUID: LocalGUID:3efe4836-de94-4455-bcdb-e336397f8ce9 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_upper SimGameUID: LocalGUID:6b402a78-7a11-416f-9e61-3261fb907e05 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_GN SimGameUID:FixedEquipment-6992e122-ebda-41da-b53f-fd1823f1d8cd LocalGUID:53d9dc1a-fce0-4d01-a478-811fa3f9f720 TargetComponentGUID: MountedLocation:CenterTorso
- emod_kit_shs SimGameUID: LocalGUID:68212ed7-7570-473f-92a3-4dcfb9b10cd3 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_lower SimGameUID: LocalGUID:eb0ad8b7-f861-4e20-a5a4-ac418aba49a3 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_lower SimGameUID: LocalGUID:42dc7d5f-1c8c-4556-bd41-eb589c26b66f TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_lower SimGameUID: LocalGUID:ee26be81-5494-4854-b67a-afe88b71391c TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_lower SimGameUID: LocalGUID:e170445a-4371-4281-bc68-cc373fbcfb9f TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:b4314197-bff8-4ce8-8566-5162ea7dc805 TargetComponentGUID: MountedLocation:Head
- Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:ba7356eb-8a8b-42ea-9b04-dc1e713cd087 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_foot SimGameUID: LocalGUID:cae8127a-b04b-4085-9bb4-8e67d681f989 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_foot SimGameUID: LocalGUID:72cb2ba5-c13b-4f0a-a236-67668515eede TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_hand SimGameUID: LocalGUID:25061b1e-3404-4333-bf7d-ba215592a561 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_hand SimGameUID: LocalGUID:49ce5a3f-7ea7-4829-9a93-7fa3769330bf TargetComponentGUID: MountedLocation:LeftArm
- emod_engineslots_GN_Drive SimGameUID:FixedEquipment-c31dbbdc-3cc3-4328-a7be-6c06d3db0920 LocalGUID:988c6bf7-feb2-47e0-9da3-f66158ad3789 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_cooling SimGameUID: LocalGUID:e80693a6-c5a4-4e5b-8403-3c2673647345 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_300 SimGameUID: LocalGUID:bf02205c-7dcf-4fe4-863d-7a4dbfbbc248 TargetComponentGUID: MountedLocation:CenterTorso
- Linked_GNFrame SimGameUID:FixedEquipment-a39c0d2a-5abd-4c4b-8094-a38da75aabf9 LocalGUID:842cc2bd-ea58-45de-a493-4ee98ccc008a TargetComponentGUID: MountedLocation:LeftTorso
- Linked_GNFrame SimGameUID:FixedEquipment-654fdf21-e38d-4494-bc60-974fed763863 LocalGUID:73be4031-99e1-49fc-b1f8-7591c2d997d4 TargetComponentGUID: MountedLocation:LeftArm
- Linked_GNFrame SimGameUID:FixedEquipment-d6d4df2a-f3a0-4dff-b574-a2ea24887faa LocalGUID:2b233e73-c97c-4107-b7a7-4489c43a6ebd TargetComponentGUID: MountedLocation:LeftLeg
- Linked_GNFrame SimGameUID:FixedEquipment-afc115db-d912-4a4a-acb7-cd2a9e5cb0a2 LocalGUID:3b5922d8-e9fa-4501-aaf3-7858592f3d05 TargetComponentGUID: MountedLocation:RightTorso
- Linked_GNFrame SimGameUID:FixedEquipment-7f787803-b9cb-4a4c-b75d-36e15190cfbe LocalGUID:40e0ac01-8672-4c66-9c0d-f2b6550ee089 TargetComponentGUID: MountedLocation:RightArm
- Linked_GNFrame SimGameUID:FixedEquipment-0df2f799-b609-4f3e-a9dc-be4836382464 LocalGUID:adc0602e-2f77-4c3c-a9a2-cda7c26f1ee4 TargetComponentGUID: MountedLocation:RightLeg
- GNFlightPackL SimGameUID:FixedEquipment-41b560e9-6847-4f24-b61f-831237006c09 LocalGUID:2e1484e2-1e19-43b2-bfb8-8a0bf0e6843e TargetComponentGUID: MountedLocation:LeftTorso
- GNFlightPack SimGameUID:FixedEquipment-c63b013a-c633-458f-ba38-8291b2838482 LocalGUID:906dc3c9-82f9-4269-b7b6-91e03f00248e TargetComponentGUID: MountedLocation:RightTorso
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-13006eaf-1d62-493b-b9ec-e25a87890869 LocalGUID:883aace5-b99e-455b-8ee6-3a1abef5470c TargetComponentGUID: MountedLocation:RightLeg
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-f60e6aba-0fb1-41b5-b5a3-ce48599a120e LocalGUID:d5e00843-42ed-4c8e-87e4-f5c8e9380dec TargetComponentGUID: MountedLocation:LeftLeg
- Weapon_Laser_GNRifle SimGameUID:FixedEquipment-663f8cb8-cfb1-49ae-b00e-419198bc3eef LocalGUID:c45cfdc2-e337-4dab-84c2-87a91a69e4fd TargetComponentGUID: MountedLocation:RightArm
- Weapon_GNVulcan SimGameUID:FixedEquipment-3f2cf576-0e74-44e8-86ed-db0c754232db LocalGUID:a7b7bf5c-7da5-45c0-9522-b9fa09144a16 TargetComponentGUID: MountedLocation:LeftArm
- Weapon_Gauss_GN_LightRailgun SimGameUID: LocalGUID:ec648a31-98fe-4ede-9015-e20785cd3014 TargetComponentGUID: MountedLocation:RightTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:7e6616b6-2cf4-460e-b6ed-90f0e1c06669 TargetComponentGUID: MountedLocation:LeftTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:78e20f69-110d-4b96-b7b0-6b094d7a31e6 TargetComponentGUID: MountedLocation:LeftTorso
-[23:13:27.997]ResolveAddonsOnInventory
- emod_armorslots_standard SimGameUID: LocalGUID:7239c722-b051-4dbe-b47f-2f504470ad2a TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_hip SimGameUID: LocalGUID:bc75af4c-4912-434b-8065-474d9b7ae7fd TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_hip SimGameUID: LocalGUID:b25a8860-7dec-4c6f-b01e-8362dcba7b55 TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_shoulder SimGameUID: LocalGUID:af2c84e2-21d9-4f9e-9116-0aa92cbb7dcc TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_shoulder SimGameUID: LocalGUID:42142244-4f5b-4592-a730-cc6c83c27d11 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:092128c8-8bdb-4e74-b5a1-fe47d581fd29 TargetComponentGUID: MountedLocation:Head
- emod_structureslots_standard SimGameUID: LocalGUID:9421c326-f4bf-4211-9bcf-b51035b01e82 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_upper SimGameUID: LocalGUID:97031d9b-894d-4c6a-a927-8b1eb6efb004 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_upper SimGameUID: LocalGUID:09a7286d-a2ca-4037-a716-5272cc6ec0af TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_upper SimGameUID: LocalGUID:3efe4836-de94-4455-bcdb-e336397f8ce9 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_upper SimGameUID: LocalGUID:6b402a78-7a11-416f-9e61-3261fb907e05 TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_GN SimGameUID:FixedEquipment-6992e122-ebda-41da-b53f-fd1823f1d8cd LocalGUID:53d9dc1a-fce0-4d01-a478-811fa3f9f720 TargetComponentGUID: MountedLocation:CenterTorso
- emod_kit_shs SimGameUID: LocalGUID:68212ed7-7570-473f-92a3-4dcfb9b10cd3 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_lower SimGameUID: LocalGUID:eb0ad8b7-f861-4e20-a5a4-ac418aba49a3 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_lower SimGameUID: LocalGUID:42dc7d5f-1c8c-4556-bd41-eb589c26b66f TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_lower SimGameUID: LocalGUID:ee26be81-5494-4854-b67a-afe88b71391c TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_lower SimGameUID: LocalGUID:e170445a-4371-4281-bc68-cc373fbcfb9f TargetComponentGUID: MountedLocation:LeftArm
- Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:b4314197-bff8-4ce8-8566-5162ea7dc805 TargetComponentGUID: MountedLocation:Head
- Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:ba7356eb-8a8b-42ea-9b04-dc1e713cd087 TargetComponentGUID: MountedLocation:CenterTorso
- emod_leg_foot SimGameUID: LocalGUID:cae8127a-b04b-4085-9bb4-8e67d681f989 TargetComponentGUID: MountedLocation:LeftLeg
- emod_leg_foot SimGameUID: LocalGUID:72cb2ba5-c13b-4f0a-a236-67668515eede TargetComponentGUID: MountedLocation:RightLeg
- emod_arm_part_hand SimGameUID: LocalGUID:25061b1e-3404-4333-bf7d-ba215592a561 TargetComponentGUID: MountedLocation:RightArm
- emod_arm_part_hand SimGameUID: LocalGUID:49ce5a3f-7ea7-4829-9a93-7fa3769330bf TargetComponentGUID: MountedLocation:LeftArm
- emod_engineslots_GN_Drive SimGameUID:FixedEquipment-c31dbbdc-3cc3-4328-a7be-6c06d3db0920 LocalGUID:988c6bf7-feb2-47e0-9da3-f66158ad3789 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_cooling SimGameUID: LocalGUID:e80693a6-c5a4-4e5b-8403-3c2673647345 TargetComponentGUID: MountedLocation:CenterTorso
- emod_engine_300 SimGameUID: LocalGUID:bf02205c-7dcf-4fe4-863d-7a4dbfbbc248 TargetComponentGUID: MountedLocation:CenterTorso
- Linked_GNFrame SimGameUID:FixedEquipment-a39c0d2a-5abd-4c4b-8094-a38da75aabf9 LocalGUID:842cc2bd-ea58-45de-a493-4ee98ccc008a TargetComponentGUID: MountedLocation:LeftTorso
- Linked_GNFrame SimGameUID:FixedEquipment-654fdf21-e38d-4494-bc60-974fed763863 LocalGUID:73be4031-99e1-49fc-b1f8-7591c2d997d4 TargetComponentGUID: MountedLocation:LeftArm
- Linked_GNFrame SimGameUID:FixedEquipment-d6d4df2a-f3a0-4dff-b574-a2ea24887faa LocalGUID:2b233e73-c97c-4107-b7a7-4489c43a6ebd TargetComponentGUID: MountedLocation:LeftLeg
- Linked_GNFrame SimGameUID:FixedEquipment-afc115db-d912-4a4a-acb7-cd2a9e5cb0a2 LocalGUID:3b5922d8-e9fa-4501-aaf3-7858592f3d05 TargetComponentGUID: MountedLocation:RightTorso
- Linked_GNFrame SimGameUID:FixedEquipment-7f787803-b9cb-4a4c-b75d-36e15190cfbe LocalGUID:40e0ac01-8672-4c66-9c0d-f2b6550ee089 TargetComponentGUID: MountedLocation:RightArm
- Linked_GNFrame SimGameUID:FixedEquipment-0df2f799-b609-4f3e-a9dc-be4836382464 LocalGUID:adc0602e-2f77-4c3c-a9a2-cda7c26f1ee4 TargetComponentGUID: MountedLocation:RightLeg
- GNFlightPackL SimGameUID:FixedEquipment-41b560e9-6847-4f24-b61f-831237006c09 LocalGUID:2e1484e2-1e19-43b2-bfb8-8a0bf0e6843e TargetComponentGUID: MountedLocation:LeftTorso
- GNFlightPack SimGameUID:FixedEquipment-c63b013a-c633-458f-ba38-8291b2838482 LocalGUID:906dc3c9-82f9-4269-b7b6-91e03f00248e TargetComponentGUID: MountedLocation:RightTorso
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-13006eaf-1d62-493b-b9ec-e25a87890869 LocalGUID:883aace5-b99e-455b-8ee6-3a1abef5470c TargetComponentGUID: MountedLocation:RightLeg
- Gear_JumpJet_DistalAttitudeControl SimGameUID:FixedEquipment-f60e6aba-0fb1-41b5-b5a3-ce48599a120e LocalGUID:d5e00843-42ed-4c8e-87e4-f5c8e9380dec TargetComponentGUID: MountedLocation:LeftLeg
- Weapon_Laser_GNRifle SimGameUID:FixedEquipment-663f8cb8-cfb1-49ae-b00e-419198bc3eef LocalGUID:c45cfdc2-e337-4dab-84c2-87a91a69e4fd TargetComponentGUID: MountedLocation:RightArm
- Weapon_GNVulcan SimGameUID:FixedEquipment-3f2cf576-0e74-44e8-86ed-db0c754232db LocalGUID:a7b7bf5c-7da5-45c0-9522-b9fa09144a16 TargetComponentGUID: MountedLocation:LeftArm
- Weapon_Gauss_GN_LightRailgun SimGameUID: LocalGUID:ec648a31-98fe-4ede-9015-e20785cd3014 TargetComponentGUID: MountedLocation:RightTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:7e6616b6-2cf4-460e-b6ed-90f0e1c06669 TargetComponentGUID: MountedLocation:LeftTorso
- Ammo_AmmunitionBox_GNSlug SimGameUID: LocalGUID:78e20f69-110d-4b96-b7b0-6b094d7a31e6 TargetComponentGUID: MountedLocation:LeftTorso
+[22:07:42.187]ResolveAddonsOnInventory
+ Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:fa245268-20b6-4123-8493-c13b0680dd2a TargetComponentGUID: MountedLocation:Head
+ Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:ad0d04b9-8987-4588-b497-001178035d38 TargetComponentGUID: MountedLocation:Head
+ emod_armorslots_standard SimGameUID: LocalGUID:8bf4299b-55f5-4e8a-aaf0-cf3e3889b6c4 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_structureslots_standard SimGameUID: LocalGUID:36eb026f-dd19-49b8-9c77-f20562e5509e TargetComponentGUID: MountedLocation:CenterTorso
+ Gear_Cockpit_GN SimGameUID:FixedEquipment-a9215585-2a12-4079-85de-01791272d2d2 LocalGUID:2e1d37f2-f5d7-47cb-8630-524908985114 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_kit_shs SimGameUID: LocalGUID:ee1a9836-a82c-4820-a104-b5e317979160 TargetComponentGUID: MountedLocation:CenterTorso
+ Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:3b9b9c5d-4d50-4eae-a370-dd933b44c6c1 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engineslots_GN_Drive SimGameUID:FixedEquipment-08848c20-1e45-4292-82ce-b172f8a99b6e LocalGUID:5dd282dd-387e-4e0c-baf9-0d8dda4cca32 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_cooling SimGameUID: LocalGUID:29256bd4-045c-44ad-8c6c-680fbb0d4c13 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_300 SimGameUID: LocalGUID:0c06dd77-8e3a-424b-ac87-09d898269a46 TargetComponentGUID: MountedLocation:CenterTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-63bec4e3-559c-4986-a56f-4f953cae0405 LocalGUID:c125c3cc-9985-4b7c-b6e0-cc1c3842595b TargetComponentGUID: MountedLocation:LeftTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-7a5bfa4e-946b-4bc8-8027-b1209594c3c7 LocalGUID:d9a23bbe-b4fb-4e7b-ac46-6f345dd0af99 TargetComponentGUID: MountedLocation:RightTorso
+ emod_arm_part_shoulder SimGameUID: LocalGUID:58ba5fe0-a69d-4608-a687-29a459f52ec1 TargetComponentGUID: MountedLocation:LeftArm
+ emod_arm_part_upper SimGameUID: LocalGUID:7c27a98e-c80f-4fe4-a478-14f815bd3b5f TargetComponentGUID: MountedLocation:LeftArm
+ emod_arm_part_lower SimGameUID: LocalGUID:db3d6f5e-2624-4bc1-bf38-afd3c967f93f TargetComponentGUID: MountedLocation:LeftArm
+ emod_arm_part_hand SimGameUID: LocalGUID:f7735cb7-58d8-4e10-ac72-b91877b42bc4 TargetComponentGUID: MountedLocation:LeftArm
+ Linked_GNFrame SimGameUID:FixedEquipment-9c0528b9-e415-4c3f-a12e-8756ce803242 LocalGUID:3b377442-9b6b-4ae1-b162-07db84feba81 TargetComponentGUID: MountedLocation:LeftArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:3cb4c661-1ab8-47b2-875e-6adddd61faef TargetComponentGUID: MountedLocation:LeftArm
+ emod_arm_part_shoulder SimGameUID: LocalGUID:917e84f4-0b6d-4895-8405-295535b76f65 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_upper SimGameUID: LocalGUID:e91c76bf-eeb3-45a5-be32-937209d29c2c TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_lower SimGameUID: LocalGUID:23fe225a-8b90-488a-8a05-26864a99abb9 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_hand SimGameUID: LocalGUID:fb668b3a-9fd1-4795-96cd-edb874fad0f0 TargetComponentGUID: MountedLocation:RightArm
+ Linked_GNFrame SimGameUID:FixedEquipment-77a70ca3-3ea2-4e96-b82b-62d510a74312 LocalGUID:4dd883f7-b61f-4b71-ad7a-1f52b6a442b1 TargetComponentGUID: MountedLocation:RightArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:63621575-2b86-4450-a7fa-409a790141f8 TargetComponentGUID: MountedLocation:RightArm
+ emod_leg_hip SimGameUID: LocalGUID:5759bd32-e471-484b-9349-4f6461966a63 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_upper SimGameUID: LocalGUID:f7df2880-7a18-4b0e-93bc-6673e33db115 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_lower SimGameUID: LocalGUID:4f78a774-bac5-4281-81ae-4039d0531ded TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_foot SimGameUID: LocalGUID:04785485-173d-4c4a-80bc-6122b84e2554 TargetComponentGUID: MountedLocation:LeftLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-e3380686-63e7-4aa5-ab97-1a53ae0f23d2 LocalGUID:c2b771e3-1382-4879-badb-7db48691422f TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_hip SimGameUID: LocalGUID:9f2d157d-15ff-4489-8e00-5979059ceeff TargetComponentGUID: MountedLocation:RightLeg
+ emod_leg_upper SimGameUID: LocalGUID:fa14b766-0a0f-486e-bc04-0db3dd5a859e TargetComponentGUID: MountedLocation:RightLeg
+ emod_leg_lower SimGameUID: LocalGUID:c4687828-bfdd-43f9-bcaa-e344a3b178c2 TargetComponentGUID: MountedLocation:RightLeg
+ emod_leg_foot SimGameUID: LocalGUID:875fc727-4948-4bcf-b3d2-14ea6a04d05f TargetComponentGUID: MountedLocation:RightLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-5cc78c4c-6079-4675-ac46-cf35423333f5 LocalGUID:6fd85268-85b4-4d89-98d7-632581459163 TargetComponentGUID: MountedLocation:RightLeg
+[22:07:45.227]ResolveAddonsOnInventory
+ emod_armorslots_standard SimGameUID: LocalGUID:8bf4299b-55f5-4e8a-aaf0-cf3e3889b6c4 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_hip SimGameUID: LocalGUID:5759bd32-e471-484b-9349-4f6461966a63 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_hip SimGameUID: LocalGUID:9f2d157d-15ff-4489-8e00-5979059ceeff TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_shoulder SimGameUID: LocalGUID:917e84f4-0b6d-4895-8405-295535b76f65 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_shoulder SimGameUID: LocalGUID:58ba5fe0-a69d-4608-a687-29a459f52ec1 TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:fa245268-20b6-4123-8493-c13b0680dd2a TargetComponentGUID: MountedLocation:Head
+ emod_structureslots_standard SimGameUID: LocalGUID:36eb026f-dd19-49b8-9c77-f20562e5509e TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_upper SimGameUID: LocalGUID:f7df2880-7a18-4b0e-93bc-6673e33db115 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_upper SimGameUID: LocalGUID:fa14b766-0a0f-486e-bc04-0db3dd5a859e TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_upper SimGameUID: LocalGUID:e91c76bf-eeb3-45a5-be32-937209d29c2c TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_upper SimGameUID: LocalGUID:7c27a98e-c80f-4fe4-a478-14f815bd3b5f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_GN SimGameUID:FixedEquipment-a9215585-2a12-4079-85de-01791272d2d2 LocalGUID:2e1d37f2-f5d7-47cb-8630-524908985114 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_kit_shs SimGameUID: LocalGUID:ee1a9836-a82c-4820-a104-b5e317979160 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_lower SimGameUID: LocalGUID:4f78a774-bac5-4281-81ae-4039d0531ded TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_lower SimGameUID: LocalGUID:c4687828-bfdd-43f9-bcaa-e344a3b178c2 TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_lower SimGameUID: LocalGUID:23fe225a-8b90-488a-8a05-26864a99abb9 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_lower SimGameUID: LocalGUID:db3d6f5e-2624-4bc1-bf38-afd3c967f93f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:ad0d04b9-8987-4588-b497-001178035d38 TargetComponentGUID: MountedLocation:Head
+ Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:3b9b9c5d-4d50-4eae-a370-dd933b44c6c1 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_foot SimGameUID: LocalGUID:04785485-173d-4c4a-80bc-6122b84e2554 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_foot SimGameUID: LocalGUID:875fc727-4948-4bcf-b3d2-14ea6a04d05f TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_hand SimGameUID: LocalGUID:fb668b3a-9fd1-4795-96cd-edb874fad0f0 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_hand SimGameUID: LocalGUID:f7735cb7-58d8-4e10-ac72-b91877b42bc4 TargetComponentGUID: MountedLocation:LeftArm
+ emod_engineslots_GN_Drive SimGameUID:FixedEquipment-08848c20-1e45-4292-82ce-b172f8a99b6e LocalGUID:5dd282dd-387e-4e0c-baf9-0d8dda4cca32 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_cooling SimGameUID: LocalGUID:29256bd4-045c-44ad-8c6c-680fbb0d4c13 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_300 SimGameUID: LocalGUID:0c06dd77-8e3a-424b-ac87-09d898269a46 TargetComponentGUID: MountedLocation:CenterTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-63bec4e3-559c-4986-a56f-4f953cae0405 LocalGUID:c125c3cc-9985-4b7c-b6e0-cc1c3842595b TargetComponentGUID: MountedLocation:LeftTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-9c0528b9-e415-4c3f-a12e-8756ce803242 LocalGUID:3b377442-9b6b-4ae1-b162-07db84feba81 TargetComponentGUID: MountedLocation:LeftArm
+ Linked_GNFrame SimGameUID:FixedEquipment-e3380686-63e7-4aa5-ab97-1a53ae0f23d2 LocalGUID:c2b771e3-1382-4879-badb-7db48691422f TargetComponentGUID: MountedLocation:LeftLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-7a5bfa4e-946b-4bc8-8027-b1209594c3c7 LocalGUID:d9a23bbe-b4fb-4e7b-ac46-6f345dd0af99 TargetComponentGUID: MountedLocation:RightTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-77a70ca3-3ea2-4e96-b82b-62d510a74312 LocalGUID:4dd883f7-b61f-4b71-ad7a-1f52b6a442b1 TargetComponentGUID: MountedLocation:RightArm
+ Linked_GNFrame SimGameUID:FixedEquipment-5cc78c4c-6079-4675-ac46-cf35423333f5 LocalGUID:6fd85268-85b4-4d89-98d7-632581459163 TargetComponentGUID: MountedLocation:RightLeg
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:3cb4c661-1ab8-47b2-875e-6adddd61faef TargetComponentGUID: MountedLocation:LeftArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:63621575-2b86-4450-a7fa-409a790141f8 TargetComponentGUID: MountedLocation:RightArm
+[22:07:45.273]ResolveAddonsOnInventory
+ emod_armorslots_standard SimGameUID: LocalGUID:8bf4299b-55f5-4e8a-aaf0-cf3e3889b6c4 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_hip SimGameUID: LocalGUID:5759bd32-e471-484b-9349-4f6461966a63 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_hip SimGameUID: LocalGUID:9f2d157d-15ff-4489-8e00-5979059ceeff TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_shoulder SimGameUID: LocalGUID:917e84f4-0b6d-4895-8405-295535b76f65 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_shoulder SimGameUID: LocalGUID:58ba5fe0-a69d-4608-a687-29a459f52ec1 TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:fa245268-20b6-4123-8493-c13b0680dd2a TargetComponentGUID: MountedLocation:Head
+ emod_structureslots_standard SimGameUID: LocalGUID:36eb026f-dd19-49b8-9c77-f20562e5509e TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_upper SimGameUID: LocalGUID:f7df2880-7a18-4b0e-93bc-6673e33db115 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_upper SimGameUID: LocalGUID:fa14b766-0a0f-486e-bc04-0db3dd5a859e TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_upper SimGameUID: LocalGUID:e91c76bf-eeb3-45a5-be32-937209d29c2c TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_upper SimGameUID: LocalGUID:7c27a98e-c80f-4fe4-a478-14f815bd3b5f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_GN SimGameUID:FixedEquipment-a9215585-2a12-4079-85de-01791272d2d2 LocalGUID:2e1d37f2-f5d7-47cb-8630-524908985114 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_kit_shs SimGameUID: LocalGUID:ee1a9836-a82c-4820-a104-b5e317979160 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_lower SimGameUID: LocalGUID:4f78a774-bac5-4281-81ae-4039d0531ded TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_lower SimGameUID: LocalGUID:c4687828-bfdd-43f9-bcaa-e344a3b178c2 TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_lower SimGameUID: LocalGUID:23fe225a-8b90-488a-8a05-26864a99abb9 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_lower SimGameUID: LocalGUID:db3d6f5e-2624-4bc1-bf38-afd3c967f93f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:ad0d04b9-8987-4588-b497-001178035d38 TargetComponentGUID: MountedLocation:Head
+ Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:3b9b9c5d-4d50-4eae-a370-dd933b44c6c1 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_foot SimGameUID: LocalGUID:04785485-173d-4c4a-80bc-6122b84e2554 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_foot SimGameUID: LocalGUID:875fc727-4948-4bcf-b3d2-14ea6a04d05f TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_hand SimGameUID: LocalGUID:fb668b3a-9fd1-4795-96cd-edb874fad0f0 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_hand SimGameUID: LocalGUID:f7735cb7-58d8-4e10-ac72-b91877b42bc4 TargetComponentGUID: MountedLocation:LeftArm
+ emod_engineslots_GN_Drive SimGameUID:FixedEquipment-08848c20-1e45-4292-82ce-b172f8a99b6e LocalGUID:5dd282dd-387e-4e0c-baf9-0d8dda4cca32 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_cooling SimGameUID: LocalGUID:29256bd4-045c-44ad-8c6c-680fbb0d4c13 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_300 SimGameUID: LocalGUID:0c06dd77-8e3a-424b-ac87-09d898269a46 TargetComponentGUID: MountedLocation:CenterTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-63bec4e3-559c-4986-a56f-4f953cae0405 LocalGUID:c125c3cc-9985-4b7c-b6e0-cc1c3842595b TargetComponentGUID: MountedLocation:LeftTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-9c0528b9-e415-4c3f-a12e-8756ce803242 LocalGUID:3b377442-9b6b-4ae1-b162-07db84feba81 TargetComponentGUID: MountedLocation:LeftArm
+ Linked_GNFrame SimGameUID:FixedEquipment-e3380686-63e7-4aa5-ab97-1a53ae0f23d2 LocalGUID:c2b771e3-1382-4879-badb-7db48691422f TargetComponentGUID: MountedLocation:LeftLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-7a5bfa4e-946b-4bc8-8027-b1209594c3c7 LocalGUID:d9a23bbe-b4fb-4e7b-ac46-6f345dd0af99 TargetComponentGUID: MountedLocation:RightTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-77a70ca3-3ea2-4e96-b82b-62d510a74312 LocalGUID:4dd883f7-b61f-4b71-ad7a-1f52b6a442b1 TargetComponentGUID: MountedLocation:RightArm
+ Linked_GNFrame SimGameUID:FixedEquipment-5cc78c4c-6079-4675-ac46-cf35423333f5 LocalGUID:6fd85268-85b4-4d89-98d7-632581459163 TargetComponentGUID: MountedLocation:RightLeg
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:3cb4c661-1ab8-47b2-875e-6adddd61faef TargetComponentGUID: MountedLocation:LeftArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:63621575-2b86-4450-a7fa-409a790141f8 TargetComponentGUID: MountedLocation:RightArm
+[22:07:45.298]ResolveAddonsOnInventory
+ emod_armorslots_standard SimGameUID: LocalGUID:8bf4299b-55f5-4e8a-aaf0-cf3e3889b6c4 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_hip SimGameUID: LocalGUID:5759bd32-e471-484b-9349-4f6461966a63 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_hip SimGameUID: LocalGUID:9f2d157d-15ff-4489-8e00-5979059ceeff TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_shoulder SimGameUID: LocalGUID:917e84f4-0b6d-4895-8405-295535b76f65 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_shoulder SimGameUID: LocalGUID:58ba5fe0-a69d-4608-a687-29a459f52ec1 TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:fa245268-20b6-4123-8493-c13b0680dd2a TargetComponentGUID: MountedLocation:Head
+ emod_structureslots_standard SimGameUID: LocalGUID:36eb026f-dd19-49b8-9c77-f20562e5509e TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_upper SimGameUID: LocalGUID:f7df2880-7a18-4b0e-93bc-6673e33db115 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_upper SimGameUID: LocalGUID:fa14b766-0a0f-486e-bc04-0db3dd5a859e TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_upper SimGameUID: LocalGUID:e91c76bf-eeb3-45a5-be32-937209d29c2c TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_upper SimGameUID: LocalGUID:7c27a98e-c80f-4fe4-a478-14f815bd3b5f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_GN SimGameUID:FixedEquipment-a9215585-2a12-4079-85de-01791272d2d2 LocalGUID:2e1d37f2-f5d7-47cb-8630-524908985114 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_kit_shs SimGameUID: LocalGUID:ee1a9836-a82c-4820-a104-b5e317979160 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_lower SimGameUID: LocalGUID:4f78a774-bac5-4281-81ae-4039d0531ded TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_lower SimGameUID: LocalGUID:c4687828-bfdd-43f9-bcaa-e344a3b178c2 TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_lower SimGameUID: LocalGUID:23fe225a-8b90-488a-8a05-26864a99abb9 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_lower SimGameUID: LocalGUID:db3d6f5e-2624-4bc1-bf38-afd3c967f93f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:ad0d04b9-8987-4588-b497-001178035d38 TargetComponentGUID: MountedLocation:Head
+ Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:3b9b9c5d-4d50-4eae-a370-dd933b44c6c1 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_foot SimGameUID: LocalGUID:04785485-173d-4c4a-80bc-6122b84e2554 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_foot SimGameUID: LocalGUID:875fc727-4948-4bcf-b3d2-14ea6a04d05f TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_hand SimGameUID: LocalGUID:fb668b3a-9fd1-4795-96cd-edb874fad0f0 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_hand SimGameUID: LocalGUID:f7735cb7-58d8-4e10-ac72-b91877b42bc4 TargetComponentGUID: MountedLocation:LeftArm
+ emod_engineslots_GN_Drive SimGameUID:FixedEquipment-08848c20-1e45-4292-82ce-b172f8a99b6e LocalGUID:5dd282dd-387e-4e0c-baf9-0d8dda4cca32 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_cooling SimGameUID: LocalGUID:29256bd4-045c-44ad-8c6c-680fbb0d4c13 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_300 SimGameUID: LocalGUID:0c06dd77-8e3a-424b-ac87-09d898269a46 TargetComponentGUID: MountedLocation:CenterTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-63bec4e3-559c-4986-a56f-4f953cae0405 LocalGUID:c125c3cc-9985-4b7c-b6e0-cc1c3842595b TargetComponentGUID: MountedLocation:LeftTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-9c0528b9-e415-4c3f-a12e-8756ce803242 LocalGUID:3b377442-9b6b-4ae1-b162-07db84feba81 TargetComponentGUID: MountedLocation:LeftArm
+ Linked_GNFrame SimGameUID:FixedEquipment-e3380686-63e7-4aa5-ab97-1a53ae0f23d2 LocalGUID:c2b771e3-1382-4879-badb-7db48691422f TargetComponentGUID: MountedLocation:LeftLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-7a5bfa4e-946b-4bc8-8027-b1209594c3c7 LocalGUID:d9a23bbe-b4fb-4e7b-ac46-6f345dd0af99 TargetComponentGUID: MountedLocation:RightTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-77a70ca3-3ea2-4e96-b82b-62d510a74312 LocalGUID:4dd883f7-b61f-4b71-ad7a-1f52b6a442b1 TargetComponentGUID: MountedLocation:RightArm
+ Linked_GNFrame SimGameUID:FixedEquipment-5cc78c4c-6079-4675-ac46-cf35423333f5 LocalGUID:6fd85268-85b4-4d89-98d7-632581459163 TargetComponentGUID: MountedLocation:RightLeg
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:3cb4c661-1ab8-47b2-875e-6adddd61faef TargetComponentGUID: MountedLocation:LeftArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:63621575-2b86-4450-a7fa-409a790141f8 TargetComponentGUID: MountedLocation:RightArm
+[22:07:45.323]ResolveAddonsOnInventory
+ emod_armorslots_standard SimGameUID: LocalGUID:8bf4299b-55f5-4e8a-aaf0-cf3e3889b6c4 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_hip SimGameUID: LocalGUID:5759bd32-e471-484b-9349-4f6461966a63 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_hip SimGameUID: LocalGUID:9f2d157d-15ff-4489-8e00-5979059ceeff TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_shoulder SimGameUID: LocalGUID:917e84f4-0b6d-4895-8405-295535b76f65 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_shoulder SimGameUID: LocalGUID:58ba5fe0-a69d-4608-a687-29a459f52ec1 TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:fa245268-20b6-4123-8493-c13b0680dd2a TargetComponentGUID: MountedLocation:Head
+ emod_structureslots_standard SimGameUID: LocalGUID:36eb026f-dd19-49b8-9c77-f20562e5509e TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_upper SimGameUID: LocalGUID:f7df2880-7a18-4b0e-93bc-6673e33db115 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_upper SimGameUID: LocalGUID:fa14b766-0a0f-486e-bc04-0db3dd5a859e TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_upper SimGameUID: LocalGUID:e91c76bf-eeb3-45a5-be32-937209d29c2c TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_upper SimGameUID: LocalGUID:7c27a98e-c80f-4fe4-a478-14f815bd3b5f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_GN SimGameUID:FixedEquipment-a9215585-2a12-4079-85de-01791272d2d2 LocalGUID:2e1d37f2-f5d7-47cb-8630-524908985114 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_kit_shs SimGameUID: LocalGUID:ee1a9836-a82c-4820-a104-b5e317979160 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_lower SimGameUID: LocalGUID:4f78a774-bac5-4281-81ae-4039d0531ded TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_lower SimGameUID: LocalGUID:c4687828-bfdd-43f9-bcaa-e344a3b178c2 TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_lower SimGameUID: LocalGUID:23fe225a-8b90-488a-8a05-26864a99abb9 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_lower SimGameUID: LocalGUID:db3d6f5e-2624-4bc1-bf38-afd3c967f93f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:ad0d04b9-8987-4588-b497-001178035d38 TargetComponentGUID: MountedLocation:Head
+ Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:3b9b9c5d-4d50-4eae-a370-dd933b44c6c1 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_foot SimGameUID: LocalGUID:04785485-173d-4c4a-80bc-6122b84e2554 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_foot SimGameUID: LocalGUID:875fc727-4948-4bcf-b3d2-14ea6a04d05f TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_hand SimGameUID: LocalGUID:fb668b3a-9fd1-4795-96cd-edb874fad0f0 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_hand SimGameUID: LocalGUID:f7735cb7-58d8-4e10-ac72-b91877b42bc4 TargetComponentGUID: MountedLocation:LeftArm
+ emod_engineslots_GN_Drive SimGameUID:FixedEquipment-08848c20-1e45-4292-82ce-b172f8a99b6e LocalGUID:5dd282dd-387e-4e0c-baf9-0d8dda4cca32 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_cooling SimGameUID: LocalGUID:29256bd4-045c-44ad-8c6c-680fbb0d4c13 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_300 SimGameUID: LocalGUID:0c06dd77-8e3a-424b-ac87-09d898269a46 TargetComponentGUID: MountedLocation:CenterTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-63bec4e3-559c-4986-a56f-4f953cae0405 LocalGUID:c125c3cc-9985-4b7c-b6e0-cc1c3842595b TargetComponentGUID: MountedLocation:LeftTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-9c0528b9-e415-4c3f-a12e-8756ce803242 LocalGUID:3b377442-9b6b-4ae1-b162-07db84feba81 TargetComponentGUID: MountedLocation:LeftArm
+ Linked_GNFrame SimGameUID:FixedEquipment-e3380686-63e7-4aa5-ab97-1a53ae0f23d2 LocalGUID:c2b771e3-1382-4879-badb-7db48691422f TargetComponentGUID: MountedLocation:LeftLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-7a5bfa4e-946b-4bc8-8027-b1209594c3c7 LocalGUID:d9a23bbe-b4fb-4e7b-ac46-6f345dd0af99 TargetComponentGUID: MountedLocation:RightTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-77a70ca3-3ea2-4e96-b82b-62d510a74312 LocalGUID:4dd883f7-b61f-4b71-ad7a-1f52b6a442b1 TargetComponentGUID: MountedLocation:RightArm
+ Linked_GNFrame SimGameUID:FixedEquipment-5cc78c4c-6079-4675-ac46-cf35423333f5 LocalGUID:6fd85268-85b4-4d89-98d7-632581459163 TargetComponentGUID: MountedLocation:RightLeg
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:3cb4c661-1ab8-47b2-875e-6adddd61faef TargetComponentGUID: MountedLocation:LeftArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:63621575-2b86-4450-a7fa-409a790141f8 TargetComponentGUID: MountedLocation:RightArm
+[22:07:45.361]ResolveAddonsOnInventory
+ emod_armorslots_standard SimGameUID: LocalGUID:8bf4299b-55f5-4e8a-aaf0-cf3e3889b6c4 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_hip SimGameUID: LocalGUID:5759bd32-e471-484b-9349-4f6461966a63 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_hip SimGameUID: LocalGUID:9f2d157d-15ff-4489-8e00-5979059ceeff TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_shoulder SimGameUID: LocalGUID:917e84f4-0b6d-4895-8405-295535b76f65 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_shoulder SimGameUID: LocalGUID:58ba5fe0-a69d-4608-a687-29a459f52ec1 TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:fa245268-20b6-4123-8493-c13b0680dd2a TargetComponentGUID: MountedLocation:Head
+ emod_structureslots_standard SimGameUID: LocalGUID:36eb026f-dd19-49b8-9c77-f20562e5509e TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_upper SimGameUID: LocalGUID:f7df2880-7a18-4b0e-93bc-6673e33db115 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_upper SimGameUID: LocalGUID:fa14b766-0a0f-486e-bc04-0db3dd5a859e TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_upper SimGameUID: LocalGUID:e91c76bf-eeb3-45a5-be32-937209d29c2c TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_upper SimGameUID: LocalGUID:7c27a98e-c80f-4fe4-a478-14f815bd3b5f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_GN SimGameUID:FixedEquipment-a9215585-2a12-4079-85de-01791272d2d2 LocalGUID:2e1d37f2-f5d7-47cb-8630-524908985114 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_kit_shs SimGameUID: LocalGUID:ee1a9836-a82c-4820-a104-b5e317979160 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_lower SimGameUID: LocalGUID:4f78a774-bac5-4281-81ae-4039d0531ded TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_lower SimGameUID: LocalGUID:c4687828-bfdd-43f9-bcaa-e344a3b178c2 TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_lower SimGameUID: LocalGUID:23fe225a-8b90-488a-8a05-26864a99abb9 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_lower SimGameUID: LocalGUID:db3d6f5e-2624-4bc1-bf38-afd3c967f93f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:ad0d04b9-8987-4588-b497-001178035d38 TargetComponentGUID: MountedLocation:Head
+ Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:3b9b9c5d-4d50-4eae-a370-dd933b44c6c1 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_foot SimGameUID: LocalGUID:04785485-173d-4c4a-80bc-6122b84e2554 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_foot SimGameUID: LocalGUID:875fc727-4948-4bcf-b3d2-14ea6a04d05f TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_hand SimGameUID: LocalGUID:fb668b3a-9fd1-4795-96cd-edb874fad0f0 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_hand SimGameUID: LocalGUID:f7735cb7-58d8-4e10-ac72-b91877b42bc4 TargetComponentGUID: MountedLocation:LeftArm
+ emod_engineslots_GN_Drive SimGameUID:FixedEquipment-08848c20-1e45-4292-82ce-b172f8a99b6e LocalGUID:5dd282dd-387e-4e0c-baf9-0d8dda4cca32 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_cooling SimGameUID: LocalGUID:29256bd4-045c-44ad-8c6c-680fbb0d4c13 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_300 SimGameUID: LocalGUID:0c06dd77-8e3a-424b-ac87-09d898269a46 TargetComponentGUID: MountedLocation:CenterTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-63bec4e3-559c-4986-a56f-4f953cae0405 LocalGUID:c125c3cc-9985-4b7c-b6e0-cc1c3842595b TargetComponentGUID: MountedLocation:LeftTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-9c0528b9-e415-4c3f-a12e-8756ce803242 LocalGUID:3b377442-9b6b-4ae1-b162-07db84feba81 TargetComponentGUID: MountedLocation:LeftArm
+ Linked_GNFrame SimGameUID:FixedEquipment-e3380686-63e7-4aa5-ab97-1a53ae0f23d2 LocalGUID:c2b771e3-1382-4879-badb-7db48691422f TargetComponentGUID: MountedLocation:LeftLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-7a5bfa4e-946b-4bc8-8027-b1209594c3c7 LocalGUID:d9a23bbe-b4fb-4e7b-ac46-6f345dd0af99 TargetComponentGUID: MountedLocation:RightTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-77a70ca3-3ea2-4e96-b82b-62d510a74312 LocalGUID:4dd883f7-b61f-4b71-ad7a-1f52b6a442b1 TargetComponentGUID: MountedLocation:RightArm
+ Linked_GNFrame SimGameUID:FixedEquipment-5cc78c4c-6079-4675-ac46-cf35423333f5 LocalGUID:6fd85268-85b4-4d89-98d7-632581459163 TargetComponentGUID: MountedLocation:RightLeg
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:3cb4c661-1ab8-47b2-875e-6adddd61faef TargetComponentGUID: MountedLocation:LeftArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:63621575-2b86-4450-a7fa-409a790141f8 TargetComponentGUID: MountedLocation:RightArm
+[22:07:45.400]ResolveAddonsOnInventory
+ emod_armorslots_standard SimGameUID: LocalGUID:8bf4299b-55f5-4e8a-aaf0-cf3e3889b6c4 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_hip SimGameUID: LocalGUID:5759bd32-e471-484b-9349-4f6461966a63 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_hip SimGameUID: LocalGUID:9f2d157d-15ff-4489-8e00-5979059ceeff TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_shoulder SimGameUID: LocalGUID:917e84f4-0b6d-4895-8405-295535b76f65 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_shoulder SimGameUID: LocalGUID:58ba5fe0-a69d-4608-a687-29a459f52ec1 TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:fa245268-20b6-4123-8493-c13b0680dd2a TargetComponentGUID: MountedLocation:Head
+ emod_structureslots_standard SimGameUID: LocalGUID:36eb026f-dd19-49b8-9c77-f20562e5509e TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_upper SimGameUID: LocalGUID:f7df2880-7a18-4b0e-93bc-6673e33db115 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_upper SimGameUID: LocalGUID:fa14b766-0a0f-486e-bc04-0db3dd5a859e TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_upper SimGameUID: LocalGUID:e91c76bf-eeb3-45a5-be32-937209d29c2c TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_upper SimGameUID: LocalGUID:7c27a98e-c80f-4fe4-a478-14f815bd3b5f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_GN SimGameUID:FixedEquipment-a9215585-2a12-4079-85de-01791272d2d2 LocalGUID:2e1d37f2-f5d7-47cb-8630-524908985114 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_kit_shs SimGameUID: LocalGUID:ee1a9836-a82c-4820-a104-b5e317979160 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_lower SimGameUID: LocalGUID:4f78a774-bac5-4281-81ae-4039d0531ded TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_lower SimGameUID: LocalGUID:c4687828-bfdd-43f9-bcaa-e344a3b178c2 TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_lower SimGameUID: LocalGUID:23fe225a-8b90-488a-8a05-26864a99abb9 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_lower SimGameUID: LocalGUID:db3d6f5e-2624-4bc1-bf38-afd3c967f93f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:ad0d04b9-8987-4588-b497-001178035d38 TargetComponentGUID: MountedLocation:Head
+ Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:3b9b9c5d-4d50-4eae-a370-dd933b44c6c1 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_foot SimGameUID: LocalGUID:04785485-173d-4c4a-80bc-6122b84e2554 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_foot SimGameUID: LocalGUID:875fc727-4948-4bcf-b3d2-14ea6a04d05f TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_hand SimGameUID: LocalGUID:fb668b3a-9fd1-4795-96cd-edb874fad0f0 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_hand SimGameUID: LocalGUID:f7735cb7-58d8-4e10-ac72-b91877b42bc4 TargetComponentGUID: MountedLocation:LeftArm
+ emod_engineslots_GN_Drive SimGameUID:FixedEquipment-08848c20-1e45-4292-82ce-b172f8a99b6e LocalGUID:5dd282dd-387e-4e0c-baf9-0d8dda4cca32 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_cooling SimGameUID: LocalGUID:29256bd4-045c-44ad-8c6c-680fbb0d4c13 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_300 SimGameUID: LocalGUID:0c06dd77-8e3a-424b-ac87-09d898269a46 TargetComponentGUID: MountedLocation:CenterTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-63bec4e3-559c-4986-a56f-4f953cae0405 LocalGUID:c125c3cc-9985-4b7c-b6e0-cc1c3842595b TargetComponentGUID: MountedLocation:LeftTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-9c0528b9-e415-4c3f-a12e-8756ce803242 LocalGUID:3b377442-9b6b-4ae1-b162-07db84feba81 TargetComponentGUID: MountedLocation:LeftArm
+ Linked_GNFrame SimGameUID:FixedEquipment-e3380686-63e7-4aa5-ab97-1a53ae0f23d2 LocalGUID:c2b771e3-1382-4879-badb-7db48691422f TargetComponentGUID: MountedLocation:LeftLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-7a5bfa4e-946b-4bc8-8027-b1209594c3c7 LocalGUID:d9a23bbe-b4fb-4e7b-ac46-6f345dd0af99 TargetComponentGUID: MountedLocation:RightTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-77a70ca3-3ea2-4e96-b82b-62d510a74312 LocalGUID:4dd883f7-b61f-4b71-ad7a-1f52b6a442b1 TargetComponentGUID: MountedLocation:RightArm
+ Linked_GNFrame SimGameUID:FixedEquipment-5cc78c4c-6079-4675-ac46-cf35423333f5 LocalGUID:6fd85268-85b4-4d89-98d7-632581459163 TargetComponentGUID: MountedLocation:RightLeg
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:3cb4c661-1ab8-47b2-875e-6adddd61faef TargetComponentGUID: MountedLocation:LeftArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:63621575-2b86-4450-a7fa-409a790141f8 TargetComponentGUID: MountedLocation:RightArm
+[22:07:45.427]ResolveAddonsOnInventory
+ emod_armorslots_standard SimGameUID: LocalGUID:8bf4299b-55f5-4e8a-aaf0-cf3e3889b6c4 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_hip SimGameUID: LocalGUID:5759bd32-e471-484b-9349-4f6461966a63 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_hip SimGameUID: LocalGUID:9f2d157d-15ff-4489-8e00-5979059ceeff TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_shoulder SimGameUID: LocalGUID:917e84f4-0b6d-4895-8405-295535b76f65 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_shoulder SimGameUID: LocalGUID:58ba5fe0-a69d-4608-a687-29a459f52ec1 TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:fa245268-20b6-4123-8493-c13b0680dd2a TargetComponentGUID: MountedLocation:Head
+ emod_structureslots_standard SimGameUID: LocalGUID:36eb026f-dd19-49b8-9c77-f20562e5509e TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_upper SimGameUID: LocalGUID:f7df2880-7a18-4b0e-93bc-6673e33db115 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_upper SimGameUID: LocalGUID:fa14b766-0a0f-486e-bc04-0db3dd5a859e TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_upper SimGameUID: LocalGUID:e91c76bf-eeb3-45a5-be32-937209d29c2c TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_upper SimGameUID: LocalGUID:7c27a98e-c80f-4fe4-a478-14f815bd3b5f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_GN SimGameUID:FixedEquipment-a9215585-2a12-4079-85de-01791272d2d2 LocalGUID:2e1d37f2-f5d7-47cb-8630-524908985114 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_kit_shs SimGameUID: LocalGUID:ee1a9836-a82c-4820-a104-b5e317979160 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_lower SimGameUID: LocalGUID:4f78a774-bac5-4281-81ae-4039d0531ded TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_lower SimGameUID: LocalGUID:c4687828-bfdd-43f9-bcaa-e344a3b178c2 TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_lower SimGameUID: LocalGUID:23fe225a-8b90-488a-8a05-26864a99abb9 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_lower SimGameUID: LocalGUID:db3d6f5e-2624-4bc1-bf38-afd3c967f93f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:ad0d04b9-8987-4588-b497-001178035d38 TargetComponentGUID: MountedLocation:Head
+ Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:3b9b9c5d-4d50-4eae-a370-dd933b44c6c1 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_foot SimGameUID: LocalGUID:04785485-173d-4c4a-80bc-6122b84e2554 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_foot SimGameUID: LocalGUID:875fc727-4948-4bcf-b3d2-14ea6a04d05f TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_hand SimGameUID: LocalGUID:fb668b3a-9fd1-4795-96cd-edb874fad0f0 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_hand SimGameUID: LocalGUID:f7735cb7-58d8-4e10-ac72-b91877b42bc4 TargetComponentGUID: MountedLocation:LeftArm
+ emod_engineslots_GN_Drive SimGameUID:FixedEquipment-08848c20-1e45-4292-82ce-b172f8a99b6e LocalGUID:5dd282dd-387e-4e0c-baf9-0d8dda4cca32 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_cooling SimGameUID: LocalGUID:29256bd4-045c-44ad-8c6c-680fbb0d4c13 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_300 SimGameUID: LocalGUID:0c06dd77-8e3a-424b-ac87-09d898269a46 TargetComponentGUID: MountedLocation:CenterTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-63bec4e3-559c-4986-a56f-4f953cae0405 LocalGUID:c125c3cc-9985-4b7c-b6e0-cc1c3842595b TargetComponentGUID: MountedLocation:LeftTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-9c0528b9-e415-4c3f-a12e-8756ce803242 LocalGUID:3b377442-9b6b-4ae1-b162-07db84feba81 TargetComponentGUID: MountedLocation:LeftArm
+ Linked_GNFrame SimGameUID:FixedEquipment-e3380686-63e7-4aa5-ab97-1a53ae0f23d2 LocalGUID:c2b771e3-1382-4879-badb-7db48691422f TargetComponentGUID: MountedLocation:LeftLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-7a5bfa4e-946b-4bc8-8027-b1209594c3c7 LocalGUID:d9a23bbe-b4fb-4e7b-ac46-6f345dd0af99 TargetComponentGUID: MountedLocation:RightTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-77a70ca3-3ea2-4e96-b82b-62d510a74312 LocalGUID:4dd883f7-b61f-4b71-ad7a-1f52b6a442b1 TargetComponentGUID: MountedLocation:RightArm
+ Linked_GNFrame SimGameUID:FixedEquipment-5cc78c4c-6079-4675-ac46-cf35423333f5 LocalGUID:6fd85268-85b4-4d89-98d7-632581459163 TargetComponentGUID: MountedLocation:RightLeg
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:3cb4c661-1ab8-47b2-875e-6adddd61faef TargetComponentGUID: MountedLocation:LeftArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:63621575-2b86-4450-a7fa-409a790141f8 TargetComponentGUID: MountedLocation:RightArm
+[22:07:45.452]ResolveAddonsOnInventory
+ emod_armorslots_standard SimGameUID: LocalGUID:8bf4299b-55f5-4e8a-aaf0-cf3e3889b6c4 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_hip SimGameUID: LocalGUID:5759bd32-e471-484b-9349-4f6461966a63 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_hip SimGameUID: LocalGUID:9f2d157d-15ff-4489-8e00-5979059ceeff TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_shoulder SimGameUID: LocalGUID:917e84f4-0b6d-4895-8405-295535b76f65 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_shoulder SimGameUID: LocalGUID:58ba5fe0-a69d-4608-a687-29a459f52ec1 TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:fa245268-20b6-4123-8493-c13b0680dd2a TargetComponentGUID: MountedLocation:Head
+ emod_structureslots_standard SimGameUID: LocalGUID:36eb026f-dd19-49b8-9c77-f20562e5509e TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_upper SimGameUID: LocalGUID:f7df2880-7a18-4b0e-93bc-6673e33db115 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_upper SimGameUID: LocalGUID:fa14b766-0a0f-486e-bc04-0db3dd5a859e TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_upper SimGameUID: LocalGUID:e91c76bf-eeb3-45a5-be32-937209d29c2c TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_upper SimGameUID: LocalGUID:7c27a98e-c80f-4fe4-a478-14f815bd3b5f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_GN SimGameUID:FixedEquipment-a9215585-2a12-4079-85de-01791272d2d2 LocalGUID:2e1d37f2-f5d7-47cb-8630-524908985114 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_kit_shs SimGameUID: LocalGUID:ee1a9836-a82c-4820-a104-b5e317979160 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_lower SimGameUID: LocalGUID:4f78a774-bac5-4281-81ae-4039d0531ded TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_lower SimGameUID: LocalGUID:c4687828-bfdd-43f9-bcaa-e344a3b178c2 TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_lower SimGameUID: LocalGUID:23fe225a-8b90-488a-8a05-26864a99abb9 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_lower SimGameUID: LocalGUID:db3d6f5e-2624-4bc1-bf38-afd3c967f93f TargetComponentGUID: MountedLocation:LeftArm
+ Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:ad0d04b9-8987-4588-b497-001178035d38 TargetComponentGUID: MountedLocation:Head
+ Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:3b9b9c5d-4d50-4eae-a370-dd933b44c6c1 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_leg_foot SimGameUID: LocalGUID:04785485-173d-4c4a-80bc-6122b84e2554 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_foot SimGameUID: LocalGUID:875fc727-4948-4bcf-b3d2-14ea6a04d05f TargetComponentGUID: MountedLocation:RightLeg
+ emod_arm_part_hand SimGameUID: LocalGUID:fb668b3a-9fd1-4795-96cd-edb874fad0f0 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_hand SimGameUID: LocalGUID:f7735cb7-58d8-4e10-ac72-b91877b42bc4 TargetComponentGUID: MountedLocation:LeftArm
+ emod_engineslots_GN_Drive SimGameUID:FixedEquipment-08848c20-1e45-4292-82ce-b172f8a99b6e LocalGUID:5dd282dd-387e-4e0c-baf9-0d8dda4cca32 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_cooling SimGameUID: LocalGUID:29256bd4-045c-44ad-8c6c-680fbb0d4c13 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_300 SimGameUID: LocalGUID:0c06dd77-8e3a-424b-ac87-09d898269a46 TargetComponentGUID: MountedLocation:CenterTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-63bec4e3-559c-4986-a56f-4f953cae0405 LocalGUID:c125c3cc-9985-4b7c-b6e0-cc1c3842595b TargetComponentGUID: MountedLocation:LeftTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-9c0528b9-e415-4c3f-a12e-8756ce803242 LocalGUID:3b377442-9b6b-4ae1-b162-07db84feba81 TargetComponentGUID: MountedLocation:LeftArm
+ Linked_GNFrame SimGameUID:FixedEquipment-e3380686-63e7-4aa5-ab97-1a53ae0f23d2 LocalGUID:c2b771e3-1382-4879-badb-7db48691422f TargetComponentGUID: MountedLocation:LeftLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-7a5bfa4e-946b-4bc8-8027-b1209594c3c7 LocalGUID:d9a23bbe-b4fb-4e7b-ac46-6f345dd0af99 TargetComponentGUID: MountedLocation:RightTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-77a70ca3-3ea2-4e96-b82b-62d510a74312 LocalGUID:4dd883f7-b61f-4b71-ad7a-1f52b6a442b1 TargetComponentGUID: MountedLocation:RightArm
+ Linked_GNFrame SimGameUID:FixedEquipment-5cc78c4c-6079-4675-ac46-cf35423333f5 LocalGUID:6fd85268-85b4-4d89-98d7-632581459163 TargetComponentGUID: MountedLocation:RightLeg
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:3cb4c661-1ab8-47b2-875e-6adddd61faef TargetComponentGUID: MountedLocation:LeftArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:63621575-2b86-4450-a7fa-409a790141f8 TargetComponentGUID: MountedLocation:RightArm
+[22:09:26.476]LanceMechEquipmentList.SetLoadout 34
+ Gear_Cockpit_SensorsA_Standard
+ Gear_Cockpit_SensorsB_Standard
+ emod_armorslots_standard
+ emod_structureslots_standard
+ Gear_Cockpit_GN
+ emod_kit_shs
+ Gear_Gyro_Generic_Standard
+ emod_engineslots_GN_Drive
+ emod_engine_cooling
+ emod_engine_300
+ Linked_GNFrame
+ Linked_GNFrame
+ emod_arm_part_shoulder
+ emod_arm_part_upper
+ emod_arm_part_lower
+ emod_arm_part_hand
+ Linked_GNFrame
+ Gear_HandHeld_Slot
+ emod_arm_part_shoulder
+ emod_arm_part_upper
+ emod_arm_part_lower
+ emod_arm_part_hand
+ Linked_GNFrame
+ Gear_HandHeld_Slot
+ emod_leg_hip
+ emod_leg_upper
+ emod_leg_lower
+ emod_leg_foot
+ Linked_GNFrame
+ emod_leg_hip
+ emod_leg_upper
+ emod_leg_lower
+ emod_leg_foot
+ Linked_GNFrame
+[22:09:26.486]ResolveAddonsOnInventory
+ Gear_Cockpit_SensorsA_Standard SimGameUID: LocalGUID:fa245268-20b6-4123-8493-c13b0680dd2a TargetComponentGUID: MountedLocation:Head
+ Gear_Cockpit_SensorsB_Standard SimGameUID: LocalGUID:ad0d04b9-8987-4588-b497-001178035d38 TargetComponentGUID: MountedLocation:Head
+ emod_armorslots_standard SimGameUID: LocalGUID:8bf4299b-55f5-4e8a-aaf0-cf3e3889b6c4 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_structureslots_standard SimGameUID: LocalGUID:36eb026f-dd19-49b8-9c77-f20562e5509e TargetComponentGUID: MountedLocation:CenterTorso
+ Gear_Cockpit_GN SimGameUID:FixedEquipment-a9215585-2a12-4079-85de-01791272d2d2 LocalGUID:2e1d37f2-f5d7-47cb-8630-524908985114 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_kit_shs SimGameUID: LocalGUID:ee1a9836-a82c-4820-a104-b5e317979160 TargetComponentGUID: MountedLocation:CenterTorso
+ Gear_Gyro_Generic_Standard SimGameUID: LocalGUID:3b9b9c5d-4d50-4eae-a370-dd933b44c6c1 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engineslots_GN_Drive SimGameUID:FixedEquipment-08848c20-1e45-4292-82ce-b172f8a99b6e LocalGUID:5dd282dd-387e-4e0c-baf9-0d8dda4cca32 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_cooling SimGameUID: LocalGUID:29256bd4-045c-44ad-8c6c-680fbb0d4c13 TargetComponentGUID: MountedLocation:CenterTorso
+ emod_engine_300 SimGameUID: LocalGUID:0c06dd77-8e3a-424b-ac87-09d898269a46 TargetComponentGUID: MountedLocation:CenterTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-63bec4e3-559c-4986-a56f-4f953cae0405 LocalGUID:c125c3cc-9985-4b7c-b6e0-cc1c3842595b TargetComponentGUID: MountedLocation:LeftTorso
+ Linked_GNFrame SimGameUID:FixedEquipment-7a5bfa4e-946b-4bc8-8027-b1209594c3c7 LocalGUID:d9a23bbe-b4fb-4e7b-ac46-6f345dd0af99 TargetComponentGUID: MountedLocation:RightTorso
+ emod_arm_part_shoulder SimGameUID: LocalGUID:58ba5fe0-a69d-4608-a687-29a459f52ec1 TargetComponentGUID: MountedLocation:LeftArm
+ emod_arm_part_upper SimGameUID: LocalGUID:7c27a98e-c80f-4fe4-a478-14f815bd3b5f TargetComponentGUID: MountedLocation:LeftArm
+ emod_arm_part_lower SimGameUID: LocalGUID:db3d6f5e-2624-4bc1-bf38-afd3c967f93f TargetComponentGUID: MountedLocation:LeftArm
+ emod_arm_part_hand SimGameUID: LocalGUID:f7735cb7-58d8-4e10-ac72-b91877b42bc4 TargetComponentGUID: MountedLocation:LeftArm
+ Linked_GNFrame SimGameUID:FixedEquipment-9c0528b9-e415-4c3f-a12e-8756ce803242 LocalGUID:3b377442-9b6b-4ae1-b162-07db84feba81 TargetComponentGUID: MountedLocation:LeftArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:3cb4c661-1ab8-47b2-875e-6adddd61faef TargetComponentGUID: MountedLocation:LeftArm
+ emod_arm_part_shoulder SimGameUID: LocalGUID:917e84f4-0b6d-4895-8405-295535b76f65 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_upper SimGameUID: LocalGUID:e91c76bf-eeb3-45a5-be32-937209d29c2c TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_lower SimGameUID: LocalGUID:23fe225a-8b90-488a-8a05-26864a99abb9 TargetComponentGUID: MountedLocation:RightArm
+ emod_arm_part_hand SimGameUID: LocalGUID:fb668b3a-9fd1-4795-96cd-edb874fad0f0 TargetComponentGUID: MountedLocation:RightArm
+ Linked_GNFrame SimGameUID:FixedEquipment-77a70ca3-3ea2-4e96-b82b-62d510a74312 LocalGUID:4dd883f7-b61f-4b71-ad7a-1f52b6a442b1 TargetComponentGUID: MountedLocation:RightArm
+ Gear_HandHeld_Slot SimGameUID: LocalGUID:63621575-2b86-4450-a7fa-409a790141f8 TargetComponentGUID: MountedLocation:RightArm
+ emod_leg_hip SimGameUID: LocalGUID:5759bd32-e471-484b-9349-4f6461966a63 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_upper SimGameUID: LocalGUID:f7df2880-7a18-4b0e-93bc-6673e33db115 TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_lower SimGameUID: LocalGUID:4f78a774-bac5-4281-81ae-4039d0531ded TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_foot SimGameUID: LocalGUID:04785485-173d-4c4a-80bc-6122b84e2554 TargetComponentGUID: MountedLocation:LeftLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-e3380686-63e7-4aa5-ab97-1a53ae0f23d2 LocalGUID:c2b771e3-1382-4879-badb-7db48691422f TargetComponentGUID: MountedLocation:LeftLeg
+ emod_leg_hip SimGameUID: LocalGUID:9f2d157d-15ff-4489-8e00-5979059ceeff TargetComponentGUID: MountedLocation:RightLeg
+ emod_leg_upper SimGameUID: LocalGUID:fa14b766-0a0f-486e-bc04-0db3dd5a859e TargetComponentGUID: MountedLocation:RightLeg
+ emod_leg_lower SimGameUID: LocalGUID:c4687828-bfdd-43f9-bcaa-e344a3b178c2 TargetComponentGUID: MountedLocation:RightLeg
+ emod_leg_foot SimGameUID: LocalGUID:875fc727-4948-4bcf-b3d2-14ea6a04d05f TargetComponentGUID: MountedLocation:RightLeg
+ Linked_GNFrame SimGameUID:FixedEquipment-5cc78c4c-6079-4675-ac46-cf35423333f5 LocalGUID:6fd85268-85b4-4d89-98d7-632581459163 TargetComponentGUID: MountedLocation:RightLeg

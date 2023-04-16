@@ -427,6 +427,31 @@
                     "OnDestroyedEffectIDs" : ["CriticalEffect-ArmHandActuatorDestroyed-{location}"]
                 }
             }
+        },
+        {
+            "Name": "HandHeld",
+            "DisplayName": "Hand Held Weapon",
+            "DefaultCustoms": {
+              "Sorter": 4,
+              "LootMagnetComp": {
+                "Blacklisted": true
+              },
+              "RGBColor": "#A7A7A7",
+              "InventorySorter": "4"
+            },
+            "BaseLimits": [
+              {
+                "Location": "LeftArm",
+                "Max": 1,
+                "Min": 1
+              },
+              {
+                "Location": "RightArm",
+                "Max": 1,
+                "Min": 1
+              }
+            
+            ]
         }
     ]
 }

@@ -181,12 +181,36 @@
     ],
     "VariantName": "MAD-GN-000",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mobilesuit"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "GN Battlemech",
     "YangsThoughts": "Boss I have no idea where you acquired this. Its best if we returned this machine where you found it before they notice. Records indicate this machine was unvieled, and piloted by Primus Lan Leonhart in the field against Clan Wolf on Tukayyid. The Primus single handedly took down a star of Clan battlemechs. This machine is no slouch sporting a GN Beam Rifle, and shield.",
     "FixedEquipment": [
+        {
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Handheld_Slot",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+        {
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Handheld_Slot",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Cockpit_GN",
@@ -264,48 +288,6 @@
           "MountedLocation": "CenterTorso",
           "ComponentDefID": "emod_engineslots_GN_Drive",
           "ComponentDefType": "HeatSink",
-          "HardpointSlot": -1,
-          "DamageLevel": "Functional"
-        },
-        {
-          "MountedLocation": "LeftTorso",
-          "ComponentDefID": "GNFlightPackL",
-          "ComponentDefType": "Upgrade",
-          "HardpointSlot": -1,
-          "DamageLevel": "Functional"
-        },
-        {
-          "MountedLocation": "RightTorso",
-          "ComponentDefID": "GNFlightPack",
-          "ComponentDefType": "Upgrade",
-          "HardpointSlot": -1,
-          "DamageLevel": "Functional"
-        },
-        {
-          "MountedLocation": "RightLeg",
-          "ComponentDefID": "Gear_JumpJet_DistalAttitudeControl",
-          "ComponentDefType": "JumpJet",
-          "HardpointSlot": -1,
-          "DamageLevel": "Functional"
-        },
-        {
-          "MountedLocation": "LeftLeg",
-          "ComponentDefID": "Gear_JumpJet_DistalAttitudeControl",
-          "ComponentDefType": "JumpJet",
-          "HardpointSlot": -1,
-          "DamageLevel": "Functional"
-        },
-        {
-          "MountedLocation": "RightArm",
-          "ComponentDefID": "Weapon_Laser_GNRifle",
-          "ComponentDefType": "Weapon",
-          "HardpointSlot": -1,
-          "DamageLevel": "Functional"
-        },
-        {
-          "MountedLocation": "LeftArm",
-          "ComponentDefID": "Weapon_GNVulcan",
-          "ComponentDefType": "Weapon",
           "HardpointSlot": -1,
           "DamageLevel": "Functional"
         }
