@@ -130,7 +130,7 @@
 
   /* Show weapon range in meters instead of "Short" or "Very Long" in weapon mouseover.  Default "Min {0} : Long {2} : Max {4}". */
 
-  "WeaponRangeFormat": "Min {0} : Long {2} : Max {4}",
+  "WeaponRangeFormat": "<size=90%>Min: {0} S: {1} M: {2} L: {3} Max: {4}</size>",
 
   /* Show only one cheevon per weapon subtype.  Same as CombatConstants.CombatUIConstants.collapseWeaponTypesInTickMarks.  Default true. */
 
@@ -288,7 +288,7 @@
 
   /* Hit modifier after jumping, added on top of movement modifier (if any).  Effective only if "Jumped" is in the modifier factor list(s).  Default 0. */
 
-  "ToHitSelfJumped": 3,
+  "ToHitSelfJumped": 0,
 
   //
   // Net To Hit Modifiers
@@ -431,8 +431,8 @@
 
   /* Critical rate on vehicles and turrets, relative to mech.  Set to 0 to disable. */
 
-  "CriChanceVsVehicle": 1.3,
-  "CritChanceVsTurret": 1.6,
+  "CriChanceVsVehicle": 2,
+  "CritChanceVsTurret": 2,
 
   /* Should turrets and vehicles be killed when their ammo explodes?  Default true. */
 

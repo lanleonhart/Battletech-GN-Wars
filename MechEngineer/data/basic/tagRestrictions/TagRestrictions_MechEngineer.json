@@ -1,9 +1,33 @@
 {
-    "Settings" : [
+    "Settings": [
         {
-            "Tag" : "emod_case",
-            "IncompatibleTags" : [
+            "Tag": "emod_case",
+            "IncompatibleTags": [
                 "emod_case2"
+            ]
+        },
+        {
+            "Tag": "ArmHandActuator",
+            "RequiredTagsOnSameLocation": [
+                "ArmLowerActuator"
+            ]
+        },
+        {
+            "Tag": "HandHeld",
+            "RequiredTagsOnSameLocation": [
+                "ArmHandActuator"
+            ]
+        },
+        {
+            "Tag": "Gear_HeatSink_Generic_Standard",
+            "RequiredTags": [
+                "emod_kit_shs"
+            ]
+        },
+        {
+            "Tag": "Gear_HeatSink_Generic_Double",
+            "RequiredTags": [
+                "emod_kit_dhs"
             ]
         }
     ]

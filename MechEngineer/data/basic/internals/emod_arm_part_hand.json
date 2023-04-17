@@ -1,15 +1,11 @@
 {
 	"Custom": {
-		"ArmActuator" : {
-			"Type" : "PartHand"
-		},
-        "BonusDescriptions": {
-            "Bonuses": [
-                "MeleeAccuracyBonus: 1"
-            ]
-        },
+        "BonusDescriptions": [
+            "MeleeAccuracy: + 1",
+            "CarryHandCapacityPercent: 5"
+        ],
         "Category" : { "CategoryID" : "ArmHandActuator" },
-        "Flags" : { "flags" : [ "autorepair", "not_broken" ] }
+        "Flags" : [ "autorepair", "not_broken" ]
 	},
     "Description" : {
         "Cost" : 30000,

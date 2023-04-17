@@ -1,0 +1,44 @@
+{
+	"Name": "CAE_experimental_gear",
+	"Enabled": false,
+	"Hidden": true,
+	"Version": "0.0.44",
+	"PackagedOn": "2019-01-31T00:00:00Z",
+	"DependsOn": [
+		"CustomActivatableEquipment"
+	],
+	"ConflictsWith": [],
+	"Description": "Activatable equipment experimental gear",
+	"Author": "KMiSSioN",
+	"Website": "https://localhost",
+	"Manifest": [
+		{
+      "Type": "CustomHitTableDef",
+      "Path": "hitTables"
+    },
+	  {
+      "Type": "UpgradeDef",
+      "Path": "upgrades"
+    },
+		{
+      "Type": "ChassisDef",
+      "Path": "chassis"
+    },
+		{
+      "Type": "MechDef",
+      "Path": "mech"
+    },
+    {
+      "Type": "WeaponDef",
+      "Path": "weapon"
+    },
+	  {
+      "Type": "WeaponAddonDef",
+      "Path": "addons"
+    },
+    {
+      "Type": "AbilityDef",
+      "Path": "abilities"
+    }
+	]
+}

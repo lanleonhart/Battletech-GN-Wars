@@ -4,12 +4,12 @@ Levels :Spam True :Debug True :Info True :Warn True
 [Info] Product? BATTLETECH-1.9.1-686R
 [Info] ModTek? 3.1.15.0
 [Info] Initialized com.github.m22spencer.BattletechPerformanceFix 2.13.0.18294
-[Info] Mod-Dir? E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\BattletechPerformanceFix
+[Info] Mod-Dir? C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\BattletechPerformanceFix
 [Info] BattletechPerformanceFix found BattleTech 1.9.1 and will now load
 [Info] Features ----------
 [Info] Feature HarmonyPatches is OFF
 [Info] Feature LocalizationPatches is ON
-[Info] Feature MechlabFix is ON
+[Info] Feature MechlabFix is OFF
 [Info] Feature LoadFixes is ON
 [Info] Feature NoSalvageSoftlock is ON
 [Info] Feature DataLoaderGetEntryCheck is ON
@@ -29,18 +29,6 @@ Levels :Spam True :Debug True :Info True :Warn True
 [Info] Feature LocalizationPatches:
 [Info] Patch: StringsProviderBase`1.StringForKeyFormat -> LocalizationPatches.StringForKeyFormat_Pre
 [Info] Patch: StringsProviderBase`1.StringForKeyFormat -> LocalizationPatches.StringForKeyFormat_Post
-[Info] Feature MechlabFix:
-[Info] Patch: AAR_SalvageScreen.BeginSalvageScreen -> MechlabFix.BeginSalvageScreen_Pre
-[Info] Patch: MechLabPanel.PopulateInventory -> MechlabFix.PopulateInventory_Pre
-[Info] Patch: MechLabPanel.ConfirmRevertMech -> MechlabFix.ConfirmRevertMech_Pre
-[Info] Patch: MechLabPanel.ExitMechLab -> MechlabFix.ExitMechLab_Pre
-[Info] Patch: ScrollRect.LateUpdate -> MechlabFix.LateUpdate_Pre
-[Info] Patch: MechLabInventoryWidget.OnAddItem -> MechlabFix.OnAddItem_Pre
-[Info] Patch: MechLabInventoryWidget.OnRemoveItem -> MechlabFix.OnRemoveItem_Pre
-[Info] Patch: MechLabInventoryWidget.OnItemGrab -> MechlabFix.OnItemGrab_Pre
-[Info] Patch: MechLabInventoryWidget.ApplyFiltering -> MechlabFix.ApplyFiltering_Pre
-[Info] Patch: MechLabPanel.MechCanEquipItem -> MechlabFix.MechCanEquipItem_Pre
-[Info] Patch: MechLabInventoryWidget.ApplySorting -> MechlabFix.ApplySorting_Pre
 [Info] Feature LoadFixes:
 [Spam] CheckPatch is NYI
 [Info] Feature NoSalvageSoftlock:
@@ -75,5 +63,3 @@ Levels :Spam True :Debug True :Info True :Warn True
 [Info] Runtime ----------
 [Info] Patch out sensitive data log dumps
 [Info] LogLevel info
-Levels :Spam False :Debug False :Info True :Warn True
-[Info] Sorted in 53.5556 ms

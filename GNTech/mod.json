@@ -11,13 +11,15 @@
         "CCTagRestrictions",
         "CustomSVGIcon",
         "CustomActivatableEquipment",
-        "CustomComponents",
-        "CCHardpoints", 
+        "CustomComponents", 
         "CCCEquipLocationTag", 
         "CCUnitTypes"
     ],
     "DataAddendumEntries": [
-        
+        {
+            "name": "BattleTech.WeaponCategoryEnumeration",
+            "path": "WeaponCategory.json"
+        }
 	],
 
         "Manifest": [
@@ -71,8 +73,17 @@
           },
           {
             "Type": "CCCategories",
-            "Path": "categories/",
+            "Path": "categories",
             "ShouldMergeJSON": false
+        },
+        {
+            "Type": "CCCEquipLocationTag",
+            "Path": "locations",
+            "ShouldMergeJSON": false
+        },
+        {
+            "Type": "CCHardpoints",
+            "Path": "hardpoints"
         }
         
     ],

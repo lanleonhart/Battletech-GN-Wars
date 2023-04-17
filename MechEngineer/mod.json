@@ -5,15 +5,16 @@
 
 	"Enabled": true,
 	"DependsOn": ["CustomComponents"],
+	"ConflictsWith": ["CustomSlots", "HandHeld", "OnePointArmorStep", "Pansar"],
 	"DLL": "MechEngineer.dll",
 	"DLLEntryPoint": "MechEngineer.Control.Start",
 	
 	"LogSettings": {
-		"Enabled" : true
+		"Enabled" : false
 	},
 	
-	"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects","CCHardpoints", "CCCEquipLocationTag", "CCUnitTypes"],
-	
+	"CustomResourceTypes": ["MEBonusDescriptions", "MEStatusEffects","CCCEquipLocationTag"],
+
 	"Manifest": [
 		{
 			"Type": "AdvancedJSONMerge",
@@ -26,8 +27,8 @@
 			"ShouldMergeJSON": false
 		},
 		{
-			"Type": "MECriticalEffects",
-			"Path": "data/basic/criticalEffects/",
+			"Type": "MEStatusEffects",
+			"Path": "data/basic/statusEffects/",
 			"ShouldMergeJSON": false
 		},
 		{
@@ -40,9 +41,19 @@
 			"Path": "data/basic/tagRestrictions/",
 			"ShouldMergeJSON": false
 		},
+		{
+			"Type": "CCDefaults",
+			"Path": "data/basic/defaults/",
+			"ShouldMergeJSON": false
+		},
         {
-            "Type": "CCDefaults",
-            "Path": "data/basic/defaults/",
+            "Type": "CCUnitTypes",
+            "Path": "data/basic/unitTypes/",
+            "ShouldMergeJSON": false
+        },
+		{
+            "Type": "CCCEquipLocationTag",
+            "Path": "data/basic/locations",
             "ShouldMergeJSON": false
         },
 		{
@@ -74,16 +85,11 @@
 			"Type": "ChassisDef",
 			"Path": "data/basic/chassis/",
 			"ShouldMergeJSON": false
-		},		
+		},
 		{
 			"Type": "ItemCollectionDef",
 			"Path": "data/basic/itemCollections/",
 			"ShouldMergeJSON": false
-		},
-		{
-            "Type": "CCUnitTypes",
-            "Path": "unitTypes",
-            "ShouldMergeJSON": false
-        }
+		}
 	]
 }

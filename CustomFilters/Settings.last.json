@@ -1,0 +1,517 @@
+{
+    "MechBay": {
+        "DefaultSortOrderDescription": "A list of sort order terms used for default sorting in the MechBay. Available terms: ChassisCost, ChassisId, ChassisName, ChassisTonnage, ChassisVariantName, MechCBillValue, MechName.",
+        "DefaultSortOrder": [
+            "!ChassisTonnage",
+            "ChassisVariantName",
+            "MechName",
+            "ChassisCost"
+        ]
+    },
+    "MechLab": {
+        "TabsConfigFileDescription": "Points to a file that contains a predefined set of inventory tabs to show in MechLab. See *Tab.json files for examples.",
+        "TabsConfigFile": "RogueTechTabs.json",
+        "ShowDebugButtons": false,
+        "ShopPoolingFixEnabledDescription": "Fixes a vanilla memory leak where the shop in the MechLab does not get pooled.",
+        "ShopPoolingFixEnabled": true
+    },
+    "TagManager": {
+        "EnabledDescription": "Manipulates tags on Components, Mechs, Pilots and Lances by adding or removing BLACKLISTED: Blacklist is applied after Whitelist. Also allows filtering by tags when entering the skirmish mech lab: NotContainsAny has precedence over ContainsAny. Empty allow can be used to match nothing, while null means to allow everything.",
+        "Enabled": true,
+        "SimGameItemsMinCountDescription": "Set the owned minimum count of each mech component in SimGame.",
+        "SimGameItemsMinCount": 0,
+        "LostechStockWeaponVariantDescription": "Fixes lostech variant weapon tagging by checking if id ends with -STOCK.",
+        "LostechStockWeaponVariantFix": false,
+        "SkirmishOverloadWarningDescription": "Warn the user before loading into the SkirmishMechBay if too many 'Mech will be loaded.",
+        "SkirmishOverloadWarningCount": 10000,
+        "SkirmishDefaultDescription": "The default settings used when no options panel is shown and the user enters the skirmish 'Mech bay directly.",
+        "SkirmishDefault": {
+            "Label": "Default",
+            "Components": {
+                "ContainsAny": [
+                    "component_type_stock",
+                    "component_type_variant",
+                    "component_type_lostech"
+                ],
+                "NotContainsAny": [
+                    "BLACKLISTED"
+                ]
+            },
+            "Mechs": {
+                "ContainsAny": [
+                    "unit_release"
+                ],
+                "NotContainsAny": [
+                    "BLACKLISTED",
+                    "unit_unlocked",
+                    "unit_custom"
+                ]
+            },
+            "Pilots": {
+                "ContainsAny": [
+                    "pilot_release_skirmish"
+                ],
+                "NotContainsAny": null
+            },
+            "Lances": {
+                "ContainsAny": [
+                    "lance_bracket_skirmish"
+                ],
+                "NotContainsAny": [
+                    "lance_type_custom"
+                ]
+            }
+        },
+        "SkirmishOptionsShowDescription": "Shows or hides the skirmish options panel before entering the skirmish 'Mech bay.",
+        "SkirmishOptionsShow": true,
+        "SkirmishPresetsDescription": "Presets allow to quickly select a custom filter-combination.",
+        "SkirmishOptionsPresets": [],
+        "SkirmishOptionsDefaultDescription": "Filters that are always active regardless of what the user selects in the options panel.",
+        "SkirmishOptionsDefault": {
+            "Label": "<null>",
+            "Components": {
+                "ContainsAny": null,
+                "NotContainsAny": [
+                    "VanillaOverride"
+                ]
+            },
+            "Mechs": {
+                "ContainsAny": [
+                    "unit_release"
+                ],
+                "NotContainsAny": [
+                    "unit_override",
+                    "unit_vehicle"
+                ]
+            },
+            "Pilots": {
+                "ContainsAny": [
+                    "pilot_release_skirmish"
+                ],
+                "NotContainsAny": null
+            },
+            "Lances": {
+                "ContainsAny": [
+                    "lance_bracket_skirmish"
+                ],
+                "NotContainsAny": null
+            }
+        },
+        "SkirmishOptionsComponentDescription": "Component options that can be selected in the options panel, they don't influence what is loaded into the 'Mech bay only what is shown later on in the 'Mech lab inventory. (Alpha) All active ContainsAny are combined with an OR, all active NotContainsAny are combined with an OR. Afterwards NotContainsAny has anything removed that exists in ContainsAny. Then anything from the defaults are added to each. Then the ContainsAny and NotContainsAny are combined with an AND.",
+        "SkirmishOptionsComponentGroup": {
+            "Label": "Components",
+            "Options": [
+                {
+                    "Label": "None",
+                    "ContainsAny": [],
+                    "NotContainsAny": [],
+                    "OptionActive": false,
+                    "OptionBreakLineBefore": false
+                },
+                {
+                    "Label": "Normal",
+                    "ContainsAny": null,
+                    "NotContainsAny": [
+                        "BLACKLISTED",
+                        "VanillaOverride"
+                    ],
+                    "OptionActive": true,
+                    "OptionBreakLineBefore": false
+                },
+                {
+                    "Label": "+Blacklisted",
+                    "ContainsAny": null,
+                    "NotContainsAny": [
+                        "VanillaOverride"
+                    ],
+                    "OptionActive": false,
+                    "OptionBreakLineBefore": false
+                }
+            ]
+        },
+        "SkirmishOptionsMechGroupsDescription": "Filter which 'Mech get loaded. Each group is combined with an AND, each toggle within a group is combined with an OR.",
+        "SkirmishOptionsMechGroups": [
+            {
+                "Label": "Tech Base",
+                "Options": [
+                    {
+                        "Label": "Inner Sphere",
+                        "ContainsAny": null,
+                        "NotContainsAny": [
+                            "unit_clan",
+                            "unit_omni",
+                            "unit_primitive",
+                            "unit_prototype"
+                        ],
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Clan",
+                        "ContainsAny": [
+                            "unit_clan"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Omni",
+                        "ContainsAny": [
+                            "unit_omni"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Primitive",
+                        "ContainsAny": [
+                            "unit_primitive"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Prototype",
+                        "ContainsAny": [
+                            "unit_prototype"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    }
+                ]
+            },
+            {
+                "Label": "Tonnage",
+                "Options": [
+                    {
+                        "Label": "Light",
+                        "ContainsAny": [
+                            "unit_light"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Medium",
+                        "ContainsAny": [
+                            "unit_medium"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Heavy",
+                        "ContainsAny": [
+                            "unit_heavy"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Assault",
+                        "ContainsAny": [
+                            "unit_assault"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Super Heavy",
+                        "ContainsAny": [
+                            "unit_superheavy_mech"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Other",
+                        "ContainsAny": null,
+                        "NotContainsAny": [
+                            "unit_light",
+                            "unit_medium",
+                            "unit_heavy",
+                            "unit_assault",
+                            "unit_superheavy_mech"
+                        ],
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    }
+                ]
+            },
+            {
+                "Label": "'Mech Type",
+                "Options": [
+                    {
+                        "Label": "BattleMech",
+                        "ContainsAny": null,
+                        "NotContainsAny": [
+                            "unit_industrial",
+                            "unit_protomech",
+                            "unit_quad",
+                            "unit_LAM",
+                            "unit_vehicle",
+                            "unit_powerarmor"
+                        ],
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "IndustrialMech",
+                        "ContainsAny": [
+                            "unit_industrial"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "ProtoMech",
+                        "ContainsAny": [
+                            "unit_protomech"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Battle Armor",
+                        "ContainsAny": [
+                            "unit_powerarmor"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Quadrupedal",
+                        "ContainsAny": [
+                            "unit_quad"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "LAM",
+                        "ContainsAny": [
+                            "unit_LAM"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    }
+                ]
+            },
+            {
+                "Label": "Rarity",
+                "Options": [
+                    {
+                        "Label": "Normal",
+                        "ContainsAny": null,
+                        "NotContainsAny": [
+                            "unit_elite",
+                            "unit_unique",
+                            "unit_legendary"
+                        ],
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Elite",
+                        "ContainsAny": [
+                            "unit_elite"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Unique",
+                        "ContainsAny": [
+                            "unit_unique"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Legendary",
+                        "ContainsAny": [
+                            "unit_legendary"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    }
+                ]
+            },
+            {
+                "Label": "Era",
+                "Options": [
+                    {
+                        "Label": "Clan Invasion",
+                        "ContainsAny": [
+                            "unit_era_clan_invasion"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Civil War",
+                        "ContainsAny": [
+                            "unit_era_civil_war"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Jihad",
+                        "ContainsAny": [
+                            "unit_era_jihad"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Republic",
+                        "ContainsAny": [
+                            "unit_era_republic"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Dark Age",
+                        "ContainsAny": [
+                            "unit_era_dark_ages"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Unknown",
+                        "ContainsAny": null,
+                        "NotContainsAny": [
+                            "unit_era_clan_invasion",
+                            "unit_era_civil_war",
+                            "unit_era_jihad",
+                            "unit_era_republic",
+                            "unit_era_dark_ages"
+                        ],
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    }
+                ]
+            },
+            {
+                "Label": "DLC",
+                "Options": [
+                    {
+                        "Label": "Base",
+                        "ContainsAny": null,
+                        "NotContainsAny": [
+                            "unit_dlc"
+                        ],
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "DLC",
+                        "ContainsAny": [
+                            "unit_dlc"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    }
+                ]
+            },
+            {
+                "Label": "Source",
+                "Options": [
+                    {
+                        "Label": "Core",
+                        "ContainsAny": [
+                            "unit_core"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Eras",
+                        "ContainsAny": [
+                            "unit_optional_era"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "SubMods",
+                        "ContainsAny": null,
+                        "NotContainsAny": [
+                            "unit_core",
+                            "unit_optional_era"
+                        ],
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    }
+                ]
+            },
+            {
+                "Label": "Availability",
+                "Options": [
+                    {
+                        "Label": "Normal",
+                        "ContainsAny": null,
+                        "NotContainsAny": [
+                            "BLACKLISTED"
+                        ],
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    },
+                    {
+                        "Label": "Blacklisted",
+                        "ContainsAny": [
+                            "BLACKLISTED"
+                        ],
+                        "NotContainsAny": null,
+                        "OptionActive": false,
+                        "OptionBreakLineBefore": false
+                    }
+                ]
+            }
+        ],
+        "Components": {
+            "Whitelist": [],
+            "Blacklist": []
+        },
+        "Mechs": {
+            "Whitelist": [],
+            "Blacklist": []
+        },
+        "Pilots": {
+            "Whitelist": [],
+            "Blacklist": []
+        },
+        "Lances": {
+            "Whitelist": [],
+            "Blacklist": []
+        }
+    }
+}
