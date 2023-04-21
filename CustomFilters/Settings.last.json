@@ -10,14 +10,14 @@
     },
     "MechLab": {
         "TabsConfigFileDescription": "Points to a file that contains a predefined set of inventory tabs to show in MechLab. See *Tab.json files for examples.",
-        "TabsConfigFile": "RogueTechTabs.json",
+        "TabsConfigFile": "GNWarsTabs.json",
         "ShowDebugButtons": false,
         "ShopPoolingFixEnabledDescription": "Fixes a vanilla memory leak where the shop in the MechLab does not get pooled.",
         "ShopPoolingFixEnabled": true
     },
     "TagManager": {
         "EnabledDescription": "Manipulates tags on Components, Mechs, Pilots and Lances by adding or removing BLACKLISTED: Blacklist is applied after Whitelist. Also allows filtering by tags when entering the skirmish mech lab: NotContainsAny has precedence over ContainsAny. Empty allow can be used to match nothing, while null means to allow everything.",
-        "Enabled": true,
+        "Enabled": false,
         "SimGameItemsMinCountDescription": "Set the owned minimum count of each mech component in SimGame.",
         "SimGameItemsMinCount": 0,
         "LostechStockWeaponVariantDescription": "Fixes lostech variant weapon tagging by checking if id ends with -STOCK.",
@@ -349,69 +349,6 @@
                             "unit_legendary"
                         ],
                         "NotContainsAny": null,
-                        "OptionActive": false,
-                        "OptionBreakLineBefore": false
-                    }
-                ]
-            },
-            {
-                "Label": "Era",
-                "Options": [
-                    {
-                        "Label": "Clan Invasion",
-                        "ContainsAny": [
-                            "unit_era_clan_invasion"
-                        ],
-                        "NotContainsAny": null,
-                        "OptionActive": false,
-                        "OptionBreakLineBefore": false
-                    },
-                    {
-                        "Label": "Civil War",
-                        "ContainsAny": [
-                            "unit_era_civil_war"
-                        ],
-                        "NotContainsAny": null,
-                        "OptionActive": false,
-                        "OptionBreakLineBefore": false
-                    },
-                    {
-                        "Label": "Jihad",
-                        "ContainsAny": [
-                            "unit_era_jihad"
-                        ],
-                        "NotContainsAny": null,
-                        "OptionActive": false,
-                        "OptionBreakLineBefore": false
-                    },
-                    {
-                        "Label": "Republic",
-                        "ContainsAny": [
-                            "unit_era_republic"
-                        ],
-                        "NotContainsAny": null,
-                        "OptionActive": false,
-                        "OptionBreakLineBefore": false
-                    },
-                    {
-                        "Label": "Dark Age",
-                        "ContainsAny": [
-                            "unit_era_dark_ages"
-                        ],
-                        "NotContainsAny": null,
-                        "OptionActive": false,
-                        "OptionBreakLineBefore": false
-                    },
-                    {
-                        "Label": "Unknown",
-                        "ContainsAny": null,
-                        "NotContainsAny": [
-                            "unit_era_clan_invasion",
-                            "unit_era_civil_war",
-                            "unit_era_jihad",
-                            "unit_era_republic",
-                            "unit_era_dark_ages"
-                        ],
                         "OptionActive": false,
                         "OptionBreakLineBefore": false
                     }

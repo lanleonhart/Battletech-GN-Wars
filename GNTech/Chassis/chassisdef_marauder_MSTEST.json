@@ -1,0 +1,239 @@
+{
+    "CustomParts": {
+        "AlternateRepresentations": [
+          {
+            "PrefabIdentifier": "chrPrfMech_marauderBase-001",
+            "AdditionalPrefabs": [],
+            "PrefabBase": "marauder",
+            "HardpointDataDef": "hardpointdatadef_marauder",
+            "Type": "AirMech",
+            "HoveringSoundStart": "",
+            "HoveringSoundEnd": "",
+            "SwitchInAudio": "GNAscend",
+            "SwitchOutAudio": "GNDescend",
+            "additionalEncounterTags": [
+              
+            ],
+            "FlyHeight": 8.0,
+            "NoJumpjetsBlock": true,
+            "AirMechVerticalJets": [
+              {
+                "Prefab": "vf11lam_vjets_left_leg",
+                "Attach": "j_LHeel",
+                "JetsAttachPoints": [
+                  "jetAttachPoint"
+                ]
+              },
+              {
+                "Prefab": "vf11lam_vjets_right_leg",
+                "Attach": "j_RHeel",
+                "JetsAttachPoints": [
+                  "jetAttachPoint"
+                ]
+              },
+              {
+                "Prefab": "vf11lam_vjets_torso",
+                "Attach": "j_Spine2",
+                "JetsAttachPoints": [
+                  "jetAttachPoint"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+    "Description": {
+        "Cost": 12600000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Marauder",
+        "Id": "chassisdef_marauder_MSTEST",
+        "Name": "Marauder",
+        "Details": "This variant was based off the MAD-DER, and used as test bed for ComStar's bleeding edge GN technology. This variant sports a beam rifle and shield along with a state of the art GN Drive and arms with manipulator hands for percise and accurate fire. GN Technology was discovered in orbit around Terra on board a forgotten space colony. ",
+        "Icon": "Marauder"
+    },
+    "MovementCapDefID": "movedef_marauder_MAD-2R",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_marauder",
+    "PrefabIdentifier": "chrPrfMech_marauderBase-001",
+    "PrefabBase": "marauder",
+    "Tonnage": 75,
+    "InitialTonnage": 32.5,
+    "weightClass": "HEAVY",
+    "Heatsinks": 30,
+    "MaxJumpjets": 4,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 95,
+    "MeleeInstability": 75,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 95,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "SpecialHandHeld",
+                    "Omni": false
+                  }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "OnBackPack",
+                    "Omni": false
+                  }
+        ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 240,
+            "MaxRearArmor": 80,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 290,
+            "MaxRearArmor": 115,
+            "InternalStructure": 110
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "OnBackPack",
+                    "Omni": false
+                  }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 240,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "SpecialHandHeld",
+                    "Omni": false
+                  }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 13.5,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 13.5,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": 2.5,
+            "y": 7,
+            "z": -2.5
+        },
+        {
+            "x": -2.5,
+            "y": 7,
+            "z": -2.5
+        }
+    ],
+    "VariantName": "MAD-MST",
+    "ChassisTags": {
+        "items": [
+            "unit_MS"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "GN Battlemech",
+    "YangsThoughts": "Boss I have no idea where you acquired this. Its best if we returned this machine where you found it before they notice. Records indicate this machine was unvieled, and piloted by Primus Lan Leonhart in the field against Clan Wolf on Tukayyid. The Primus single handedly took down a star of Clan battlemechs. This machine is no slouch sporting a GN Beam Rifle, and shield.",
+    "FixedEquipment": [
+       
+    ]
+}

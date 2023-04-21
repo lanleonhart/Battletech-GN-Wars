@@ -1,0 +1,606 @@
+{
+    "Settings": [
+      {
+        "Name": "HeadAntennaMS",
+        "DisplayName": "Antenna Sensors",
+        "BaseLimits": [
+            {
+                "Min": 1,
+                "Max": 1
+            }
+        ],
+        "DefaultCustoms": {
+            "InventorySorter": "Cockpit0",
+            "Sorter": 0,
+            "RGBColor": "#354b55"
+        },
+            "UnitLimits": [
+                {
+                  "UnitType": "Mech",
+                  "Limits": [
+                    {
+                      "Location": "Head",
+                      "Max": 0
+                    }
+                  ]
+                },
+      {
+        "UnitType": "Vehicle",
+        "Limits": [
+          {
+          "Location": "Head",
+          "Max": 0
+          }
+        ]
+        }
+            ],
+            "CriticalEffects": {
+                "LinkedStatisticName": "Sensors",
+                "PenalizedEffectIDs": [
+                    [ "CriticalEffect-Sensors1" ]
+                ],
+                "OnDestroyedEffectIDs": [ "CriticalEffect-Sensors2" ]
+            }
+        },
+  {
+    "Name": "HeadCIWSMS",
+    "DisplayName": "CIWS Mount",
+    "BaseLimits": [
+      {
+        "Min": 1,
+        "Max": 1
+      }
+    ],
+    "DefaultCustoms": {
+      "InventorySorter": "Cockpit1",
+      "Sorter": 1,
+      "RGBColor": "#354b55"
+    },
+      "UnitLimits": [
+        {
+          "UnitType": "Mech",
+          "Limits": [
+          {
+            "Location": "Head",
+            "Max": 0
+          }
+          ]
+        },
+        {
+          "UnitType": "Vehicle",
+          "Limits": [
+            {
+            "Location": "Head",
+            "Max": 0
+            }
+          ]
+          }
+      ]
+    },
+    {
+      "Name": "CockpitMS",
+      "DisplayName": "MS Cockpit",
+      "BaseLimits": [
+        {
+          "Location": "CenterTorso",
+          "Min": 1,
+          "Max": 1
+        }
+      ],
+      "DefaultCustoms": {
+        "InventorySorter": "Cockpit4",
+        "Sorter": 4,
+        "RGBColor": "#354b55"
+      },
+        "UnitLimits": [
+          {
+            "UnitType": "Mech",
+            "Limits": [
+            {
+              "Location": "None",
+              "Max": 0
+            }
+            ]
+          },
+          {
+            "UnitType": "Vehicle",
+            "Limits": [
+              {
+              "Location": "None",
+              "Max": 0
+              }
+            ]
+            }
+        ]
+      },
+    {
+      "Name": "HeadOpticMS",
+      "DisplayName": "Optical Sensors",
+      "BaseLimits": [
+        {
+          "Min": 1,
+          "Max": 1
+        }
+      ],
+      "DefaultCustoms": {
+        "InventorySorter": "Cockpit2",
+        "Sorter": 2,
+        "RGBColor": "#354b55"
+      },
+        "UnitLimits": [
+          {
+            "UnitType": "Mech",
+            "Limits": [
+            {
+              "Location": "Head",
+              "Max": 0
+            }
+            ]
+          },
+          {
+            "UnitType": "Vehicle",
+            "Limits": [
+              {
+              "Location": "Head",
+              "Max": 0
+              }
+            ],
+            "CriticalEffects": {
+              "LinkedStatisticName": "Sensors",
+              "PenalizedEffectIDs": [
+                  [ "CriticalEffect-Sensors1" ]
+              ],
+              "OnDestroyedEffectIDs": [ "CriticalEffect-Sensors2" ]
+          }
+            }
+        ]
+      },
+      {
+        "Name": "CockpitMS",
+        "DisplayName": "MS Cockpit",
+        "BaseLimits": [
+          {
+            "Location": "CenterTorso",
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "DefaultCustoms": {
+          "InventorySorter": "Cockpit2",
+          "Sorter": 4,
+          "RGBColor": "#354b55"
+        },
+          "UnitLimits": [
+            {
+              "UnitType": "Mech",
+              "Limits": [
+              {
+                "Location": "None",
+                "Max": 0
+              }
+              ]
+            },
+            {
+              "UnitType": "Vehicle",
+              "Limits": [
+                {
+                "Location": "None",
+                "Max": 0
+                }
+              ]
+            }
+          ],
+              "CriticalEffects": {
+                "DeathMethod": "CockpitDestroyed"
+            }
+              
+        },
+      {
+        "Name": "LegHipMS",
+        "DisplayName": "Hip",
+        "BaseLimits": [
+           
+          {
+                "Location": "RightLeg",
+                "Min": 0,
+                "Max": 0
+            },
+            {
+                "Location": "LeftLeg",
+                "Min": 0,
+                "Max": 0
+            }
+        ],
+        "DefaultCustoms": {
+            "InventorySorter": "ActuatorLeg0",
+            "Sorter": 0,
+            "RGBColor": "#354b55"
+            
+        },
+            "UnitLimits": [
+              {
+                "UnitType": "MobileSuit",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              }
+          ],
+            "CriticalEffects": {
+                "DestroyedFloatieMessage": "Actuator DESTROYED",
+                "OnDestroyedEffectIDs": [ "CriticalEffect-HipDestroyed-{location}" ],
+                "OnDestroyedDisableEffectIds": [
+                    "CriticalEffect-LegUpperActuatorDestroyed-{location}",
+                    "CriticalEffect-LegLowerActuatorDestroyed-{location}",
+                    "CriticalEffect-LegFootActuatorDestroyed-{location}"
+                ]
+              }
+    },
+    {
+        "Name": "LegUpperActuatorMS",
+        "DisplayName": "Upper Leg Actuator",
+        "BaseLimits": [
+            {
+              "Location": "RightLeg",
+              "Min": 0,
+                "Max": 0
+          },
+          {
+              "Location": "LeftLeg",
+              "Min": 0,
+                "Max": 0
+          }
+        ],
+        "DefaultCustoms": {
+            "InventorySorter": "ActuatorLeg1",
+            "Sorter": 1,
+            "RGBColor": "#354b55"
+        },
+            "UnitLimits": [
+              {
+                "UnitType": "MobileSuit",
+                "Limits": [
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              }
+          ],
+            "CriticalEffects": {
+                "DestroyedFloatieMessage": "Actuator DESTROYED",
+                "OnDestroyedEffectIDs": [ "CriticalEffect-LegUpperActuatorDestroyed-{location}" ]
+            }
+        },
+    {
+        "Name": "LegLowerActuatorMS",
+        "DisplayName": "Lower Leg Actuator",
+        "BaseLimits": [
+            {
+              "Location": "RightLeg",
+              "Min": 1,
+                "Max": 1
+          },
+          {
+              "Location": "LeftLeg",
+              "Min": 1,
+                "Max": 1
+          }
+        ],
+        "DefaultCustoms": {
+            "InventorySorter": "ActuatorLeg2",
+            "Sorter": 2,
+            "RGBColor": "#354b55"
+          },
+            "UnitLimits": [
+              {
+                "UnitType": "Mech",
+                "Limits": [
+                  {
+                    "Location": "None",
+                    "Min": 0,
+                    "Max": 0
+                  }
+                ]
+              }
+          ],
+            "CriticalEffects": {
+                "DestroyedFloatieMessage": "Actuator DESTROYED",
+                "OnDestroyedEffectIDs": [ "CriticalEffect-LegLowerActuatorDestroyed-{location}" ]
+            }
+          },
+    {
+        "Name": "LegFootActuatorMS",
+        "DisplayName": "Foot Actuator",
+        "BaseLimits": [
+            {
+              "Location": "RightLeg",
+              "Min": 1,
+              "Max": 1
+          },
+          {
+              "Location": "LeftLeg",
+              "Min": 1,
+              "Max": 1
+          }
+        ],
+        "DefaultCustoms": {
+            "InventorySorter": "ActuatorLeg3",
+            "Sorter": 3,
+            "RGBColor": "#354b55"
+          },
+            "UnitLimits": [
+              {
+                "UnitType": "Mech",
+                "Limits": [
+                  {
+                    "Location": "None",
+                    "Min": 0,
+                    "Max": 0
+                  }
+                ]
+              }
+          ],
+            "CriticalEffects": {
+                "DestroyedFloatieMessage": "Actuator DESTROYED",
+                "OnDestroyedEffectIDs": [ "CriticalEffect-LegFootActuatorDestroyed-{location}" ]
+            }
+          },
+    {
+        "Name": "ArmShoulderMS",
+        "DisplayName": "Shoulder",
+        "BaseLimits": [
+            {
+              "Location": "RightArm",
+              "Min": 1,
+                "Max": 1
+          },
+          {
+              "Location": "LeftArm",
+              "Min": 1,
+                "Max": 1
+          }
+        ],
+        "DefaultCustoms": {
+            "InventorySorter": "ActuatorArm0",
+            "Sorter": 0,
+            "RGBColor": "#354b55"
+          },
+            "UnitLimits": [
+              {
+                "UnitType": "Mech",
+                "Limits": [
+                  {
+                    "Location": "None",
+                    "Min": 0,
+                    "Max": 0
+                  }
+                ]
+              }
+          ],
+            "CriticalEffects": {
+                "DestroyedFloatieMessage": "Actuator DESTROYED",
+                "OnDestroyedEffectIDs": [ "CriticalEffect-ShoulderDestroyed-{location}" ],
+                "OnDestroyedDisableEffectIds": [
+                    "CriticalEffect-ArmUpperActuatorDestroyed-{location}",
+                    "CriticalEffect-ArmLowerActuatorDestroyed-{location}",
+                    "CriticalEffect-ArmHandActuatorDestroyed-{location}"
+                ]
+            }
+        },
+    {
+        "Name": "ArmUpperActuatorMS",
+        "DisplayName": "Upper Arm Actuator",
+        "BaseLimits": [
+            {
+              "Location": "RightArm",
+              "Min": 1,
+              "Max": 1
+          },
+          {
+              "Location": "LeftArm",
+              "Min": 1,
+              "Max": 1
+          }
+            
+        ],
+        "DefaultCustoms": {
+            "InventorySorter": "ActuatorArm1",
+            "Sorter": 1,
+            "RGBColor": "#354b55"
+          },
+            "UnitLimits": [
+              {
+                "UnitType": "Mech",
+                "Limits": [
+                  {
+                    "Location": "None",
+                    "Min": 0,
+                    "Max": 0
+                  }
+                ]
+              }
+          ],
+            "CriticalEffects": {
+                "DestroyedFloatieMessage": "Actuator DESTROYED",
+                "OnDestroyedEffectIDs": [ "CriticalEffect-ArmUpperActuatorDestroyed-{location}" ]
+            }
+        },
+    {
+        "Name": "ArmLowerActuatorMS",
+        "DisplayName": "Lower Arm Actuator",
+        "BaseLimits": [
+          {
+            "Location": "RightArm",
+            "Min": 1,
+                "Max": 1
+        },
+        {
+            "Location": "LeftArm",
+            "Min": 1,
+                "Max": 1
+        }
+        ],
+        "DefaultCustoms": {
+            "InventorySorter": "ActuatorArm2",
+            "Sorter": 2,
+            "RGBColor": "#354b55"
+        },
+            "UnitLimits": [
+              {
+                "UnitType": "Mech",
+                "Limits": [
+                  {
+                    "Location": "None",
+                    "Max": 0
+                  }
+                ]
+              }
+          ],
+            "CriticalEffects": {
+                "DestroyedFloatieMessage": "Actuator DESTROYED",
+                "OnDestroyedEffectIDs": [ "CriticalEffect-ArmLowerActuatorDestroyed-{location}" ]
+            }
+        },
+      {
+        "Name": "ArmHandActuatorMS",
+        "DisplayName": "Hand Actuator",
+        "BaseLimits": [
+            
+              {
+                "Location": "RightArm",
+                "Min": 1,
+                "Max": 1
+            },
+            {
+                "Location": "LeftArm",
+                "Min": 1,
+                "Max": 1
+            }
+        ],
+        "DefaultCustoms": {
+            "InventorySorter": "ActuatorArm3",
+            "Sorter": 3,
+            "RGBColor": "#354b55"
+        },
+            "UnitLimits": [
+              {
+                "UnitType": "Mech",
+                "Limits": [
+                  {
+                    "Location": "RightArm",
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  {
+                    "Location": "LeftArm",
+                    "Min": 0,
+                    "Max": 0
+                  }
+                ]
+              }
+          ],
+            "CarryHandCapacityChassisFactor": 0.05,
+            "CriticalEffects": {
+                "DestroyedFloatieMessage": "Actuator DESTROYED",
+                "OnDestroyedEffectIDs": [ "CriticalEffect-ArmHandActuatorDestroyed-{location}" ]
+            }
+      },
+      {
+        "Name": "OptionalA",
+        "DisplayName": "OptionalA",
+        "BaseLimits": [
+            {
+                "Location": "RightTorso",
+                "Min": 1,
+                "Max": 1
+            }
+        ],
+        "DefaultCustoms": {
+            "Sorter": 6,
+            "RGBColor": "#ffffff",
+      "TRGBColor": {
+        "Color": "#000000"
+      }
+        },
+        "UnitLimits": [
+            {
+              "UnitType": "MobileSuit",
+              "Limits": [
+                {
+                  "Location": "RightTorso",
+                  "Min": 1,
+                  "Max": 1
+                }
+              ]
+            },
+            {
+              "UnitType": "Vehicle",
+              "Limits": [
+                {
+                  "Location": "All",
+                  "Max": 0
+                }
+              ]
+            }
+        ]
+      },
+      {
+        "Name": "OptionalB",
+        "DisplayName": "OptionalB",
+        "BaseLimits": [
+            {
+                "Location": "LeftTorso",
+                "Min": 1,
+                "Max": 1
+            }
+        ],
+        "DefaultCustoms": {
+            "Sorter": 6,
+            "RGBColor": "#ffffff",
+            "TRGBColor": {
+              "Color": "#000000"
+            }
+        },
+        "UnitLimits": [
+            {
+              "UnitType": "MobileSuit",
+              "Limits": [
+                {
+                  "Location": "LeftTorso",
+                  "Min": 1,
+                  "Max": 1
+                }
+              ]
+            },
+            {
+              "UnitType": "Vehicle",
+              "Limits": [
+                {
+                  "Location": "All",
+                  "Max": 0
+                }
+              ]
+            }
+        ]
+      }
+    ]
+  }
+        
+      
+   
+  

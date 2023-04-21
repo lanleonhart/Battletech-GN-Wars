@@ -1,0 +1,50 @@
+{
+	"Custom": {
+		
+		"Category": [
+			{
+				"CategoryID": "CockpitMS"
+			}
+		],
+		"CriticalEffects": {
+			"LinkedStatisticName": "LifeSupport",
+			"OnDestroyedEffectIDs": [
+			  "CriticalEffect-LifeSupport1",
+			  "CriticalEffect-LifeSupport2"
+			]
+		},
+		"Flags": [ "not_broken", "default", "autorepair" ]
+	},
+	"Description": {
+		"Cost": 100000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "Generic",
+		"UIName": "Mobile Suit Cockpit Standard",
+		"Id": "Gear_Cockpit_ms",
+		"Name": "MS Cockpit",
+		"Details": "",
+		"Icon": "MSCockpit"
+	  },
+	  "BonusValueA": "Cannot Eject",
+	  "BonusValueB": "",
+	  "ComponentType": "Upgrade",
+	  "ComponentSubType": "NotSet",
+	  "PrefabIdentifier": "",
+	  "BattleValue": 0,
+	  "InventorySize": 2,
+	  "Tonnage": 0,
+	  "AllowedLocations": "CenterTorso",
+	  "DisallowedLocations": "All",
+	  "CriticalComponent": false,
+	  "statusEffects": [
+	
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

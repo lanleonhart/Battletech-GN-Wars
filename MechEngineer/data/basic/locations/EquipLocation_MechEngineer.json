@@ -9,7 +9,7 @@
       { "UnitType" : "MobileSuit", "Location" : "Arms" },
       { "UnitType" : "Vehicle", "Location" : "None" },
       { "UnitType" : "Squad", "Location" : "None" }
-    ]
+        ]
       },
       {
         "Tag": "BackPack",
@@ -65,6 +65,28 @@
     ]
   },
   {
+        "Tag": "ArmLowerActuator",
+        "Default" : "Arms",
+        "UnitTypes" : [
+      { "UnitType" : "QuadMech", "Location" : "None" },
+      { "UnitType" : "Mech", "Location" : "Arms" },
+      { "UnitType" : "MobileSuit", "Location" : "None" },
+      { "UnitType" : "Vehicle", "Location" : "None" },
+      { "UnitType" : "Squad", "Location" : "None" }
+    ]
+      },
+      {
+        "Tag": "ArmHandActuator",
+        "Default" : "Arms",
+        "UnitTypes" : [
+      { "UnitType" : "QuadMech", "Location" : "None" },
+      { "UnitType" : "Mech", "Location" : "Arms" },
+      { "UnitType" : "MobileSuit", "Location" : "None" },
+      { "UnitType" : "Vehicle", "Location" : "None" },
+      { "UnitType" : "Squad", "Location" : "None" }
+    ]
+      },
+    {
     "Tag" : "JumpJet",
     "Default" : "Legs, Torso", 
     "UnitTypes" : [
@@ -72,4 +94,4 @@
     ]
   }
     ]
-  }
+}
