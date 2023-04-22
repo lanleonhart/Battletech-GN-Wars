@@ -66,6 +66,7 @@
           }
           ]
         },
+       
         {
           "UnitType": "Vehicle",
           "Limits": [
@@ -156,46 +157,6 @@
         ]
       },
       {
-        "Name": "CockpitMS",
-        "DisplayName": "MS Cockpit",
-        "BaseLimits": [
-          {
-            "Location": "CenterTorso",
-            "Min": 1,
-            "Max": 1
-          }
-        ],
-        "DefaultCustoms": {
-          "InventorySorter": "Cockpit2",
-          "Sorter": 4,
-          "RGBColor": "#354b55"
-        },
-          "UnitLimits": [
-            {
-              "UnitType": "Mech",
-              "Limits": [
-              {
-                "Location": "None",
-                "Max": 0
-              }
-              ]
-            },
-            {
-              "UnitType": "Vehicle",
-              "Limits": [
-                {
-                "Location": "None",
-                "Max": 0
-                }
-              ]
-            }
-          ],
-              "CriticalEffects": {
-                "DeathMethod": "CockpitDestroyed"
-            }
-              
-        },
-      {
         "Name": "LegHipMS",
         "DisplayName": "Hip",
         "BaseLimits": [
@@ -230,6 +191,46 @@
                     "Location": "LeftLeg",
                     "Min": 1,
                     "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "MobileSuitHero",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "Gundam",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "Mech",
+                "Limits": [
+                  {
+                  
+                    "Min": 0
+                    
                   }
                 ]
               }
@@ -269,14 +270,54 @@
                 "UnitType": "MobileSuit",
                 "Limits": [
                   {
-                    "Location": "LeftLeg",
+                    "Location": "RightLeg",
                     "Min": 1,
                     "Max": 2
                   },
                   {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "MobileSuitHero",
+                "Limits": [
+                  {
                     "Location": "RightLeg",
                     "Min": 1,
                     "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "Gundam",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "Mech",
+                "Limits": [
+                  {
+                  
+                    "Min": 0
+                    
                   }
                 ]
               }
@@ -308,12 +349,57 @@
           },
             "UnitLimits": [
               {
+                "UnitType": "MobileSuit",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "MobileSuitHero",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "Gundam",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
                 "UnitType": "Mech",
                 "Limits": [
                   {
-                    "Location": "None",
-                    "Min": 0,
-                    "Max": 0
+                  
+                    "Min": 0
+                    
                   }
                 ]
               }
@@ -345,12 +431,57 @@
           },
             "UnitLimits": [
               {
+                "UnitType": "MobileSuit",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "MobileSuitHero",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "Gundam",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
                 "UnitType": "Mech",
                 "Limits": [
                   {
-                    "Location": "None",
-                    "Min": 0,
-                    "Max": 0
+                  
+                    "Min": 0
+                    
                   }
                 ]
               }
@@ -447,12 +578,12 @@
           {
             "Location": "RightArm",
             "Min": 1,
-                "Max": 1
+            "Max": 1
         },
         {
             "Location": "LeftArm",
             "Min": 1,
-                "Max": 1
+            "Max": 1
         }
         ],
         "DefaultCustoms": {
@@ -539,12 +670,12 @@
         },
         "UnitLimits": [
             {
-              "UnitType": "MobileSuit",
+              "UnitType": "Mech",
               "Limits": [
                 {
                   "Location": "RightTorso",
-                  "Min": 1,
-                  "Max": 1
+                  "Min": 0,
+                  "Max": 0
                 }
               ]
             },
@@ -570,7 +701,7 @@
             }
         ],
         "DefaultCustoms": {
-            "Sorter": 6,
+            "Sorter": 7,
             "RGBColor": "#ffffff",
             "TRGBColor": {
               "Color": "#000000"
@@ -578,12 +709,118 @@
         },
         "UnitLimits": [
             {
+              "UnitType": "Mech",
+              "Limits": [
+                {
+                  "Location": "RightTorso",
+                  "Min": 0,
+                  "Max": 0
+                }
+              ]
+            },
+            {
+              "UnitType": "Vehicle",
+              "Limits": [
+                {
+                  "Location": "All",
+                  "Max": 0
+                }
+              ]
+            },
+            {
+              "Name": "OptionalC",
+              "DisplayName": "OptionalC",
+              "BaseLimits": [
+                  {
+                      "Location": "RightTorso",
+                      "Min": 1,
+                      "Max": 1
+                  }
+              ],
+              "DefaultCustoms": {
+                  "Sorter": 8,
+                  "RGBColor": "#ffffff",
+                  "TRGBColor": {
+                    "Color": "#000000"
+                  }
+              },
+              "UnitLimits": [
+                {
+                    "UnitType": "MobileSuit",
+                    "Limits": [
+                      {
+                        "Location": "RightTorso",
+                        "Min": 0,
+                        "Max": 0
+                      }
+                    ]
+                  },
+                  {
+                    "UnitType": "Mech",
+                    "Limits": [
+                      {
+                        "Location": "All",
+                        "Min": 0,
+                        "Max": 0
+                      }
+                    ]
+                  },
+                  {
+                    "UnitType": "Vehicle",
+                    "Limits": [
+                      {
+                        "Location": "All",
+                        "Max": 0
+                      }
+                    ]
+                  }
+        ]
+      },
+      {
+        "Name": "OptionalD",
+        "DisplayName": "OptionalD",
+        "BaseLimits": [
+            {
+                "Location": "LeftTorso",
+                "Min": 1,
+                "Max": 1
+            }
+        ],
+        "DefaultCustoms": {
+            "Sorter": 9,
+            "RGBColor": "#ffffff",
+            "TRGBColor": {
+              "Color": "#000000"
+            }
+        },
+        "UnitLimits": [
+          {
+            "UnitType": "MobileSuitHero",
+            "Limits": [
+              {
+                "Location": "LeftTorso",
+                "Min": 0,
+                "Max": 0
+              }
+            ]
+          },  
+          {
               "UnitType": "MobileSuit",
               "Limits": [
                 {
                   "Location": "LeftTorso",
-                  "Min": 1,
-                  "Max": 1
+                  "Min": 0,
+                  "Max": 0
+                }
+              ]
+            },
+            {
+              "UnitType": "Mech",
+              "Limits": [
+                {
+                  "Location": "LeftTorso",
+                  "Min": 0,
+                  "Max": 0
                 }
               ]
             },
@@ -596,11 +833,13 @@
                 }
               ]
             }
-        ]
-      }
+  ]
+}
     ]
   }
-        
+]
+}
+ 
       
    
   

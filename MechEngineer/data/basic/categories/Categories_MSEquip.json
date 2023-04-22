@@ -17,7 +17,11 @@
             ],
             "DefaultCustoms": {
                 "InventorySorter": "Cockpit2",
-                "Sorter": 4
+                "Sorter": 1,
+                "RGBColor": "#6D6C60",
+                "TRGBColor": {
+                  "Color": "#FFFFFF"
+                }
             },
             "UnitLimits": [
                 {
@@ -28,6 +32,36 @@
                         "Min": 0,
                         "Max": 0
                       }
+                  ]
+                },
+                {
+                  "UnitType": "MobileSuitHero",
+                  "Limits": [
+                    {
+                      "Location": "RightTorso",
+                      "Min": 0,
+                      "Max": 0
+                  },
+                  {
+                      "Location": "LeftTorso",
+                      "Min": 0,
+                      "Max": 0
+                  }
+                  ]
+                },
+                {
+                  "UnitType": "Gundam",
+                  "Limits": [
+                    {
+                      "Location": "RightTorso",
+                      "Min": 1,
+                      "Max": 1
+                  },
+                  {
+                      "Location": "LeftTorso",
+                      "Min": 1,
+                      "Max": 1
+                  }
                   ]
                 },
                 {
@@ -42,8 +76,8 @@
             ]
         },
         {
-            "Name": "BackPackMount",
-            "DisplayName": "BackPackMount",
+            "Name": "EquipmentMount",
+            "DisplayName": "EquipmentMount",
             "BaseLimits": [
                 {
                     "Location": "RightTorso",
@@ -57,7 +91,11 @@
                 }
             ],
             "DefaultCustoms": {
-                "Sorter": 5
+                "Sorter": 2,
+                "RGBColor": "#dadad0",
+                "TRGBColor": {
+                  "Color": "#FFFFFF"
+                }
             },
             "UnitLimits": [
                 {
@@ -72,6 +110,36 @@
                       "Location": "RightTorso",
                       "Min": 0,
                       "Max": 0
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "MobileSuitHero",
+                  "Limits": [
+                    {
+                      "Location": "LeftTorso",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    {
+                      "Location": "RightTorso",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Gundam",
+                  "Limits": [
+                    {
+                      "Location": "LeftTorso",
+                      "Min": 1,
+                      "Max": 1
+                    },
+                    {
+                      "Location": "RightTorso",
+                      "Min": 1,
+                      "Max": 1
                     }
                   ]
                 },
@@ -102,24 +170,58 @@
                 }
             ],
             "DefaultCustoms": {
-                "Sorter": 6
+                "Sorter": 3,
+                "RGBColor": "#b6b5a1",
+            "TRGBColor": {
+              "Color": "#FFFFFF"
+            }
             },
             "UnitLimits": [
-                {
-                  "UnitType": "MobileSuit",
-                  "Limits": [
-                    {
-                      "Location": "LeftTorso",
-                      "Min": 0,
-                      "Max": 0
-                    },
-                    {
-                      "Location": "RightTorso",
-                      "Min": 0,
-                      "Max": 0
-                    }
-                  ]
-                },
+              {
+                "UnitType": "MobileSuit",
+                "Limits": [
+                  {
+                    "Location": "RightTorso",
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  {
+                    "Location": "LeftTorso",
+                    "Min": 0,
+                    "Max": 0
+                  }
+                ]
+              },
+              {
+                "UnitType": "MobileSuitHero",
+                "Limits": [
+                  {
+                    "Location": "RightTorso",
+                    "Min": 1,
+                    "Max": 1
+                  },
+                  {
+                    "Location": "LeftTorso",
+                    "Min": 1,
+                    "Max": 1
+                  }
+                ]
+              },
+              {
+                "UnitType": "Gundam",
+                "Limits": [
+                  {
+                    "Location": "RightTorso",
+                    "Min": 1,
+                    "Max": 1
+                  },
+                  {
+                    "Location": "LeftTorso",
+                    "Min": 1,
+                    "Max": 1
+                  }
+                ]
+              },
                 {
                   "UnitType": "Vehicle",
                   "Limits": [
@@ -147,11 +249,45 @@
                 }
             ],
             "DefaultCustoms": {
-                "Sorter": 7
+                "Sorter": 4,
+                "RGBColor": "#b6b5a1",
+            "TRGBColor": {
+              "Color": "#FFFFFF"
+            }
             },
             "UnitLimits": [
                 {
                   "UnitType": "MobileSuit",
+                  "Limits": [
+                    {
+                      "Location": "LeftLeg",
+                      "Min": 1,
+                      "Max": 1
+                    },
+                    {
+                      "Location": "RightLeg",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "MobileSuitHero",
+                  "Limits": [
+                    {
+                      "Location": "LeftLeg",
+                      "Min": 1,
+                      "Max": 1
+                    },
+                    {
+                      "Location": "RightLeg",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Gundam",
                   "Limits": [
                     {
                       "Location": "LeftLeg",
@@ -193,11 +329,41 @@
             ],
             "DefaultCustoms": {
                 "InventorySorter": "ActuatorArm4",
-                "Sorter": 4
+                "Sorter": 5
             },
             "UnitLimits": [
                 {
                   "UnitType": "MobileSuit",
+                  "Limits": [
+                    {
+                      "Location": "LeftArm",
+                      "Min": 1,
+                      "Max": 1
+                    },
+                    {
+                      "Location": "RightArm",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Gundam",
+                  "Limits": [
+                    {
+                      "Location": "LeftArm",
+                      "Min": 1,
+                      "Max": 1
+                    },
+                    {
+                      "Location": "RightArm",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Gundam",
                   "Limits": [
                     {
                       "Location": "LeftArm",
