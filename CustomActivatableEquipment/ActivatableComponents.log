@@ -1,4 +1,4 @@
-[18:12:57.850]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomActivatableEquipment version: 0.0.0.136
+[19:28:01.395]Initing... C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomActivatableEquipment version: 0.0.0.136
 Settings = [{
   "AdditionalInjuryReasonsTable": {
     "10": "Component Fail",
@@ -113,9 +113,9 @@ ForceMouseEvents(28);;;;;;;;;;;;;;;;;;;;;;X;X;X;
 (29);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
 (30);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
 (31);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
-[18:12:59.171]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.Location found
-[18:12:59.171]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldHaveTags found
-[18:12:59.171]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldNotHaveTags found
+[19:28:01.830]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.Location found
+[19:28:01.830]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldHaveTags found
+[19:28:01.830]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldNotHaveTags found
  BaseComponentRef.LocalGUID found
  BaseComponentRef.TargetComponentGUID found
  BaseComponentRef.LocalGUID found
@@ -136,15 +136,15 @@ ForceMouseEvents(28);;;;;;;;;;;;;;;;;;;;;;X;X;X;
  BaseComponentRef.TargetComponentGUID found
  LanceMechEquipmentListItem.componentRef found
  LanceMechEquipmentListItem.mechDef found
-[18:12:59.824]WPState:BattleTech.UI.CombatHUDWeaponPanel+WPState
+[19:28:02.063]WPState:BattleTech.UI.CombatHUDWeaponPanel+WPState
  None
  Off
  Loading
  Loaded
  Unloading
-[18:13:21.989]FinishedLoading
+[19:28:12.538]FinishedLoading
  customResource:WeaponAddonDef
-[18:13:23.987]Settings.ApplyLocal
+[19:28:13.659]Settings.ApplyLocal
  updating:debug
  updating:ToolTipWarningFailChance
  updating:ToolTipAlertFailChance
@@ -158,3 +158,339 @@ ForceMouseEvents(28);;;;;;;;;;;;;;;;;;;;;;X;X;X;
  updating:componentHeatBarDeactivateColor
 Auras WeaponDef:Weapon_AMS
 Auras WeaponDef:Weapon_Laser_AMS
+Error:Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected character was encountered: ". Path 'CriticalComponent', line 44, position 4.
+  at Newtonsoft.Json.JsonTextReader.ParsePostValue (System.Boolean ignoreComments) [0x00182] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0005a] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JContainer.ReadContentFrom (Newtonsoft.Json.JsonReader r, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00226] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings options) [0x00030] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0006a] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Parse (System.String json, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0000c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Parse (System.String json) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at CustAmmoCategoriesPatches.UpgradeDef_FromJSONAuras.Prefix (BattleTech.MechComponentDef __instance, System.String& json) [0x00000] in <9e7249bcf5914520acc3857de161710c>:0 
+IN:{
+
+	"Custom": {
+		"Category" : [
+			{"CategoryID": "Cockpit"},
+			{"CategoryID": "SensorsB"},
+			{"CategoryID": "LifeSupportB"}
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
+			}
+		},
+		"Flags": [ "not_broken", "no_salvage" ]
+	},
+
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 870000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "SLDF",
+        "Model" : "Advanced",
+        "UIName" : "Cockpit SLIC",
+        "Id" : "Gear_Cockpit_SLDF_Custom",
+        "Name" : "SLDF SpecOps Cockpit  ",
+        "Details" : "This SpecOps tactical upgrade includes a high-grade ballistic cooling vest, an integrated C3 command helmet, and advanced onboard systems, providing both improved sensor capability as well as protection for the pilot. ",
+        "Icon" : "uixSvgIcon_equipment_Comms"
+    },
+    "BonusValueA" : "+1 Health/Morale.",
+    "BonusValueB" : "+20% Sensors/Sight",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 3,
+    "AllowedLocations" : "Head",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "SLIC-Morale_Gain-T1",
+                "Name" : "SLIC Black Ops",
+                "Details" : "SLIC Black Ops Cockpit Specs.",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MoraleBonusGain",
+                "operation" : "Int_Add",
+                "modValue" : "1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },	
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "SLIC-BLACKOPS",
+                "Name" : "SLIC Black Ops",
+                "Details" : "Increased Sight/Sensors/Health.",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "SensorDistanceAbsolute",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "SLIC-Pilot_HealthAdd-T1",
+                "Name" : "MAX INJURIES INCREASED",
+                "Details" : "Prevents 1 Injuries against a MechWarrior.",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "BonusHealth",
+                "operation" : "Int_Add",
+                "modValue" : "1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Pilot",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "SLIC-Spotting_Gain-T1",
+                "Name" : "SPOTTING DISTANCE INCREASED",
+                "Details" : "Increases spotting distance by 50m.",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "SpotterDistanceAbsolute",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }	
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "noautofix"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
+
+[19:28:50.137]SimGameState.Rehydrate
+[19:28:50.365]ComponentsAdditionaDataLoad:{
+  "additionalDataRegistry": {
+    "FixedEquipment-5db81538-bf22-4f1f-bd95-d10e16a2b216": {
+      "LocalGUID": "c0fd35c3-d511-4f00-af5f-611b014c09a0",
+      "TargetGUID": null
+    },
+    "FixedEquipment-df7e946e-7a65-4de6-8b7d-818c3c8726e9": {
+      "LocalGUID": "caa21c81-9b58-49a6-acc5-56b5390a00d1",
+      "TargetGUID": null
+    },
+    "FixedEquipment-387e7561-6f58-48e7-94ad-13bdee1ec8d9": {
+      "LocalGUID": "ca6511d4-6f43-4907-8db8-2ff200cf073f",
+      "TargetGUID": null
+    },
+    "FixedEquipment-2afd54e6-b003-4c1a-a669-ec5917703886": {
+      "LocalGUID": "08316ad0-6517-45b0-b921-765f5864d521",
+      "TargetGUID": null
+    },
+    "FixedEquipment-4d8a497c-0918-482c-86b7-46bb93b16b3e": {
+      "LocalGUID": "fde87730-a4f7-46aa-9189-23af51b3b58f",
+      "TargetGUID": null
+    },
+    "FixedEquipment-d68b1abd-ce9c-4e47-976b-d3414cfc9705": {
+      "LocalGUID": "4321b554-574d-486f-9089-5a0c172fda35",
+      "TargetGUID": null
+    },
+    "FixedEquipment-66e74597-6d16-40d4-b4fa-83e582fc6e07": {
+      "LocalGUID": "7669cc49-166f-406c-a657-8e8d51752331",
+      "TargetGUID": null
+    },
+    "FixedEquipment-f69d8fda-4b2f-45da-b929-0e2852f590a7": {
+      "LocalGUID": "3c8f8c65-38b4-4cd3-bb6f-151b5fcd3fcb",
+      "TargetGUID": null
+    },
+    "FixedEquipment-e4ea432b-c2c8-45c3-9e41-8cb247770c9f": {
+      "LocalGUID": "dc48d36a-1f29-4de2-97d2-14f81f95146d",
+      "TargetGUID": null
+    },
+    "FixedEquipment-26d16fa9-63bf-4e3e-9364-e36eb12d1265": {
+      "LocalGUID": "b119456c-b3b3-405f-82b4-ad0cdcba9d98",
+      "TargetGUID": null
+    },
+    "FixedEquipment-557e1a86-be6b-40d9-b0c0-a01139e7249d": {
+      "LocalGUID": "610f72db-1fdf-4f9a-8793-6020b2cf0faf",
+      "TargetGUID": null
+    },
+    "FixedEquipment-3c909a91-897c-449b-ac67-e70307c94958": {
+      "LocalGUID": "028e434d-8b20-4452-9523-da90efd71302",
+      "TargetGUID": null
+    },
+    "FixedEquipment-ffe34fb4-7c62-4ada-94d0-afe9aa73120b": {
+      "LocalGUID": "127f57b3-0d33-46d9-9a22-4d2724ff0cf0",
+      "TargetGUID": null
+    },
+    "FixedEquipment-1495a63c-f009-49ed-aefc-c12584b6dc8b": {
+      "LocalGUID": "bdf14b21-e710-46e0-b1df-176d85d199c5",
+      "TargetGUID": null
+    },
+    "FixedEquipment-a28fe95b-6ae2-428c-bf98-cf271d8d66ee": {
+      "LocalGUID": "9affde07-b459-4660-8da6-4956c5d2d966",
+      "TargetGUID": null
+    },
+    "FixedEquipment-7d8bc67e-c9a4-47e1-bc08-ca195db44046": {
+      "LocalGUID": "867b897a-ef3c-4d63-be7d-87e9092a18b7",
+      "TargetGUID": null
+    }
+  }
+}

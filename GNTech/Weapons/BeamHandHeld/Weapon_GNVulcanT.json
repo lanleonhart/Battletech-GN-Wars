@@ -1,0 +1,130 @@
+{
+  "Category": [
+      {
+        "CategoryID": "HandHeld"
+      },
+    {
+      "CategoryID": "w/e/l/gnpt"
+    }
+  ],
+  "BonusDescriptions": [
+
+  ],
+    "Type": "Laser",
+    "WeaponSubType": "SmallLaser",
+    "MinRange": 0,
+    "MaxRange": 240,
+    "RangeSplit": [
+      60,
+      120,
+      180
+    ],
+    "weaponCategoryID": "SpecialHandHeld",
+    "AmmoCategory": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 12,
+    "Damage": 7,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "TrooperSquadDamageModifier": 1.5,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 4,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 0,
+    "Instability": 0.5,
+    "ColorsTable": [
+        {
+          "C": "#8C2F1B",
+          "I": 5
+        }
+      ],
+      "ColorChangeRule": "t0",
+    "FireTerrainChance": 0.025,
+    "ImprovedBallistic": true,
+    "HitGenerator": "Cluster",
+    "ClusteringModifier": 0,
+    "FireDelayMultiplier": 0.001,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
+    "preFireStartSFX": "GNVulcan",
+    "preFireStopSFX": "",
+    "delayedSFX": "",
+    "delayedSFXDelay": 0.01,
+    "Description": {
+      "Cost": 168000,
+      "Rarity": 10,
+      "Purchasable": false,
+      "Manufacturer": "Vidar Arms",
+      "Model": "GN Vulcan [T]",
+      "UIName": "GN Vulcan [T]",
+      "Id": "Weapon_GNVulcanT",
+      "Name": "GN Vulcan [T]",
+      "Details": "The GN Vulcan [T] uses GN Particles, and an emitter gate to generate a beam that fires more like a machine gun than a coherent beam. ",
+      "Icon": "GNVulcan"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "",
+    "BattleValue": 30,
+    "InventorySize": 3,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "Modes": [
+      {
+        "Id": "x1",
+        "UIName": "x1",
+        "Name": "x1 Shot",
+        "Description": "GN Vulcan [T] Fires 1 Shot",
+        "isBaseMode": false,
+        "ShotsWhenFired": -3,
+        "RefireModifier": 0,
+        "HeatGenerated": -8
+      },
+      {
+        "Id": "x2",
+        "UIName": "x2",
+        "Name": "x2 Shots",
+        "Description": "GN Vulcan [T] Fires 2 Shots",
+        "isBaseMode": false,
+        "ShotsWhenFired": -2,
+        "RefireModifier": 0,
+        "HeatGenerated": -6
+      },
+      {
+        "Id": "x3",
+        "UIName": "x3",
+        "Name": "x3 Shots",
+        "Description": "GN Vulcan [T] Fires 3 Shots",
+        "isBaseMode": true,
+        "ShotsWhenFired": -1,
+        "RefireModifier": 0,
+        "HeatGenerated": -4
+      },
+      {
+        "Id": "x4",
+        "UIName": "x4",
+        "Name": "x4 Shots",
+        "Description": "GN Vulcan [T] Fires 4 Shots",
+        "isBaseMode": false,
+        "RefireModifier": 0
+        
+      }
+    ],
+    "statusEffects": [],
+    "ComponentTags": {
+      "items": [
+        "component_type_stock"
+      ],
+      "tagSetSourceFile": ""
+    }
+}
