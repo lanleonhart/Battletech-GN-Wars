@@ -73,15 +73,13 @@ function updatePilotsList(){
 		  }else{
 			$("#pilotsPlace").html("<select/>");
   		    $.each( data, function( index, val ) {
-			  $("#pilotsPlace").children("select").append("<option pilotname='"+val+"'>"+val+"</option>");
+			  $("#pilotsPlace").children("select").append("<option pilotid='"+val+"'>"+val+"</option>");
 		    }); 
-			$("#pilotsPlace").append("<input type='text' value='1'/>");
-			$("#pilotsPlace").append("<button type='button' onclick='addPilot();'>Add Pilot</button>");
+			$("#pilotsPlace").append("<button type='button' onclick='addPilot();'>Add pilot to roster</button>");
 		  }
 	  }
 	});
 }
-
 
 function addItem(){
 	var data = {};
@@ -106,7 +104,7 @@ function addItem(){
 
 function addPilot(){
 	var data = {};
-	data.pilotdef = $("#pilotsPlace").children("select").children("option:selected").attr("pilotname")
+	data.pilotdef = $("#pilotsPlace").children("select").children("option:selected").attr("pilotid")
 	$.ajax({
 	  dataType: "json",
 	  data: JSON.stringify(data),
@@ -121,6 +119,7 @@ function addPilot(){
 	  }
 	});
 }
+
 
 function endContract(){
 	var data = {};

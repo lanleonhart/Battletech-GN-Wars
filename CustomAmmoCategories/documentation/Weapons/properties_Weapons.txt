@@ -40,6 +40,13 @@
 @Default:AmmunitionDef=1,WeaponDef=1,WeaponMode=1
 @Description:not documented yet
 
+@Name:AIUnsafeJamChanceMod
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=1,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_AIUnsafeJamChanceMod and modifier CAC_AIUnsafeJamChanceMod_Mod
+
 @Name:AlternateAPDamageCalc
 @Type:boolean
 @AppliedTo:WeaponDef
@@ -1023,6 +1030,20 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Default:AmmunitionDef=1,WeaponDef=1,WeaponMode=1
 @Description:not documented yet
 
+@Name:RangeBonusAccuracyMod
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_RangeBonusAccuracyMod and modifier CAC_RangeBonusAccuracyMod_Mod
+
+@Name:RangeBonusDistance
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_RangeBonusDistance and modifier CAC_RangeBonusDistance_Mod
+
 @Name:RangedDmgFalloffType
 @Type:enum. Possible values: NotSet, Quadratic, Cubic, SquareRoot, Log10, LogE, Exp, Linear
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -1191,6 +1212,13 @@ Can be accessed via statistic value CAC_SpreadRange and modifier CAC_SpreadRange
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
 @Description:not documented yet
+
+@Name:UnsafeJamChance
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=1,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_UnsafeJamChance and modifier CAC_UnsafeJamChance_Mod
 
 @Name:UnseparatedDamageMult
 @Type:float

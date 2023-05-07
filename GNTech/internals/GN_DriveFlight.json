@@ -25,14 +25,14 @@
         "effectType": "StatisticEffect",
         "Description": {
           "Id": "StatusEffect-LAM-AirMech-AccuracyDebuff",
-          "Name": "LAM Accuracy Decreased",
-          "Details": "Weapon attacks suffer -3 accuracy.",
+          "Name": "Flight Mode Accuracy Decreased",
+          "Details": "Weapon attacks suffer -2 accuracy.",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
         "statisticData": {
           "modType": "System.Single",
-          "modValue": "3.0",
+          "modValue": "2.0",
           "operation": "Float_Add",
           "statName": "AccuracyModifier",
           "targetAmmoCategory": "NotSet",
@@ -55,9 +55,9 @@
         },
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "StatusEffect-LAM-AirMech-Mode",
-          "Name": "AirMech mode",
-          "Details": "AirMech mode",
+          "Id": "StatusEffect-Flight-Mode",
+          "Name": "Flight mode",
+          "Details": "Flight mode",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
@@ -83,8 +83,8 @@
         "effectType": "StatisticEffect",
         "Description": {
           "Id": "StatusEffect-LAM-AirMech-NoRandomAnim",
-          "Name": "AirMech mode",
-          "Details": "AirMech mode",
+          "Name": "Flight mode",
+          "Details": "Flight mode",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
@@ -109,9 +109,9 @@
         },
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "StatusEffect-LAM-AirMech-WalkSpeed",
-          "Name": "LAM Speed Boost",
-          "Details": "A LAM in AirMech Mode gains a substantial movement bonus.",
+          "Id": "StatusEffect-Flight-Mode-WalkSpeed",
+          "Name": "Flight Mode Boost",
+          "Details": "Flight Mode gains a movement bonus.",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
@@ -119,7 +119,7 @@
           "effectsPersistAfterDestruction": false,
           "statName": "WalkSpeed",
           "operation": "Float_Multiply",
-          "modValue": "2.0",
+          "modValue": "1.9",
           "modType": "System.Single"
         }
       },
@@ -136,17 +136,17 @@
         },
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "StatusEffect-LAM-AirMech-RunSpeed",
-          "Name": "AirMech mode",
-          "Details": "AirMech mode",
+          "Id": "StatusEffect-Flight-Mode-RunSpeed",
+          "Name": "Flight mode",
+          "Details": "Flight mode",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
         "statisticData": {
           "effectsPersistAfterDestruction": false,
           "statName": "CBTBE_RunMultiMod",
-          "operation": "Float_Add",
-          "modValue": "0.2",
+          "operation": "Float_Multiply",
+          "modValue": "0.4",
           "modType": "System.Single"
         }
       },
@@ -254,7 +254,7 @@
           "effectsPersistAfterDestruction": false,
           "statName": "CUFiringArc",
           "operation": "Set",
-          "modValue": "360",
+          "modValue": "180",
           "modType": "System.Single"
         }
       },
@@ -278,58 +278,10 @@
         "statisticData": {
           "statName": "UnsteadyThreshold",
           "operation": "Float_Add",
-          "modValue": "-15.0",
+          "modValue": "-10.0",
           "modType": "System.Single"
         },
         "nature": "Buff"
-      },
-      {
-        "durationData": {},
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInStatusPanel": true
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "StatusEffect-LAMAirMech-DamagePenalty",
-          "Name": "LAM Damage Penalty",
-          "Details": "All incoming damage increased by 10%.",
-          "Icon": "layeredarmor"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "DamageReductionMultiplierAll",
-          "operation": "Float_Multiply",
-          "modValue": "1.1",
-          "modType": "System.Single"
-        }
-      },
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": 1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "AEROUNIT",
-          "Name": "aero unit",
-          "Details": "aero unit thing",
-          "Icon": "uixSvgIcon_equipment_Cockpit"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "AeroUnit",
-          "operation": "Set",
-          "modValue": "true",
-          "modType": "System.Boolean"
-        }
       }
     ]
   },
@@ -350,7 +302,7 @@
   "Manufacturer": "Comstar",
   "Model": "GN",
   "UIName": "GN Interial Control",
-  "Id": "Gear_Avionics_UM",
+  "Id": "Gear_DriveFlight",
   "Name": "Interial Control",
   "Details": "This module controls the flow of GN Particles used for propulsion. When enabled the machine switches into flight mode.",
   "Icon": "uixSvgIcon_equipment_Gyro"
@@ -366,7 +318,62 @@
 "AllowedLocations": "Torso",
 "DisallowedLocations": "All",
 "CriticalComponent": false,
-"statusEffects": [],
+"statusEffects": [
+  {
+    "durationData": {
+      "duration": -1,
+      "stackLimit": -1
+    },
+    "targetingData": {
+      "effectTriggerType": "Passive",
+      "effectTargetType": "Creator",
+      "forcePathRebuild": true,
+      "showInStatusPanel": true
+    },
+    "effectType": "StatisticEffect",
+    "Description": {
+      "Id": "StatusEffect-Ground-Mode-WalkSpeed",
+      "Name": "Ground Mode Boost",
+      "Details": "Ground Mode gains a movement bonus.",
+      "Icon": "uixSvgIcon_equipment_Gyro"
+    },
+    "nature": "Buff",
+    "statisticData": {
+      "effectsPersistAfterDestruction": false,
+      "statName": "WalkSpeed",
+      "operation": "Float_Multiply",
+      "modValue": "0.7",
+      "modType": "System.Single"
+    }
+  },
+  {
+    "durationData": {
+      "duration": -1,
+      "stackLimit": -1
+    },
+    "targetingData": {
+      "effectTriggerType": "Passive",
+      "effectTargetType": "Creator",
+      "forcePathRebuild": true,
+      "showInStatusPanel": false
+    },
+    "effectType": "StatisticEffect",
+    "Description": {
+      "Id": "StatusEffect-Ground-Mode-RunSpeed",
+      "Name": "Ground mode",
+      "Details": "Ground mode",
+      "Icon": "uixSvgIcon_equipment_Gyro"
+    },
+    "nature": "Buff",
+    "statisticData": {
+      "effectsPersistAfterDestruction": false,
+      "statName": "CBTBE_RunMultiMod",
+      "operation": "Float_Multiply",
+      "modValue": "0.7",
+      "modType": "System.Single"
+    }
+  }
+],
 "ComponentTags": {
   "items": [
     

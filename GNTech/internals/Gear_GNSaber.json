@@ -1,0 +1,138 @@
+{
+    "Custom": {
+      "Category": [
+        {
+          "CategoryID": "EquipmentMount"
+        },
+        {
+          "CategoryID": "w/e/l/gnp"
+        }
+        ],
+      "ActivatableComponent": {
+        "CanActivateAfterMove": true,
+        "CanActivateAfterFire": true,
+        "SafeActivation": true,
+        "ButtonName": "GN Saber",
+        "CanNotBeActivatedManualy": false,
+        "NoUniqueCheck": true,
+        "ActiveByDefault": false,
+        "ActivationMessage": "GN Saber ON",
+        "DeactivationMessage": "GN Saber OFF",
+        "Linkage": {
+          "OnActivate": {
+            "Activate": [
+              "GN Saber"
+            ],
+            "Deactivate": []
+          },
+          "OnDeactivate": {
+            "Activate": [],
+            "Deactivate": [
+              "GN Saber"
+            ]
+          }
+        },
+        "statusEffects": [
+          {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "Sword_Damage_Mod",
+              "Name": "Melee Weapon Damage Mod",
+              "Details": "Damage Modifier",
+              "Icon": "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "CBTBE_Physical_Weapon_Target_Damage_Multi",
+              "operation": "Float_Multiply",
+              "modValue": "1.5",
+              "modType": "System.Single"
+            }
+          },
+          {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "Sword_Stability_Mod",
+              "Name": "Melee Weapon Damage Mod",
+              "Details": "Damage Modifier",
+              "Icon": "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "CBTBE_Physical_Weapon_Target_Instability_Multi",
+              "operation": "Float_Multiply",
+              "modValue": "1.3",
+              "modType": "System.Single"
+            }
+          },
+          {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
+            }
+          }
+        ]
+      }
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+      "Cost": 300000,
+      "Rarity": 30,
+      "Purchasable": false,
+      "Manufacturer": "Comstar",
+      "Model": "GN",
+      "UIName": "GN Saber",
+      "Id": "Gear_GNSaber",
+      "Name": "GN Saber",
+      "Details": "Handheld beamsaber using condensed GN Particles to cut through enemy armor at close range.",
+    "Icon": "GNSaber"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+    ],
+    "ComponentTags": {
+      "items": [
+        "component_type_stock"
+    
+      ],
+      "tagSetSourceFile": ""
+    }
+  }

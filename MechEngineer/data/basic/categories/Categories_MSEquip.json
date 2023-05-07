@@ -155,8 +155,8 @@
             ]
         },
         {
-            "Name": "RearThruster",
-            "DisplayName": "RearThruster",
+            "Name": "Thruster",
+            "DisplayName": "Thruster",
             "BaseLimits": [
                 {
                     "Location": "RightTorso",
@@ -167,10 +167,20 @@
                     "Location": "LeftTorso",
                     "Min": 0,
                     "Max": 0
-                }
+                },
+                {
+                  "Location": "RightLeg",
+                  "Min": 0,
+                  "Max": 0
+              },
+              {
+                  "Location": "LeftLeg",
+                  "Min": 0,
+                  "Max": 0
+              }
             ],
             "DefaultCustoms": {
-                "Sorter": 3,
+                "Sorter": 5,
                 "RGBColor": "#b6b5a1",
             "TRGBColor": {
               "Color": "#FFFFFF"
@@ -189,7 +199,17 @@
                     "Location": "LeftTorso",
                     "Min": 0,
                     "Max": 0
-                  }
+                  },
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 1
+                },
+                {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 1
+                }
                 ]
               },
               {
@@ -204,7 +224,17 @@
                     "Location": "LeftTorso",
                     "Min": 1,
                     "Max": 1
-                  }
+                  },
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 1
+                },
+                {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 1
+                }
                 ]
               },
               {
@@ -219,7 +249,17 @@
                     "Location": "LeftTorso",
                     "Min": 1,
                     "Max": 1
-                  }
+                  },
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 1
+                },
+                {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 1
+                }
                 ]
               },
                 {
@@ -230,82 +270,13 @@
                       "Max": 0
                     }
                   ]
-                }
-            ]
-        },
-        {
-            "Name": "LegThruster",
-            "DisplayName": "LegThruster",
-            "BaseLimits": [
-                {
-                    "Location": "RightLeg",
-                    "Min": 0,
-                    "Max": 0
                 },
                 {
-                    "Location": "LeftLeg",
-                    "Min": 0,
-                    "Max": 0
-                }
-            ],
-            "DefaultCustoms": {
-                "Sorter": 4,
-                "RGBColor": "#b6b5a1",
-            "TRGBColor": {
-              "Color": "#FFFFFF"
-            }
-            },
-            "UnitLimits": [
-                {
-                  "UnitType": "MobileSuit",
-                  "Limits": [
-                    {
-                      "Location": "LeftLeg",
-                      "Min": 1,
-                      "Max": 1
-                    },
-                    {
-                      "Location": "RightLeg",
-                      "Min": 1,
-                      "Max": 1
-                    }
-                  ]
-                },
-                {
-                  "UnitType": "MobileSuitHero",
-                  "Limits": [
-                    {
-                      "Location": "LeftLeg",
-                      "Min": 1,
-                      "Max": 1
-                    },
-                    {
-                      "Location": "RightLeg",
-                      "Min": 1,
-                      "Max": 1
-                    }
-                  ]
-                },
-                {
-                  "UnitType": "Gundam",
-                  "Limits": [
-                    {
-                      "Location": "LeftLeg",
-                      "Min": 1,
-                      "Max": 1
-                    },
-                    {
-                      "Location": "RightLeg",
-                      "Min": 1,
-                      "Max": 1
-                    }
-                  ]
-                },
-                {
-                  "UnitType": "Vehicle",
+                  "UnitType": "Mech",
                   "Limits": [
                     {
                       "Location": "All",
+                      "Min": 0,
                       "Max": 0
                     }
                   ]

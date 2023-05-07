@@ -656,7 +656,7 @@
         "DisplayName": "OptionalA",
         "BaseLimits": [
             {
-                "Location": "RightTorso",
+                "Location": "All",
                 "Min": 1,
                 "Max": 1
             }
@@ -673,7 +673,7 @@
               "UnitType": "Mech",
               "Limits": [
                 {
-                  "Location": "RightTorso",
+                  "Location": "All",
                   "Min": 0,
                   "Max": 0
                 }
@@ -695,7 +695,7 @@
         "DisplayName": "OptionalB",
         "BaseLimits": [
             {
-                "Location": "LeftTorso",
+                "Location": "All",
                 "Min": 1,
                 "Max": 1
             }
@@ -712,113 +712,7 @@
               "UnitType": "Mech",
               "Limits": [
                 {
-                  "Location": "RightTorso",
-                  "Min": 0,
-                  "Max": 0
-                }
-              ]
-            },
-            {
-              "UnitType": "Vehicle",
-              "Limits": [
-                {
                   "Location": "All",
-                  "Max": 0
-                }
-              ]
-            },
-            {
-              "Name": "OptionalC",
-              "DisplayName": "OptionalC",
-              "BaseLimits": [
-                  {
-                      "Location": "RightTorso",
-                      "Min": 1,
-                      "Max": 1
-                  }
-              ],
-              "DefaultCustoms": {
-                  "Sorter": 8,
-                  "RGBColor": "#ffffff",
-                  "TRGBColor": {
-                    "Color": "#000000"
-                  }
-              },
-              "UnitLimits": [
-                {
-                    "UnitType": "MobileSuit",
-                    "Limits": [
-                      {
-                        "Location": "RightTorso",
-                        "Min": 0,
-                        "Max": 0
-                      }
-                    ]
-                  },
-                  {
-                    "UnitType": "Mech",
-                    "Limits": [
-                      {
-                        "Location": "All",
-                        "Min": 0,
-                        "Max": 0
-                      }
-                    ]
-                  },
-                  {
-                    "UnitType": "Vehicle",
-                    "Limits": [
-                      {
-                        "Location": "All",
-                        "Max": 0
-                      }
-                    ]
-                  }
-        ]
-      },
-      {
-        "Name": "OptionalD",
-        "DisplayName": "OptionalD",
-        "BaseLimits": [
-            {
-                "Location": "LeftTorso",
-                "Min": 1,
-                "Max": 1
-            }
-        ],
-        "DefaultCustoms": {
-            "Sorter": 9,
-            "RGBColor": "#ffffff",
-            "TRGBColor": {
-              "Color": "#000000"
-            }
-        },
-        "UnitLimits": [
-          {
-            "UnitType": "MobileSuitHero",
-            "Limits": [
-              {
-                "Location": "LeftTorso",
-                "Min": 0,
-                "Max": 0
-              }
-            ]
-          },  
-          {
-              "UnitType": "MobileSuit",
-              "Limits": [
-                {
-                  "Location": "LeftTorso",
-                  "Min": 0,
-                  "Max": 0
-                }
-              ]
-            },
-            {
-              "UnitType": "Mech",
-              "Limits": [
-                {
-                  "Location": "LeftTorso",
                   "Min": 0,
                   "Max": 0
                 }
@@ -833,8 +727,6 @@
                 }
               ]
             }
-  ]
-}
     ]
   }
 ]

@@ -1,0 +1,10 @@
+System.ArgumentException: Illegal characters in path.
+  at System.IO.Path.IsPathRooted (System.String path) [0x0001b] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at HBS.Logging.UnityStackTrace.Parse () [0x0011a] in <4184af8dbeb44635831353f4d349631c>:0 
+  at HBS.Logging.UnityStackTrace.ToString () [0x00008] in <4184af8dbeb44635831353f4d349631c>:0 
+  at ModTek.Features.Logging.Formatter.GetFormattedLogLine (ModTek.Features.Logging.MTLoggerMessageDto messageDto) [0x001ac] in <a257af5559bb4beb84c863e08094d5ba>:0 
+  at ModTek.Features.Logging.AppenderFile.Append (ModTek.Features.Logging.MTLoggerMessageDto messageDto) [0x0000f] in <a257af5559bb4beb84c863e08094d5ba>:0 
+  at ModTek.Features.Logging.LoggingFeature.ProcessLoggerMessage (ModTek.Features.Logging.MTLoggerMessageDto messageDto) [0x00011] in <a257af5559bb4beb84c863e08094d5ba>:0 
+  at ModTek.Features.Logging.MTLoggerAsyncQueue+<>c__DisplayClass5_0.<Loop>b__0 () [0x00000] in <a257af5559bb4beb84c863e08094d5ba>:0 
+  at ModTek.Features.Logging.MTStopwatch.Track (System.Action action) [0x00006] in <a257af5559bb4beb84c863e08094d5ba>:0 
+  at ModTek.Features.Logging.MTLoggerAsyncQueue.Loop () [0x00020] in <a257af5559bb4beb84c863e08094d5ba>:0 

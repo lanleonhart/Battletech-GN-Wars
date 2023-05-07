@@ -10,8 +10,8 @@
         "UIName": "Marauder MAD-GN-000-FA",
         "Id": "mechdef_marauder_MAD-GN-000-FA",
         "Name": "Marauder",
-        "Details": "Developed, and Deployed by ComStar in secret. Primus Lan Leonhart personally tested this unit in field, and single handedly bested a star of Clan Battlemechs.",
-        "Icon": "Marauder"
+        "Details": "This machine is an upgraded version of the GN-000, boasting increased firepower at expense for mobility. ",
+        "Icon": "GNMAD"
     },
     "simGameMechPartCost": 1970000,
     "Version": 1,
@@ -99,42 +99,81 @@
         "DamageLevel": "Functional"
       },
       {
+        "MountedLocation": "RightArm",
+        "ComponentDefID": "Weapon_Laser_GNRifle",
+        "ComponentDefType": "Weapon",
+        "HardpointSlot": -1,
+        "IsFixed": false,
+        "DamageLevel": "Functional"
+      },
+      {
+        "MountedLocation": "LeftTorso",
+        "ComponentDefID": "Weapon_Laser_GNCannon",
+        "ComponentDefType": "Weapon",
+        "HardpointSlot": -1,
+        "IsFixed": false,
+        "DamageLevel": "Functional"
+      },
+      {
         "MountedLocation": "RightTorso",
-        "ComponentDefID": "Weapon_Gauss_GN_LightRailgun",
+        "ComponentDefID": "Weapon_GNM20_E",
         "ComponentDefType": "Weapon",
         "HardpointSlot": -1,
         "IsFixed": false,
         "DamageLevel": "Functional"
       },
       {
-        "MountedLocation": "LeftTorso",
-        "ComponentDefID": "Weapon_Gauss_GN_LightRailgun",
+        "MountedLocation": "LeftArm",
+        "ComponentDefID": "Weapon_GNVulcan",
         "ComponentDefType": "Weapon",
         "HardpointSlot": -1,
         "IsFixed": false,
         "DamageLevel": "Functional"
       },
       {
-        "MountedLocation": "LeftTorso",
-        "ComponentDefID": "Ammo_AmmunitionBox_GNSlug",
-        "ComponentDefType": "AmmunitionBox",
+        "MountedLocation": "RightTorso",
+        "ComponentDefID": "Gear_Standard_Thruster",
+        "ComponentDefType": "JumpJet",
         "HardpointSlot": -1,
         "IsFixed": false,
         "DamageLevel": "Functional"
       },
       {
         "MountedLocation": "LeftTorso",
-        "ComponentDefID": "Ammo_AmmunitionBox_GNSlug",
-        "ComponentDefType": "AmmunitionBox",
+        "ComponentDefID": "Gear_Standard_Thruster",
+        "ComponentDefType": "JumpJet",
+        "HardpointSlot": -1,
+        "IsFixed": false,
+        "DamageLevel": "Functional"
+      },
+      {
+        "MountedLocation": "LeftLeg",
+        "ComponentDefID": "Gear_Standard_Thruster",
+        "ComponentDefType": "JumpJet",
+        "HardpointSlot": -1,
+        "IsFixed": false,
+        "DamageLevel": "Functional"
+      },
+      {
+        "MountedLocation": "RightLeg",
+        "ComponentDefID": "Gear_Standard_Thruster",
+        "ComponentDefType": "JumpJet",
+        "HardpointSlot": -1,
+        "IsFixed": false,
+        "DamageLevel": "Functional"
+      },
+      {
+        "MountedLocation": "CenterTorso",
+        "ComponentDefID": "Gear_Armor_ECarbon",
+        "ComponentDefType": "Upgrade",
         "HardpointSlot": -1,
         "IsFixed": false,
         "DamageLevel": "Functional"
       }
-       
     ],
     "MechTags": {
         "items": [
-            "unit_mech",
+            "unit_Gundam",
             "unit_heavy",
             "unit_release",
             "unit_ready",
