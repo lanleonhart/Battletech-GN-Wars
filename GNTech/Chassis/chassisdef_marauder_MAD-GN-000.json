@@ -114,7 +114,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMountID": "EquipmentMount",
+                    "WeaponMountID": "OnBackPack",
                     "Omni": false
                   }
         ],
@@ -137,7 +137,7 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMountID": "EquipmentMount",
+                    "WeaponMountID": "OnBackPack",
                     "Omni": false
                   }
             ],
@@ -227,7 +227,7 @@
     "VariantName": "MAD-GN-000",
     "ChassisTags": {
         "items": [
-            "unit_Gundam"
+            "unit_MS"
         ],
         "tagSetSourceFile": ""
     },
@@ -237,6 +237,13 @@
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "GN_DriveFlight",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+          },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Cockpit_GN",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
