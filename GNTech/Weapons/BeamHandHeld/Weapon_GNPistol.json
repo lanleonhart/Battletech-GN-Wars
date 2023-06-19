@@ -1,0 +1,137 @@
+
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "HandHeld"
+      },
+      {
+        "CategoryID": "w/s/h/HandHeld"
+      }
+    ]
+    },
+    "Type": "Laser",
+    "WeaponSubType": "MediumLaser",
+    "MinRange": 0,
+    "MaxRange": 250,
+    "RangeSplit": [
+      50,
+      125,
+      250
+    ],
+    "weaponCategoryID": "SpecialHandHeld",
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 0,
+    "Damage" : 25,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 1,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 0,
+    "ColorsTable": [
+      {
+        "C": "#f00e93",
+        "I": 5
+      }
+    ],
+    "ProjectileScale": {
+      "x": 40,
+      "y": 40,
+      "z": 20
+    },
+    "ImprovedBallistic": true,
+    "ColorChangeRule": "t0",
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Medium",
+    "FireDelayMultiplier": -1,
+    "preFireStartSFX": "GNBeam",
+    "preFireStopSFX": "",
+    "delayedSFX": "",
+    "delayedSFXDelay": 0,
+    "Description" : {
+        "Cost" : 1850000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Comstar",
+        "Model" : "Beam Pistol",
+        "UIName" : "GN Pistol",
+        "Id" : "Weapon_GNPistol",
+        "Name" : "GN Pistol",
+        "Details" : "A handheld beam pistol developed to support the armaments for the GN-002 Dynames unit. This model features a variable modes",
+        "Icon" : "GNPistol"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 3,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "ProjectileSpeedMultiplier": 0.75,
+
+    "Modes": [
+      {
+        "Id": "Single Shot",
+        "UIName": "x1",
+        "Description": "The GN Pistol fires a single blast",
+        "isBaseMode": true,
+        "HeatGenerated": 0,
+        "RefireModifier": 1
+       
+      },
+      {
+        "Id": "Double Shot",
+        "UIName": "x2",
+        "Description": "The GN Pistol fires two blasts",
+        "isBaseMode": false,
+        "ShotsWhenFired": 1,
+        "HeatGenerated": 0,
+        "RefireModifier": 1
+       
+      },
+      {
+        "Id": "Triple Shot",
+        "UIName": "x3",
+        "Description": "The GN Pistol fires Three blasts",
+        "isBaseMode": false,
+        "HeatGenerated": 30,
+        "ShotsWhenFired": 2,
+        "RefireModifier": 2
+       
+      },
+      {
+        "Id": "Charged Shot",
+        "UIName": "Charged",
+        "Description": "The GN Pistol is charged and fires a blast with 2x firepower. Has a 1 turn cooldown",
+        "DamagePerShot": 35,
+        "Cooldown": 1,
+        "isBaseMode": false,
+        "HeatGenerated": 45
+        
+      
+      }
+    ],
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_medium"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,0 +1,85 @@
+{
+  "Custom":{
+    "Category": [
+      {
+        "CategoryID": "HandHeld"
+      },
+      {
+        "CategoryID": "w/s/h/HandHeld"
+      }
+    ],
+      "ActivatableComponent": {
+        "ButtonName": "Shield",
+        "CanActivateAfterMove": true,
+        "CanActivateAfterFire": false,
+        "CanNotBeActivatedManualy": false,
+        "NoUniqueCheck": true,
+        "statusEffects": [
+          {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTargetsCreator": true,
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": true,
+              "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "Shield",
+              "Name": "Shield",
+              "Details": "Shield reduces incoming damage by 10%",
+              "Icon": "shield"
+            },
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "DamageReductionMultiplierAll",
+              "operation": "Float_Multiply",
+              "modValue": "0.9",
+              "modType": "System.Single"
+            }
+          }
+        ]
+      }
+    
+    
+  },
+  "Description": {
+    "Cost": 450000,
+    "Rarity": 10,
+    "Purchasable": false,
+    "Manufacturer": "Kallon Armament",
+    "Model": "GM Shield",
+    "UIName": "GM Shield",
+    "Id": "GM_Shield",
+    "Name": "GM Shield",
+    "Details": "A handheld shield used by the GM family of mobile suits. Standard Issues and solid, these shields are able to withstand several hits before failure.",
+    "Icon": "GMShield"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 5,
+  "Tonnage": 3,
+  "AllowedLocations": "LeftArm",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+     
+    ],
+    "tagSetSourceFile": ""
+}
+}
+
+
+  

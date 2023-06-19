@@ -1,0 +1,116 @@
+
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "HandHeld"
+      },
+      {
+        "CategoryID": "w/s/h/HandHeld"
+      }
+    ]
+    },
+    "Type": "Laser",
+    "WeaponSubType": "MediumLaser",
+    "MinRange": 0,
+    "MaxRange": 325,
+    "RangeSplit": [
+      50,
+      125,
+      275
+    ],
+    "weaponCategoryID": "SpecialHandHeld",
+    "ammoCategoryID" : "ECAP",
+    "StartingAmmoCapacity" : 12,
+    "HeatGenerated" : 0,
+    "Damage" : 50,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 1,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 0,
+    "ColorsTable": [
+      {
+        "C": "#f00e93",
+        "I": 5
+      }
+    ],
+    "ProjectileScale": {
+      "x": 40,
+      "y": 40,
+      "z": 20
+    },
+    "ImprovedBallistic": true,
+    "ColorChangeRule": "t0",
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Medium",
+    "FireDelayMultiplier": -1,
+    "preFireStartSFX": "beamgun",
+    "preFireStopSFX": "",
+    "delayedSFX": "",
+    "delayedSFXDelay": 0,
+    "Description" : {
+        "Cost" : 1850000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Kallon Armarments",
+        "Model" : "Standard Issue",
+        "UIName" : "Beam Spray Gun",
+        "Id" : "Weapon_BeamSpray",
+        "Name" : "Beam Spray Gun",
+        "Details" : "A beam spray gun designed for use on the GM family of mobile suits. The Beam Spray Gun is unable to generated high leve beams, and is produced as a measure to reduce unit cost.",
+        "Icon" : "GMSpray"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 2,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "ProjectileSpeedMultiplier": 0.75,
+
+    "Modes": [
+      {
+        "Id": "Single Shot",
+        "UIName": "Single",
+        "Description": "The Spray Gun fires a single blast",
+        "isBaseMode": true,
+        "HeatGenerated": 0,
+        "RefireModifier": 0
+       
+      },
+      {
+        "Id": "Double Shot",
+        "UIName": "Spray",
+        "Description": "The Spray Gun fires Three blasts",
+        "isBaseMode": false,
+        "HeatGenerated": 10,
+        "ShotsWhenFired": 1,
+        "RefireModifier": 1
+       
+      }
+    ],
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_medium"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

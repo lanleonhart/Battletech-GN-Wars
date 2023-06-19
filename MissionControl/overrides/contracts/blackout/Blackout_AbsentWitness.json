@@ -4,7 +4,7 @@
   "contractDisplayStyle": "BaseCampaignNormal",
   "difficulty": 2,
   "difficultyUIModifier": 0,
-  "weight": 20,
+  "weight": 1,
   "scope": "STANDARD",
   "finalDifficulty": 0,
   "representativeCastDefIDOverride": null,
@@ -22,9 +22,7 @@
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
-        "items": [
-          "planet_other_gamesworld"
-        ],
+        "items": [],
         "tagSetSourceFile": ""
       },
       "RequirementComparisons": [
@@ -38,12 +36,6 @@
           "op": "Equal",
           "val": 1,
           "valueConstant": null
-        },
-        {
-          "obj": "Employer.Solaris7",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
         }
       ]
     }
@@ -51,10 +43,10 @@
   "OnContractSuccessResults": [],
   "OnContractFailureResults": [],
   "encounterPlayStyle": "SinglePlayer",
-  "maxNumberOfPlayerUnits": 6,
+  "maxNumberOfPlayerUnits": 4,
   "lanceMinTonnage": -1,
-  "lanceMaxTonnage": 400,
-  "mechMinTonnages": [5, 5, -1, -1],
+  "lanceMaxTonnage": -1,
+  "mechMinTonnages": [-1, -1, -1, -1],
   "mechMaxTonnages": [-1, -1, -1, -1],
   "mapMood": null,
   "startingFogOfWarVisibility": "Surveyed",
@@ -1074,10 +1066,7 @@
         "name": "Lance_Enemy_RoamingForce",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [
-            "lance_type_dynamic",
-            "lance_type_recon"
-          ],
+          "items": ["lance_type_dynamic_difficulty"],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -1233,10 +1222,7 @@
         "name": "Lance_Enemy_OpposingForce",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [
-            "lance_type_dynamic",
-            "lance_type_notallvehicles"
-          ],
+          "items": ["lance_type_dynamic_difficulty"],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -1247,7 +1233,7 @@
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": 0,
+        "lanceDifficultyAdjustment": 1,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [
@@ -1392,10 +1378,7 @@
         "name": "Lance_Enemy_OccupyingForce",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [
-            "lance_type_dynamic",
-            "lance_type_battle"
-          ],
+          "items": ["lance_type_dynamic_difficulty"],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -1406,7 +1389,7 @@
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": 0,
+        "lanceDifficultyAdjustment": 1,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [
@@ -1551,10 +1534,7 @@
         "name": "Lance_Enemy_Ambushers",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [
-            "lance_type_dynamic",
-            "lance_type_fire"
-          ],
+          "items": ["lance_type_dynamic_difficulty"],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -1565,7 +1545,7 @@
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": 0,
+        "lanceDifficultyAdjustment": 1,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [
@@ -1742,7 +1722,7 @@
           "items": [],
           "tagSetSourceFile": "Tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -2,
+        "lanceDifficultyAdjustment": 0,
         "selectedLanceDefId": null,
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [

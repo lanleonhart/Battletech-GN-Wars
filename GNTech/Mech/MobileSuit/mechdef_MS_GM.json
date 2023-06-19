@@ -1,0 +1,193 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_MS",
+            "unit_medium",
+            "unit_ready",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+			"unit_range_short",
+			"unit_jumpOK",
+			"unit_armor_low",
+            "Davion",
+            "Steiner",
+            "unit_common"
+            	
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_MS_GM",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 6240000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": "Standard",
+        "UIName": "GM",
+        "Id": "mechdef_MS_GM",
+        "Name": "GM",
+        "Details": "A General Purpose mobile suit developed by Kallon Industries based on partial leaked Mobile Suit schematics from Comstar. This suit uses standard mech powerplant components to produce the energy required for low level beam weaponry. Kallon has made high profits with contracts to provide a steady supply of these machines to the Federated Suns, and Lyran Commonwealth.",
+        "Icon": "GM"
+    },
+    "simGameMechPartCost": 620000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+              "CurrentArmor": 75,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+             "CurrentArmor": 75,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_Standard_Thruster",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+          },
+          {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_Standard_Thruster",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+          },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_300",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Armor_TitaniumAlloy",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+          },
+          {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_BeamSpray",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+          },
+          {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "GM_Shield",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+          },
+          {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_StandardBazooka",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+          },
+          {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_ECAP",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Bazooka",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ]
+}

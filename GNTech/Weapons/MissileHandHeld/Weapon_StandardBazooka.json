@@ -1,0 +1,116 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "EquipmentMount"
+      },
+      {
+        "CategoryID": "w/m/s/gnm"
+      }
+    ]
+  },
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM5",
+  "MinRange": 50,
+  "MaxRange": 600,
+  "RangeSplit": [
+    115,
+    230,
+    460
+  ],
+  "weaponCategoryID": "EquipmentMount",
+    "ammoCategoryID" : "Bazooka",
+    "StartingAmmoCapacity" : 6,
+    "HeatGenerated" : 0,
+    "Damage" : 35,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 2,
+    "Instability" : 25,
+    "preFireStartSFX": "",
+    "preFireStopSFX": "",
+    "delayedSFX": "Bazooka",
+    "delayedSFXDelay": 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
+    "Description" : {
+        "Cost" : 1000000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Kallon Armamnets",
+        "Model" : "Standard Bazooka",
+        "UIName" : "Standard Bazooka",
+        "Id" : "Weapon_StandardBazooka",
+        "Name" : "Standard Bazooka",
+        "Details" : "A handheld rocket launcher carries 12 rounds. Inflicts AOE damage, and staggers enemy suits.",
+        "Icon" : "GMBazooka"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm5",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "Modes": [
+      {
+        "Id": "SingleShot",
+        "UIName": "x1",
+        "Description": "The Bazooka fires a single warhead",
+        "isBaseMode": true,
+        "HeatGenerated": 25,
+        "RefireModifier": 0,
+        "AccuracyModifier": 2
+
+       
+      },
+      {
+        "Id": "DoubleShot",
+        "UIName": "x2",
+        "Description": "The Bazooka fires three rockets in quick succession. ",
+        "isBaseMode": false,
+        "HeatGenerated": 35,
+        "ShotsWhenFired": 1,
+        "RefireModifier": 2,
+        "AccuracyModifier": 4
+
+       
+      },
+      {
+        "Id": "TripleShot",
+        "UIName": "x3",
+        "Description": "The Bazooka fires three rockets in quick succession. ",
+        "isBaseMode": false,
+        "HeatGenerated": 45,
+        "ShotsWhenFired": 2,
+        "RefireModifier": 3,
+        "AccuracyModifier": 6
+
+       
+      }
+    ],
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

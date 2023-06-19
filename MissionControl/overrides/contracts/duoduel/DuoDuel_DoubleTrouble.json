@@ -13,7 +13,7 @@
   "goodFaithStatementOverride": null,
   "shortDescription": "Last night a few of our crew members took some much needed R&R at the local {TEAM_TAR.FactionDef.Demonym} bar. Words were said and now it looks like we're stuck in a duel with two apparent {TEAM_TAR.FactionDef.Demonym} guards. Our crew aren't fighters so maybe you can help us out?",
   "longDescription": "Commander, looks like those two guys that the {TEAM_EMP.FactionDef.Demonym} crew ticked off last night were actually {TEAM_TAR.FactionDef.Demonym} guards. Looks like we've got ourselves a duel.",
-  "salvagePotential": 4,
+  "salvagePotential": 3,
   "requirementList": [
     {
       "Scope": "StarSystem",
@@ -22,160 +22,14 @@
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
-        "items": [
-          "planet_other_gamesworld"
-        ],
+        "items": [],
         "tagSetSourceFile": ""
       },
       "RequirementComparisons": [
         {
-          "obj": "Employer.Solaris7",
+          "obj": "Employer.IsOwner",
           "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanBloodSpirit",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanBurrock",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanCloudCobra",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanCoyote",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanDiamondShark",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanFireMandrill",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanGhostBear",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanGoliathScorpion",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanHellsHorses",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanIceHellion",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanJadeFalcon",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanNovaCat",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClansGeneric",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanSmokeJaguar",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanSnowRaven",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanStarAdder",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanSteelViper",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanWolf",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.GhostBearDominion",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.RavenAlliance",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanStoneLion",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.EscorpionImperio",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.ClanWolfInExile",
-          "op": "Equal",
-          "val": 0,
-          "valueConstant": null
-        },
-        {
-          "obj": "Employer.DarkCaste",
-          "op": "Equal",
-          "val": 0,
+          "val": 1,
           "valueConstant": null
         }
       ]
@@ -187,18 +41,8 @@
   "maxNumberOfPlayerUnits": 2,
   "lanceMinTonnage": -1,
   "lanceMaxTonnage": -1,
-  "mechMinTonnages": [
-    20,
-    20,
-    -1,
-    -1
-  ],
-  "mechMaxTonnages": [
-    100,
-    100,
-    -1,
-    -1
-  ],
+  "mechMinTonnages": [-1, -1, -1, -1],
+  "mechMaxTonnages": [65, 65, -1, -1],
   "mapMood": null,
   "startingFogOfWarVisibility": "Surveyed",
   "contractObjectiveList": [
@@ -210,9 +54,7 @@
       "description": "",
       "isPrimary": true,
       "forPlayer": "Player1",
-      "objectiveGuids": [
-        "a0b9c5b2-c594-4c5a-be1d-028a51c51519"
-      ]
+      "objectiveGuids": ["a0b9c5b2-c594-4c5a-be1d-028a51c51519"]
     }
   ],
   "objectiveList": [
@@ -499,23 +341,18 @@
         "name": "Lance_Enemy",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [
-            "lance_type_dynamic",
-            "lance_type_MCduel"
-          ],
+          "items": ["lance_type_heavy", "lance_type_mech"],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": [
-            "lance_type_vehicle"
-          ],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": 1,
+        "lanceDifficultyAdjustment": 2,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [

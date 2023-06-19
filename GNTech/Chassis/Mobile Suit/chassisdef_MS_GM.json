@@ -1,0 +1,201 @@
+{
+
+    "Description": {
+        "Cost": 1750000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "GM",
+        "Id": "chassisdef_MS_GM",
+        "Name": "GM",
+        "Details": "A General Purpose mobile suit developed by Kallon Industries based on leaked Mobile Suit schematics from Comstar. This machine is the base model that sprung a lineage of machines. ",
+        "Icon": "GM"
+    },
+    "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_shadowhawk",
+    "PrefabIdentifier": "chrPrfMech_shadowhawkBase-001",
+    "PrefabBase": "shadowhawk",
+    "Tonnage": 55,
+    "InitialTonnage": 5.5,
+    "weightClass": "MEDIUM",
+    "BattleValue": 5171000,
+    "Heatsinks": 0,
+    "TopSpeed": 80,
+    "TurnRadius": 90,
+    "MaxJumpjets": 5,
+    "Stability": 130,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 85,
+    "MeleeInstability": 55,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 70,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "SpecialHandHeld",
+                    "Omni": false
+                  }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 75,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "EquipmentMount",
+                    "Omni": false
+                  }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 90,
+            "MaxRearArmor":40,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 100,
+            "MaxRearArmor": 50,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "EquipmentMount",
+                    "Omni": false
+                  }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 90,
+            "MaxRearArmor":40,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "SpecialHandHeld",
+                    "Omni": false
+                  }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor":90,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 90,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 6,
+            "z": 2.5
+        },
+        {
+            "x": -2.5,
+            "y": 6,
+            "z": 2.5
+        }
+    ],
+    "VariantName": "RGM-79",
+    "ChassisTags": {
+        "items": [
+            "Unit_MS"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Standard Suit",
+    "YangsThoughts": "Commander, as long as you keep your head on a swivel, this machine will keep you alive. GM's are know for their versatility with their expansive loadouts."
+}

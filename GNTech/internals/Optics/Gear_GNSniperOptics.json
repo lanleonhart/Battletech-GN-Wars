@@ -1,0 +1,276 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "HeadOpticMS"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ActivatableComponent": {
+			"CanActivateAfterMove": false,
+			"CanActivateAfterFire": false,
+			"SafeActivation": true,
+			"ButtonName": "Sniper Mode",
+			"CanNotBeActivatedManualy": false,
+			"NoUniqueCheck": true,
+			"ActiveByDefault": false,
+			"ActivationMessage": "Sniper",
+			"DeactivationMessage": "Normal",
+			"SwitchInAudio": "GNAscend",
+            "SwitchOutAudio": "GNDescend",
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "SensorRangeIncrease",
+						"Name": "SensorRangeIncrease",
+						"Details": "Increased Sight/Sensors.",
+						"Icon": "uixSvgIcon_equipment_Cockpit"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "SensorDistanceMultiplier",
+						"operation": "Float_Multiply",
+						"modValue": "1.25",
+						"modType": "System.Single"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "SpottingIncrease500",
+						"Name": "SPOTTING DISTANCE INCREASED",
+						"Details": "Increases spotting distance by 500m.",
+						"Icon": "uixSvgIcon_equipment_Cockpit"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "SpotterDistanceMultiplier",
+						"operation": "Float_Multiply",
+						"modValue": "1.66",
+						"modType": "System.Single"
+					}
+				},
+				{
+					"durationData": {
+					  "duration": -1,
+					  "stackLimit": -1
+					},
+					"targetingData": {
+					  "effectTriggerType": "Passive",
+					  "effectTargetType": "Creator",
+					  "forcePathRebuild": true,
+					  "showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+					  "Id": "StatusEffect-FiringArc",
+					  "Name": "ScopedLOS",
+					  "Details": "Scoped LOS.",
+					  "Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+					  "effectsPersistAfterDestruction": false,
+					  "statName": "CUFiringArc",
+					  "operation": "Set",
+					  "modValue": "15",
+					  "modType": "System.Single"
+					}
+				},
+				  {
+					"durationData": {
+					  "duration": -1,
+					  "stackLimit": -1
+					},
+					"targetingData": {
+					  "effectTriggerType": "Passive",
+					  "effectTargetType": "Creator",
+					  "forcePathRebuild": true,
+					  "showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+					  "Id": "StatusEffect-Flight-Mode-WalkSpeed",
+					  "Name": "Flight Mode Boost",
+					  "Details": "Flight Mode gains a movement bonus.",
+					  "Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+					  "effectsPersistAfterDestruction": false,
+					  "statName": "WalkSpeed",
+					  "operation": "Float_Multiply",
+					  "modValue": "0.0",
+					  "modType": "System.Single"
+					}
+				  },
+				  {
+					"durationData": {
+					  "duration": -1,
+					  "stackLimit": -1
+					},
+					"targetingData": {
+					  "effectTriggerType": "Passive",
+					  "effectTargetType": "Creator",
+					  "forcePathRebuild": true,
+					  "showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+					  "Id": "SniperModeRunDebuff",
+					  "Name": "Sniping Mode",
+					  "Details": "Sniping mode",
+					  "Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+					  "effectsPersistAfterDestruction": false,
+					  "statName": "CBTBE_RunMultiMod",
+					  "operation": "Float_Multiply",
+					  "modValue": "0.0",
+					  "modType": "System.Single"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "SnipingBonus",
+						"Name": "Sniper Mode Accuracy Buff",
+						"Details": "Weapon attacks suffer +3 accuracy.",
+						"Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"modType": "System.Single",
+						"modValue": "-3.0",
+						"operation": "Float_Add",
+						"statName": "AccuracyModifier",
+						"targetAmmoCategory": "NotSet",
+						"targetCollection": "Weapon",
+						"targetWeaponCategory": "NotSet",
+						"targetWeaponSubType": "NotSet",
+						"targetWeaponType": "NotSet"
+					}
+				}
+			]
+		  }
+		},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 870000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Comstar",
+		"Model": "Long Range Targeting System",
+		"UIName": "GN Sniper Optics",
+		"Id": "Gear_GNSniperOptics",
+		"Name": "GN Sniper Optics",
+		"Details": "Head mounted optics used for long range sniping of targets. Inside the cockpit there is a dedicated scope that provides various telemetrics to the pilot when looked through. While using sniper mode the mechs arc of fire is narrowed drastically. ",
+		"Icon": "GNOptics"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 3,
+	"AllowedLocations": "Head",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SensorRangeIncrease",
+				"Name": "SensorRangeIncrease",
+				"Details": "Increased Sight/Sensors.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "SensorDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.25",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SpottingIncrease500",
+				"Name": "SPOTTING DISTANCE INCREASED",
+				"Details": "Increases spotting distance by 500m.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "SpotterDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.66",
+				"modType": "System.Single"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

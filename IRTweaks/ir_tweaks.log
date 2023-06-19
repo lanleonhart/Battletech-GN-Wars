@@ -1,110 +1,147 @@
-18:10:49.225 Assembly version: 0.9.8.6
-18:10:49.226 == Mod Config Initialization Started == 
-18:10:49.227 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
-18:10:49.227 == Mod Config Initialization Complete == 
-18:10:49.231 === MOD CONFIG BEGIN ===
-18:10:49.231   DEBUG: False Trace: False
-18:10:49.231   -- Fixes --
-18:10:49.231   AbilityResourceFix:                 True
-18:10:49.232   AlternateMechNamingStyle:           False
-18:10:49.232   BuildingDamageColorChange:          True
-18:10:49.232   BraceOnMeleeWithJuggernaut:         True
-18:10:49.232   BreachingShotIgnoresAllDR:          False
-18:10:49.232   BulkPurchasing:                     False
-18:10:49.232   BulkScrapping:                      False
-18:10:49.236   CalledShotTweaks:                   True
-18:10:49.237   CombatLog:                          True
-18:10:49.237   DifficultyModsFromStats:            True
-18:10:49.237   DisableCampaign:                    True
-18:10:49.237   DisableDebug:                       True
-18:10:49.237   DisableCombatRestarts:              True
-18:10:49.237   DisableCombatSaves:                 True
-18:10:49.237   DisableMPHashCalculation:           True
-18:10:49.237   DisableFiringStat:                  True
-18:10:49.237   DisableLowFundsNotification:        True
-18:10:49.237   ExplodingBuildingFix:               True
-18:10:49.237   EventRequirementsScopeFix:          True
-18:10:49.237   ExtendedStats:                      True
-18:10:49.237   FactionReputationFixes:             True
-18:10:49.237   FlexibleSensorLock:                 False
-18:10:49.237   MaxArmorMaxesArmor:                 True
-18:10:49.237   MechbayLayout:                      True
-18:10:49.237   MechbayLayoutDisableStore:          True
-18:10:49.237   OnWeaponFireFix:                    True
-18:10:49.237   PainTolerance:                      True
-18:10:49.237   PathfinderTeamFix:                  True
-18:10:49.237   RandomStartByDifficulty:            True
-18:10:49.237   ReduceSaveCompression:              True
-18:10:49.237   ScaleObjectiveBuildingStructure:    True
-18:10:49.237   ShowAllArgoUpgrades:                True
-18:10:49.237   SkipDeleteSavePopup:                True
-18:10:49.237   SkirmishAlwaysUnlimited:            True
-18:10:49.237   SkirmishReset:                      False
-18:10:49.237   SimGameDifficultyLabelsReplacer:    False
-18:10:49.237   SpawnProtection:                    True
-18:10:49.237   StreamlinedMainMenu:                True
-18:10:49.237   TurnDirectorStartFirstRoundFix:     True
-18:10:49.237   TgtComputerTonnageDisplay:          True
-18:10:49.237   UrbanExplosionsFix:                 False
-18:10:49.237   WeaponTooltips:                     True
-18:10:49.237   DamageReductionInCombatHud:         True
-18:10:49.237   DeathChanceStat:                    True
-18:10:49.237   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
-18:10:49.237   TorsoMountStatName:                     isTorsoMount
-18:10:49.237   -- Called Shot --
-18:10:49.237    Disable => AllLocations: True  Headshots: True
-18:10:49.237    Enable => ComplexTacticsModifier: True
-18:10:49.237    BaseModifier:-1
-18:10:49.237    CalledShotDefaultMod:-1
-18:10:49.237   -- Spawn Protection --
-18:10:49.237    ApplyGuard:True  EvasionPips:8
-18:10:49.237    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
-18:10:49.237    ApplyToReinforcements:True
-18:10:49.237   -- Cheat Detection --
-18:10:49.237    CheatDetection:True
-18:10:49.237    CheatDetectionNotify:True
-18:10:49.237    CheatDetectionStat:CheatFoundS2
-18:10:49.237   -- ObstructionTweaks --
-18:10:49.237    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
-18:10:49.237    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
-18:10:49.237    QuadTags:System.Collections.Generic.List`1[System.String]
-18:10:49.237    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
-18:10:49.237   -- Store --
-18:10:49.238    QuantityOnShift:5  QuantityOnControl:20
-18:10:49.238   -- Flexible Sensor Lock Options --
-18:10:49.238    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
-18:10:49.238 === MOD CONFIG END ===
-18:10:49.238 INFO: No errors reading settings file.
-18:10:49.244 Activating Fix: BraceOnMeleeWithJuggernaut
-18:10:49.244 Activating Fix: BuildingDamageColorChange
-18:10:49.244 Activating Fix: CalledShotTweaks
-18:10:49.244 Activating Fix: ExtendedStats
-18:10:49.244 Activating Fix: PainTolerance
-18:10:49.244 Activating Fix: PathfinderTeamFix
-18:10:49.244 Activating Fix: ScaleObjectiveBuildingStructure
-18:10:49.244 Activating Fix: SpawnProtection
-18:10:49.244 Activating Fix: RandomStartByDifficulty
-18:10:49.244 Activating Fix: DisableCampaign
-18:10:49.244 Activating Fix: DisableLowFundsNotification
-18:10:49.244 Activating Fix: DisableMPHashCalculation
-18:10:49.244 Activating Fix: MultiTargetStat
-18:10:49.244 Activating fix: ReduceSaveCompression.
-18:10:49.244 Activating fix: ShowAllArgoUpgrades.
-18:10:49.244 Activating fix: SkipDeleteSavePopup.
-18:10:49.245 Activating Fix: CombatLog
-18:10:49.361 Activating Fix: SkirmishAlwaysUnlimited
-18:10:49.361 Activating Fix: DisableCombatSaves
-18:10:49.361 Activating Fix: DisableCombatRestart
-18:10:49.361 Activating Fix: StreamlinedMainMenu
-18:10:49.415 Activating Fix: WeaponTooltip
-18:10:49.415 Activating Fix: DamageReductionInCombatHud
-18:10:51.863 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
-18:10:51.863 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
-18:10:51.904 M:CK Found INJURY IGNORED instruction at idx: 111
-18:10:52.116 [InitializeEffects] Initializing effects for Brace Effects
-18:10:52.118 EffectData statname: CACAoEDamageMult
-18:11:07.706 Disabling the campaign button on the main menu.
-18:11:07.732 Disabling the debug buttons in the main menu.
-18:12:34.357 Set battlevalue to 3
-18:13:52.891 Disabling the campaign button on the main menu.
-18:13:52.892 Disabling the debug buttons in the main menu.
+15:32:53.560 Assembly version: 0.9.8.6
+15:32:53.561 == Mod Config Initialization Started == 
+15:32:53.562 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
+15:32:53.562 == Mod Config Initialization Complete == 
+15:32:53.566 === MOD CONFIG BEGIN ===
+15:32:53.566   DEBUG: False Trace: False
+15:32:53.566   -- Fixes --
+15:32:53.566   AbilityResourceFix:                 True
+15:32:53.566   AlternateMechNamingStyle:           False
+15:32:53.566   BuildingDamageColorChange:          True
+15:32:53.566   BraceOnMeleeWithJuggernaut:         True
+15:32:53.566   BreachingShotIgnoresAllDR:          False
+15:32:53.566   BulkPurchasing:                     False
+15:32:53.566   BulkScrapping:                      False
+15:32:53.567   CalledShotTweaks:                   True
+15:32:53.567   CombatLog:                          True
+15:32:53.567   DifficultyModsFromStats:            True
+15:32:53.567   DisableCampaign:                    True
+15:32:53.567   DisableDebug:                       True
+15:32:53.567   DisableCombatRestarts:              True
+15:32:53.567   DisableCombatSaves:                 True
+15:32:53.567   DisableMPHashCalculation:           True
+15:32:53.567   DisableFiringStat:                  True
+15:32:53.567   DisableLowFundsNotification:        True
+15:32:53.567   ExplodingBuildingFix:               True
+15:32:53.567   EventRequirementsScopeFix:          True
+15:32:53.567   ExtendedStats:                      True
+15:32:53.567   FactionReputationFixes:             True
+15:32:53.567   FlexibleSensorLock:                 False
+15:32:53.567   MaxArmorMaxesArmor:                 True
+15:32:53.567   MechbayLayout:                      True
+15:32:53.567   MechbayLayoutDisableStore:          True
+15:32:53.567   OnWeaponFireFix:                    True
+15:32:53.567   PainTolerance:                      True
+15:32:53.567   PathfinderTeamFix:                  True
+15:32:53.567   RandomStartByDifficulty:            True
+15:32:53.567   ReduceSaveCompression:              True
+15:32:53.567   ScaleObjectiveBuildingStructure:    True
+15:32:53.567   ShowAllArgoUpgrades:                True
+15:32:53.567   SkipDeleteSavePopup:                True
+15:32:53.567   SkirmishAlwaysUnlimited:            True
+15:32:53.567   SkirmishReset:                      False
+15:32:53.567   SimGameDifficultyLabelsReplacer:    False
+15:32:53.567   SpawnProtection:                    True
+15:32:53.567   StreamlinedMainMenu:                True
+15:32:53.567   TurnDirectorStartFirstRoundFix:     True
+15:32:53.567   TgtComputerTonnageDisplay:          True
+15:32:53.567   UrbanExplosionsFix:                 False
+15:32:53.567   WeaponTooltips:                     True
+15:32:53.567   DamageReductionInCombatHud:         True
+15:32:53.567   DeathChanceStat:                    True
+15:32:53.567   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
+15:32:53.567   TorsoMountStatName:                     isTorsoMount
+15:32:53.567   -- Called Shot --
+15:32:53.567    Disable => AllLocations: True  Headshots: True
+15:32:53.567    Enable => ComplexTacticsModifier: True
+15:32:53.567    BaseModifier:-1
+15:32:53.568    CalledShotDefaultMod:-1
+15:32:53.568   -- Spawn Protection --
+15:32:53.568    ApplyGuard:True  EvasionPips:8
+15:32:53.568    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
+15:32:53.568    ApplyToReinforcements:True
+15:32:53.568   -- Cheat Detection --
+15:32:53.568    CheatDetection:True
+15:32:53.568    CheatDetectionNotify:True
+15:32:53.568    CheatDetectionStat:CheatFoundS2
+15:32:53.568   -- ObstructionTweaks --
+15:32:53.568    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
+15:32:53.568    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
+15:32:53.568    QuadTags:System.Collections.Generic.List`1[System.String]
+15:32:53.568    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
+15:32:53.568   -- Store --
+15:32:53.568    QuantityOnShift:5  QuantityOnControl:20
+15:32:53.568   -- Flexible Sensor Lock Options --
+15:32:53.568    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
+15:32:53.568 === MOD CONFIG END ===
+15:32:53.568 INFO: No errors reading settings file.
+15:32:53.578 Activating Fix: BraceOnMeleeWithJuggernaut
+15:32:53.578 Activating Fix: BuildingDamageColorChange
+15:32:53.578 Activating Fix: CalledShotTweaks
+15:32:53.578 Activating Fix: ExtendedStats
+15:32:53.578 Activating Fix: PainTolerance
+15:32:53.578 Activating Fix: PathfinderTeamFix
+15:32:53.578 Activating Fix: ScaleObjectiveBuildingStructure
+15:32:53.578 Activating Fix: SpawnProtection
+15:32:53.579 Activating Fix: RandomStartByDifficulty
+15:32:53.579 Activating Fix: DisableCampaign
+15:32:53.579 Activating Fix: DisableLowFundsNotification
+15:32:53.579 Activating Fix: DisableMPHashCalculation
+15:32:53.579 Activating Fix: MultiTargetStat
+15:32:53.579 Activating fix: ReduceSaveCompression.
+15:32:53.579 Activating fix: ShowAllArgoUpgrades.
+15:32:53.579 Activating fix: SkipDeleteSavePopup.
+15:32:53.580 Activating Fix: CombatLog
+15:32:53.743 Activating Fix: SkirmishAlwaysUnlimited
+15:32:53.743 Activating Fix: DisableCombatSaves
+15:32:53.743 Activating Fix: DisableCombatRestart
+15:32:53.743 Activating Fix: StreamlinedMainMenu
+15:32:53.821 Activating Fix: WeaponTooltip
+15:32:53.821 Activating Fix: DamageReductionInCombatHud
+15:32:57.007 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
+15:32:57.007 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
+15:32:57.048 M:CK Found INJURY IGNORED instruction at idx: 111
+15:32:57.246 [InitializeEffects] Initializing effects for Brace Effects
+15:32:57.247 EffectData statname: CACAoEDamageMult
+15:33:18.140 Disabling the campaign button on the main menu.
+15:33:18.181 Disabling the debug buttons in the main menu.
+15:36:02.868 CHEATDETECTION: Added key to SimGameFunds with Funds 12551485 on rehydrate, post.
+15:36:02.869 CHEATDETECTION: PilotGen_SGRef_14103: Added SGRef_14104  key to PilotCurrentXP with UnspentXP 15650 on rehydrate, post.
+15:36:02.869 CHEATDETECTION: PilotGen_SGRef_14107: Added SGRef_14108  key to PilotCurrentXP with UnspentXP 2200 on rehydrate, post.
+15:36:02.869 CHEATDETECTION: pilot_backer_Oliver: Added SGRef_15709  key to PilotCurrentXP with UnspentXP 15400 on rehydrate, post.
+15:36:02.869 CHEATDETECTION: pilot_backer_Chung: Added SGRef_15710  key to PilotCurrentXP with UnspentXP 700 on rehydrate, post.
+15:36:02.869 CHEATDETECTION: pilot_ronin_Squire: Added SGRef_24289  key to PilotCurrentXP with UnspentXP 2450 on rehydrate, post.
+15:36:02.869 CHEATDETECTION: pilot_backer_Jakes: Added SGRef_24477  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
+15:36:02.869 CHEATDETECTION: commander: Added commander  key to PilotCurrentXP with UnspentXP 17450 on rehydrate, post.
+15:36:11.375 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
+15:36:18.164 SGNL:Start - adding new button.
+15:36:18.164  - Creating store button
+15:36:18.178  - Creating staff button
+15:36:18.183  - Creating memorial button
+15:36:23.604 CHEATDETECTION: PilotGen_SGRef_14103: Set tracker SGRef_14104 PilotCurrentXP with UnspentXP 15650 on SGBarracksAdvancementPanel Close, post.
+15:36:23.604 CHEATDETECTION: PilotGen_SGRef_14107: Set tracker SGRef_14108 PilotCurrentXP with UnspentXP 2200 on SGBarracksAdvancementPanel Close, post.
+15:36:23.604 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_15709 PilotCurrentXP with UnspentXP 15400 on SGBarracksAdvancementPanel Close, post.
+15:36:23.604 CHEATDETECTION: pilot_backer_Chung: Set tracker SGRef_15710 PilotCurrentXP with UnspentXP 700 on SGBarracksAdvancementPanel Close, post.
+15:36:23.604 CHEATDETECTION: pilot_ronin_Squire: Set tracker SGRef_24289 PilotCurrentXP with UnspentXP 2450 on SGBarracksAdvancementPanel Close, post.
+15:36:23.604 CHEATDETECTION: pilot_backer_Jakes: Set tracker SGRef_24477 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+15:36:23.604 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 17450 on SGBarracksAdvancementPanel Close, post.
+15:36:27.480 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+15:36:48.045 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+15:37:42.485 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+15:38:29.271 CHEATDETECTION: Added key to SimGameFunds with Funds 600000 on rehydrate, post.
+15:38:29.271 CHEATDETECTION: PilotGen_SGRef_14104: Added SGRef_14105  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
+15:38:29.271 CHEATDETECTION: PilotGen_SGRef_14106: Added SGRef_14107  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
+15:38:29.271 CHEATDETECTION: PilotGen_SGRef_14108: Added SGRef_14109  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
+15:38:29.271 CHEATDETECTION: PilotGen_SGRef_14110: Added SGRef_14111  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
+15:38:29.271 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on rehydrate, post.
+15:38:36.634 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
+15:38:41.267 SGNL:Start - adding new button.
+15:38:41.267  - Creating store button
+15:38:41.270  - Creating staff button
+15:38:41.275  - Creating memorial button
+15:38:45.892 CHEATDETECTION: PilotGen_SGRef_14104: Set tracker SGRef_14105 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+15:38:45.892 CHEATDETECTION: PilotGen_SGRef_14106: Set tracker SGRef_14107 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+15:38:45.892 CHEATDETECTION: PilotGen_SGRef_14108: Set tracker SGRef_14109 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+15:38:45.892 CHEATDETECTION: PilotGen_SGRef_14110: Set tracker SGRef_14111 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+15:38:45.892 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
+15:38:49.667 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
