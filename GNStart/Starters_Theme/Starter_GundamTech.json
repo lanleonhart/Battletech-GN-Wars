@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_GundamTech",
+				"Name": "Gundam Tech",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 1,
+				"CareerScoreModifier": 1.7,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Terra"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_Generic_GundamTech,itemCollection_Mechs_Generic_GundamTech,itemCollection_Mechs_Generic_GundamTech,itemCollection_Mechs_Generic_GundamTech,itemCollection_Mechs_Generic_GundamTech"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "ComStar:75"
+					  }
+				]
+			}
+		}
+	]
+}

@@ -88,7 +88,8 @@
         "Description": "The GN Sniper fires a single blast",
         "isBaseMode": true,
         "HeatGenerated": 0,
-        "RefireModifier": 1
+        "RefireModifier": 1,
+        "ForbiddenRange": 180
        
       },
       {
@@ -98,18 +99,9 @@
         "DamagePerShot": 50,
         "Cooldown": 1,
         "isBaseMode": false,
-        "HeatGenerated": 12
+        "HeatGenerated": 12,
+        "ForbiddenRange": 180
         
-      },
-      {
-        "Id": "ChargedShot+",
-        "UIName": "MAX",
-        "Description": "The GN Rifle is charged beyond safe specification to preserve the integrity of the weapon, a cooldown period is required before refiring. 2 turn cooldown",
-        "DamagePerShot": 75,
-        "Cooldown": 2,
-        "isBaseMode": false,
-        "HeatGenerated": 25
-       
       }
     ],
     "statusEffects" : [
