@@ -114,7 +114,11 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMountID": "EquipmentMount",
+                    "WeaponMountID": "MSHardPoint",
+                    "Omni": false
+                  },
+                  {
+                    "WeaponMountID": "MSHardPoint",
                     "Omni": false
                   }
         ],
@@ -137,11 +141,11 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMountID": "EquipmentMount",
+                    "WeaponMountID": "MSHardPoint",
                     "Omni": false
                   },
                   {
-                    "WeaponMountID": "EquipmentMount",
+                    "WeaponMountID": "MSHardPoint",
                     "Omni": false
                   }
             ],
@@ -258,14 +262,6 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
-          },
-          {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Equipment_Mount",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
           }
-        
     ]
 }

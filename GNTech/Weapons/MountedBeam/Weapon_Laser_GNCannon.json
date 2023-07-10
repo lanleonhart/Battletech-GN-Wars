@@ -1,0 +1,120 @@
+
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "MSHardPoint"
+      },
+      {
+        "CategoryID": "w/e/l/gnp"
+      }
+    ]
+    
+  },
+    "Type": "PPC",
+    "WeaponSubType": "PPC",
+    "MinRange": 0,
+    "MaxRange": 850,
+    "RangeSplit": [
+      90,
+      300,
+      650
+    ],
+    "weaponCategoryID": "MSHardPoint",
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" :19,
+    "Damage" : 69,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 1,
+    "ColorsTable": [
+      {
+        "C": "#f00e93",
+        "I": 5
+      }
+    ],
+    "ImprovedBallistic": true,
+    "ColorChangeRule": "t0",
+    "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
+    "FireDelayMultiplier": -1,
+    "preFireStartSFX": "GNCannon",
+    "preFireStopSFX": "",
+    "delayedSFX": "",
+    "delayedSFXDelay": 0,
+    "Description" : {
+        "Cost" : 2000000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Comstar",
+        "Model" : "Beam Cannon",
+        "UIName" : "GN Cannon",
+        "Id" : "Weapon_Laser_GNCannon",
+        "Name" : "GN Cannon",
+        "Details" : "This weapon can be hand helped or mounted over the shoulder. Able to unleash an impressive beam of concentrated GN Particles to devastate enemy machines. ",
+        "Icon" : "GNCannon"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "PPC",
+    "BattleValue" : 0,
+    "InventorySize" : 5,
+    "Tonnage" : 10,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "ProjectileSpeedMultiplier": 1.5,
+    "Modes": [
+      {
+        "Id": "OutputLOW",
+        "UIName": "Output:Low",
+        "Description": "This mode reduces the heat generated along with the recoil, and damage.",
+        "isBaseMode": true,
+        "RefireModifier": 0
+       
+      },
+      {
+        "Id": "OutputSTD",
+        "UIName": "Output:STD",
+        "Description": "This mode is the default firing mode. The high energy requirments to fire this weapons requires time to recharge after firing.",
+        "DamagePerShot": 31,
+        "Cooldown": 1,
+        "isBaseMode": true,
+        "HeatGenerated": 0, 
+        "RefireModifier": 1
+      },
+      {
+        "Id": "OutputHigh",
+        "UIName": "Output:High",
+        "Description": "This mode pushed the weapon to its highest rated output. The weapon will require a significant cooldown after firing.",
+        "DamagePerShot": 116,
+        "Cooldown": 2,
+        "isBaseMode": true,
+        "HeatGenerated": 20,
+        "RefireModifier": 2
+      }
+    ],
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_medium"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

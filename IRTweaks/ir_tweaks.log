@@ -1,277 +1,107 @@
-00:56:33.901 Assembly version: 0.9.8.6
-00:56:33.901 == Mod Config Initialization Started == 
-00:56:33.902 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
-00:56:33.902 == Mod Config Initialization Complete == 
-00:56:33.905 === MOD CONFIG BEGIN ===
-00:56:33.905   DEBUG: False Trace: False
-00:56:33.905   -- Fixes --
-00:56:33.905   AbilityResourceFix:                 True
-00:56:33.905   AlternateMechNamingStyle:           False
-00:56:33.905   BuildingDamageColorChange:          True
-00:56:33.905   BraceOnMeleeWithJuggernaut:         True
-00:56:33.905   BreachingShotIgnoresAllDR:          False
-00:56:33.906   BulkPurchasing:                     False
-00:56:33.906   BulkScrapping:                      False
-00:56:33.907   CalledShotTweaks:                   True
-00:56:33.907   CombatLog:                          True
-00:56:33.907   DifficultyModsFromStats:            True
-00:56:33.907   DisableCampaign:                    True
-00:56:33.907   DisableDebug:                       True
-00:56:33.907   DisableCombatRestarts:              True
-00:56:33.907   DisableCombatSaves:                 True
-00:56:33.907   DisableMPHashCalculation:           True
-00:56:33.907   DisableFiringStat:                  True
-00:56:33.907   DisableLowFundsNotification:        True
-00:56:33.907   ExplodingBuildingFix:               True
-00:56:33.907   EventRequirementsScopeFix:          True
-00:56:33.907   ExtendedStats:                      True
-00:56:33.907   FactionReputationFixes:             True
-00:56:33.907   FlexibleSensorLock:                 False
-00:56:33.907   MaxArmorMaxesArmor:                 True
-00:56:33.907   MechbayLayout:                      True
-00:56:33.907   MechbayLayoutDisableStore:          True
-00:56:33.907   OnWeaponFireFix:                    True
-00:56:33.907   PainTolerance:                      True
-00:56:33.907   PathfinderTeamFix:                  True
-00:56:33.907   RandomStartByDifficulty:            True
-00:56:33.907   ReduceSaveCompression:              True
-00:56:33.907   ScaleObjectiveBuildingStructure:    True
-00:56:33.907   ShowAllArgoUpgrades:                True
-00:56:33.907   SkipDeleteSavePopup:                True
-00:56:33.907   SkirmishAlwaysUnlimited:            True
-00:56:33.907   SkirmishReset:                      False
-00:56:33.907   SimGameDifficultyLabelsReplacer:    False
-00:56:33.907   SpawnProtection:                    True
-00:56:33.907   StreamlinedMainMenu:                True
-00:56:33.907   TurnDirectorStartFirstRoundFix:     True
-00:56:33.907   TgtComputerTonnageDisplay:          True
-00:56:33.907   UrbanExplosionsFix:                 False
-00:56:33.907   WeaponTooltips:                     True
-00:56:33.907   DamageReductionInCombatHud:         True
-00:56:33.907   DeathChanceStat:                    True
-00:56:33.907   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
-00:56:33.907   TorsoMountStatName:                     isTorsoMount
-00:56:33.907   -- Called Shot --
-00:56:33.907    Disable => AllLocations: True  Headshots: True
-00:56:33.907    Enable => ComplexTacticsModifier: True
-00:56:33.907    BaseModifier:-1
-00:56:33.907    CalledShotDefaultMod:-1
-00:56:33.907   -- Spawn Protection --
-00:56:33.907    ApplyGuard:True  EvasionPips:8
-00:56:33.907    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
-00:56:33.907    ApplyToReinforcements:True
-00:56:33.907   -- Cheat Detection --
-00:56:33.907    CheatDetection:True
-00:56:33.907    CheatDetectionNotify:True
-00:56:33.907    CheatDetectionStat:CheatFoundS2
-00:56:33.907   -- ObstructionTweaks --
-00:56:33.907    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
-00:56:33.907    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
-00:56:33.907    QuadTags:System.Collections.Generic.List`1[System.String]
-00:56:33.907    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
-00:56:33.907   -- Store --
-00:56:33.907    QuantityOnShift:5  QuantityOnControl:20
-00:56:33.907   -- Flexible Sensor Lock Options --
-00:56:33.907    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
-00:56:33.907 === MOD CONFIG END ===
-00:56:33.907 INFO: No errors reading settings file.
-00:56:33.912 Activating Fix: BraceOnMeleeWithJuggernaut
-00:56:33.912 Activating Fix: BuildingDamageColorChange
-00:56:33.912 Activating Fix: CalledShotTweaks
-00:56:33.912 Activating Fix: ExtendedStats
-00:56:33.912 Activating Fix: PainTolerance
-00:56:33.912 Activating Fix: PathfinderTeamFix
-00:56:33.912 Activating Fix: ScaleObjectiveBuildingStructure
-00:56:33.912 Activating Fix: SpawnProtection
-00:56:33.913 Activating Fix: RandomStartByDifficulty
-00:56:33.913 Activating Fix: DisableCampaign
-00:56:33.913 Activating Fix: DisableLowFundsNotification
-00:56:33.913 Activating Fix: DisableMPHashCalculation
-00:56:33.913 Activating Fix: MultiTargetStat
-00:56:33.913 Activating fix: ReduceSaveCompression.
-00:56:33.913 Activating fix: ShowAllArgoUpgrades.
-00:56:33.913 Activating fix: SkipDeleteSavePopup.
-00:56:33.913 Activating Fix: CombatLog
-00:56:33.948 Activating Fix: SkirmishAlwaysUnlimited
-00:56:33.948 Activating Fix: DisableCombatSaves
-00:56:33.948 Activating Fix: DisableCombatRestart
-00:56:33.948 Activating Fix: StreamlinedMainMenu
-00:56:33.968 Activating Fix: WeaponTooltip
-00:56:33.968 Activating Fix: DamageReductionInCombatHud
-00:56:34.800 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
-00:56:34.800 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
-00:56:34.812 M:CK Found INJURY IGNORED instruction at idx: 111
-00:56:34.863 [InitializeEffects] Initializing effects for Brace Effects
-00:56:34.863 EffectData statname: CACAoEDamageMult
-00:56:44.557 Disabling the campaign button on the main menu.
-00:56:44.601 Disabling the debug buttons in the main menu.
-00:56:58.413 Min Difficulty Modifier: -2.37. Final Max Difficulty Modifier: 5.26
-00:56:58.413 From INITSETTINGS: Atlas values: 1, 1, 1, 1
-00:56:58.431 COLOR SCORE MOD THING: real score -0.21 vs current 5.26 vs scaled 255
-00:56:58.431 From UPDATEDIFFICULTYSCOREBAR: Atlas values: 1, 1, 1, 1
-00:56:58.433 COLOR SCORE MOD THING: real score -0.21 vs current 5.26 vs scaled 255
-00:56:58.433 From UPDATEDIFFICULTYSCOREBAR: Atlas values: 1, 1, 1, 1
-00:57:14.039 CHEATDETECTION: pilot_commander_temp: Added key SGRef_14299 to PilotCurrentXP with 7000 UnspentXP value at AddExperience, Post.
-00:57:14.041 Replacing starting random mechs with:itemCollection_Mechs_Generic_GundamTech,itemCollection_Mechs_Generic_GundamTech,itemCollection_Mechs_Generic_GundamTech,itemCollection_Mechs_Generic_GundamTech,itemCollection_Mechs_Generic_GundamTech
-00:57:14.041 Applying rep: 75 to faction: (ComStar)
-00:57:19.580 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
-00:57:23.172 SGNL:Start - adding new button.
-00:57:23.172  - Creating store button
-00:57:23.175  - Creating staff button
-00:57:23.179  - Creating memorial button
-00:57:26.838 CHEATDETECTION: PilotGen_SGRef_14291: Added SGRef_14292  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:57:26.838 CHEATDETECTION: PilotGen_SGRef_14293: Added SGRef_14294  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:57:26.838 CHEATDETECTION: PilotGen_SGRef_14295: Added SGRef_14296  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:57:26.838 CHEATDETECTION: PilotGen_SGRef_14297: Added SGRef_14298  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:57:26.838 CHEATDETECTION: pilot_commander_temp: Set tracker SGRef_14299 PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:57:27.150 CHEATDETECTION: Added key to SimGameFunds with Funds 0; this should have been done already...WTF. At AddFunds, Pre.
-00:57:38.284 CHEATDETECTION: commander: Added key commander to PilotCurrentXP with 7000 UnspentXP value at AddExperience, Post.
-00:57:49.219 DEBUG - calling SetSubroom for location:ENGINEERING and menuType:ShipUpgrade!
-00:57:50.651 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
-00:58:05.167 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
-00:58:08.350 DEBUG - calling SetSubroom for location:MECH_BAY and menuType:MechBay!
-00:58:29.317 MLP:SD - walking transforms of GO: uixPrfPanl_ML_main-Widget(Clone)
-00:59:33.659 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
-00:59:35.013 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
-01:00:54.110 CHEATDETECTION: Added key to SimGameFunds with Funds 600000; this should have been done already...WTF. At AddFunds, Pre.
-01:01:36.409 CHEATDETECTION: PilotGen_SGRef_14291: Added key SGRef_14292 to PilotCurrentXP with UnspentXP 0 on dehydrate, pre.
-01:01:36.409 CHEATDETECTION: PilotGen_SGRef_14293: Added key SGRef_14294 to PilotCurrentXP with UnspentXP 0 on dehydrate, pre.
-01:01:36.409 CHEATDETECTION: PilotGen_SGRef_14295: Added key SGRef_14296 to PilotCurrentXP with UnspentXP 0 on dehydrate, pre.
-01:01:36.409 CHEATDETECTION: PilotGen_SGRef_14297: Added key SGRef_14298 to PilotCurrentXP with UnspentXP 0 on dehydrate, pre.
-01:01:36.409 CHEATDETECTION: commander: Added key commander to PilotCurrentXP with UnspentXP 7000 on dehydrate, pre.
-01:01:39.892 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
-01:01:46.603 CHEATDETECTION: pilot_contract_TrainingDay_3: Added key Override_pilot_contract_TrainingDay_3 for Burger Time Set ExperienceUnspent to UnspentXP value 0 at FromPilotDef.
-01:01:46.603 CHEATDETECTION: pilot_contract_TrainingDay_3: key Override_pilot_contract_TrainingDay_3 for Burger Time  PilotCurrentXP for now 0 after setting to 0 at FromPilotDef, Post.
-01:01:46.619 CHEATDETECTION: pilot_contract_TrainingDay_1: Added key Override_pilot_contract_TrainingDay_1 for Guano Set ExperienceUnspent to UnspentXP value 0 at FromPilotDef.
-01:01:46.619 CHEATDETECTION: pilot_contract_TrainingDay_1: key Override_pilot_contract_TrainingDay_1 for Guano  PilotCurrentXP for now 0 after setting to 0 at FromPilotDef, Post.
-01:01:46.639 CHEATDETECTION: pilot_contract_TrainingDay_5: Added key Override_pilot_contract_TrainingDay_5 for Pontoon Set ExperienceUnspent to UnspentXP value 0 at FromPilotDef.
-01:01:46.639 CHEATDETECTION: pilot_contract_TrainingDay_5: key Override_pilot_contract_TrainingDay_5 for Pontoon  PilotCurrentXP for now 0 after setting to 0 at FromPilotDef, Post.
-01:02:38.853 Checking contract for contract-specific building scaling:
-01:02:38.853 Checking contract for objective building scaling:
-01:02:38.853   -- contract has difficulty: 2 and finalDifficulty: 2
-01:02:38.854 Building scaling set to: IRTweaks.CombatOpts+StructureScale
-01:03:10.742 Checking actor:DEPLOY_Deploy_68234047 that belongs to team:Player 1
-01:03:10.744  Spawn protecting actor: DEPLOY_Deploy_68234047
-01:03:10.744  -- applying Braced state
-01:03:10.767 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:03:10.767  -- setting evasion pips to: 8
-01:03:11.288 Checking actor:0 Gundam Full Armor_Bardiche_7B9F1E30 that belongs to team:Player 1
-01:03:11.288  Spawn protecting actor: 0 Gundam Full Armor_Bardiche_7B9F1E30
-01:03:11.288  -- applying Braced state
-01:03:11.301 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:03:11.301  -- setting evasion pips to: 8
-01:03:11.695 Checking actor:Dynames Gundam_Hornet_EC1A10DE that belongs to team:Player 1
-01:03:11.695  Spawn protecting actor: Dynames Gundam_Hornet_EC1A10DE
-01:03:11.695  -- applying Braced state
-01:03:11.710 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:03:11.710  -- setting evasion pips to: 8
-01:03:12.111 Checking actor:Dynames Gundam_Revolt_57245CBC that belongs to team:Player 1
-01:03:12.111  Spawn protecting actor: Dynames Gundam_Revolt_57245CBC
-01:03:12.111  -- applying Braced state
-01:03:12.124 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:03:12.125  -- setting evasion pips to: 8
-01:03:12.488 Checking actor:Phoenix Hawk_Marvel_BF79B444 that belongs to team:Player 1
-01:03:12.488  Spawn protecting actor: Phoenix Hawk_Marvel_BF79B444
-01:03:12.488  -- applying Braced state
-01:03:12.502 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:03:12.502  -- setting evasion pips to: 8
-01:03:12.557 Checking actor:Striker_Recruit_BDB3FEEE that belongs to team:TargetTeam
-01:03:12.557  Spawn protecting actor: Striker_Recruit_BDB3FEEE
-01:03:12.557  -- applying Braced state
-01:03:12.557  -- setting evasion pips to: 8
-01:03:12.751 Checking actor:Locust_Recruit_124FB4F4 that belongs to team:TargetTeam
-01:03:12.751  Spawn protecting actor: Locust_Recruit_124FB4F4
-01:03:12.751  -- applying Braced state
-01:03:12.764 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:03:12.764  -- setting evasion pips to: 8
-01:03:12.798 Checking actor:Scorpion_Recruit_5E693AE8 that belongs to team:TargetTeam
-01:03:12.798  Spawn protecting actor: Scorpion_Recruit_5E693AE8
-01:03:12.798  -- applying Braced state
-01:03:12.798  -- setting evasion pips to: 8
-01:03:12.933 Checking actor:Locust_Recruit_BEBDBB8D that belongs to team:TargetTeam
-01:03:12.933  Spawn protecting actor: Locust_Recruit_BEBDBB8D
-01:03:12.933  -- applying Braced state
-01:03:12.946 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:03:12.947  -- setting evasion pips to: 8
-01:03:13.269 Checking actor:Panther_Recruit_548A795B that belongs to team:TargetTeam
-01:03:13.269  Spawn protecting actor: Panther_Recruit_548A795B
-01:03:13.269  -- applying Braced state
-01:03:13.284 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:03:13.284  -- setting evasion pips to: 8
-01:03:13.538 Checking actor:Jenner_Recruit_66F1C11B that belongs to team:TargetTeam
-01:03:13.538  Spawn protecting actor: Jenner_Recruit_66F1C11B
-01:03:13.538  -- applying Braced state
-01:03:13.552 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:03:13.552  -- setting evasion pips to: 8
-01:03:13.899 Checking actor:Javelin_Recruit_D6521018 that belongs to team:TargetTeam
-01:03:13.899  Spawn protecting actor: Javelin_Recruit_D6521018
-01:03:13.899  -- applying Braced state
-01:03:13.913 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:03:13.913  -- setting evasion pips to: 8
-01:03:23.046 Background image size: 222h x 450
-01:03:23.047 CombatChatModule pos: (951.2, 572.4, -4900.0)
-01:03:23.047 RetreatEscMenu pos: (1947.9, 1120.2, -4900.0)
-01:03:23.047 new CombatChatModule pos: (2434.9, 1000.2, -4900.0)
-01:03:23.047 ChatButton base  pos: (2434.9, 1000.2, -4900.0)
-01:03:23.047 ChatButton new  pos: (1694.9, 1080.2, -4900.0)
-01:04:02.530 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:04:02.715 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:04:02.744 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:04:02.789 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:04:02.833 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:04:09.181 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:04:11.007 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:04:17.014 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:04:17.457 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:04:18.374 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:05:30.086 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:05:40.423 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:06:14.360 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:08:16.007 Checking pilot: Panther_Recruit_548A795B to resist injury of type: NotSet
-01:08:16.007   Actor was knocked down, setting injury resist to: 6
-01:08:16.007 Pilot failed to resist injury with check:70 > resistChance:9
-01:08:16.007 Pilot will suffer injury type: NotSet.
-01:09:21.648 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:10:12.345 Checking pilot: Locust_Recruit_BEBDBB8D to resist injury of type: SideTorsoDestroyed
-01:10:12.345   Actor suffered an ammo explosion, injury resist was set to: -1
-01:10:12.345 CT Destroyed! Calling MaxInjurePilot on Recruit
-01:10:29.565 Checking pilot: Jenner_Recruit_66F1C11B to resist injury of type: AmmoExplosion
-01:10:29.565   Actor suffered an ammo explosion, injury resist was set to: -1
-01:10:37.949 Checking pilot: Jenner_Recruit_66F1C11B to resist injury of type: NotSet
-01:10:37.949   Actor was knocked down, setting injury resist to: 6
-01:10:37.949 Pilot failed to resist injury with check:98 > resistChance:9
-01:10:37.949 Pilot will suffer injury type: NotSet.
-01:11:05.890 Checking pilot: Javelin_Recruit_D6521018 to resist injury of type: SideTorsoDestroyed
-01:11:05.890   Actor torso/side destroyed, setting injury resist to: 10
-01:11:05.890 Pilot failed to resist injury with check:41 > resistChance:5
-01:11:05.890 Pilot will suffer injury type: SideTorsoDestroyed.
-01:11:24.805 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:11:37.797 Checking pilot: Locust_Recruit_124FB4F4 to resist injury of type: SideTorsoDestroyed
-01:11:37.797   Actor torso/side destroyed, setting injury resist to: 10
-01:11:37.797 Pilot failed to resist injury with check:74 > resistChance:5
-01:11:37.797 Pilot will suffer injury type: SideTorsoDestroyed.
-01:12:27.305 Checking pilot: Jenner_Recruit_66F1C11B to resist injury of type: SideTorsoDestroyed
-01:12:27.305   Actor torso/side destroyed, setting injury resist to: 10
-01:12:27.305 Pilot failed to resist injury with check:97 > resistChance:5
-01:12:27.305 Pilot will suffer injury type: SideTorsoDestroyed.
-01:12:43.435 Checking pilot: Panther_Recruit_548A795B to resist injury of type: NotSet
-01:12:43.435 CT Destroyed! Calling MaxInjurePilot on Recruit
-01:12:58.539 Checking pilot: Javelin_Recruit_D6521018 to resist injury of type: AmmoExplosion
-01:12:58.539 CT Destroyed! Calling MaxInjurePilot on Recruit
-01:13:41.240 Checking pilot: Locust_Recruit_124FB4F4 to resist injury of type: NotSet
-01:13:41.240   Actor was knocked down, setting injury resist to: 6
-01:13:41.240 Pilot failed to resist injury with check:73 > resistChance:9
-01:13:41.240 Pilot will suffer injury type: NotSet.
-01:14:31.895 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:14:40.213 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-01:14:53.437 Head hit from weapon:L Laser for 40 armor damage and 0 structure damage.
-01:14:53.437 Head hit impacted armor only, reduced damage to:12
-01:15:09.101 Head hit from weapon:GNM-20 [E] for 8 armor damage and 2 structure damage.
-01:15:09.101 Head hit impacted armor only, reduced damage to:2
-01:15:09.119 Head hit from weapon:GNM-20 [E] for 8 armor damage and 2 structure damage.
-01:15:09.119 Head hit impacted armor only, reduced damage to:2
-01:15:09.224 Head hit from weapon:GNM-20 [E] for 8 armor damage and 2 structure damage.
-01:15:09.225 Checking pilot: Striker_Recruit_BDB3FEEE to resist injury of type: HeadHit
-01:15:09.225   Actor suffered a headshot, injury resist was set to: 20
-01:15:09.225 Pilot failed to resist injury with check:20 > resistChance:0
-01:15:09.225 Pilot will suffer injury type: HeadHit.
+03:09:09.152 Assembly version: 0.9.8.6
+03:09:09.153 == Mod Config Initialization Started == 
+03:09:09.154 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
+03:09:09.154 == Mod Config Initialization Complete == 
+03:09:09.158 === MOD CONFIG BEGIN ===
+03:09:09.158   DEBUG: False Trace: False
+03:09:09.158   -- Fixes --
+03:09:09.158   AbilityResourceFix:                 True
+03:09:09.158   AlternateMechNamingStyle:           False
+03:09:09.158   BuildingDamageColorChange:          True
+03:09:09.158   BraceOnMeleeWithJuggernaut:         True
+03:09:09.158   BreachingShotIgnoresAllDR:          False
+03:09:09.158   BulkPurchasing:                     False
+03:09:09.158   BulkScrapping:                      False
+03:09:09.158   CalledShotTweaks:                   True
+03:09:09.158   CombatLog:                          True
+03:09:09.158   DifficultyModsFromStats:            True
+03:09:09.158   DisableCampaign:                    True
+03:09:09.158   DisableDebug:                       True
+03:09:09.158   DisableCombatRestarts:              True
+03:09:09.158   DisableCombatSaves:                 True
+03:09:09.158   DisableMPHashCalculation:           True
+03:09:09.158   DisableFiringStat:                  True
+03:09:09.158   DisableLowFundsNotification:        True
+03:09:09.158   ExplodingBuildingFix:               True
+03:09:09.158   EventRequirementsScopeFix:          True
+03:09:09.158   ExtendedStats:                      True
+03:09:09.159   FactionReputationFixes:             True
+03:09:09.159   FlexibleSensorLock:                 False
+03:09:09.159   MaxArmorMaxesArmor:                 True
+03:09:09.159   MechbayLayout:                      True
+03:09:09.159   MechbayLayoutDisableStore:          True
+03:09:09.159   OnWeaponFireFix:                    True
+03:09:09.159   PainTolerance:                      True
+03:09:09.159   PathfinderTeamFix:                  True
+03:09:09.159   RandomStartByDifficulty:            True
+03:09:09.159   ReduceSaveCompression:              True
+03:09:09.159   ScaleObjectiveBuildingStructure:    True
+03:09:09.159   ShowAllArgoUpgrades:                True
+03:09:09.159   SkipDeleteSavePopup:                True
+03:09:09.159   SkirmishAlwaysUnlimited:            True
+03:09:09.159   SkirmishReset:                      False
+03:09:09.159   SimGameDifficultyLabelsReplacer:    False
+03:09:09.159   SpawnProtection:                    True
+03:09:09.159   StreamlinedMainMenu:                True
+03:09:09.159   TurnDirectorStartFirstRoundFix:     True
+03:09:09.159   TgtComputerTonnageDisplay:          True
+03:09:09.159   UrbanExplosionsFix:                 False
+03:09:09.159   WeaponTooltips:                     True
+03:09:09.159   DamageReductionInCombatHud:         True
+03:09:09.159   DeathChanceStat:                    True
+03:09:09.159   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
+03:09:09.159   TorsoMountStatName:                     isTorsoMount
+03:09:09.159   -- Called Shot --
+03:09:09.159    Disable => AllLocations: True  Headshots: True
+03:09:09.159    Enable => ComplexTacticsModifier: True
+03:09:09.159    BaseModifier:-1
+03:09:09.159    CalledShotDefaultMod:-1
+03:09:09.159   -- Spawn Protection --
+03:09:09.159    ApplyGuard:True  EvasionPips:8
+03:09:09.159    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
+03:09:09.159    ApplyToReinforcements:True
+03:09:09.159   -- Cheat Detection --
+03:09:09.159    CheatDetection:True
+03:09:09.159    CheatDetectionNotify:True
+03:09:09.159    CheatDetectionStat:CheatFoundS2
+03:09:09.159   -- ObstructionTweaks --
+03:09:09.159    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
+03:09:09.159    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
+03:09:09.159    QuadTags:System.Collections.Generic.List`1[System.String]
+03:09:09.159    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
+03:09:09.159   -- Store --
+03:09:09.159    QuantityOnShift:5  QuantityOnControl:20
+03:09:09.159   -- Flexible Sensor Lock Options --
+03:09:09.159    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
+03:09:09.159 === MOD CONFIG END ===
+03:09:09.159 INFO: No errors reading settings file.
+03:09:09.165 Activating Fix: BraceOnMeleeWithJuggernaut
+03:09:09.165 Activating Fix: BuildingDamageColorChange
+03:09:09.165 Activating Fix: CalledShotTweaks
+03:09:09.165 Activating Fix: ExtendedStats
+03:09:09.165 Activating Fix: PainTolerance
+03:09:09.165 Activating Fix: PathfinderTeamFix
+03:09:09.165 Activating Fix: ScaleObjectiveBuildingStructure
+03:09:09.165 Activating Fix: SpawnProtection
+03:09:09.165 Activating Fix: RandomStartByDifficulty
+03:09:09.165 Activating Fix: DisableCampaign
+03:09:09.165 Activating Fix: DisableLowFundsNotification
+03:09:09.165 Activating Fix: DisableMPHashCalculation
+03:09:09.165 Activating Fix: MultiTargetStat
+03:09:09.165 Activating fix: ReduceSaveCompression.
+03:09:09.165 Activating fix: ShowAllArgoUpgrades.
+03:09:09.165 Activating fix: SkipDeleteSavePopup.
+03:09:09.166 Activating Fix: CombatLog
+03:09:09.272 Activating Fix: SkirmishAlwaysUnlimited
+03:09:09.272 Activating Fix: DisableCombatSaves
+03:09:09.272 Activating Fix: DisableCombatRestart
+03:09:09.272 Activating Fix: StreamlinedMainMenu
+03:09:09.326 Activating Fix: WeaponTooltip
+03:09:09.326 Activating Fix: DamageReductionInCombatHud
+03:09:11.667 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
+03:09:11.667 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
+03:09:11.699 M:CK Found INJURY IGNORED instruction at idx: 111
+03:09:11.843 [InitializeEffects] Initializing effects for Brace Effects
+03:09:11.843 EffectData statname: CACAoEDamageMult
+03:09:25.914 Disabling the campaign button on the main menu.
+03:09:25.941 Disabling the debug buttons in the main menu.

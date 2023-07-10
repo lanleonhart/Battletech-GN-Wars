@@ -1,83 +1,8 @@
 {
     "Settings": [
-      {
-            "Name": "BackPack",
-            "DisplayName": "BackPack",
-            "BaseLimits": [
-                {
-                    "Location": "RightTorso",
-                    "Min": 0,
-                    "Max": 0
-                },
-                {
-                    "Location": "LeftTorso",
-                    "Min": 0,
-                    "Max": 0
-                }
-            ],
-            "DefaultCustoms": {
-                "InventorySorter": "Cockpit2",
-                "Sorter": 1,
-                "RGBColor": "#949aa8",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                }
-            },
-            "UnitLimits": [
-                {
-                  "UnitType": "MobileSuit",
-                  "Limits": [
-                    {
-                        "Location": "CenterTorso",
-                        "Min": 0,
-                        "Max": 0
-                      }
-                  ]
-                },
-                {
-                  "UnitType": "MobileSuitHero",
-                  "Limits": [
-                    {
-                      "Location": "RightTorso",
-                      "Min": 0,
-                      "Max": 0
-                  },
-                  {
-                      "Location": "LeftTorso",
-                      "Min": 0,
-                      "Max": 0
-                  }
-                  ]
-                },
-                {
-                  "UnitType": "Gundam",
-                  "Limits": [
-                    {
-                      "Location": "RightTorso",
-                      "Min": 1,
-                      "Max": 1
-                  },
-                  {
-                      "Location": "LeftTorso",
-                      "Min": 1,
-                      "Max": 1
-                  }
-                  ]
-                },
-                {
-                  "UnitType": "Vehicle",
-                  "Limits": [
-                    {
-                      "Location": "All",
-                      "Max": 0
-                    }
-                  ]
-                }
-            ]
-        },
         {
-            "Name": "EquipmentMount",
-            "DisplayName": "EquipmentMount",
+            "Name": "MSHardPoint",
+            "DisplayName": "MSHardPoint",
             "BaseLimits": [
                 {
                     "Location": "RightTorso",
@@ -103,13 +28,13 @@
                   "Limits": [
                     {
                       "Location": "LeftTorso",
-                      "Min": 0,
-                      "Max": 0
+                      "Min": 1,
+                      "Max": 2
                     },
                     {
                       "Location": "RightTorso",
                       "Min": 1,
-                      "Max": 1
+                      "Max": 2
                     }
                   ]
                 },
@@ -118,13 +43,13 @@
                   "Limits": [
                     {
                       "Location": "LeftTorso",
-                      "Min": 0,
-                      "Max": 0
+                      "Min": 1,
+                      "Max": 3
                     },
                     {
                       "Location": "RightTorso",
                       "Min": 1,
-                      "Max": 2
+                      "Max": 3
                     }
                   ]
                 },
@@ -133,13 +58,13 @@
                   "Limits": [
                     {
                       "Location": "LeftTorso",
-                      "Min": 1,
-                      "Max": 2
+                      "Min": 2,
+                      "Max": 4
                     },
                     {
                       "Location": "RightTorso",
-                      "Min": 1,
-                      "Max": 2
+                      "Min": 2,
+                      "Max": 4
                     }
                   ]
                 },
