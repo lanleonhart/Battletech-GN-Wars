@@ -1,30 +1,30 @@
 {
     "Description": {
-        "Cost": 6200000,
-        "Rarity": 3,
+        "Cost": 11300000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Exterminator",
-        "Id": "chassisdef_exterminator_EXT-4A",
-        "Name": "Exterminator",
-        "Details": "The 4A is what became of the Exterminator during the Succession Wars, revived by Kallon Industries when they came across blueprints for the design in 3007. The resulting 'Mech resembles the Exterminator outwardly and carries an almost identical weapons load but otherwise is not the same machine. The only weapons change is the use of an M100 heavy machine gun with a half-ton of ammo in place of the anti-missile system. A smaller VOX 325 standard fusion engine reduces its top speed by about 10 km/h. The armor is still identical to that of the original Exterminator, but unfortunately the Null-Signature System could not be saved. This version also made use of a Tek BattleCom communication system and Tek LOR T13d targeting system.",
+        "UIName": "Nightstar",
+        "Id": "chassisdef_nightstar_NSR-9J",
+        "Name": "nightstar",
+        "Details": "The 2767 genesis of the Nightstar lies in the Amaris Civil War, when it was noticed that unit commanders, most of whom were piloting Marauder BattleMechs, were being targeted by troops loyal to Stefan Amaris. The 'Mech itself was only produced until the first year of the First Succession War, 2786, when both of the factories capable of producing the Nightstar were destroyed or had their engineers die - the Norse-Storm factory was savaged in a Marik raid, while the General Motors engineers on Kathil died in a freak accident. About three hundred years later, the Nightstar began production in both halves of the Federated Commonwealth and, since then, has become a popular 'Mech in both the AFFS and the LAAF",
         "Icon": ""
     },
-    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_331exterminator",
-	"PrefabIdentifier": "chrprfmech_331exterminatorbase-001",
-	"PrefabBase": "331exterminator",
-    "Tonnage": 65,
-    "InitialTonnage": 6.5,
-    "weightClass": "HEAVY",
-    "BattleValue": 6057000,
+    "MovementCapDefID": "movedef_banshee_BNC-3E",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_nightstar",
+    "PrefabIdentifier": "chrprfmech_nightstarbase-001",
+    "PrefabBase": "nightstar",
+    "Tonnage": 95,
+    "InitialTonnage": 9.5,
+    "weightClass": "ASSAULT",
+    "BattleValue": 9360000,
     "Heatsinks": 0,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
-    "Stability": 160,
+    "Stability": 200,
     "StabilityDefenses": [
         0,
         0,
@@ -39,17 +39,21 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
-    "MeleeInstability": 65,
+    "MeleeDamage": 130,
+    "MeleeInstability": 95,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 120,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 120,
+    "DFAInstability": 120,
     "Locations": [
         {
             "Location": "Head",
             "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -57,7 +61,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 55,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
         },
@@ -69,50 +73,43 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 190,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 80
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
+                
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 220,
-            "MaxRearArmor": 80,
-            "InternalStructure": 75
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 100,
-            "InternalStructure": 105
+            "MaxArmor": 400,
+            "MaxRearArmor": 150,
+            "InternalStructure": 150
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -121,8 +118,8 @@
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 220,
-            "MaxRearArmor": 80,
-            "InternalStructure": 75
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
         },
         {
             "Location": "RightArm",
@@ -132,84 +129,84 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 190,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 80
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 190,
+            "MaxArmor": 200,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 100
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 190,
+            "MaxArmor": 200,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 100
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 14,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 13,
+            "y": 17,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 13,
-            "z": 0
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
             "z": 1
         },
         {
-            "x": 4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 5,
-            "z": 0
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
         }
     ],
-    "VariantName": "EXT-4A",
+    "VariantName": "NSR-9J",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Skirmisher",
+    "StockRole": "Juggernaut",
     "YangsThoughts": ""
 }

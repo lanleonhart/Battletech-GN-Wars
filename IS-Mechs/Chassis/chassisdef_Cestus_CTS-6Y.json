@@ -1,30 +1,30 @@
 {
     "Description": {
-        "Cost": 6200000,
-        "Rarity": 3,
+        "Cost": 8400000,
+        "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Exterminator",
-        "Id": "chassisdef_exterminator_EXT-4A",
-        "Name": "Exterminator",
-        "Details": "The 4A is what became of the Exterminator during the Succession Wars, revived by Kallon Industries when they came across blueprints for the design in 3007. The resulting 'Mech resembles the Exterminator outwardly and carries an almost identical weapons load but otherwise is not the same machine. The only weapons change is the use of an M100 heavy machine gun with a half-ton of ammo in place of the anti-missile system. A smaller VOX 325 standard fusion engine reduces its top speed by about 10 km/h. The armor is still identical to that of the original Exterminator, but unfortunately the Null-Signature System could not be saved. This version also made use of a Tek BattleCom communication system and Tek LOR T13d targeting system.",
+        "UIName": "Cestus_CTS-6Y",
+        "Id": "chassisdef_Cestus_CTS-6Y",
+        "Name": "Cestus",
+        "Details": "The CTS-6Y Cestus began production for the Star League Defense Force in 2766. However the original CTS-6X Cestus was produced during 2603.[6] Introduced by General Motors and constructed at their Kathil plant, the Cestus served in the Armed Forces of the Federated Suns after the Fall of the Star League until its factory became a casualty during a Capellan Confederation Armed Forces raid at the beginning of the Second Succession War. The 'Mech was originally designed to carry a heavy energy weapons payload, but because of complications encountered with the heat sinks on the 'Mech, the upgraded Cestus was modified to carry a mix of ballistic and energy weapons. The Cestus was reintroduced by both Blue Shot Weapons and General Motors in the mid-3050s",
         "Icon": ""
     },
-    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+    "MovementCapDefID": "movedef_rifleman_RFL-4D",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_331exterminator",
-	"PrefabIdentifier": "chrprfmech_331exterminatorbase-001",
-	"PrefabBase": "331exterminator",
+    "HardpointDataDefID": "hardpointdatadef_ostwar",
+  "PrefabIdentifier": "chrprfmech_ostwarhotd-001",
+  "PrefabBase": "ostwar",
     "Tonnage": 65,
     "InitialTonnage": 6.5,
     "weightClass": "HEAVY",
-    "BattleValue": 6057000,
+    "BattleValue": 8821000,
     "Heatsinks": 0,
-    "TopSpeed": 120,
+    "TopSpeed": 105,
     "TurnRadius": 90,
-    "MaxJumpjets": 4,
-    "Stability": 160,
+    "MaxJumpjets": 3,
+    "Stability": 200,
     "StabilityDefenses": [
         0,
         0,
@@ -39,27 +39,22 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
-    "MeleeInstability": 65,
+    "MeleeDamage": 55,
+    "MeleeInstability": 60,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 75,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 75,
+    "DFAInstability": 75,
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 55,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
-            "InternalStructure": 16
+            "InternalStructure": 15
         },
         {
             "Location": "LeftArm",
@@ -71,58 +66,49 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 190,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
+                
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 80,
-            "InternalStructure": 75
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 50
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 100,
+            "MaxArmor": 175,
+            "MaxRearArmor": 135,
             "InternalStructure": 105
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 80,
-            "InternalStructure": 75
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 50
         },
         {
             "Location": "RightArm",
@@ -138,7 +124,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 190,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
@@ -147,7 +133,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 190,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
             "InternalStructure": 75
         },
@@ -156,7 +142,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 190,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
             "InternalStructure": 75
         }
@@ -164,52 +150,52 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 14,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 13,
+            "y": 15,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 13,
-            "z": 0
+            "x": 3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 16,
+            "z": -1
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
             "z": 1
         },
         {
-            "x": 4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 5,
-            "z": 0
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
         }
     ],
-    "VariantName": "EXT-4A",
+    "VariantName": "CTS-6Y",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Skirmisher",
+    "StockRole": "Brawler",
     "YangsThoughts": ""
 }

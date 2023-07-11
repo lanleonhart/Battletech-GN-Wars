@@ -1,30 +1,30 @@
 {
     "Description": {
-        "Cost": 6200000,
-        "Rarity": 3,
+        "Cost": 18800000,
+        "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Exterminator",
-        "Id": "chassisdef_exterminator_EXT-4A",
-        "Name": "Exterminator",
-        "Details": "The 4A is what became of the Exterminator during the Succession Wars, revived by Kallon Industries when they came across blueprints for the design in 3007. The resulting 'Mech resembles the Exterminator outwardly and carries an almost identical weapons load but otherwise is not the same machine. The only weapons change is the use of an M100 heavy machine gun with a half-ton of ammo in place of the anti-missile system. A smaller VOX 325 standard fusion engine reduces its top speed by about 10 km/h. The armor is still identical to that of the original Exterminator, but unfortunately the Null-Signature System could not be saved. This version also made use of a Tek BattleCom communication system and Tek LOR T13d targeting system.",
+        "UIName": "Emperor EMP-6A",
+        "Id": "chassisdef_emperor_EMP-6A",
+        "Name": "Emperor",
+        "Details": "The Emperor is one of the earliest assault BattleMechs, dating back to 2502.[4][5][6][7] The Emperor also bears the distinction of being the first 90+ ton BattleMech to mount jump jets. In 2612, StarCorps introduced an upgraded Emperor, EMP-6A, designed for and distributed exclusively to Star League Defense Forces Royal Units. The Emperor was produced continuously until Marik forces destroyed StarCorps Industries facility with nuclear arms on Son Hoa during the Second Succession War. Production of the Emperor resumed in 3057 alongside the legendary Highlander.",
         "Icon": ""
     },
-    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_331exterminator",
-	"PrefabIdentifier": "chrprfmech_331exterminatorbase-001",
-	"PrefabBase": "331exterminator",
-    "Tonnage": 65,
-    "InitialTonnage": 6.5,
-    "weightClass": "HEAVY",
-    "BattleValue": 6057000,
+    "MovementCapDefID": "movedef_highlander_HGN-733",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_emperor",
+  "PrefabIdentifier": "chrprfmech_emperorbase-001",
+  "PrefabBase": "emperor",
+    "Tonnage": 90,
+    "InitialTonnage": 9,
+    "weightClass": "ASSAULT",
+    "BattleValue": 9642000,
     "Heatsinks": 0,
-    "TopSpeed": 120,
+    "TopSpeed": 105,
     "TurnRadius": 90,
-    "MaxJumpjets": 4,
-    "Stability": 160,
+    "MaxJumpjets": 3,
+    "Stability": 200,
     "StabilityDefenses": [
         0,
         0,
@@ -39,13 +39,13 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
-    "MeleeInstability": 65,
+    "MeleeDamage": 115,
+    "MeleeInstability": 90,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 115,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 115,
+    "DFAInstability": 115,
     "Locations": [
         {
             "Location": "Head",
@@ -57,7 +57,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 55,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
         },
@@ -65,54 +65,50 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 190,
+            "MaxArmor": 150,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 75
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 80,
-            "InternalStructure": 75
+            "MaxArmor": 190,
+            "MaxRearArmor": 95,
+            "InternalStructure": 95
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 100,
-            "InternalStructure": 105
+            "MaxArmor": 290,
+            "MaxRearArmor": 145,
+            "InternalStructure": 145
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -120,15 +116,15 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 80,
-            "InternalStructure": 75
+            "MaxArmor": 190,
+            "MaxRearArmor": 95,
+            "InternalStructure": 95
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
@@ -138,9 +134,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 190,
+            "MaxArmor": 150,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 75
         },
         {
             "Location": "LeftLeg",
@@ -149,7 +145,7 @@
             "InventorySlots": 4,
             "MaxArmor": 190,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 95
         },
         {
             "Location": "RightLeg",
@@ -158,58 +154,58 @@
             "InventorySlots": 4,
             "MaxArmor": 190,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 95
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 14,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 13,
+            "y": 17,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 13,
-            "z": 0
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
             "z": 1
         },
         {
-            "x": 4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 5,
-            "z": 0
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
         }
     ],
-    "VariantName": "EXT-4A",
+    "VariantName": "EMP-6A",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Skirmisher",
+    "StockRole": "Juggernaut",
     "YangsThoughts": ""
 }

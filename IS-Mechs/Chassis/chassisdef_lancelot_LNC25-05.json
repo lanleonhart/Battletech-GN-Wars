@@ -5,17 +5,17 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Champion",
-        "Id": "chassisdef_champion_CHP-2N",
-        "Name": "Champion",
-        "Details": "The Champion was, if anything, the product of an intense and effective lobbying campaign. Beating out Earthwerk's bid to modify their Griffin BattleMech to similar specifications, the Champion would come to serve as one of the most popular 'Mechs of its era within the SLDF. Even the Succession Wars and the successive decline in the Champion's capabilities would do little to reduce the 'Mech's reputation.",
-        "Icon": "Champion"
+        "UIName": "Lancelot",
+        "Id": "chassisdef_lancelot_LNC25-05",
+        "Name": "Lancelot",
+        "Details": "The Lancelot did not survive the loss of Star League technology as well as most of its older cousins. Manufactured by Luthien Armor Works from their huge plant on Luthien, the 02 retained the same weapons array though with different models: a Lord's Light PPC, two Sunglow Large Lasers, and a Victory 23R medium laser. This came at the expense however of a smaller Pitban 240 fusion engine and nineteen single heat sinks. With a new maximum speed of only 64.8 km/h the thin-skinned Lancelot made for an easy target for other 'Mechs of its weight class, and the less efficient heat dissipation system made it unable to unleash its full firepower safely and consistently; firing both large lasers and the PPC at the same time now entailed risking a shutdown from overheating. LAW also had to replace the Krupp electronics used in the Star League variants, installing a Sipher KIT-4 communications system and a Hawkeye B3 targeting and tracking system.",
+        "Icon": ""
     },
     "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_champion",
-    "PrefabIdentifier": "chrprfmech_championbase-001",
-    "PrefabBase": "champion",
+    "HardpointDataDefID": "hardpointdatadef_lancelot",
+    "PrefabIdentifier": "chrprfmech_lancelotbase-001",
+    "PrefabBase": "Lancelot",
     "Tonnage": 60,
     "InitialTonnage": 6,
     "weightClass": "HEAVY",
@@ -59,76 +59,80 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
-                
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 100,
+            "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
+                
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 160,
-            "MaxRearArmor": 50,
+            "MaxArmor": 220,
+            "MaxRearArmor": 40,
             "InternalStructure": 70
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
+    
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 220,
-            "MaxRearArmor": 75,
+            "MaxRearArmor": 60,
             "InternalStructure": 100
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 160,
-            "MaxRearArmor": 50,
+            "MaxArmor": 220,
+            "MaxRearArmor": 40,
             "InternalStructure": 70
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
-                
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 100,
+            "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
@@ -137,7 +141,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 130,
+            "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 70
         },
@@ -146,7 +150,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 130,
+            "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 70
         }
@@ -195,7 +199,7 @@
             "z": 0
         }
     ],
-    "VariantName": "CHP-2N",
+    "VariantName": "LNC25-05",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""

@@ -1,28 +1,25 @@
 {
     "Description": {
-        "Cost": 6200000,
-        "Rarity": 3,
+        "Cost": 12600000,
+        "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Exterminator",
-        "Id": "chassisdef_exterminator_EXT-4A",
-        "Name": "Exterminator",
-        "Details": "The 4A is what became of the Exterminator during the Succession Wars, revived by Kallon Industries when they came across blueprints for the design in 3007. The resulting 'Mech resembles the Exterminator outwardly and carries an almost identical weapons load but otherwise is not the same machine. The only weapons change is the use of an M100 heavy machine gun with a half-ton of ammo in place of the anti-missile system. A smaller VOX 325 standard fusion engine reduces its top speed by about 10 km/h. The armor is still identical to that of the original Exterminator, but unfortunately the Null-Signature System could not be saved. This version also made use of a Tek BattleCom communication system and Tek LOR T13d targeting system.",
-        "Icon": ""
+        "UIName": "Marauder",
+        "Id": "chassisdef_marauder_MAD-1R",
+        "Name": "Marauder",
+        "Details": "The earliest version of the Marauder, used by the Royal brigades of the SLDF, the 1R used CASE to protect the autocannon ammunition and carried eleven tons of ferro-fibrous armor. It was introduced in 2612",
+        "Icon": "Marauder"
     },
-    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+    "MovementCapDefID": "movedef_marauder_MAD-2R",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_331exterminator",
-	"PrefabIdentifier": "chrprfmech_331exterminatorbase-001",
-	"PrefabBase": "331exterminator",
-    "Tonnage": 65,
-    "InitialTonnage": 6.5,
+    "HardpointDataDefID": "hardpointdatadef_marauder",
+    "PrefabIdentifier": "chrPrfMech_marauderBase-001",
+    "PrefabBase": "marauder",
+    "Tonnage": 75,
+    "InitialTonnage": 32.5,
     "weightClass": "HEAVY",
-    "BattleValue": 6057000,
-    "Heatsinks": 0,
-    "TopSpeed": 120,
-    "TurnRadius": 90,
+    "Heatsinks": 30,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -39,25 +36,25 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
-    "MeleeInstability": 65,
+    "MeleeDamage": 95,
+    "MeleeInstability": 75,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 95,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
     "Locations": [
         {
             "Location": "Head",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 55,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
         },
@@ -71,58 +68,45 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 190,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 60
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
+            "MaxArmor": 160,
             "MaxRearArmor": 80,
-            "InternalStructure": 75
+            "InternalStructure": 80
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 100,
-            "InternalStructure": 105
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
+            "MaxArmor": 160,
             "MaxRearArmor": 80,
-            "InternalStructure": 75
+            "InternalStructure": 80
         },
         {
             "Location": "RightArm",
@@ -138,78 +122,79 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 190,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 60
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 190,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 80
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 190,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 80
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 13.5,
             "z": 1
         },
         {
-            "x": 4,
+            "x": 3,
             "y": 13,
-            "z": 0
+            "z": -1
         },
         {
-            "x": -4,
+            "x": -3,
             "y": 13,
-            "z": 0
+            "z": -1
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 13.5,
             "z": 1
         },
         {
-            "x": 4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -4,
-            "y": 13,
-            "z": 0
-        },
-        {
             "x": 3,
-            "y": 5,
-            "z": 0
+            "y": 13,
+            "z": -1
         },
         {
             "x": -3,
-            "y": 5,
-            "z": 0
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": 2.5,
+            "y": 7,
+            "z": -2.5
+        },
+        {
+            "x": -2.5,
+            "y": 7,
+            "z": -2.5
         }
     ],
-    "VariantName": "EXT-4A",
+    "VariantName": "MAD-1R",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Skirmisher",
-    "YangsThoughts": ""
+    "StockRole": "Ranged Assault",
+    "YangsThoughts": "",
+    
 }

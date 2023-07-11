@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 6200000,
-        "Rarity": 3,
+        "Cost": 7800000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Champion",
-        "Id": "chassisdef_champion_CHP-2N",
-        "Name": "Champion",
-        "Details": "The Champion was, if anything, the product of an intense and effective lobbying campaign. Beating out Earthwerk's bid to modify their Griffin BattleMech to similar specifications, the Champion would come to serve as one of the most popular 'Mechs of its era within the SLDF. Even the Succession Wars and the successive decline in the Champion's capabilities would do little to reduce the 'Mech's reputation.",
-        "Icon": "Champion"
+        "UIName": "Flashman",
+        "Id": "chassisdef_flashman_FLS-78K",
+        "Name": "Flashman",
+        "Details": "",
+        "Icon": ""
     },
-    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+    "MovementCapDefID": "movedef_blackknight_BL-6-KNT",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_champion",
-    "PrefabIdentifier": "chrprfmech_championbase-001",
-    "PrefabBase": "champion",
-    "Tonnage": 60,
-    "InitialTonnage": 6,
+    "HardpointDataDefID": "hardpointdatadef_imp",
+    "PrefabIdentifier": "chrprfmech_flashmanbase-001",
+    "PrefabBase": "flashman",
+    "Tonnage": 75,
+    "InitialTonnage": 7.5,
     "weightClass": "HEAVY",
-    "BattleValue": 6057000,
+    "BattleValue": 7124000,
     "Heatsinks": 0,
-    "TopSpeed": 86,
+    "TopSpeed": 64,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 160,
@@ -39,33 +39,45 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
-    "MeleeInstability": 65,
+    "MeleeDamage": 95,
+    "MeleeInstability": 75,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 95,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 55,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
-            "InternalStructure": 15
+            "InternalStructure": 16
         },
         {
             "Location": "LeftArm",
             "Hardpoints": [
-                
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 100,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 60
         },
         {
             "Location": "LeftTorso",
@@ -77,17 +89,13 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 160,
-            "MaxRearArmor": 50,
-            "InternalStructure": 70
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
         },
         {
             "Location": "CenterTorso",
@@ -95,6 +103,38 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
                 },
                 {
                     "WeaponMount": "Energy",
@@ -102,104 +142,79 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 75,
-            "InternalStructure": 100
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 160,
-            "MaxRearArmor": 50,
-            "InternalStructure": 70
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                
-            ],
-            "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 100,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 60
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 130,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 80
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 130,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 80
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 18,
             "z": 1
         },
         {
             "x": 4,
-            "y": 13,
+            "y": 16,
             "z": 0
         },
         {
             "x": -4,
-            "y": 13,
+            "y": 16,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 18,
             "z": 1
         },
         {
             "x": 4,
-            "y": 13,
+            "y": 16,
             "z": 0
         },
         {
             "x": -4,
-            "y": 13,
+            "y": 16,
             "z": 0
         },
         {
             "x": 3,
-            "y": 5,
+            "y": 6,
             "z": 0
         },
         {
             "x": -3,
-            "y": 5,
+            "y": 6,
             "z": 0
         }
     ],
-    "VariantName": "CHP-2N",
+    "VariantName": "FLS-8K",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher",
+    "StockRole": "Brawler & Ranged Assault",
     "YangsThoughts": ""
 }
