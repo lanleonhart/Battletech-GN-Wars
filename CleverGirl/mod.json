@@ -1,0 +1,24 @@
+{
+    "Name": "CleverGirl",
+    "Enabled": true,
+    "Version": "2.1.1",
+    "Description": "Provides little nudges for the AI",
+    "Author": "IceRaptor",
+    "Website": "https://github.com/IceRaptor/CleverGirl",
+    "Contact": "",
+    "DLL": "CleverGirl.dll",
+    "DLLEntryPoint": "CleverGirl.Mod.Init",	
+    "DependsOn" : [ "IRBTModUtils", "Custom Ammo Categories", "CustomComponents", "CBTBehaviorsEnhanced" ],
+    "OptionallyDependsOn" :  [  ],
+    "Settings": {
+        "Debug" : true,
+        "Trace" : false,
+        "Profile" : false,
+        "UseCBTBEMelee" : true,
+        "Weights" : {
+            "FriendlyDamageMulti" : 2.0,
+            "PunchbotDamageMulti" : 2.0,
+            "OneShotMinimumToHit" : 0.4
+        }
+    }
+}

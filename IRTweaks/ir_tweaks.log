@@ -1,231 +1,407 @@
-18:38:35.597 Assembly version: 0.9.8.6
-18:38:35.597 == Mod Config Initialization Started == 
-18:38:35.598 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
-18:38:35.598 == Mod Config Initialization Complete == 
-18:38:35.601 === MOD CONFIG BEGIN ===
-18:38:35.601   DEBUG: False Trace: False
-18:38:35.601   -- Fixes --
-18:38:35.601   AbilityResourceFix:                 True
-18:38:35.601   AlternateMechNamingStyle:           False
-18:38:35.601   BuildingDamageColorChange:          True
-18:38:35.601   BraceOnMeleeWithJuggernaut:         True
-18:38:35.601   BreachingShotIgnoresAllDR:          False
-18:38:35.602   BulkPurchasing:                     False
-18:38:35.602   BulkScrapping:                      False
-18:38:35.602   CalledShotTweaks:                   True
-18:38:35.602   CombatLog:                          True
-18:38:35.602   DifficultyModsFromStats:            True
-18:38:35.602   DisableCampaign:                    True
-18:38:35.602   DisableDebug:                       True
-18:38:35.602   DisableCombatRestarts:              True
-18:38:35.602   DisableCombatSaves:                 True
-18:38:35.602   DisableMPHashCalculation:           True
-18:38:35.602   DisableFiringStat:                  True
-18:38:35.602   DisableLowFundsNotification:        True
-18:38:35.602   ExplodingBuildingFix:               True
-18:38:35.602   EventRequirementsScopeFix:          True
-18:38:35.602   ExtendedStats:                      True
-18:38:35.602   FactionReputationFixes:             True
-18:38:35.602   FlexibleSensorLock:                 False
-18:38:35.602   MaxArmorMaxesArmor:                 True
-18:38:35.602   MechbayLayout:                      True
-18:38:35.602   MechbayLayoutDisableStore:          True
-18:38:35.602   OnWeaponFireFix:                    True
-18:38:35.602   PainTolerance:                      True
-18:38:35.602   PathfinderTeamFix:                  True
-18:38:35.602   RandomStartByDifficulty:            True
-18:38:35.602   ReduceSaveCompression:              True
-18:38:35.602   ScaleObjectiveBuildingStructure:    True
-18:38:35.602   ShowAllArgoUpgrades:                True
-18:38:35.602   SkipDeleteSavePopup:                True
-18:38:35.602   SkirmishAlwaysUnlimited:            True
-18:38:35.602   SkirmishReset:                      False
-18:38:35.602   SimGameDifficultyLabelsReplacer:    False
-18:38:35.602   SpawnProtection:                    True
-18:38:35.602   StreamlinedMainMenu:                True
-18:38:35.602   TurnDirectorStartFirstRoundFix:     True
-18:38:35.602   TgtComputerTonnageDisplay:          True
-18:38:35.602   UrbanExplosionsFix:                 False
-18:38:35.602   WeaponTooltips:                     True
-18:38:35.602   DamageReductionInCombatHud:         True
-18:38:35.602   DeathChanceStat:                    True
-18:38:35.602   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
-18:38:35.602   TorsoMountStatName:                     isTorsoMount
-18:38:35.602   -- Called Shot --
-18:38:35.602    Disable => AllLocations: True  Headshots: True
-18:38:35.602    Enable => ComplexTacticsModifier: True
-18:38:35.602    BaseModifier:-1
-18:38:35.603    CalledShotDefaultMod:-1
-18:38:35.603   -- Spawn Protection --
-18:38:35.603    ApplyGuard:True  EvasionPips:8
-18:38:35.603    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
-18:38:35.603    ApplyToReinforcements:True
-18:38:35.603   -- Cheat Detection --
-18:38:35.603    CheatDetection:True
-18:38:35.603    CheatDetectionNotify:True
-18:38:35.603    CheatDetectionStat:CheatFoundS2
-18:38:35.603   -- ObstructionTweaks --
-18:38:35.603    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
-18:38:35.603    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
-18:38:35.603    QuadTags:System.Collections.Generic.List`1[System.String]
-18:38:35.603    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
-18:38:35.603   -- Store --
-18:38:35.603    QuantityOnShift:5  QuantityOnControl:20
-18:38:35.603   -- Flexible Sensor Lock Options --
-18:38:35.603    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
-18:38:35.603 === MOD CONFIG END ===
-18:38:35.603 INFO: No errors reading settings file.
-18:38:35.607 Activating Fix: BraceOnMeleeWithJuggernaut
-18:38:35.607 Activating Fix: BuildingDamageColorChange
-18:38:35.607 Activating Fix: CalledShotTweaks
-18:38:35.607 Activating Fix: ExtendedStats
-18:38:35.607 Activating Fix: PainTolerance
-18:38:35.607 Activating Fix: PathfinderTeamFix
-18:38:35.607 Activating Fix: ScaleObjectiveBuildingStructure
-18:38:35.607 Activating Fix: SpawnProtection
-18:38:35.607 Activating Fix: RandomStartByDifficulty
-18:38:35.607 Activating Fix: DisableCampaign
-18:38:35.607 Activating Fix: DisableLowFundsNotification
-18:38:35.607 Activating Fix: DisableMPHashCalculation
-18:38:35.607 Activating Fix: MultiTargetStat
-18:38:35.607 Activating fix: ReduceSaveCompression.
-18:38:35.607 Activating fix: ShowAllArgoUpgrades.
-18:38:35.607 Activating fix: SkipDeleteSavePopup.
-18:38:35.608 Activating Fix: CombatLog
-18:38:35.644 Activating Fix: SkirmishAlwaysUnlimited
-18:38:35.644 Activating Fix: DisableCombatSaves
-18:38:35.644 Activating Fix: DisableCombatRestart
-18:38:35.644 Activating Fix: StreamlinedMainMenu
-18:38:35.667 Activating Fix: WeaponTooltip
-18:38:35.667 Activating Fix: DamageReductionInCombatHud
-18:38:36.370 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
-18:38:36.370 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
-18:38:36.449 M:CK Found INJURY IGNORED instruction at idx: 111
-18:38:36.493 [InitializeEffects] Initializing effects for Brace Effects
-18:38:36.494 EffectData statname: CACAoEDamageMult
-18:39:00.664 Disabling the campaign button on the main menu.
-18:39:00.691 Disabling the debug buttons in the main menu.
-18:39:58.214 CHEATDETECTION: Added key to SimGameFunds with Funds 540000 on rehydrate, post.
-18:39:58.215 CHEATDETECTION: PilotGen_SGRef_14909: Added SGRef_14910  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
-18:39:58.215 CHEATDETECTION: PilotGen_SGRef_14911: Added SGRef_14912  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
-18:39:58.215 CHEATDETECTION: PilotGen_SGRef_14913: Added SGRef_14914  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
-18:39:58.215 CHEATDETECTION: PilotGen_SGRef_14915: Added SGRef_14916  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
-18:39:58.215 CHEATDETECTION: commander: Added commander  key to PilotCurrentXP with UnspentXP 7000 on rehydrate, post.
-18:40:07.416 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
-18:40:15.117 SGNL:Start - adding new button.
-18:40:15.117  - Creating store button
-18:40:15.126  - Creating staff button
-18:40:15.135  - Creating memorial button
-18:40:22.346 CHEATDETECTION: PilotGen_SGRef_14909: Set tracker SGRef_14910 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-18:40:22.346 CHEATDETECTION: PilotGen_SGRef_14911: Set tracker SGRef_14912 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-18:40:22.346 CHEATDETECTION: PilotGen_SGRef_14913: Set tracker SGRef_14914 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-18:40:22.346 CHEATDETECTION: PilotGen_SGRef_14915: Set tracker SGRef_14916 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-18:40:22.346 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-18:42:06.368 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
-18:42:28.955 Checking contract for contract-specific building scaling:
-18:42:28.955 Checking contract for objective building scaling:
-18:42:28.955   -- contract has difficulty: 5 and finalDifficulty: 6
-18:42:28.955 Building scaling set to: IRTweaks.CombatOpts+StructureScale
-18:42:48.914 Checking actor:DEPLOY_Deploy_1C1DF7D8 that belongs to team:Player 1
-18:42:48.915  Spawn protecting actor: DEPLOY_Deploy_1C1DF7D8
-18:42:48.915  -- applying Braced state
-18:42:48.922 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:48.922  -- setting evasion pips to: 8
-18:42:49.227 Checking actor:0 Gundam Full Armor_Whiskey_CDB452CE that belongs to team:Player 1
-18:42:49.227  Spawn protecting actor: 0 Gundam Full Armor_Whiskey_CDB452CE
-18:42:49.227  -- applying Braced state
-18:42:49.232 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:49.232  -- setting evasion pips to: 8
-18:42:49.555 Checking actor:0 Gundam_Namazu_F9FAE558 that belongs to team:Player 1
-18:42:49.555  Spawn protecting actor: 0 Gundam_Namazu_F9FAE558
-18:42:49.555  -- applying Braced state
-18:42:49.560 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:49.560  -- setting evasion pips to: 8
-18:42:49.683 Checking actor:GM_Radiowave_9D156E66 that belongs to team:Player 1
-18:42:49.683  Spawn protecting actor: GM_Radiowave_9D156E66
-18:42:49.683  -- applying Braced state
-18:42:49.688 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:49.688  -- setting evasion pips to: 8
-18:42:49.776 Checking actor:GM_Painter_E325BAAE that belongs to team:Player 1
-18:42:49.776  Spawn protecting actor: GM_Painter_E325BAAE
-18:42:49.776  -- applying Braced state
-18:42:49.780 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:49.780  -- setting evasion pips to: 8
-18:42:50.007 Checking actor:Titan_Defender_A3C9A6F1 that belongs to team:TargetTeam
-18:42:50.008  Spawn protecting actor: Titan_Defender_A3C9A6F1
-18:42:50.008  -- applying Braced state
-18:42:50.012 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:50.012  -- setting evasion pips to: 8
-18:42:50.211 Checking actor:Thunderbolt_Defender_BBF6A7B1 that belongs to team:TargetTeam
-18:42:50.211  Spawn protecting actor: Thunderbolt_Defender_BBF6A7B1
-18:42:50.211  -- applying Braced state
-18:42:50.216 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:50.216  -- setting evasion pips to: 8
-18:42:50.321 Checking actor:Centurion_Recon_D7EE0657 that belongs to team:TargetTeam
-18:42:50.321  Spawn protecting actor: Centurion_Recon_D7EE0657
-18:42:50.321  -- applying Braced state
-18:42:50.326 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:50.326  -- setting evasion pips to: 8
-18:42:50.457 Checking actor:Locust_Brawler_EF01A5C3 that belongs to team:TargetTeam
-18:42:50.458  Spawn protecting actor: Locust_Brawler_EF01A5C3
-18:42:50.458  -- applying Braced state
-18:42:50.463 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:50.463  -- setting evasion pips to: 8
-18:42:50.561 Checking actor:Trebuchet_Defender_EC1ABF44 that belongs to team:TargetTeam
-18:42:50.561  Spawn protecting actor: Trebuchet_Defender_EC1ABF44
-18:42:50.561  -- applying Braced state
-18:42:50.565 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:50.566  -- setting evasion pips to: 8
-18:42:50.617 Checking actor:Trebuchet_Gunner_2084CA97 that belongs to team:TargetTeam
-18:42:50.617  Spawn protecting actor: Trebuchet_Gunner_2084CA97
-18:42:50.617  -- applying Braced state
-18:42:50.621 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:50.621  -- setting evasion pips to: 8
-18:42:50.732 Checking actor:Trebuchet_Defender_B5380299 that belongs to team:TargetTeam
-18:42:50.732  Spawn protecting actor: Trebuchet_Defender_B5380299
-18:42:50.732  -- applying Braced state
-18:42:50.737 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:50.737  -- setting evasion pips to: 8
-18:42:50.813 Checking actor:Trebuchet_Pilot_94E0FD34 that belongs to team:TargetTeam
-18:42:50.813  Spawn protecting actor: Trebuchet_Pilot_94E0FD34
-18:42:50.813  -- applying Braced state
-18:42:50.818 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:50.818  -- setting evasion pips to: 8
-18:42:50.908 Checking actor:Cicada_Pilot_BE734610 that belongs to team:TargetTeam
-18:42:50.908  Spawn protecting actor: Cicada_Pilot_BE734610
-18:42:50.908  -- applying Braced state
-18:42:50.912 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:42:50.912  -- setting evasion pips to: 8
-18:42:57.641 Background image size: 222h x 450
-18:42:57.641 CombatChatModule pos: (951.2, 572.4, -4900.0)
-18:42:57.641 RetreatEscMenu pos: (1947.9, 1120.2, -4900.0)
-18:42:57.641 new CombatChatModule pos: (2434.9, 1000.2, -4900.0)
-18:42:57.641 ChatButton base  pos: (2434.9, 1000.2, -4900.0)
-18:42:57.641 ChatButton new  pos: (1694.9, 1080.2, -4900.0)
-18:43:26.967 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:27.074 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:27.080 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:27.084 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:27.089 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:30.954 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:33.715 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:36.172 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:37.305 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:37.652 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:38.014 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:38.376 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:38.887 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:39.252 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:54.164 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:43:58.774 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:02.498 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:05.457 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:09.878 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:18.350 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:20.787 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:28.657 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:29.929 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:34.059 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:35.434 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:37.338 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
-18:44:39.615 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:30:14.117 Assembly version: 0.9.8.6
+17:30:14.118 == Mod Config Initialization Started == 
+17:30:14.118 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
+17:30:14.118 == Mod Config Initialization Complete == 
+17:30:14.123 === MOD CONFIG BEGIN ===
+17:30:14.123   DEBUG: False Trace: False
+17:30:14.123   -- Fixes --
+17:30:14.123   AbilityResourceFix:                 True
+17:30:14.123   AlternateMechNamingStyle:           False
+17:30:14.123   BuildingDamageColorChange:          True
+17:30:14.123   BraceOnMeleeWithJuggernaut:         True
+17:30:14.123   BreachingShotIgnoresAllDR:          False
+17:30:14.123   BulkPurchasing:                     False
+17:30:14.123   BulkScrapping:                      False
+17:30:14.123   CalledShotTweaks:                   True
+17:30:14.123   CombatLog:                          True
+17:30:14.123   DifficultyModsFromStats:            True
+17:30:14.123   DisableCampaign:                    True
+17:30:14.123   DisableDebug:                       True
+17:30:14.123   DisableCombatRestarts:              True
+17:30:14.123   DisableCombatSaves:                 True
+17:30:14.123   DisableMPHashCalculation:           True
+17:30:14.123   DisableFiringStat:                  True
+17:30:14.123   DisableLowFundsNotification:        True
+17:30:14.123   ExplodingBuildingFix:               True
+17:30:14.123   EventRequirementsScopeFix:          True
+17:30:14.123   ExtendedStats:                      True
+17:30:14.123   FactionReputationFixes:             True
+17:30:14.123   FlexibleSensorLock:                 False
+17:30:14.123   MaxArmorMaxesArmor:                 True
+17:30:14.123   MechbayLayout:                      True
+17:30:14.123   MechbayLayoutDisableStore:          True
+17:30:14.123   OnWeaponFireFix:                    True
+17:30:14.123   PainTolerance:                      True
+17:30:14.123   PathfinderTeamFix:                  True
+17:30:14.123   RandomStartByDifficulty:            True
+17:30:14.123   ReduceSaveCompression:              True
+17:30:14.123   ScaleObjectiveBuildingStructure:    True
+17:30:14.123   ShowAllArgoUpgrades:                True
+17:30:14.123   SkipDeleteSavePopup:                True
+17:30:14.123   SkirmishAlwaysUnlimited:            True
+17:30:14.123   SkirmishReset:                      False
+17:30:14.123   SimGameDifficultyLabelsReplacer:    False
+17:30:14.123   SpawnProtection:                    True
+17:30:14.123   StreamlinedMainMenu:                True
+17:30:14.123   TurnDirectorStartFirstRoundFix:     True
+17:30:14.123   TgtComputerTonnageDisplay:          True
+17:30:14.123   UrbanExplosionsFix:                 False
+17:30:14.123   WeaponTooltips:                     True
+17:30:14.123   DamageReductionInCombatHud:         True
+17:30:14.123   DeathChanceStat:                    True
+17:30:14.123   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
+17:30:14.123   TorsoMountStatName:                     isTorsoMount
+17:30:14.123   -- Called Shot --
+17:30:14.123    Disable => AllLocations: True  Headshots: True
+17:30:14.123    Enable => ComplexTacticsModifier: True
+17:30:14.123    BaseModifier:-1
+17:30:14.124    CalledShotDefaultMod:-1
+17:30:14.124   -- Spawn Protection --
+17:30:14.124    ApplyGuard:True  EvasionPips:8
+17:30:14.124    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
+17:30:14.124    ApplyToReinforcements:True
+17:30:14.124   -- Cheat Detection --
+17:30:14.124    CheatDetection:True
+17:30:14.124    CheatDetectionNotify:True
+17:30:14.124    CheatDetectionStat:CheatFoundS2
+17:30:14.124   -- ObstructionTweaks --
+17:30:14.124    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
+17:30:14.124    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
+17:30:14.124    QuadTags:System.Collections.Generic.List`1[System.String]
+17:30:14.124    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
+17:30:14.124   -- Store --
+17:30:14.124    QuantityOnShift:5  QuantityOnControl:20
+17:30:14.124   -- Flexible Sensor Lock Options --
+17:30:14.124    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
+17:30:14.124 === MOD CONFIG END ===
+17:30:14.124 INFO: No errors reading settings file.
+17:30:14.131 Activating Fix: BraceOnMeleeWithJuggernaut
+17:30:14.131 Activating Fix: BuildingDamageColorChange
+17:30:14.131 Activating Fix: CalledShotTweaks
+17:30:14.131 Activating Fix: ExtendedStats
+17:30:14.131 Activating Fix: PainTolerance
+17:30:14.131 Activating Fix: PathfinderTeamFix
+17:30:14.131 Activating Fix: ScaleObjectiveBuildingStructure
+17:30:14.131 Activating Fix: SpawnProtection
+17:30:14.131 Activating Fix: RandomStartByDifficulty
+17:30:14.131 Activating Fix: DisableCampaign
+17:30:14.132 Activating Fix: DisableLowFundsNotification
+17:30:14.132 Activating Fix: DisableMPHashCalculation
+17:30:14.132 Activating Fix: MultiTargetStat
+17:30:14.132 Activating fix: ReduceSaveCompression.
+17:30:14.132 Activating fix: ShowAllArgoUpgrades.
+17:30:14.132 Activating fix: SkipDeleteSavePopup.
+17:30:14.132 Activating Fix: CombatLog
+17:30:14.243 Activating Fix: SkirmishAlwaysUnlimited
+17:30:14.243 Activating Fix: DisableCombatSaves
+17:30:14.243 Activating Fix: DisableCombatRestart
+17:30:14.243 Activating Fix: StreamlinedMainMenu
+17:30:14.298 Activating Fix: WeaponTooltip
+17:30:14.298 Activating Fix: DamageReductionInCombatHud
+17:30:16.359 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
+17:30:16.359 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
+17:30:16.387 M:CK Found INJURY IGNORED instruction at idx: 111
+17:30:16.504 [InitializeEffects] Initializing effects for Brace Effects
+17:30:16.505 EffectData statname: CACAoEDamageMult
+17:30:29.689 Disabling the campaign button on the main menu.
+17:30:29.721 Disabling the debug buttons in the main menu.
+17:31:05.501 CHEATDETECTION: Added key to SimGameFunds with Funds 3674680 on rehydrate, post.
+17:31:05.501 CHEATDETECTION: PilotGen_SGRef_19: Added SGRef_20  key to PilotCurrentXP with UnspentXP 4900 on rehydrate, post.
+17:31:05.501 CHEATDETECTION: PilotGen_SGRef_22: Added SGRef_23  key to PilotCurrentXP with UnspentXP 2300 on rehydrate, post.
+17:31:05.501 CHEATDETECTION: PilotGen_SGRef_24: Added SGRef_25  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
+17:31:05.501 CHEATDETECTION: PilotGen_SGRef_27: Added SGRef_28  key to PilotCurrentXP with UnspentXP 0 on rehydrate, post.
+17:31:05.501 CHEATDETECTION: PilotGen_SGRef_250: Added SGRef_282  key to PilotCurrentXP with UnspentXP 2300 on rehydrate, post.
+17:31:05.501 CHEATDETECTION: commander: Added commander  key to PilotCurrentXP with UnspentXP 4000 on rehydrate, post.
+17:31:10.576 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
+17:31:14.638 SGNL:Start - adding new button.
+17:31:14.638  - Creating store button
+17:31:14.642  - Creating staff button
+17:31:14.648  - Creating memorial button
+17:31:19.220 CHEATDETECTION: PilotGen_SGRef_19: Set tracker SGRef_20 PilotCurrentXP with UnspentXP 4900 on SGBarracksAdvancementPanel Close, post.
+17:31:19.220 CHEATDETECTION: PilotGen_SGRef_22: Set tracker SGRef_23 PilotCurrentXP with UnspentXP 2300 on SGBarracksAdvancementPanel Close, post.
+17:31:19.220 CHEATDETECTION: PilotGen_SGRef_24: Set tracker SGRef_25 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+17:31:19.220 CHEATDETECTION: PilotGen_SGRef_27: Set tracker SGRef_28 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+17:31:19.220 CHEATDETECTION: PilotGen_SGRef_250: Set tracker SGRef_282 PilotCurrentXP with UnspentXP 2300 on SGBarracksAdvancementPanel Close, post.
+17:31:19.220 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 4000 on SGBarracksAdvancementPanel Close, post.
+17:31:24.011 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+17:41:40.219 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+17:42:17.486 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+17:42:21.436 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+17:44:30.032 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+17:44:52.225 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+17:44:55.700 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+17:45:34.856 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+17:45:47.611 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+17:47:37.927 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+17:48:34.588 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+17:49:25.420 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+17:49:28.790 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+17:51:37.662 DEBUG - calling SetSubroom for location:ENGINEERING and menuType:ShipUpgrade!
+17:51:40.164 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+17:52:20.257 DEBUG - calling SetSubroom for location:MECH_BAY and menuType:MechBay!
+17:52:36.175 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+17:52:59.960 Checking contract for contract-specific building scaling:
+17:52:59.960 Checking contract for objective building scaling:
+17:52:59.960   -- contract has difficulty: 5 and finalDifficulty: 5
+17:52:59.961 Building scaling set to: IRTweaks.CombatOpts+StructureScale
+17:53:25.141 Checking actor:DEPLOY_Deploy_42A1B353 that belongs to team:Player 1
+17:53:25.141  Spawn protecting actor: DEPLOY_Deploy_42A1B353
+17:53:25.141  -- applying Braced state
+17:53:25.154 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:53:25.154  -- setting evasion pips to: 8
+17:53:25.650 Checking actor:Dynames Gundam_Sauce_7B9F1E30 that belongs to team:Player 1
+17:53:25.650  Spawn protecting actor: Dynames Gundam_Sauce_7B9F1E30
+17:53:25.650  -- applying Braced state
+17:53:25.659 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:53:25.659  -- setting evasion pips to: 8
+17:53:25.853 Checking actor:GM B2_Gadget_EC1A10DE that belongs to team:Player 1
+17:53:25.853  Spawn protecting actor: GM B2_Gadget_EC1A10DE
+17:53:25.853  -- applying Braced state
+17:53:25.862 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:53:25.862  -- setting evasion pips to: 8
+17:53:26.014 Checking actor:GM_Foul_57245CBC that belongs to team:Player 1
+17:53:26.014  Spawn protecting actor: GM_Foul_57245CBC
+17:53:26.014  -- applying Braced state
+17:53:26.023 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:53:26.023  -- setting evasion pips to: 8
+17:53:26.193 Checking actor:GM_Capo_BF79B444 that belongs to team:Player 1
+17:53:26.193  Spawn protecting actor: GM_Capo_BF79B444
+17:53:26.193  -- applying Braced state
+17:53:26.202 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:53:26.202  -- setting evasion pips to: 8
+17:53:26.318 Checking actor:Demolisher_Lancer_BDB3FEEE that belongs to team:TargetTeam
+17:53:26.318  Spawn protecting actor: Demolisher_Lancer_BDB3FEEE
+17:53:26.318  -- applying Braced state
+17:53:26.318  -- setting evasion pips to: 8
+17:53:26.451 Checking actor:Schrek PPC Carrier_Vanguard_124FB4F4 that belongs to team:TargetTeam
+17:53:26.451  Spawn protecting actor: Schrek PPC Carrier_Vanguard_124FB4F4
+17:53:26.451  -- applying Braced state
+17:53:26.451  -- setting evasion pips to: 8
+17:53:26.547 Checking actor:Bulldog_Flanker_5E693AE8 that belongs to team:TargetTeam
+17:53:26.547  Spawn protecting actor: Bulldog_Flanker_5E693AE8
+17:53:26.547  -- applying Braced state
+17:53:26.547  -- setting evasion pips to: 8
+17:53:26.662 Checking actor:SRM Carrier_Brawler_BEBDBB8D that belongs to team:TargetTeam
+17:53:26.662  Spawn protecting actor: SRM Carrier_Brawler_BEBDBB8D
+17:53:26.662  -- applying Braced state
+17:53:26.662  -- setting evasion pips to: 8
+17:53:26.982 Checking actor:Phoenix Hawk_Defender_548A795B that belongs to team:TargetTeam
+17:53:26.982  Spawn protecting actor: Phoenix Hawk_Defender_548A795B
+17:53:26.982  -- applying Braced state
+17:53:26.992 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:53:26.992  -- setting evasion pips to: 8
+17:53:27.197 Checking actor:Hermes II_Pilot_66F1C11B that belongs to team:TargetTeam
+17:53:27.197  Spawn protecting actor: Hermes II_Pilot_66F1C11B
+17:53:27.197  -- applying Braced state
+17:53:27.205 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:53:27.205  -- setting evasion pips to: 8
+17:53:27.311 Checking actor:Centurion_Tactician_D6521018 that belongs to team:TargetTeam
+17:53:27.311  Spawn protecting actor: Centurion_Tactician_D6521018
+17:53:27.311  -- applying Braced state
+17:53:27.320 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:53:27.320  -- setting evasion pips to: 8
+17:53:27.553 Checking actor:Phoenix Hawk_Defender_5496125A that belongs to team:TargetTeam
+17:53:27.553  Spawn protecting actor: Phoenix Hawk_Defender_5496125A
+17:53:27.553  -- applying Braced state
+17:53:27.562 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:53:27.562  -- setting evasion pips to: 8
+17:53:35.527 Background image size: 222h x 450
+17:53:35.527 CombatChatModule pos: (951.2, 572.4, -4900.0)
+17:53:35.527 RetreatEscMenu pos: (2291.6, 1120.2, -4900.0)
+17:53:35.527 new CombatChatModule pos: (2864.5, 1000.2, -4900.0)
+17:53:35.527 ChatButton base  pos: (2864.5, 1000.2, -4900.0)
+17:53:35.528 ChatButton new  pos: (2124.5, 1080.2, -4900.0)
+17:58:53.564 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:58:53.724 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:58:53.738 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:58:53.746 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:58:53.753 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:58:59.633 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:59:02.720 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:59:05.122 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:59:08.580 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:59:32.333 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+17:59:48.767 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:00:05.028 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:00:16.359 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:00:22.072 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:00:24.785 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:00:52.267 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:01:26.562 Head hit from weapon:Beam Spray Gun for 30 armor damage and 0 structure damage.
+18:01:26.562 Head hit impacted armor only, reduced damage to:9
+18:01:28.132 Head hit from weapon:Standard Bazooka for 5.023293 armor damage and 0 structure damage.
+18:01:28.132 Head hit impacted armor only, reduced damage to:1
+18:01:34.490 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:01:53.824 Head hit from weapon:Standard Bazooka for 5.094961 armor damage and 0 structure damage.
+18:01:53.824 Head hit impacted armor only, reduced damage to:1
+18:02:25.195 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:03:43.372 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:03:43.372 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:03:43.372 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:03:43.372 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:03:43.373 Applied 0.5 multiplier for armor damage reduction to Front.
+18:03:43.373 Applied 0.5 multiplier for armor damage reduction to Front.
+18:03:43.373 Applied 0.5 multiplier for armor damage reduction to Front.
+18:03:43.373 Applied 0.5 multiplier for armor damage reduction to Front.
+18:03:48.391 Head hit from weapon:Standard Bazooka for 9.020376 armor damage and 0 structure damage.
+18:03:48.391 Head hit impacted armor only, reduced damage to:3
+18:03:55.966 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:04:36.177 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:04:36.177 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:04:36.177 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:04:36.177 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:04:40.152 Head hit from weapon:Standard Bazooka for 3.006044 armor damage and 0 structure damage.
+18:04:40.152 Head hit impacted armor only, reduced damage to:1
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.430 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.431 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.431 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.431 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.431 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.431 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.431 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.431 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.431 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.431 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.432 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.432 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.432 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.432 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.432 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.432 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.432 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:05:36.432 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:08:02.184 Checking pilot: Centurion_Tactician_D6521018 to resist injury of type: AmmoExplosion
+18:08:02.184   Actor suffered an ammo explosion, injury resist was set to: -1
+18:08:25.496 Head hit from weapon:Standard Bazooka for 45 armor damage and 0 structure damage.
+18:08:25.496 Head hit impacted armor only, reduced damage to:13
+18:08:25.515 Head hit from weapon:Standard Bazooka for 11.87651 armor damage and 0 structure damage.
+18:08:25.515 Head hit impacted armor only, reduced damage to:3
+18:09:14.612 Head hit from weapon:Standard Bazooka for 10.02056 armor damage and 0 structure damage.
+18:09:14.612 Head hit impacted armor only, reduced damage to:3
+18:09:43.461 Head hit from weapon:Standard Bazooka for 11.43588 armor damage and 0 structure damage.
+18:09:43.461 Head hit impacted armor only, reduced damage to:3
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.778 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.779 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.780 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.780 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.780 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:04.780 Applied 0.5 multiplier for armor damage reduction to LeftLeg.
+18:10:33.820 Head hit from weapon:Standard Bazooka for 8.659456 armor damage and 0 structure damage.
+18:10:33.820 Head hit impacted armor only, reduced damage to:2
+18:11:01.213 Head hit from weapon:Standard Bazooka for 11.0665 armor damage and 0 structure damage.
+18:11:01.213 Head hit impacted armor only, reduced damage to:3
+18:12:03.062 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:15:52.516 Checking pilot: GM_Foul_57245CBC to resist injury of type: NotSet
+18:15:52.516   Actor was knocked down, setting injury resist to: 6
+18:15:52.516 Pilot failed to resist injury with check:43 > resistChance:9
+18:15:52.516 Pilot will suffer injury type: NotSet.
+18:16:36.638 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:16:36.638 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:16:36.638 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:16:36.638 Applied 0.5 multiplier for armor damage reduction to RightLeg.
+18:16:47.838 Checking pilot: Phoenix Hawk_Defender_5496125A to resist injury of type: NotSet
+18:16:47.838   Actor was knocked down, setting injury resist to: 6
+18:16:47.838 Pilot failed to resist injury with check:69 > resistChance:54
+18:16:47.838 Pilot will suffer injury type: NotSet.
+18:19:40.176 Checking pilot: Phoenix Hawk_Defender_5496125A to resist injury of type: SideTorsoDestroyed
+18:19:40.176   Actor torso/side destroyed, setting injury resist to: 10
+18:19:40.176 Pilot:Defender resisted injury with check:43 <= resistChance:50
+18:19:40.176 Ignoring SideTorsoDestroyed injury on pilot.
+18:20:35.106 Checking pilot: Phoenix Hawk_Defender_548A795B to resist injury of type: AmmoExplosion
+18:20:35.106   Actor overheated, setting injury resist to: 64
+18:20:35.106 Pilot failed to resist injury with check:29 > resistChance:0
+18:20:35.106 Pilot will suffer injury type: AmmoExplosion.
+18:20:35.106 CT Destroyed! Calling MaxInjurePilot on Defender
+18:22:00.957 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:23:01.543 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:23:24.240 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+18:25:31.853 MCMT subscription list is size: 37
+18:25:31.854 MCMT subscription list is size: 36
+18:25:31.855 MCMT subscription list is size: 35
+18:25:31.855 MCMT subscription list is size: 34
+18:25:31.855 MCMT subscription list is size: 33
+18:25:31.855 MCMT subscription list is size: 32
+18:25:31.855 MCMT subscription list is size: 31
+18:25:31.855 MCMT subscription list is size: 30
+18:25:31.855 MCMT subscription list is size: 29
+18:25:31.855 MCMT subscription list is size: 28
+18:25:31.855 MCMT subscription list is size: 27
+18:25:31.855 MCMT subscription list is size: 26
+18:25:31.855 MCMT subscription list is size: 25
+18:25:31.855 MCMT subscription list is size: 24
+18:25:31.855 MCMT subscription list is size: 23
+18:25:31.855 MCMT subscription list is size: 22
+18:25:31.855 MCMT subscription list is size: 21
+18:25:31.855 MCMT subscription list is size: 20
+18:25:31.855 MCMT subscription list is size: 19
+18:25:31.855 MCMT subscription list is size: 18
+18:25:31.855 MCMT subscription list is size: 17
+18:25:31.855 MCMT subscription list is size: 16
+18:25:31.855 MCMT subscription list is size: 15
+18:25:31.856 Combat game destroyed, cleaning up
+18:25:31.860 MCMT subscription list is size: 14
+18:25:31.860 MCMT subscription list is size: 13
+18:25:31.860 MCMT subscription list is size: 12
+18:25:31.860 MCMT subscription list is size: 11
+18:25:31.860 MCMT subscription list is size: 10
+18:25:31.860 MCMT subscription list is size: 9
+18:25:31.860 MCMT subscription list is size: 8
+18:25:31.860 MCMT subscription list is size: 7
+18:25:31.860 MCMT subscription list is size: 6
+18:25:31.860 MCMT subscription list is size: 5
+18:25:31.860 MCMT subscription list is size: 4
+18:25:31.860 MCMT subscription list is size: 3
+18:25:31.860 MCMT subscription list is size: 2
+18:25:31.860 MCMT subscription list is size: 1
+18:25:40.086 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
+18:25:44.967 SGNL:Start - adding new button.
+18:25:44.967  - Creating store button
+18:25:44.973  - Creating staff button
+18:25:44.979  - Creating memorial button
+18:25:50.281 CHEATDETECTION: PilotGen_SGRef_19: Set tracker SGRef_20 PilotCurrentXP with UnspentXP 4900 on SGBarracksAdvancementPanel Close, post.
+18:25:50.281 CHEATDETECTION: PilotGen_SGRef_22: Set tracker SGRef_23 PilotCurrentXP with UnspentXP 2300 on SGBarracksAdvancementPanel Close, post.
+18:25:50.281 CHEATDETECTION: PilotGen_SGRef_24: Set tracker SGRef_25 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+18:25:50.281 CHEATDETECTION: PilotGen_SGRef_27: Set tracker SGRef_28 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+18:25:50.281 CHEATDETECTION: PilotGen_SGRef_250: Set tracker SGRef_282 PilotCurrentXP with UnspentXP 2300 on SGBarracksAdvancementPanel Close, post.
+18:25:50.281 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 4000 on SGBarracksAdvancementPanel Close, post.
+18:25:51.082 CHEATDETECTION: commander: key commander for Sauce  PilotCurrentXP for now 5750 after setting to 5750 at FromPilotDef, Post.
+18:25:51.083 CHEATDETECTION: PilotGen_SGRef_250: key SGRef_282 for Gadget  PilotCurrentXP for now 4050 after setting to 4050 at FromPilotDef, Post.
+18:25:51.084 CHEATDETECTION: PilotGen_SGRef_19: key SGRef_20 for Foul  PilotCurrentXP for now 6650 after setting to 6650 at FromPilotDef, Post.
+18:25:51.084 CHEATDETECTION: PilotGen_SGRef_22: key SGRef_23 for Capo  PilotCurrentXP for now 4050 after setting to 4050 at FromPilotDef, Post.
+18:25:57.602 DEBUG - calling SetSubroom for location:MECH_BAY and menuType:MechBay!

@@ -1,23 +1,143 @@
-18:38:24.673 === MOD CONFIG BEGIN ===
-18:38:24.674   DEBUG: False
-18:38:24.674   MRB Rollup Values: 40000.00, 60000.00, 90000.00, 130000.00, 180000.00, 240000.00
-18:38:24.674   Rollup Blacklists: 
-18:38:24.674   Rollup Blacklist Tags: LootMagnetBlacklist
-18:38:24.674   Compensation Max Rollup Quantity: 8
-18:38:24.674 FACTION REPUTATION VALUES
-18:38:24.674   Reputation:LOATHED ComponentRollup:0 MechRollup:0 HoldbackTrigger:72%
-18:38:24.674   Reputation:HATED ComponentRollup:0 MechRollup:0 HoldbackTrigger:48%
-18:38:24.674   Reputation:DISLIKED ComponentRollup:0 MechRollup:0 HoldbackTrigger:32%
-18:38:24.678   Reputation:INDIFFERENT ComponentRollup:1 MechRollup:0 HoldbackTrigger:16%
-18:38:24.678   Reputation:LIKED ComponentRollup:5 MechRollup:0 HoldbackTrigger:8%
-18:38:24.678   Reputation:FRIENDLY ComponentRollup:9 MechRollup:20 HoldbackTrigger:4%
-18:38:24.678   Reputation:HONORED ComponentRollup:13 MechRollup:30 HoldbackTrigger:2%
-18:38:24.678   Reputation:ALLIED ComponentRollup:21 MechRollup:180 HoldbackTrigger:1%
-18:38:24.678 HOLDBACK - enabled? True
-18:38:24.678   Holdback Picks: 2 to 6
-18:38:24.678   Rep Range: 2 to 6
-18:38:24.678   Dispute Picks: 1 to 6
-18:38:24.678   Dispute SuccessBase:50 MRBSuccessFactor:10 SuccessRandomBound:0.2 MRBFeeFactor:-0.1
-18:38:24.678 === MOD CONFIG END ===
-18:38:24.678 INFO: No errors reading settings file.
-18:38:24.678 INFO: Registering custom components!
+17:29:50.831 === MOD CONFIG BEGIN ===
+17:29:50.831   DEBUG: False
+17:29:50.832   MRB Rollup Values: 40000.00, 60000.00, 90000.00, 130000.00, 180000.00, 240000.00
+17:29:50.832   Rollup Blacklists: 
+17:29:50.832   Rollup Blacklist Tags: LootMagnetBlacklist
+17:29:50.832   Compensation Max Rollup Quantity: 8
+17:29:50.832 FACTION REPUTATION VALUES
+17:29:50.832   Reputation:LOATHED ComponentRollup:0 MechRollup:0 HoldbackTrigger:72%
+17:29:50.832   Reputation:HATED ComponentRollup:0 MechRollup:0 HoldbackTrigger:48%
+17:29:50.832   Reputation:DISLIKED ComponentRollup:0 MechRollup:0 HoldbackTrigger:32%
+17:29:50.832   Reputation:INDIFFERENT ComponentRollup:1 MechRollup:0 HoldbackTrigger:16%
+17:29:50.832   Reputation:LIKED ComponentRollup:5 MechRollup:0 HoldbackTrigger:8%
+17:29:50.833   Reputation:FRIENDLY ComponentRollup:9 MechRollup:20 HoldbackTrigger:4%
+17:29:50.833   Reputation:HONORED ComponentRollup:13 MechRollup:30 HoldbackTrigger:2%
+17:29:50.833   Reputation:ALLIED ComponentRollup:21 MechRollup:180 HoldbackTrigger:1%
+17:29:50.833 HOLDBACK - enabled? True
+17:29:50.833   Holdback Picks: 2 to 6
+17:29:50.833   Rep Range: 2 to 6
+17:29:50.833   Dispute Picks: 1 to 6
+17:29:50.833   Dispute SuccessBase:50 MRBSuccessFactor:10 SuccessRandomBound:0.2 MRBFeeFactor:-0.1
+17:29:50.833 === MOD CONFIG END ===
+17:29:50.833 INFO: No errors reading settings file.
+17:29:50.833 INFO: Registering custom components!
+18:24:24.617 At contract start for employer: Employer:(ComStar):  employerRep:HONORED  employerIsAllied:True  MRBRating: 1  MRBIndex: 1
+18:24:24.617  -- Contract Rollup Idx: 1 => RawRollup: 60000
+18:24:24.617  -- Faction Rep Idx: 7 => Reputation: ALLIED  RollupMultiComponent: 21  RollupMultiMech: 180  HoldbackTrigger: 1  HoldbackValueCapMulti: 2
+18:24:24.655 == Resolving salvage for contract:'Repossession' / 'SRC<the one and only>_AG_8243' with result:Victory
+18:25:12.430 Holdback roll:43% triggerChance:1% hasMechParts:True canHoldback:True
+18:25:12.433   Rolling up 3 of mech part salvage:'Centurion Partial Mech Salvage' with value:6360000 threshold:10800000
+18:25:12.435 Failed to test blacklist for item: mechdef_centurion_CN9-A
+18:25:12.435 Object reference not set to an instance of an object
+18:25:12.435   at LootMagnet.Helper.IsBlacklisted (BattleTech.SalvageDef salvageDef) [0x00180] in <52e0345dbe8e4808b2a46350f7b2001d>:0 
+18:25:12.435Failed to test blacklist for item: mechdef_centurion_CN9-A
+18:25:12.435   Rolling up 3 of mech part salvage:'Phoenix Hawk Partial Mech Salvage' with value:6300000 threshold:10800000
+18:25:12.435 Failed to test blacklist for item: mechdef_phoenixhawk_PXH-1
+18:25:12.435 Object reference not set to an instance of an object
+18:25:12.435   at LootMagnet.Helper.IsBlacklisted (BattleTech.SalvageDef salvageDef) [0x00180] in <52e0345dbe8e4808b2a46350f7b2001d>:0 
+18:25:12.435Failed to test blacklist for item: mechdef_phoenixhawk_PXH-1
+18:25:12.435   Rolling up 4 of mech part salvage:'Hermes II Partial Mech Salvage' with value:4640000 threshold:10800000
+18:25:12.435 Failed to test blacklist for item: mechdef_HermesII_HER-2M
+18:25:12.435 Object reference not set to an instance of an object
+18:25:12.435   at LootMagnet.Helper.IsBlacklisted (BattleTech.SalvageDef salvageDef) [0x00180] in <52e0345dbe8e4808b2a46350f7b2001d>:0 
+18:25:12.435Failed to test blacklist for item: mechdef_HermesII_HER-2M
+18:25:12.435   Rolling up 2 of component salvage:'AC/20' with value:180000 threshold:1260000
+18:25:12.435   Rolling up 3 of component salvage:'PPC' with value:180000 threshold:1260000
+18:25:12.435   Rolling up 2 of component salvage:'Large Laser' with value:140000 threshold:1260000
+18:25:12.435   Rolling up 5 of component salvage:'M Laser' with value:60000 threshold:1260000
+18:25:12.435   Rolling up 2 of component salvage:'SRM4' with value:60000 threshold:1260000
+18:25:12.435   Rolling up 3 of component salvage:'AC/20 Ammo' with value:40000 threshold:1260000
+18:25:12.435   Rolling up 2 of component salvage:'Standard Heat Sink' with value:30000 threshold:1260000
+18:25:12.435   Rolling up 2 of component salvage:'AC/10 Ammo' with value:30000 threshold:1260000
+18:25:12.435   Rolling up 4 of component salvage:'Standard Jump Jet (S)' with value:30000 threshold:1260000
+18:25:12.435   Rolling up 4 of component salvage:'Machine Gun' with value:10000 threshold:1260000
+18:25:12.435   Rolling up 4 of mech part salvage:'SRM Carrier Partial Mech Salvage' with value:993 threshold:10800000
+18:25:12.435 Failed to test blacklist for item: vehicledef_CARRIER_SRM
+18:25:12.435 Object reference not set to an instance of an object
+18:25:12.435   at LootMagnet.Helper.IsBlacklisted (BattleTech.SalvageDef salvageDef) [0x00180] in <52e0345dbe8e4808b2a46350f7b2001d>:0 
+18:25:12.435Failed to test blacklist for item: vehicledef_CARRIER_SRM
+18:25:12.436   Rolling up 3 of mech part salvage:'Bulldog Partial Mech Salvage' with value:993 threshold:10800000
+18:25:12.436 Failed to test blacklist for item: vehicledef_BULLDOG
+18:25:12.436 Object reference not set to an instance of an object
+18:25:12.436   at LootMagnet.Helper.IsBlacklisted (BattleTech.SalvageDef salvageDef) [0x00180] in <52e0345dbe8e4808b2a46350f7b2001d>:0 
+18:25:12.436Failed to test blacklist for item: vehicledef_BULLDOG
+18:25:12.436   Rolling up 4 of mech part salvage:'Schrek PPC Carrier Partial Mech Salvage' with value:993 threshold:10800000
+18:25:12.436 Failed to test blacklist for item: vehicledef_SCHREK
+18:25:12.436 Object reference not set to an instance of an object
+18:25:12.436   at LootMagnet.Helper.IsBlacklisted (BattleTech.SalvageDef salvageDef) [0x00180] in <52e0345dbe8e4808b2a46350f7b2001d>:0 
+18:25:12.436Failed to test blacklist for item: vehicledef_SCHREK
+18:25:12.436   Rolling up 3 of mech part salvage:'Demolisher Partial Mech Salvage' with value:993 threshold:10800000
+18:25:12.436 Failed to test blacklist for item: vehicledef_DEMOLISHER
+18:25:12.436 Object reference not set to an instance of an object
+18:25:12.436   at LootMagnet.Helper.IsBlacklisted (BattleTech.SalvageDef salvageDef) [0x00180] in <52e0345dbe8e4808b2a46350f7b2001d>:0 
+18:25:12.436Failed to test blacklist for item: vehicledef_DEMOLISHER
+18:25:13.680 SalvageStorageChassisWidget.OnPointerEnter chassisdef_HermesII_HER-2M
+18:25:13.713 SalvageStorageChassisWidget.OnPointerExit chassisdef_HermesII_HER-2M
+18:25:13.716 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_DEMOLISHER
+18:25:13.747 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_DEMOLISHER
+18:25:13.751 SalvageStorageChassisWidget.OnPointerEnter chassisdef_centurion_CN9-A
+18:25:14.020 SalvageStorageChassisWidget.OnPointerExit chassisdef_centurion_CN9-A
+18:25:14.072 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_DEMOLISHER
+18:25:15.147 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_DEMOLISHER
+18:25:15.151 SalvageStorageChassisWidget.OnPointerEnter chassisdef_HermesII_HER-2M
+18:25:15.212 SalvageStorageChassisWidget.OnPointerExit chassisdef_HermesII_HER-2M
+18:25:15.214 SalvageStorageChassisWidget.OnPointerEnter chassisdef_HermesII_HER-2M
+18:25:15.244 SalvageStorageChassisWidget.OnPointerExit chassisdef_HermesII_HER-2M
+18:25:15.247 SalvageStorageChassisWidget.OnPointerEnter chassisdef_phoenixhawk_PXH-1
+18:25:15.512 SalvageStorageChassisWidget.OnPointerExit chassisdef_phoenixhawk_PXH-1
+18:25:15.613 SalvageStorageChassisWidget.OnPointerEnter chassisdef_phoenixhawk_PXH-1
+18:25:15.675 SalvageStorageChassisWidget.OnPointerExit chassisdef_phoenixhawk_PXH-1
+18:25:15.712 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_SCHREK
+18:25:15.744 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_SCHREK
+18:25:15.749 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_CARRIER_SRM
+18:25:15.806 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_CARRIER_SRM
+18:25:20.772 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_CARRIER_SRM
+18:25:20.828 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_CARRIER_SRM
+18:25:20.960 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_SCHREK
+18:25:21.522 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_SCHREK
+18:25:21.628 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_CARRIER_SRM
+18:25:22.060 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_CARRIER_SRM
+18:25:22.195 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_SCHREK
+18:25:22.374 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_SCHREK
+18:25:22.378 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_CARRIER_SRM
+18:25:22.407 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_CARRIER_SRM
+18:25:22.897 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_SCHREK
+18:25:23.084 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_SCHREK
+18:25:23.361 SalvageStorageChassisWidget.OnPointerEnter chassisdef_phoenixhawk_PXH-1
+18:25:23.418 SalvageStorageChassisWidget.OnPointerExit chassisdef_phoenixhawk_PXH-1
+18:25:23.495 SalvageStorageChassisWidget.OnPointerEnter chassisdef_phoenixhawk_PXH-1
+18:25:23.773 SalvageStorageChassisWidget.OnPointerExit chassisdef_phoenixhawk_PXH-1
+18:25:23.850 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_CARRIER_SRM
+18:25:24.340 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_CARRIER_SRM
+18:25:25.023 SalvageStorageChassisWidget.OnPointerEnter chassisdef_phoenixhawk_PXH-1
+18:25:25.052 SalvageStorageChassisWidget.OnPointerExit chassisdef_phoenixhawk_PXH-1
+18:25:25.360 SalvageStorageChassisWidget.OnPointerEnter chassisdef_phoenixhawk_PXH-1
+18:25:25.414 SalvageStorageChassisWidget.OnPointerExit chassisdef_phoenixhawk_PXH-1
+18:25:25.416 SalvageStorageChassisWidget.OnPointerEnter chassisdef_phoenixhawk_PXH-1
+18:25:25.505 SalvageStorageChassisWidget.OnPointerExit chassisdef_phoenixhawk_PXH-1
+18:25:25.739 SalvageStorageChassisWidget.OnPointerEnter chassisdef_phoenixhawk_PXH-1
+18:25:25.990 SalvageStorageChassisWidget.OnPointerExit chassisdef_phoenixhawk_PXH-1
+18:25:25.992 SalvageStorageChassisWidget.OnPointerEnter chassisdef_HermesII_HER-2M
+18:25:26.022 SalvageStorageChassisWidget.OnPointerExit chassisdef_HermesII_HER-2M
+18:25:26.099 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_DEMOLISHER
+18:25:26.234 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_DEMOLISHER
+18:25:26.262 SalvageStorageChassisWidget.OnPointerEnter chassisdef_centurion_CN9-A
+18:25:26.320 SalvageStorageChassisWidget.OnPointerExit chassisdef_centurion_CN9-A
+18:25:26.348 SalvageStorageChassisWidget.OnPointerEnter chassisdef_centurion_CN9-A
+18:25:26.375 SalvageStorageChassisWidget.OnPointerExit chassisdef_centurion_CN9-A
+18:25:26.404 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_DEMOLISHER
+18:25:26.631 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_DEMOLISHER
+18:25:26.692 SalvageStorageChassisWidget.OnPointerEnter chassisdef_HermesII_HER-2M
+18:25:27.490 SalvageStorageChassisWidget.OnPointerExit chassisdef_HermesII_HER-2M
+18:25:27.491 SalvageStorageChassisWidget.OnPointerEnter chassisdef_HermesII_HER-2M
+18:25:27.739 SalvageStorageChassisWidget.OnPointerExit chassisdef_HermesII_HER-2M
+18:25:27.769 SalvageStorageChassisWidget.OnPointerEnter chassisdef_HermesII_HER-2M
+18:25:27.825 SalvageStorageChassisWidget.OnPointerExit chassisdef_HermesII_HER-2M
+18:25:27.828 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_DEMOLISHER
+18:25:28.120 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_DEMOLISHER
+18:25:28.124 SalvageStorageChassisWidget.OnPointerEnter chassisdef_HermesII_HER-2M
+18:25:28.153 SalvageStorageChassisWidget.OnPointerExit chassisdef_HermesII_HER-2M
+18:25:28.539 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_SCHREK
+18:25:28.628 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_SCHREK
+18:25:28.631 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_DEMOLISHER
+18:25:28.663 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_DEMOLISHER
