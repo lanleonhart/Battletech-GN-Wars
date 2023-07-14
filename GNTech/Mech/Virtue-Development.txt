@@ -1,0 +1,94 @@
+Gundam Virtue Creation Plan
+
+Create GN Bazooka 150 Base Damage 1 Turn CD. Hyper Bazooka 225 Damage 2 turn cooldown. add aoe damge
+Equip GN Cannon 70 damage one or two shots. 1, and 2 shot cooldown coorisponding to its number of shot.
+Equip GN Saber
+
+Reevaluate the GN Field Equipment
+
+Fields generates 25 heat per turn
+
+2 X 6 ton components one in the right and left torso.
+
+	-Add statisticeffect to create a small area of mechs to be shielded. 1 hex   GN Field : Negate all damage types as long as
+	-Add statisticeffect to create a wide area ECM penalty from GN Particles effects on electromagnetic communications.
+
+Create Equipment called GN Particle Tankes 4T one in each torso. Will provide a movement bonus to Virtue while it has charges. When charges are expended it will return to its base low mobility form
+
+
+Flight Mode Documentation
+
+-1 Acc when Active
++40% Run Distance
+Immune to landmines
+Walk Distance x1.9%
++70% Run Speed
+
+Vernier - L
+
+Walk Speed x 1.2  [Reduced from 1.9]
+
+Run Speed x 0.2
+
+
+Configuration 1#
+Walk Distance x 1.9
+Run Speed  x1
+
+Mov 3 Hex
+Mov 5 Hex Flight Mode
+
+
+ "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+        },
+        "targetingData": {
+          "effectTriggerType": "Passive",
+          "effectTargetType": "Creator",
+          "forcePathRebuild": true,
+          "showInStatusPanel": false
+        },
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "StatusEffect-Ground-Mode-RunSpeed",
+          "Name": "Ground mode",
+          "Details": "Ground mode",
+          "Icon": "uixSvgIcon_equipment_Gyro"
+        },
+        "nature": "Buff",
+        "statisticData": {
+          "effectsPersistAfterDestruction": false,
+          "statName": "CBTBE_RunMultiMod",
+          "operation": "Float_Multiply",
+          "modValue": "0.7",
+          "modType": "System.Single"
+        },
+        {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "forcePathRebuild": true,
+              "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "StatusEffect-Flight-Mode-WalkSpeed",
+              "Name": "Flight Mode Boost",
+              "Details": "Flight Mode gains a movement bonus.",
+              "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+              "effectsPersistAfterDestruction": false,
+              "statName": "WalkSpeed",
+              "operation": "Float_Multiply",
+              "modValue": "1.2",
+              "modType": "System.Single"
+            }
+          },
+      }],

@@ -7,8 +7,8 @@
 ],
   "ActivatableComponent": {
     "ButtonName": "GN Drive",
-    "ActivationMessage": "Flight Mode",
-    "DeactivationMessage": "Ground Mode",
+    "ActivationMessage": "Flight",
+    "DeactivationMessage": "Standby",
     "CanNotBeActivatedManualy": false,
     "SwitchOffOnFall": true,
     "statusEffects": [
@@ -24,15 +24,15 @@
         },
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "StatusEffect-LAM-AirMech-AccuracyDebuff",
-          "Name": "Flight Mode Accuracy Decreased",
-          "Details": "Weapon attacks suffer -2 accuracy.",
+          "Id": "StatusEffect-GN-Accuracy_Pen.",
+          "Name": "Flight mode",
+          "Details": "Weapon attacks suffer -1 accuracy.",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
         "statisticData": {
           "modType": "System.Single",
-          "modValue": "2.0",
+          "modValue": "1.0",
           "operation": "Float_Add",
           "statName": "AccuracyModifier",
           "targetAmmoCategory": "NotSet",
@@ -57,7 +57,7 @@
         "Description": {
           "Id": "StatusEffect-Flight-Mode",
           "Name": "Flight mode",
-          "Details": "Flight mode",
+          "Details": "GN Verniers Maintain flight in 3-Axis",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
@@ -163,9 +163,10 @@
         },
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "StatusEffect-LAM-AirMech-Landmines",
-          "Name": "AirMech mode",
-          "Details": "AirMech mode",
+
+          "Id": "StatusEffect-GN-Ignore-Mines",
+          "Name": "Flight mode",
+          "Details": "GN Verniers Maintain flight in 3-Axis",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
@@ -190,9 +191,9 @@
         },
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "StatusEffect-LAM-AirMech-Pathing",
-          "Name": "AirMech mode",
-          "Details": "AirMech mode",
+          "Id": "StatusEffect-GN-Flight-Computer",
+          "Name": "Flight mode",
+          "Details": "GN Verniers Maintain flight in 3-Axis",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
@@ -217,9 +218,9 @@
         },
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "StatusEffect-LAM-AirMech-TerrainIgnore",
-          "Name": "AirMech mode",
-          "Details": "AirMech mode",
+          "Id": "StatusEffect-GN-Ignore-Terrain",
+          "Name": "Flight mode",
+          "Details": "GN Verniers Maintain flight in 3-Axis",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
@@ -270,15 +271,15 @@
         },
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "StatusEffect-LAMAirMech-UnsteadyPenalty",
-          "Name": "Gyroscopic Orientation",
-          "Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+          "Id": "StatusEffect-GN-Postural-Control",
+          "Name": "GN Postural-Control",
+          "Details": "Onboard computers connect with GN Vernier Controllers to produce sufficent thrust to maintain position at all times.",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "statisticData": {
           "statName": "UnsteadyThreshold",
           "operation": "Float_Add",
-          "modValue": "-10.0",
+          "modValue": "+5",
           "modType": "System.Single"
         },
         "nature": "Buff"
@@ -369,7 +370,7 @@
       "effectsPersistAfterDestruction": false,
       "statName": "CBTBE_RunMultiMod",
       "operation": "Float_Multiply",
-      "modValue": "0.7",
+      "modValue": "1.0",
       "modType": "System.Single"
     }
   }
