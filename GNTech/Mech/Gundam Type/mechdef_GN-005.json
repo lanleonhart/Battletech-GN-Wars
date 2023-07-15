@@ -90,6 +90,30 @@
         }
     ],
     "inventory": [      
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_GNCannon",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": -2,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+          },
+          {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_GNCannon",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": -2,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+          },
+          {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_GN_Bazooka",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+          },
     {
         "MountedLocation": "CenterTorso",
         "ComponentDefID": "emod_engine_300",
@@ -143,7 +167,8 @@
     ],
     "MechTags": {
         "items": [
-            "unit_Gundam",
+            "unit_MS",
+            "GundamVirtue",
             "unit_heavy",
             "unit_release",
             "unit_ready",

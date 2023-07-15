@@ -23,8 +23,8 @@
     "weaponCategoryID": "MSHardPoint",
     "ammoCategoryID" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" :19,
-    "Damage" : 69,
+    "HeatGenerated" :18,
+    "Damage" : 70,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -32,7 +32,10 @@
     "HeatDamage" : 0,
     "AccuracyModifier" : 0,
     "CriticalChanceMultiplier" : 1,
-    "AOECapable" : false,
+    "AOECapable": true,
+    "AOERange": 25,
+    "AOEDamage": 25,
+    "AOEEffectsFalloff": true,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
     "ShotsWhenFired" : 1,
@@ -79,32 +82,22 @@
     "ProjectileSpeedMultiplier": 1.5,
     "Modes": [
       {
-        "Id": "OutputLOW",
-        "UIName": "Output:Low",
-        "Description": "This mode reduces the heat generated along with the recoil, and damage.",
+        "Id": "1x",
+        "UIName": "1x",
+        "Description": "This mode is the default firing mode. The high energy requirments to fire this weapons requires time to recharge after firing.",
         "isBaseMode": true,
-        "RefireModifier": 0
+        "RefireModifier": 0,
+        "Cooldown": 1
        
       },
       {
-        "Id": "OutputSTD",
-        "UIName": "Output:STD",
-        "Description": "This mode is the default firing mode. The high energy requirments to fire this weapons requires time to recharge after firing.",
-        "DamagePerShot": 31,
-        "Cooldown": 1,
+        "Id": "2x",
+        "UIName": "2x",
+        "Description": "The high energy requirments to fire this weapons requires time to recharge after firing.",
+        "Cooldown": 2,
         "isBaseMode": true,
         "HeatGenerated": 0, 
         "RefireModifier": 1
-      },
-      {
-        "Id": "OutputHigh",
-        "UIName": "Output:High",
-        "Description": "This mode pushed the weapon to its highest rated output. The weapon will require a significant cooldown after firing.",
-        "DamagePerShot": 116,
-        "Cooldown": 2,
-        "isBaseMode": true,
-        "HeatGenerated": 20,
-        "RefireModifier": 2
       }
     ],
     "statusEffects" : [

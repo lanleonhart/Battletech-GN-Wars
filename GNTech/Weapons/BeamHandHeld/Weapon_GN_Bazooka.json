@@ -1,0 +1,117 @@
+
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "HandHeld"
+      },
+      {
+        "CategoryID": "w/s/h/HandHeld"
+      }
+    ]
+    
+  },
+    "Type": "PPC",
+    "WeaponSubType": "PPC",
+    "MinRange": 100,
+    "MaxRange": 500,
+    "RangeSplit": [
+      200,
+      300,
+      400
+    ],
+    "weaponCategoryID": "MSHardPoint",
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" :25,
+    "Damage" : 125,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable": true,
+    "AOERange": 100,
+    "AOEDamage": 55,
+    "AOEInstability": 10,
+    "AOEHeatDamage": 10,
+    "AOEEffectsFalloff": true,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 10,
+    "ColorsTable": [
+      {
+        "C": "#f00e93",
+        "I": 5
+      }
+    ],
+    "ImprovedBallistic": true,
+    "ColorChangeRule": "t0",
+    "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
+    "FireDelayMultiplier": -1,
+    "preFireStartSFX": "GNCannon",
+    "preFireStopSFX": "",
+    "delayedSFX": "",
+    "delayedSFXDelay": 0,
+    "Description" : {
+        "Cost" : 2000000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Comstar",
+        "Model" : "Particle Bazooka",
+        "UIName" : "GN Bazooka",
+        "Id" : "Weapon_GN_Bazooka",
+        "Name" : "GN Bazooka",
+        "Details" : "A 2-Handed GN Particle Bazooka developed for overwhelming fire support. There is a considerable lag between shots, this is due to the ammount of GN Particles required to reach critical GN Particle density for firing ",
+        "Icon" : "GNBazooka"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "PPC",
+    "BattleValue" : 0,
+    "InventorySize" : 6,
+    "Tonnage" : 15,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "ProjectileSpeedMultiplier": 1.5,
+    "Modes": [
+      {
+        "Id": "Normal",
+        "UIName": "Normal",
+        "Description": "This mode is the default firing mode. The high energy requirments to fire this weapons requires time to recharge after firing.",
+        "Cooldown": 1,
+        "isBaseMode": true,
+        "HeatGenerated": 0, 
+        "RefireModifier": 1
+      },
+      {
+        "Id": "Hyper",
+        "UIName": "Hyper",
+        "Description": "Hyper Mode condensed GN Particles to an devastating level, anything caught in its blast will struggle to survive. The high energy requirments to fire this weapons requires time to recharge after firing.",
+        "DamagePerShot": 125,
+        "Cooldown": 3,
+        "isBaseMode": true,
+        "HeatGenerated": 25,
+        "RefireModifier": 2,
+        "Instability" : 20
+      }
+    ],
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_medium"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
