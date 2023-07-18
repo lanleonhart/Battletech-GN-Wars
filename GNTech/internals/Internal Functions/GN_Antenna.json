@@ -1,0 +1,109 @@
+{
+"Custom": {
+  "Category": [
+  {
+    "CategoryID": "HeadAntennaMS"
+  }
+],
+  "ActivatableComponent": {
+    "ButtonName": "Particle Dispersion",
+    "ActivationMessage": "ON",
+    "DeactivationMessage": "OFF",
+    "CanNotBeActivatedManualy": false,
+    "SwitchOffOnFall": false,
+    "statusEffects": []
+  },
+  "Flags": {
+    "flags": [
+      "not_broken"
+    ]
+  }
+},
+"StatName": null,
+"RelativeModifier": 0,
+"AbsoluteModifier": 0,
+"Description": {
+  "Cost": 20000,
+  "Rarity": 99,
+  "Purchasable": false,
+  "Manufacturer": "Comstar",
+  "Model": "GN",
+  "UIName": "GN Particle Dispersion",
+  "Id": "GN_Antenna",
+  "Name": "GN Antenna",
+  "Details": "This Antenna allows the dispersal of GN Particles over wide area, the Particles have an adverse reaction on Enemy Sensors.",
+  "Icon": "GNAntenna"
+},
+"BonusValueA": "",
+"BonusValueB": "",
+"ComponentType": "Upgrade",
+"ComponentSubType": "NotSet",
+"PrefabIdentifier": "",
+"BattleValue": 0,
+"InventorySize": 1,
+"Tonnage": 3,
+"AllowedLocations": "Head",
+"DisallowedLocations": "All",
+"CriticalComponent": false,
+"Auras": [
+  {
+    "Id": "GN-Particle-Dispersion",
+    "Name": "GN Particle Dispersion",
+    "ReticleColor": "#18c96e",
+    "Range": 800,
+    "RemoveOnSensorLock": false,
+    "State": "Online",
+    "ApplySelf": false,
+    "AllyStealthAffection": "None",
+    "EnemyStealthAffection": "None",
+    "IsPositiveToAlly": true,
+    "IsNegativeToEnemy": true,
+    "ownerVFX": [],
+    "targetVFX": [],
+    "removeOwnerVFX": [],
+    "removeTargetVFX": [],
+    "ownerSFX": [],
+    "targetSFX": [],
+    "removeOwnerSFX": [],
+    "removeTargetSFX": [],
+    "statusEffects": [
+      {
+        "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+        },
+        "targetingData": {
+          "effectTriggerType": "Passive",
+          "specialRules": "NotSet",
+          "effectTargetType": "EnemiesWithinRange",
+          "range": 0.0,
+          "forcePathRebuild": false,
+          "forceVisRebuild": false,
+          "showInTargetPreview": true,
+          "showInStatusPanel": true
+        },
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "StatusEffect_GN-field",
+          "Name": "GN Field",
+          "Details": "GN Field generates a 35 meter bubble protecting allied machines from incoming fire. ",
+          "Icon": "GNField"
+        },
+        "statisticData": {
+          "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-2.0",
+        "modType": "System.Single"
+        },
+        "nature": "Buff"
+      }
+    ]
+  }
+],
+"ComponentTags": {
+  "items": [
+    
+  ],
+  "tagSetSourceFile": ""
+}
+}

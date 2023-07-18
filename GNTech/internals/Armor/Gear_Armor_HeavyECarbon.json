@@ -1,0 +1,82 @@
+{
+  "Custom": {
+    "Category": {
+			"CategoryID": "Armor"
+    },
+    "DynamicSlots": {
+			"ReservedSlots": 6,
+			"BackgroundColor": "GoldHalf",
+			"ShowIcon": false,
+			"NameText": "E-Carbon Armor",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		}
+  },
+  "Description": {
+    "Cost": 1850000,
+    "Rarity": 10,
+    "Purchasable": true,
+    "Manufacturer": "Comstar",
+    "Model": "Armor",
+    "UIName": "Heavy E-Carbon Armor",
+    "Id": "Gear_Armor_HeavyECarbon",
+    "Name": "Heavy E-Carbon Armor",
+    "Details": "An armor using an artificial allotrope of carbon. Employed as the armor material of numerous recent-make mobile units.Being lightweight, it is highly resistant to both temperature changes and corrosion compared to existing metallic materials. it is considered to be a material with no weaknesses.<b><color=#00ff00>CASE Enabled</color></b>",
+    "Icon": "Heavy_ECarbon"
+  },
+  "BonusValueA": "Reduces Damage by 40%",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTargetsCreator": true,
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-CFL",
+        "Name": "REDUCED DAMAGE TAKEN",
+        "Details": "All incoming damage reduced by 40%.",
+        "Icon": "uixSvgIcon_action_end"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": "0.6",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+      
+    ],
+    "tagSetSourceFile": ""
+  }
+}
+
+

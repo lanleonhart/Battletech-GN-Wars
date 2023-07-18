@@ -326,7 +326,7 @@
         "Tooltip": "Show engine cores",
         "Filter": {
           "ComponentTypes": [
-            "AmmunitionBox"
+            "HeatSink"
           ],
           "Categories": [
             "EngineCore"
@@ -339,7 +339,7 @@
         "Tooltip": "Show engines",
         "Filter": {
           "ComponentTypes": [
-            "AmmunitionBox"
+            "HeatSink"
           ],
           "Categories": [
             "EngineShield",
@@ -354,7 +354,7 @@
         "Tooltip": "Cooling Kits",
         "Filter": {
           "ComponentTypes": [
-            "AmmunitionBox"
+            "HeatSink"
           ],
           "Categories": [
             "Cooling",
@@ -374,7 +374,10 @@
             "HeatSink"
           ],
           "NotCategories": [
-            
+            "EngineHeatBlock",
+            "EngineShield",
+            "EnginePart",
+            "EngineCore"
           
           ]
         }
@@ -388,9 +391,7 @@
             "Upgrade"
           ],
           "Categories": [
-            "Armor",
-            "CASE",
-            "CASE2"
+            "Armor"
           ]
         }
       },
@@ -485,7 +486,8 @@
             "JumpJet"
           ],
           "Categories": [
-            "StandardJJ"
+            "StandardJJ",
+            "Thruster"
           ]
         }
       },
@@ -518,7 +520,21 @@
             "Upgrade"
           ],
           "Categories": [
-            
+            "HeadAntennaMS",
+            "ECM"
+          ],
+          "NotCategories": [
+            "Armor",
+            "Cockpit",
+            "CASE",
+            "CASE2",
+            "Optical Sensors",
+            "Hand Held",
+            "Structure",
+            "Quirk",
+            "BackPack",
+            "MSHardpoint",
+            "ArmHandActuator"
           ]
         }
       },
@@ -531,12 +547,13 @@
             "Upgrade"
           ],
           "Categories": [
-            "Armor",
-            "Structure",
+            "Optical Sensors",
             "Gyro"
           ],
           "NotCategories": [
-            "Quirk"
+            "Quirk",
+            "Armor",
+            "Structure"
           ]
         }
       },
@@ -553,6 +570,15 @@
             "LegUpperActuator",
             "LegLowerActuator",
             "LegFootActuator"
+          ],
+          "NotCategories": [
+            "Quirk",
+            "Armor",
+            "Structure",
+              "Quirk",
+              "Armor",
+              "Structure",
+              "HandHeld"
           ]
         }
       },
@@ -570,11 +596,16 @@
             "ArmLowerActuator",
             "ArmHandActuator",
             "OmniHandActuator",
-            "OmniLowerActuator",
-            "HandHeld"
+            "OmniLowerActuator"
           ],
-          "NotCategories": [
-            "Quirk"
+            "NotCategories": [
+              "Quirk",
+              "Armor",
+              "Structure",
+                "Quirk",
+                "Armor",
+                "Structure",
+                "HandHeld"
           ]
         }
       },
@@ -585,6 +616,12 @@
         "Filter": {
           "ComponentTypes": [
             "Upgrade"
+          ],
+            "Categories": [
+            "CASE",
+            "CASE2",
+            "Hand Held",
+            "HeadOpticMS"
           ],
           "NotCategories": [
             "Armor",

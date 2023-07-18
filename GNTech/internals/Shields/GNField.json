@@ -6,9 +6,9 @@
           "ButtonName": "GN Field",
           "CanActivateAfterFire": false,
           "CanActivateAfterMove": false,
-          "FailFlatChance": 0.01,
+          "FailFlatChance": 0.0,
           "FailRoundsStart": 1,
-          "FailChancePerTurn": 0.12,
+          "FailChancePerTurn": 0,
           "FailCheckOnActivationEnd": true,
           "CanNotBeActivatedManualy": false,
           "statusEffects": [
@@ -59,11 +59,10 @@
                 },
                 "nature": "Buff",
                 "statisticData": {
-                  "statName": "HeatGenerated",
-                  "operation": "Float_Multiply",
-                  "modValue": "1.4",
-                  "modType": "System.Single",
-                  "targetCollection": "Weapon"
+                  "statName": "EndMoveHeat",
+                  "operation": "Int_Add",
+                  "modValue": "+45",
+                  "modType": "System.Int32"
                 }
                 
               }
@@ -78,58 +77,143 @@
           {
             "ComponentDefId": "Linked_GNField",
             "Location": "LeftTorso"
-          },
-          {
-            "ComponentDefId": "Linked_GNField",
-            "Location": "RightTorso"
-          },
-          {
-            "ComponentDefId": "Linked_GNField",
-            "Location": "LeftArm"
-          },
-          {
-            "ComponentDefId": "Linked_GNField",
-            "Location": "RightArm"
-          },
-          {
-            "ComponentDefId": "Linked_GNField",
-            "Location": "LeftLeg"
-          },
-          {
-            "ComponentDefId": "Linked_GNField",
-            "Location": "RightLeg"
-          },
-          {
-            "ComponentDefId": "Linked_GNField",
-            "Location": "Head"
           }
           
         ]
   }
 },
 "Description": {
-  "Cost": 2500000,
+  "Cost": 4000000,
   "Rarity": 10,
   "Purchasable": false,
   "Manufacturer": "Comstar",
   "Model": "GN Field",
   "UIName": "GN Field Generator",
-  "Id": "GN Field",
+  "Id": "GNField",
   "Name": "GN Field",
   "Details": "GN Fields are generated from field emitters located throughout the frame of the machine. These fields require an enormous amount of GN particles to generate. When active the field reduces incoming damage. Requires a GN Frame to equip.",
   "Icon": "GNField"
 },
-"BonusValueA": "-60% Damage Taken",
-"BonusValueB": ", +40 Heat Generation",
+"BonusValueA": "-40% Damage Taken",
+"BonusValueB": ", +20 Heat Generation",
 "ComponentType": "Upgrade",
 "ComponentSubType": "NotSet",
 "PrefabIdentifier": "",
 "BattleValue": 0,
 "InventorySize": 2,
 "Tonnage": 5,
-"AllowedLocations": "CenterTorso",
+"AllowedLocations": "RightTorso",
 "DisallowedLocations": "All",
 "CriticalComponent": false,
+"Auras": [
+  {
+    "Id": "GN-Field-Bubble",
+    "Name": "GN Field Bubble",
+    "ReticleColor": "#18c96e",
+    "Range": 35,
+    "RemoveOnSensorLock": false,
+    "State": "Online",
+    "ApplySelf": true,
+    "AllyStealthAffection": "None",
+    "EnemyStealthAffection": "None",
+    "IsPositiveToAlly": true,
+    "IsNegativeToEnemy": false,
+    "ownerVFX": [],
+    "targetVFX": [],
+    "removeOwnerVFX": [],
+    "removeTargetVFX": [],
+    "ownerSFX": [],
+    "targetSFX": [],
+    "removeOwnerSFX": [],
+    "removeTargetSFX": [],
+    "statusEffects": [
+      {
+        "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+        },
+        "targetingData": {
+          "effectTriggerType": "Passive",
+          "specialRules": "NotSet",
+          "effectTargetType": "AlliesWithinRange",
+          "range": 0.0,
+          "forcePathRebuild": false,
+          "forceVisRebuild": false,
+          "showInTargetPreview": false,
+          "showInStatusPanel": true
+        },
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "StatusEffect_GN-field",
+          "Name": "GN Field",
+          "Details": "GN Field generates a 35 meter bubble protecting allied machines from incoming fire. ",
+          "Icon": "GNField"
+        },
+        "statisticData": {
+          "statName": "DamageReductionMultiplierAll",
+          "operation": "Float_Multiply",
+          "modValue": "0.0",
+          "modType": "System.Single"
+        },
+        "nature": "Buff"
+      }
+    ]
+  },
+{
+  "Id": "GN-Field-Bubble",
+  "Name": "GN Field Bubble",
+  "ReticleColor": "#18c96e",
+  "Range": 35,
+  "RemoveOnSensorLock": false,
+  "State": "Online",
+  "ApplySelf": true,
+  "AllyStealthAffection": "None",
+  "EnemyStealthAffection": "None",
+  "IsPositiveToAlly": false,
+  "IsNegativeToEnemy": false,
+  "ownerVFX": [],
+  "targetVFX": [],
+  "removeOwnerVFX": [],
+  "removeTargetVFX": [],
+  "ownerSFX": [],
+  "targetSFX": [],
+  "removeOwnerSFX": [],
+  "removeTargetSFX": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "AlliesWithinRange",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect_GN-Field",
+        "Name": "GN Field",
+        "Details": "GN Field applies a penalty to self + allies to hit % whilst under protection.",
+        "Icon": "GNField"
+      },
+      "statisticData": {
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "50.0",
+        "modType": "System.Single"
+      },
+      "nature": "Buff"
+    }
+  ]
+}
+],
+  
 "ComponentTags": {
   "items": [
     "component_type_stock"

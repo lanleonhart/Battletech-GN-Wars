@@ -1,0 +1,105 @@
+{
+  "Custom": {
+     
+     
+      "ActivatableComponent": {
+          "ButtonName": "GN Condenser",
+          "CanActivateAfterFire": false,
+          "CanActivateAfterMove": false,
+          "FailFlatChance": 0,
+          "FailRoundsStart": 1,
+          "FailChancePerTurn": 15,
+          "FailCheckOnActivationEnd": true,
+          "CanNotBeActivatedManualy": false,
+          "statusEffects": [
+            {
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "forcePathRebuild": true,
+                "showInStatusPanel": true
+              },
+              "effectType": "StatisticEffect",
+              "Description": {
+                "Id": "StatusEffect-Ground-Mode-WalkSpeed",
+                "Name": "Ground Mode Boost",
+                "Details": "Ground Mode gains a movement bonus.",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+              },
+              "nature": "Buff",
+              "statisticData": {
+                "effectsPersistAfterDestruction": false,
+                "statName": "WalkSpeed",
+                "operation": "Float_Multiply",
+                "modValue": "1.5",
+                "modType": "System.Single"
+              }
+            },
+            {
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "forcePathRebuild": true,
+                "showInStatusPanel": false
+              },
+              "effectType": "StatisticEffect",
+              "Description": {
+                "Id": "StatusEffect-Ground-Mode-RunSpeed",
+                "Name": "Ground mode",
+                "Details": "Ground mode",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+              },
+              "nature": "Buff",
+              "statisticData": {
+                "effectsPersistAfterDestruction": false,
+                "statName": "CBTBE_RunMultiMod",
+                "operation": "Float_Multiply",
+                "modValue": "1.5",
+                "modType": "System.Single"
+              }
+            }
+            ],
+            "offlineStatusEffects": []
+      }
+},
+"Description": {
+  "Cost": 2500000,
+  "Rarity": 10,
+  "Purchasable": false,
+  "Manufacturer": "Comstar",
+  "Model": "GN Condenser",
+  "UIName": "GN Condenser",
+  "Id": "GNCondenser",
+  "Name": "GN Condenser",
+  "Details": "A storage vessel for GN Particles to be release upon an increased demand",
+  "Icon": ""
+},
+"BonusValueA": "",
+"BonusValueB": "",
+"ComponentType": "Upgrade",
+"ComponentSubType": "NotSet",
+"PrefabIdentifier": "",
+"BattleValue": 0,
+"InventorySize": 3,
+"Tonnage": 4,
+"AllowedLocations": "RightTorso",
+"DisallowedLocations": "All",
+"CriticalComponent": false,
+"ComponentTags": {
+  "items": [
+    "component_type_stock"
+   
+  ],
+  "tagSetSourceFile": ""
+}
+
+}
+
