@@ -389,7 +389,8 @@
             "EngineHeatBlock",
             "EngineShield",
             "EnginePart",
-            "EngineCore"
+            "EngineCore",
+            "Cooling"
           
           ]
         }
@@ -623,6 +624,23 @@
         }
       },
       {
+        "Icon": "MSEquip",
+        "Tag": "",
+        "Tooltip": "Mobile Suit Equipment",
+        "Filter": {
+          "ComponentTypes": [
+            "Upgrade"
+          ],
+          "Categories": [
+            "MS",
+            "Melee"
+          ],
+            "NotCategories": [
+              
+          ]
+        }
+      },
+      {
         "Icon": "uixSvgIcon_equipment_Generic",
         "Tag": "",
         "Tooltip": "Show other equipment",
@@ -637,6 +655,7 @@
             "HeadOpticMS"
           ],
           "NotCategories": [
+            "MS",
             "Armor",
             "Structure",
             "Gyro",
