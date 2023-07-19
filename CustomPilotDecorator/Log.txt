@@ -1,5 +1,271 @@
-[17:10:25.502]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator version: 0.0.0.3
+[19:17:56.712]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator version: 0.0.0.3
+flush
+flush
+[19:18:22.184]FinishedLoading
+[19:18:22.184]customResource:PilotDecorationDef
+ E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_mech.json
+ id:pilotdecorationdef_can_drive_mech
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_mech",
+    "Name": "CAN DRIVE MECHS",
+    "Details": "This pilot can drive mechs of all types",
+    "Icon": "can_drive_mech"
+  },
+  "Type": 1,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "can_pilot_generic_mech"
+  ],
+  "shouldNotHaveTags": []
+}
+ E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_vehicle.json
+ id:pilotdecorationdef_can_drive_vehicle
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_vehicle",
+    "Name": "CAN DRIVE VEHICLES",
+    "Details": "This pilot can drive vehicles of all types",
+    "Icon": "can_drive_vehicle"
+  },
+  "Type": 1,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "can_pilot_generic_vehicle"
+  ],
+  "shouldNotHaveTags": []
+}
+flush
+[19:18:27.930]DataManager.SpriteLoadRequest.SpriteFromDisk:Shadowhawk:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Shadowhawk.dds isGIF:False
+[19:18:30.273]PilotDef.GatherDependencies pilot_default
+[19:18:30.273]PilotDecorationDefHelper.getDecorations pilot_default:
+ tags: BLACKLISTED sample pilot_bracket_low pilot_bracket_mid pilot_bracket_high can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:30.418]DataManager.SpriteLoadRequest.SpriteFromDisk:spider:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\spider.dds isGIF:False
+flush
+[19:18:40.176]MechUnitElementWidget.SetIcon
+ gifSpriteAnimator.gif: null
+[19:18:40.786]PilotDef.GatherDependencies pilot_kbeta_apex
+[19:18:40.786]PilotDecorationDefHelper.getDecorations pilot_kbeta_apex:Apex
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.787]PilotDef.GatherDependencies pilot_kbeta_arclight
+[19:18:40.787]PilotDecorationDefHelper.getDecorations pilot_kbeta_arclight:Arclight
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.787]PilotDef.GatherDependencies pilot_kbeta_buckshot
+[19:18:40.787]PilotDecorationDefHelper.getDecorations pilot_kbeta_buckshot:Buckshot
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.788]PilotDef.GatherDependencies pilot_kbeta_bulwark
+[19:18:40.788]PilotDecorationDefHelper.getDecorations pilot_kbeta_bulwark:Blockade
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.788]PilotDef.GatherDependencies pilot_kbeta_kraken
+[19:18:40.788]PilotDecorationDefHelper.getDecorations pilot_kbeta_kraken:Kraken
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.789]PilotDef.GatherDependencies pilot_kbeta_mockingbird
+[19:18:40.789]PilotDecorationDefHelper.getDecorations pilot_kbeta_mockingbird:Mockingbird
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.789]PilotDef.GatherDependencies pilot_kbeta_ozone
+[19:18:40.789]PilotDecorationDefHelper.getDecorations pilot_kbeta_ozone:Ozone
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.790]PilotDef.GatherDependencies pilot_kbeta_paradise
+[19:18:40.790]PilotDecorationDefHelper.getDecorations pilot_kbeta_paradise:Paradise
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.790]PilotDef.GatherDependencies pilot_kbeta_showboat
+[19:18:40.790]PilotDecorationDefHelper.getDecorations pilot_kbeta_showboat:Showboat
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.791]PilotDef.GatherDependencies pilot_kbeta_sumo
+[19:18:40.791]PilotDecorationDefHelper.getDecorations pilot_kbeta_sumo:Sumo
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.791]PilotDef.GatherDependencies pilot_kbeta_wildfire
+[19:18:40.791]PilotDecorationDefHelper.getDecorations pilot_kbeta_wildfire:Wildfire
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:40.792]PilotDef.GatherDependencies pilot_kbeta_witness
+[19:18:40.792]PilotDecorationDefHelper.getDecorations pilot_kbeta_witness:Witness
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:46.880]DataManager.SpriteLoadRequest.SpriteFromDisk:Atlas:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Atlas.png isGIF:False
+[19:18:46.887]DataManager.SpriteLoadRequest.SpriteFromDisk:Awesome:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Awesome.png isGIF:False
+[19:18:46.892]DataManager.SpriteLoadRequest.SpriteFromDisk:Banshee:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Banshee.png isGIF:False
+flush
+[19:18:46.917]DataManager.SpriteLoadRequest.SpriteFromDisk:Battlemaster:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Battlemaster.png isGIF:False
+[19:18:46.922]DataManager.SpriteLoadRequest.SpriteFromDisk:blackjack:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\blackjack.dds isGIF:False
+[19:18:46.931]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_blackknight:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_blackknight.dds isGIF:False
+[19:18:46.933]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_cataphract:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_cataphract.dds isGIF:False
+[19:18:46.934]DataManager.SpriteLoadRequest.SpriteFromDisk:Catapult:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Catapult.dds isGIF:False
+[19:18:46.938]DataManager.SpriteLoadRequest.SpriteFromDisk:centurion:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\centurion.dds isGIF:False
+[19:18:46.940]DataManager.SpriteLoadRequest.SpriteFromDisk:cicada:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\cicada.dds isGIF:False
+[19:18:46.942]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_commando:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_commando.dds isGIF:False
+[19:18:46.946]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_dragon:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_dragon.dds isGIF:False
+[19:18:46.947]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_enforcer:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_enforcer.dds isGIF:False
+[19:18:46.949]DataManager.SpriteLoadRequest.SpriteFromDisk:firestarter:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\firestarter.dds isGIF:False
+[19:18:46.950]DataManager.SpriteLoadRequest.SpriteFromDisk:Stalker:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Stalker.png isGIF:False
+[19:18:46.957]DataManager.SpriteLoadRequest.SpriteFromDisk:Grasshopper:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Grasshopper.png isGIF:False
+[19:18:46.961]DataManager.SpriteLoadRequest.SpriteFromDisk:Griffin:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Griffin.dds isGIF:False
+[19:18:46.962]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_highlander:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_highlander.dds isGIF:False
+[19:18:46.966]DataManager.SpriteLoadRequest.SpriteFromDisk:hunchback:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\hunchback.dds isGIF:False
+[19:18:46.969]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_jagermech:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_jagermech.dds isGIF:False
+[19:18:46.970]DataManager.SpriteLoadRequest.SpriteFromDisk:jenner:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\jenner.dds isGIF:False
+[19:18:46.972]DataManager.SpriteLoadRequest.SpriteFromDisk:KingCrab:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\KingCrab.png isGIF:False
+[19:18:46.978]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_kintaro:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_kintaro.dds isGIF:False
+[19:18:46.980]DataManager.SpriteLoadRequest.SpriteFromDisk:locust:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\locust.dds isGIF:False
+[19:18:46.982]DataManager.SpriteLoadRequest.SpriteFromDisk:Marauder:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Marauder.png isGIF:False
+[19:18:46.988]DataManager.SpriteLoadRequest.SpriteFromDisk:Orion:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Orion.png isGIF:False
+[19:18:46.992]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_orion:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_orion.dds isGIF:False
+[19:18:46.992]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_panther:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_panther.dds isGIF:False
+[19:18:46.994]DataManager.SpriteLoadRequest.SpriteFromDisk:Quickdraw:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Quickdraw.dds isGIF:False
+[19:18:47.134]DataManager.SpriteLoadRequest.SpriteFromDisk:Thunderbolt:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Thunderbolt.dds isGIF:False
+[19:18:47.136]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_trebuchet:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_trebuchet.dds isGIF:False
+[19:18:47.137]DataManager.SpriteLoadRequest.SpriteFromDisk:trebuchet:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\trebuchet.dds isGIF:False
+[19:18:47.140]DataManager.SpriteLoadRequest.SpriteFromDisk:urbanmech:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\urbanmech.dds isGIF:False
+[19:18:47.142]DataManager.SpriteLoadRequest.SpriteFromDisk:Victor:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Victor.png isGIF:False
+[19:18:47.146]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_vindicator:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_vindicator.dds isGIF:False
+[19:18:47.151]DataManager.SpriteLoadRequest.SpriteFromDisk:Warhammer:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Warhammer.png isGIF:False
+[19:18:47.156]DataManager.SpriteLoadRequest.SpriteFromDisk:Wolverine:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Wolverine.dds isGIF:False
+[19:18:47.157]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_zeus:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_zeus.dds isGIF:False
+[19:18:47.162]DataManager.SpriteLoadRequest.SpriteFromDisk:crab:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\crab.dds isGIF:False
+[19:18:47.163]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_cyclops:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_cyclops.dds isGIF:False
+[19:18:47.165]DataManager.SpriteLoadRequest.SpriteFromDisk:Cyclops:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Cyclops.png isGIF:False
+[19:18:47.171]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_hatchetman:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_hatchetman.dds isGIF:False
+[19:18:47.172]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_annihilator:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_annihilator.dds isGIF:False
+[19:18:47.175]DataManager.SpriteLoadRequest.SpriteFromDisk:Archer:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Archer.png isGIF:False
+[19:18:47.182]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_assassin:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_assassin.dds isGIF:False
+[19:18:47.184]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_bullshark:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_bullshark.dds isGIF:False
+[19:18:47.186]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_flea:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_flea.dds isGIF:False
+[19:18:47.191]DataManager.SpriteLoadRequest.SpriteFromDisk:phoenixhawk:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\phoenixhawk.dds isGIF:False
+[19:18:47.192]DataManager.SpriteLoadRequest.SpriteFromDisk:Rifleman:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Rifleman.dds isGIF:False
+[19:18:47.199]DataManager.SpriteLoadRequest.SpriteFromDisk:vulcan:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\vulcan.dds isGIF:False
+[19:18:47.201]DataManager.SpriteLoadRequest.SpriteFromDisk:javelin:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\javelin.dds isGIF:False
+[19:18:47.205]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_raven:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_raven.dds isGIF:False
+[19:18:47.208]DataManager.SpriteLoadRequest.SpriteFromDisk:chameleon:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\chameleon.dds isGIF:False
+[19:18:47.208]DataManager.SpriteLoadRequest.SpriteFromDisk:Champion:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Champion.dds isGIF:False
+[19:18:47.210]DataManager.SpriteLoadRequest.SpriteFromDisk:clint:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\clint.dds isGIF:False
+[19:18:47.213]DataManager.SpriteLoadRequest.SpriteFromDisk:crusader:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\crusader.dds isGIF:False
+[19:18:47.215]DataManager.SpriteLoadRequest.SpriteFromDisk:dervish:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\dervish.dds isGIF:False
+[19:18:47.222]DataManager.SpriteLoadRequest.SpriteFromDisk:Guillotine:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Guillotine.png isGIF:False
+[19:18:47.229]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_kingcrab:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_kingcrab.dds isGIF:False
+[19:18:47.230]DataManager.SpriteLoadRequest.SpriteFromDisk:Longbow:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Longbow.png isGIF:False
+[19:18:47.239]DataManager.SpriteLoadRequest.SpriteFromDisk:stinger:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\stinger.dds isGIF:False
+[19:18:47.246]DataManager.SpriteLoadRequest.SpriteFromDisk:Wolfhound:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\Wolfhound.dds isGIF:False
+[19:18:47.247]DataManager.SpriteLoadRequest.SpriteFromDisk:wyvern:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\portraits\wyvern.dds isGIF:False
+[19:18:47.248]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_locust:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_locust.dds isGIF:False
+[19:18:47.248]DataManager.SpriteLoadRequest.SpriteFromDisk:0Gundam:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNTech\portraits\0Gundam.dds isGIF:False
+[19:18:47.249]DataManager.SpriteLoadRequest.SpriteFromDisk:Dynames:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNTech\portraits\Dynames.dds isGIF:False
+[19:18:47.258]DataManager.SpriteLoadRequest.SpriteFromDisk:Virtue:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNTech\portraits\Virtue.png isGIF:False
+[19:18:47.262]DataManager.SpriteLoadRequest.SpriteFromDisk:GM:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNTech\portraits\GM.dds isGIF:False
+[19:18:48.188]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.196]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.204]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.209]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.214]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.224]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.228]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.234]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.240]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.246]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.252]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.258]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.264]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.269]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.276]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.282]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.289]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.295]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.301]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.307]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.313]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.318]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.324]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.331]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.337]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.343]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.350]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.356]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.362]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.529]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.635]MechUnitElementWidget.SetIcon
+ gifSpriteAnimator.gif: null
+[19:18:48.773]MechBayMechUnitElement.SetData
+ gifSpriteAnimator.gif: null
+[19:18:48.782]PilotDecorationDefHelper.getDecorations pilot_kbeta_kraken:Kraken type:Ability
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+[19:18:48.786]PilotDecorationDefHelper.getDecorations pilot_kbeta_kraken:Kraken type:Shevron
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:48.788]PilotDef.DependenciesLoaded pilot_kbeta_kraken
+[19:18:48.788]PilotDecorationDefHelper.getDecorations pilot_kbeta_kraken:Kraken
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:48.802]PilotDecorationDefHelper.getDecorations pilot_kbeta_kraken:Kraken type:Ability
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+[19:18:48.802]PilotDecorationDefHelper.getDecorations pilot_kbeta_kraken:Kraken type:Shevron
+ tags: BLACKLISTED pilot_release_ksbeta pilot_release_skirmish can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[19:18:51.873]TooltipPrefab_Mech.SetData
+ gifSpriteAnimator.gif: null
+[19:18:52.079]TooltipPrefab_Mech.SetData
+ gifSpriteAnimator.gif: null
+[19:18:56.016]MechUnitElementWidget.SetIcon
+ gifSpriteAnimator.gif: null
+[19:18:56.235]TooltipPrefab_Mech.SetData
+ gifSpriteAnimator.gif: null
+[19:18:56.265]TooltipPrefab_Mech.SetData
+ gifSpriteAnimator.gif: null
+[19:18:56.284]TooltipPrefab_Mech.SetData
+ gifSpriteAnimator.gif: null
+[19:18:56.329]TooltipPrefab_Mech.SetData
+ gifSpriteAnimator.gif: null
+flush
+[19:18:57.923]MechUnitElementWidget.SetIcon
+ gifSpriteAnimator.gif: null
+[19:18:57.932]MechUnitElementWidget.SetIcon
+ gifSpriteAnimator.gif: null
+[19:18:58.204]MechUnitElementWidget.SetIcon
+ gifSpriteAnimator.gif: null
 flush
 flush
 flush
-[17:11:01.496]FinishedLoading
+flush
+flush
+flush
