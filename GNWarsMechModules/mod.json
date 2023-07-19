@@ -1,0 +1,107 @@
+{
+	"Name": "GNTech",
+	"Enabled": true,
+	"Hidden": false,
+	"Version": "1.0",
+    "CustomResourceTypes": [
+        "MEBonusDescriptions",
+        "MECriticalEffects",
+        "CCCategories",
+        "CCDefaults",
+        "CCTagRestrictions",
+        "CustomSVGIcon",
+        "CustomActivatableEquipment",
+        "CustomComponents", 
+        "CCCEquipLocationTag", 
+        "CCUnitTypes"
+    ],
+    "DataAddendumEntries": [
+        {
+            "name": "BattleTech.WeaponCategoryEnumeration",
+            "path": "WeaponCategory.json"
+        }
+	],
+
+        "Manifest": [
+        {
+        "Type": "WeaponDef",
+        "Path": "Weapons"
+    },  
+    {
+            "Type": "ChassisDef",
+            "Path": "Chassis/"
+        },
+        {
+            "Type": "WeaponDef",
+            "Path": "Weapons/"
+            },
+        {
+            "Type": "MechDef",
+            "Path": "Mech/"
+        },
+        {
+			"Type": "UpgradeDef",
+			"Path": "Cockpit"
+		},
+        {
+			"Type": "UpgradeDef",
+			"Path": "internals"
+		},
+        {
+			"Type": "UpgradeDef",
+			"Path": "ms-internals/"
+		},
+        {
+            "Type": "SVGAsset",
+            "Path": "icons/",
+            "ShouldMergeJSON": false
+        },
+        {   "Type": "JumpJetDef",
+			"Path": "Jumpjets"
+        },
+        {
+            "Type": "HeatSinkDef",
+            "Path": "engine_parts"
+        },
+        {
+            "Type": "ammunitionDef",
+            "Path": "ammunition"
+        },
+        {
+            "Type": "ammunitionboxDef",
+            "Path": "ammunitionbox"
+        },
+        {
+            "Type": "AudioFile",
+            "Path": "audio"
+          },
+          {
+            "Type": "CCCategories",
+            "Path": "categories",
+            "ShouldMergeJSON": false
+        },
+        {
+            "Type": "CCCEquipLocationTag",
+            "Path": "locations",
+            "ShouldMergeJSON": false
+        },
+        {
+            "Type": "CCHardpoints",
+            "Path": "hardpoints"
+        },
+        {
+			"Type": "DesignMaskDef",
+			"Path": "designmask"
+		},
+        {
+            "Type": "Sprite",
+            "Path": "portraits"
+          }
+        
+    ],
+    "DependsOn": [
+
+        "MechEngineer",
+    "CustomComponents"
+    ]
+}
