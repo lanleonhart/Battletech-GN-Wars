@@ -1,8 +1,9 @@
 {
-	"Name": "GNTech",
+	"Name": "GNWarsMechModules",
 	"Enabled": true,
 	"Hidden": false,
-	"Version": "1.0",
+	"Version": "0",
+    "Author": "Snapko",
     "CustomResourceTypes": [
         "MEBonusDescriptions",
         "MECriticalEffects",
@@ -24,84 +25,20 @@
 
         "Manifest": [
         {
-        "Type": "WeaponDef",
-        "Path": "Weapons"
-    },  
-    {
-            "Type": "ChassisDef",
-            "Path": "Chassis/"
+        	"Type": "UpgradeDef",
+			"Path": "Cockpit/Cockpit"
         },
-        {
-            "Type": "WeaponDef",
-            "Path": "Weapons/"
-            },
-        {
-            "Type": "MechDef",
-            "Path": "Mech/"
-        },
-        {
+		{
 			"Type": "UpgradeDef",
-			"Path": "Cockpit"
+			"Path": "Cockpit/FireControlSystem"
 		},
-        {
+		{
 			"Type": "UpgradeDef",
-			"Path": "internals"
+			"Path": "Cockpit/LifeSupport"
 		},
-        {
+		{
 			"Type": "UpgradeDef",
-			"Path": "ms-internals/"
-		},
-        {
-            "Type": "SVGAsset",
-            "Path": "icons/",
-            "ShouldMergeJSON": false
-        },
-        {   "Type": "JumpJetDef",
-			"Path": "Jumpjets"
-        },
-        {
-            "Type": "HeatSinkDef",
-            "Path": "engine_parts"
-        },
-        {
-            "Type": "ammunitionDef",
-            "Path": "ammunition"
-        },
-        {
-            "Type": "ammunitionboxDef",
-            "Path": "ammunitionbox"
-        },
-        {
-            "Type": "AudioFile",
-            "Path": "audio"
-          },
-          {
-            "Type": "CCCategories",
-            "Path": "categories",
-            "ShouldMergeJSON": false
-        },
-        {
-            "Type": "CCCEquipLocationTag",
-            "Path": "locations",
-            "ShouldMergeJSON": false
-        },
-        {
-            "Type": "CCHardpoints",
-            "Path": "hardpoints"
-        },
-        {
-			"Type": "DesignMaskDef",
-			"Path": "designmask"
-		},
-        {
-            "Type": "Sprite",
-            "Path": "portraits"
-          }
-        
-    ],
-    "DependsOn": [
-
-        "MechEngineer",
-    "CustomComponents"
+			"Path": "Cockpit/Sensors"
+		}
     ]
 }
