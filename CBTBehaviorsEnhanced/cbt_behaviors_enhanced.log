@@ -1,84 +1,84 @@
-23:18:11.375 Product version: 1.0.0
-23:18:11.375 Assembly version: 0.10.0.5
-23:18:11.376 ModDir is:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CBTBehaviorsEnhanced
-23:18:11.376 mod.json settings are:({"Debug":true,"Trace":true,"Features":{"BiomeBreaches":true,"PermanentEvasion":true,"StartupChecks":true},"Developer":{"ForceFallAfterJump":false,"ForceInvalidateAllMeleeAttacks":false,"DebugHeatToAdd":0},"ToHitSelfJumped":3,"CustomCategories":{"HipActuatorCategoryId":["LegHip","LegHipMS"],"UpperLegActuatorCategoryId":["LegUpperActuator","LegUpperActuatorMS"],"LowerLegActuatorCategoryId":["LegLowerActuator","LegLowerActuatorMS"],"FootActuatorCategoryId":["LegFootActuator","LegFootActuatorMS"],"ShoulderActuatorCategoryId":["ArmShoulder","ArmShoulderMS"],"UpperArmActuatorCategoryId":["ArmUpperActuator","ArmUpperActuatorMS"],"LowerArmActuatorCategoryId":["ArmLowerActuator","ArmLowerActuatorMS","OmniLowerActuator"],"HandActuatorCategoryId":["ArmHandActuator","ArmLowerActuatorMS","OmniHandActuator"]},"Heat":{"Movement":{"15":-1,"30":-2,"45":-3,"60":-4,"75":-5,"93":-6,"111":-7,"129":-8,"147":-9},"Firing":{"24":1,"39":2,"51":3,"72":4,"99":5,"123":6,"144":7},"Shutdown":{"42":0.1,"54":0.3,"66":0.6,"78":0.8,"90":0.9,"102":1.0,"114":1.1,"126":1.2,"138":1.3,"150":-1},"Explosion":{"57":0.1,"69":0.2,"84":0.3,"105":0.4,"120":0.5,"135":0.6,"150":0.75},"PilotInjury":{"84":0.3,"117":0.6,"141":0.8},"SystemFailures":{"108":0.3,"132":0.6},"ShowLowOverheatAnim":42,"ShowExtremeOverheatAnim":90,"ShutdownFallThreshold":0.75,"MaxHeat":150,"WarnAtHeat":42},"Melee":{"Charge":{"AttackerDamagePerTargetTon":0.5,"TargetDamagePerAttackerTon":0.5,"AttackerInstabilityPerTargetTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"DamageClusterDivisor":25.0,"UnsteadyAttackerOnHit":true,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"DFA":{"AttackerDamagePerTargetTon":1.5,"TargetDamagePerAttackerTon":1.5,"AttackerInstabilityPerTargetTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"DamageClusterDivisor":25.0,"UnsteadyAttackerOnHit":true,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"Kick":{"BaseAttackBonus":-2,"LegActuatorDamageMalus":2,"FootActuatorDamageMalus":1,"TargetDamagePerAttackerTon":1,"TargetInstabilityPerAttackerTon":0.5,"LegActuatorDamageReduction":0.5,"UnsteadyAttackerOnHit":false,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"PhysicalWeapon":{"ArmActuatorDamageMalus":2,"DefaultDamagePerAttackerTon":0.2,"DefaultInstabilityPerAttackerTon":0.2,"DefaultUnsteadyAttackerOnHit":false,"DefaultUnsteadyAttackerOnMiss":false,"DefaultUnsteadyTargetOnHit":false},"Punch":{"ArmActuatorDamageMalus":2,"HandActuatorDamageMalus":1,"TargetDamagePerAttackerTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"ArmActuatorDamageReduction":0.5,"UnsteadyAttackerOnHit":false,"UnsteadyAttackerOnMiss":false,"UnsteadyTargetOnHit":false},"Turrets":{"DefaultTonnage":100.0,"LightTonnage":35.0,"MediumTonnage":55.0,"HeavyTonnage":75.0},"AllowMeleeFromSprint":false,"ProneTargetAttackModifier":-1,"ExtraHitsAverageAllDamage":true,"FilterCanUseInMeleeWeaponsByAttack":true}})
-23:18:11.386 === MOD CONFIG BEGIN ===
-23:18:11.386   Debug: True Trace: True
-23:18:11.386   FEATURES => BiomeBreaches: True  PermanentEvasion: True  StartupChecks: True
-23:18:11.386   ToHitSelfJumped: 3
-23:18:11.386 
-23:18:11.386 === CUSTOM CATEGORY OPTIONS ===
-23:18:11.386   ShoulderActuatorCategoryId: 'ArmShoulder,ArmShoulderMS'  UpperArmActuatorCategoryId: 'ArmUpperActuator,ArmUpperActuatorMS'  LowerArmActuatorCategoryId: 'ArmLowerActuator,ArmLowerActuatorMS,OmniLowerActuator'  HandActuatorCategoryId: 'ArmHandActuator,ArmLowerActuatorMS,OmniHandActuator'  
-23:18:11.386   HipActuatorCategoryId: 'LegHip,LegHipMS'  UpperLegActuatorCategoryId: 'LegUpperActuator,LegUpperActuatorMS'  LowerLegActuatorCategoryId: 'LegLowerActuator,LegLowerActuatorMS'  FootActuatorCategoryId: 'LegFootActuator,LegFootActuatorMS'  
-23:18:11.386 
-23:18:11.386 === HEAT OPTIONS ===
-23:18:11.387   Movement mods: 15 : -1, 30 : -2, 45 : -3, 60 : -4, 75 : -5, 93 : -6, 111 : -7, 129 : -8, 147 : -9, 
-23:18:11.387   Firing mods: 24 : 1, 39 : 2, 51 : 3, 72 : 4, 99 : 5, 123 : 6, 144 : 7, 
-23:18:11.388   Shutdown chances: 42 : 0.1, 54 : 0.3, 66 : 0.6, 78 : 0.8, 90 : 0.9, 102 : 1, 114 : 1.1, 126 : 1.2, 138 : 1.3, 150 : -1, 
-23:18:11.388   Ammo Explosion chances: 57 : 0.1, 69 : 0.2, 84 : 0.3, 105 : 0.4, 120 : 0.5, 135 : 0.6, 150 : 0.75, 
-23:18:11.388   Pilot Injury chances: 84 : 0.3, 117 : 0.6, 141 : 0.8, 
-23:18:11.388   System Failure chances: 108 : 0.3, 132 : 0.6, 
-23:18:11.388   ShowLowOverheatAnim: 42  ShowExtremeOverheatAnim: 90
-23:18:11.388   ShutdownFallThreshold: 0.75
-23:18:11.388   MaxHeat: 150  WarnAtHeat: 42
-23:18:11.388 
-23:18:11.388 === MELEE OPTIONS ===
-23:18:11.388   ExtraHitsAverageAllDamage: True  ProneTargetAttackModifier: -1  FilterCanUseInMeleeWeaponsByAttack: True
-23:18:11.388   -- CHARGE OPTIONS --
-23:18:11.388   AttackerDamagePerTargetTon: 0.5  AttackerInstabilityPerTargetTon: 0.5
-23:18:11.388   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 0.5
-23:18:11.388   DamageClusterDivisor: 25
-23:18:11.388   Unsteady => AttackerOnHit: True  AttackerOnMiss: True  TargetOnHit: True
-23:18:11.388   TargetVehicleEvasionPipsRemoved: 4
-23:18:11.388   MultiplyAttackerSelfDamageByHexesMoved: False
-23:18:11.388   SelfCTKillVirtDamageMulti: -1
-23:18:11.388 
-23:18:11.388   -- DFA OPTIONS --
-23:18:11.388   AttackerDamagePerTargetTon: 1.5  AttackerInstabilityPerTargetTon: 0.5
-23:18:11.388   TargetDamagePerAttackerTon: 1.5  TargetInstabilityPerAttackerTon: 0.5
-23:18:11.388   DamageClusterDivisor: 25
-23:18:11.388   Unsteady => AttackerOnHit: True  AttackerOnMiss: True  TargetOnHit: True
-23:18:11.388   TargetVehicleEvasionPipsRemoved: 4
-23:18:11.388 
-23:18:11.389   -- KICK OPTIONS --
-23:18:11.389   BaseAttackBonus: -2  LegActuatorDamageMalus: 2  FootActuatorDamageMalus: 1
-23:18:11.389   TargetDamagePerAttackerTon: 1  TargetInstabilityPerAttackerTon: 0.5
-23:18:11.389   LegActuatorDamageReduction: 0.5
-23:18:11.389   Unsteady => AttackerOnHit: False  AttackerOnMiss: True  TargetOnHit: True
-23:18:11.389   TargetVehicleEvasionPipsRemoved: 4
-23:18:11.389 
-23:18:11.389   -- PHYSICAL WEAPON OPTIONS --
-23:18:11.389   DefaultDamagePerAttackTon: 0.2  DefaultInstabilityPerAttackerTon: 0.2
-23:18:11.389   ArmActuatorDamageMalus: 2
-23:18:11.389   Unsteady Default => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
-23:18:11.389   TargetVehicleEvasionPipsRemoved: 0
-23:18:11.389 
-23:18:11.389   -- PUNCH OPTIONS --
-23:18:11.389   TargetDamagePerAttackerTon: 0.5  TargetInstabilityPerAttackerTon: 0.5
-23:18:11.389   ArmActuatorDamageMalus: 2  HandActuatorDamageMalus: 1
-23:18:11.389   ArmActuatorDamageReduction: 0.5
-23:18:11.389   Unsteady => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
-23:18:11.389   TargetVehicleEvasionPipsRemoved: 0
-23:18:11.389 
-23:18:11.389   -- SWARM OPTIONS --
-23:18:11.389 
-23:18:11.389 === MOVE OPTIONS ===
-23:18:11.389   MinimumMove: 40m  HeatMovePenalty: -24m  RunMulti: x1.5
-23:18:11.389   FallAfterChances =>   Jump: 0.3  Run: 0.3
-23:18:11.389   MPMetersPerHex: 24m
-23:18:11.389 
-23:18:11.389 === PILOTING OPTIONS ===
-23:18:11.389   StabilityCheck: 0.3
-23:18:11.389   DFAReductionMulti: x0.05  FallingDamagePerTenTons: 5
-23:18:11.389 
-23:18:11.389 === SKILL CHECKS OPTIONS ===
-23:18:11.389   PilotingSkillMulti: x0.05  GutsSkillMulti: 0.05
-23:18:11.389 === BREACHES OPTIONS ===
-23:18:11.389   ThinAtmoCheck: 0.03  VacuumCheck: 0.17
-23:18:11.389 
-23:18:11.389 === MOD CONFIG END ===
-23:18:11.389 INFO: No errors reading settings file.
-23:18:24.861 Invoking FinishedLoading
-23:18:24.861 Initializing IRBTModUtils movement feature modifiers.
-23:18:24.861 Enabling MechEngineer functionality
-23:18:24.861 Initializing CleverGirl extensions
+00:57:58.337 Product version: 1.0.0
+00:57:58.337 Assembly version: 0.10.0.5
+00:57:58.337 ModDir is:D:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CBTBehaviorsEnhanced
+00:57:58.337 mod.json settings are:({"Debug":true,"Trace":true,"Features":{"BiomeBreaches":true,"PermanentEvasion":true,"StartupChecks":true},"Developer":{"ForceFallAfterJump":false,"ForceInvalidateAllMeleeAttacks":false,"DebugHeatToAdd":0},"ToHitSelfJumped":3,"CustomCategories":{"HipActuatorCategoryId":["LegHip","LegHipMS"],"UpperLegActuatorCategoryId":["LegUpperActuator","LegUpperActuatorMS"],"LowerLegActuatorCategoryId":["LegLowerActuator","LegLowerActuatorMS"],"FootActuatorCategoryId":["LegFootActuator","LegFootActuatorMS"],"ShoulderActuatorCategoryId":["ArmShoulder","ArmShoulderMS"],"UpperArmActuatorCategoryId":["ArmUpperActuator","ArmUpperActuatorMS"],"LowerArmActuatorCategoryId":["ArmLowerActuator","ArmLowerActuatorMS","OmniLowerActuator"],"HandActuatorCategoryId":["ArmHandActuator","ArmLowerActuatorMS","OmniHandActuator"]},"Heat":{"Movement":{"15":-1,"30":-2,"45":-3,"60":-4,"75":-5,"93":-6,"111":-7,"129":-8,"147":-9},"Firing":{"24":1,"39":2,"51":3,"72":4,"99":5,"123":6,"144":7},"Shutdown":{"42":0.1,"54":0.3,"66":0.6,"78":0.8,"90":0.9,"102":1.0,"114":1.1,"126":1.2,"138":1.3,"150":-1},"Explosion":{"57":0.1,"69":0.2,"84":0.3,"105":0.4,"120":0.5,"135":0.6,"150":0.75},"PilotInjury":{"84":0.3,"117":0.6,"141":0.8},"SystemFailures":{"108":0.3,"132":0.6},"ShowLowOverheatAnim":42,"ShowExtremeOverheatAnim":90,"ShutdownFallThreshold":0.75,"MaxHeat":150,"WarnAtHeat":42},"Melee":{"Charge":{"AttackerDamagePerTargetTon":0.5,"TargetDamagePerAttackerTon":0.5,"AttackerInstabilityPerTargetTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"DamageClusterDivisor":25.0,"UnsteadyAttackerOnHit":true,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"DFA":{"AttackerDamagePerTargetTon":1.5,"TargetDamagePerAttackerTon":1.5,"AttackerInstabilityPerTargetTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"DamageClusterDivisor":25.0,"UnsteadyAttackerOnHit":true,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"Kick":{"BaseAttackBonus":-2,"LegActuatorDamageMalus":2,"FootActuatorDamageMalus":1,"TargetDamagePerAttackerTon":1,"TargetInstabilityPerAttackerTon":0.5,"LegActuatorDamageReduction":0.5,"UnsteadyAttackerOnHit":false,"UnsteadyAttackerOnMiss":true,"UnsteadyTargetOnHit":true},"PhysicalWeapon":{"ArmActuatorDamageMalus":2,"DefaultDamagePerAttackerTon":0.2,"DefaultInstabilityPerAttackerTon":0.2,"DefaultUnsteadyAttackerOnHit":false,"DefaultUnsteadyAttackerOnMiss":false,"DefaultUnsteadyTargetOnHit":false},"Punch":{"ArmActuatorDamageMalus":2,"HandActuatorDamageMalus":1,"TargetDamagePerAttackerTon":0.5,"TargetInstabilityPerAttackerTon":0.5,"ArmActuatorDamageReduction":0.5,"UnsteadyAttackerOnHit":false,"UnsteadyAttackerOnMiss":false,"UnsteadyTargetOnHit":false},"Turrets":{"DefaultTonnage":100.0,"LightTonnage":35.0,"MediumTonnage":55.0,"HeavyTonnage":75.0},"AllowMeleeFromSprint":false,"ProneTargetAttackModifier":-1,"ExtraHitsAverageAllDamage":true,"FilterCanUseInMeleeWeaponsByAttack":true}})
+00:57:58.342 === MOD CONFIG BEGIN ===
+00:57:58.342   Debug: True Trace: True
+00:57:58.342   FEATURES => BiomeBreaches: True  PermanentEvasion: True  StartupChecks: True
+00:57:58.342   ToHitSelfJumped: 3
+00:57:58.342 
+00:57:58.342 === CUSTOM CATEGORY OPTIONS ===
+00:57:58.342   ShoulderActuatorCategoryId: 'ArmShoulder,ArmShoulderMS'  UpperArmActuatorCategoryId: 'ArmUpperActuator,ArmUpperActuatorMS'  LowerArmActuatorCategoryId: 'ArmLowerActuator,ArmLowerActuatorMS,OmniLowerActuator'  HandActuatorCategoryId: 'ArmHandActuator,ArmLowerActuatorMS,OmniHandActuator'  
+00:57:58.342   HipActuatorCategoryId: 'LegHip,LegHipMS'  UpperLegActuatorCategoryId: 'LegUpperActuator,LegUpperActuatorMS'  LowerLegActuatorCategoryId: 'LegLowerActuator,LegLowerActuatorMS'  FootActuatorCategoryId: 'LegFootActuator,LegFootActuatorMS'  
+00:57:58.342 
+00:57:58.342 === HEAT OPTIONS ===
+00:57:58.344   Movement mods: 15 : -1, 30 : -2, 45 : -3, 60 : -4, 75 : -5, 93 : -6, 111 : -7, 129 : -8, 147 : -9, 
+00:57:58.344   Firing mods: 24 : 1, 39 : 2, 51 : 3, 72 : 4, 99 : 5, 123 : 6, 144 : 7, 
+00:57:58.344   Shutdown chances: 42 : 0,1, 54 : 0,3, 66 : 0,6, 78 : 0,8, 90 : 0,9, 102 : 1, 114 : 1,1, 126 : 1,2, 138 : 1,3, 150 : -1, 
+00:57:58.344   Ammo Explosion chances: 57 : 0,1, 69 : 0,2, 84 : 0,3, 105 : 0,4, 120 : 0,5, 135 : 0,6, 150 : 0,75, 
+00:57:58.344   Pilot Injury chances: 84 : 0,3, 117 : 0,6, 141 : 0,8, 
+00:57:58.344   System Failure chances: 108 : 0,3, 132 : 0,6, 
+00:57:58.344   ShowLowOverheatAnim: 42  ShowExtremeOverheatAnim: 90
+00:57:58.344   ShutdownFallThreshold: 0,75
+00:57:58.345   MaxHeat: 150  WarnAtHeat: 42
+00:57:58.345 
+00:57:58.345 === MELEE OPTIONS ===
+00:57:58.345   ExtraHitsAverageAllDamage: True  ProneTargetAttackModifier: -1  FilterCanUseInMeleeWeaponsByAttack: True
+00:57:58.345   -- CHARGE OPTIONS --
+00:57:58.345   AttackerDamagePerTargetTon: 0,5  AttackerInstabilityPerTargetTon: 0,5
+00:57:58.345   TargetDamagePerAttackerTon: 0,5  TargetInstabilityPerAttackerTon: 0,5
+00:57:58.345   DamageClusterDivisor: 25
+00:57:58.345   Unsteady => AttackerOnHit: True  AttackerOnMiss: True  TargetOnHit: True
+00:57:58.345   TargetVehicleEvasionPipsRemoved: 4
+00:57:58.345   MultiplyAttackerSelfDamageByHexesMoved: False
+00:57:58.345   SelfCTKillVirtDamageMulti: -1
+00:57:58.345 
+00:57:58.345   -- DFA OPTIONS --
+00:57:58.345   AttackerDamagePerTargetTon: 1,5  AttackerInstabilityPerTargetTon: 0,5
+00:57:58.345   TargetDamagePerAttackerTon: 1,5  TargetInstabilityPerAttackerTon: 0,5
+00:57:58.345   DamageClusterDivisor: 25
+00:57:58.345   Unsteady => AttackerOnHit: True  AttackerOnMiss: True  TargetOnHit: True
+00:57:58.345   TargetVehicleEvasionPipsRemoved: 4
+00:57:58.345 
+00:57:58.345   -- KICK OPTIONS --
+00:57:58.345   BaseAttackBonus: -2  LegActuatorDamageMalus: 2  FootActuatorDamageMalus: 1
+00:57:58.345   TargetDamagePerAttackerTon: 1  TargetInstabilityPerAttackerTon: 0,5
+00:57:58.345   LegActuatorDamageReduction: 0,5
+00:57:58.345   Unsteady => AttackerOnHit: False  AttackerOnMiss: True  TargetOnHit: True
+00:57:58.345   TargetVehicleEvasionPipsRemoved: 4
+00:57:58.345 
+00:57:58.345   -- PHYSICAL WEAPON OPTIONS --
+00:57:58.345   DefaultDamagePerAttackTon: 0,2  DefaultInstabilityPerAttackerTon: 0,2
+00:57:58.345   ArmActuatorDamageMalus: 2
+00:57:58.345   Unsteady Default => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
+00:57:58.345   TargetVehicleEvasionPipsRemoved: 0
+00:57:58.345 
+00:57:58.345   -- PUNCH OPTIONS --
+00:57:58.345   TargetDamagePerAttackerTon: 0,5  TargetInstabilityPerAttackerTon: 0,5
+00:57:58.345   ArmActuatorDamageMalus: 2  HandActuatorDamageMalus: 1
+00:57:58.345   ArmActuatorDamageReduction: 0,5
+00:57:58.345   Unsteady => AttackerOnHit: False  AttackerOnMiss: False  TargetOnHit: False
+00:57:58.345   TargetVehicleEvasionPipsRemoved: 0
+00:57:58.345 
+00:57:58.345   -- SWARM OPTIONS --
+00:57:58.345 
+00:57:58.345 === MOVE OPTIONS ===
+00:57:58.345   MinimumMove: 40m  HeatMovePenalty: -24m  RunMulti: x1,5
+00:57:58.345   FallAfterChances =>   Jump: 0,3  Run: 0,3
+00:57:58.345   MPMetersPerHex: 24m
+00:57:58.345 
+00:57:58.345 === PILOTING OPTIONS ===
+00:57:58.345   StabilityCheck: 0,3
+00:57:58.345   DFAReductionMulti: x0,05  FallingDamagePerTenTons: 5
+00:57:58.345 
+00:57:58.345 === SKILL CHECKS OPTIONS ===
+00:57:58.345   PilotingSkillMulti: x0,05  GutsSkillMulti: 0,05
+00:57:58.345 === BREACHES OPTIONS ===
+00:57:58.345   ThinAtmoCheck: 0,03  VacuumCheck: 0,17
+00:57:58.345 
+00:57:58.345 === MOD CONFIG END ===
+00:57:58.345 INFO: No errors reading settings file.
+00:58:09.210 Invoking FinishedLoading
+00:58:09.210 Initializing IRBTModUtils movement feature modifiers.
+00:58:09.210 Enabling MechEngineer functionality
+00:58:09.210 Initializing CleverGirl extensions
