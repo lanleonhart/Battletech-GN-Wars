@@ -1,0 +1,27 @@
+03:57:22.202 [Info] ### Harmony id=ModTekPreloader.Harmony12X, version=2.10.1.0, location=D:\SteamLibrary\steamapps\common\BATTLETECH\Mods\ModTek\Harmony12X\0Harmony.dll, env/clr=4.0.30319.42000, platform=Win32NT, ptrsize:runtime/env=8/Bits64, Windows
+### Started from static void ModTekPreloader.Harmony12X.ShimInjectorPatches::Register(ModTekPreloader.Harmony12X.DynamicShimInjector shimInjector), location D:\SteamLibrary\steamapps\common\BATTLETECH\Mods\ModTek\ModTekPreloader.dll
+### At 2023-07-20 03.57.22
+03:57:22.286 [Info] Patching static System.Reflection.Assembly System.Reflection.Assembly::LoadFrom(string assemblyFile, bool refonly) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static void ModTekPreloader.Harmony12X.ShimInjectorPatches+AssemblyLoadPatches::LoadFrom_Prefix(String& assemblyFile)
+
+03:57:22.289 [Info] Running ILHook manipulator on static System.Reflection.Assembly System.Reflection.Assembly::LoadFrom(string assemblyFile, bool refonly)
+03:57:22.293 [Info] Writing prefixes
+03:57:22.310 [Info] Patching System.Reflection.Assembly AppDomain::LoadAssembly(string assemblyRef, System.Security.Policy.Evidence securityEvidence, bool refOnly) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static bool ModTekPreloader.Harmony12X.ShimInjectorPatches+AssemblyLoadPatches::LoadAssembly_Prefix(String& assemblyRef)
+
+03:57:22.310 [Info] Running ILHook manipulator on System.Reflection.Assembly AppDomain::LoadAssembly(string assemblyRef, System.Security.Policy.Evidence securityEvidence, bool refOnly)
+03:57:22.311 [Info] Writing prefixes
+03:57:22.314 [Info] Patching System.Reflection.Assembly AppDomain::LoadAssemblyRaw(byte[] rawAssembly, byte[] rawSymbolStore, System.Security.Policy.Evidence securityEvidence, bool refonly) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static void ModTekPreloader.Harmony12X.ShimInjectorPatches+AssemblyLoadPatches::LoadAssemblyRaw_Prefix(Byte[]& rawAssembly)
+
+03:57:22.314 [Info] Running ILHook manipulator on System.Reflection.Assembly AppDomain::LoadAssemblyRaw(byte[] rawAssembly, byte[] rawSymbolStore, System.Security.Policy.Evidence securityEvidence, bool refonly)
+03:57:22.315 [Info] Writing prefixes
+03:57:22.323 [Info] Patching virtual string System.Reflection.Assembly::get_Location() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static bool ModTekPreloader.Harmony12X.ShimInjectorPatches+AssemblyLocationPatch::Location(System.Reflection.Assembly __instance, String& __result)
+
+03:57:22.323 [Info] Running ILHook manipulator on virtual string System.Reflection.Assembly::get_Location()
+03:57:22.324 [Info] Writing prefixes
