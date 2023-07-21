@@ -1,0 +1,95 @@
+{
+	"Custom": {
+		"Category" : { 
+			"CategoryID" : "Gyro" 
+		},
+		"Flags" : ["not_broken"],
+        "Weights": {
+            "GyroFactor": 0.50
+          }
+    },
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : false,
+        "Manufacturer" : "Generic",
+        "Model" : "Standard",
+        "UIName" : "Ultra Light Gyro",
+        "Id" : "Gear_Gyro_UltraLight",
+        "Name" : "Ultra Light Gyro",
+        "Details" : "Gyros counteract the massive amounts of momentum generated from 'Mech engines and allow for precision maneuvering and recovery from stability-impacting attacks. All 'Mechs come equipped with a stock Gyro, which can be upgraded for improved performance.",
+        "Icon" : "uixSvgIcon_equipment_Gyro"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 4,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects": [
+        {
+        "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+        },
+        "targetingData": {
+          "effectTriggerType": "Passive",
+          "effectTargetType": "Creator",
+          "showInTargetPreview": false,
+          "showInStatusPanel": false
+        },
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "StatusEffect-Defense_StabilityAll-T1",
+          "Name": "Gyro Stab: Decreased Stability Damage Taken",
+          "Details": "Incoming stability damage inreased by 10%.",
+          "Icon": "uixSvgIcon_equipment_Gyro"
+        },
+        "nature": "Buff",
+        "statisticData": {
+          "statName": "ReceivedInstabilityMultiplier",
+          "operation": "Float_Multiply",
+          "modValue": "1.1",
+          "modType": "System.Single"
+        }
+    },
+    {
+        "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+        },
+        "targetingData": {
+          "effectTriggerType": "Passive",
+          "effectTargetType": "Creator",
+          "showInTargetPreview": false,
+          "showInStatusPanel": false
+        },
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "GyroGenericThreshold",
+          "Name": "Gyro Stab: Decreased Unsteady Threshold",
+          "Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+          "Icon": "uixSvgIcon_equipment_Gyro"
+        },
+        "statisticData": {
+          "statName": "UnsteadyThreshold",
+          "operation": "Float_Subtract",
+          "modValue": "20.0",
+          "modType": "System.Single"
+        },
+        "nature": "Buff"
+      }
+],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "noautofix"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
