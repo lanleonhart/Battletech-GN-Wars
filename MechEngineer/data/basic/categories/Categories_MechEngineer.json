@@ -1,23 +1,30 @@
 {
     "Settings": [
         {
-            "Name": "LifeSupportA",
-            "DisplayName": "Life Support",
-            "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
-            ],
-            "DefaultCustoms": {
-                "InventorySorter": "Cockpit0",
-                "Sorter": 0,
-                "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFD700"
-                }
+          "Name": "LifeSupportA",
+          "DisplayName": "Life Support A",
+          "DefaultCustoms": {
+            "InventorySorter": "Cockpit0",
+            "Sorter": 0,
+            "CriticalEffects": {
+              "LinkedStatisticName": "LifeSupport",
+              "OnDestroyedEffectIDs": [
+                "CriticalEffect-LifeSupport1",
+                "CriticalEffect-LifeSupport2"
+              ]
             },
-                "UnitLimits": [
+            "RGBColor": "#A6AA8A",
+            "TRGBColor": {
+              "Color": "#FFD700"
+            }
+          },
+          "BaseLimits": [
+            {
+              "Max": 1,
+              "Min": 1
+            }
+          ],
+          "UnitLimits": [
                     {
                       "UnitType": "MobileSuit",
                       "Limits": [
@@ -54,11 +61,7 @@
                           }
                         ]
                       }
-                ],
-                "CriticalEffects": {
-                    "LinkedStatisticName": "LifeSupport",
-                    "OnDestroyedEffectIDs": [ "CriticalEffect-LifeSupport1", "CriticalEffect-LifeSupport2" ]
-                }
+          ]
             },
         {
             "Name": "SensorsA",
@@ -247,7 +250,7 @@
             },
         {
             "Name": "LifeSupportB",
-            "DisplayName": "Life Support",
+            "DisplayName": "Life Support B",
             "BaseLimits": [
                 {
                     "Min": 1,
