@@ -44,6 +44,15 @@
                             "Max": 0
                           }
                         ]
+                      },
+                      {
+                        "UnitType": "Mech",
+                        "Limits": [
+                          {
+                            "Location": "Head",
+                            "Min": 1
+                          }
+                        ]
                       }
                 ],
                 "CriticalEffects": {
@@ -53,7 +62,7 @@
             },
         {
             "Name": "SensorsA",
-            "DisplayName": "Sensors",
+            "DisplayName": "FCS",
             "BaseLimits": [
                 {
                     "Min": 1,
@@ -93,6 +102,15 @@
                             {
                               "Location": "None",
                               "Max": 0
+                            }
+                          ]
+                        },
+                        {
+                          "UnitType": "Mech",
+                          "Limits": [
+                            {
+                              "Location": "Head",
+                              "Min": 1
                             }
                           ]
                         }
@@ -149,6 +167,15 @@
                               "Max": 0
                             }
                           ]
+                        },
+                        {
+                          "UnitType": "Mech",
+                          "Limits": [
+                            {
+                              "Location": "Head",
+                              "Min": 1
+                            }
+                          ]
                         }
                 ],
                 "CriticalEffects": {
@@ -199,6 +226,15 @@
                               "Max": 0
                             }
                           ]
+                        },
+                        {
+                          "UnitType": "Mech",
+                          "Limits": [
+                            {
+                              "Location": "Head",
+                              "Min": 1
+                            }
+                          ]
                         }
                 ],
                 "CriticalEffects": {
@@ -220,7 +256,7 @@
             ],
             "DefaultCustoms": {
                 "InventorySorter": "Cockpit0",
-                "Sorter": 0,
+                "Sorter": 5,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {
                   "Color": "#FFD700"
@@ -251,6 +287,15 @@
                             {
                               "Location": "None",
                               "Max": 0
+                            }
+                          ]
+                        },
+                        {
+                          "UnitType": "Mech",
+                          "Limits": [
+                            {
+                              "Location": "Head",
+                              "Min": 1
                             }
                           ]
                         }
