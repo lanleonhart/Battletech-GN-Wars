@@ -2,7 +2,7 @@
     "Custom": {
           "Category" : [
               {"CategoryID": ""},
-              {"CategoryID": ""}
+              {"CategoryID": "SensorsA"}
           ],
           "BonusDescriptions": [ 
             "",
@@ -15,11 +15,11 @@
       "Purchasable": true,
       "Manufacturer": "",
       "Model": "",
-      "UIName": "name_in_storage",
-      "Id": "for_mech_fitting",
-      "Name": "",
+      "UIName": "TC Missile Defence",
+      "Id": "Gear_TargetingComputer_Missile_Defence",
+      "Name": "Targeting Computer",
       "Details": "grey_text_description",
-      "Icon": "Icon"
+      "Icon": "fcs"
     },
     "CriticalHitStates": {
         "MaxStates": 1,
@@ -27,28 +27,23 @@
           {
             "State": 1,
             "StatusEffect": {
-              "durationData": {
-                "duration": -1,
-                "stackLimit": -1
-              },
-              "targetingData": {
-                "effectTargetsCreator": true,
-                "effectTriggerType": "Passive",
-                "effectTargetType": "Creator"
-              },
+              "durationData": {"duration": -1,"stackLimit": 1},
+              "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator","effectTargetsCreator": true},
+              "showInTargetPreview": false,
+              "showInStatusPanel": false,
+              "nature": "Debuff",
               "effectType": "StatisticEffect",
               "Description": {
-                "Id": "",
-                "Name": "",
-                "Details": "",
-                "Icon": ""
+                "Id": "TCMD_Crit",
+                "Name": "Targeting Computer: Decreased Missile Defence",
+                "Details": "Decreases Missile Defence Multiplier",
+                "Icon": "fcs"
               },
-              "nature": "Debuff",
               "statisticData": {
-                "statName": "",
-                "operation": "",
-                "modValue": "",
-                "modType": ""
+                "statName": "AAAFactor",
+                "operation": "Float_Divide",
+                "modValue": "4.0",
+                "modType": "System.Single"
               }
             }
           }
@@ -56,23 +51,23 @@
     },
     "statusEffects": [
       {
-        "durationData": {"stackLimit": -1,"duration": -1},
+        "durationData": {"duration": -1,"stackLimit": 1},
         "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
         "showInTargetPreview": false,
         "showInStatusPanel": false,
-        "nature": "Debuff",
+        "nature": "Buff",
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "",
-          "Name": "",
-          "Details": "",
-          "Icon": ""
+          "Id": "AAAFactorMultiplier",
+          "Name": "Targeting Computer: Missile Defence",
+          "Details": "TC Missile Defence Multiplier",
+          "Icon": "fcs"
         },
         "statisticData": {
-          "statName": "",
-          "operation": "",
-          "modValue": "",
-          "modType": ""
+          "statName": "AAAFactor",
+          "operation": "Float_Multiply",
+          "modValue": "2.0",
+          "modType": "System.Single"
         }
       }
     ],   
