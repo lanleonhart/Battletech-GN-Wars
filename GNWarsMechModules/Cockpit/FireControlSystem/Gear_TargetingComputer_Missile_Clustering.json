@@ -1,0 +1,90 @@
+{
+    "Custom": {
+          "Category" : [
+              {"CategoryID": ""},
+              {"CategoryID": "SensorsA"}
+          ],
+          "BonusDescriptions": [ 
+            "",
+            ""
+          ]
+    },
+    "Description": {
+      "Cost": 75000,
+      "Rarity": 1,
+      "Purchasable": true,
+      "Manufacturer": "",
+      "Model": "",
+      "UIName": "TC Missile Clustering",
+      "Id": "Gear_TargetingComputer_Missile_Clustering",
+      "Name": "Targeting Computer",
+      "Details": "grey_text_description",
+      "Icon": "fcs"
+    },
+    "CriticalHitStates": {
+        "MaxStates": 1,
+        "HitEffects": [
+          {
+            "State": 1,
+            "StatusEffect": {
+              "durationData": {"duration": -1,"stackLimit": 1},
+              "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator","effectTargetsCreator": true},
+              "showInTargetPreview": false,
+              "showInStatusPanel": false,
+              "nature": "Debuff",
+              "effectType": "StatisticEffect",
+              "Description": {
+                "Id": "TCMC_Crit",
+                "Name": "Targeting Computer: Decreased Clustering Modifier",
+                "Details": "Decreases the clustering of this unit Missile weapon systems",
+                "Icon": "fcs"
+              },
+              "statisticData": {
+                "statName": "ClusteringModifier",
+                "operation": "Float_Subtract",
+                "modValue": "0.6",
+                "modType": "System.Single",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Missile"
+              }
+            }
+          }
+        ]
+    },
+    "statusEffects": [
+      {
+        "durationData": {"duration": -1,"stackLimit": 1},
+        "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
+        "effectType": "StatisticEffect",
+        "nature": "Buff",
+        "Description": {
+          "Id": "MissileClusteringModifierEffect",
+          "Name": "Targeting Computer: Clustering Modifier",
+          "Details": "Increases the clustering of this unit Missile weapon systems",
+          "Icon": "UixSvgIcon_specialEquip_System"
+        },
+        "statisticData": {
+          "statName": "ClusteringModifier",
+          "operation": "Float_Add",
+          "modValue": "0.1",
+          "modType": "System.Single",
+          "targetCollection": "Weapon",
+          "targetWeaponCategory": "Missile"
+        }
+      }
+    ],   
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "Flags": ["not_broken"],
+    "IBLS": {"StorageSize": 1},
+    "ComponentTags": {
+      "items": ["component_type_stock"],
+      "tagSetSourceFile": ""
+    },
+  "BonusValueA": "","BonusValueB": "","PrefabIdentifier": "","BattleValue": 0
+  }

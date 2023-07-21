@@ -2,7 +2,7 @@
     "Custom": {
           "Category" : [
               {"CategoryID": ""},
-              {"CategoryID": ""}
+              {"CategoryID": "SensorsA"}
           ],
           "BonusDescriptions": [ 
             "",
@@ -15,11 +15,11 @@
       "Purchasable": true,
       "Manufacturer": "",
       "Model": "",
-      "UIName": "name_in_storage",
-      "Id": "for_mech_fitting",
-      "Name": "",
+      "UIName": "TC Multiple Targets",
+      "Id": "Gear_TargetingComputer_Multiple_Targets",
+      "Name": "Targeting Computer",
       "Details": "grey_text_description",
-      "Icon": "Icon"
+      "Icon": "fcs"
     },
     "CriticalHitStates": {
         "MaxStates": 1,
@@ -27,28 +27,23 @@
           {
             "State": 1,
             "StatusEffect": {
-              "durationData": {
-                "duration": -1,
-                "stackLimit": -1
-              },
-              "targetingData": {
-                "effectTargetsCreator": true,
-                "effectTriggerType": "Passive",
-                "effectTargetType": "Creator"
-              },
+              "durationData": {"duration": -1,"stackLimit": 1},
+              "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator","effectTargetsCreator": true},
+              "showInTargetPreview": false,
+              "showInStatusPanel": false,
+              "nature": "Debuff",
               "effectType": "StatisticEffect",
               "Description": {
-                "Id": "",
-                "Name": "",
-                "Details": "",
-                "Icon": ""
+                "Id": "TCMT_Crit",
+                "Name": "Disable Multiple Target Effect",
+                "Details": "Disables Multi-Target",
+                "Icon": "fcs"
               },
-              "nature": "Debuff",
               "statisticData": {
-                "statName": "",
-                "operation": "",
-                "modValue": "",
-                "modType": ""
+                "statName": "IRAllowMultiTarget",
+                "operation": "Set",
+                "modValue": "false",
+                "modType": "System.Boolean"
               }
             }
           }
@@ -56,23 +51,23 @@
     },
     "statusEffects": [
       {
-        "durationData": {"stackLimit": -1,"duration": -1},
+        "durationData": {"duration": -1,"stackLimit": 1},
         "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
         "showInTargetPreview": false,
         "showInStatusPanel": false,
-        "nature": "Debuff",
+        "nature": "Buff",
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "",
-          "Name": "",
-          "Details": "",
-          "Icon": ""
+          "Id": "IRAllowMultiTargetEffect",
+          "Name": "Multiple Target Effect",
+          "Details": "Enables Multi-Target",
+          "Icon": "fcs"
         },
         "statisticData": {
-          "statName": "",
-          "operation": "",
-          "modValue": "",
-          "modType": ""
+          "statName": "IRAllowMultiTarget",
+          "operation": "Set",
+          "modValue": "true",
+          "modType": "System.Boolean"
         }
       }
     ],   
