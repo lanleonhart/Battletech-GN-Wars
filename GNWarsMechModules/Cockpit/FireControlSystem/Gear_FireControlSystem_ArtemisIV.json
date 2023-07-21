@@ -2,7 +2,7 @@
     "Custom": {
           "Category" : [
               {"CategoryID": ""},
-              {"CategoryID": ""}
+              {"CategoryID": "SensorsA"}
           ],
           "BonusDescriptions": [ 
             "",
@@ -15,9 +15,9 @@
       "Purchasable": true,
       "Manufacturer": "",
       "Model": "",
-      "UIName": "name_in_storage",
+      "UIName": "FCS Standard",
       "Id": "for_mech_fitting",
-      "Name": "",
+      "Name": "Fire Control System",
       "Details": "grey_text_description",
       "Icon": "Icon"
     },
@@ -58,9 +58,6 @@
       {
         "durationData": {"stackLimit": -1,"duration": -1},
         "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
-        "showInTargetPreview": false,
-        "showInStatusPanel": false,
-        "nature": "Debuff",
         "effectType": "StatisticEffect",
         "Description": {
           "Id": "",
@@ -68,6 +65,7 @@
           "Details": "",
           "Icon": ""
         },
+        "nature": "Debuff",
         "statisticData": {
           "statName": "",
           "operation": "",
