@@ -1,0 +1,91 @@
+{
+    "Custom": {
+          "Category" : [
+              {"CategoryID": ""},
+              {"CategoryID": ""}
+          ],
+          "BonusDescriptions": [ 
+            "",
+            ""
+          ]
+    },
+    "Description": {
+      "Cost": 75000,
+      "Rarity": 1,
+      "Purchasable": true,
+      "Manufacturer": "",
+      "Model": "",
+      "UIName": "name_in_storage",
+      "Id": "for_mech_fitting",
+      "Name": "",
+      "Details": "grey_text_description",
+      "Icon": "Icon"
+    },
+    "CriticalHitStates": {
+        "MaxStates": 1,
+        "HitEffects": [
+          {
+            "State": 1,
+            "StatusEffect": {
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "targetingData": {
+                "effectTargetsCreator": true,
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator"
+              },
+              "effectType": "StatisticEffect",
+              "Description": {
+                "Id": "",
+                "Name": "",
+                "Details": "",
+                "Icon": ""
+              },
+              "nature": "Debuff",
+              "statisticData": {
+                "statName": "",
+                "operation": "",
+                "modValue": "",
+                "modType": ""
+              }
+            }
+          }
+        ]
+    },
+    "statusEffects": [
+      {
+        "durationData": {"stackLimit": -1,"duration": -1},
+        "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "",
+          "Name": "",
+          "Details": "",
+          "Icon": ""
+        },
+        "nature": "Debuff",
+        "statisticData": {
+          "statName": "",
+          "operation": "",
+          "modValue": "",
+          "modType": ""
+        }
+      }
+    ],   
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "Flags": ["not_broken"],
+    "IBLS": {"StorageSize": 1},
+    "ComponentTags": {
+      "items": ["component_type_stock"],
+      "tagSetSourceFile": ""
+    },
+  "BonusValueA": "","BonusValueB": "","PrefabIdentifier": "","BattleValue": 0
+  }

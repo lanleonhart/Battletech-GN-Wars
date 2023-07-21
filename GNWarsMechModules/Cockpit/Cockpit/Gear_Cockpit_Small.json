@@ -1,14 +1,11 @@
 {
   "Custom": {
-    "Category": [
-      {
-        "CategoryID": "Cockpit"
-      },
-      {
-        "CategoryID": "LifeSupportA"
-      }
-    ]
-    },
+		"Category" : [
+			{"CategoryID": "Cockpit"},
+			{"CategoryID": "LifeSupportB"}
+		],
+    "BonusDescriptions": []
+},
     "CriticalHitStates": {
       "MaxStates": 1,
       "DeathMethod": "PilotKilled",
@@ -127,14 +124,8 @@
         }
       ]
     },
-    "Flags": [
-      "not_broken"
-    ],
-    "IBLS": {
-      "StorageSize": 1
-    },
-  
-
+    "Flags": ["not_broken"],
+    "IBLS": {"StorageSize": 1},
   "Description": {
     "Cost": 75000,
     "Rarity": 1,
