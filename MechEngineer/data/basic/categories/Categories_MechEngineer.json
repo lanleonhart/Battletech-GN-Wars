@@ -14,71 +14,29 @@
               ]
             },
             "RGBColor": "#A6AA8A",
-            "TRGBColor": {
-              "Color": "#FFFFFFF"
-            }
+            "TRGBColor": {"Color": "#FFFFFF"}
           },
           "BaseLimits": [
-            {
-              "Max": 1,
-              "Min": 1
-            }
+            {"Max": 1,"Min": 1}
           ],
           "UnitLimits": [
-                    {
-                      "UnitType": "MobileSuit",
-                      "Limits": [
-                        {
-                          "Location": "None",
-                          "Max": 0
-                        }
-                      ]
-                    },
-                    {
-                        "UnitType": "MobileSuitHero",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                        "UnitType": "Gundam",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                        "UnitType": "Mech",
-                        "Limits": [
-                          {
-                            "Location": "Head",
-                            "Min": 1
-                          }
-                        ]
-                      }
+            {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+            {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+            {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+            {"UnitType": "Mech","Limits": [{"Location": "Head","Min": 1}]}
           ]
             },
         {
             "Name": "SensorsA",
             "DisplayName": "FCS",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "Cockpit1",
                 "Sorter": 1,
                 "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                   "LinkedStatisticName": "Sensors",
                   "OnDestroyedEffectIDs": [
@@ -87,120 +45,46 @@
                   ]
                 }
             },
-                "UnitLimits": [
-                    {
-                        "UnitType": "MobileSuit",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                          "UnitType": "MobileSuitHero",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Gundam",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Mech",
-                          "Limits": [
-                            {
-                              "Location": "Head",
-                              "Min": 1
-                            }
-                          ]
-                        }
-                ]
+            "UnitLimits": [
+              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+              {"UnitType": "Mech","Limits": [{"Location": "Head","Min": 1}]}
+            ]
             },
         {
             "Name": "Cockpit",
             "DisplayName": "Cockpit",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "Cockpit3",
                 "Sorter": 2,
                 "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                   "DeathMethod": "CockpitDestroyed"
               }
             },
-                "UnitLimits": [
-                    {
-                        "UnitType": "MobileSuit",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                          "UnitType": "MobileSuitHero",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Gundam",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Mech",
-                          "Limits": [
-                            {
-                              "Location": "Head",
-                              "Min": 1
-                            }
-                          ]
-                        }
-                ]
+            "UnitLimits": [
+              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+              {"UnitType": "Mech","Limits": [{"Location": "Head","Min": 1}]}
+            ]
             },
         {
             "Name": "SensorsB",
             "DisplayName": "Sensors",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "Cockpit3",
                 "Sorter": 3,
                 "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                   "LinkedStatisticName": "Sensors",
                   "PenalizedEffectIDs": [
@@ -209,44 +93,12 @@
                   "OnDestroyedEffectIDs": [ "CriticalEffect-Sensors2" ]
               }
             },
-                "UnitLimits": [
-                    {
-                        "UnitType": "MobileSuit",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                          "UnitType": "MobileSuitHero",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Gundam",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Mech",
-                          "Limits": [
-                            {
-                              "Location": "Head",
-                              "Min": 1
-                            }
-                          ]
-                        }
-                ]
+            "UnitLimits": [
+              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+              {"UnitType": "Mech","Limits": [{"Location": "Head","Min": 1}]}
+            ]
             },
         {
           "Name": "LifeSupportB",
@@ -262,72 +114,30 @@
               ]
             },
             "RGBColor": "#A6AA8A",
-            "TRGBColor": {
-              "Color": "#FFFFFF"
-            }
+            "TRGBColor": {"Color": "#FFFFFF"}
           },
           "BaseLimits": [
-            {
-              "Max": 1,
-              "Min": 1
-            }
+            {"Max": 1,"Min": 1}
           ],
           "UnitLimits": [
-            {
-             "UnitType": "MobileSuit",
-             "Limits": [
-             {
-               "Location": "None",
-                "Max": 0
-              }
-              ]
-            },
-            {
-              "UnitType": "MobileSuitHero",
-              "Limits": [
-              {
-                "Location": "None",
-                "Max": 0
-              }
-              ]
-            },
-            {
-              "UnitType": "Gundam",
-              "Limits": [
-               {
-                "Location": "None",
-                "Max": 0
-                }
-              ]
-            },
-            {
-              "UnitType": "Mech",
-              "Limits": [
-              {
-                "Location": "Head",
-                "Min": 1
-              }
-              ]
-            }
+            {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+            {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+            {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+            {"UnitType": "Mech","Limits": [{"Location": "Head","Min": 1}]}
           ]
         },
         {
             "Name": "Armor",
             "DisplayName": "Armor",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "CustomWidget": "TopLeft",
                 "InventorySorter": "CzOrder0",
                 "Sorter": 0,
                 "RGBColor": "#bd8900",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "Flags": [ "ignore_damage", "no_salvage" ]
             }
         },
@@ -335,19 +145,14 @@
             "Name": "Structure",
             "DisplayName": "Structure",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "CustomWidget": "TopLeft",
                 "InventorySorter": "CzOrder1",
                 "Sorter": 1,
                 "RGBColor": "#bd8900",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "Flags": [ "ignore_damage", "no_salvage" ]
             }
         },
@@ -355,19 +160,14 @@
             "Name": "Cooling",
             "DisplayName": "Cooling System",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "CustomWidget": "TopLeft",
                 "InventorySorter": "CzOrder2",
                 "Sorter": 2,
                 "RGBColor": "#1888b8",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "Flags": [ "ignore_damage", "no_salvage" ]
             }
         },
@@ -375,10 +175,7 @@
             "Name": "Quirk",
             "DisplayName": "Quirk",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "CustomWidget": "TopRight",
@@ -391,18 +188,13 @@
             "Name": "Gyro",
             "DisplayName": "Gyro",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "CzOrder20",
                 "Sorter": 20,
                 "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                     "PenalizedEffectIDs": [
                         [ "CriticalEffect-GyroCrit" ]
@@ -431,10 +223,7 @@
             "Name": "EngineShield",
             "DisplayName": "Engine Shielding",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "CzOrder21",
@@ -445,10 +234,7 @@
             "Name": "EngineHeatBlock",
             "DisplayName": "Engine Cooling",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "CzOrder22",
@@ -459,10 +245,7 @@
             "Name": "EngineCore",
             "DisplayName": "Engine Core",
             "BaseLimits": [
-                {
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "CzOrder23",
@@ -500,24 +283,14 @@
             "Name": "LegHip",
             "DisplayName": "Hip",
             "BaseLimits": [
-                {
-                    "Location": "RightLeg",
-                    "Min": 1,
-                    "Max": 1
-                },
-                {
-                    "Location": "LeftLeg",
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Location": "RightLeg","Min": 1,"Max": 1},
+                {"Location": "LeftLeg","Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "ActuatorLeg0",
                 "Sorter": 0,
                 "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-HipDestroyed-{location}" ],
@@ -528,264 +301,97 @@
                   ]
               }
             },
-                "UnitLimits": [
-                    {
-                        "UnitType": "MobileSuit",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Min": 0,
-                              "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                          "UnitType": "MobileSuitHero",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Min": 0,
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Gundam",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Min": 0,
-                              "Max": 0
-                            }
-                          ]
-                        }
-                ]
+            "UnitLimits": [
+              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+              {"UnitType": "Mech","Limits": [{"Location": "None","Max": 0}]}
+            ]
             },
         {
             "Name": "LegUpperActuator",
             "DisplayName": "Upper Leg Actuator",
             "BaseLimits": [
-                {
-                    "Location": "RightLeg",
-                    "Min": 1,
-                    "Max": 1
-                },
-                {
-                    "Location": "LeftLeg",
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Location": "RightLeg","Min": 1,"Max": 1},
+                {"Location": "LeftLeg","Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "ActuatorLeg1",
                 "Sorter": 1,
                 "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-LegUpperActuatorDestroyed-{location}" ]
               }
             },
-                "UnitLimits": [
-                    {
-                        "UnitType": "MobileSuit",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Min": 0,
-                              "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                          "UnitType": "MobileSuitHero",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Min": 0,
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Gundam",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Min": 0,
-                              "Max": 0
-                            }
-                          ]
-                        }
-                ]
+            "UnitLimits": [
+              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+              {"UnitType": "Mech","Limits": [{"Location": "None","Max": 0}]}
+            ]
         },
         {
             "Name": "LegLowerActuator",
             "DisplayName": "Lower Leg Actuator",
             "BaseLimits": [
-                {
-                    "Location": "RightLeg",
-                    "Min": 1,
-                    "Max": 1
-                },
-                {
-                    "Location": "LeftLeg",
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Location": "RightLeg","Min": 1,"Max": 1},
+                {"Location": "LeftLeg","Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "ActuatorLeg2",
                 "Sorter": 2,
                 "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-LegLowerActuatorDestroyed-{location}" ]
               }
             },
-                "UnitLimits": [
-                    {
-                        "UnitType": "MobileSuit",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Min": 0,
-                              "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                        "UnitType": "MobileSuitHero",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Min": 0,
-                              "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                        "UnitType": "Gundam",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Min": 0,
-                              "Max": 0
-                          }
-                        ]
-                      }
-                ]
+            "UnitLimits": [
+              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+              {"UnitType": "Mech","Limits": [{"Location": "None","Max": 1}]}
+            ]
             },
         {
             "Name": "LegFootActuator",
             "DisplayName": "Foot Actuator",
             "BaseLimits": [
-                {
-                    "Location": "RightLeg",
-                    "Min": 1,
-                    "Max": 1
-                },
-                {
-                    "Location": "LeftLeg",
-                    "Min": 1,
-                    "Max": 1
-                }
-            ],
+              {"Location": "RightLeg","Min": 1,"Max": 1},
+              {"Location": "LeftLeg","Min": 1,"Max": 1}
+          ],
             "DefaultCustoms": {
                 "InventorySorter": "ActuatorLeg3",
                 "Sorter": 3,
                 "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-LegFootActuatorDestroyed-{location}" ]
               }
             },
-                "UnitLimits": [
-                    {
-                        "UnitType": "MobileSuit",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Min": 0,
-                              "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                        "UnitType": "MobileSuitHero",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Min": 0,
-                              "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                        "UnitType": "Gundam",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Min": 0,
-                              "Max": 0
-                          }
-                        ]
-                      }
-                    
-                ]
+            "UnitLimits": [
+              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+              {"UnitType": "Mech","Limits": [{"Location": "None","Max": 1}]}
+            ]
             },
         {
             "Name": "CASE",
             "DisplayName": "CASE",
             "BaseLimits": [
-                {
-                    "Location": "LeftArm",
-                    "Min": 0,
-                    "Max": 1
-                },
-                {
-                    "Location": "LeftTorso",
-                    "Min": 0,
-                    "Max": 1
-                },
-                {
-                    "Location": "LeftLeg",
-                    "Min": 0,
-                    "Max": 1
-                },
-                {
-                    "Location": "Head",
-                    "Min": 0,
-                    "Max": 1
-                },
-                {
-                    "Location": "CenterTorso",
-                    "Min": 0,
-                    "Max": 1
-                },
-                {
-                    "Location": "RightTorso",
-                    "Min": 0,
-                    "Max": 1
-                },
-                {
-                    "Location": "RightLeg",
-                    "Min": 0,
-                    "Max": 1
-                },
-                {
-                    "Location": "RightArm",
-                    "Min": 0,
-                    "Max": 1
-                }
+                {"Location": "LeftArm","Min": 0,"Max": 1},
+                {"Location": "LeftTorso","Min": 0,"Max": 1},
+                {"Location": "LeftLeg","Min": 0,"Max": 1},
+                {"Location": "Head","Min": 0,"Max": 1},
+                {"Location": "CenterTorso","Min": 0,"Max": 1},
+                {"Location": "RightTorso","Min": 0,"Max": 1},
+                {"Location": "RightLeg","Min": 0,"Max": 1},
+                {"Location": "RightArm","Min": 0,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "CASE",
@@ -798,24 +404,14 @@
             "Name": "ArmShoulder",
             "DisplayName": "Shoulder",
             "BaseLimits": [
-                {
-                    "Location": "RightArm",
-                    "Min": 1,
-                    "Max": 1
-                },
-                {
-                    "Location": "LeftArm",
-                    "Min": 1,
-                    "Max": 1
-                }
+                {"Location": "RightArm","Min": 1,"Max": 1},
+                {"Location": "LeftArm","Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "ActuatorArm0",
                 "Sorter": 0,
                 "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-ShoulderDestroyed-{location}" ],
@@ -826,92 +422,36 @@
                   ]
               }
             },
-                "UnitLimits": [
-                    {
-                        "UnitType": "MobileSuit",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                          "UnitType": "MobileSuitHero",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Gundam",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        }
-                ]
+            "UnitLimits": [
+              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+              {"UnitType": "Mech","Limits": [{"Location": "RightArm","Max": 1}]}
+            ]
             },
         {
             "Name": "ArmUpperActuator",
             "DisplayName": "Upper Arm Actuator",
             "BaseLimits": [
-                {
-                    "Location": "RightArm",
-                    "Min": 0,
-                    "Max": 0
-                },
-                {
-                    "Location": "LeftArm",
-                    "Min": 0,
-                    "Max": 0
-                }
+                {"Location": "RightArm","Min": 1,"Max": 1},
+                {"Location": "LeftArm","Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "ActuatorArm1",
                 "Sorter": 1,
                 "RGBColor": "#A6AA8A",
-                "TRGBColor": {
-                  "Color": "#FFFFFF"
-                },
+                "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-ArmUpperActuatorDestroyed-{location}" ]
               }
             },
-                "UnitLimits": [
-                    {
-                        "UnitType": "MobileSuit",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                          "UnitType": "MobileSuitHero",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Gundam",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        }
-                ]
+            "UnitLimits": [
+              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
+              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]},
+              {"UnitType": "Mech","Limits": [{"Location": "RightArm","Max": 1}]}
+            ]
         }
         ]
         }
