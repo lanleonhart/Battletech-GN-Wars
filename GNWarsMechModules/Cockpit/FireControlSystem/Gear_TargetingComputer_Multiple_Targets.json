@@ -21,34 +21,6 @@
       "Details": "grey_text_description",
       "Icon": "fcs"
     },
-    "CriticalHitStates": {
-        "MaxStates": 1,
-        "HitEffects": [
-          {
-            "State": 1,
-            "StatusEffect": {
-              "durationData": {"duration": -1,"stackLimit": 1},
-              "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator","effectTargetsCreator": true},
-              "showInTargetPreview": false,
-              "showInStatusPanel": false,
-              "nature": "Debuff",
-              "effectType": "StatisticEffect",
-              "Description": {
-                "Id": "TCMT_Crit",
-                "Name": "Disable Multiple Target Effect",
-                "Details": "Disables Multi-Target",
-                "Icon": "fcs"
-              },
-              "statisticData": {
-                "statName": "IRAllowMultiTarget",
-                "operation": "Set",
-                "modValue": "false",
-                "modType": "System.Boolean"
-              }
-            }
-          }
-        ]
-    },
     "statusEffects": [
       {
         "durationData": {"duration": -1,"stackLimit": 1},

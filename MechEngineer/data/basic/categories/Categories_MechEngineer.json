@@ -77,7 +77,14 @@
                 "Sorter": 1,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {
-                  "Color": "#FFFFFFF"
+                  "Color": "#FFFFFF"
+                },
+                "CriticalEffects": {
+                  "LinkedStatisticName": "Sensors",
+                  "OnDestroyedEffectIDs": [
+                    "CriticalEffect-Sensors1",
+                    "CriticalEffect-Sensors2"
+                  ]
                 }
             },
                 "UnitLimits": [
@@ -117,14 +124,7 @@
                             }
                           ]
                         }
-                ],
-                "CriticalEffects": {
-                    "LinkedStatisticName": "Sensors",
-                    "PenalizedEffectIDs": [
-                        [ "CriticalEffect-Sensors1" ]
-                    ],
-                    "OnDestroyedEffectIDs": [ "CriticalEffect-Sensors2" ]
-                }
+                ]
             },
         {
             "Name": "Cockpit",
@@ -140,8 +140,11 @@
                 "Sorter": 2,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {
-                  "Color": "#FFFFFFF"
-                }
+                  "Color": "#FFD700"
+                },
+                "CriticalEffects": {
+                  "DeathMethod": "CockpitDestroyed"
+              }
             },
                 "UnitLimits": [
                     {
@@ -180,10 +183,7 @@
                             }
                           ]
                         }
-                ],
-                "CriticalEffects": {
-                    "DeathMethod": "CockpitDestroyed"
-                }
+                ]
             },
         {
             "Name": "SensorsB",
@@ -199,8 +199,15 @@
                 "Sorter": 3,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {
-                  "Color": "#FFFFFFF"
-                }
+                  "Color": "#FFD700"
+                },
+                "CriticalEffects": {
+                  "LinkedStatisticName": "Sensors",
+                  "PenalizedEffectIDs": [
+                      [ "CriticalEffect-Sensors1" ]
+                  ],
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-Sensors2" ]
+              }
             },
                 "UnitLimits": [
                     {
@@ -239,16 +246,20 @@
                             }
                           ]
                         }
-                ],
-                "CriticalEffects": {
-                    "LinkedStatisticName": "Sensors",
-                    "PenalizedEffectIDs": [
-                        [ "CriticalEffect-Sensors1" ]
-                    ],
-                    "OnDestroyedEffectIDs": [ "CriticalEffect-Sensors2" ]
-                }
+                ]
             },
         {
+          "Name": "LifeSupportB",
+          "DisplayName": "Life Support B",
+          "DefaultCustoms": {
+            "InventorySorter": "Cockpit5",
+            "Sorter": 0,
+            "CriticalEffects": {
+              "LinkedStatisticName": "LifeSupport",
+              "OnDestroyedEffectIDs": [
+                "CriticalEffect-LifeSupport1",
+                "CriticalEffect-LifeSupport2"
+              ]
             "Name": "LifeSupportB",
             "DisplayName": "Life Support B",
             "BaseLimits": [
@@ -265,49 +276,56 @@
                   "Color": "#FFFFFFF"
                 }
             },
-                "UnitLimits": [
-                    {
-                        "UnitType": "MobileSuit",
-                        "Limits": [
-                          {
-                            "Location": "None",
-                            "Max": 0
-                          }
-                        ]
-                      },
-                      {
-                          "UnitType": "MobileSuitHero",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Gundam",
-                          "Limits": [
-                            {
-                              "Location": "None",
-                              "Max": 0
-                            }
-                          ]
-                        },
-                        {
-                          "UnitType": "Mech",
-                          "Limits": [
-                            {
-                              "Location": "Head",
-                              "Min": 1
-                            }
-                          ]
-                        }
-                ],
-                "CriticalEffects": {
-                    "LinkedStatisticName": "LifeSupport",
-                    "OnDestroyedEffectIDs": [ "CriticalEffect-LifeSupport1", "CriticalEffect-LifeSupport2" ]
-                }
+            "RGBColor": "#A6AA8A",
+            "TRGBColor": {
+              "Color": "#FFD700"
+            }
+          },
+          "BaseLimits": [
+            {
+              "Max": 1,
+              "Min": 1
+            }
+          ],
+          "UnitLimits": [
+            {
+             "UnitType": "MobileSuit",
+             "Limits": [
+             {
+               "Location": "None",
+                "Max": 0
+              }
+              ]
             },
+            {
+              "UnitType": "MobileSuitHero",
+              "Limits": [
+              {
+                "Location": "None",
+                "Max": 0
+              }
+              ]
+            },
+            {
+              "UnitType": "Gundam",
+              "Limits": [
+               {
+                "Location": "None",
+                "Max": 0
+                }
+              ]
+            },
+            {
+              "UnitType": "Mech",
+              "Limits": [
+              {
+                "Location": "Head",
+                "Min": 1
+              }
+              ]
+            }
+          ]
+        },
         {
             "Name": "Armor",
             "DisplayName": "Armor",
@@ -513,8 +531,17 @@
                 "Sorter": 0,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {
-                  "Color": "#FFFFFFF"
-                } 
+                  "Color": "#FFD700"
+                },
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-HipDestroyed-{location}" ],
+                  "OnDestroyedDisableEffectIds": [
+                      "CriticalEffect-LegUpperActuatorDestroyed-{location}",
+                      "CriticalEffect-LegLowerActuatorDestroyed-{location}",
+                      "CriticalEffect-LegFootActuatorDestroyed-{location}"
+                  ]
+              }
             },
                 "UnitLimits": [
                     {
@@ -547,16 +574,7 @@
                             }
                           ]
                         }
-                ],
-                "CriticalEffects": {
-                    "DestroyedFloatieMessage": "Actuator DESTROYED",
-                    "OnDestroyedEffectIDs": [ "CriticalEffect-HipDestroyed-{location}" ],
-                    "OnDestroyedDisableEffectIds": [
-                        "CriticalEffect-LegUpperActuatorDestroyed-{location}",
-                        "CriticalEffect-LegLowerActuatorDestroyed-{location}",
-                        "CriticalEffect-LegFootActuatorDestroyed-{location}"
-                    ]
-                }
+                ]
             },
         {
             "Name": "LegUpperActuator",
@@ -578,8 +596,12 @@
                 "Sorter": 1,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {
-                  "Color": "#FFFFFFF"
-                }
+                  "Color": "#FFD700"
+                },
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-LegUpperActuatorDestroyed-{location}" ]
+              }
             },
                 "UnitLimits": [
                     {
@@ -612,11 +634,7 @@
                             }
                           ]
                         }
-                ],
-                "CriticalEffects": {
-                    "DestroyedFloatieMessage": "Actuator DESTROYED",
-                    "OnDestroyedEffectIDs": [ "CriticalEffect-LegUpperActuatorDestroyed-{location}" ]
-                }
+                ]
         },
         {
             "Name": "LegLowerActuator",
@@ -638,8 +656,12 @@
                 "Sorter": 2,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {
-                  "Color": "#FFFFFFF"
-                }
+                  "Color": "#FFFFFF"
+                },
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-LegLowerActuatorDestroyed-{location}" ]
+              }
             },
                 "UnitLimits": [
                     {
@@ -672,11 +694,7 @@
                           }
                         ]
                       }
-                ],
-                "CriticalEffects": {
-                    "DestroyedFloatieMessage": "Actuator DESTROYED",
-                    "OnDestroyedEffectIDs": [ "CriticalEffect-LegLowerActuatorDestroyed-{location}" ]
-                }
+                ]
             },
         {
             "Name": "LegFootActuator",
@@ -698,8 +716,12 @@
                 "Sorter": 3,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {
-                  "Color": "#FFFFFFF"
-                }
+                  "Color": "#FFFFFF"
+                },
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-LegFootActuatorDestroyed-{location}" ]
+              }
             },
                 "UnitLimits": [
                     {
@@ -733,11 +755,7 @@
                         ]
                       }
                     
-                ],
-                "CriticalEffects": {
-                    "DestroyedFloatieMessage": "Actuator DESTROYED",
-                    "OnDestroyedEffectIDs": [ "CriticalEffect-LegFootActuatorDestroyed-{location}" ]
-                }
+                ]
             },
         {
             "Name": "CASE",
@@ -811,8 +829,17 @@
                 "Sorter": 0,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {
-                  "Color": "#FFFFFFF"
-                }
+                  "#FFFFFF"
+                },
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-ShoulderDestroyed-{location}" ],
+                  "OnDestroyedDisableEffectIds": [
+                      "CriticalEffect-ArmUpperActuatorDestroyed-{location}",
+                      "CriticalEffect-ArmLowerActuatorDestroyed-{location}",
+                      "CriticalEffect-ArmHandActuatorDestroyed-{location}"
+                  ]
+              }
             },
                 "UnitLimits": [
                     {
@@ -842,16 +869,7 @@
                             }
                           ]
                         }
-                ],
-                "CriticalEffects": {
-                    "DestroyedFloatieMessage": "Actuator DESTROYED",
-                    "OnDestroyedEffectIDs": [ "CriticalEffect-ShoulderDestroyed-{location}" ],
-                    "OnDestroyedDisableEffectIds": [
-                        "CriticalEffect-ArmUpperActuatorDestroyed-{location}",
-                        "CriticalEffect-ArmLowerActuatorDestroyed-{location}",
-                        "CriticalEffect-ArmHandActuatorDestroyed-{location}"
-                    ]
-                }
+                ]
             },
         {
             "Name": "ArmUpperActuator",
@@ -873,8 +891,12 @@
                 "Sorter": 1,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {
-                  "Color": "#FFFFFFF"
-                }
+                  "Color": "#FFFFFF"
+                },
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-ArmUpperActuatorDestroyed-{location}" ]
+              }
             },
                 "UnitLimits": [
                     {
@@ -904,11 +926,7 @@
                             }
                           ]
                         }
-                ],
-                "CriticalEffects": {
-                    "DestroyedFloatieMessage": "Actuator DESTROYED",
-                    "OnDestroyedEffectIDs": [ "CriticalEffect-ArmUpperActuatorDestroyed-{location}" ]
-                }
+                ]
         }
         ]
         }

@@ -21,36 +21,6 @@
       "Details": "grey_text_description",
       "Icon": "fcs"
     },
-    "CriticalHitStates": {
-      "MaxStates": 1,
-      "HitEffects": [
-        {
-          "State": 1,
-          "StatusEffect": {
-            "durationData": {"duration": -1,"stackLimit": 1},
-            "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator","effectTargetsCreator": true},
-            "showInTargetPreview": false,
-            "showInStatusPanel": false,
-            "nature": "Debuff",
-            "effectType": "StatisticEffect",
-            "Description": {
-              "Id": "TCEA_Crit",
-              "Name": "Targeting Computer: Decreased Energy Accuracy",
-              "Details": "Accuracy -2 for Energy Weapons",
-              "Icon": "fcs"
-            },
-            "statisticData": {
-              "statName": "AccuracyModifier",
-              "operation": "Float_Substract",
-              "modValue": "-4.0",
-              "modType": "System.Single",
-              "targetCollection": "Weapon",
-              "targetWeaponCategory": "Energy"
-            }
-          }
-        }
-      ]
-    },
     "statusEffects": [
       {
         "durationData": {"duration": -1,"stackLimit": 1},
