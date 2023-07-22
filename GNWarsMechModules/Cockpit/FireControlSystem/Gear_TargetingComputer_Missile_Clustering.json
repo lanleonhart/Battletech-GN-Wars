@@ -21,6 +21,36 @@
       "Details": "grey_text_description",
       "Icon": "fcs"
     },
+    "CriticalHitStates": {
+        "MaxStates": 1,
+        "HitEffects": [
+          {
+            "State": 1,
+            "StatusEffect": {
+              "durationData": {"duration": -1,"stackLimit": 1},
+              "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator","effectTargetsCreator": true},
+              "showInTargetPreview": false,
+              "showInStatusPanel": false,
+              "nature": "Debuff",
+              "effectType": "StatisticEffect",
+              "Description": {
+                "Id": "TCMC_Crit",
+                "Name": "Targeting Computer: Decreased Clustering Modifier",
+                "Details": "Decreases the clustering of this unit Missile weapon systems",
+                "Icon": "fcs"
+              },
+              "statisticData": {
+                "statName": "ClusteringModifier",
+                "operation": "Float_Subtract",
+                "modValue": "0.6",
+                "modType": "System.Single",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Missile"
+              }
+            }
+          }
+        ]
+    },
     "statusEffects": [
       {
         "durationData": {"duration": -1,"stackLimit": 1},
