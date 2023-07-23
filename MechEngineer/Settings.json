@@ -43,7 +43,6 @@
         "Enabled" : true,
         "EnabledDescription" : "Fixes up mechs, chassis and components to adhere to CBT rules and defaults. Done programmatically to be compatible to new mechs in the future.",
         "IgnoreAutofixTagsDescription" : "These tags on a MechDef, ChassisDef or ComponentDef make sure that the respective object is being ignored by the autofixer",
-        "MaximizeArmorDescription" : "Maximize armor to use up as much as possible of any left over free tonnage.",
         "InternalizeHeatSinksOnValidEnginesDescription" : "Converts external heat sinks to internal heat sinks (critical slots -> engine) even for valid mech layouts. Useful when autofixing vanilla mechs, conflicts with modded loadouts.",
         "MechLocationNamingTemplatesDescription" : "If any of the listed tags are found, and the chassis has no ChassisLocationNaming component, add the associated ChassisLocationNaming component",
         "MechDefEngine" : true,
@@ -56,7 +55,7 @@
             "ignore_autofix",
             "noautofix"
         ],
-        "MaximizeArmor" : true,
+        "MaximizeArmor" : false,
         "InternalizeHeatSinksOnValidEngines" : true,
         "MechLocationNamingTemplates" : [
             {
