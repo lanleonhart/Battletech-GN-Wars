@@ -3,6 +3,11 @@
 		"Category" : { 
 			"CategoryID" : "Gyro" 
 		},
+    "BonusDescriptions": [
+      "GyroTH: -20",
+      "GyroStab: +15%",
+      "GyroWT:+50%"
+    ],
 		"Flags" : ["not_broken"],
         "Weights": {
             "GyroFactor": 1.5
@@ -13,7 +18,7 @@
         "Rarity" : 0,
         "Purchasable" : false,
         "Manufacturer" : "Rawling",
-        "Model" : "Standard",
+        "Model" : "Standard-C",
         "UIName" : "Compact Gyro",
         "Id" : "Gear_Gyro_Generic_Compact",
         "Name" : "Compact Gyro",
@@ -47,7 +52,7 @@
         "Description": {
           "Id": "StatusEffect-Defense_StabilityAll-T1",
           "Name": "Gyro Stab: Decreased Stability Damage Taken",
-          "Details": "Incoming stability damage inreased by 15%.",
+          "Details": "Incoming stability damage increased by 15%.",
           "Icon": "uixSvgIcon_equipment_Gyro"
         },
         "nature": "Buff",
