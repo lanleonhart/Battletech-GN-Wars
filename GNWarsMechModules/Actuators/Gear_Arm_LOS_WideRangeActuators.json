@@ -1,0 +1,109 @@
+{
+	"Custom": {
+		"Category" : [
+              {
+                "CategoryID": "ArmLowerActuator"
+              }
+        ],
+		"BonusDescriptions": [
+			"ACC: +1",
+            "ARC: 210°"
+		  ],
+		"Flags": [
+				"no_salvage"
+		],
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "emod_engineslots_size2",
+					"Location": "LeftTorso"
+				}
+			]
+		}
+	},
+	"StatName": null,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Duracus Institute",
+		"Model": "ProtoType",
+		"UIName": "Wide Range Actuator",
+		"Id": "Gear_Arm_LOS_WideRangeActuators",
+		"Name": "Wide Range Actuator",
+		"Details": "Enhanced actuators that allow a wider angle of fire.",
+		"Icon": "uixSvgIcon_equipment_Gyro"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 2,
+	"AllowedLocations": "LeftArm, RightArm",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+        {
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Status-ACC-{location}",
+				"Name": "Weapon Mount",
+				"Details": "Weapon mount accuracy bonus +1",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+                "statName": "{location}.Accuracy",
+                "operation": "Float_Add",
+                "modValue": "-1",
+                "modType": "System.Single"
+		}
+    },
+    {
+        "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+        },
+        "targetingData": {
+          "effectTriggerType": "Passive",
+          "effectTargetType": "Creator",
+          "forcePathRebuild": true,
+          "showInStatusPanel": true
+        },
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "StatusEffect-Actuator-FiringArc",
+          "Name": "Enhanced Range Motors",
+          "Details": "",
+          "Icon": "uixSvgIcon_equipment_Gyro"
+        },
+        "nature": "Buff",
+        "statisticData": {
+          "effectsPersistAfterDestruction": false,
+          "statName": "CUFiringArc",
+          "operation": "Set",
+          "modValue": "210",
+          "modType": "System.Single"
+        }
+      }
+    ],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

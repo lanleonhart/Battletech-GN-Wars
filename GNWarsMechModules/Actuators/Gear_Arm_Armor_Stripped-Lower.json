@@ -1,0 +1,103 @@
+{
+	"Custom": {
+		"Category" : [
+              {
+                "CategoryID": "ArmLowerActuator"
+              }
+        ],
+		"BonusDescriptions": [
+			"Armor: x0.5",
+            "WT: -1",
+            "ARC: 45°"
+		  ],
+		"Flags": [
+				"no_salvage"
+		]
+	},
+	"StatName": null,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Outlaws",
+		"Model": "Irregular",
+		"UIName": "Stripped Down Actuator",
+		"Id": "Gear_Arm_Armor_Stripped-Lower",
+		"Name": "Stripped Down Actuator",
+		"Details": "Actuators which have had all the essentials stripped off to reduce weight forcing a reduced firing arc",
+		"Icon": "uixSvgIcon_equipment_Gyro"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": -1,
+	"AllowedLocations": "LeftArm, RightArm",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+        {
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Status-ModularArmor-{location}",
+				"Name": "Stripped Actuator",
+				"Details": "",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "{location}.Armor",
+				"operation": "Float_Multiply",
+				"modValue": "0.5",
+				"modType": "System.Single"
+			}
+		},
+        {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "forcePathRebuild": true,
+              "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "StatusEffect-Actuator-FiringArc",
+              "Name": "Reduced Range Motors",
+              "Details": "",
+              "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+              "effectsPersistAfterDestruction": false,
+              "statName": "CUFiringArc",
+              "operation": "Set",
+              "modValue": "45",
+              "modType": "System.Single"
+            }
+          }
+    ],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}
