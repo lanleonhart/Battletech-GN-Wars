@@ -1,0 +1,73 @@
+{
+	"Custom": {
+		"BonusDescriptions": [
+            "StructureWT: +25%",
+            "Structure: +50%",
+            "CRIT-RES: +50%"
+        ],
+		"Category" : { 
+			"CategoryID" : "Structure" 
+		},
+        "Weights": {
+			"StructureFactor": 1.25
+		},
+        "ArmorStructureChanges": {
+            "StructureFactor": 1.5
+          }
+	},
+    "Description" : {
+        "Cost" : 500000,
+        "Rarity" : 0,
+        "Purchasable" : false,
+        "Manufacturer" : "Castle",
+        "Model" : "Structure",
+        "UIName" : "Reinforced",
+        "Id" : "emod_structureslots_reinforced",
+        "Name" : "Reinforced",
+        "Details" : "ComStar's technicians and engineers began working on Reinforced Structure in 3055. The Word of Blake was able to obtain plans for the technology, and from there it expanded across the Inner Sphere. By 3057 it had reached the prototype stage,[1] and it was seeing its first deployments as Advanced Technology in 3084",
+        "Icon" : "structure"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [{
+        "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+        },
+        "targetingData": {
+          "effectTriggerType": "Passive",
+          "effectTargetType": "Creator",
+          "showInStatusPanel": true
+        },
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "ReinforcedStructure-ReducedCrit",
+          "Name": "Reinforced: Decreased Receive Critical Hit Chance",
+          "Details": "Reinforced Structure provides crit reduction.",
+          "Icon": "uixSvgIcon_action_end"
+        },
+        "statisticData": {
+          "statName": "CriticalHitChanceReceivedMultiplier",
+          "operation": "Float_Multiply",
+          "modValue": "0.5",
+          "modType": "System.Single"
+        },
+        "nature": "Buff"
+      }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

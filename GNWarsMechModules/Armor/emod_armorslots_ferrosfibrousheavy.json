@@ -9,28 +9,22 @@
             "SLOT: -21"
         ],
 		"DynamicSlots": {
-			"ReservedSlots": 14
+			"ReservedSlots": 21
 		},
 		"Weights": {
-			"ArmorFactor": 0.89286
-		},
-		"WorkOrderCosts": {
-			"Install": {
-				"TechCost": "0.4 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40",
-				"CBillCost": "20000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
-			}
+			"ArmorFactor": 0.80
 		}
 	},
     "Description" : {
         "Cost" : 250000,
         "Rarity" : 0,
         "Purchasable" : false,
-        "Manufacturer" : "Lostech",
+        "Manufacturer" : "Duralex",
         "Model" : "Armor",
-        "UIName" : "Ferro-Fibrous",
-        "Id" : "emod_armorslots_ferrosfibrous",
-        "Name" : "Ferro-Fibrous Armor",
-        "Details" : "Ferro-Fibrous armor (FF) is a special type of armor used by vehicles and BattleMechs. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.\r\n\r\nArmor tonnage gets reduced by <b>1/12</b> while taking up <b>14</b> Ferro-Fibrous slots.",
+        "UIName" : "Heavy Ferro-Fibrous",
+        "Id" : "emod_armorslots_ferrosfibrousheavy",
+        "Name" : "Heavy Ferro-Fibrous Armor",
+        "Details" : "Based upon the Light Ferro-Fibrous compound developed by Free Worlds League scientists, Durallex developed Heavy Ferro-Fibrous armor for the Lyran Alliance Armed Forces in 3069. The fires of the Jihad quickly spread the technology to other Inner Sphere powers. Durallex was inspired by Kallon Industries' idea to modify the amount of diamond in the armor, but went in the other direction. The result was a bulkier armor that was stronger",
         "Icon" : "uixSvgIcon_action_end"
     },
     "BonusValueA" : "",

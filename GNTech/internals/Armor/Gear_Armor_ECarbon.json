@@ -8,8 +8,17 @@
           "CategoryID": "Armor"
           }
       ],
+      "BonusDescriptions": [
+        "ARMORWT: +5%",
+        "SLOT: -10",
+        "DMGREDUCTION: 15%,15%,15%",
+        "MSARMOR"
+    ],
+    "Weights": {
+			"ArmorFactor": 1.05
+		},
     "DynamicSlots": {
-			"ReservedSlots": 6,
+			"ReservedSlots": 10,
 			"BackgroundColor": "GoldHalf",
 			"ShowIcon": false,
 			"NameText": "E-Carbon Armor",
@@ -29,7 +38,7 @@
     "Details": "An armor using an artificial allotrope of carbon. Employed as the armor material of numerous recent-make mobile units.Being lightweight, it is highly resistant to both temperature changes and corrosion compared to existing metallic materials. it is considered to be a material with no weaknesses.<b><color=#00ff00>CASE Enabled</color></b>",
     "Icon": "uixSvgIcon_action_end"
   },
-  "BonusValueA": "Reduces Damage by 10%",
+  "BonusValueA": "Reduces Damage by 15%",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -63,14 +72,14 @@
       "Description": {
         "Id": "StatusEffect-CFL",
         "Name": "REDUCED DAMAGE TAKEN",
-        "Details": "All incoming damage reduced by 10%.",
+        "Details": "All incoming damage reduced by 15%.",
         "Icon": "uixSvgIcon_action_end"
       },
       "nature": "Buff",
       "statisticData": {
         "statName": "DamageReductionMultiplierAll",
         "operation": "Float_Multiply",
-        "modValue": "0.9",
+        "modValue": "0.85",
         "modType": "System.Single"
       }
     }
