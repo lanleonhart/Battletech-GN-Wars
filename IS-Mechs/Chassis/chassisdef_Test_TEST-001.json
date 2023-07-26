@@ -1,26 +1,29 @@
 {
     "Description": {
-        "Cost": 9500000,
+        "Cost": 11300000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Annihilator",
-        "Id": "chassisdef_annihilator_ANH-JH",
-        "Name": "Annihilator",
-        "Details": "The Annihilator is an extremely rare 'Mech that is essentially a mobile siege tower. It can kick out more damage than almost any other unit on the field. It's unbelievably slow, though, and poorly armored for its size.",
-        "Icon": "uixTxrIcon_annihilator"
+        "UIName": "Test",
+        "Id": "chassisdef_Test_TEST-001",
+        "Name": "Banshee",
+        "Details": "The Banshee 3M mounts respectable weaponry with better-than-average speed and armor. This comes at the cost of very poor heat management. It's good at hunting lighter units, especially if it can close to Melee range.",
+        "Icon": "Banshee"
     },
-    "MovementCapDefID": "movedef_annihilator_ANH-1A",
+    "MovementCapDefID": "movedef_banshee_BNC-3E",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_annihilator",
-    "PrefabIdentifier": "chrPrfMech_annihilator_BlackWidowBase-001",
-    "PrefabBase": "annihilator",
-    "Tonnage": 100,
-    "InitialTonnage": 23.5,
+    "HardpointDataDefID": "hardpointdatadef_banshee",
+    "PrefabIdentifier": "chrPrfMech_bansheeBase-001",
+    "PrefabBase": "banshee",
+    "Tonnage": 95,
+    "InitialTonnage": 9.5,
     "weightClass": "ASSAULT",
+    "BattleValue": 9360000,
     "Heatsinks": 0,
-    "MaxJumpjets": 2,
+    "TopSpeed": 120,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
     "Stability": 200,
     "StabilityDefenses": [
         0,
@@ -36,17 +39,26 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 125,
-    "MeleeInstability": 100,
+    "MeleeDamage": 130,
+    "MeleeInstability": 95,
     "MeleeToHitModifier": 0,
-    "DFADamage": 125,
+    "DFADamage": 120,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 125,
-    "DFAInstability": 125,
+    "DFASelfDamage": 120,
+    "DFAInstability": 120,
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -55,31 +67,18 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 170,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 80
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -89,34 +88,24 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 210,
-            "MaxRearArmor": 105,
-            "InternalStructure": 105
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 310,
-            "MaxRearArmor": 155,
-            "InternalStructure": 155
+            "MaxArmor": 300,
+            "MaxRearArmor": 150,
+            "InternalStructure": 150
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -126,9 +115,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 210,
-            "MaxRearArmor": 105,
-            "InternalStructure": 105
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
         },
         {
             "Location": "RightArm",
@@ -136,92 +125,82 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 170,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 80
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 210,
+            "MaxArmor": 200,
             "MaxRearArmor": -1,
-            "InternalStructure": 105
+            "InternalStructure": 100
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 210,
+            "MaxArmor": 200,
             "MaxRearArmor": -1,
-            "InternalStructure": 105
+            "InternalStructure": 100
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 19,
+            "y": 17,
             "z": 0
         },
         {
-            "x": 4.5,
+            "x": 5,
             "y": 16,
-            "z": -0.5
+            "z": -1
         },
         {
-            "x": -4.5,
+            "x": -5,
             "y": 16,
-            "z": -0.5
+            "z": -1
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 19,
+            "y": 17,
             "z": 0
         },
         {
-            "x": 4.5,
+            "x": 5,
             "y": 16,
-            "z": -0.5
+            "z": -1
         },
         {
-            "x": -4.5,
+            "x": -5,
             "y": 16,
-            "z": -0.5
+            "z": -1
         },
         {
-            "x": 3,
+            "x": 3.5,
             "y": 5.5,
             "z": 1
         },
         {
-            "x": -3,
+            "x": -3.5,
             "y": 5.5,
             "z": 1
         }
     ],
-    "VariantName": "ANH-JH",
+    "VariantName": "TST-001",
     "ChassisTags": {
-        "items": [],
+        "items": ["Vanilla"],
         "tagSetSourceFile": ""
     },
-    "YangsThoughts": "The Annihilator is an extremely rare 'Mech that is essentially a mobile siege tower. It can kick out more damage than almost any other unit on the field. It's unbelievably slow, though, and poorly armored for its size.",
     "StockRole": "Juggernaut",
-    "FixedEquipment" : [
-    ]
+    "YangsThoughts": ""
 }

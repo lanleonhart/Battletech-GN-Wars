@@ -1,10 +1,9 @@
 {
     "Custom": {
         "BonusDescriptions": [
-            "AccuracyArm: + 1"
         ],
         "Category" : { "CategoryID" : "ArmLowerActuator" },
-        "Flags" : [ "autorepair", "not_broken" ]
+        "Flags" : ["default"]
     },
     "Description" : {
         "Cost" : 20000,
@@ -30,37 +29,10 @@
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-        {
-            "durationData" : {
-                "duration" : -1
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "effectTargetType" : "Creator",
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-ArmLowerActuator-{location}",
-                "Name" : "{side} Arm",
-                "Details" : "An arm actuator.",
-                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
-            },
-            "statisticData" : {
-                "statName" : "{location}.Accuracy",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
-                "modType" : "System.Single"
-            },
-            "nature" : "Buff"
-        }
     ],
     "ComponentTags" : {
         "items" : [
-            "BLACKLISTED",
-            "component_type_stock",
-            "noautofix"
+            "component_type_stock"
         ],
         "tagSetSourceFile" : ""
     }

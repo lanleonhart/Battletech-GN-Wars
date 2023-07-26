@@ -1,15 +1,18 @@
 {
 	"Custom": {
 		"Category" : [
+            {
+                "CategoryID": "ArmShoulder"
+              },
               {
                 "CategoryID": "ArmUpperActuator"
               }
         ],
-        "BonusDescriptions": [
-			"ACC: +2"
+		"BonusDescriptions": [
+			"Armor: x1.5"
 		  ],
 		"Flags": [
-				
+	
 		]
 	},
 	"StatName": null,
@@ -17,12 +20,12 @@
 		"Cost": 500000,
 		"Rarity": 5,
 		"Purchasable": true,
-		"Manufacturer": "Kincaid Industries",
-		"Model": "Enhanced",
-		"UIName": "Enhanced Weapon Mount",
-		"Id": "Gear_Arm_ACC_EnhancedMount",
-		"Name": "Enhanced Weapon Mount",
-		"Details": "Arm weapon mount used to enchance accurace of weapons in the location of installation",
+		"Manufacturer": "Bath Metal Works",
+		"Model": "Standard",
+		"UIName": "Reinforced Actuators",
+		"Id": "Gear_Arm_Armor_ReinforcedActuator",
+		"Name": "Reinforced Actuator",
+		"Details": "Arm mounted armor plates, welded to the battlemech to increase armor rating.",
 		"Icon": "uixSvgIcon_equipment_ActuatorArm"
 	},
 	"BonusValueA": "",
@@ -31,8 +34,8 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 1,
-	"Tonnage": 3.0,
+	"InventorySize": 2,
+	"Tonnage": 1.5,
 	"AllowedLocations": "LeftArm, RightArm",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
@@ -50,19 +53,20 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Status-ACC-{location}",
-				"Name": "Weapon Mount",
-				"Details": "Weapon mount accuracy bonus +1",
+				"Id": "Status-ModularArmor-{location}",
+				"Name": "Reinforced Armor",
+				"Details": "Reinforced Armor",
 				"Icon": "uixSvgIcon_equipment_ActuatorArm"
 			},
 			"nature": "Buff",
 			"statisticData": {
-                "statName": "{location}.Accuracy",
-                "operation": "Float_Add",
-                "modValue": "-2",
-                "modType": "System.Single"
+				"effectsPersistAfterDestruction": true,
+				"statName": "{location}.Armor",
+				"operation": "Float_Multiply",
+				"modValue": "1.5",
+				"modType": "System.Single"
+			}
 		}
-    }
     ],
 	"ComponentTags": {
 		"items": [
