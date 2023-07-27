@@ -8,10 +8,6 @@
         "CategoryID": "HandHeld"
       }
     ],
-    "BonusDescriptions": [
-      "HH-SHIELD",
-      "DMGREDUCTION: 5,5,5"
-    ],
       "ActivatableComponent": {
         "ButtonName": "Shield",
         "CanActivateAfterMove": true,
@@ -35,14 +31,14 @@
             "Description": {
               "Id": "Shield",
               "Name": "Shield",
-              "Details": "Shield reduces incoming damage by 5%",
+              "Details": "Shield reduces incoming damage by 10%",
               "Icon": "shield"
             },
             "nature": "Buff",
             "statisticData": {
               "statName": "DamageReductionMultiplierAll",
               "operation": "Float_Multiply",
-              "modValue": "0.95",
+              "modValue": "0.9",
               "modType": "System.Single"
             }
           }
