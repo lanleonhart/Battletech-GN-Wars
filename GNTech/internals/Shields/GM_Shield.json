@@ -8,6 +8,10 @@
         "CategoryID": "HandHeld"
       }
     ],
+    "BonusDescriptions": [
+      "HH-SHIELD",
+      "DMGREDUCTION: 5,5,5"
+    ],
       "ActivatableComponent": {
         "ButtonName": "Shield",
         "CanActivateAfterMove": true,
@@ -38,7 +42,7 @@
             "statisticData": {
               "statName": "DamageReductionMultiplierAll",
               "operation": "Float_Multiply",
-              "modValue": "0.9",
+              "modValue": "0.95",
               "modType": "System.Single"
             }
           }
