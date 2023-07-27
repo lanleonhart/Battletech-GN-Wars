@@ -1,15 +1,19 @@
 {
 	"Custom": {
 		"Cooling": {
-			"HeatSinkDefId": "Gear_HeatSink_Generic_Double"
+			"HeatSinkDefId": "Gear_HeatSink_GN"
 		},
         "Category" : [
             {"CategoryID": "Cooling"}
-        ]
+        ],
+        "BonusDescriptions": [
+          "COOLING:  3x",
+            "GNDRIVEREQ"
+    ]
     },
     "DissipationCapacity" : 0,
     "Description" : {
-        "Cost" : 6000000,
+        "Cost" : 1000000,
         "Rarity" : 0,
         "Purchasable" : false,
         "Manufacturer" : "Comstar",
@@ -17,7 +21,7 @@
         "UIName" : "GN Heat Sink Kit",
         "Id" : "emod_kit_GNHS",
         "Name" : "GN Heat Sink Kit",
-        "Details" : "A Mech' <b>Cooling System</b> provides heat dissipation for components inside the mech and compatible extension points for additional heat sinks throughout the mech. It differs from the closed cooling system of the engine.",
+        "Details" : "A HeatSink Kit designed to work for Mobile Suits utilizing GN Technology.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
     "BonusValueA" : "",

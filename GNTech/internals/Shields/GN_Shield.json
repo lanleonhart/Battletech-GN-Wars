@@ -8,6 +8,10 @@
         "CategoryID": "HandHeld"
       }
     ],
+    "BonusDescriptions": [
+      "HH-SHIELD",
+      "DMGREDUCTION: 10,10,10"
+    ],
       "ActivatableComponent": {
         "ButtonName": "GN Shield",
         "CanActivateAfterMove": true,
@@ -31,14 +35,14 @@
             "Description": {
               "Id": "GN Shield",
               "Name": "GN Shield",
-              "Details": "GN Shield reduces incoming damage by 30%",
+              "Details": "GN Shield reduces incoming damage by 10%",
               "Icon": "shield"
             },
             "nature": "Buff",
             "statisticData": {
               "statName": "DamageReductionMultiplierAll",
               "operation": "Float_Multiply",
-              "modValue": "0.7",
+              "modValue": "0.9",
               "modType": "System.Single"
             }
           }
