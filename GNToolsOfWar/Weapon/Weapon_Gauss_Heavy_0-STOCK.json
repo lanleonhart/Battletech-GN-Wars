@@ -6,11 +6,10 @@
 			}
 		],
 		"ComponentExplosion": {
-			"ExplosionDamage": 125,
-			"StabilityDamage": 40
-		}
-	
-		
+			"ExplosionDamagePerAmmo": 40.0,
+			"HeatDamagePerAmmo": 20.0,
+			"StabilityDamagePerAmmo": 10.0
+		  }
 	},
 	"Category": "Ballistic",
 	"Type": "Gauss",
@@ -66,14 +65,13 @@
 	"BattleValue": 0,
 	"InventorySize": 8,
 	"Tonnage": 18,
-	"AllowedLocations": "LeftTorso,RightTorso,CenterTorso",
-	"DisallowedLocations": "LeftArm,RightArm",
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock",
-			"range_standard"
+			"component_type_stock"
 		],
 		"tagSetSourceFile": ""
 	}

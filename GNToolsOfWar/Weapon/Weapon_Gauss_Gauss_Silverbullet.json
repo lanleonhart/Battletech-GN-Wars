@@ -6,9 +6,10 @@
 			}
 		],
 		"ComponentExplosion": {
-			"ExplosionDamage": 85,
-			"StabilityDamage": 25
-		}
+			"ExplosionDamagePerAmmo": 7.5,
+			"HeatDamagePerAmmo": 3.75,
+			"StabilityDamagePerAmmo": 1.875
+		  }
 	},
 	"Category": "Ballistic",
 	"Type": "Gauss",
@@ -35,7 +36,7 @@
 	"IndirectFireCapable": false,
 	"RefireModifier": 1,
 	"ShotsWhenFired": 1,
-	"ProjectilesPerShot": 1,
+	"ProjectilesPerShot": 6,
 	"AttackRecoil": 4,
 	"Instability": 5,
 	"DisableClustering": false,
@@ -69,9 +70,7 @@
 	"statusEffects": [],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock",
-			"wr-clustered_shots",
-			"range_standard"
+			"component_type_stock"
 		],
 		"tagSetSourceFile": ""
 	}
