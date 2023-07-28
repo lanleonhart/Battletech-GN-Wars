@@ -1,0 +1,73 @@
+{
+	"Custom": {
+		"Category" : [
+              {
+                "CategoryID": "LegLowerActuator"
+              }
+        ],
+        "BonusDescriptions": [
+			"JJ: +7.5%"
+		  ],
+		"Flags": [
+				
+		]
+	},
+	"StatName": null,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Ember Aerospace",
+		"Model": "Standard",
+		"UIName": "Vector Motors",
+		"Id": "Gear_Leg_JJ_VectorMotors",
+		"Name": "Vector Motors",
+		"Details": "A JumpJet Motor on a 3-Axis actuating arm provide precise movements, and extend range when using Jump Jets.",
+		"Icon": "uixSvgIcon_action_jump"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 2,
+	"AllowedLocations": "LeftLeg, RightLeg",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+          {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "StatusEffect-Jump-Dist",
+              "Name": "Increase Jump Distance",
+              "Details": "Enhanced Vector Engines Increase JJ Range by 15",
+              "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "JumpDistanceMultiplier",
+              "operation": "Float_Multiply",
+              "modValue": "1.075",
+              "modType": "System.Single"
+            }
+          }
+    ],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,100 @@
+{
+	"Custom": {
+		"Category" : [
+              {
+                "CategoryID": "LegLowerActuator"
+              }
+        ],
+        "BonusDescriptions": [
+			"GyroStab: -10",
+            "GyroTH: 5"
+		  ],
+		"Flags": [
+				
+		]
+	},
+	"StatName": null,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Vulcan Industries",
+		"Model": "Enhanced",
+		"UIName": "Reinforced Joints Lower",
+		"Id": "Gear_Leg_STAB_ReinforcedJoints_L",
+		"Name": "Reinforced Joints Lower",
+		"Details": "Reinforced Joints giving improved stability to the mech.",
+		"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1.5,
+	"AllowedLocations": "LeftLeg, RightLeg",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+        {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "StatusEffect-Defense_StabilityAll-T1",
+              "Name": "Gyro Stab: Decreased Stability Damage Taken",
+              "Details": "Incoming stability damage increased by 15%.",
+              "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "ReceivedInstabilityMultiplier",
+              "operation": "Float_Multiply",
+              "modValue": "0.85",
+              "modType": "System.Single"
+            }
+        },
+        {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "GyroGenericThreshold",
+              "Name": "Gyro Stab: Decreased Unsteady Threshold",
+              "Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+              "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "statisticData": {
+              "statName": "UnsteadyThreshold",
+              "operation": "Float_Add",
+              "modValue": "5.0",
+              "modType": "System.Single"
+            },
+            "nature": "Buff"
+          }
+    ],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}
