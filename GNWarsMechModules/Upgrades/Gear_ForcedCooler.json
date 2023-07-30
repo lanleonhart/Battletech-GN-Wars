@@ -1,0 +1,92 @@
+{
+	"Custom": {
+		
+		"Category" : [
+			{"CategoryID": "Upgrades"}
+        ],
+    "Linked" : {
+        "Links" : [
+            { "ComponentDefId" : "Linked_ForcedCoolerTorso", "Location" : "LeftTorso" },
+            { "ComponentDefId" : "Linked_ForcedCoolerCT", "Location" : "CenterTorso" },
+            { "ComponentDefId" : "Linked_ForcedCoolerCT", "Location" : "LeftLeg" },
+            { "ComponentDefId" : "Linked_ForcedCoolerCT", "Location" : "RightLeg" }
+        ]
+    },
+    "BonusDescriptions": [
+        "EXPLODE",
+        "HeatGen: -25%"
+    ],
+    "ActivatableComponent": {
+        "ButtonName": "F.Cooling System",
+        "FailFlatChance": 0.03,
+        "FailRoundsStart": 1,
+        "FailChancePerTurn": 0.09,
+        "SelfCrit": true,
+        "FailCheckOnActivationEnd": true,
+        "FailPilotingBase": 10,
+        "FailPilotingMult": 0.0001,
+        "ActivationMessage": "WARNING!",
+        "DeactivationMessage": "Nominal",
+        "CanNotBeActivatedManualy": false,
+        "NoUniqueCheck": true,
+        "statusEffects" : [ {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "PDHSKitHeatGen",
+              "Name": "Heat Sink Kit (Prototype): Decreased Heat Generated",
+              "Details": "Heat generation reduced by 25%.",
+              "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "HeatGenerated",
+              "operation": "Float_Multiply",
+              "modValue": "0.75",
+              "modType": "System.Single",
+              "targetCollection": "Weapon"
+            }
+          }
+        ]
+    }
+    },
+    "Description" : {
+        "Cost" : 3000000,
+        "Rarity" : 0,
+        "Purchasable" : false,
+        "Manufacturer" : "LiquidForce",
+        "Model" : "Experimental",
+        "UIName" : "Forced Cooling System",
+        "Id" : "Gear_ForcedCooler",
+        "Name" : "Forced Cooling",
+        "Details": "Forced Cooling System provides active cooling. Higher cooling effieciency at the risk of failure which would cause a large explosion.",
+		"Icon" : "coolantvent"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 8,
+    "AllowedLocations" : "RightTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
