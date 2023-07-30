@@ -11,11 +11,19 @@
 			"WALKACT: -90",
 			"RUNACT: -90",
 			"BULLWARK"
-		  ],
+		  ], 
+		  "Linked": {
+			"Links": [
+				 {
+				   "ComponentDefId": "Linked_Leg_STAB_Clamp",
+				   "Location": "LeftLeg"
+				 }
+			   ]
+		 },
 		  "ActivatableComponent": {
 			"ButtonName": "Foot Locks",
-			"ActivationMessage": "Engage",
-			"DeactivationMessage": "Disengage",
+			"ActivationMessage": "ON",
+			"DeactivationMessage": "Off",
 			"CanNotBeActivatedManualy": false,
 			"SwitchOffOnFall": true,
 			"CanActivateAfterMove": true,
@@ -182,9 +190,9 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 2,
+	"InventorySize": 1,
 	"Tonnage": 2,
-	"AllowedLocations": "LeftLeg, RightLeg",
+	"AllowedLocations": "RightLeg",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

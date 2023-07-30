@@ -3,7 +3,7 @@
 		"Category" : [
             {
                 "CategoryID": "LegHip"
-              }  
+              },  
             {
                 "CategoryID": "LegUpperActuator"
               },
@@ -13,13 +13,19 @@
         ],
         "BonusDescriptions": [
 			"StructureWT: -75%",
-            "Structure: -50%"
+            "Structure: -50%",
             "GyroStab: -10%"
 	
 		  ],
-          "ArmorStructureChanges": {
-			"StructureFactor": 0.5
-		},
+      "Linked": {
+        "Links": [
+             {
+               "ComponentDefId": "Linked_Leg_WT_ScarecrowLegs",
+               "Location": "LeftLeg"
+             }
+             
+           ]
+     },
         "Weights": {
 			"StructureFactor": 0.25
 		},
@@ -47,8 +53,8 @@
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
 	"InventorySize": 3,
-	"Tonnage": 2.5,
-	"AllowedLocations": "LeftLeg, RightLeg",
+	"Tonnage": 1.5,
+	"AllowedLocations": "RightLeg",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [
@@ -78,6 +84,33 @@
               "modType": "System.Single"
             }
         },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Status-ModularArmor-{location}",
+            "Name": "Reinforced Armor",
+            "Details": "Reinforced Armor",
+            "Icon": "uixSvgIcon_equipment_ActuatorArm"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "effectsPersistAfterDestruction": true,
+            "statName": "{location}.Structure",
+            "operation": "Float_Multiply",
+            "modValue": "0.5",
+            "modType": "System.Single"
+          }
+        }
     ],
 	"ComponentTags": {
 		"items": [
