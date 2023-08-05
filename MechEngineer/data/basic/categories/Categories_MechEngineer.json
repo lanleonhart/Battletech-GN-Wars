@@ -18,13 +18,8 @@
           },
           "BaseLimits": [
             {"Max": 1,"Min": 1}
-          ],
-          "UnitLimits": [
-            {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-            {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-            {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-          ]
-            },
+          ]          
+        },
         {
             "Name": "SensorsA",
             "DisplayName": "FCS",
@@ -43,13 +38,8 @@
                     "CriticalEffect-Sensors2"
                   ]
                 }
-            },
-            "UnitLimits": [
-              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
-            },
+            }
+        },
         {
             "Name": "Cockpit",
             "DisplayName": "Cockpit",
@@ -64,13 +54,8 @@
                 "CriticalEffects": {
                   "DeathMethod": "CockpitDestroyed"
               }
-            },
-            "UnitLimits": [
-              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
-            },
+            }
+        },
         {
             "Name": "SensorsB",
             "DisplayName": "Sensors",
@@ -89,13 +74,8 @@
                   ],
                   "OnDestroyedEffectIDs": [ "CriticalEffect-Sensors2" ]
               }
-            },
-            "UnitLimits": [
-              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
-            },
+            }
+        },
         {
           "Name": "LifeSupportB",
           "DisplayName": "Life Support B",
@@ -114,11 +94,6 @@
           },
           "BaseLimits": [
             {"Max": 1,"Min": 1}
-          ],
-          "UnitLimits": [
-            {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-            {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-            {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
           ]
         },
         {
@@ -295,13 +270,8 @@
                       "CriticalEffect-LegFootActuatorDestroyed-{location}"
                   ]
               }
-            },
-            "UnitLimits": [
-              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
-            },
+            }
+        },
         {
             "Name": "LegUpperActuator",
             "DisplayName": "Upper Leg Actuator",
@@ -318,12 +288,7 @@
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-LegUpperActuatorDestroyed-{location}" ]
               }
-            },
-            "UnitLimits": [
-              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
+            }
         },
         {
             "Name": "LegLowerActuator",
@@ -341,20 +306,15 @@
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-LegLowerActuatorDestroyed-{location}" ]
               }
-            },
-            "UnitLimits": [
-              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
-            },
+            }
+        },
         {
             "Name": "LegFootActuator",
             "DisplayName": "Foot Actuator",
             "BaseLimits": [
               {"Location": "RightLeg","Min": 1,"Max": 1},
               {"Location": "LeftLeg","Min": 1,"Max": 1}
-          ],
+            ],
             "DefaultCustoms": {
                 "InventorySorter": "ActuatorLeg3",
                 "Sorter": 3,
@@ -364,31 +324,6 @@
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-LegFootActuatorDestroyed-{location}" ]
               }
-            },
-            "UnitLimits": [
-              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
-            },
-        {
-            "Name": "ArmLowerActuator",
-            "DisplayName": "CASE",
-            "BaseLimits": [
-                {"Location": "LeftArm","Min": 1,"Max": 2},
-                {"Location": "LeftTorso","Min": 0,"Max": 1},
-                {"Location": "LeftLeg","Min": 0,"Max": 1},
-                {"Location": "Head","Min": 0,"Max": 1},
-                {"Location": "CenterTorso","Min": 0,"Max": 1},
-                {"Location": "RightTorso","Min": 0,"Max": 1},
-                {"Location": "RightLeg","Min": 0,"Max": 1},
-                {"Location": "RightArm","Min": 1,"Max": 2}
-            ],
-            "DefaultCustoms": {
-                "InventorySorter": "ActuatorArm3",
-                "CASE": {
-                },
-                "Flags": [ "ignore_damage" ]
             }
         },
         {
@@ -412,13 +347,8 @@
                       "CriticalEffect-ArmHandActuatorDestroyed-{location}"
                   ]
               }
-            },
-            "UnitLimits": [
-              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
-            },
+            }
+        },
         {
             "Name": "ArmUpperActuator",
             "DisplayName": "Upper Arm Actuator",
@@ -435,64 +365,25 @@
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-ArmUpperActuatorDestroyed-{location}" ]
               }
-            },
-            "UnitLimits": [
-              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
+            }
         },
         {
             "Name": "ArmLowerActuator",
-            "DisplayName": "ArmLowerActuator",
+            "DisplayName": "Lower Arm Actuator",
             "BaseLimits": [
                 {"Location": "RightArm","Min": 1,"Max": 1},
                 {"Location": "LeftArm","Min": 1,"Max": 1}
             ],
             "DefaultCustoms": {
                 "InventorySorter": "ActuatorArm2",
-                "Sorter": 1,
+                "Sorter": 2,
                 "RGBColor": "#A6AA8A",
                 "TRGBColor": {"Color": "#FFFFFF"},
                 "CriticalEffects": {
                   "DestroyedFloatieMessage": "Actuator DESTROYED",
                   "OnDestroyedEffectIDs": [ "CriticalEffect-ArmLowerActuatorDestroyed-{location}" ]
               }
-            },
-            "UnitLimits": [
-                {"UnitType": "Mech","Limits": [{"Location": "LeftArm,RightArm","Max":1}]},
-                {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
-        },
-        {
-            "Name": "ArmShoulder",
-            "DisplayName": "Shoulder",
-            "BaseLimits": [
-                {"Location": "RightArm","Min": 1,"Max": 1},
-                {"Location": "LeftArm","Min": 1,"Max": 1}
-            ],
-            "DefaultCustoms": {
-                "InventorySorter": "ActuatorArm0",
-                "Sorter": 0,
-                "RGBColor": "#A6AA8A",
-                "TRGBColor": {"Color": "#FFFFFF"},
-                "CriticalEffects": {
-                  "DestroyedFloatieMessage": "Actuator DESTROYED",
-                  "OnDestroyedEffectIDs": [ "CriticalEffect-ShoulderDestroyed-{location}" ],
-                  "OnDestroyedDisableEffectIds": [
-                      "CriticalEffect-ArmUpperActuatorDestroyed-{location}",
-                      "CriticalEffect-ArmLowerActuatorDestroyed-{location}",
-                      "CriticalEffect-ArmHandActuatorDestroyed-{location}"
-                  ]
-              }
-            },
-            "UnitLimits": [
-              {"UnitType": "MobileSuit","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "MobileSuitHero","Limits": [{"Location": "None","Max":0}]},
-              {"UnitType": "Gundam","Limits": [{"Location": "None","Max": 0}]}
-            ]
             }
-        ]
         }
+    ]
+}
