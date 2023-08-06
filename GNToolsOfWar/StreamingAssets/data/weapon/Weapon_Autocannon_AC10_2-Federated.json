@@ -1,38 +1,43 @@
 {"Custom": {
-        "Category": [
-          {
-            "CategoryID": "AC"
-          }
-        ]
-        },
-    "Category" : "Ballistic",
-    "Type" : "Autocannon",
-    "WeaponSubType" : "AC10",
-    "MinRange" : 0,
-    "MaxRange" : 450,
-    "RangeSplit" : [
-        300,
-        300,
-        450
+    "Category": [
+      {
+        "CategoryID": "AC"
+      }
     ],
-    "ammoCategoryID" : "AC10",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 12,
-    "Damage" : 60,
-    "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 0,
-    "HeatDamage" : 0,
-    "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1.25,
-    "AOECapable" : false,
-    "IndirectFireCapable" : false,
-    "RefireModifier" : 2,
-    "ShotsWhenFired" : 1,
-    "ProjectilesPerShot" : 2,
-    "AttackRecoil" : 3,
-    "Instability" : 30,
+    "BonusDescriptions": [
+        "RECOIL: 3",
+        "GyroStab: +10",
+        "CRIT: x1.25"
+      ]
+    },
+"Category" : "Ballistic",
+"Type" : "Autocannon",
+"WeaponSubType" : "AC10",
+"MinRange" : 0,
+"MaxRange": 600,
+"RangeSplit": [
+150,
+300,
+450
+],
+"ammoCategoryID" : "AC10",
+"StartingAmmoCapacity" : 0,
+"HeatGenerated" : 8,
+"Damage" : 60,
+"OverheatedDamageMultiplier" : 0,
+"EvasiveDamageMultiplier" : 0,
+"EvasivePipsIgnored" : 0,
+"DamageVariance" : 0,
+"HeatDamage" : 0,
+"AccuracyModifier" : 0,
+"CriticalChanceMultiplier" : 1.25,
+"AOECapable" : false,
+"IndirectFireCapable" : false,
+"RefireModifier" : 2,
+"ShotsWhenFired" : 1,
+"ProjectilesPerShot" : 1,
+"AttackRecoil" : 3,
+"Instability" : 30,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
     "Description" : {
         "Cost" : 170000,
@@ -46,13 +51,13 @@
         "Details" : "One of the most powerful and efficient weapons mounted in combat, AC/10s are known for their heavy damage and ability to stagger opponents. Like all Autocannon weaponry, AC/10s suffer from recoil effects from continuous fire.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "+ 25% Crit.",
-    "BonusValueB" : "+ 10 Stb.Dmg.",
+    "BonusValueA" : "",
+    "BonusValueB" :"",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "AC10",
     "BattleValue" : 0,
-    "InventorySize" : 3,
+    "InventorySize" : 5,
     "Tonnage" : 12,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",

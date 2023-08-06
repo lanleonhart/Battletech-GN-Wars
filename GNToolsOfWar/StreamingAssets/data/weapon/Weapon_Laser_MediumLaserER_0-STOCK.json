@@ -1,25 +1,29 @@
 {
-   "Custom": {
-        "Category": [
-          {
-            "CategoryID": "Energy"
-          }
-        ]
-        },
-    "Category" : "Energy",
-    "Type" : "Laser",
-    "WeaponSubType" : "MediumLaserER",
-    "MinRange" : 0,
-    "MaxRange" : 360,
-    "RangeSplit" : [
-        270,
-        270,
-        360
-    ],
-    "ammoCategoryID" : "NotSet",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 20,
-    "Damage" : 35,
+    "Custom": {
+         "Category": [
+           {
+             "CategoryID": "Energy"
+           }
+         ],
+         "BonusDescriptions": [
+             "ACC: +1",
+             "CRIT: x1.25"
+           ]
+         },
+     "Category" : "Energy",
+     "Type" : "Laser",
+     "WeaponSubType" : "MediumLaserER",
+     "MinRange" : 0,
+     "MaxRange": 480,
+     "RangeSplit": [
+         120,
+         240,
+         360
+     ],
+     "ammoCategoryID" : "NotSet",
+     "StartingAmmoCapacity" : 0,
+     "HeatGenerated" : 15,
+     "Damage" : 25,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -65,7 +69,7 @@
         "items" : [
             "component_type_stock",
             "component_type_lostech",
-            "range_standard",
+            "range_standard"
 			
         ],
         "tagSetSourceFile" : ""

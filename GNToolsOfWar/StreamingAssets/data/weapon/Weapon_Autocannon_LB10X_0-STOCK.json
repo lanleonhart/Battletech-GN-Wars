@@ -1,38 +1,47 @@
 {"Custom": {
-        "Category": [
-          {
-            "CategoryID": "LBX"
-          }
-        ]
-        },
-    "Category" : "Ballistic",
-    "Type" : "Autocannon",
-    "WeaponSubType" : "LB10X",
-    "MinRange" : 0,
-    "MaxRange" : 450,
-    "RangeSplit" : [
-        300,
-        300,
-        450
+    "Category": [
+      {
+        "CategoryID": "LBX"
+      }
     ],
-    "ammoCategoryID" : "LB10X",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 10,
-    "Damage" : 10,
-    "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 0,
-    "HeatDamage" : 0,
-    "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1,
-    "AOECapable" : false,
-    "IndirectFireCapable" : false,
-    "RefireModifier" : 2,
-    "ShotsWhenFired" : 8,
-    "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 3,
-    "Instability" : 5,
+    "BonusDescriptions": [
+        "RECOIL: 4",
+        "DMG: +2",
+        "WT: -0.5"
+      ]
+    },
+"Category" : "Ballistic",
+"Type" : "Autocannon",
+"WeaponSubType" : "LB10X",
+"MinRange" : 0,
+"MaxRange": 720,
+"RangeSplit": [
+  180,
+  360,
+  540
+],
+"ammoCategoryID" : "LB10X",
+"StartingAmmoCapacity" : 0,
+"HeatGenerated" : 10,
+"Damage" : 60,
+"OverheatedDamageMultiplier" : 0,
+"EvasiveDamageMultiplier" : 0,
+"EvasivePipsIgnored" : 0,
+"DamageVariance" : 0,
+"HeatDamage" : 0,
+"AccuracyModifier" : -1,
+"CriticalChanceMultiplier" : 1,
+"AOECapable" : false,
+"IndirectFireCapable" : false,
+"RefireModifier" : 2,
+"ShotsWhenFired" : 1,
+"ProjectilesPerShot" : 1,
+"AttackRecoil" : 4,
+"Instability" : 5,
+"DisableClustering": false,
+"BallisticDamagePerPallet": true,
+"AlternateDamageCalc": true,
+"ImprovedBallistic": true,
     "WeaponEffectID" : "WeaponEffect-Weapon_LB10X",
     "Description" : {
         "Cost" : 230000,
@@ -51,7 +60,7 @@
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "lbx10",
-    "InventorySize" : 4,
+    "InventorySize" : 6,
     "Tonnage" : 11,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",

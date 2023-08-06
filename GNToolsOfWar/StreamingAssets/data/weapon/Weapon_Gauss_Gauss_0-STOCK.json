@@ -3,17 +3,26 @@
           {
             "CategoryID": "Gauss"
           }
-        ]
-        },
+        ],
+        "BonusDescriptions": [
+            "RECOIL: 4",
+            "CRIT: x2"
+          ],
+          "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 40.0,
+            "HeatDamagePerAmmo": 20.0,
+            "StabilityDamagePerAmmo": 10.0
+        }
+    },
     "Category" : "Ballistic",
     "Type" : "Gauss",
     "WeaponSubType" : "Gauss",
     "MinRange" : 180,
-    "MaxRange" : 660,
-    "RangeSplit" : [
-        360,
-        360,
-        660
+    "MaxRange": 900,
+    "RangeSplit": [
+      210,
+      450,
+      660
     ],
     "ammoCategoryID" : "GAUSS",
     "StartingAmmoCapacity" : 0,
@@ -24,9 +33,9 @@
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "StructureDamage" : 5,
-    "AccuracyModifier" : -1,
-    "CriticalChanceMultiplier" : 1,
+    "StructureDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 2,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
@@ -54,7 +63,7 @@
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Gauss",
     "BattleValue" : 0,
-    "InventorySize" : 5,
+    "InventorySize" : 7,
     "Tonnage" : 15,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
@@ -66,7 +75,7 @@
         "items" : [
             "component_type_stock",
             "component_type_lostech",
-            "range_extreme",
+            "range_extreme"
 			
         ],
         "tagSetSourceFile" : ""

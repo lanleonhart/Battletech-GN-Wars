@@ -3,36 +3,43 @@
         {
           "CategoryID": "LBX"
         }
+      ],
+      "BonusDescriptions": [
+        "RECOIL: 4"
       ]
         },
     "Category" : "Ballistic",
     "Type" : "Autocannon",
     "WeaponSubType" : "LB5X",
     "MinRange" : 90,
-    "MaxRange" : 540,
-    "RangeSplit" : [
-        360,
-        360,
-        540
+    "MaxRange": 840,
+  "RangeSplit": [
+    210,
+    420,
+    630
     ],
     "ammoCategoryID" : "LB5X",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 6,
-    "Damage" : 6,
+    "Damage" : 45,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "AccuracyModifier" : 0,
+    "AccuracyModifier" : -1,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
-    "IndirectFireCapable" : false,
-    "RefireModifier" : 1,
-    "ShotsWhenFired" : 10,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 2,
-    "Instability" : 2,
+    "AttackRecoil" : 4,
+    "Instability" : 10,
+    "BallisticDamagePerPallet": true,
+  "AlternateDamageCalc": true,
+  "ImprovedBallistic": true,
+  "IndirectFireCapable": false,
+  "DisableClustering": false,
     "WeaponEffectID" : "WeaponEffect-Weapon_LB5X",
     "Description" : {
         "Cost" : 170000,
@@ -51,8 +58,8 @@
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "lbx10",
-    "InventorySize" : 2,
-    "Tonnage" : 8,
+    "InventorySize" : 5,
+    "Tonnage" : 7,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,

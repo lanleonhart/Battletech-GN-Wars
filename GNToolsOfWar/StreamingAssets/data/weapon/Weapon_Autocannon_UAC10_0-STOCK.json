@@ -1,39 +1,44 @@
 {"Custom": {
-        "Category": [
-          {
-            "CategoryID": "UAC"
-          }
-        ]
-        },
-    "Category" : "Ballistic",
-    "Type" : "Autocannon",
-    "WeaponSubType" : "UAC10",
-    "MinRange" : 0,
-    "MaxRange" : 450,
-    "RangeSplit" : [
-        300,
-        300,
-        450
+    "Category": [
+      {
+        "CategoryID":"UAC"
+      }
     ],
-    "AmmoCategory" : "AC10",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 24,
-    "Damage" : 60,
-    "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 0,
-    "HeatDamage" : 0,
-    "StructureDamage" : 0,
-    "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1,
-    "AOECapable" : false,
-    "IndirectFireCapable" : false,
-    "RefireModifier" : 6,
-    "ShotsWhenFired" : 2,
-    "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 3,
-    "Instability" : 20,
+    "BonusDescriptions": [
+        "RECOIL: 3",
+        "JAM"
+      ]
+    },
+"Category" : "Ballistic",
+"Type" : "Autocannon",
+"WeaponSubType" : "UAC10",
+"MinRange" : 0,
+"MaxRange": 720,
+"RangeSplit": [
+  180,
+  360,
+  540
+],
+"AmmoCategory" : "AC10",
+"StartingAmmoCapacity" : 0,
+"HeatGenerated" : 16,
+"Damage" : 60,
+"OverheatedDamageMultiplier" : 0,
+"EvasiveDamageMultiplier" : 0,
+"EvasivePipsIgnored" : 0,
+"DamageVariance" : 0,
+"HeatDamage" : 0,
+"StructureDamage" : 0,
+"AccuracyModifier" : 0,
+"CriticalChanceMultiplier" : 1,
+"AOECapable" : false,
+"IndirectFireCapable" : false,
+"RefireModifier" : 3,
+"ShotsWhenFired" : 1,
+"ProjectilesPerShot" : 1,
+"AttackRecoil" : 3,
+"FireDelayMultiplier": 1,
+"Instability" : 15,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Ultra",
     "Description" : {
         "Cost" : 320000,
@@ -41,9 +46,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Federated",
         "Model" : "Heavy Autocannon",
-        "UIName" : "UAC/10",
+        "UIName" : "Ultra AC/10",
         "Id" : "Weapon_Autocannon_UAC10_0-STOCK",
-        "Name" : "UAC/10",
+        "Name" : "Ultra AC/10",
         "Details" : "Ultra AC/10s improve upon the already impressive capabilities of the standard models. Like all Ultra Autocannon weaponry, UAC/10s suffer from substantial recoil effects from firing and consume two ammo per attack.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
@@ -57,6 +62,23 @@
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
+    "Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": true,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": false,
+			"ShotsWhenFired": 1,
+			"HeatGenerated": 7,
+			"FireDelayMultiplier": 0.25,
+			"FlatJammingChance": 0.09
+		}
+    ],
     "statusEffects" : [
         
     ],
@@ -64,7 +86,7 @@
         "items" : [
             "component_type_stock",
             "range_long",
-            "component_type_lostech",
+            "component_type_lostech"
             
         ],
         "tagSetSourceFile" : ""

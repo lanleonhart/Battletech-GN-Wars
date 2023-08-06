@@ -1,25 +1,29 @@
 {
-   "Custom": {
-        "Category": [
-          {
-            "CategoryID": "Energy"
-          }
-        ]
-        },
-    "Category" : "Energy",
-    "Type" : "Laser",
-    "WeaponSubType" : "LargeLaser",
-    "MinRange" : 0,
-    "MaxRange" : 450,
-    "RangeSplit" : [
-        300,
-        300,
-        450
-    ],
-    "ammoCategoryID" : "NotSet",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 18,
-    "Damage" : 50,
+    "Custom": {
+         "Category": [
+           {
+             "CategoryID": "Energy"
+           }
+         ],
+         "BonusDescriptions": [
+             "ACC: +1",
+             "DMG: +10"
+         ]
+         },
+         "Category": "Energy",
+         "Type": "Laser",
+         "WeaponSubType": "LargeLaser",
+         "MinRange": 0,
+         "MaxRange": 600,
+         "RangeSplit": [
+             150,
+             300,
+             450
+         ],
+         "AmmoCategory": "NotSet",
+         "StartingAmmoCapacity": 0,
+         "HeatGenerated": 18,
+         "Damage": 50,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -47,7 +51,7 @@
         "Details" : "Large Lasers exhibit a powerful combination of damage, range, and compactness but generate a substantial amount of heat. Like all Lasers, Large Lasers enjoy a baseline accuracy bonus over other weapons.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "+ 10 Dmg.",
+    "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

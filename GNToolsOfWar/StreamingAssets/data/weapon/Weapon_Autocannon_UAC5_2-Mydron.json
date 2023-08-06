@@ -3,22 +3,27 @@
           {
             "CategoryID": "UAC"
           }
-        ]
+        ],
+        "BonusDescriptions": [
+            "RECOIL: 0",
+            "WT: -2",
+            "JAM"
+          ]
         },
     "Category" : "Ballistic",
     "Type" : "Autocannon",
     "WeaponSubType" : "UAC5",
     "MinRange" : 90,
-    "MaxRange" : 540,
-    "RangeSplit" : [
-        360,
-        360,
-        540
+    "MaxRange": 780,
+	"RangeSplit": [
+		180,
+		390,
+		600
     ],
     "AmmoCategory" : "AC5",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 16,
-    "Damage" : 45,
+    "HeatGenerated" : 10,
+    "Damage" : 40,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -30,9 +35,9 @@
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 2,
-    "ShotsWhenFired" : 2,
-    "ProjectilesPerShot" : 2,
-    "AttackRecoil" : 2,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
     "Instability" : 10,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC5_Ultra",
     "Description" : {
@@ -41,9 +46,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Mydron",
         "Model" : "Tactical Autocannon",
-        "UIName" : "UAC/5",
+        "UIName" : "Ultra AC/5",
         "Id" : "Weapon_Autocannon_UAC5_2-Mydron",
-        "Name" : "UAC/5",
+        "Name" : "Ultra AC/5",
         "Details" : "Retaining the perfomance niche of the standard model, Ultra AC/5s are a serious force to be reckoned with. Like all Ultra Autocannon weaponry, UAC/5s suffer from substantial recoil effects from firing and consume two ammo per attack.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
@@ -52,11 +57,28 @@
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "uac5",
-    "InventorySize" : 2,
+    "InventorySize" : 5,
     "Tonnage" : 7,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
+    "Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": true,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": false,
+			"ShotsWhenFired": 1,
+			"HeatGenerated": 5,
+			"FireDelayMultiplier": 0.25,
+			"FlatJammingChance": 0.07
+		}
+    ],
     "statusEffects" : [
         
     ],
@@ -65,7 +87,7 @@
             "component_type_variant",
             "component_type_variant2",
             "range_very-long",
-            "component_type_lostech",
+            "component_type_lostech"
             
         ],
         "tagSetSourceFile" : ""

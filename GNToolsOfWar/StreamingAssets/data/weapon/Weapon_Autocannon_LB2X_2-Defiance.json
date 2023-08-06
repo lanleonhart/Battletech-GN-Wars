@@ -3,33 +3,41 @@
         {
           "CategoryID": "LBX"
         }
+      ],
+      "BonusDescriptions": [
+        "RECOIL: 1",
+        "CRIT: x1.5"
       ]
         },
     "Category" : "Ballistic",
     "Type" : "Autocannon",
     "WeaponSubType" : "LB2X",
     "MinRange" : 120,
-    "MaxRange" : 720,
-    "RangeSplit" : [
-        480,
-        480,
-        720
+    "MaxRange": 1080,
+    "RangeSplit": [
+      270,
+      540,
+      810
     ],    
     "ammoCategoryID" : "LB2X",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 2,
-    "Damage" : 6,
+    "Damage" : 27,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1.75,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1.5,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 1,
-    "ShotsWhenFired" : 12,
+    "ShotsWhenFired" : 1,
+    "DisableClustering": false,
+    "BallisticDamagePerPallet": true,
+    "AlternateDamageCalc": true,
+    "ImprovedBallistic": true,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
     "Instability" : 1,
@@ -46,13 +54,13 @@
         "Details" : "Paradoxically a \"long-range shotgun\", the LB 2-X is ideal for delivering Critical Hits from afar or peppering away light armor. Like all LB-X Autocannons, the LB 2-X fires cluster munitions and suffers recoil from continuous fire.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "+ 2 Dmg.",
-    "BonusValueB" : "+ 50% Crit.",
+    "BonusValueA" : "",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "lbx10",
-    "InventorySize" : 1,
-    "Tonnage" : 5,
+    "InventorySize" : 3,
+    "Tonnage" : 6,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,

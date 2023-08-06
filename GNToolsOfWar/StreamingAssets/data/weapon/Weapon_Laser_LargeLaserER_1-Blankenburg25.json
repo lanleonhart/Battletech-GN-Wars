@@ -1,21 +1,27 @@
 {
-   "Custom": {
-        "Category": [
-          {
-            "CategoryID": "Energy"
-          }
-        ]
-        },
-    "Category" : "Energy",
-    "Type" : "Laser",
-    "WeaponSubType" : "LargeLaserER",
-    "MinRange" : 0,
-    "MaxRange" : 570,
-    "RangeSplit" : [
-        330,
-        330,
-        570
-    ],
+    "Custom": {
+         "Category": [
+           {
+             "CategoryID": "Energy"
+           }
+         ],
+         "BonusDescriptions": [
+             "ACC: +1",
+             "EVA-IG: 1",
+             "DMG: +5",
+             "CRIT: x1.25"
+           ]
+         },
+     "Category" : "Energy",
+     "Type" : "Laser",
+     "WeaponSubType" : "LargeLaserER",
+     "MinRange" : 0,
+     "MaxRange" : 840,
+     "RangeSplit" : [
+         330,
+         420,
+         570
+     ],
     "ammoCategoryID" : "NotSet",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 25,
@@ -47,7 +53,7 @@
         "Details" : "An improvement upon standard Large Lasers, Extended-Range Large Lasers extend their effective range at the cost of massive heat generation. Like all Lasers, ER Large Lasers enjoy a baseline accuracy bonus over other weapons.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "+ 5 Dmg.",
+    "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
@@ -65,8 +71,7 @@
         "items" : [
             "component_type_stock",
             "component_type_lostech",
-            "range_very-long",
-			
+            "range_very-long"
         ],
         "tagSetSourceFile" : ""
     }

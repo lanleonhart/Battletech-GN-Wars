@@ -1,25 +1,29 @@
 {
-   "Custom": {
-        "Category": [
-          {
-            "CategoryID": "Energy"
-          }
-        ]
-        },
-    "Category" : "Energy",
-    "Type" : "Laser",
-    "WeaponSubType" : "MediumLaser",
-    "MinRange" : 0,
-    "MaxRange" : 270,
-    "RangeSplit" : [
-        180,
-        180,
-        270
-    ],
-    "ammoCategoryID" : "NotSet",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 12,
-    "Damage" : 25,
+    "Custom": {
+         "Category": [
+           {
+             "CategoryID": "Energy"
+           }
+         ],
+         "BonusDescriptions": [
+             "ACC: +4",
+             "CRIT: x1.5"
+           ]
+         },
+         "Category": "Energy",
+         "Type": "Laser",
+         "WeaponSubType": "MediumLaser",
+         "MinRange": 0,
+         "MaxRange": 360,
+         "RangeSplit": [
+             90,
+             180,
+             270
+         ],
+         "AmmoCategory": "NotSet",
+         "StartingAmmoCapacity": 0,
+         "HeatGenerated": 10,
+         "Damage": 20,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -47,8 +51,8 @@
         "Details" : "Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Like all Lasers, Medium Lasers enjoy a baseline accuracy bonus over other weapons.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "+ 3 Acc.",
-    "BonusValueB" : "+ 50% Crit.",
+    "BonusValueA" : "",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Laser",

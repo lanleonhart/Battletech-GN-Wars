@@ -1,37 +1,42 @@
-{"Custom": {
-        "Category": [
-          {
-            "CategoryID": "AC"
-          }
-        ]
-        },
-    "Category" : "Ballistic",
-    "Type" : "Autocannon",
-    "WeaponSubType" : "AC2",
-    "MinRange" : 120,
-    "MaxRange" : 720,
-    "RangeSplit" : [
-        480,
-        480,
-        720
+{
+"Custom": {
+    "Category": [
+      {
+        "CategoryID": "AC"
+      }
     ],
-    "ammoCategoryID" : "AC2",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 4,
-    "Damage" : 25,
-    "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 0,
-    "HeatDamage" : 0,
-    "AccuracyModifier" : -2,
-    "CriticalChanceMultiplier" : 1,
-    "AOECapable" : false,
-    "IndirectFireCapable" : false,
-    "RefireModifier" : 1,
-    "ShotsWhenFired" : 1,
-    "ProjectilesPerShot" : 3,
-    "AttackRecoil" : 1,
+    "BonusDescriptions": [
+      "RECOIL: 1",
+      "ACC: +2"
+    ]
+    },
+"Category" : "Ballistic",
+"Type" : "Autocannon",
+"WeaponSubType" : "AC2",
+"MinRange" : 120,
+"MaxRange" : 960,
+"RangeSplit" : [
+    240,
+    480,
+    720
+],
+"ammoCategoryID" : "AC2",
+"StartingAmmoCapacity" : 0,
+"HeatGenerated" : 4,
+"Damage" : 25,
+"OverheatedDamageMultiplier" : 0,
+"EvasiveDamageMultiplier" : 0,
+"EvasivePipsIgnored" : 0,
+"DamageVariance" : 0,
+"HeatDamage" : 0,
+"AccuracyModifier" : 0,
+"CriticalChanceMultiplier" : 1,
+"AOECapable" : false,
+"IndirectFireCapable" : false,
+"RefireModifier" : 1,
+"ShotsWhenFired" : 1,
+"ProjectilesPerShot" : 1,
+"AttackRecoil" : 1,
     "Instability" : 5,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
     "Description" : {
@@ -46,7 +51,7 @@
         "Details" : "Intended for use as supporting fire at very long range, AC/2s deal moderate damage with low heat and a large ammunition count per ton. Like all Autocannon weaponry, AC/2s suffer from recoil effects from continuous fire.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "+ 2 Acc.",
+    "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

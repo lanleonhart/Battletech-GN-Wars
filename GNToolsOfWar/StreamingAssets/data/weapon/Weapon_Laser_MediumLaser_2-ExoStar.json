@@ -1,25 +1,29 @@
 {
-   "Custom": {
-        "Category": [
-          {
-            "CategoryID": "Energy"
-          }
-        ]
-        },
-    "Category" : "Energy",
-    "Type" : "Laser",
-    "WeaponSubType" : "MediumLaser",
-    "MinRange" : 0,
-    "MaxRange" : 270,
-    "RangeSplit" : [
-        180,
-        180,
-        270
-    ],
-    "ammoCategoryID" : "NotSet",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 12,
-    "Damage" : 25,
+    "Custom": {
+         "Category": [
+           {
+             "CategoryID": "Energy"
+           }
+         ],
+         "BonusDescriptions": [
+             "ACC: +1",
+             "CRIT: x1.5"
+           ]
+         },
+         "Category": "Energy",
+         "Type": "Laser",
+         "WeaponSubType": "MediumLaser",
+         "MinRange": 0,
+         "MaxRange": 360,
+         "RangeSplit": [
+             90,
+             180,
+             270
+         ],
+         "AmmoCategory": "NotSet",
+         "StartingAmmoCapacity": 0,
+         "HeatGenerated": 10,
+         "Damage": 20,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -48,7 +52,7 @@
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "",
-    "BonusValueB" : "+ 50% Crit.",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Laser",

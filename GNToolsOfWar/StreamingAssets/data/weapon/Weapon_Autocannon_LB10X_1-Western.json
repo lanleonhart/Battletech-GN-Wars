@@ -3,36 +3,45 @@
           {
             "CategoryID": "LBX"
           }
-        ]
+        ],
+        "BonusDescriptions": [
+            "RECOIL: 4",
+            "DMG: +2",
+            "WT: -0.5"
+          ]
         },
     "Category" : "Ballistic",
     "Type" : "Autocannon",
     "WeaponSubType" : "LB10X",
     "MinRange" : 0,
-    "MaxRange" : 450,
-    "RangeSplit" : [
-        300,
-        300,
-        450
+    "MaxRange": 720,
+    "RangeSplit": [
+      180,
+      360,
+      540
     ],
     "ammoCategoryID" : "LB10X",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 10,
-    "Damage" : 11,
+    "Damage" : 62,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "AccuracyModifier" : 0,
+    "AccuracyModifier" : -1,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 2,
-    "ShotsWhenFired" : 8,
+    "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 3,
+    "AttackRecoil" : 4,
     "Instability" : 5,
+    "DisableClustering": false,
+    "BallisticDamagePerPallet": true,
+    "AlternateDamageCalc": true,
+    "ImprovedBallistic": true,
     "WeaponEffectID" : "WeaponEffect-Weapon_LB10X",
     "Description" : {
         "Cost" : 250000,
@@ -46,12 +55,12 @@
         "Details" : "The LB 10-X sands away considerable amounts of armor and severely destabilizes targets with its large-gauge scatter shots and high stability damage. Like all LB-X Autocannons, the LB 10-X fires cluster munitions and suffers recoil from continuous fire.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "+ 1 Dmg.",
-    "BonusValueB" : "- 0.5 Ton",
+    "BonusValueA" : "",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "lbx10",
-    "InventorySize" : 4,
+    "InventorySize" : 6,
     "Tonnage" : 10.5,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",

@@ -1,39 +1,44 @@
 {"Custom": {
-        "Category": [
-          {
-            "CategoryID": "UAC"
-          }
-        ]
-        },
-    "Category" : "Ballistic",
-    "Type" : "Autocannon",
-    "WeaponSubType" : "UAC2",
-    "MinRange" : 120,
-    "MaxRange" : 720,
-    "RangeSplit" : [
-        480,
-        480,
-        720
+    "Category": [
+      {
+        "CategoryID": "UAC"
+      }
     ],
-    "AmmoCategory" : "AC2",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 8,
-    "Damage" : 30,
-    "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 0,
-    "HeatDamage" : 0,
-    "StructureDamage" : 0,
-    "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1,
-    "AOECapable" : false,
-    "IndirectFireCapable" : false,
-    "RefireModifier" : 2,
-    "ShotsWhenFired" : 2,
-    "ProjectilesPerShot" : 3,
-    "AttackRecoil" : 1,
-    "Instability" : 5,
+    "BonusDescriptions": [
+        "RECOIL: 1",
+        "DMG: +5",
+        "JAM"
+      ]
+    },
+"Category" : "Ballistic",
+"Type" : "Autocannon",
+"WeaponSubType" : "UAC2",
+"MinRange" : 120,
+"MaxRange": 1020,
+"RangeSplit": [
+    240,
+    510,
+    750
+],
+"AmmoCategory" : "AC2",
+"StartingAmmoCapacity" : 0,
+"HeatGenerated" : 4,
+"Damage" : 30,
+"OverheatedDamageMultiplier" : 0,
+"EvasiveDamageMultiplier" : 0,
+"EvasivePipsIgnored" : 0,
+"DamageVariance" : 0,
+"HeatDamage" : 0,
+"StructureDamage" : 0,
+"AccuracyModifier" : 0,
+"CriticalChanceMultiplier" : 1,
+"AOECapable" : false,
+"IndirectFireCapable" : false,
+"RefireModifier" : 1,
+"ShotsWhenFired" : 1,
+"ProjectilesPerShot" : 1,
+"AttackRecoil" : 1,
+"Instability" : 5,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC2_Ultra",
     "Description" : {
         "Cost" : 310000,
@@ -41,22 +46,40 @@
         "Purchasable" : true,
         "Manufacturer" : "Imperator",
         "Model" : "Sniper Autocannon",
-        "UIName" : "UAC/2",
+        "UIName" : "Ultra AC/2",
         "Id" : "Weapon_Autocannon_UAC2_1-Imperator",
-        "Name" : "UAC/2",
+        "Name" : "Ultra AC/2",
         "Details" : "Ultra AC/2s deal twice the damage at extreme range\u2014a massive upgrade over the standard model. Like all Ultra Autocannon weaponry, UAC/2s suffer from substantial recoil effects from firing and consume two ammo per attack.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "+ 5 Dmg.",
-    "BonusValueB" : "- 1 Ton",
+    "BonusValueA" : "",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "uac5",
-    "InventorySize" : 1,
-    "Tonnage" : 6,
+    "InventorySize" : 3,
+    "Tonnage" : 7,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
+    "FireDelayMultiplier": 2,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": true,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": false,
+			"ShotsWhenFired": 1,
+			"HeatGenerated": 4,
+			"FireDelayMultiplier": 0.25,
+			"FlatJammingChance": 0.07
+		}
+    ],
     "statusEffects" : [
         
     ],
@@ -65,7 +88,7 @@
             "component_type_variant",
             "component_type_variant1",
             "range_extreme",
-            "component_type_lostech",
+            "component_type_lostech"
             
         ],
         "tagSetSourceFile" : ""
