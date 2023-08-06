@@ -84,44 +84,13 @@
       ]
     },
     {
-      "Name": "CockpitMS",
-      "DisplayName": "MS Cockpit",
-      "BaseLimits": [
-        {
-          "Location": "CenterTorso",
-          "Min": 1,
-          "Max": 1
-        }
-      ],
-      "DefaultCustoms": {
-        "InventorySorter": "Cockpit4",
-        "Sorter": 4,
-        "RGBColor": "#354b55",
-        "TRGBColor":{
-          "Color": "#FFFFFF"
-        }
-      },
-        "UnitLimits": [
-          {
-            "UnitType": "Mech",
-            "Limits": [
-            {
-              "Location": "None",
-              "Min": 0,
-              "Max": 0
-            }
-            ]
-          },
-          {
-            "UnitType": "Vehicle",
-            "Limits": [
-              {
-              "Location": "None",
-              "Min": 0,
-              "Max": 0
-              }
-            ]
-            }
+      "Name": "Cockpit",
+      "DisplayName": "Cockpit",
+      "UnitLimits": [
+          {"UnitType": "Vehicle", "Limits": [{"Location": "None","Min": 0,"Max": 0}]},
+          {"UnitType" : "MobileSuit", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
+          {"UnitType" : "MobileSuitHero", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
+          {"UnitType" : "Gundam", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] }
         ]
       },
     {
@@ -169,7 +138,7 @@
         ]
       },
       {
-        "Name": "LegHipMS",
+        //"Name": "LegHipMS",
         "DisplayName": "Hip",
         "BaseLimits": [
            
@@ -259,7 +228,7 @@
               }
     },
     {
-        "Name": "LegUpperActuatorMS",
+        //"Name": "LegUpperActuatorMS",
         "DisplayName": "Upper Leg Actuator",
         "BaseLimits": [
             {
@@ -343,7 +312,7 @@
             }
         },
     {
-        "Name": "LegLowerActuatorMS",
+        //"Name": "LegLowerActuatorMS",
         "DisplayName": "Lower Leg Actuator",
         "BaseLimits": [
             {
@@ -427,7 +396,7 @@
             }
           },
     {
-        "Name": "LegFootActuatorMS",
+        //"Name": "LegFootActuatorMS",
         "DisplayName": "Foot Actuator",
         "BaseLimits": [
             {
@@ -511,7 +480,7 @@
             }
           },
     {
-        "Name": "ArmShoulderMS",
+        //"Name": "ArmShoulderMS",
         "DisplayName": "Shoulder",
         "BaseLimits": [
             {
@@ -553,7 +522,7 @@
             }
         },
     {
-        "Name": "ArmUpperActuatorMS",
+       // "Name": "ArmUpperActuatorMS",
         "DisplayName": "Upper Arm Actuator",
         "BaseLimits": [
             {
@@ -591,7 +560,7 @@
             }
         },
     {
-        "Name": "ArmLowerActuatorMS",
+       // "Name": "ArmLowerActuatorMS",
         "DisplayName": "Lower Arm Actuator",
         "BaseLimits": [
           {
@@ -627,7 +596,7 @@
             }
         },
       {
-        "Name": "ArmHandActuatorMS",
+       // "Name": "ArmHandActuatorMS",
         "DisplayName": "Hand Actuator",
         "BaseLimits": [
             
