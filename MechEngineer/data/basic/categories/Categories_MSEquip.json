@@ -1,0 +1,329 @@
+{
+    "Settings": [
+        {
+            "Name": "MSHardPoint",
+            "DisplayName": "MSHardPoint",
+            "BaseLimits": [
+                {
+                    "Location": "RightTorso",
+                    "Min": 0,
+                    "Max": 0
+                },
+                {
+                    "Location": "LeftTorso",
+                    "Min": 0,
+                    "Max": 0
+                }
+            ],
+            "DefaultCustoms": {
+                "Sorter": 2,
+                "RGBColor": "#7f7d9c",
+                "TRGBColor": {
+                  "Color": "#FFFFFF"
+                }
+            },
+            "UnitLimits": [
+                {
+                  "UnitType": "MobileSuit",
+                  "Limits": [
+                    {
+                      "Location": "LeftTorso",
+                      "Min": 1,
+                      "Max": 2
+                    },
+                    {
+                      "Location": "RightTorso",
+                      "Min": 1,
+                      "Max": 2
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "MobileSuitHero",
+                  "Limits": [
+                    {
+                      "Location": "LeftTorso",
+                      "Min": 1,
+                      "Max": 3
+                    },
+                    {
+                      "Location": "RightTorso",
+                      "Min": 1,
+                      "Max": 3
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Gundam",
+                  "Limits": [
+                    {
+                      "Location": "LeftTorso",
+                      "Min": 2,
+                      "Max": 4
+                    },
+                    {
+                      "Location": "RightTorso",
+                      "Min": 2,
+                      "Max": 4
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "GundamVirtue",
+                  "Limits": [
+                    {
+                      "Location": "LeftTorso",
+                      "Min": 1,
+                      "Max": 1
+                    },
+                    {
+                      "Location": "RightTorso",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Vehicle",
+                  "Limits": [
+                    {
+                      "Location": "All",
+                      "Max": 0
+                    }
+                  ]
+                }
+            ]
+        },
+        {
+            "Name": "Thruster",
+            "DisplayName": "Thruster",
+            "BaseLimits": [
+                {
+                    "Location": "RightTorso",
+                    "Min": 0,
+                    "Max": 0
+                },
+                {
+                    "Location": "LeftTorso",
+                    "Min": 0,
+                    "Max": 0
+                },
+                {
+                  "Location": "RightLeg",
+                  "Min": 0,
+                  "Max": 0
+              },
+              {
+                  "Location": "LeftLeg",
+                  "Min": 0,
+                  "Max": 0
+              }
+            ],
+            "DefaultCustoms": {
+                "Sorter": 5
+            },
+            "UnitLimits": [
+              {
+                "UnitType": "MobileSuit",
+                "Limits": [
+                  {
+                    "Location": "RightTorso",
+                    
+                    "Max": 1
+                  },
+                  {
+                    "Location": "LeftTorso",
+                    
+                    "Max": 1
+                  },
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 1
+                },
+                {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 1
+                }
+                ]
+              },
+              {
+                "UnitType": "MobileSuitHero",
+                "Limits": [
+                  {
+                    "Location": "RightTorso",
+                    "Min": 1,
+                    "Max": 1
+                  },
+                  {
+                    "Location": "LeftTorso",
+                    "Min": 1,
+                    "Max": 1
+                  },
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 1
+                },
+                {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 1
+                }
+                ]
+              },
+              {
+                "UnitType": "Gundam",
+                "Limits": [
+                  {
+                    "Location": "RightTorso",
+                    "Min": 1,
+                    "Max": 1
+                  },
+                  {
+                    "Location": "LeftTorso",
+                    "Min": 1,
+                    "Max": 1
+                  },
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 1
+                },
+                {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 1
+                }
+                ]
+              },
+              {
+                "UnitType": "GundamVirtue",
+                "Limits": [
+                  {
+                    "Location": "RightTorso",
+                    "Min": 1,
+                    "Max": 1
+                  },
+                  {
+                    "Location": "LeftTorso",
+                    "Min": 1,
+                    "Max": 1
+                  },
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 1
+                },
+                {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 1
+                }
+                ]
+              },
+                {
+                  "UnitType": "Vehicle",
+                  "Limits": [
+                    {
+                      "Location": "All",
+                      "Max": 0
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Mech",
+                  "Limits": [
+                    {
+                      "Location": "All",
+                      "Min": 0,
+                      "Max": 0
+                    }
+                  ]
+                }
+            ]
+        },
+        {
+            "Name": "HandHeld",
+            "DisplayName": "Hand Held",
+            "BaseLimits": [
+                {
+                    "Location": "RightArm",
+                    "Min": 0,
+                    "Max": 0
+                },
+                {
+                    "Location": "LeftArm",
+                    "Min": 0,
+                    "Max": 0
+                }
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "ActuatorArm4",
+                "Sorter": 5,
+                "RGBColor": "#3e3d53",
+                "TRGBColor": {
+                  "Color": "#FFFFFF"
+                }
+            },
+            "UnitLimits": [
+                {
+                  "UnitType": "MobileSuit",
+                  "Limits": [
+                    {
+                      "Location": "LeftArm",
+                      "Min": 1,
+                      "Max": 1
+                    },
+                    {
+                      "Location": "RightArm",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Gundam",
+                  "Limits": [
+                    {
+                      "Location": "LeftArm",
+                      "Min": 1,
+                      "Max": 1
+                    },
+                    {
+                      "Location": "RightArm",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Gundam",
+                  "Limits": [
+                    {
+                      "Location": "LeftArm",
+                      "Min": 1,
+                      "Max": 1
+                    },
+                    {
+                      "Location": "RightArm",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Vehicle",
+                  "Limits": [
+                    {
+                      "Location": "All",
+                      "Max": 0
+                    }
+                  ]
+                }
+            ]
+        }
+    ]
+  }
+        

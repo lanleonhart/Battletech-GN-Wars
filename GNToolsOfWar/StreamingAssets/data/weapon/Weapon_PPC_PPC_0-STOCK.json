@@ -4,17 +4,21 @@
           {
             "CategoryID": "PPC"
           }
-        ]
+        ],
+        "BonusDescriptions": [
+            "PPCDEBUFF: 1",
+            "MINE"        
+          ]
         },
     "Category" : "Energy",
     "Type" : "PPC",
     "WeaponSubType" : "PPC",
     "MinRange" : 90,
-    "MaxRange" : 540,
-    "RangeSplit" : [
-        360,
-        360,
-        540
+    "MaxRange": 780,
+    "RangeSplit": [
+      270,
+      390,
+      450
     ],
     "ammoCategoryID" : "NotSet",
     "StartingAmmoCapacity" : 0,
@@ -32,8 +36,12 @@
     "RefireModifier" : 0,
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 3,
     "Instability" : 20,
+    "ClearMineFieldRadius": 16,
+    "GunneryJammingMult": 0.02,
+    "GunneryJammingBase": 1,
+    "FireTerrainChance": 0.185,
+    "AttackRecoil": 3,
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {
         "Cost" : 180000,
@@ -60,56 +68,32 @@
     "CriticalComponent" : false,
     "statusEffects" : [
         {
-            "durationData" : {
-                "duration" : 1,
-                "ticksOnActivations" : true,
-                "useActivationsOfTarget" : true,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 0,
-                "clearedWhenAttacked" : false
+            "durationData": {
+              "duration": 2,
+              "stackLimit": -1,
+              "ticksOnActivations": true,
+              "useActivationsOfTarget": true
             },
-            "targetingData" : {
-                "effectTriggerType" : "OnHit",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "NotSet",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : true,
-                "showInStatusPanel" : true
+            "targetingData": {
+              "effectTriggerType": "OnHit",
+              "showInTargetPreview": false,
+              "showInStatusPanel": true
             },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "AbilityDefPPC",
-                "Name" : "SENSORS IMPAIRED",
-                "Details" : "[AMT] Difficulty to all of this unit's attacks until its next activation.",
-                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            "effectType": "StatisticEffect",
+            "nature": "Debuff",
+            "Description": {
+              "Id": "AbilityDefPPC",
+              "Name": "PPC: Increased Target ECM Jamming",
+              "Details": "EM Interference reduces sensor efficiency.",
+              "Icon": "uixSvgIcon_status_sensorsImpaired"
             },
-            "nature" : "Debuff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "NotSet",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        }
+            "statisticData": {
+              "statName": "LV_ECM_JAMMED",
+              "operation": "Int_Add",
+              "modValue": "1",
+              "modType": "System.Int32"
+            }
+          }
     ],
     "ComponentTags" : {
         "items" : [

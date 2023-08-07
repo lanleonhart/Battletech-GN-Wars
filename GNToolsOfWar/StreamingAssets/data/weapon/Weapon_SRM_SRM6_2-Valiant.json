@@ -1,24 +1,29 @@
 {
-   "Custom": {
-        "Category": [
-          {
-            "CategoryID": "SRM"
-          }
-        ]
-        },
-    "Category" : "Missile",
-    "Type" : "SRM",
-    "WeaponSubType" : "SRM6",
-    "MinRange" : 0,
-    "MaxRange" : 270,
-    "RangeSplit" : [
-        180,
-        180,
-        270
-    ],
+    "Custom": {
+         "Category": [
+           {
+             "CategoryID": "SRM"
+           }
+         ],
+         "BonusDescriptions": [
+               "DMG: +2",
+               "GyroStab: +2"
+           ]
+         },
+     "Category" : "Missile",
+     "Type" : "SRM",
+     "WeaponSubType" : "SRM2",
+     "MinRange" : 0,
+     "MaxRange": 360,
+     "RangeSplit": [
+         90,
+         180,
+         270
+ 
+     ],
     "ammoCategoryID" : "SRM",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 12,
+    "HeatGenerated" : 14,
     "Damage" : 10,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -47,8 +52,8 @@
         "Details" : "SRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA" : "+ 2 Dmg.",
-    "BonusValueB" : "+ 1 Stb.Dmg.",
+    "BonusValueA" : "",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "srm6",

@@ -1,28 +1,34 @@
 {
-   "Custom": {
-        "Category": [
-          {
-            "CategoryID": "LRM"
-          }
-        ]
-        },
-    "Category" : "Missile",
-    "Type" : "LRM",
-    "WeaponSubType" : "LRM15",
-    "MinRange" : 180,
-    "MaxRange" : 630,
-    "RangeSplit" : [
-        420,
-        420,
-        630
-    ],
+    "Custom": {
+         "Category": [
+           {
+             "CategoryID": "LRM"
+           }
+         ],
+         "BonusDescriptions": [
+            "EVA-IG: 1",
+            "MSL-HP: 1",
+            "GyroStab: +1",
+            "CRIT: x1.25"        
+          ]
+         },
+     "Category" : "Missile",
+     "Type" : "LRM",
+     "WeaponSubType" : "LRM5",
+     "MinRange" : 180,
+     "MaxRange": 840,
+     "RangeSplit": [
+       210,
+       420,
+       630
+     ],
     "ammoCategoryID" : "LRM",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 14,
+    "HeatGenerated" : 18,
     "Damage" : 4,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
+    "EvasivePipsIgnored" : 1,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : 0,
@@ -34,6 +40,7 @@
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
     "Instability" : 3,
+    "MissileHealth": 1,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM15",
     "Description" : {
         "Cost" : 260000,
@@ -43,12 +50,12 @@
         "Model" : "Long-Range Missile Launcher",
         "UIName" : "LRM15",
         "Id" : "Weapon_LRM_LRM15_2-Zeus",
-        "Name" : "LRM15 + +",
+        "Name" : "LRM15",
         "Details" : "LRM15 Long-Range Missile racks deal substantial damage and stability impact over distance, often found in pairs on indirect-fire support units. Like all LRMs, LRM15s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA" : "+ 25% Crit.",
-    "BonusValueB" : "+ 1 Stb.Dmg.",
+    "BonusValueA" : "",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "lrm15",
