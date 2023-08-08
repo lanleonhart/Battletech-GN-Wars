@@ -4,7 +4,10 @@
           {
             "CategoryID":  "Support"
           }
-        ]
+        ],
+        "BonusDescriptions": [
+			"CRIT: x2"     
+		  ]
         },
     "Category" : "AntiPersonnel",
     "Type" : "MachineGun",
@@ -16,7 +19,7 @@
         90,
         90
     ],
-    "ammoCategoryID" : "MG",
+    "ammoCategoryID" : "MachineGun",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 0,
     "Damage" : 3,
@@ -47,14 +50,14 @@
         "Details" : "Machine Guns deal very little damage, have severely limited range, and depend upon volatile ammunition stores. However, they have a greatly increased chance to cause Criticals when they impact a target that has been stripped of its armor.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
-    "BonusValueA" : "+ 50% Crit.",
-    "BonusValueB" : "- 0.5 Ton",
+    "BonusValueA" : "",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "MachineGun",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 0.0,
+    "Tonnage" : 0.5,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,

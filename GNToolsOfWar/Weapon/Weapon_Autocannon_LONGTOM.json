@@ -4,6 +4,13 @@
 			{
 				"CategoryID": "ART"
 			}
+	],
+	"BonusDescriptions": [
+		"ART",
+		"FMOD: 2",
+		"ARTDF: -4",
+		"RECOIL: 6",
+		"VARDMG: 30"
 	]
 	},
 	"Category": "Ballistic",
@@ -69,6 +76,15 @@
 			"AlwaysIndirectVisuals": true,
 			"IndirectFireCapable": true,
 			"ForbiddenRange": 400
+		},
+		{
+			"Id": "directfire",
+			"UIName": "direct",
+			"isBaseMode": false,
+			"AlwaysIndirectVisuals": false,
+			"IndirectFireCapable": false,
+			"ForbiddenRange": 400,
+			"AccuracyModifier": 4
 		}
 	],
 	"statusEffects": [],

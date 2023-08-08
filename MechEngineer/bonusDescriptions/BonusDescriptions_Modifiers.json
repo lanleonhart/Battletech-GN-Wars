@@ -28,7 +28,7 @@
             "Bonus" : "EXPLODE",
             "Short" : "EXPLODES",
             "Long" : "EXPLODES",
-            "Full" : "This Component May Explode"
+            "Full" : "Will Explode On Destruction"
         },
         {
             "Bonus" : "DHSK",
@@ -48,7 +48,7 @@
             "Long" : "{0} Stab Threshold",
             "Full" : "{0} Stab Threshold"
         },
-         {
+        {
             "Bonus" : "GyroStab",
             "Short" : "{0} Stab DMG",
             "Long" : "{0} Stab Damage",
@@ -152,8 +152,8 @@
         },
         {
             "Bonus" : "MSL-HP",
-            "Short" : "",
-            "Long" : "",
+            "Short" : "Missile HP",
+            "Long" : "Missile HP",
             "Full" : "{0} Missile Health Point(s)"
         },
         {
@@ -161,6 +161,12 @@
             "Short" : "{0} Indirect ACC",
             "Long" : "{0} Indirect ACC",
             "Full" : "{0} Indirect Fire Accuracy Bonus"
+        },
+        {
+            "Bonus" : "INDIRECTFIRE",
+            "Short" : "",
+            "Long" : "",
+            "Full" : "Indirect Fire Only"
         },
         {
             "Bonus" : "PILOT",
@@ -205,10 +211,22 @@
             "Full" : "{0} Damage"
         },
         {
+            "Bonus" : "VARDMG",
+            "Short" : "",
+            "Long" : "",
+            "Full" : "+/-{0} Damage"
+        },
+        {
             "Bonus" :"ECM",
             "Short" :"ECM",
             "Long" : "ECM",
             "Full" : "Provides {0} Acc Debuff Over {1} Meters"
+        },
+        {
+            "Bonus" :"AMS",
+            "Short" :"AMS",
+            "Long" : "AMS",
+            "Full" : "Anti-Missile System"
         },
         {
             "Bonus" : "ARC",
@@ -229,10 +247,10 @@
             "Full" : "{0} Critical Chance"
         },
         {
-            "Bonus" : "RECOIL",
-            "Short" : "{0} Recoil",
+            "Bonus" :"RECOIL",
+            "Short" :"{0} Recoil",
             "Long" : "{0} Recoil",
-            "Full" : "Has {0} Recoil When Fired"
+            "Full" : "{0} Recoil When Fired"
         },
         {
             "Bonus" : "SLOT",
@@ -280,7 +298,7 @@
             "Bonus" : "FMODE",
             "Short" : "MODE",
             "Long" : "MODE",
-            "Full" : "Has {0} Alternate Firing Mode(s)"
+            "Full" : "Has {0} Firing Modes"
         },
         {
             "Bonus" : "MINE",
@@ -341,6 +359,18 @@
             "Short" : "STREAK",
             "Long" : "STREAK",
             "Full" : "Streak Missles Fire All or Nothing, and Cluster"
+        },
+        {
+            "Bonus" : "ART",
+            "Short" : "ART",
+            "Long" : "ART",
+            "Full" : "Artilery"
+        },
+        {
+            "Bonus" : "ARTDF",
+            "Short" : "",
+            "Long" : "",
+            "Full" : "{0} Acc in Direct Fire Mode"
         }
     ]
 }
