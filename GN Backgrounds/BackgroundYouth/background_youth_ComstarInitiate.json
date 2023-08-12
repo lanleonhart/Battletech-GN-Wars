@@ -1,0 +1,84 @@
+{
+  "Description": {
+    "Id": "background_youth_ComstarInitiate",
+    "Name": "Trained from Comstar from a Young Age.",
+    "Details": "You're a highly trained ComStar . <b><color=#ff9900>Quirk: Brave+Assassin.</color></b>",
+    "Icon": "uixTxrLogo_backgroundLoner",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Results": {
+    "Scope": "Commander",
+    "Requirements": null,
+    "AddedTags": {
+      "items": [
+        "pilot_brave",
+        "pilot_assassin"
+      ],
+      "tagSetSourceFile": ""
+    },
+    "RemovedTags": null,
+    "Stats": [
+      {
+        "typeString": "System.Int32",
+        "name": "Piloting",
+        "value": 0,
+        "valueConstant": ""
+      },
+      {
+        "typeString": "System.Int32",
+        "name": "Gunnery",
+        "value": 0,
+        "valueConstant": ""
+      },
+      {
+        "typeString": "System.Int32",
+        "name": "Tactics",
+        "value": 0,
+        "valueConstant": ""
+      },
+      {
+        "typeString": "System.Int32",
+        "name": "Guts",
+        "value": 0,
+        "valueConstant": ""
+      }
+    ],
+    "Actions": [
+			{
+				"Type": "MechWarrior_Fire",
+				"value": "pilot_Lan",
+				"valueConstant": null,
+				"additionalValues": null
+			},
+			{
+				"Type": "MechWarrior_AddRoster",
+				"value": "pilot_Lan",
+				"valueConstant": null,
+				"additionalValues": null
+			},
+      {
+				"Type": "MechWarrior_Fire",
+				"value": "pilot_Indrahim",
+				"valueConstant": null,
+				"additionalValues": null
+			},
+			{
+				"Type": "MechWarrior_AddRoster",
+				"value": "pilot_Indrahim",
+				"valueConstant": null,
+				"additionalValues": null
+			}
+		],
+    "ForceEvents": null,
+    "TemporaryResult": false,
+    "ResultDuration": 0
+  },
+  "BackgroundSection": 1,
+  "UIOrdering": 1,
+  "OptionName": "ComStar",
+  "OptionMusicTrigger": "",
+  "OptionDescription": "[[DM.BaseDescriptionDefs[StatMechWarriorPiloting],Piloting]], +1 [[DM.BaseDescriptionDefs[StatMechWarriorTactics],Tactics]]",
+  "BioDescription": ""
+}
