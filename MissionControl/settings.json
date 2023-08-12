@@ -2,7 +2,7 @@
   "DebugMode": true,
   "VersionCheck": true,
   "EnableSkirmishMode": true,
-  "DebugSkirmishMode": true,
+  "DebugSkirmishMode": false,
   "EnableFlashpointOverrides": false,
   "EnableAdditionalPlayerMechsForFlashpoints": false,
   "NeverFailSimGameInFlashpoints": true,
@@ -26,7 +26,7 @@
     "IncludeEnemyTurrets": false
   },
   "AdditionalLances": {
-    "Enable":false,
+    "Enable": true,
     "EnableForFlashpoints": true,
     "EnableForStory": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
@@ -35,7 +35,7 @@
     "HideObjective": true,
     "ShowObjectiveOnLanceDetected": true,
     "AlwaysDisplayHiddenObjectiveIfPrimary": false,
-    "UseElites": false,
+    "UseElites": true,
     "UseDialogue": true,
     "SkullValueMatters": true,
     "BasedOnVisibleSkullValue": true,
@@ -86,137 +86,37 @@
     "EnableForFlashpoints": true,
     "EnableForStory": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
-    "IncreaseBoundarySizeByPercentage": 0.6,
-		"Overrides": [
-			{
-				"MapId": "mapGeneral_frigidSteppes_iTnd",
-				"ContractTypeName": "CaptureBase",
-				"IncreaseBoundarySizeByPercentage": 0.75
-			},
-			{
-				"MapId": "mapGeneral_icyOutpost_iGlc",
-				"ContractTypeName": "CaptureBase",
-				"IncreaseBoundarySizeByPercentage": 0.75
-			},
-			{
-				"MapId": "mapGeneral_rockyCliffs_vHigh",
-				"ContractTypeName": "CaptureBase",
-				"IncreaseBoundarySizeByPercentage": 0.75
-			},
-			{
-				"MapId": "mapGeneral_highPeak_iGlc",
-				"ContractTypeName": "SimpleBattle",
-				"IncreaseBoundarySizeByPercentage": 0.75
-			},
-			{
-				"ContractTypeName": "FireMission",
-				"IncreaseBoundarySizeByPercentage": 0.5
-			},
-			{
-				"MapId": "mapGeneral_desertDam_aDes",
-				"IncreaseBoundarySizeByPercentage": 0.6
-			},
-			{
-				"MapId": "mapGeneral_rockyMesas_aDes",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"MapId": "mapGeneral_lostWorld_vJung",
-				"IncreaseBoundarySizeByPercentage": 0.6
-			},
-			{
-				"MapId": "mapGeneral_Interchange_aDes",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"MapId": "mapGeneral_toxicMire_aBad",
-				"ContractTypeName": "CaptureEscort",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"MapId": "mapGeneral_terraceLakes_vLow",
-				"ContractTypeName": "CaptureEscort",
-				"IncreaseBoundarySizeByPercentage": 0.3
-			},
-			{
-				"MapId": "mapGeneral_sandyMesa_aDes",
-				"ContractTypeName": "Rescue",
-				"IncreaseBoundarySizeByPercentage": 0.25
-			},
-			{
-				"MapId": "mapGeneral_splitRange_iGlc",
-				"IncreaseBoundarySizeByPercentage": 0.5
-			},
-			{
-				"MapId": "mapGeneral_centralPond_uTech",
-				"ContractTypeName": "DefendBase",
-				"IncreaseBoundarySizeByPercentage": 0.2
-			},
-			{
-				"MapId": "mapGeneral_cityCenter_uTech",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"MapId": "mapGeneral_cragMire_vLow",
-				"ContractTypeName": "DefendBase",
-				"IncreaseBoundarySizeByPercentage": 0.3
-			},
-			{
-				"MapId": "mapGeneral_capitolHill_uTech",
-				"ContractTypeName": "ThreeWayBattle",
-				"IncreaseBoundarySizeByPercentage": 0.2
-			},
-			{
-				"MapId": "mapGeneral_borealForest_iGlc",
-				"ContractTypeName": "ThreeWayBattle",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"MapId": "mapGeneral_tropicalCove_vJung",
-				"IncreaseBoundarySizeByPercentage": 0.5
-			},
-			{
-				"MapId": "mapGeneral_riftValley_vJung",
-				"ContractTypeName": "AmbushConvoy",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"MapId": "mapMultiPurp_metroGreen_uTech",
-				"ContractTypeName": "CaptureBase",
-				"IncreaseBoundarySizeByPercentage": 0.2
-			},
-			{
-				"MapId": "mapGeneral_lushIsthmus_vJung",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"MapId": "mapGeneral_frostySlopes_iTnd",
-				"IncreaseBoundarySizeByPercentage": 0.5
-			},
-			{
-				"MapId": "mapStory_storyEncounter7_vLow",
-				"ContractTypeName": "Blackout",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"MapId": "mapGeneral_grandeRiver_aWst",
-				"ContractTypeName": "ThreeWayBattle",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"MapId": "mapGeneral_craterField_bMars",
-				"ContractTypeName": "DestroyBase",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"MapId": "mapGeneral_mountainHold_bMoon",
-				"IncreaseBoundarySizeByPercentage": 0.4
-			},
-			{
-				"ContractTypeName": "AmbushConvoy",
-				"IncreaseBoundarySizeByPercentage": 0.2
-			}
-		]
+    "IncreaseBoundarySizeByPercentage": 0.3,
+    "Overrides": [
+      {
+        "MapId": "mapGeneral_frigidSteppes_iTnd",
+        "ContractTypeName": "CaptureBase",
+        "IncreaseBoundarySizeByPercentage": 0.75
+      },
+      {
+        "MapId": "mapGeneral_icyOutpost_iGlc",
+        "ContractTypeName": "CaptureBase",
+        "IncreaseBoundarySizeByPercentage": 0.75
+      },
+      {
+        "MapId": "mapGeneral_highPeak_iGlc",
+        "ContractTypeName": "SimpleBattle",
+        "IncreaseBoundarySizeByPercentage": 0.75
+      },
+      {
+        "ContractTypeName": "FireMission",
+        "IncreaseBoundarySizeByPercentage": 0.5
+      },
+      {
+        "MapId": "mapGeneral_desertDam_aDes",
+        "ContractTypeName": "SimpleBattle",
+        "IncreaseBoundarySizeByPercentage": 0.55
+      },
+      {
+        "ContractTypeName": "AmbushConvoy",
+        "IncreaseBoundarySizeByPercentage": 0.2
+      }
+    ]
   },
   "DynamicWithdraw": {
     "Enable": true,

@@ -1,7 +1,7 @@
 {
   "Name": "Mission Control",
   "Enabled": true,
-  "Version": "1.5.1",
+  "Version": "1.5.2",
   "Description": "A HBS BattleTech mod that adds custom contract types and varies the encounter specifics such as encounter boundary size, spawn locations, lance numbers and objectives",
   "Author": "CWolf",
   "Contact": "cwolfs@gmail.com",
@@ -16,10 +16,7 @@
     { "Type": "SimGameStatDescDef", "Path": "overrides/simGameStatDesc" },
     { "Type": "ContractOverride", "Path": "overrides/contracts" },
     { "Type": "CastDef", "Path": "overrides/cast" },
-	{ "Type": "BaseDescriptionDef", "Path": "descriptions/Contract", "AddToDB": true },
-    { "Type": "EncounterLayer", "Path": "overrides/encounterLayers" },
-    { "Type": "CastDef", "Path": "overrides/cast" }
-    
+    { "Type": "EncounterLayer", "Path": "overrides/encounterLayers" }
   ],
 
   "DataAddendumEntries": [
