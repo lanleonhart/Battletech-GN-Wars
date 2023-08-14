@@ -7,27 +7,56 @@
   "unitSpawnPointOverrideList": [
     {
       "unitType": "Mech",
-      "spawnEffectTags": {
-        "items": ["spawn_poorly_maintained_50"]
-      }
-    },
-    {
-      "unitType": "Mech",
-      "spawnEffectTags": {
-        "items": ["spawn_poorly_maintained_50"]
-      }
-    },
-    {
-      "unitType": "Mech",
-      "spawnEffectTags": {
-        "items": ["spawn_poorly_maintained_25"]
-      }
-    },
-    {
-      "unitType": "Vehicle",
       "unitTagSet": {
-        "items": ["unit_vehicle_carrier"]
-      },
+				"items": [
+					"unit_light",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			},
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_50"]
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+				"items": [
+					"unit_light",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			},
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_50"]
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+				"items": [
+					"unit_light",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			},
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_50"]
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+				"items": [
+          "unit_light",
+					"unit_vehicle",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			},
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_50"]
       }
