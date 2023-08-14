@@ -1,31 +1,30 @@
-{
-    "Custom": {
+{ "Custom": {
         
-        "Category": [
-           {
-             "CategoryID": "MRM"
-           }
-         ], 
-         "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 2.0,
-            "HeatDamagePerAmmo": 3,
-            "StabilityDamagePerAmmo": 1.75
-     },
-      "InventorySorter": "610"
-     },
-    "AmmoID" : "Ammunition_MRM",
-    "Capacity" : 100,
+    "Category": [
+       {
+         "CategoryID": "ART"
+       }
+     ], 
+     "ComponentExplosion": {
+        "ExplosionDamagePerAmmo": 35.0,
+        "HeatDamagePerAmmo": 15,
+        "StabilityDamagePerAmmo": 8
+ },
+ "InventorySorter": "500"
+ },
+    "AmmoID" : "Ammunition_Mortar_Generic",
+    "Capacity" : 20,
     "Description" : {
         "Cost" : 10000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
-        "Model" : "MRM",
-        "UIName" : "MRM Ammo",
-        "Id" : "Ammo_AmmunitionBox_Generic_MRM",
-        "Name" : "MRM Ammo",
+        "Model" : "",
+        "UIName" : "Mortar Ammo",
+        "Id" : "Ammo_AmmunitionBox_Mortar",
+        "Name" : "Mortar Ammo",
         "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nMRM Ammo Bins each contain 120 rounds and may feed multiple weapons.",
-        "Icon" : "uixSvgIcon_ammoBox_Missile"
+        "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",
@@ -48,4 +47,5 @@
         ],
         "tagSetSourceFile" : ""
     }
-}
+    }
+
