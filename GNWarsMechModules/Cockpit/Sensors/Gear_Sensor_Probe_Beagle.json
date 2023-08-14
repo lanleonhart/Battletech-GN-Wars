@@ -96,10 +96,10 @@
           "Icon": "uixSvgIcon_equipment_Comms"
         },
         "statisticData": {
-          "statName": "LV_NIGHT_VISION",
-          "operation": "Set",
-          "modValue": "true",
-          "modType": "System.Boolean"
+          "statName": "MinefieldDetection",
+          "operation": "Float_Add",
+          "modValue": "1",
+          "modType": "System.Single"
         }
       }
     ],   
@@ -107,7 +107,7 @@
     "ComponentSubType": "NotSet",
     "InventorySize": 1,
     "Tonnage": 0,
-    "AllowedLocations": "Head",
+    "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "Flags": ["not_broken"],
