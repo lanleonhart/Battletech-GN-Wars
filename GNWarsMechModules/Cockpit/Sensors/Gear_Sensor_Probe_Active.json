@@ -15,11 +15,11 @@
       "Purchasable": true,
       "Manufacturer": "",
       "Model": "",
-      "UIName": "name_in_storage",
-      "Id": "for_mech_fitting",
-      "Name": "",
+      "UIName": "Active Probe",
+      "Id": "Gear_Sensor_Probe_Active",
+      "Name": "Active Probe",
       "Details": "grey_text_description",
-      "Icon": "Icon"
+      "Icon": "uixSvgIcon_equipment_Comms"
     },
     "statusEffects": [
       {
@@ -27,27 +27,115 @@
         "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
         "showInTargetPreview": false,
         "showInStatusPanel": false,
-        "nature": "Debuff",
+        "nature": "Buff",
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "",
-          "Name": "",
-          "Details": "",
-          "Icon": ""
+          "Id": "NightVision",
+          "Name": "Sensor Probe: Night Vision",
+          "Details": "Enables Nightvision",
+          "Icon": "uixSvgIcon_equipment_Comms"
         },
         "statisticData": {
-          "statName": "",
-          "operation": "",
-          "modValue": "",
-          "modType": ""
+          "statName": "LV_NIGHT_VISION",
+          "operation": "Set",
+          "modValue": "true",
+          "modType": "System.Boolean"
+        }
+      },
+      {
+        "durationData": {"stackLimit": -1,"duration": -1},
+        "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "nature": "Buff",
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "ActiveProbe",
+          "Name": "Sensor Probe: Active Probe",
+          "Details": "Enables Active Probe (LV)",
+          "Icon": "uixSvgIcon_equipment_Comms"
+        },
+        "statisticData": {
+          "statName": "LV_PROBE_CARRIER",
+          "operation": "Int_Add",
+          "modValue": "1",
+          "modType": "System.Int32"
+        }
+      },
+      {
+        "durationData": {"stackLimit": -1,"duration": -1},
+        "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "nature": "Buff",
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "AdvancedSensors",
+          "Name": "Sensor Probe: Advanced Sensors",
+          "Details": "Enables Advanced Sensors(LV)",
+          "Icon": "uixSvgIcon_equipment_Comms"
+        },
+        "statisticData": {
+          "statName": "LV_ADVANCED_SENSORS",
+          "operation": "Int_Add",
+          "modValue": "1",
+          "modType": "System.Int32"
+        }
+      },
+      {
+        "durationData": {"stackLimit": -1,"duration": -1},
+        "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "nature": "Buff",
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "MineDetector",
+          "Name": "Sensor Probe: Mine Detection",
+          "Details": "Enables Mine detection",
+          "Icon": "uixSvgIcon_equipment_Comms"
+        },
+        "statisticData": {
+          "statName": "MinefieldDetection",
+          "operation": "Float_Add",
+          "modValue": "1",
+          "modType": "System.Single"
         }
       }
-    ],   
+    ],  
+    "Auras": [
+      {
+        "Id": "MINEDETECTIONAURA",
+        "Name": "Mine Detection",
+        "ReticleColor": "white",
+        "LineType": "Dots",
+        "isSpining": true,
+        "MinefieldDetector": true,
+        "HideOnNotSelected": true,
+        "Range": 60,
+        "RemoveOnSensorLock": false,
+        "State": "Persistent",
+        "ApplySelf": true,
+        "AllyStealthAffection": "None",
+        "EnemyStealthAffection": "None",
+        "IsPositiveToAlly": false,
+        "IsNegativeToEnemy": false,
+        "ownerVFX": [],
+        "targetVFX": [],
+        "removeOwnerVFX": [],
+        "removeTargetVFX": [],
+        "ownerSFX": [],
+        "targetSFX": [],
+        "removeOwnerSFX": [],
+        "removeTargetSFX": [],
+        "statusEffects": []
+      }
+    ],  
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "InventorySize": 1,
     "Tonnage": 0,
-    "AllowedLocations": "Head",
+    "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "Flags": ["not_broken"],
