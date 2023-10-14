@@ -1,0 +1,112 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "GN"
+      },
+      {
+        "CategoryID": "MSHardPoint"
+      }
+    ],
+    "BonusDescriptions": [
+      "MSHARDPOINT",
+      "DRIVEREQ"
+    ],
+    "InventorySorter": "00101"
+  },
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM5",
+  "MinRange": 0,
+  "MaxRange": 750,
+  "RangeSplit": [
+    120,
+    450,
+    650
+  ],
+  "weaponCategoryID": "MSHardPoint",
+    "ammoCategoryID" : "GNMS",
+    "StartingAmmoCapacity" :0,
+    "HeatGenerated" : 20,
+    "Damage" : 100,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 5,
+    "HeatDamage" : 25,
+    "AccuracyModifier" : 1,
+    "CriticalChanceMultiplier" : 1.25,
+    "AOECapable" : true,
+    "AOEEffectsFalloff": true,
+    "IndirectFireCapable" : true,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 3,
+    "Instability" : 5,
+    "AlwaysIndirectVisuals": true,
+    "MinMissRadius": 75,
+	"MaxMissRadius": 135,
+  "FireTerrainChance": 0.085,
+    "ColorsTable": [
+      {
+        "C": "#74B347",
+        "I": 5
+      }
+    ],
+    "ColorChangeRule": "t0",
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
+    "Description" : {
+        "Cost" : 1000000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Comstar",
+        "Model" : "GN Siege Launcher",
+        "UIName" : "GN Sledgehammer",
+        "Id" : "Weapon_GNM_SLEDGE",
+        "Name" : "GN Sledgehammer",
+        "Details" : "This model fires a Sledgehammer missles. These missile provide anti-MS & anti-Armor capabilities. Developed as a siege missile launcher, siege mode allows you to fire a barrage of missiles at the cost of ammo. ",        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm5",
+    "BattleValue" : 0,
+    "InventorySize" : 5,
+    "Tonnage" : 8,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "Modes": [
+      {
+        "Id": "Normal",
+        "UIName": "Normal",
+        "Description": "This mode is the default firing mode. The high energy requirments to fire this weapons requires time to recharge after firing.",
+        "Cooldown": 1,
+        "isBaseMode": true,
+        "HeatGenerated": 0, 
+        "RefireModifier": 1
+      },
+      {
+        "Id": "Siege",
+        "UIName": "Siege",
+        "Description": "Hyper Mode condensed GN Particles to an devastating level, anything caught in its blast will struggle to survive. The high energy requirments to fire this weapons requires time to recharge after firing.",
+        "isBaseMode": false,
+        "HeatGenerated": 40,
+        "RefireModifier": 2,
+        "Instability" : 20,
+  "ShotsWhenFired" : 2
+      }
+    ],
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
