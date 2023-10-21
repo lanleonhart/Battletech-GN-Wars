@@ -1,5 +1,5 @@
-[19:27:39.178]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits version: 0.0.0.152
-[19:27:39.179]Loading buildin shaders
+[23:35:43.839]Initing... C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits version: 0.0.0.152
+[23:35:43.840]Loading buildin shaders
  shader found Legacy Shaders/Particles/Alpha Blended Premultiply:262
  shader not found Mobile/Particles/Additive
  shader not found Particles/Alpha Blended
@@ -43,12 +43,12 @@
   srm4 lrm5:0.9 lrm10:0.5 lrm15:0.4 arrow:0.8 lrm20:0.3 srm2:0.9 srm4:1 srm6:0.9
   srm2 lrm5:0.6 lrm10:0.2 lrm15:0.2 arrow:0.5 lrm20:0.2 srm2:1 srm4:0.6 srm6:0.6
   arrow arrow:1
-[19:27:39.555]Helper assembly CustomUnitsHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[19:27:42.128]MechRepresentation.LateUpdate Transpiler
+[23:35:43.960]Helper assembly CustomUnitsHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[23:35:44.725]MechRepresentation.LateUpdate Transpiler
  found AudioEventManager.CreateVOQueue call 46
  found AudioEventManager.QueueVOEvent call 4C
  found AudioEventManager.StartVOQueue call 4F
-[19:27:42.240]Mech.CanEngageTarget searching
+[23:35:44.759]Mech.CanEngageTarget searching
  get_GameRep
  get_PilotableActorDef
  get_MechDef
@@ -226,10 +226,10 @@
   params:2
    BattleTech.ICombatant
    System.String&
-[19:27:43.293]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
-[19:27:43.293]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
-[19:27:45.465]SGRoomController_MechBay.Prepare p_Unlocks not null
-[19:27:45.465]SGRoomController_MechBay.Prepare p_Unlocks not null
+[23:35:45.091]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[23:35:45.092]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[23:35:45.905]SGRoomController_MechBay.Prepare p_Unlocks not null
+[23:35:45.905]SGRoomController_MechBay.Prepare p_Unlocks not null
 ToHit.GetAllModifiers transpliter
  source method found
  target method found
@@ -246,9 +246,9 @@ ToHit.GetAllModifiers transpliter
   result[56].opcode = ldarg.s
   result[55].opcode = ldarg.0
  this opcode found changing to attacker
-[19:27:46.654]UnitSpawnPointGameLogic.Spawn Transpiler
-[19:27:46.911]MWTrayState:MWTrayState
-[19:27:46.912]MWTrayState:MWTrayState
+[23:35:46.388]UnitSpawnPointGameLogic.Spawn Transpiler
+[23:35:46.460]MWTrayState:MWTrayState
+[23:35:46.460]MWTrayState:MWTrayState
 ToHit.GetAllModifiers transpliter
  source method found
  target method found
@@ -256,34 +256,33 @@ ToHit.GetAllModifiers transpliter
   result[54].opcode = ldc.i4.0
   result[53].opcode = ldarg.s
   result[52].opcode = ldarg.0
+ this opcode found changing to attacker
+ToHit.GetAllModifiers transpliter
+ source method found
+ target method found
+ methodCallIndex found 58
+  result[57].opcode = ldc.i4.0
+  result[56].opcode = ldarg.s
+  result[55].opcode = ldarg.0
+ this opcode found changing to attacker
+ToHit.GetAllModifiers transpliter
+ source method found
+ target method found
+ methodCallIndex found 55
+  result[54].opcode = ldc.i4.0
+  result[53].opcode = ldarg.s
+  result[52].opcode = ldarg.0
+ this opcode found changing to attacker
+ToHit.GetAllModifiers transpliter
+ source method found
+ target method found
+ methodCallIndex found 58
+  result[57].opcode = ldc.i4.0
+  result[56].opcode = ldarg.s
+  result[55].opcode = ldarg.0
  this opcode found changing to attacker
 flush
-ToHit.GetAllModifiers transpliter
- source method found
- target method found
- methodCallIndex found 58
-  result[57].opcode = ldc.i4.0
-  result[56].opcode = ldarg.s
-  result[55].opcode = ldarg.0
- this opcode found changing to attacker
-ToHit.GetAllModifiers transpliter
- source method found
- target method found
- methodCallIndex found 55
-  result[54].opcode = ldc.i4.0
-  result[53].opcode = ldarg.s
-  result[52].opcode = ldarg.0
- this opcode found changing to attacker
-ToHit.GetAllModifiers transpliter
- source method found
- target method found
- methodCallIndex found 58
-  result[57].opcode = ldc.i4.0
-  result[56].opcode = ldarg.s
-  result[55].opcode = ldarg.0
- this opcode found changing to attacker
-flush
-[19:28:02.101]FinishedLoading
+[23:35:54.931]FinishedLoading
 Patching PreferLowerMovementFactor.EvaluateInfluenceMapFactorAtPosition with unit param
 Patching PreferStationaryWhenHostilesInMeleeRangeFactor.EvaluateInfluenceMapFactorAtPosition with unit param
 Patching PreferHigherPositionFactor.EvaluateInfluenceMapFactorAtPosition with unit param
@@ -518,134 +517,134 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
  Assembly:System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
  MechEngineer.Features.OverrideStatTooltips.Helper.MechDefMovementStatistics found MechDefMovementStatistics
   MechEngineer.Features.OverrideStatTooltips.Helper.MechDefMovementStatistics GetJumpCapacity found
-[19:28:02.630]customResource:CustomMechRepresentationDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_barghest.json
-[19:28:02.912]CustomMech registered chrprfmech_barghest
-[19:28:02.912]CustomMech registered chrPrfComp_cubarghest_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_barghest_front.json
-[19:28:02.916]CustomMech registered chrprfmech_barghest_front
-[19:28:02.916]CustomMech registered chrPrfComp_barghest_front_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_barghest_rear.json
-[19:28:02.916]CustomMech registered chrprfmech_barghest_rear
-[19:28:02.916]CustomMech registered chrPrfComp_barghest_rear_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cudragoonbase-001.json
-[19:28:02.918]CustomMech registered chrprfmech_cudragoonbase-001
-[19:28:02.918]CustomMech registered chrPrfComp_cudragoon_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cugreatturtlebase-001.json
-[19:28:02.928]CustomMech registered chrprfmech_cugreatturtlebase-001
-[19:28:02.928]CustomMech registered chrPrfComp_cugreatturtle_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cugulonbase-001.json
-[19:28:02.929]CustomMech registered chrprfmech_cugulonbase-001
-[19:28:02.929]CustomMech registered chrPrfComp_cugulon_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cugunslingerbase-001.json
-[19:28:02.929]CustomMech registered chrprfmech_cugunslingerbase-001
-[19:28:02.929]CustomMech registered chrPrfComp_cugunslinger_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cuharpagosquadbase-001.json
-[19:28:02.930]CustomMech registered chrprfmech_cuharpagosquadbase-001
-[19:28:02.930]CustomMech registered chrPrfComp_cuharpagosquad_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cuharpagosquadtankbase-001.json
-[19:28:02.930]CustomMech registered chrprfmech_cuharpagosquadtankbase-001
-[19:28:02.930]CustomMech registered chrPrfComp_cuharpagosquadtank_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cuheliosbase-001.json
-[19:28:02.931]CustomMech registered chrprfmech_cuheliosbase-001
-[19:28:02.931]CustomMech registered chrPrfComp_cuhelios_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cuironcladbase-001.json
-[19:28:02.931]CustomMech registered chrprfmech_cuironcladbase-001
-[19:28:02.931]CustomMech registered chrPrfComp_cuironclad_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cukisobase-001.json
-[19:28:02.931]CustomMech registered chrprfmech_cukisobase-001
-[19:28:02.931]CustomMech registered chrPrfComp_cukiso_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cusiroccobase-001.json
-[19:28:02.932]CustomMech registered chrprfmech_cusiroccobase-001
-[19:28:02.932]CustomMech registered chrPrfComp_cusirocco_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cusirocco_front.json
-[19:28:02.932]CustomMech registered chrprfmech_cusirocco_front
-[19:28:02.932]CustomMech registered chrPrfComp_cusirocco_front_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cusirocco_rear.json
-[19:28:02.932]CustomMech registered chrprfmech_cusirocco_rear
-[19:28:02.932]CustomMech registered chrPrfComp_cusirocco_rear_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cutarantulabase-001.json
-[19:28:02.933]CustomMech registered chrprfmech_cutarantulabase-001
-[19:28:02.933]CustomMech registered chrPrfComp_cutarantulabase_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_flashmanbase-001.json
-[19:28:02.933]CustomMech registered chrprfmech_cuflashmanbase-001
-[19:28:02.933]CustomMech registered chrPrfComp_cuflashman_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_goliath.json
-[19:28:02.933]CustomMech registered chrprfmech_goliath
-[19:28:02.933]CustomMech registered chrPrfComp_cugoliath_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_rifleman3base-001.json
-[19:28:02.934]CustomMech registered chrprfmech_curifleman3base-001
-[19:28:02.934]CustomMech registered chrPrfComp_curifleman3_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_scorpionmechbase-001.json
-[19:28:02.934]CustomMech registered chrprfmech_scorpionmechbase-001
-[19:28:02.934]CustomMech registered chrPrfComp_scorpionmech_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_urbifobase-001.json
-[19:28:02.939]CustomMech registered chrprfmech_cuurbifobase-001
-[19:28:02.939]CustomMech registered chrPrfComp_cuurbifo_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_dixon_vtol.json
-[19:28:02.942]CustomMech registered chrprfmech_dixon_vtol
-[19:28:02.942]CustomMech registered chrPrfComp_cudixon_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_harpagos_tank.json
-[19:28:02.943]CustomMech registered chrprfmech_harpagos_tank
-[19:28:02.943]CustomMech registered chrPrfComp_cuharpagostank_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_horskr_vtol.json
-[19:28:02.943]CustomMech registered chrprfmech_horskr_vtol
-[19:28:02.943]CustomMech registered chrPrfComp_cuhorskr_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_ishtar_tank.json
-[19:28:02.944]CustomMech registered chrprfmech_ishtar_tank
-[19:28:02.944]CustomMech registered chrPrfComp_cuishtar_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_kamakiri_vtol.json
-[19:28:02.944]CustomMech registered chrprfmech_kamakiri_vtol
-[19:28:02.944]CustomMech registered chrPrfComp_cukamakiri_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_karr_vtol.json
-[19:28:02.944]CustomMech registered chrprfmech_karr_vtol
-[19:28:02.944]CustomMech registered chrPrfComp_cukarr_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_markolab_tank.json
-[19:28:02.945]CustomMech registered chrprfmech_markolab_tank
-[19:28:02.945]CustomMech registered chrPrfComp_cumarkolab_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_overlord_dropship.json
-[19:28:02.946]CustomMech registered chrprfmech_overlord_dropship
-[19:28:02.946]CustomMech registered chrPrfComp_cuoverlord_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_perikirov_vtol.json
-[19:28:02.946]CustomMech registered chrprfmech_perikirov_vtol
-[19:28:02.946]CustomMech registered chrPrfComp_cuperikirov_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_rakirov_vtol.json
-[19:28:02.946]CustomMech registered chrprfmech_rakirov_vtol
-[19:28:02.946]CustomMech registered chrPrfComp_curakirov_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_redkite_vtol.json
-[19:28:02.947]CustomMech registered chrprfmech_redkite_vtol
-[19:28:02.947]CustomMech registered chrPrfComp_curedkite_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_strix_vtol.json
-[19:28:02.947]CustomMech registered chrprfmech_strix_vtol
-[19:28:02.947]CustomMech registered chrPrfComp_custrix_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_union-dropship.json
-[19:28:02.947]CustomMech registered chrprfmech_union_dropship
-[19:28:02.947]CustomMech registered chrPrfComp_cuunion_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_unnsvin_vtol.json
-[19:28:02.948]CustomMech registered chrprfmech_unnsvin_vtol
-[19:28:02.948]CustomMech registered chrPrfComp_cuunnsvin_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_urbiecopter_vtol.json
-[19:28:02.948]CustomMech registered chrprfmech_urbiecopter_vtol
-[19:28:02.948]CustomMech registered chrPrfComp_cuurbiecopter_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_warrior_vtol.json
-[19:28:02.948]CustomMech registered chrprfmech_warrior_vtol
-[19:28:02.948]CustomMech registered chrPrfComp_cuwarriorvtol_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_yellowjacket_vtol.json
-[19:28:02.949]CustomMech registered chrprfmech_yellowjacket_vtol
-[19:28:02.949]CustomMech registered chrPrfComp_cuyellowjacket_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\coastalcutter_vehicle_body.json
-[19:28:02.953]CustomMech registered coastalcutter_vehicle_body
-[19:28:02.953]CustomMech registered chrPrfComp_coastalcutter_simgame
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_turrets\chrprfmech_dropship_ball_turret.json
-[19:28:02.954]CustomMech registered chrprfmech_dropship_ball_turret
-[19:28:02.954]CustomMech registered chrPrfComp_cudropshipballturret_simgame
-[19:28:02.954]customResource:CustomPrefabDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_left_leg.json
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_right_leg.json
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_torso.json
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-CU\prefabs\chrprfmech_strix_vtol.json
-[19:28:02.960]customResource:DropSlotsDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_simgame_layout.json
+[23:35:55.080]customResource:CustomMechRepresentationDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_barghest.json
+[23:35:55.199]CustomMech registered chrprfmech_barghest
+[23:35:55.199]CustomMech registered chrPrfComp_cubarghest_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_barghest_front.json
+[23:35:55.202]CustomMech registered chrprfmech_barghest_front
+[23:35:55.202]CustomMech registered chrPrfComp_barghest_front_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_barghest_rear.json
+[23:35:55.202]CustomMech registered chrprfmech_barghest_rear
+[23:35:55.202]CustomMech registered chrPrfComp_barghest_rear_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cudragoonbase-001.json
+[23:35:55.205]CustomMech registered chrprfmech_cudragoonbase-001
+[23:35:55.205]CustomMech registered chrPrfComp_cudragoon_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cugreatturtlebase-001.json
+[23:35:55.217]CustomMech registered chrprfmech_cugreatturtlebase-001
+[23:35:55.217]CustomMech registered chrPrfComp_cugreatturtle_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cugulonbase-001.json
+[23:35:55.218]CustomMech registered chrprfmech_cugulonbase-001
+[23:35:55.218]CustomMech registered chrPrfComp_cugulon_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cugunslingerbase-001.json
+[23:35:55.219]CustomMech registered chrprfmech_cugunslingerbase-001
+[23:35:55.219]CustomMech registered chrPrfComp_cugunslinger_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cuharpagosquadbase-001.json
+[23:35:55.220]CustomMech registered chrprfmech_cuharpagosquadbase-001
+[23:35:55.220]CustomMech registered chrPrfComp_cuharpagosquad_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cuharpagosquadtankbase-001.json
+[23:35:55.221]CustomMech registered chrprfmech_cuharpagosquadtankbase-001
+[23:35:55.221]CustomMech registered chrPrfComp_cuharpagosquadtank_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cuheliosbase-001.json
+[23:35:55.221]CustomMech registered chrprfmech_cuheliosbase-001
+[23:35:55.221]CustomMech registered chrPrfComp_cuhelios_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cuironcladbase-001.json
+[23:35:55.221]CustomMech registered chrprfmech_cuironcladbase-001
+[23:35:55.221]CustomMech registered chrPrfComp_cuironclad_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cukisobase-001.json
+[23:35:55.223]CustomMech registered chrprfmech_cukisobase-001
+[23:35:55.223]CustomMech registered chrPrfComp_cukiso_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cusiroccobase-001.json
+[23:35:55.224]CustomMech registered chrprfmech_cusiroccobase-001
+[23:35:55.224]CustomMech registered chrPrfComp_cusirocco_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cusirocco_front.json
+[23:35:55.224]CustomMech registered chrprfmech_cusirocco_front
+[23:35:55.224]CustomMech registered chrPrfComp_cusirocco_front_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cusirocco_rear.json
+[23:35:55.224]CustomMech registered chrprfmech_cusirocco_rear
+[23:35:55.224]CustomMech registered chrPrfComp_cusirocco_rear_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_cutarantulabase-001.json
+[23:35:55.225]CustomMech registered chrprfmech_cutarantulabase-001
+[23:35:55.225]CustomMech registered chrPrfComp_cutarantulabase_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_flashmanbase-001.json
+[23:35:55.226]CustomMech registered chrprfmech_cuflashmanbase-001
+[23:35:55.226]CustomMech registered chrPrfComp_cuflashman_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_goliath.json
+[23:35:55.226]CustomMech registered chrprfmech_goliath
+[23:35:55.226]CustomMech registered chrPrfComp_cugoliath_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_rifleman3base-001.json
+[23:35:55.226]CustomMech registered chrprfmech_curifleman3base-001
+[23:35:55.226]CustomMech registered chrPrfComp_curifleman3_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_scorpionmechbase-001.json
+[23:35:55.227]CustomMech registered chrprfmech_scorpionmechbase-001
+[23:35:55.227]CustomMech registered chrPrfComp_scorpionmech_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations\chrprfmech_urbifobase-001.json
+[23:35:55.233]CustomMech registered chrprfmech_cuurbifobase-001
+[23:35:55.233]CustomMech registered chrPrfComp_cuurbifo_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_dixon_vtol.json
+[23:35:55.238]CustomMech registered chrprfmech_dixon_vtol
+[23:35:55.238]CustomMech registered chrPrfComp_cudixon_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_harpagos_tank.json
+[23:35:55.240]CustomMech registered chrprfmech_harpagos_tank
+[23:35:55.240]CustomMech registered chrPrfComp_cuharpagostank_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_horskr_vtol.json
+[23:35:55.240]CustomMech registered chrprfmech_horskr_vtol
+[23:35:55.240]CustomMech registered chrPrfComp_cuhorskr_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_ishtar_tank.json
+[23:35:55.240]CustomMech registered chrprfmech_ishtar_tank
+[23:35:55.240]CustomMech registered chrPrfComp_cuishtar_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_kamakiri_vtol.json
+[23:35:55.240]CustomMech registered chrprfmech_kamakiri_vtol
+[23:35:55.240]CustomMech registered chrPrfComp_cukamakiri_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_karr_vtol.json
+[23:35:55.241]CustomMech registered chrprfmech_karr_vtol
+[23:35:55.241]CustomMech registered chrPrfComp_cukarr_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_markolab_tank.json
+[23:35:55.241]CustomMech registered chrprfmech_markolab_tank
+[23:35:55.241]CustomMech registered chrPrfComp_cumarkolab_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_overlord_dropship.json
+[23:35:55.241]CustomMech registered chrprfmech_overlord_dropship
+[23:35:55.241]CustomMech registered chrPrfComp_cuoverlord_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_perikirov_vtol.json
+[23:35:55.242]CustomMech registered chrprfmech_perikirov_vtol
+[23:35:55.242]CustomMech registered chrPrfComp_cuperikirov_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_rakirov_vtol.json
+[23:35:55.242]CustomMech registered chrprfmech_rakirov_vtol
+[23:35:55.242]CustomMech registered chrPrfComp_curakirov_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_redkite_vtol.json
+[23:35:55.243]CustomMech registered chrprfmech_redkite_vtol
+[23:35:55.243]CustomMech registered chrPrfComp_curedkite_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_strix_vtol.json
+[23:35:55.243]CustomMech registered chrprfmech_strix_vtol
+[23:35:55.243]CustomMech registered chrPrfComp_custrix_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_union-dropship.json
+[23:35:55.243]CustomMech registered chrprfmech_union_dropship
+[23:35:55.243]CustomMech registered chrPrfComp_cuunion_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_unnsvin_vtol.json
+[23:35:55.244]CustomMech registered chrprfmech_unnsvin_vtol
+[23:35:55.244]CustomMech registered chrPrfComp_cuunnsvin_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_urbiecopter_vtol.json
+[23:35:55.244]CustomMech registered chrprfmech_urbiecopter_vtol
+[23:35:55.244]CustomMech registered chrPrfComp_cuurbiecopter_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_warrior_vtol.json
+[23:35:55.244]CustomMech registered chrprfmech_warrior_vtol
+[23:35:55.244]CustomMech registered chrPrfComp_cuwarriorvtol_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\chrprfmech_yellowjacket_vtol.json
+[23:35:55.245]CustomMech registered chrprfmech_yellowjacket_vtol
+[23:35:55.245]CustomMech registered chrPrfComp_cuyellowjacket_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_vehicles\coastalcutter_vehicle_body.json
+[23:35:55.246]CustomMech registered coastalcutter_vehicle_body
+[23:35:55.246]CustomMech registered chrPrfComp_coastalcutter_simgame
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\representations_turrets\chrprfmech_dropship_ball_turret.json
+[23:35:55.246]CustomMech registered chrprfmech_dropship_ball_turret
+[23:35:55.246]CustomMech registered chrPrfComp_cudropshipballturret_simgame
+[23:35:55.246]customResource:CustomPrefabDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-CU\prefabs\chrprfmech_strix_vtol.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_left_leg.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_right_leg.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CAB-Misc\prefabs\vf11lam_vjets_torso.json
+[23:35:55.250]customResource:DropSlotsDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_simgame_layout.json
  id:default_simgame_layout
  {
   "Description": {
@@ -662,7 +661,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "default_default_lance_hot"
   ]
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_skirmish_layout.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_layouts\default_skirmish_layout.json
  id:default_skirmish_layout
  {
   "Description": {
@@ -677,8 +676,8 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "default_default_lance2"
   ]
 }
-[19:28:02.970]customResource:DropLanceDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance1.json
+[23:35:55.253]customResource:DropLanceDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance1.json
  id:default_default_lance1
  {
   "Description": {
@@ -696,7 +695,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "default_omni_slot"
   ]
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance2.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance2.json
  id:default_default_lance2
  {
   "Description": {
@@ -714,7 +713,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "default_omni_slot"
   ]
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance_ba.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance_ba.json
  id:default_default_lance_ba
  {
   "Description": {
@@ -732,7 +731,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "default_ba_slot"
   ]
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance_hot.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_lances\default_default_lance_hot.json
  id:default_default_lance_hot
  {
   "Description": {
@@ -749,8 +748,8 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "default_omni_hotdrop"
   ]
 }
-[19:28:02.978]customResource:DropSlotDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_ba_slot.json
+[23:35:55.259]customResource:DropSlotDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_ba_slot.json
  id:default_ba_slot
  {
   "Description": {
@@ -767,7 +766,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
   "HotDrop": false,
   "UseMaxUnits": true
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_mech_slot.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_mech_slot.json
  id:default_mech_slot
  {
   "Description": {
@@ -785,7 +784,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
   "HotDrop": false,
   "UseMaxUnits": true
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_hotdrop.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_hotdrop.json
  id:default_omni_hotdrop
  {
   "Description": {
@@ -805,7 +804,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
   "HotDrop": true,
   "UseMaxUnits": false
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_slot.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_slot.json
  id:default_omni_slot
  {
   "Description": {
@@ -824,7 +823,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
   "HotDrop": false,
   "UseMaxUnits": true
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_vehicle_slot.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_vehicle_slot.json
  id:default_vehicle_slot
  {
   "Description": {
@@ -842,8 +841,8 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
   "HotDrop": false,
   "UseMaxUnits": true
 }
-[19:28:02.982]customResource:DropSlotDecorationDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_ba.json
+[23:35:55.262]customResource:DropSlotDecorationDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_ba.json
  id:decoration_slot_ba
  {
   "Description": {
@@ -853,7 +852,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "Icon": "robot-helmet"
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_hotdrop.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_hotdrop.json
  id:decoration_slot_hotdrop
  {
   "Description": {
@@ -863,7 +862,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "Icon": "landing-safe-svgrepo-com"
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_mech.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_mech.json
  id:decoration_slot_mech
  {
   "Description": {
@@ -873,7 +872,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "Icon": "battle-mech"
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_vehicle.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_decorations\decoration_slot_vehicle.json
  id:decoration_slot_vehicle
  {
   "Description": {
@@ -883,8 +882,8 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "Icon": "tank"
   }
 }
-[19:28:02.985]customResource:PilotingClassDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericMechClass.json
+[23:35:55.265]customResource:PilotingClassDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericMechClass.json
  id:GenericMechClass
  {
   "unitTags": [
@@ -903,7 +902,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
   "expertiseGenerationMinCount": 1,
   "ExcludeClasses": []
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericVehicleClass.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\piloting_classes\GenericVehicleClass.json
  id:GenericVehicleClass
  {
   "unitTags": [
@@ -922,8 +921,8 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
   "expertiseGenerationMinCount": 1,
   "ExcludeClasses": []
 }
-[19:28:02.992]customResource:DropClassDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\BAClass.json
+[23:35:55.269]customResource:DropClassDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\BAClass.json
  id:BAClass
  {
   "Description": {
@@ -933,7 +932,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "Icon": null
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericMechClass.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericMechClass.json
  id:GenericMechClass
  {
   "Description": {
@@ -943,7 +942,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "Icon": null
   }
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericVehicleClass.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_classes\GenericVehicleClass.json
  id:GenericVehicleClass
  {
   "Description": {
@@ -953,8 +952,8 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
     "Icon": null
   }
 }
-[19:28:02.997]customResource:CustomHangarDef
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\battle_armor_bays.json
+[23:35:55.272]customResource:CustomHangarDef
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\battle_armor_bays.json
  id:battle_armor_bays
  {
   "Description": {
@@ -965,7 +964,7 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
   },
   "PositionShift": 200
 }
- Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\vehicle_bays.json
+ Path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\hangardefs\vehicle_bays.json
  id:vehicle_bays
  {
   "Description": {
@@ -976,13 +975,13 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
   },
   "PositionShift": 100
 }
-[19:28:03.002]customResource:CustomWeatherEffect
-[19:28:03.002]customResource:CustomHitTableDef
-[19:28:03.004]PilotingClassHelper.Validate
+[23:35:55.275]customResource:CustomWeatherEffect
+[23:35:55.275]customResource:CustomHitTableDef
+[23:35:55.277]PilotingClassHelper.Validate
  GenericMechClass
  GenericVehicleClass
-[19:28:03.540]SaveManager:E:\SteamLibrary\steamapps\common\BATTLETECH\GNWarsSaves\local\S0
-[19:28:04.987]ApplicationConstants.FromJSON. PrewarmRequests:
+[23:35:55.798]SaveManager:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\GNWarsSaves\local\S0
+[23:35:56.942]ApplicationConstants.FromJSON. PrewarmRequests:
  BaseDescriptionDef:All
  VehicleDef:All
  SVGAsset:GNParticles
@@ -1029,17 +1028,17 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
  SVGAsset:futuristic
  SVGAsset:ram
  chassisdef_shadowhawk_SHD-2D  isFake:False
-[19:28:05.586]CustomStructureDef.AddDefaults
+[23:35:57.350]CustomStructureDef.AddDefaults
  chassisdef_shadowhawk_SHD-2H  isFake:False
-[19:28:06.192]ContentPackIndex.TryFinalizeDataLoad
-[19:28:06.203]ContentPackIndex.TryFinalizeDataLoad
-[19:28:06.485]ContentPackIndex.TryFinalizeDataLoad
-[19:28:06.485]ContentPackIndex.TryFinalizeDataLoad
-[19:28:06.489]ContentPackIndex.TryFinalizeDataLoad
-[19:28:06.499]ContentPackIndex.TryFinalizeDataLoad
-[19:28:06.661]DataManager.PoolGameObject IntroCinematicLauncher(IntroCinematicLauncher(Clone)) -> null
-[19:28:07.063]ContentPackIndex.TryFinalizeDataLoad
-[19:28:07.345]ContentPackIndex.TryFinalizeDataLoad
+[23:35:57.889]ContentPackIndex.TryFinalizeDataLoad
+[23:35:57.896]ContentPackIndex.TryFinalizeDataLoad
+[23:35:58.096]ContentPackIndex.TryFinalizeDataLoad
+[23:35:58.097]ContentPackIndex.TryFinalizeDataLoad
+[23:35:58.100]ContentPackIndex.TryFinalizeDataLoad
+[23:35:58.110]ContentPackIndex.TryFinalizeDataLoad
+[23:35:58.258]DataManager.PoolGameObject IntroCinematicLauncher(IntroCinematicLauncher(Clone)) -> null
+[23:35:58.447]ContentPackIndex.TryFinalizeDataLoad
+[23:35:58.634]ContentPackIndex.TryFinalizeDataLoad
  adding MechDef vehicledef_APC_Sleipnir data/vehicle/vehicledef_APC_Sleipnir.json
  adding MechDef vehicledef_APC_Vargr data/vehicle/vehicledef_APC_Vargr.json
  adding MechDef vehicledef_APC_Wheeled data/vehicle/vehicledef_APC_Wheeled.json
@@ -1105,184 +1104,183 @@ Patching PreferStationaryWithMeleeWeapon.EvaluateInfluenceMapFactorAtPosition wi
  adding ChassisDef vehiclechassisdef_SCHREK_SPPC Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/vehiclechassisdef_SCHREK_SPPC.json
  adding ChassisDef vehiclechassisdef_SCORPION_MKII Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/vehiclechassisdef_SCORPION_MKII.json
  adding ChassisDef vehiclechassisdef_STRIKER_Narc Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/Assets/ContentPackSource/HeavyMetal/data/vehicleChassis/vehiclechassisdef_STRIKER_Narc.json
-[19:28:08.723]MechDef.CollectInventoryPrefabs mechdef_spider_SDR-5V inventory:11
+[23:35:59.655]MechDef.CollectInventoryPrefabs mechdef_spider_SDR-5V inventory:11
  index:0 index:1 index:2 index:3 index:4 index:5 index:6 index:7 index:8 index:9 index:10 chassisdef_spider_SDR-5V  isFake:False
-flush
-[19:28:10.779]VehicleDef.RequestInventoryPrefabs
-[19:28:10.780]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:null
+[23:36:01.774]VehicleDef.RequestInventoryPrefabs
+[23:36:01.774]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.780]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Sleipnir chassis:vehiclechassisdef_APC_Sleipnir
-[19:28:10.781]VehicleDef.RequestInventoryPrefabs
-[19:28:10.781]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:null
+[23:36:01.775]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Sleipnir chassis:vehiclechassisdef_APC_Sleipnir
+[23:36:01.776]VehicleDef.RequestInventoryPrefabs
+[23:36:01.776]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.781]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Vargr chassis:vehiclechassisdef_APC_Vargr
-[19:28:10.782]VehicleDef.RequestInventoryPrefabs
-[19:28:10.782]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:null
+[23:36:01.776]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Vargr chassis:vehiclechassisdef_APC_Vargr
+[23:36:01.777]VehicleDef.RequestInventoryPrefabs
+[23:36:01.777]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.782]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Wheeled chassis:vehiclechassisdef_APC_Wheeled
-[19:28:10.783]VehicleDef.RequestInventoryPrefabs
-[19:28:10.783]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:null
+[23:36:01.777]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Wheeled chassis:vehiclechassisdef_APC_Wheeled
+[23:36:01.778]VehicleDef.RequestInventoryPrefabs
+[23:36:01.778]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.783]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_BULLDOG chassis:vehiclechassisdef_BULLDOG
-[19:28:10.784]VehicleDef.RequestInventoryPrefabs
-[19:28:10.784]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:null
+[23:36:01.778]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_BULLDOG chassis:vehiclechassisdef_BULLDOG
+[23:36:01.778]VehicleDef.RequestInventoryPrefabs
+[23:36:01.778]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.784]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_LRM chassis:vehiclechassisdef_CARRIER_LRM
-[19:28:10.785]VehicleDef.RequestInventoryPrefabs
-[19:28:10.785]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:null
+[23:36:01.778]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_LRM chassis:vehiclechassisdef_CARRIER_LRM
+[23:36:01.779]VehicleDef.RequestInventoryPrefabs
+[23:36:01.779]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.785]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_SRM chassis:vehiclechassisdef_CARRIER_SRM
-[19:28:10.785]VehicleDef.RequestInventoryPrefabs
-[19:28:10.785]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:null
+[23:36:01.779]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_SRM chassis:vehiclechassisdef_CARRIER_SRM
+[23:36:01.780]VehicleDef.RequestInventoryPrefabs
+[23:36:01.780]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.785]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER chassis:vehiclechassisdef_DEMOLISHER
-[19:28:10.786]VehicleDef.RequestInventoryPrefabs
-[19:28:10.786]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:null
+[23:36:01.780]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER chassis:vehiclechassisdef_DEMOLISHER
+[23:36:01.781]VehicleDef.RequestInventoryPrefabs
+[23:36:01.781]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.786]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON chassis:vehiclechassisdef_GALLEON
-[19:28:10.787]VehicleDef.RequestInventoryPrefabs
-[19:28:10.787]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:null
+[23:36:01.781]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON chassis:vehiclechassisdef_GALLEON
+[23:36:01.781]VehicleDef.RequestInventoryPrefabs
+[23:36:01.781]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.787]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MANTICORE chassis:vehiclechassisdef_MANTICORE
-[19:28:10.788]VehicleDef.RequestInventoryPrefabs
-[19:28:10.788]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
+[23:36:01.781]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MANTICORE chassis:vehiclechassisdef_MANTICORE
+[23:36:01.782]VehicleDef.RequestInventoryPrefabs
+[23:36:01.782]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.788]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ chassis:vehiclechassisdef_MOBILEHQ
-[19:28:10.789]VehicleDef.RequestInventoryPrefabs
-[19:28:10.789]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
+[23:36:01.782]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ chassis:vehiclechassisdef_MOBILEHQ
+[23:36:01.784]VehicleDef.RequestInventoryPrefabs
+[23:36:01.784]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.789]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ_ARMORED chassis:vehiclechassisdef_MOBILEHQ
-[19:28:10.790]VehicleDef.RequestInventoryPrefabs
-[19:28:10.790]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:null
+[23:36:01.784]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_MOBILEHQ_ARMORED chassis:vehiclechassisdef_MOBILEHQ
+[23:36:01.785]VehicleDef.RequestInventoryPrefabs
+[23:36:01.785]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.790]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK chassis:vehiclechassisdef_SCHREK
-[19:28:10.791]VehicleDef.RequestInventoryPrefabs
-[19:28:10.791]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:null
+[23:36:01.785]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK chassis:vehiclechassisdef_SCHREK
+[23:36:01.785]VehicleDef.RequestInventoryPrefabs
+[23:36:01.785]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.791]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION chassis:vehiclechassisdef_SCORPION
-[19:28:10.791]VehicleDef.RequestInventoryPrefabs
-[19:28:10.791]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
+[23:36:01.785]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION chassis:vehiclechassisdef_SCORPION
+[23:36:01.786]VehicleDef.RequestInventoryPrefabs
+[23:36:01.786]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.791]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
-[19:28:10.792]VehicleDef.RequestInventoryPrefabs
-[19:28:10.792]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
+[23:36:01.786]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
+[23:36:01.787]VehicleDef.RequestInventoryPrefabs
+[23:36:01.787]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.792]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
-[19:28:10.793]VehicleDef.RequestInventoryPrefabs
-[19:28:10.793]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:null
+[23:36:01.787]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
+[23:36:01.788]VehicleDef.RequestInventoryPrefabs
+[23:36:01.788]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.793]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER chassis:vehiclechassisdef_STRIKER
-[19:28:10.793]VehicleDef.RequestInventoryPrefabs
-[19:28:10.793]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:null
+[23:36:01.788]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER chassis:vehiclechassisdef_STRIKER
+[23:36:01.788]VehicleDef.RequestInventoryPrefabs
+[23:36:01.788]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.793]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND chassis:vehiclechassisdef_SWIFTWIND
-[19:28:10.794]VehicleDef.RequestInventoryPrefabs
-[19:28:10.794]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:null
+[23:36:01.788]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND chassis:vehiclechassisdef_SWIFTWIND
+[23:36:01.789]VehicleDef.RequestInventoryPrefabs
+[23:36:01.789]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.794]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND_ARMORED chassis:vehiclechassisdef_SWIFTWIND_ARMORED
-[19:28:10.794]VehicleDef.RequestInventoryPrefabs
-[19:28:10.794]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:null
+[23:36:01.789]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SWIFTWIND_ARMORED chassis:vehiclechassisdef_SWIFTWIND_ARMORED
+[23:36:01.790]VehicleDef.RequestInventoryPrefabs
+[23:36:01.790]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.794]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE1 chassis:vehiclechassisdef_TARGETVEHICLE1
-[19:28:10.795]VehicleDef.RequestInventoryPrefabs
-[19:28:10.795]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:null
+[23:36:01.790]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE1 chassis:vehiclechassisdef_TARGETVEHICLE1
+[23:36:01.791]VehicleDef.RequestInventoryPrefabs
+[23:36:01.791]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.795]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE2 chassis:vehiclechassisdef_TARGETVEHICLE2
-[19:28:10.796]VehicleDef.RequestInventoryPrefabs
-[19:28:10.796]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
+[23:36:01.791]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_TARGETVEHICLE2 chassis:vehiclechassisdef_TARGETVEHICLE2
+[23:36:01.791]VehicleDef.RequestInventoryPrefabs
+[23:36:01.791]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.796]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_AMMOTRANSPORT chassis:vehiclechassisdef_MOBILEHQ
-[19:28:10.797]VehicleDef.RequestInventoryPrefabs
-[19:28:10.797]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:null
+[23:36:01.791]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_AMMOTRANSPORT chassis:vehiclechassisdef_MOBILEHQ
+[23:36:01.793]VehicleDef.RequestInventoryPrefabs
+[23:36:01.793]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.797]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLANT chassis:vehiclechassisdef_GALLANT
-[19:28:10.798]VehicleDef.RequestInventoryPrefabs
-[19:28:10.798]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:null
+[23:36:01.793]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLANT chassis:vehiclechassisdef_GALLANT
+[23:36:01.794]VehicleDef.RequestInventoryPrefabs
+[23:36:01.794]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.798]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_PACKRAT chassis:vehiclechassisdef_PACKRAT
-[19:28:10.798]VehicleDef.RequestInventoryPrefabs
-[19:28:10.798]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:null
+[23:36:01.794]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_PACKRAT chassis:vehiclechassisdef_PACKRAT
+[23:36:01.795]VehicleDef.RequestInventoryPrefabs
+[23:36:01.795]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.798]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_ROTUNDA chassis:vehiclechassisdef_ROTUNDA
-[19:28:10.799]VehicleDef.RequestInventoryPrefabs
-[19:28:10.799]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:null
+[23:36:01.795]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_ROTUNDA chassis:vehiclechassisdef_ROTUNDA
+[23:36:01.796]VehicleDef.RequestInventoryPrefabs
+[23:36:01.796]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.799]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Alsvin chassis:vehiclechassisdef_APC_Alsvin
-[19:28:10.800]VehicleDef.RequestInventoryPrefabs
-[19:28:10.800]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:null
+[23:36:01.796]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Alsvin chassis:vehiclechassisdef_APC_Alsvin
+[23:36:01.796]VehicleDef.RequestInventoryPrefabs
+[23:36:01.796]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.800]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Arvakr chassis:vehiclechassisdef_APC_Arvakr
-[19:28:10.800]VehicleDef.RequestInventoryPrefabs
-[19:28:10.800]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:null
+[23:36:01.796]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_APC_Arvakr chassis:vehiclechassisdef_APC_Arvakr
+[23:36:01.797]VehicleDef.RequestInventoryPrefabs
+[23:36:01.797]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.800]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_Inferno chassis:vehiclechassisdef_CARRIER_Inferno
-[19:28:10.801]VehicleDef.RequestInventoryPrefabs
-[19:28:10.801]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:null
+[23:36:01.797]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_CARRIER_Inferno chassis:vehiclechassisdef_CARRIER_Inferno
+[23:36:01.798]VehicleDef.RequestInventoryPrefabs
+[23:36:01.798]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.801]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER_LBX chassis:vehiclechassisdef_DEMOLISHER_LBX
-[19:28:10.802]VehicleDef.RequestInventoryPrefabs
-[19:28:10.802]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:null
+[23:36:01.798]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_DEMOLISHER_LBX chassis:vehiclechassisdef_DEMOLISHER_LBX
+[23:36:01.799]VehicleDef.RequestInventoryPrefabs
+[23:36:01.799]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.802]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON_TAG chassis:vehiclechassisdef_GALLEON_TAG
-[19:28:10.802]VehicleDef.RequestInventoryPrefabs
-[19:28:10.802]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
+[23:36:01.799]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_GALLEON_TAG chassis:vehiclechassisdef_GALLEON_TAG
+[23:36:01.799]VehicleDef.RequestInventoryPrefabs
+[23:36:01.799]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.802]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
-[19:28:10.803]VehicleDef.RequestInventoryPrefabs
-[19:28:10.803]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
+[23:36:01.799]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneHeavy chassis:vehiclechassisdef_SLDFDroneHeavy
+[23:36:01.800]VehicleDef.RequestInventoryPrefabs
+[23:36:01.800]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.803]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
-[19:28:10.803]VehicleDef.RequestInventoryPrefabs
-[19:28:10.803]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:null
+[23:36:01.800]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_HM_SLDFDroneMedium chassis:vehiclechassisdef_SLDFDroneMedium
+[23:36:01.801]VehicleDef.RequestInventoryPrefabs
+[23:36:01.801]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.803]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK_SPPC chassis:vehiclechassisdef_SCHREK_SPPC
-[19:28:10.804]VehicleDef.RequestInventoryPrefabs
-[19:28:10.804]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:null
+[23:36:01.801]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCHREK_SPPC chassis:vehiclechassisdef_SCHREK_SPPC
+[23:36:01.802]VehicleDef.RequestInventoryPrefabs
+[23:36:01.802]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.804]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION_MKII chassis:vehiclechassisdef_SCORPION_MKII
-[19:28:10.804]VehicleDef.RequestInventoryPrefabs
-[19:28:10.804]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:null
+[23:36:01.802]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_SCORPION_MKII chassis:vehiclechassisdef_SCORPION_MKII
+[23:36:01.802]VehicleDef.RequestInventoryPrefabs
+[23:36:01.802]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:null
  DataManager:not null
  VehicleChassis:False
-[19:28:10.805]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER_Narc chassis:vehiclechassisdef_STRIKER_Narc
+[23:36:01.802]VehicleDef.RequestInventoryPrefabs without chassis. vehicledef_STRIKER_Narc chassis:vehiclechassisdef_STRIKER_Narc
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
- WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Autocannon_AC20_SPECIAL-Victoria.json
+ WeaponDef streamingAssetsPath:C:/Program Files (x86)/Steam/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Autocannon_AC20_SPECIAL-Victoria.json
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
- WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Flamer_Flamer_SPECIAL-Victoria.json
-[19:28:11.485]System.ArgumentNullException: Value cannot be null.
+ WeaponDef streamingAssetsPath:C:/Program Files (x86)/Steam/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Flamer_Flamer_SPECIAL-Victoria.json
+[23:36:02.629]System.ArgumentNullException: Value cannot be null.
 Parameter name: key
   at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ThrowKeyNullException () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
@@ -1318,64 +1316,58 @@ Parameter name: key
  vehiclechassisdef_SCHREK_SPPC
  vehiclechassisdef_SCORPION_MKII
  vehiclechassisdef_STRIKER_Narc
-[19:28:11.819]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:not null
-[19:28:11.819]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:not null
-[19:28:11.819]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:not null
-[19:28:11.825]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:not null
-[19:28:11.825]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:not null
-[19:28:11.825]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:not null
-[19:28:11.825]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:not null
-[19:28:11.825]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:not null
-[19:28:11.825]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:not null
-[19:28:11.825]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:not null
-[19:28:11.825]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:not null
-[19:28:11.825]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:not null
-[19:28:11.832]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:not null
-[19:28:11.832]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
-[19:28:11.832]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:not null
-[19:28:11.832]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
-[19:28:11.832]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:not null
-[19:28:11.832]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:not null
-[19:28:11.832]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
-[19:28:11.832]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
-[19:28:11.849]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:not null
-[19:28:11.849]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:not null
-[19:28:11.849]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:not null
-[19:28:11.849]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:not null
-[19:28:11.849]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:not null
-[19:28:11.849]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:not null
-[19:28:11.849]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:not null
-[19:28:11.849]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:not null
-[19:28:11.849]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
-[19:28:11.849]HardpointDataDef.Loaded:hardpointdatadef_rotunda HardpointData:1
-[19:28:11.866]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
-[19:28:11.866]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
-[19:28:11.866]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:not null
-[19:28:11.866]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:not null
-[19:28:11.866]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:not null
+[23:36:03.004]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_LRM chassis:not null
+[23:36:03.004]VehicleChassisDef.RefreshChassis vehiclechassisdef_BULLDOG chassis:not null
+[23:36:03.004]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Sleipnir chassis:not null
+[23:36:03.010]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_Inferno chassis:not null
+[23:36:03.010]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Arvakr chassis:not null
+[23:36:03.010]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Alsvin chassis:not null
+[23:36:03.010]VehicleChassisDef.RefreshChassis vehiclechassisdef_MANTICORE chassis:not null
+[23:36:03.010]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON chassis:not null
+[23:36:03.010]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER chassis:not null
+[23:36:03.010]VehicleChassisDef.RefreshChassis vehiclechassisdef_CARRIER_SRM chassis:not null
+[23:36:03.010]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Wheeled chassis:not null
+[23:36:03.010]VehicleChassisDef.RefreshChassis vehiclechassisdef_APC_Vargr chassis:not null
+[23:36:03.036]VehicleChassisDef.RefreshChassis vehiclechassisdef_DEMOLISHER_LBX chassis:not null
+[23:36:03.036]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
+[23:36:03.036]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER chassis:not null
+[23:36:03.036]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
+[23:36:03.037]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION chassis:not null
+[23:36:03.037]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK chassis:not null
+[23:36:03.037]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
+[23:36:03.037]VehicleChassisDef.RefreshChassis vehiclechassisdef_MOBILEHQ chassis:not null
+[23:36:03.064]VehicleChassisDef.RefreshChassis vehiclechassisdef_STRIKER_Narc chassis:not null
+[23:36:03.064]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCORPION_MKII chassis:not null
+[23:36:03.064]VehicleChassisDef.RefreshChassis vehiclechassisdef_SCHREK_SPPC chassis:not null
+[23:36:03.064]VehicleChassisDef.RefreshChassis vehiclechassisdef_PACKRAT chassis:not null
+[23:36:03.064]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLANT chassis:not null
+[23:36:03.064]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE2 chassis:not null
+[23:36:03.064]VehicleChassisDef.RefreshChassis vehiclechassisdef_TARGETVEHICLE1 chassis:not null
+[23:36:03.064]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND chassis:not null
+[23:36:03.064]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
+[23:36:03.065]HardpointDataDef.Loaded:hardpointdatadef_rotunda HardpointData:1
+[23:36:03.091]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneMedium chassis:not null
+[23:36:03.091]VehicleChassisDef.RefreshChassis vehiclechassisdef_SLDFDroneHeavy chassis:not null
+[23:36:03.091]VehicleChassisDef.RefreshChassis vehiclechassisdef_GALLEON_TAG chassis:not null
+[23:36:03.091]VehicleChassisDef.RefreshChassis vehiclechassisdef_ROTUNDA chassis:not null
+[23:36:03.091]VehicleChassisDef.RefreshChassis vehiclechassisdef_SWIFTWIND_ARMORED chassis:not null
 flush
-flush
-flush
-flush
-flush
-flush
-[19:29:17.107]DataManager.PoolGameObject uixPrfPanl_STG_difficultyModule(uixPrfPanl_STG_difficultyModule(Clone)) -> null
-[19:29:17.110]DataManager.PoolGameObject uixPrfPanl_newGameDifficultyMenu(uixPrfPanl_newGameDifficultyMenu(Clone)) -> null
-[19:29:17.447]DataManager.PoolGameObject uixPrfWidget_profileBreadcrumb_widget(uixPrfWidget_profileBreadcrumb_widget(Clone)) -> null
-[19:29:17.447]DataManager.PoolGameObject uixPrfPanl_mainMenu-Screen_V3(uixPrfPanl_mainMenu-Screen_V3(Clone)) -> null
+[23:36:06.331]DataManager.PoolGameObject uixPrfPanl_STG_difficultyModule(uixPrfPanl_STG_difficultyModule(Clone)) -> null
+[23:36:06.333]DataManager.PoolGameObject uixPrfPanl_newGameDifficultyMenu(uixPrfPanl_newGameDifficultyMenu(Clone)) -> null
+[23:36:06.745]DataManager.PoolGameObject uixPrfWidget_profileBreadcrumb_widget(uixPrfWidget_profileBreadcrumb_widget(Clone)) -> null
+[23:36:06.745]DataManager.PoolGameObject uixPrfPanl_mainMenu-Screen_V3(uixPrfPanl_mainMenu-Screen_V3(Clone)) -> null
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
- UpgradeDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNWarsMechModules\Cockpit\LifeSupport\sortingtbd.txt
+ UpgradeDef streamingAssetsPath:C:/Program Files (x86)/Steam/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\GN Core\GNWarsMechModules\Cockpit\LifeSupport\sortingtbd.txt
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
- WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Autocannon_AC20_SPECIAL-Victoria.json
+ WeaponDef streamingAssetsPath:C:/Program Files (x86)/Steam/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Autocannon_AC20_SPECIAL-Victoria.json
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
- WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Flamer_Flamer_SPECIAL-Victoria.json
-[19:29:17.939]System.ArgumentNullException: Value cannot be null.
+ WeaponDef streamingAssetsPath:C:/Program Files (x86)/Steam/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Flamer_Flamer_SPECIAL-Victoria.json
+[23:36:07.144]System.ArgumentNullException: Value cannot be null.
 Parameter name: key
   at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ThrowKeyNullException () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at CustomUnits.CustomHardPointsHelper.Find (System.String name) [0x00001] in <a59955d107f6423eb9d100e09a81b280>:0 
   at CustomUnits.DataManager_Exists.Prefix (BattleTech.Data.DataManager __instance, BattleTech.BattleTechResourceType resourceType, System.String& id) [0x00011] in <a59955d107f6423eb9d100e09a81b280>:0 
-flush
  additional melee def:Weapon_MeleeAttack  exists
  additional melee def:Weapon_MeleeAttack  exists
  additional melee def:Weapon_MeleeAttack  exists
@@ -7096,9 +7088,9 @@ flush
   at Newtonsoft.Json.Linq.JObject.Parse (System.String json, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0000c] in <bcfe3779d9974effb214d2a48329f488>:0 
   at Newtonsoft.Json.Linq.JObject.Parse (System.String json) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
   at CustomUnits.MechDef_FromJSON_fake.Prefix (BattleTech.MechDef __instance, System.String& json) [0x00018] in <a59955d107f6423eb9d100e09a81b280>:0 
-LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
- SVGAsset streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNTech\icons\Internals\GMShield.svg
 flush
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ SVGAsset streamingAssetsPath:C:/Program Files (x86)/Steam/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\GN Core\GNTech\icons\Internals\GMShield.svg
  chassisdef_atlas_AS7-D-HT  isFake:False
  chassisdef_atlas_AS7-D  isFake:False
  chassisdef_awesome_AWS-8Q  isFake:False
@@ -7217,65 +7209,65 @@ flush
  chassisdef_vulcan_VL-2T  isFake:False
  chassisdef_vulcan_VL-5T  isFake:False
  vehiclechassisdef_APC_Sleipnir  isFake:True
-[19:29:31.285]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Sleipnir
+[23:36:19.510]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Sleipnir
  vehiclechassisdef_APC_Vargr  isFake:True
-[19:29:31.288]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Vargr
+[23:36:19.512]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Vargr
  vehiclechassisdef_APC_Wheeled  isFake:True
-[19:29:31.290]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Wheeled
+[23:36:19.514]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Wheeled
  vehiclechassisdef_BULLDOG  isFake:True
-[19:29:31.293]ChassisDef.GatherDependencies fake vehiclechassisdef_BULLDOG
+[23:36:19.515]ChassisDef.GatherDependencies fake vehiclechassisdef_BULLDOG
  vehiclechassisdef_CARRIER_LRM  isFake:True
-[19:29:31.295]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_LRM
+[23:36:19.517]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_LRM
  vehiclechassisdef_CARRIER_SRM  isFake:True
-[19:29:31.297]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_SRM
+[23:36:19.519]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_SRM
  vehiclechassisdef_DEMOLISHER  isFake:True
-[19:29:31.299]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER
+[23:36:19.520]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER
  vehiclechassisdef_GALLEON  isFake:True
-[19:29:31.305]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON
+[23:36:19.522]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON
  vehiclechassisdef_MANTICORE  isFake:True
-[19:29:31.307]ChassisDef.GatherDependencies fake vehiclechassisdef_MANTICORE
+[23:36:19.524]ChassisDef.GatherDependencies fake vehiclechassisdef_MANTICORE
  vehiclechassisdef_MOBILEHQ  isFake:True
-[19:29:31.312]ChassisDef.GatherDependencies fake vehiclechassisdef_MOBILEHQ
+[23:36:19.527]ChassisDef.GatherDependencies fake vehiclechassisdef_MOBILEHQ
  vehiclechassisdef_SCHREK  isFake:True
-[19:29:31.314]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK
+[23:36:19.529]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK
  vehiclechassisdef_SCORPION  isFake:True
-[19:29:31.316]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION
+[23:36:19.531]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION
  vehiclechassisdef_SLDFDroneHeavy  isFake:True
-[19:29:31.319]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneHeavy
+[23:36:19.532]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneHeavy
  vehiclechassisdef_SLDFDroneMedium  isFake:True
-[19:29:31.321]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneMedium
+[23:36:19.533]ChassisDef.GatherDependencies fake vehiclechassisdef_SLDFDroneMedium
  vehiclechassisdef_STRIKER  isFake:True
-[19:29:31.323]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER
+[23:36:19.535]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER
  vehiclechassisdef_SWIFTWIND  isFake:True
-[19:29:31.325]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND
+[23:36:19.537]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND
  vehiclechassisdef_SWIFTWIND_ARMORED  isFake:True
-[19:29:31.328]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND_ARMORED
+[23:36:19.538]ChassisDef.GatherDependencies fake vehiclechassisdef_SWIFTWIND_ARMORED
  vehiclechassisdef_TARGETVEHICLE1  isFake:True
-[19:29:31.330]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE1
+[23:36:19.540]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE1
  vehiclechassisdef_TARGETVEHICLE2  isFake:True
-[19:29:31.332]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE2
+[23:36:19.541]ChassisDef.GatherDependencies fake vehiclechassisdef_TARGETVEHICLE2
  vehiclechassisdef_GALLANT  isFake:True
-[19:29:31.337]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLANT
+[23:36:19.544]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLANT
  vehiclechassisdef_PACKRAT  isFake:True
-[19:29:31.339]ChassisDef.GatherDependencies fake vehiclechassisdef_PACKRAT
+[23:36:19.546]ChassisDef.GatherDependencies fake vehiclechassisdef_PACKRAT
  vehiclechassisdef_ROTUNDA  isFake:True
-[19:29:31.341]ChassisDef.GatherDependencies fake vehiclechassisdef_ROTUNDA
+[23:36:19.548]ChassisDef.GatherDependencies fake vehiclechassisdef_ROTUNDA
  vehiclechassisdef_APC_Alsvin  isFake:True
-[19:29:31.343]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Alsvin
+[23:36:19.550]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Alsvin
  vehiclechassisdef_APC_Arvakr  isFake:True
-[19:29:31.344]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Arvakr
+[23:36:19.551]ChassisDef.GatherDependencies fake vehiclechassisdef_APC_Arvakr
  vehiclechassisdef_CARRIER_Inferno  isFake:True
-[19:29:31.346]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_Inferno
+[23:36:19.552]ChassisDef.GatherDependencies fake vehiclechassisdef_CARRIER_Inferno
  vehiclechassisdef_DEMOLISHER_LBX  isFake:True
-[19:29:31.348]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER_LBX
+[23:36:19.554]ChassisDef.GatherDependencies fake vehiclechassisdef_DEMOLISHER_LBX
  vehiclechassisdef_GALLEON_TAG  isFake:True
-[19:29:31.351]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON_TAG
+[23:36:19.555]ChassisDef.GatherDependencies fake vehiclechassisdef_GALLEON_TAG
  vehiclechassisdef_SCHREK_SPPC  isFake:True
-[19:29:31.353]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK_SPPC
+[23:36:19.556]ChassisDef.GatherDependencies fake vehiclechassisdef_SCHREK_SPPC
  vehiclechassisdef_SCORPION_MKII  isFake:True
-[19:29:31.354]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION_MKII
+[23:36:19.558]ChassisDef.GatherDependencies fake vehiclechassisdef_SCORPION_MKII
  vehiclechassisdef_STRIKER_Narc  isFake:True
-[19:29:31.358]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER_Narc
+[23:36:19.560]ChassisDef.GatherDependencies fake vehiclechassisdef_STRIKER_Narc
  chassisdef_atlas_AS7-A  isFake:False
  chassisdef_atlas_AS7-D-H  isFake:False
  chassisdef_atlas_AS7-D-RS  isFake:False
@@ -7463,176 +7455,174 @@ flush
  chassisdef_MS_Desultor  isFake:False
  chassisdef_MS_GM  isFake:False
  chassisdef_deploy_director  isFake:False
-[19:29:35.336]!!!WARNING!!! hardpoint data definition hardpointdatadef_battlemaster contains duplicates weapon prefab identifiers mg in one group chrPrfWeap_battlemaster_leftarm_mg_bh1
-[19:29:36.724]_OnDefsLoadComplete Prefix Patch Installed
+[23:36:22.764]!!!WARNING!!! hardpoint data definition hardpointdatadef_battlemaster contains duplicates weapon prefab identifiers mg in one group chrPrfWeap_battlemaster_leftarm_mg_bh1
 flush
-[19:29:39.948]PilotGenerator.GeneratePilots
-[19:29:39.954]Pilot.InitAbilities PilotGen_SGRef_16771
-[19:29:39.957]PilotGenerator.GeneratePilots
-[19:29:39.957]Pilot.InitAbilities PilotGen_SGRef_16773
-[19:29:39.959]PilotGenerator.GeneratePilots
-[19:29:39.960]PilotGenerator.GeneratePilots
-[19:29:39.960]PilotGenerator.GeneratePilots
-[19:29:39.960]PilotGenerator.GeneratePilots
-[19:29:39.961]Pilot.InitAbilities PilotGen_SGRef_16778
-[19:29:39.961]PilotGenerator.GeneratePilots
-[19:29:39.962]PilotGenerator.GeneratePilots
-[19:29:39.962]Pilot.InitAbilities PilotGen_SGRef_16781
-[19:29:39.962]Pilot.InitAbilities pilot_commander_temp
-[19:29:39.975]SimGameState.AddMechs
-[19:29:39.984]AddMech Postfix Patch Installed
-[19:29:39.984]sorting disabled
-[19:29:39.984]AddMech Postfix Patch Installed
-[19:29:39.984]sorting disabled
-[19:29:39.984]AddMech Postfix Patch Installed
-[19:29:39.984]sorting disabled
-[19:29:39.985]AddMech Postfix Patch Installed
-[19:29:39.985]sorting disabled
-[19:29:39.985]AddMech Postfix Patch Installed
-[19:29:39.985]sorting disabled
-[19:29:39.992]Pilot.InitAbilities pilot_backer_Chung
-[19:29:39.993]Pilot.InitAbilities pilot_backer_Leone
-[19:29:39.993]Pilot.InitAbilities pilot_backer_Miller
-[19:29:39.994]Pilot.InitAbilities pilot_backer_Hording
-[19:29:39.994]Pilot.InitAbilities pilot_backer_Voyls
-[19:29:39.994]Pilot.InitAbilities pilot_backer_Bixby
-[19:29:39.995]Pilot.InitAbilities pilot_backer_Fielding
-[19:29:39.996]GeneratePilotingExpertisesStart
- mech:chassisdef_MS_GM
- mech:chassisdef_MS_GM
- mech:chassisdef_GN-000
+[23:36:23.819]_OnDefsLoadComplete Prefix Patch Installed
+[23:36:26.518]PilotGenerator.GeneratePilots
+[23:36:26.523]Pilot.InitAbilities PilotGen_SGRef_16771
+[23:36:26.527]PilotGenerator.GeneratePilots
+[23:36:26.527]PilotGenerator.GeneratePilots
+[23:36:26.527]Pilot.InitAbilities PilotGen_SGRef_16774
+[23:36:26.528]PilotGenerator.GeneratePilots
+[23:36:26.529]Pilot.InitAbilities PilotGen_SGRef_16776
+[23:36:26.530]PilotGenerator.GeneratePilots
+[23:36:26.530]Pilot.InitAbilities PilotGen_SGRef_16778
+[23:36:26.531]Pilot.InitAbilities pilot_commander_temp
+[23:36:26.541]SimGameState.AddMechs
+[23:36:26.548]AddMech Postfix Patch Installed
+[23:36:26.548]sorting disabled
+[23:36:26.549]AddMech Postfix Patch Installed
+[23:36:26.549]sorting disabled
+[23:36:26.549]AddMech Postfix Patch Installed
+[23:36:26.549]sorting disabled
+[23:36:26.549]AddMech Postfix Patch Installed
+[23:36:26.549]sorting disabled
+[23:36:26.549]AddMech Postfix Patch Installed
+[23:36:26.549]sorting disabled
+[23:36:26.555]Pilot.InitAbilities pilot_sim_starter_dekker
+[23:36:26.556]Pilot.InitAbilities pilot_Lan
+[23:36:26.557]Pilot.InitAbilities pilot_backer_Lemos
+[23:36:26.558]Pilot.InitAbilities pilot_backer_Test9
+[23:36:26.558]Pilot.InitAbilities pilot_backer_Brewer
+[23:36:26.558]Pilot.InitAbilities pilot_backer_Gibbs
+[23:36:26.559]Pilot.InitAbilities pilot_backer_Brown
+[23:36:26.560]GeneratePilotingExpertisesStart
  mech:chassisdef_GN-002
- mech:chassisdef_MS_Desultor
+ mech:chassisdef_GN-000-FA
+ mech:chassisdef_GN-002
+ mech:chassisdef_GN-000-FA
+ mech:chassisdef_MS_GM
  pilot:pilot_commander_temp/Arclight
- pilot:pilot_backer_Chung/Scrub
- pilot:pilot_backer_Leone/Succubus
- pilot:pilot_backer_Miller/Deadeye
- pilot:pilot_backer_Hording/Paladin
- pilot:pilot_backer_Voyls/GV
- pilot:pilot_backer_Bixby/Arbiter
- pilot:pilot_backer_Fielding/WeaselCakes
- mech:chassisdef_MS_GM GenericMechClass
- mech:chassisdef_MS_GM GenericMechClass
- mech:chassisdef_GN-000 GenericMechClass
+ pilot:pilot_sim_starter_dekker/Dekker
+ pilot:pilot_Lan/Lan
+ pilot:pilot_backer_Lemos/Sabrewolf
+ pilot:pilot_backer_Test9/Test9
+ pilot:pilot_backer_Brewer/Bronzite
+ pilot:pilot_backer_Gibbs/Whisper
+ pilot:pilot_backer_Brown/Bootcamp
  mech:chassisdef_GN-002 GenericMechClass
- mech:chassisdef_MS_Desultor GenericMechClass
- pilot:pilot_commander_temp/Arclight BLACKLISTED commander_player pilot_taurian pilot_tech pilot_spacer can_pilot_generic_mech can_pilot_generic_vehicle
- pilot:pilot_backer_Chung/Scrub experience_regular pilot_veteran name_Scrub pilot_liao can_pilot_generic_mech PqMarked
- pilot:pilot_backer_Leone/Succubus experience_green pilot_green name_Succubus pilot_steiner can_pilot_generic_mech PqMarked
- pilot:pilot_backer_Miller/Deadeye experience_green pilot_green name_Deadeye pilot_steiner can_pilot_generic_mech PqMarked
- pilot:pilot_backer_Hording/Paladin experience_regular pilot_regular name_Paladin pilot_steiner can_pilot_generic_mech PqMarked
- pilot:pilot_backer_Voyls/GV experience_regular pilot_regular name_GV pilot_marik can_pilot_generic_mech PqMarked
- pilot:pilot_backer_Bixby/Arbiter experience_regular pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
- pilot:pilot_backer_Fielding/WeaselCakes experience_regular pilot_regular name_WeaselCakes pilot_marik can_pilot_generic_mech PqMarked
-[19:29:39.999]_OnDefsLoadComplete Postfix Patch Installed
-[19:29:39.999]sorting disabled
-[19:29:41.425]Renderer.sharedMaterial set null BattleTech Decal (4)
-[19:29:44.823]Renderer.sharedMaterial set null scar03 (1)
-[19:29:47.739]HUDMechArmorReadout.Init gameObject:uixPrfPanl_SIM_mechPaperdoll-Element-MANAGED parent:obj_paperdoll
-[19:29:48.158]HUDMechArmorReadout.Init gameObject:uixPrfPanl_SIM_mechPaperdoll-Element-MANAGED parent:obj_paperdoll
-[19:29:48.188]HUDMechArmorReadout.Init gameObject:uixPrfPanl_SIM_mechPaperdoll-Element-MANAGED parent:obj_paperdoll
-[19:29:48.513]DataManager.PoolGameObject uixPrfPanl_ML_main-Widget(uixPrfPanl_ML_main-Widget(Clone)) -> null
-[19:29:48.630]MechBayPanel.OnAddedToHierarchy chassisInfoWidget:not null
-[19:29:48.633]MechBayPanel.Init
-[19:29:48.634]MechBayPanel.Inited
+ mech:chassisdef_GN-000-FA GenericMechClass
+ mech:chassisdef_GN-002 GenericMechClass
+ mech:chassisdef_GN-000-FA GenericMechClass
+ mech:chassisdef_MS_GM GenericMechClass
+ pilot:pilot_commander_temp/Arclight BLACKLISTED commander_player pilot_taurian pilot_tech pilot_spacer can_pilot_generic_mech
+ pilot:pilot_sim_starter_dekker/Dekker BLACKLISTED pilot_command pilot_innersphere pilot_liao pilot_military pilot_noble pilot_officer pilot_spacer pilot_mechwarrior pilot_starter name_Dekker can_pilot_generic_mech PqTagged_PilotHealth PqMarked
+ pilot:pilot_Lan/Lan pilot_backer experience_elite name_Lan Pilot_Innovator Pilot_ComstarTechnician pilot_lostech can_pilot_generic_mech PqMarked
+ pilot:pilot_backer_Lemos/Sabrewolf experience_regular pilot_regular name_Sabrewolf pilot_periphery can_pilot_generic_mech PqMarked
+ pilot:pilot_backer_Test9/Test9 experience_veteran pilot_veteran name_Test9 pilot_davion can_pilot_generic_mech PqMarked
+ pilot:pilot_backer_Brewer/Bronzite experience_regular pilot_regular name_Bronzite pilot_marik can_pilot_generic_mech PqMarked
+ pilot:pilot_backer_Gibbs/Whisper experience_green pilot_green name_Whisper pilot_taurian can_pilot_generic_mech PqMarked
+ pilot:pilot_backer_Brown/Bootcamp experience_regular pilot_regular name_Bootcamp pilot_steiner can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+[23:36:26.562]_OnDefsLoadComplete Postfix Patch Installed
+[23:36:26.562]sorting disabled
+[23:36:27.445]Renderer.sharedMaterial set null scar01 (1)
+[23:36:27.445]Renderer.sharedMaterial set null BattleTech Decal (7)
+[23:36:29.045]Renderer.sharedMaterial set null scar03 (1)
+[23:36:30.087]Renderer.sharedMaterial set null scar03 (1)
+[23:36:30.087]Renderer.sharedMaterial set null scar01 (1)
+[23:36:30.087]Renderer.sharedMaterial set null BattleTech Decal (13)
+[23:36:32.377]HUDMechArmorReadout.Init gameObject:uixPrfPanl_SIM_mechPaperdoll-Element-MANAGED parent:obj_paperdoll
+[23:36:32.661]HUDMechArmorReadout.Init gameObject:uixPrfPanl_SIM_mechPaperdoll-Element-MANAGED parent:obj_paperdoll
+[23:36:32.682]HUDMechArmorReadout.Init gameObject:uixPrfPanl_SIM_mechPaperdoll-Element-MANAGED parent:obj_paperdoll
+[23:36:32.904]DataManager.PoolGameObject uixPrfPanl_ML_main-Widget(uixPrfPanl_ML_main-Widget(Clone)) -> null
+[23:36:32.970]MechBayPanel.OnAddedToHierarchy chassisInfoWidget:not null
+[23:36:32.971]MechBayPanel.Init
+[23:36:32.972]MechBayPanel.Inited
 flush
-[19:29:51.186]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.187]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.187]Renderer.sharedMaterial set null BattleTech Decal (8)
-[19:29:51.187]Renderer.sharedMaterial set null BattleTech Decal (2)
-[19:29:51.187]Renderer.sharedMaterial set null BattleTech Decal (11)
-[19:29:51.187]Renderer.sharedMaterial set null BattleTech Decal (6)
-[19:29:51.187]Renderer.sharedMaterial set null BattleTech Decal (10)
-[19:29:51.187]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.187]Renderer.sharedMaterial set null BattleTech Decal (3)
-[19:29:51.187]Renderer.sharedMaterial set null BattleTech Decal (9)
-[19:29:51.187]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (12)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (4)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (5)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (1)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (2)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (1)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (1)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (7)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (2)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (2)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (2)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (2)
-[19:29:51.209]Renderer.sharedMaterial set null BattleTech Decal (2)
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal (1)
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal (1)
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal (1)
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal (1)
-[19:29:51.210]Renderer.sharedMaterial set null BattleTech Decal (1)
-[19:29:55.322]Renderer.sharedMaterial set null BattleTech Decal (1)
-[19:29:57.600]Renderer.sharedMaterial set null scar02 (1)
-[19:29:57.601]Renderer.sharedMaterial set null BattleTech Decal (2)
-[19:29:57.822]PilotGenerator.GeneratePilots
-[19:29:57.846]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.846]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.846]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.846]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.846]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.846]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.848]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.848]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.848]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.848]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.848]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.848]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.848]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:29:57.963]Renderer.sharedMaterial set null scar03 (1)
-[19:29:57.993]Renderer.sharedMaterial set null scar02 (1)
-[19:29:58.022]Renderer.sharedMaterial set null BattleTech Decal (14)
-[19:29:58.081]Renderer.sharedMaterial set null scar02 (1)
-[19:29:58.105]Renderer.sharedMaterial set null scar01 (1)
-[19:29:58.158]Renderer.sharedMaterial set null BattleTech Decal (16)
-[19:29:58.223]Renderer.sharedMaterial set null BattleTech Decal (1)
-[19:29:58.248]Renderer.sharedMaterial set null scar02 (2)
-[19:29:58.248]Renderer.sharedMaterial set null scar02 (1)
-[19:29:58.248]Renderer.sharedMaterial set null BattleTech Decal (6)
-[19:29:58.336]Renderer.sharedMaterial set null BattleTech Decal (8)
-[19:29:58.429]Renderer.sharedMaterial set null BattleTech Decal (7)
-[19:29:58.456]Renderer.sharedMaterial set null scar01 (1)
-[19:29:58.505]Renderer.sharedMaterial set null scar03 (1)
-[19:29:58.505]Renderer.sharedMaterial set null scar01 (1)
-[19:29:58.929]Renderer.sharedMaterial set null BattleTech Decal (9)
-[19:29:58.980]Renderer.sharedMaterial set null BattleTech Decal (11)
-[19:29:59.096]Renderer.sharedMaterial set null scar03 (2)
-[19:29:59.096]Renderer.sharedMaterial set null scar03 (1)
-[19:29:59.265]Renderer.sharedMaterial set null scar02 (1)
-[19:29:59.265]Renderer.sharedMaterial set null BattleTech Decal (13)
-[19:29:59.748]Renderer.sharedMaterial set null scar01 (1)
-[19:29:59.748]Renderer.sharedMaterial set null scar01 (2)
-[19:30:00.214]Renderer.sharedMaterial set null scar03 (1)
-[19:30:00.579]Renderer.sharedMaterial set null BattleTech Decal (18)
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal (8)
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal (2)
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal (11)
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal (6)
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal (10)
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal (3)
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal (9)
+[23:36:36.244]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (12)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (4)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (5)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (1)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (2)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (1)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (1)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (7)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (2)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (2)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (2)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (2)
+[23:36:36.286]Renderer.sharedMaterial set null BattleTech Decal (2)
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal (1)
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal (1)
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal (1)
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal (1)
+[23:36:36.287]Renderer.sharedMaterial set null BattleTech Decal (1)
+[23:36:43.382]Renderer.sharedMaterial set null BattleTech Decal (1)
 flush
-[19:30:01.042]Renderer.sharedMaterial set null BattleTech Decal (5)
-[19:30:01.114]Renderer.sharedMaterial set null BattleTech Decal (3)
-[19:30:01.318]Renderer.sharedMaterial set null BattleTech Decal (15)
-[19:30:01.351]Renderer.sharedMaterial set null BattleTech Decal (12)
-[19:30:01.866]Renderer.sharedMaterial set null BattleTech Decal
-[19:30:02.438]Renderer.sharedMaterial set null BattleTech Decal (10)
-[19:30:02.505]Renderer.sharedMaterial set null scar03 (1)
-[19:30:02.505]Renderer.sharedMaterial set null scar02 (1)
-[19:30:03.642]Renderer.sharedMaterial set null scar01 (4)
-[19:30:03.642]Renderer.sharedMaterial set null scar01 (3)
-[19:30:03.642]Renderer.sharedMaterial set null scar01 (5)
-[19:30:03.642]Renderer.sharedMaterial set null scar01 (2)
-[19:30:03.642]Renderer.sharedMaterial set null scar01 (1)
-[19:30:09.147]Pilot.InitAbilities commander
-[19:30:09.148]SGCharacterCreationWidget.CreatePilot Sentry
+[23:36:47.267]Renderer.sharedMaterial set null scar02 (1)
+[23:36:47.267]Renderer.sharedMaterial set null BattleTech Decal (2)
+[23:36:47.547]PilotGenerator.GeneratePilots
+[23:36:47.568]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.568]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.568]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.568]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.568]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.568]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.569]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.569]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.569]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.569]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.569]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.569]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.569]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:36:47.723]Renderer.sharedMaterial set null scar03 (1)
+[23:36:47.765]Renderer.sharedMaterial set null scar02 (1)
+[23:36:47.801]Renderer.sharedMaterial set null BattleTech Decal (14)
+[23:36:47.872]Renderer.sharedMaterial set null scar02 (1)
+[23:36:47.975]Renderer.sharedMaterial set null BattleTech Decal (16)
+[23:36:48.042]Renderer.sharedMaterial set null BattleTech Decal (1)
+[23:36:48.083]Renderer.sharedMaterial set null scar02 (2)
+[23:36:48.083]Renderer.sharedMaterial set null scar02 (1)
+[23:36:48.083]Renderer.sharedMaterial set null BattleTech Decal (6)
+[23:36:48.190]Renderer.sharedMaterial set null BattleTech Decal (8)
+[23:36:48.320]Renderer.sharedMaterial set null scar01 (1)
+[23:36:48.522]Renderer.sharedMaterial set null BattleTech Decal (4)
+[23:36:48.890]Renderer.sharedMaterial set null BattleTech Decal (9)
+[23:36:48.955]Renderer.sharedMaterial set null BattleTech Decal (11)
+[23:36:49.090]Renderer.sharedMaterial set null scar03 (2)
+[23:36:49.090]Renderer.sharedMaterial set null scar03 (1)
+[23:36:49.288]Renderer.sharedMaterial set null scar02 (1)
+[23:36:49.431]Renderer.sharedMaterial set null scar01 (1)
+[23:36:49.431]Renderer.sharedMaterial set null scar01 (2)
+[23:36:49.931]Renderer.sharedMaterial set null scar03 (1)
+[23:36:50.384]Renderer.sharedMaterial set null BattleTech Decal (18)
+[23:36:50.941]Renderer.sharedMaterial set null BattleTech Decal
+[23:36:51.239]Renderer.sharedMaterial set null BattleTech Decal (15)
+[23:36:51.377]Renderer.sharedMaterial set null BattleTech Decal (12)
+[23:36:51.614]Renderer.sharedMaterial set null BattleTech Decal (5)
+[23:36:51.753]Renderer.sharedMaterial set null scar03 (1)
+[23:36:51.753]Renderer.sharedMaterial set null scar02 (1)
+[23:36:52.359]Renderer.sharedMaterial set null BattleTech Decal (3)
+[23:36:53.328]Renderer.sharedMaterial set null scar01 (4)
+[23:36:53.328]Renderer.sharedMaterial set null scar01 (3)
+[23:36:53.328]Renderer.sharedMaterial set null scar01 (5)
+[23:36:53.328]Renderer.sharedMaterial set null scar01 (2)
+[23:36:53.328]Renderer.sharedMaterial set null scar01 (1)
+flush
+[23:36:58.023]Renderer.sharedMaterial set null BattleTech Decal (10)
+[23:36:59.794]Pilot.InitAbilities commander
+[23:36:59.795]SGCharacterCreationWidget.CreatePilot Beehive
  tags before:
   commander_ancestry_davion
   pilot_vehicle_crew
@@ -7650,631 +7640,39 @@ flush
   can_pilot_generic_mech
   can_pilot_generic_vehicle
 flush
-flush
-[19:30:24.415]DataManager.PoolGameObject uixPrfScrn_portraitCustomization-ScreenV3(uixPrfScrn_portraitCustomization-ScreenV3(Clone)) -> null
-[19:30:24.456]DataManager.PoolGameObject uixPrfScrn_characterCreationCareerModeBackground-Screen(uixPrfScrn_characterCreationCareerModeBackground-Screen(Clone)) -> null
-[19:30:24.470]Pilot.InitAbilities commander
-[19:30:24.479]SimGameState.Dehydrate
+[23:37:08.788]DataManager.PoolGameObject uixPrfScrn_portraitCustomization-ScreenV3(uixPrfScrn_portraitCustomization-ScreenV3(Clone)) -> null
+[23:37:08.810]DataManager.PoolGameObject uixPrfScrn_characterCreationCareerModeBackground-Screen(uixPrfScrn_characterCreationCareerModeBackground-Screen(Clone)) -> null
+[23:37:08.821]Pilot.InitAbilities commander
+[23:37:08.826]SimGameState.Dehydrate
  playerLanceLoadout(0):
-[19:30:27.868]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.868]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.869]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.869]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.869]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.869]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.870]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.870]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.871]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.871]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.871]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.871]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.871]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:30:27.875]Pilot.InitAbilities commander
-[19:30:27.881]DataManager.PoolGameObject uixPrfPanl_SIM_CharacterCreation(uixPrfPanl_SIM_CharacterCreation(Clone)) -> null
+[23:37:11.367]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.367]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.367]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.367]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.367]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.367]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.369]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.369]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.369]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.369]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.369]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.369]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.369]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
+[23:37:11.371]Pilot.InitAbilities commander
+[23:37:11.376]DataManager.PoolGameObject uixPrfPanl_SIM_CharacterCreation(uixPrfPanl_SIM_CharacterCreation(Clone)) -> null
 flush
-[19:30:32.956]DataManager.PoolGameObject uixPrfPanl_BASE_mercNetUpdatePopup(uixPrfPanl_BASE_mercNetUpdatePopup(Clone)) -> null
+[23:37:17.860]PilotDef.DependenciesLoaded pilot_sim_starter_dekker
+[23:37:17.867]PilotDef.DependenciesLoaded pilot_Lan
+[23:37:17.873]PilotDef.DependenciesLoaded pilot_backer_Lemos
+[23:37:17.879]PilotDef.DependenciesLoaded pilot_backer_Test9
+[23:37:17.885]PilotDef.DependenciesLoaded pilot_backer_Brewer
+[23:37:17.892]PilotDef.DependenciesLoaded pilot_backer_Gibbs
+[23:37:17.900]PilotDef.DependenciesLoaded pilot_backer_Brown
+[23:37:19.608]PilotDef.DependenciesLoaded pilot_backer_Brewer
 flush
-flush
-[19:30:54.388]PilotDef.DependenciesLoaded pilot_backer_Chung
-[19:30:54.398]PilotDef.DependenciesLoaded pilot_backer_Leone
-[19:30:54.407]PilotDef.DependenciesLoaded pilot_backer_Miller
-[19:30:54.417]PilotDef.DependenciesLoaded pilot_backer_Hording
-[19:30:54.426]PilotDef.DependenciesLoaded pilot_backer_Voyls
-[19:30:54.437]PilotDef.DependenciesLoaded pilot_backer_Bixby
-[19:30:54.449]PilotDef.DependenciesLoaded pilot_backer_Fielding
-[19:30:56.095]PilotDef.DependenciesLoaded pilot_backer_Miller
-flush
-[19:31:01.486]PilotDef.DependenciesLoaded pilot_backer_Voyls
-[19:31:02.362]PilotDef.DependenciesLoaded pilot_backer_Hording
+[23:37:29.861]PilotDef.DependenciesLoaded pilot_backer_Gibbs
+[23:37:31.193]PilotDef.DependenciesLoaded pilot_backer_Test9
 flush
 flush
-flush
-flush
-[19:31:49.642]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.642]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.642]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.642]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.642]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.642]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.644]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.644]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.644]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.644]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.644]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.644]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-[19:31:49.644]DataManager.PoolGameObject uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(uixPrfPanl_captainsQuarters_quarterlyReportLineItem-element(Clone)) -> null
-flush
-[19:31:51.624]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.624]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.624]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.624]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.624]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.625]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.625]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.625]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.625]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.625]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.625]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.626]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.626]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.626]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.626]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.626]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.626]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.626]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.627]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.627]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.627]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.627]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.627]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.627]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.627]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.627]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.628]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.628]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.628]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.628]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.628]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.628]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.628]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.629]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.629]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.629]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.629]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.629]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.629]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.629]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.629]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.630]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.630]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.630]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.938]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.938]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.938]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.938]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.938]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.939]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.939]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.939]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.939]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.939]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.940]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.940]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.940]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.940]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.940]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.940]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.941]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.941]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.941]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.941]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.941]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.942]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.942]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.942]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.942]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.942]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.943]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.943]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.943]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.943]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.943]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.943]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.944]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.944]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.944]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.944]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.944]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.944]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.945]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.945]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.945]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.945]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.945]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.945]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.973]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.973]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.974]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.974]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.974]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.974]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.974]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.974]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.975]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.975]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.975]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.975]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.975]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.976]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.976]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.976]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.976]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.976]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.976]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.977]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.977]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.977]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.977]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.977]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.977]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.978]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.978]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.978]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.978]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.978]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.978]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.979]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.979]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.979]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.979]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.980]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.980]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.980]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.980]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.980]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.980]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.981]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.981]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:51.981]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.007]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.007]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.007]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.007]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.008]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.008]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.008]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.008]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.008]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.008]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.009]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.009]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.009]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.009]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.009]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.010]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.010]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.010]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.010]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.010]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.011]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.011]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.011]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.011]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.011]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.012]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.012]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.012]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.012]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.012]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.013]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.013]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.013]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.013]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.013]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.013]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.014]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.014]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.014]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.014]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.015]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.015]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.015]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.015]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.057]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.057]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.057]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.058]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.058]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.058]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.058]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.058]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.059]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.059]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.059]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.059]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.060]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.060]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.060]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.060]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.061]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.061]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.061]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.061]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.062]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.062]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.062]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.062]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.062]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.063]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.063]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.063]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.063]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.064]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.064]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.064]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.064]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.064]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.065]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.065]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.065]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.065]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.065]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.065]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.066]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.066]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.066]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.066]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.103]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.103]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.103]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.104]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.104]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.104]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.104]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.104]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.105]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.105]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.105]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.105]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.106]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.106]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.106]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.106]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.106]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.107]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.107]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.107]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.107]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.108]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.108]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.108]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.108]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.109]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.109]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.109]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.109]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.109]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.110]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.110]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.110]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.110]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.110]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.111]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.111]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.111]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.111]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.112]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.112]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.112]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.112]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.112]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.437]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.438]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.438]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.438]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.439]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.439]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.439]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.439]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.439]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.440]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.440]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.440]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.440]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.440]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.440]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.441]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.441]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.441]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.441]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.441]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.442]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.442]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.442]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.442]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.443]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.443]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.443]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.443]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.443]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.444]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.444]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.444]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.444]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.444]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.445]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.445]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.445]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.445]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.445]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.446]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.446]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.446]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.446]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.447]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.476]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.476]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.476]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.477]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.477]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.477]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.478]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.478]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.478]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.478]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.479]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.479]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.479]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.479]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.480]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.480]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.480]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.480]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.481]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.481]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.481]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.481]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.482]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.482]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.482]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.482]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.483]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.483]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.483]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.483]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.484]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.484]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.484]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.484]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.485]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.485]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.485]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.485]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.486]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.486]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.486]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.486]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.487]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.487]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.518]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.519]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.519]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.520]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.520]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.520]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.520]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.521]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.521]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.521]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.522]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.522]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.522]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.522]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.523]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.523]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.523]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.524]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.524]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.524]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.524]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.525]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.525]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.525]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.525]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.526]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.526]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.526]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.526]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.527]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.527]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.527]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.527]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.527]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.528]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.528]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.528]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.529]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.529]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.529]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.529]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.530]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.530]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.530]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.614]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.615]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.615]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.615]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.615]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.615]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.616]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.616]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.616]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.616]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.617]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.617]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.617]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.617]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.618]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.618]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.618]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.618]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.618]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.619]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.619]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.619]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.619]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.619]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.620]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.620]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.620]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.620]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.621]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.621]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.621]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.621]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.621]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.622]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.622]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.622]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.623]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.623]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.623]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.623]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.624]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.652]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.652]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.653]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.653]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.653]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.653]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.654]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.654]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.654]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.655]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.655]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.655]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.655]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.655]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.656]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.656]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.656]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.656]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.657]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.657]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.657]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.657]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.658]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.658]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.658]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.658]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.658]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.659]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.659]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.659]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.659]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.659]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.660]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.660]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.660]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.660]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.660]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.661]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.661]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.661]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.661]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.661]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.661]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.662]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.730]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.730]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.731]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.731]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.731]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.731]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.731]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.732]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.732]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.732]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.732]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.733]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.733]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.733]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.733]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.733]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.734]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.734]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.734]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.734]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.734]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.735]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.735]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.735]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.735]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.735]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.736]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.736]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.736]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.736]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.737]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.737]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.737]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.737]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.738]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.738]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.738]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.738]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.739]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.739]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.739]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.739]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.739]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.740]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.770]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.770]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.771]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.771]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.771]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.771]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.771]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.772]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.772]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.772]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.772]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.773]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.773]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.773]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.774]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.774]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.774]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.774]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.774]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.775]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.775]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.775]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.775]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.775]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.776]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.776]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.776]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.777]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.777]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.777]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.777]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.778]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.778]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.778]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.778]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.778]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.779]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.779]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.779]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.779]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.780]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.780]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.780]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:52.780]DataManager.PoolGameObject uixPrfPanl_LC_MechLoadoutItem(uixPrfPanl_LC_MechLoadoutItem(Clone)) -> null
-[19:31:56.198]DataManager.PoolGameObject uixPrfIndc_NAV_locationInfoCalloutV2-Element(uixPrfIndc_NAV_locationInfoCalloutV2-Element(Clone)) -> null
+[23:37:50.704]PilotDef.DependenciesLoaded pilot_Lan
 flush
