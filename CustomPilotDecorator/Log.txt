@@ -1,1 +1,2135 @@
-[01:10:45.183]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator version: 0.0.0.3
+[00:41:38.416]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator version: 0.0.0.3
+flush
+flush
+flush
+flush
+[00:42:19.199]FinishedLoading
+[00:42:19.199]customResource:PilotDecorationDef
+ E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_mech.json
+ id:pilotdecorationdef_can_drive_mech
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_mech",
+    "Name": "CAN DRIVE MECHS",
+    "Details": "This pilot can drive mechs of all types",
+    "Icon": "can_drive_mech"
+  },
+  "Type": 1,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "can_pilot_generic_mech"
+  ],
+  "shouldNotHaveTags": []
+}
+ E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_vehicle.json
+ id:pilotdecorationdef_can_drive_vehicle
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_vehicle",
+    "Name": "CAN DRIVE VEHICLES",
+    "Details": "This pilot can drive vehicles of all types",
+    "Icon": "can_drive_vehicle"
+  },
+  "Type": 1,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "can_pilot_generic_vehicle"
+  ],
+  "shouldNotHaveTags": []
+}
+flush
+[00:42:37.435]DataManager.SpriteLoadRequest.SpriteFromDisk:Shadowhawk:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Shadowhawk.dds isGIF:False
+flush
+[00:42:39.928]PilotDef.GatherDependencies pilot_default
+[00:42:39.929]PilotDecorationDefHelper.getDecorations pilot_default:
+ tags: BLACKLISTED sample pilot_bracket_low pilot_bracket_mid pilot_bracket_high can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:42:39.959]DataManager.SpriteLoadRequest.SpriteFromDisk:spider:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\spider.dds isGIF:False
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+[00:43:53.093]PilotDef.GatherDependencies pilot_sim_starter_glitch
+[00:43:53.093]PilotDecorationDefHelper.getDecorations pilot_sim_starter_glitch:Glitch
+ tags: BLACKLISTED pilot_criminal pilot_innersphere pilot_davion pilot_starter pilot_brave name_Glitch can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:53.094]PilotDef.GatherDependencies pilot_sim_starter_behemoth
+[00:43:53.094]PilotDecorationDefHelper.getDecorations pilot_sim_starter_behemoth:Behemoth
+ tags: BLACKLISTED pilot_criminal pilot_innersphere pilot_military pilot_spacer pilot_steiner pilot_brave pilot_starter name_Behemoth can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:53.094]PilotDef.GatherDependencies pilot_sim_starter_dekker
+[00:43:53.094]PilotDecorationDefHelper.getDecorations pilot_sim_starter_dekker:Dekker
+ tags: BLACKLISTED pilot_command pilot_innersphere pilot_liao pilot_military pilot_noble pilot_officer pilot_spacer pilot_mechwarrior pilot_starter name_Dekker can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:53.095]PilotDef.GatherDependencies pilot_sim_starter_medusa
+[00:43:53.095]PilotDecorationDefHelper.getDecorations pilot_sim_starter_medusa:Medusa
+ tags: BLACKLISTED pilot_aurigan pilot_cautious pilot_periphery pilot_tech pilot_military pilot_officer pilot_mechwarrior pilot_starter name_Medusa can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:53.098]PilotDef.GatherDependencies pilot_commander_temp
+[00:43:53.098]PilotDecorationDefHelper.getDecorations pilot_commander_temp:Arclight
+ tags: BLACKLISTED commander_player pilot_taurian pilot_tech pilot_spacer can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:54.132]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_atlas:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_atlas.dds isGIF:False
+[00:43:55.438]PilotDef.GatherDependencies pilot_backer_Alaniz
+[00:43:55.438]PilotDecorationDefHelper.getDecorations pilot_backer_Alaniz:Dragon 66
+ tags: name_Dragon_66 pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.439]PilotDef.GatherDependencies pilot_backer_Archangel
+[00:43:55.439]PilotDecorationDefHelper.getDecorations pilot_backer_Archangel:Archangel
+ tags: name_Archangel pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.440]PilotDef.GatherDependencies pilot_backer_Bemis
+[00:43:55.440]PilotDecorationDefHelper.getDecorations pilot_backer_Bemis:VonKobra
+ tags: name_VonKobra pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.442]PilotDef.GatherDependencies pilot_backer_Bixby
+[00:43:55.442]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.442]PilotDef.GatherDependencies pilot_backer_Bono
+[00:43:55.442]PilotDecorationDefHelper.getDecorations pilot_backer_Bono:T-Bone
+ tags: name_T-Bone pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.443]PilotDef.GatherDependencies pilot_backer_Bozeman
+[00:43:55.443]PilotDecorationDefHelper.getDecorations pilot_backer_Bozeman:Finn
+ tags: name_Finn pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.444]PilotDef.GatherDependencies pilot_backer_Brewer
+[00:43:55.444]PilotDecorationDefHelper.getDecorations pilot_backer_Brewer:Bronzite
+ tags: name_Bronzite pilot_marik can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.445]PilotDef.GatherDependencies pilot_backer_Brown
+[00:43:55.445]PilotDecorationDefHelper.getDecorations pilot_backer_Brown:Bootcamp
+ tags: name_Bootcamp pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.445]PilotDef.GatherDependencies pilot_backer_Chang
+[00:43:55.445]PilotDecorationDefHelper.getDecorations pilot_backer_Chang:Falcon
+ tags: name_Falcon pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.446]PilotDef.GatherDependencies pilot_backer_Chik
+[00:43:55.446]PilotDecorationDefHelper.getDecorations pilot_backer_Chik:Paradox
+ tags: name_Paradox pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.447]PilotDef.GatherDependencies pilot_backer_Chung
+[00:43:55.447]PilotDecorationDefHelper.getDecorations pilot_backer_Chung:Scrub
+ tags: name_Scrub pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.447]PilotDef.GatherDependencies pilot_backer_Cleary
+[00:43:55.447]PilotDecorationDefHelper.getDecorations pilot_backer_Cleary:Exodus
+ tags: name_Exodus pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.448]PilotDef.GatherDependencies pilot_backer_Cochran
+[00:43:55.448]PilotDecorationDefHelper.getDecorations pilot_backer_Cochran:Gridlock
+ tags: name_Gridlock pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.448]PilotDef.GatherDependencies pilot_backer_Coldfire
+[00:43:55.448]PilotDecorationDefHelper.getDecorations pilot_backer_Coldfire:Coldfire
+ tags: name_Coldfire pilot_magistracy can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.449]PilotDef.GatherDependencies pilot_backer_Doochin
+[00:43:55.449]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.450]PilotDef.GatherDependencies pilot_backer_Doukas
+[00:43:55.450]PilotDecorationDefHelper.getDecorations pilot_backer_Doukas:Popo
+ tags: name_Popo pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.450]PilotDef.GatherDependencies pilot_backer_Durand
+[00:43:55.450]PilotDecorationDefHelper.getDecorations pilot_backer_Durand:Bullet Trap
+ tags: name_Bullet_Trap pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.451]PilotDef.GatherDependencies pilot_backer_Eck
+[00:43:55.451]PilotDecorationDefHelper.getDecorations pilot_backer_Eck:Eck
+ tags: name_Eck pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.452]PilotDef.GatherDependencies pilot_backer_Eckett
+[00:43:55.452]PilotDecorationDefHelper.getDecorations pilot_backer_Eckett:Mummy Bear
+ tags: name_Mummy_Bear pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.453]PilotDef.GatherDependencies pilot_backer_Endorf
+[00:43:55.453]PilotDecorationDefHelper.getDecorations pilot_backer_Endorf:Hammer
+ tags: name_Hammer pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.453]PilotDef.GatherDependencies pilot_backer_FalkA
+[00:43:55.453]PilotDecorationDefHelper.getDecorations pilot_backer_FalkA:Phantom
+ tags: name_Phantom pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.454]PilotDef.GatherDependencies pilot_backer_FalkM
+[00:43:55.454]PilotDecorationDefHelper.getDecorations pilot_backer_FalkM:Gearhead
+ tags: name_Gearhead pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.455]PilotDef.GatherDependencies pilot_backer_Fielding
+[00:43:55.455]PilotDecorationDefHelper.getDecorations pilot_backer_Fielding:WeaselCakes
+ tags: name_WeaselCakes pilot_marik can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.456]PilotDef.GatherDependencies pilot_backer_Gibbs
+[00:43:55.456]PilotDecorationDefHelper.getDecorations pilot_backer_Gibbs:Whisper
+ tags: name_Whisper pilot_taurian can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.457]PilotDef.GatherDependencies pilot_backer_Godfrey
+[00:43:55.457]PilotDecorationDefHelper.getDecorations pilot_backer_Godfrey:God
+ tags: name_God pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.458]PilotDef.GatherDependencies pilot_backer_Hardie
+[00:43:55.458]PilotDecorationDefHelper.getDecorations pilot_backer_Hardie:Jester
+ tags: name_Jester pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.459]PilotDef.GatherDependencies pilot_backer_Helterbran
+[00:43:55.459]PilotDecorationDefHelper.getDecorations pilot_backer_Helterbran:Pathfinder
+ tags: name_Pathfinder pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.460]PilotDef.GatherDependencies pilot_backer_Heysek
+[00:43:55.460]PilotDecorationDefHelper.getDecorations pilot_backer_Heysek:Sabercat
+ tags: name_Sabercat pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.460]PilotDef.GatherDependencies pilot_backer_Hill
+[00:43:55.460]PilotDecorationDefHelper.getDecorations pilot_backer_Hill:Dust Raker
+ tags: name_Dust_Raker pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.461]PilotDef.GatherDependencies pilot_backer_Hollabaugh
+[00:43:55.461]PilotDecorationDefHelper.getDecorations pilot_backer_Hollabaugh:Deedah
+ tags: name_Deedah pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.462]PilotDef.GatherDependencies pilot_backer_Hording
+[00:43:55.462]PilotDecorationDefHelper.getDecorations pilot_backer_Hording:Paladin
+ tags: name_Paladin pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.462]PilotDef.GatherDependencies pilot_backer_Hurtado
+[00:43:55.462]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother
+ tags: name_Brother pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.463]PilotDef.GatherDependencies pilot_backer_Huxley
+[00:43:55.463]PilotDecorationDefHelper.getDecorations pilot_backer_Huxley:Strider
+ tags: name_Strider pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.463]PilotDef.GatherDependencies pilot_backer_Jakes
+[00:43:55.464]PilotDecorationDefHelper.getDecorations pilot_backer_Jakes:McWraith
+ tags: name_McWraith pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.464]PilotDef.GatherDependencies pilot_backer_Kaufman
+[00:43:55.464]PilotDecorationDefHelper.getDecorations pilot_backer_Kaufman:War Boar
+ tags: experience_regular pilot_veteran name_War_Boar pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.465]PilotDef.GatherDependencies pilot_backer_Keane
+[00:43:55.465]PilotDecorationDefHelper.getDecorations pilot_backer_Keane:Munin
+ tags: name_Munin pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.465]PilotDef.GatherDependencies pilot_backer_Korwes
+[00:43:55.465]PilotDecorationDefHelper.getDecorations pilot_backer_Korwes:Omega
+ tags: name_Omega pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.466]PilotDef.GatherDependencies pilot_backer_Lemos
+[00:43:55.466]PilotDecorationDefHelper.getDecorations pilot_backer_Lemos:Sabrewolf
+ tags: name_Sabrewolf pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.467]PilotDef.GatherDependencies pilot_backer_Leone
+[00:43:55.467]PilotDecorationDefHelper.getDecorations pilot_backer_Leone:Succubus
+ tags: name_Succubus pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.468]PilotDef.GatherDependencies pilot_backer_Liebenow
+[00:43:55.468]PilotDecorationDefHelper.getDecorations pilot_backer_Liebenow:Kingwolf
+ tags: name_Kingwolf pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.468]PilotDef.GatherDependencies pilot_backer_Loving
+[00:43:55.468]PilotDecorationDefHelper.getDecorations pilot_backer_Loving:M4J35T1C
+ tags: experience_regular pilot_veteran name_M4J35T1C pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.469]PilotDef.GatherDependencies pilot_backer_Metke
+[00:43:55.469]PilotDecorationDefHelper.getDecorations pilot_backer_Metke:Tinker
+ tags: name_Tinker pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.470]PilotDef.GatherDependencies pilot_backer_Miller
+[00:43:55.470]PilotDecorationDefHelper.getDecorations pilot_backer_Miller:Deadeye
+ tags: name_Deadeye pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.471]PilotDef.GatherDependencies pilot_backer_Mzik
+[00:43:55.471]PilotDecorationDefHelper.getDecorations pilot_backer_Mzik:Big Sly
+ tags: experience_regular pilot_veteran name_Big_Sly pilot_marik can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.472]PilotDef.GatherDependencies pilot_backer_Nick
+[00:43:55.472]PilotDecorationDefHelper.getDecorations pilot_backer_Nick:Corsair
+ tags: experience_regular pilot_veteran name_Corsair pilot_tortuga can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.473]PilotDef.GatherDependencies pilot_backer_Oliver
+[00:43:55.473]PilotDecorationDefHelper.getDecorations pilot_backer_Oliver:Skyros
+ tags: name_Skyros pilot_taurian can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.474]PilotDef.GatherDependencies pilot_backer_Piazza
+[00:43:55.474]PilotDecorationDefHelper.getDecorations pilot_backer_Piazza:Rook
+ tags: name_Rook pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.475]PilotDef.GatherDependencies pilot_backer_Reichenbach
+[00:43:55.475]PilotDecorationDefHelper.getDecorations pilot_backer_Reichenbach:Flatline
+ tags: experience_regular pilot_veteran name_Flatline pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.476]PilotDef.GatherDependencies pilot_backer_Reidinger
+[00:43:55.476]PilotDecorationDefHelper.getDecorations pilot_backer_Reidinger:Ariamaki
+ tags: name_Ariamaki pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.477]PilotDef.GatherDependencies pilot_backer_Reinke
+[00:43:55.477]PilotDecorationDefHelper.getDecorations pilot_backer_Reinke:Ronin
+ tags: name_Ronin pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.478]PilotDef.GatherDependencies pilot_backer_Ryia
+[00:43:55.478]PilotDecorationDefHelper.getDecorations pilot_backer_Ryia:Death Krusade
+ tags: name_Death_Krusade pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.479]PilotDef.GatherDependencies pilot_backer_Saada
+[00:43:55.479]PilotDecorationDefHelper.getDecorations pilot_backer_Saada:Spenthia
+ tags: name_Spenthia pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.479]PilotDef.GatherDependencies pilot_backer_Sampson
+[00:43:55.479]PilotDecorationDefHelper.getDecorations pilot_backer_Sampson:Live Fire
+ tags: name_Live_Fire pilot_marik can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.480]PilotDef.GatherDependencies pilot_backer_Shields
+[00:43:55.480]PilotDecorationDefHelper.getDecorations pilot_backer_Shields:Bearclaw
+ tags: name_Bearclaw pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.480]PilotDef.GatherDependencies pilot_backer_Shvartz
+[00:43:55.480]PilotDecorationDefHelper.getDecorations pilot_backer_Shvartz:Varangian
+ tags: name_Varangian pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.481]PilotDef.GatherDependencies pilot_backer_Slipais
+[00:43:55.481]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.482]PilotDef.GatherDependencies pilot_backer_SwansonA
+[00:43:55.482]PilotDecorationDefHelper.getDecorations pilot_backer_SwansonA:Coach
+ tags: name_Coach pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.482]PilotDef.GatherDependencies pilot_backer_SwansonK
+[00:43:55.482]PilotDecorationDefHelper.getDecorations pilot_backer_SwansonK:Ulysses
+ tags: name_Ulysses pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.483]PilotDef.GatherDependencies pilot_backer_Test9
+[00:43:55.483]PilotDecorationDefHelper.getDecorations pilot_backer_Test9:Test9
+ tags: experience_veteran pilot_veteran name_Test9 pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.484]PilotDef.GatherDependencies pilot_backer_Thomas
+[00:43:55.484]PilotDecorationDefHelper.getDecorations pilot_backer_Thomas:Hacker
+ tags: name_Hacker pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.484]PilotDef.GatherDependencies pilot_backer_Voyls
+[00:43:55.484]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV
+ tags: name_GV pilot_marik can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.485]PilotDef.GatherDependencies pilot_backer_Woods
+[00:43:55.485]PilotDecorationDefHelper.getDecorations pilot_backer_Woods:Ice Trey
+ tags: name_Ice_Trey pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.486]PilotDef.GatherDependencies pilot_ronin_Apex
+[00:43:55.486]PilotDecorationDefHelper.getDecorations pilot_ronin_Apex:Apex
+ tags: name_Apex pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.486]PilotDef.GatherDependencies pilot_ronin_Arclight
+[00:43:55.486]PilotDecorationDefHelper.getDecorations pilot_ronin_Arclight:Arclight
+ tags: name_Arclight pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.488]PilotDef.GatherDependencies pilot_ronin_Blockade
+[00:43:55.488]PilotDecorationDefHelper.getDecorations pilot_ronin_Blockade:Blockade
+ tags: name_Blockade pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.488]PilotDef.GatherDependencies pilot_ronin_Buckshot
+[00:43:55.488]PilotDecorationDefHelper.getDecorations pilot_ronin_Buckshot:Buckshot
+ tags: name_Buckshot pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.489]PilotDef.GatherDependencies pilot_ronin_Kraken
+[00:43:55.489]PilotDecorationDefHelper.getDecorations pilot_ronin_Kraken:Kraken
+ tags: name_Kraken pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.490]PilotDef.GatherDependencies pilot_ronin_Mockingbird
+[00:43:55.490]PilotDecorationDefHelper.getDecorations pilot_ronin_Mockingbird:Mockingbird
+ tags: name_Mockingbird pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.490]PilotDef.GatherDependencies pilot_ronin_Ozone
+[00:43:55.490]PilotDecorationDefHelper.getDecorations pilot_ronin_Ozone:Ozone
+ tags: name_Ozone pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.491]PilotDef.GatherDependencies pilot_ronin_Paradise
+[00:43:55.491]PilotDecorationDefHelper.getDecorations pilot_ronin_Paradise:Paradise
+ tags: name_Paradise pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.492]PilotDef.GatherDependencies pilot_ronin_Showboat
+[00:43:55.492]PilotDecorationDefHelper.getDecorations pilot_ronin_Showboat:Showboat
+ tags: name_Showboat pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.493]PilotDef.GatherDependencies pilot_ronin_Squire
+[00:43:55.493]PilotDecorationDefHelper.getDecorations pilot_ronin_Squire:Squire
+ tags: name_Squire pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.494]PilotDef.GatherDependencies pilot_ronin_Sumo
+[00:43:55.494]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.495]PilotDef.GatherDependencies pilot_ronin_Wildfire
+[00:43:55.495]PilotDecorationDefHelper.getDecorations pilot_ronin_Wildfire:Wildfire
+ tags: name_Wildfire pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.495]PilotDef.GatherDependencies pilot_ronin_Witness
+[00:43:55.495]PilotDecorationDefHelper.getDecorations pilot_ronin_Witness:Witness
+ tags: name_Witness pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.496]PilotDef.GatherDependencies pilot_Indrahim
+[00:43:55.496]PilotDecorationDefHelper.getDecorations pilot_Indrahim:Indrahim
+ tags: experience_hero name_Indrahim pilot_lostech can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.496]PilotDef.GatherDependencies pilot_Lan
+[00:43:55.496]PilotDecorationDefHelper.getDecorations pilot_Lan:Lan
+ tags: experience_legend name_Lan Pilot_Innovator Pilot_ComstarTechnician pilot_lostech can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.497]PilotDef.GatherDependencies pilot_Strauss
+[00:43:55.497]PilotDecorationDefHelper.getDecorations pilot_Strauss:Tempestus
+ tags: pilot_backer experience_veteran name_Strauss can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.498]PilotDef.GatherDependencies pilot_Test
+[00:43:55.498]PilotDecorationDefHelper.getDecorations pilot_Test:Test
+ tags: pilot_backer name_Test pilot_criminal pilot_tech pilot_comstar pilot_spacer pilot_mechwarrior pilot_military pilot_officer pilot_command pilot_disgraced pilot_gladiator pilot_wealthy pilot_assassin pilot_lostech pilot_athletic pilot_bookish pilot_brave pilot_cautious pilot_dependable pilot_dishonest pilot_drunk pilot_honest pilot_jinxed pilot_klutz pilot_lucky pilot_naive pilot_rebellious pilot_reckless pilot_unstable can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[00:43:55.712]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrSpot_flashpointExample:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Illustrations/uixTxrSpot_flashpointExample.dds isGIF:False
+[00:43:55.730]TextureManager.ProcessCompletedRequest:uixTxrConv_audioonly:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\textures\uixTxrConv_audioonly.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:43:55.744]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrSpot_StarmapV2-Example:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Illustrations/uixTxrSpot_StarmapV2-Example.dds isGIF:False
+[00:43:55.751]TextureManager.ProcessCompletedRequest:uixTxrConv_localsrep:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\textures\uixTxrConv_localsrep.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:43:55.795]TextureManager.ProcessCompletedRequest:uixTxrConv_regionmap:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\textures\uixTxrConv_regionmap.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:43:55.797]TextureManager.ProcessCompletedRequest:uixTxrConv_screenoff:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\textures\uixTxrConv_screenoff.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:43:55.802]TextureManager.ProcessCompletedRequest:uixTxrConv_spheremap:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CAB-Misc\textures\uixTxrConv_spheremap.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:43:55.826]TextureManager.ProcessCompletedRequest:envTxrHrld_set01_01:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_set01_01.dds
+ non cached
+ is GIF:False
+ completed.callback
+flush
+[00:44:01.390]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_Glitch_holder_utr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Portraits/guiTxrPort_Glitch_holder_utr.png isGIF:False
+[00:44:01.411]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_Behemoth_holder_utr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Portraits/guiTxrPort_Behemoth_holder_utr.png isGIF:False
+[00:44:01.432]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_Dekker_holder_utr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Portraits/guiTxrPort_Dekker_holder_utr.png isGIF:False
+[00:44:01.455]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_Medusa_holder_utr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Portraits/guiTxrPort_Medusa_holder_utr.png isGIF:False
+[00:44:02.729]TextureManager.ProcessCompletedRequest:uixTxrLogo_MagistracyOfCanopus:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_MagistracyOfCanopus.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.733]TextureManager.ProcessCompletedRequest:envTxrHrld_startFreelancer:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_startFreelancer.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.737]TextureManager.ProcessCompletedRequest:envTxrHrld_startGladiator:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_startGladiator.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.745]TextureManager.ProcessCompletedRequest:envTxrHrld_startMercenary:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_startMercenary.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.754]TextureManager.ProcessCompletedRequest:envTxrHrld_startMerchantGuard:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_startMerchantGuard.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.762]TextureManager.ProcessCompletedRequest:envTxrHrld_startPirate:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_startPirate.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.772]TextureManager.ProcessCompletedRequest:envTxrHrld_startSoldier:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_startSoldier.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.780]TextureManager.ProcessCompletedRequest:uixTxrLogo_Davion:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_Davion.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.788]TextureManager.ProcessCompletedRequest:uixTxrLogo_AuriganDirectorate:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_AuriganDirectorate.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.796]TextureManager.ProcessCompletedRequest:uixTxrLogo_EnemyDefault:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_EnemyDefault.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.805]TextureManager.ProcessCompletedRequest:uixTxrLogo_Kurita:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_Kurita.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.813]TextureManager.ProcessCompletedRequest:uixTxrLogo_Liao:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_Liao.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.821]TextureManager.ProcessCompletedRequest:uixTxrLogo_Locals:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_Locals.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.830]TextureManager.ProcessCompletedRequest:uixTxrLogo_Marik:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_Marik.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.839]TextureManager.ProcessCompletedRequest:uixTxrLogo_Nautilus:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_Nautilus.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.849]TextureManager.ProcessCompletedRequest:uixTxrLogo_AuriganPirates:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_AuriganPirates.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.859]TextureManager.ProcessCompletedRequest:uixTxrLogo_PlayerDefault:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_PlayerDefault.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.865]TextureManager.ProcessCompletedRequest:uixTxrLogo_NoFaction:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_NoFaction.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.871]TextureManager.ProcessCompletedRequest:uixTxrLogo_AuriganRestoration:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_AuriganRestoration.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.881]TextureManager.ProcessCompletedRequest:uixTxrLogo_Steiner:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_Steiner.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.888]TextureManager.ProcessCompletedRequest:uixTxrLogo_TaurianConcordat:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_TaurianConcordat.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.898]TextureManager.ProcessCompletedRequest:uixTxrLogo_Betrayers:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_Betrayers.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.908]TextureManager.ProcessCompletedRequest:uixTxrLogo_MajestyMetals:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_MajestyMetals.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.913]TextureManager.ProcessCompletedRequest:uixTxrLogo_KellHounds:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_KellHounds.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.922]TextureManager.ProcessCompletedRequest:uixTxrLogo_MasonsMarauders:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_MasonsMarauders.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.931]TextureManager.ProcessCompletedRequest:uixTxrLogo_RazorbackMercs:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_RazorbackMercs.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.938]TextureManager.ProcessCompletedRequest:uixTxrLogo_SteelBeast:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_SteelBeast.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.945]TextureManager.ProcessCompletedRequest:uixTxrLogo_HostileMercenaries:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_HostileMercenaries.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.954]TextureManager.ProcessCompletedRequest:uixTxrLogo_BlackCalderaDefense:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_BlackCalderaDefense.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.963]TextureManager.ProcessCompletedRequest:uixTxrLogo_DuchyOfAndurien:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_DuchyOfAndurien.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.970]TextureManager.ProcessCompletedRequest:uixTxrLogo_GrayDeathLegion:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_GrayDeathLegion.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.980]TextureManager.ProcessCompletedRequest:uixTxrLogo_PaladinProtectionLLC:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_PaladinProtectionLLC.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.987]TextureManager.ProcessCompletedRequest:uixTxrLogo_SecuritySolutionsInc:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_SecuritySolutionsInc.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:02.996]TextureManager.ProcessCompletedRequest:uixTxrLogo_EmeraldDawn:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_EmeraldDawn.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.004]TextureManager.ProcessCompletedRequest:uixTxrLogo_SianTriumphant:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_SianTriumphant.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.013]TextureManager.ProcessCompletedRequest:uixTxrLogo_ProfHorvat:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_ProfHorvat.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.021]TextureManager.ProcessCompletedRequest:uixTxrLogo_RedHareRegiment:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_RedHareRegiment.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.029]TextureManager.ProcessCompletedRequest:uixTxrLogo_BlackWidowCompany:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_BlackWidowCompany.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.037]TextureManager.ProcessCompletedRequest:uixTxrLogo_BountyHunterAssociates:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_BountyHunterAssociates.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.045]TextureManager.ProcessCompletedRequest:uixTxrLogo_BaumannGroup:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_BaumannGroup.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.054]TextureManager.ProcessCompletedRequest:uixTxrLogo_Axumite:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Axumite.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.062]TextureManager.ProcessCompletedRequest:uixTxrLogo_Castile:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Castile.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.071]TextureManager.ProcessCompletedRequest:uixTxrLogo_Chainelane:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Chainelane.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.078]TextureManager.ProcessCompletedRequest:uixTxrLogo_Circinus:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Circinus.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.088]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanBurrock:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanBurrock.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.096]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanCloudCobra:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanCloudCobra.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.104]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanCoyote:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanCoyote.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.113]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanDiamondShark:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanDiamondShark.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.120]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanFireMandrill:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanFireMandrill.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.129]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanGhostBear:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanGhostBear.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.137]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanGoliathScorpion:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanGoliathScorpion.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.147]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanHellsHorses:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanHellsHorses.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.154]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanIceHellion:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanIceHellion.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.162]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanJadeFalcon:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanJadeFalcon.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.171]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanNovaCat:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanNovaCat.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.179]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClansGeneric:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClansGeneric.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.187]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanSmokeJaguar:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanSmokeJaguar.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.196]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanSnowRaven:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanSnowRaven.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.204]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanStarAdder:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanStarAdder.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.212]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanSteelViper:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanSteelViper.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.220]TextureManager.ProcessCompletedRequest:uixTxrLogo_ClanWolf:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_ClanWolf.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.229]TextureManager.ProcessCompletedRequest:uixTxrLogo_ComStar:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_ComStar.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.237]TextureManager.ProcessCompletedRequest:uixTxrLogo_Delphi:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Delphi.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.246]TextureManager.ProcessCompletedRequest:uixTxrLogo_Elysia:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Elysia.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.255]TextureManager.ProcessCompletedRequest:uixTxrLogo_Hanse:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Hanse.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.263]TextureManager.ProcessCompletedRequest:uixTxrLogo_Illyrian:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Illyrian.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.272]TextureManager.ProcessCompletedRequest:uixTxrLogo_Ives:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Ives.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.279]TextureManager.ProcessCompletedRequest:uixTxrLogo_JarnFolk:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_JarnFolk.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.288]TextureManager.ProcessCompletedRequest:uixTxrLogo_Lothian:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Lothian.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.297]TextureManager.ProcessCompletedRequest:uixTxrLogo_Marian:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Marian.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.304]TextureManager.ProcessCompletedRequest:uixTxrLogo_Oberon:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Oberon.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.313]TextureManager.ProcessCompletedRequest:uixTxrLogo_Outworld:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Outworld.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.314]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerAlaniz_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerAlaniz_utr.png isGIF:False
+[00:44:03.332]TextureManager.ProcessCompletedRequest:uixTxrLogo_Rasalhague:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Rasalhague.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.333]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerArchangel_utr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Portraits/guiTxrPort_backerArchangel_utr.png isGIF:False
+[00:44:03.350]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerBemis_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerBemis_utr.png isGIF:False
+[00:44:03.371]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerBixby_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerBixby_utr.png isGIF:False
+[00:44:03.388]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerBono_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerBono_utr.png isGIF:False
+[00:44:03.403]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerBozeman_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerBozeman_utr.png isGIF:False
+[00:44:03.419]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerBrewer_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerBrewer_utr.png isGIF:False
+[00:44:03.438]TextureManager.ProcessCompletedRequest:uixTxrLogo_Rim:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Rim.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.439]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerBrown_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerBrown_utr.png isGIF:False
+[00:44:03.455]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerChang_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerChang_utr.png isGIF:False
+[00:44:03.471]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerChik_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerChik_utr.png isGIF:False
+[00:44:03.488]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerChung_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerChung_utr.png isGIF:False
+[00:44:03.505]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerCleary_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerCleary_utr.png isGIF:False
+[00:44:03.520]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerCochran_utr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Portraits/guiTxrPort_backerCochran_utr.png isGIF:False
+[00:44:03.535]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerColdfire_utr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Portraits/guiTxrPort_backerColdfire_utr.png isGIF:False
+[00:44:03.552]TextureManager.ProcessCompletedRequest:uixTxrLogo_Tortuga:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Tortuga.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.553]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerDoochin_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerDoochin_utr.png isGIF:False
+[00:44:03.567]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerDoukas_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerDoukas_utr.png isGIF:False
+[00:44:03.582]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerDurand_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerDurand_utr.png isGIF:False
+[00:44:03.597]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerEck_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerEck_utr.png isGIF:False
+[00:44:03.612]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerEckett_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerEckett_utr.png isGIF:False
+[00:44:03.628]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerEndorf_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerEndorf_utr.png isGIF:False
+[00:44:03.643]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerFalkA_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerFalkA_utr.png isGIF:False
+[00:44:03.658]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerFalkM_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerFalkM_utr.png isGIF:False
+[00:44:03.677]TextureManager.ProcessCompletedRequest:uixTxrLogo_Valkyrate:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_Valkyrate.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.678]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerFielding_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerFielding_utr.png isGIF:False
+[00:44:03.695]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerGibbs_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerGibbs_utr.png isGIF:False
+[00:44:03.711]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerGodfrey_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerGodfrey_utr.png isGIF:False
+[00:44:03.728]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerHardie_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerHardie_utr.png isGIF:False
+[00:44:03.743]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerHelterbran_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerHelterbran_utr.png isGIF:False
+[00:44:03.758]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerHeysek_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerHeysek_utr.png isGIF:False
+[00:44:03.773]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerHill_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerHill_utr.png isGIF:False
+[00:44:03.788]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerHollabaugh_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerHollabaugh_utr.png isGIF:False
+[00:44:03.804]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerHording_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerHording_utr.png isGIF:False
+[00:44:03.822]TextureManager.ProcessCompletedRequest:uixTxrLogo_WordOfBlake:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\InnerSphereMap\Emblems\uixTxrLogo_WordOfBlake.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:03.824]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerHurtado_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerHurtado_utr.png isGIF:False
+[00:44:03.840]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerHuxley_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerHuxley_utr.png isGIF:False
+[00:44:03.856]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerJakes_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerJakes_utr.png isGIF:False
+[00:44:03.871]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerKaufman_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerKaufman_utr.png isGIF:False
+[00:44:03.887]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerKeane_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerKeane_utr.png isGIF:False
+[00:44:03.904]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerKorwes_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerKorwes_utr.png isGIF:False
+[00:44:03.918]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerLemos_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerLemos_utr.png isGIF:False
+[00:44:03.934]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerLeone_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerLeone_utr.png isGIF:False
+[00:44:03.950]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerLiebenow_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerLiebenow_utr.png isGIF:False
+[00:44:03.967]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerLoving_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerLoving_utr.png isGIF:False
+[00:44:03.991]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerMetke_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerMetke_utr.png isGIF:False
+[00:44:04.011]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerMiller_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerMiller_utr.png isGIF:False
+[00:44:04.026]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerMzik_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerMzik_utr.png isGIF:False
+[00:44:04.042]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerNick_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerNick_utr.png isGIF:False
+[00:44:04.058]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerOliver_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerOliver_utr.png isGIF:False
+[00:44:04.073]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerPiazza_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerPiazza_utr.png isGIF:False
+[00:44:04.089]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerReichenbach_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerReichenbach_utr.png isGIF:False
+[00:44:04.106]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerReidinger_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerReidinger_utr.png isGIF:False
+[00:44:04.121]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerReinke_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerReinke_utr.png isGIF:False
+[00:44:04.139]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerRyia_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerRyia_utr.png isGIF:False
+[00:44:04.157]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerSaada_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerSaada_utr.png isGIF:False
+[00:44:04.174]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerSampson_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerSampson_utr.png isGIF:False
+[00:44:04.188]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerShields_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerShields_utr.png isGIF:False
+[00:44:04.204]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerShvartz_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerShvartz_utr.png isGIF:False
+[00:44:04.220]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerSlipais_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerSlipais_utr.png isGIF:False
+[00:44:04.236]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerSwansonA_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerSwansonA_utr.png isGIF:False
+[00:44:04.252]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerSwansonK_utr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Portraits/guiTxrPort_backerSwansonK_utr.png isGIF:False
+[00:44:04.267]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerTest9_utr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Portraits/guiTxrPort_backerTest9_utr.png isGIF:False
+[00:44:04.284]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerThomas_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerThomas_utr.png isGIF:False
+[00:44:04.297]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerVoyls_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerVoyls_utr.png isGIF:False
+[00:44:04.319]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerWoods_utr:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\CommanderPortraitLoader\Portraits\guiTxrPort_backerWoods_utr.png isGIF:False
+[00:44:04.337]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_backerSquire_utr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Portraits/guiTxrPort_backerSquire_utr.png isGIF:False
+[00:44:04.343]DataManager.SpriteLoadRequest.SpriteFromDisk:Indrahim:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GN Custom Pilots\sprite\Indrahim.dds isGIF:False
+[00:44:04.343]DataManager.SpriteLoadRequest.SpriteFromDisk:Lan:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GN Custom Pilots\sprite\Lan.png isGIF:False
+[00:44:04.355]DataManager.SpriteLoadRequest.SpriteFromDisk:Strauss:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GN Custom Pilots\sprite\Strauss.dds isGIF:False
+[00:44:04.356]DataManager.SpriteLoadRequest.SpriteFromDisk:Princess:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GN Custom Pilots\sprite\Princess.dds isGIF:False
+[00:44:04.359]TextureManager.ProcessCompletedRequest:envTxrHrld_000:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_000.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.365]TextureManager.ProcessCompletedRequest:envTxrHrld_001:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_001.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.371]TextureManager.ProcessCompletedRequest:envTxrHrld_002:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_002.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.380]TextureManager.ProcessCompletedRequest:envTxrHrld_003:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_003.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.388]TextureManager.ProcessCompletedRequest:envTxrHrld_004:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_004.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.396]TextureManager.ProcessCompletedRequest:envTxrHrld_005:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_005.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.404]TextureManager.ProcessCompletedRequest:envTxrHrld_006:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_006.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.412]TextureManager.ProcessCompletedRequest:envTxrHrld_007:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_007.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.420]TextureManager.ProcessCompletedRequest:envTxrHrld_008:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_008.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.430]TextureManager.ProcessCompletedRequest:envTxrHrld_009:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_009.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.437]TextureManager.ProcessCompletedRequest:envTxrHrld_010:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_010.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.445]TextureManager.ProcessCompletedRequest:envTxrHrld_011:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_011.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.454]TextureManager.ProcessCompletedRequest:envTxrHrld_012:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_012.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.462]TextureManager.ProcessCompletedRequest:envTxrHrld_013:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_013.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.471]TextureManager.ProcessCompletedRequest:envTxrHrld_014:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_014.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.480]TextureManager.ProcessCompletedRequest:envTxrHrld_015:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_015.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.488]TextureManager.ProcessCompletedRequest:envTxrHrld_016:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_016.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.497]TextureManager.ProcessCompletedRequest:envTxrHrld_017:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_017.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.504]TextureManager.ProcessCompletedRequest:envTxrHrld_018:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_018.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.512]TextureManager.ProcessCompletedRequest:envTxrHrld_019:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_019.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.520]TextureManager.ProcessCompletedRequest:envTxrHrld_020:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_020.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.529]TextureManager.ProcessCompletedRequest:envTxrHrld_021:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_021.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.537]TextureManager.ProcessCompletedRequest:envTxrHrld_022:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_022.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.545]TextureManager.ProcessCompletedRequest:envTxrHrld_023:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_023.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.554]TextureManager.ProcessCompletedRequest:envTxrHrld_024:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_024.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.562]TextureManager.ProcessCompletedRequest:envTxrHrld_025:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_025.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.571]TextureManager.ProcessCompletedRequest:envTxrHrld_026:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_026.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.578]TextureManager.ProcessCompletedRequest:envTxrHrld_027:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_027.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.588]TextureManager.ProcessCompletedRequest:envTxrHrld_028:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_028.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.596]TextureManager.ProcessCompletedRequest:envTxrHrld_029:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_029.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.604]TextureManager.ProcessCompletedRequest:envTxrHrld_030:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_030.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.613]TextureManager.ProcessCompletedRequest:envTxrHrld_031:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_031.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.621]TextureManager.ProcessCompletedRequest:envTxrHrld_032:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_032.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.629]TextureManager.ProcessCompletedRequest:envTxrHrld_033:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_033.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.638]TextureManager.ProcessCompletedRequest:envTxrHrld_034:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_034.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.647]TextureManager.ProcessCompletedRequest:envTxrHrld_035:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_035.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.654]TextureManager.ProcessCompletedRequest:envTxrHrld_036:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_036.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.663]TextureManager.ProcessCompletedRequest:envTxrHrld_037:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_037.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.670]TextureManager.ProcessCompletedRequest:envTxrHrld_038:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_038.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.681]TextureManager.ProcessCompletedRequest:envTxrHrld_039:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_039.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.687]TextureManager.ProcessCompletedRequest:envTxrHrld_040:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_040.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.696]TextureManager.ProcessCompletedRequest:envTxrHrld_041:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_041.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.704]TextureManager.ProcessCompletedRequest:envTxrHrld_042:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_042.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.713]TextureManager.ProcessCompletedRequest:envTxrHrld_043:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_043.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.721]TextureManager.ProcessCompletedRequest:envTxrHrld_044:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_044.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.730]TextureManager.ProcessCompletedRequest:envTxrHrld_045:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_045.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.738]TextureManager.ProcessCompletedRequest:envTxrHrld_046:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_046.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.746]TextureManager.ProcessCompletedRequest:envTxrHrld_047:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_047.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.755]TextureManager.ProcessCompletedRequest:envTxrHrld_048:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_048.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.763]TextureManager.ProcessCompletedRequest:envTxrHrld_049:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_049.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.771]TextureManager.ProcessCompletedRequest:envTxrHrld_050:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_050.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.779]TextureManager.ProcessCompletedRequest:envTxrHrld_051:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_051.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.787]TextureManager.ProcessCompletedRequest:envTxrHrld_052:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_052.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.797]TextureManager.ProcessCompletedRequest:envTxrHrld_053:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_053.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.804]TextureManager.ProcessCompletedRequest:envTxrHrld_054:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_054.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.814]TextureManager.ProcessCompletedRequest:envTxrHrld_055:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_055.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.820]TextureManager.ProcessCompletedRequest:envTxrHrld_056:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_056.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.830]TextureManager.ProcessCompletedRequest:envTxrHrld_057:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_057.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.837]TextureManager.ProcessCompletedRequest:envTxrHrld_058:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_058.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.846]TextureManager.ProcessCompletedRequest:envTxrHrld_059:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_059.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.854]TextureManager.ProcessCompletedRequest:envTxrHrld_060:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_060.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.863]TextureManager.ProcessCompletedRequest:envTxrHrld_061:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_061.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.871]TextureManager.ProcessCompletedRequest:envTxrHrld_062:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_062.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.880]TextureManager.ProcessCompletedRequest:envTxrHrld_063:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_063.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.888]TextureManager.ProcessCompletedRequest:envTxrHrld_064:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_064.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.896]TextureManager.ProcessCompletedRequest:envTxrHrld_065:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_065.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.905]TextureManager.ProcessCompletedRequest:envTxrHrld_066:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_066.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.913]TextureManager.ProcessCompletedRequest:envTxrHrld_067:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_067.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.922]TextureManager.ProcessCompletedRequest:envTxrHrld_068:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_068.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.929]TextureManager.ProcessCompletedRequest:envTxrHrld_069:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_069.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.937]TextureManager.ProcessCompletedRequest:envTxrHrld_070:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_070.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.946]TextureManager.ProcessCompletedRequest:envTxrHrld_071:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_071.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.954]TextureManager.ProcessCompletedRequest:envTxrHrld_072:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_072.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.962]TextureManager.ProcessCompletedRequest:envTxrHrld_073:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_073.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.971]TextureManager.ProcessCompletedRequest:envTxrHrld_074:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_074.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.980]TextureManager.ProcessCompletedRequest:envTxrHrld_075:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_075.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.987]TextureManager.ProcessCompletedRequest:envTxrHrld_076:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_076.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:04.997]TextureManager.ProcessCompletedRequest:envTxrHrld_077:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_077.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.004]TextureManager.ProcessCompletedRequest:envTxrHrld_078:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_078.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.014]TextureManager.ProcessCompletedRequest:envTxrHrld_079:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_079.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.022]TextureManager.ProcessCompletedRequest:envTxrHrld_080:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_080.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.029]TextureManager.ProcessCompletedRequest:envTxrHrld_081:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_081.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.037]TextureManager.ProcessCompletedRequest:envTxrHrld_082:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_082.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.045]TextureManager.ProcessCompletedRequest:envTxrHrld_083:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_083.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.054]TextureManager.ProcessCompletedRequest:envTxrHrld_084:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_084.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.062]TextureManager.ProcessCompletedRequest:envTxrHrld_085:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_085.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.072]TextureManager.ProcessCompletedRequest:envTxrHrld_086:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_086.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.079]TextureManager.ProcessCompletedRequest:envTxrHrld_087:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_087.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.088]TextureManager.ProcessCompletedRequest:envTxrHrld_088:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_088.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.097]TextureManager.ProcessCompletedRequest:envTxrHrld_089:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_089.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.104]TextureManager.ProcessCompletedRequest:envTxrHrld_090:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_090.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.113]TextureManager.ProcessCompletedRequest:envTxrHrld_091:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_091.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.121]TextureManager.ProcessCompletedRequest:envTxrHrld_092:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_092.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.130]TextureManager.ProcessCompletedRequest:envTxrHrld_093:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_093.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.137]TextureManager.ProcessCompletedRequest:envTxrHrld_094:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_094.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.145]TextureManager.ProcessCompletedRequest:envTxrHrld_095:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_095.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.154]TextureManager.ProcessCompletedRequest:envTxrHrld_096:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_096.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.163]TextureManager.ProcessCompletedRequest:envTxrHrld_097:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_097.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.171]TextureManager.ProcessCompletedRequest:envTxrHrld_098:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_098.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.179]TextureManager.ProcessCompletedRequest:envTxrHrld_099:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_099.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.187]TextureManager.ProcessCompletedRequest:envTxrHrld_100:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_100.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.196]TextureManager.ProcessCompletedRequest:envTxrHrld_101:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_101.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.204]TextureManager.ProcessCompletedRequest:envTxrHrld_102:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_102.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.213]TextureManager.ProcessCompletedRequest:envTxrHrld_103:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_103.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.221]TextureManager.ProcessCompletedRequest:envTxrHrld_104:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_104.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.230]TextureManager.ProcessCompletedRequest:envTxrHrld_105:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_105.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.238]TextureManager.ProcessCompletedRequest:envTxrHrld_106:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_106.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.246]TextureManager.ProcessCompletedRequest:envTxrHrld_107:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_107.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.255]TextureManager.ProcessCompletedRequest:envTxrHrld_108:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_108.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.263]TextureManager.ProcessCompletedRequest:envTxrHrld_109:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_109.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.271]TextureManager.ProcessCompletedRequest:envTxrHrld_110:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_110.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.280]TextureManager.ProcessCompletedRequest:envTxrHrld_111:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_111.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.288]TextureManager.ProcessCompletedRequest:envTxrHrld_112:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_112.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.297]TextureManager.ProcessCompletedRequest:envTxrHrld_113:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_113.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.304]TextureManager.ProcessCompletedRequest:envTxrHrld_114:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_114.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.313]TextureManager.ProcessCompletedRequest:envTxrHrld_115:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_115.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.321]TextureManager.ProcessCompletedRequest:envTxrHrld_116:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_116.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.330]TextureManager.ProcessCompletedRequest:envTxrHrld_117:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_117.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.338]TextureManager.ProcessCompletedRequest:envTxrHrld_118:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_118.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.347]TextureManager.ProcessCompletedRequest:envTxrHrld_119:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_119.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.354]TextureManager.ProcessCompletedRequest:envTxrHrld_120:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_120.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.362]TextureManager.ProcessCompletedRequest:envTxrHrld_121:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_121.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.371]TextureManager.ProcessCompletedRequest:envTxrHrld_122:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_122.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.379]TextureManager.ProcessCompletedRequest:envTxrHrld_123:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_123.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.387]TextureManager.ProcessCompletedRequest:envTxrHrld_124:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_124.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.396]TextureManager.ProcessCompletedRequest:envTxrHrld_125:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_125.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.404]TextureManager.ProcessCompletedRequest:envTxrHrld_126:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_126.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.413]TextureManager.ProcessCompletedRequest:envTxrHrld_127:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_127.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.421]TextureManager.ProcessCompletedRequest:envTxrHrld_128:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_128.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.430]TextureManager.ProcessCompletedRequest:envTxrHrld_129:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_129.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.438]TextureManager.ProcessCompletedRequest:envTxrHrld_130:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_130.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.447]TextureManager.ProcessCompletedRequest:envTxrHrld_131:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_131.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.454]TextureManager.ProcessCompletedRequest:envTxrHrld_132:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_132.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.463]TextureManager.ProcessCompletedRequest:envTxrHrld_133:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_133.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.471]TextureManager.ProcessCompletedRequest:envTxrHrld_134:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_134.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.480]TextureManager.ProcessCompletedRequest:envTxrHrld_135:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_135.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.488]TextureManager.ProcessCompletedRequest:envTxrHrld_136:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_136.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.496]TextureManager.ProcessCompletedRequest:envTxrHrld_137:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_137.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.505]TextureManager.ProcessCompletedRequest:envTxrHrld_138:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_138.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.513]TextureManager.ProcessCompletedRequest:envTxrHrld_139:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_139.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.521]TextureManager.ProcessCompletedRequest:envTxrHrld_140:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_140.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.529]TextureManager.ProcessCompletedRequest:envTxrHrld_141:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_141.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.538]TextureManager.ProcessCompletedRequest:envTxrHrld_142:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_142.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.546]TextureManager.ProcessCompletedRequest:envTxrHrld_143:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_143.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.555]TextureManager.ProcessCompletedRequest:envTxrHrld_144:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_144.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.563]TextureManager.ProcessCompletedRequest:envTxrHrld_145:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_145.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.573]TextureManager.ProcessCompletedRequest:envTxrHrld_146:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_146.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.580]TextureManager.ProcessCompletedRequest:envTxrHrld_147:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_147.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.587]TextureManager.ProcessCompletedRequest:envTxrHrld_148:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_148.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.596]TextureManager.ProcessCompletedRequest:envTxrHrld_149:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_149.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.604]TextureManager.ProcessCompletedRequest:envTxrHrld_150:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_150.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.612]TextureManager.ProcessCompletedRequest:envTxrHrld_151:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_151.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.620]TextureManager.ProcessCompletedRequest:envTxrHrld_152:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_152.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.629]TextureManager.ProcessCompletedRequest:envTxrHrld_153:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_153.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.637]TextureManager.ProcessCompletedRequest:envTxrHrld_154:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_154.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.646]TextureManager.ProcessCompletedRequest:envTxrHrld_155:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_155.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.654]TextureManager.ProcessCompletedRequest:envTxrHrld_156:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_156.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.663]TextureManager.ProcessCompletedRequest:envTxrHrld_armyWarthog:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_armyWarthog.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.671]TextureManager.ProcessCompletedRequest:envTxrHrld_BloodEagle:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_BloodEagle.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.679]TextureManager.ProcessCompletedRequest:envTxrHrld_Draugr:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_Draugr.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.687]TextureManager.ProcessCompletedRequest:envTxrHrld_Goblin:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_Goblin.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.696]TextureManager.ProcessCompletedRequest:envTxrHrld_ISEN:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_ISEN.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.704]TextureManager.ProcessCompletedRequest:envTxrHrld_Jarl:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_Jarl.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.713]TextureManager.ProcessCompletedRequest:envTxrHrld_Oni:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_Oni.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.720]TextureManager.ProcessCompletedRequest:envTxrHrld_RedMenace:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_RedMenace.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.730]TextureManager.ProcessCompletedRequest:envTxrHrld_RSOR04:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_RSOR04.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.737]TextureManager.ProcessCompletedRequest:envTxrHrld_SandRiders02:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_SandRiders02.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.746]TextureManager.ProcessCompletedRequest:envTxrHrld_set02_01:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_set02_01.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.754]TextureManager.ProcessCompletedRequest:envTxrHrld_set03_01:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_set03_01.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.762]TextureManager.ProcessCompletedRequest:envTxrHrld_ShaynasPride:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_ShaynasPride.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.772]TextureManager.ProcessCompletedRequest:envTxrHrld_TrollGuard:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_TrollGuard.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.779]TextureManager.ProcessCompletedRequest:envTxrHrld_WolfMother:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_WolfMother.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.788]TextureManager.ProcessCompletedRequest:envTxrHrld_X000_uixTxrLogo_PlayerDefault:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X000_uixTxrLogo_PlayerDefault.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.796]TextureManager.ProcessCompletedRequest:envTxrHrld_X001_uixTxrLogo_MajestyMetals:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X001_uixTxrLogo_MajestyMetals.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.804]TextureManager.ProcessCompletedRequest:envTxrHrld_X002_uixTxrLogo_SecuritySolutionsInc:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X002_uixTxrLogo_SecuritySolutionsInc.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.813]TextureManager.ProcessCompletedRequest:envTxrHrld_X003_uixTxrLogo_HostileMercenaries:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X003_uixTxrLogo_HostileMercenaries.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.821]TextureManager.ProcessCompletedRequest:envTxrHrld_X004_uixTxrLogo_ProfHorvat:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X004_uixTxrLogo_ProfHorvat.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.829]TextureManager.ProcessCompletedRequest:envTxrHrld_X005_uixTxrLogo_EmeraldDawn:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X005_uixTxrLogo_EmeraldDawn.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.838]TextureManager.ProcessCompletedRequest:envTxrHrld_X006_uixTxrLogo_DuchyOfAndurien:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X006_uixTxrLogo_DuchyOfAndurien.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.846]TextureManager.ProcessCompletedRequest:envTxrHrld_X007_uixTxrLogo_SianTriumphant:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X007_uixTxrLogo_SianTriumphant.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.855]TextureManager.ProcessCompletedRequest:envTxrHrld_X008_uixTxrLogo_EdCorbu:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X008_uixTxrLogo_EdCorbu.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.863]TextureManager.ProcessCompletedRequest:envTxrHrld_X009_uixTxrLogo_DEST:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X009_uixTxrLogo_DEST.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.872]TextureManager.ProcessCompletedRequest:envTxrHrld_X010_uixTxrLogo_SteelBeast:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X010_uixTxrLogo_SteelBeast.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.880]TextureManager.ProcessCompletedRequest:envTxrHrld_X100_uixTxrLogo_MercenaryReviewBoard:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X100_uixTxrLogo_MercenaryReviewBoard.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.889]TextureManager.ProcessCompletedRequest:envTxrHrld_X101_uixTxrLogo_KellHounds:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X101_uixTxrLogo_KellHounds.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.897]TextureManager.ProcessCompletedRequest:envTxrHrld_X102_uixTxrLogo_RazorbackMercs:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X102_uixTxrLogo_RazorbackMercs.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.905]TextureManager.ProcessCompletedRequest:envTxrHrld_X103_uixTxrLogo_RedHareRegiment:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X103_uixTxrLogo_RedHareRegiment.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.913]TextureManager.ProcessCompletedRequest:envTxrHrld_X104_uixTxrLogo_MasonsMarauders:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X104_uixTxrLogo_MasonsMarauders.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.922]TextureManager.ProcessCompletedRequest:envTxrHrld_X105_uixTxrLogo_GrayDeathLegion:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X105_uixTxrLogo_GrayDeathLegion.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.929]TextureManager.ProcessCompletedRequest:envTxrHrld_X106_uixTxrLogo_BlackWidowCompany:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X106_uixTxrLogo_BlackWidowCompany.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.939]TextureManager.ProcessCompletedRequest:envTxrHrld_X107_uixTxrLogo_BountyHunterAssociates:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X107_uixTxrLogo_BountyHunterAssociates.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.947]TextureManager.ProcessCompletedRequest:envTxrHrld_X108_uixTxrLogo_Nautilus:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X108_uixTxrLogo_Nautilus.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.955]TextureManager.ProcessCompletedRequest:envTxrHrld_X_000_uixTxrLogo_Liao:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X_000_uixTxrLogo_Liao.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.964]TextureManager.ProcessCompletedRequest:envTxrHrld_X_001_uixTxrLogo_Marik:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X_001_uixTxrLogo_Marik.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.971]TextureManager.ProcessCompletedRequest:envTxrHrld_X_002_uixTxrLogo_Davion:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X_002_uixTxrLogo_Davion.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.980]TextureManager.ProcessCompletedRequest:envTxrHrld_X_003_uixTxrLogo_Kurita:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X_003_uixTxrLogo_Kurita.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.987]TextureManager.ProcessCompletedRequest:envTxrHrld_X_004_uixTxrLogo_Steiner:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X_004_uixTxrLogo_Steiner.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:05.997]TextureManager.ProcessCompletedRequest:envTxrHrld_X_005_uixTxrLogo_ComStar:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X_005_uixTxrLogo_ComStar.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.004]TextureManager.ProcessCompletedRequest:envTxrHrld_X__0000_uixTxrLogo_AuriganRestoration:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X__0000_uixTxrLogo_AuriganRestoration.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.013]TextureManager.ProcessCompletedRequest:envTxrHrld_X__0001_uixTxrLogo_AuriganDirectorate:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X__0001_uixTxrLogo_AuriganDirectorate.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.021]TextureManager.ProcessCompletedRequest:envTxrHrld_X__0002_uixTxrLogo_MagistracyOfCanopus:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X__0002_uixTxrLogo_MagistracyOfCanopus.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.029]TextureManager.ProcessCompletedRequest:envTxrHrld_X__0004_uixTxrLogo_Locals:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X__0004_uixTxrLogo_Locals.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.037]TextureManager.ProcessCompletedRequest:envTxrHrld_X__0005_uixTxrLogo_NoFaction:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X__0005_uixTxrLogo_NoFaction.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.046]TextureManager.ProcessCompletedRequest:envTxrHrld_X__0006_uixTxrLogo_FlakJackals:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X__0006_uixTxrLogo_FlakJackals.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.054]TextureManager.ProcessCompletedRequest:envTxrHrld_X__003_uixTxrLogo_TaurianConcordat:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X__003_uixTxrLogo_TaurianConcordat.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.063]TextureManager.ProcessCompletedRequest:envTxrHrld_X___000_uixTxrLogo_backgroundTragedy:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X___000_uixTxrLogo_backgroundTragedy.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.072]TextureManager.ProcessCompletedRequest:envTxrHrld_X___001_uixTxrLogo_backgroundLoner:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X___001_uixTxrLogo_backgroundLoner.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.080]TextureManager.ProcessCompletedRequest:envTxrHrld_X___002_uixTxrLogo_backgroundExiled:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X___002_uixTxrLogo_backgroundExiled.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.089]TextureManager.ProcessCompletedRequest:envTxrHrld_X___003_uixTxrLogo_backgroundBankrupt:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X___003_uixTxrLogo_backgroundBankrupt.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.096]TextureManager.ProcessCompletedRequest:envTxrHrld_X___004_uixTxrLogo_backgroundBetrayed:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_X___004_uixTxrLogo_backgroundBetrayed.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.110]TextureManager.ProcessCompletedRequest:envTxrHrld_ZathraTourismBoard:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/player/envTxrHrld_ZathraTourismBoard.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.114]TextureManager.ProcessCompletedRequest:uixTxrLogo_AuriganMercenaries:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_AuriganMercenaries.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.122]TextureManager.ProcessCompletedRequest:uixTxrLogo_MagistracyCentrella:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_MagistracyCentrella.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.130]TextureManager.ProcessCompletedRequest:uixTxrLogo_MercenaryReviewBoard:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_MercenaryReviewBoard.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.140]TextureManager.ProcessCompletedRequest:uixTxrLogo_FlakJackals:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_FlakJackals.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.141]DataManager.SpriteLoadRequest.SpriteFromDisk:Atlas:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Atlas.png isGIF:False
+[00:44:06.150]TextureManager.ProcessCompletedRequest:uixTxrLogo_LocalsBrockwayRefugees:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_LocalsBrockwayRefugees.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.151]DataManager.SpriteLoadRequest.SpriteFromDisk:Awesome:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Awesome.png isGIF:False
+[00:44:06.159]TextureManager.ProcessCompletedRequest:uixTxrLogo_SelfEmployed:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_SelfEmployed.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.162]DataManager.SpriteLoadRequest.SpriteFromDisk:Banshee:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Banshee.png isGIF:False
+[00:44:06.170]TextureManager.ProcessCompletedRequest:uixTxrLogo_Unknown:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_Unknown.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.175]DataManager.SpriteLoadRequest.SpriteFromDisk:Battlemaster:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Battlemaster.png isGIF:False
+[00:44:06.181]DataManager.SpriteLoadRequest.SpriteFromDisk:blackjack:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\blackjack.dds isGIF:False
+[00:44:06.185]TextureManager.ProcessCompletedRequest:uixTxrLogo_EdCorbu:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_EdCorbu.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.187]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_blackknight:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_blackknight.dds isGIF:False
+[00:44:06.190]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_cataphract:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_cataphract.dds isGIF:False
+[00:44:06.193]TextureManager.ProcessCompletedRequest:uixTxrLogo_HouseNakano:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_HouseNakano.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.195]DataManager.SpriteLoadRequest.SpriteFromDisk:Catapult:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Catapult.dds isGIF:False
+[00:44:06.199]DataManager.SpriteLoadRequest.SpriteFromDisk:centurion:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\centurion.dds isGIF:False
+[00:44:06.202]TextureManager.ProcessCompletedRequest:uixTxrLogo_SelfEmployed_Yang:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_SelfEmployed_Yang.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.204]DataManager.SpriteLoadRequest.SpriteFromDisk:chrPrfMech_centurionBase-001_portrait:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/chrPrfMech_centurionBase-001_portrait.dds isGIF:False
+[00:44:06.204]DataManager.SpriteLoadRequest.SpriteFromDisk:cicada:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\cicada.dds isGIF:False
+[00:44:06.207]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_commando:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_commando.dds isGIF:False
+[00:44:06.210]TextureManager.ProcessCompletedRequest:uixTxrLogo_HouseKhulan:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_HouseKhulan.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.212]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_dragon:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_dragon.dds isGIF:False
+[00:44:06.215]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_enforcer:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_enforcer.dds isGIF:False
+[00:44:06.217]DataManager.SpriteLoadRequest.SpriteFromDisk:firestarter:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\firestarter.dds isGIF:False
+[00:44:06.221]TextureManager.ProcessCompletedRequest:uixTxrLogo_SelfEmployed_Farah:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_SelfEmployed_Farah.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.226]DataManager.SpriteLoadRequest.SpriteFromDisk:Grasshopper:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Grasshopper.png isGIF:False
+[00:44:06.231]DataManager.SpriteLoadRequest.SpriteFromDisk:Griffin:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Griffin.dds isGIF:False
+[00:44:06.235]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_highlander:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_highlander.dds isGIF:False
+[00:44:06.240]TextureManager.ProcessCompletedRequest:uixTxrLogo_SelfEmployed_Sumire:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_SelfEmployed_Sumire.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.245]DataManager.SpriteLoadRequest.SpriteFromDisk:hunchback:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\hunchback.dds isGIF:False
+[00:44:06.248]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_jagermech:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_jagermech.dds isGIF:False
+[00:44:06.251]DataManager.SpriteLoadRequest.SpriteFromDisk:jenner:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\jenner.dds isGIF:False
+[00:44:06.254]DataManager.SpriteLoadRequest.SpriteFromDisk:KingCrab:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\KingCrab.png isGIF:False
+[00:44:06.262]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_kintaro:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_kintaro.dds isGIF:False
+[00:44:06.264]DataManager.SpriteLoadRequest.SpriteFromDisk:locust:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\locust.dds isGIF:False
+[00:44:06.267]DataManager.SpriteLoadRequest.SpriteFromDisk:Orion:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Orion.png isGIF:False
+[00:44:06.273]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_orion:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_orion.dds isGIF:False
+[00:44:06.276]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_panther:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_panther.dds isGIF:False
+[00:44:06.278]DataManager.SpriteLoadRequest.SpriteFromDisk:chrPrfMech_pantherBase-001_portrait:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/chrPrfMech_pantherBase-001_portrait.dds isGIF:False
+[00:44:06.278]DataManager.SpriteLoadRequest.SpriteFromDisk:Quickdraw:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Quickdraw.dds isGIF:False
+[00:44:06.284]DataManager.SpriteLoadRequest.SpriteFromDisk:Stalker:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Stalker.png isGIF:False
+[00:44:06.289]DataManager.SpriteLoadRequest.SpriteFromDisk:Thunderbolt:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Thunderbolt.dds isGIF:False
+[00:44:06.292]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_trebuchet:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_trebuchet.dds isGIF:False
+[00:44:06.295]DataManager.SpriteLoadRequest.SpriteFromDisk:urbanmech:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\urbanmech.dds isGIF:False
+[00:44:06.300]DataManager.SpriteLoadRequest.SpriteFromDisk:Victor:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Victor.png isGIF:False
+[00:44:06.305]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_vindicator:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_vindicator.dds isGIF:False
+[00:44:06.308]DataManager.SpriteLoadRequest.SpriteFromDisk:Wolverine:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Wolverine.dds isGIF:False
+[00:44:06.310]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_zeus:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_zeus.dds isGIF:False
+[00:44:06.318]DataManager.SpriteLoadRequest.SpriteFromDisk:Marauder:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Marauder.png isGIF:False
+[00:44:06.323]DataManager.SpriteLoadRequest.SpriteFromDisk:Warhammer:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Warhammer.png isGIF:False
+[00:44:06.337]DataManager.SpriteLoadRequest.SpriteFromDisk:trebuchet:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\trebuchet.dds isGIF:False
+[00:44:06.345]DataManager.SpriteLoadRequest.SpriteFromDisk:crab:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\crab.dds isGIF:False
+[00:44:06.347]DataManager.SpriteLoadRequest.SpriteFromDisk:Cyclops:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Cyclops.png isGIF:False
+[00:44:06.358]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_hatchetman:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_hatchetman.dds isGIF:False
+[00:44:06.360]DataManager.SpriteLoadRequest.SpriteFromDisk:javelin:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\javelin.dds isGIF:False
+[00:44:06.367]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_raven:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_raven.dds isGIF:False
+[00:44:06.369]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_annihilator:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_annihilator.dds isGIF:False
+[00:44:06.372]DataManager.SpriteLoadRequest.SpriteFromDisk:Archer:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Archer.png isGIF:False
+[00:44:06.379]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_assassin:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_assassin.dds isGIF:False
+[00:44:06.382]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_bullshark:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_bullshark.dds isGIF:False
+[00:44:06.384]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_flea:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_flea.dds isGIF:False
+[00:44:06.388]DataManager.SpriteLoadRequest.SpriteFromDisk:phoenixhawk:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\phoenixhawk.dds isGIF:False
+[00:44:06.390]DataManager.SpriteLoadRequest.SpriteFromDisk:Rifleman:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Rifleman.dds isGIF:False
+[00:44:06.395]DataManager.SpriteLoadRequest.SpriteFromDisk:vulcan:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\vulcan.dds isGIF:False
+[00:44:06.422]DataManager.SpriteLoadRequest.SpriteFromDisk:chameleon:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\chameleon.dds isGIF:False
+[00:44:06.423]DataManager.SpriteLoadRequest.SpriteFromDisk:Champion:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Champion.dds isGIF:False
+[00:44:06.424]DataManager.SpriteLoadRequest.SpriteFromDisk:clint:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\clint.dds isGIF:False
+[00:44:06.426]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_hunchback:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_hunchback.dds isGIF:False
+[00:44:06.426]DataManager.SpriteLoadRequest.SpriteFromDisk:crusader:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\crusader.dds isGIF:False
+[00:44:06.431]DataManager.SpriteLoadRequest.SpriteFromDisk:dervish:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\dervish.dds isGIF:False
+[00:44:06.462]DataManager.SpriteLoadRequest.SpriteFromDisk:Guillotine:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Guillotine.png isGIF:False
+[00:44:06.471]DataManager.SpriteLoadRequest.SpriteFromDisk:Longbow:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Longbow.png isGIF:False
+[00:44:06.476]DataManager.SpriteLoadRequest.SpriteFromDisk:mongoose:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\mongoose.dds isGIF:False
+[00:44:06.486]DataManager.SpriteLoadRequest.SpriteFromDisk:stinger:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\stinger.dds isGIF:False
+[00:44:06.495]DataManager.SpriteLoadRequest.SpriteFromDisk:Wolfhound:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Wolfhound.dds isGIF:False
+[00:44:06.496]DataManager.SpriteLoadRequest.SpriteFromDisk:wyvern:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\wyvern.dds isGIF:False
+[00:44:06.497]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_locust:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_locust.dds isGIF:False
+[00:44:06.497]DataManager.SpriteLoadRequest.SpriteFromDisk:0Gundam:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNTech\portraits\0Gundam.dds isGIF:False
+[00:44:06.498]DataManager.SpriteLoadRequest.SpriteFromDisk:Dynames:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNTech\portraits\Dynames.dds isGIF:False
+[00:44:06.503]DataManager.SpriteLoadRequest.SpriteFromDisk:Virtue:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNTech\portraits\Virtue.png isGIF:False
+[00:44:06.508]DataManager.SpriteLoadRequest.SpriteFromDisk:Desultor:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNTech\portraits\Desultor.png isGIF:False
+[00:44:06.512]DataManager.SpriteLoadRequest.SpriteFromDisk:GM:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNTech\portraits\GM.dds isGIF:False
+[00:44:06.513]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_kingcrab:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_kingcrab.dds isGIF:False
+[00:44:06.516]TextureManager.ProcessCompletedRequest:uixTxrLogo_backgroundTragedy:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_backgroundTragedy.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.519]TextureManager.ProcessCompletedRequest:uixTxrLogo_backgroundBankrupt:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_backgroundBankrupt.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.530]TextureManager.ProcessCompletedRequest:uixTxrLogo_backgroundBetrayed:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_backgroundBetrayed.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.538]TextureManager.ProcessCompletedRequest:uixTxrLogo_backgroundExiled:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_backgroundExiled.dds
+ non cached
+ is GIF:False
+ completed.callback
+[00:44:06.546]TextureManager.ProcessCompletedRequest:uixTxrLogo_backgroundLoner:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\emblems/factions/uixTxrLogo_backgroundLoner.dds
+ non cached
+ is GIF:False
+ completed.callback
+flush
+flush
+[00:44:23.530]DataManager.SpriteLoadRequest.SpriteFromDisk:planet_climate_terran:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Planets/planet_climate_terran.dds isGIF:False
+[00:44:23.531]DataManager.SpriteLoadRequest.SpriteFromDisk:planet_climate_arctic:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Planets/planet_climate_arctic.dds isGIF:False
+[00:44:23.531]DataManager.SpriteLoadRequest.SpriteFromDisk:planet_climate_arid:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Planets/planet_climate_arid.dds isGIF:False
+[00:44:23.531]DataManager.SpriteLoadRequest.SpriteFromDisk:planet_climate_mars:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Planets/planet_climate_mars.dds isGIF:False
+[00:44:23.531]DataManager.SpriteLoadRequest.SpriteFromDisk:planet_climate_lunar:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Planets/planet_climate_lunar.dds isGIF:False
+[00:44:23.532]DataManager.SpriteLoadRequest.SpriteFromDisk:planet_climate_rocky:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Planets/planet_climate_rocky.dds isGIF:False
+[00:44:23.532]DataManager.SpriteLoadRequest.SpriteFromDisk:planet_climate_tropical:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Planets/planet_climate_tropical.dds isGIF:False
+[00:44:23.532]DataManager.SpriteLoadRequest.SpriteFromDisk:planet_climate_water:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Planets/planet_climate_water.dds isGIF:False
+[00:44:23.532]DataManager.SpriteLoadRequest.SpriteFromDisk:planet_climate_ice:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Planets/planet_climate_ice.dds isGIF:False
+[00:44:23.532]DataManager.SpriteLoadRequest.SpriteFromDisk:planet_climate_desert:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Planets/planet_climate_desert.dds isGIF:False
+flush
+[00:44:28.882]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrSpot_HiringHall:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Illustrations/uixTxrSpot_HiringHall.dds isGIF:False
+[00:44:28.884]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrSpot_Store:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Illustrations/uixTxrSpot_Store.dds isGIF:False
+[00:44:28.888]DataManager.SpriteLoadRequest.SpriteFromDisk:02-Background:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/characterCreationBackgrounds/02-Background.dds isGIF:False
+[00:44:28.897]DataManager.SpriteLoadRequest.SpriteFromDisk:05-portraitCustomizationBackground:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/characterCreationBackgrounds/05-portraitCustomizationBackground.dds isGIF:False
+[00:44:28.901]DataManager.SpriteLoadRequest.SpriteFromDisk:05-portraitCustomizationBackground-Wide:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/characterCreationBackgrounds/05-portraitCustomizationBackground-Wide.dds isGIF:False
+[00:44:28.906]DataManager.SpriteLoadRequest.SpriteFromDisk:06-char_create:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/characterCreationBackgrounds/06-char_create.dds isGIF:False
+[00:44:28.961]DataManager.SpriteLoadRequest.SpriteFromDisk:01-WelcomeToReach:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/characterCreationBackgrounds/01-WelcomeToReach.dds isGIF:False
+[00:44:28.963]DataManager.SpriteLoadRequest.SpriteFromDisk:03-Noble-birth:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/characterCreationBackgrounds/03-Noble-birth.dds isGIF:False
+[00:44:28.967]DataManager.SpriteLoadRequest.SpriteFromDisk:04-OnSixteenthBirthday:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/characterCreationBackgrounds/04-OnSixteenthBirthday.dds isGIF:False
+flush
+[00:44:39.633]PortraitRenderPanel.Render 218_large
+ GifImageAnimator.gif: null
+[00:44:39.685]PortraitRenderPanel.Render 218_large
+ GifImageAnimator.gif: null
+[00:44:45.821]PortraitRenderPanel.Render 218_large
+ GifImageAnimator.gif: null
+flush
+[00:44:53.830]PilotDecorationDefHelper.getDecorations commander:Blister type:Ability
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+[00:44:53.832]PilotDecorationDefHelper.getDecorations commander:Blister type:Shevron
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:44:53.843]PilotDecorationDefHelper.getDecorations commander:Blister type:Ability
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+[00:44:53.843]PilotDecorationDefHelper.getDecorations commander:Blister type:Shevron
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:44:53.852]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Ability
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+[00:44:53.852]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Shevron
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.853]PilotDef.DependenciesLoaded pilot_ronin_Sumo
+[00:44:53.853]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.855]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Ability
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+[00:44:53.855]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Shevron
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.861]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Ability
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+[00:44:53.861]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Shevron
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.862]PilotDef.DependenciesLoaded pilot_backer_Slipais
+[00:44:53.862]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.863]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Ability
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+[00:44:53.863]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Shevron
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.870]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Ability
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+[00:44:53.870]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Shevron
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.870]PilotDef.DependenciesLoaded pilot_backer_Bixby
+[00:44:53.870]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.871]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Ability
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+[00:44:53.871]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Shevron
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.879]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Ability
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+[00:44:53.879]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Shevron
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.879]PilotDef.DependenciesLoaded pilot_backer_Doochin
+[00:44:53.879]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.881]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Ability
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+[00:44:53.881]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Shevron
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.889]PilotDecorationDefHelper.getDecorations pilot_backer_Bono:T-Bone type:Ability
+ tags: name_T-Bone pilot_steiner can_pilot_generic_mech PqMarked
+[00:44:53.889]PilotDecorationDefHelper.getDecorations pilot_backer_Bono:T-Bone type:Shevron
+ tags: name_T-Bone pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.889]PilotDef.DependenciesLoaded pilot_backer_Bono
+[00:44:53.889]PilotDecorationDefHelper.getDecorations pilot_backer_Bono:T-Bone
+ tags: name_T-Bone pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.890]PilotDecorationDefHelper.getDecorations pilot_backer_Bono:T-Bone type:Ability
+ tags: name_T-Bone pilot_steiner can_pilot_generic_mech PqMarked
+[00:44:53.890]PilotDecorationDefHelper.getDecorations pilot_backer_Bono:T-Bone type:Shevron
+ tags: name_T-Bone pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.900]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Ability
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+[00:44:53.900]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Shevron
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.900]PilotDef.DependenciesLoaded pilot_backer_Voyls
+[00:44:53.900]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.901]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Ability
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+[00:44:53.901]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Shevron
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:44:53.911]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Ability
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+[00:44:53.911]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Shevron
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:44:53.911]PilotDef.DependenciesLoaded pilot_backer_Hurtado
+[00:44:53.912]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:44:53.912]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Ability
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+[00:44:53.912]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Shevron
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:44:53.930]SGBarracksDossierPanel.SetPilot
+ gifSpriteAnimator.gif: null
+flush
+[00:45:01.580]PilotDef.DependenciesLoaded pilot_ronin_Sumo
+[00:45:01.580]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:01.580]SGBarracksDossierPanel.SetPilot
+ gifSpriteAnimator.gif: null
+flush
+[00:45:14.654]PilotDef.DependenciesLoaded pilot_backer_Bono
+[00:45:14.654]PilotDecorationDefHelper.getDecorations pilot_backer_Bono:T-Bone
+ tags: name_T-Bone pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:14.655]SGBarracksDossierPanel.SetPilot
+ gifSpriteAnimator.gif: null
+[00:45:16.850]PilotDecorationDefHelper.getDecorations commander:Blister type:Ability
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+[00:45:16.850]PilotDecorationDefHelper.getDecorations commander:Blister type:Shevron
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:45:16.851]PilotDecorationDefHelper.getDecorations commander:Blister type:Ability
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+[00:45:16.851]PilotDecorationDefHelper.getDecorations commander:Blister type:Shevron
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:45:16.853]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Ability
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+[00:45:16.854]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Shevron
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:16.854]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Ability
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+[00:45:16.854]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Shevron
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:16.857]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Ability
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+[00:45:16.858]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Shevron
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:16.858]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Ability
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+[00:45:16.858]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Shevron
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:16.862]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Ability
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+[00:45:16.862]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Shevron
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:16.862]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Ability
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+[00:45:16.862]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Shevron
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:16.867]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Ability
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+[00:45:16.867]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Shevron
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:16.867]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Ability
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+[00:45:16.867]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Shevron
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:16.872]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Ability
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+[00:45:16.872]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Shevron
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:16.873]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Ability
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+[00:45:16.873]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Shevron
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:16.879]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Ability
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+[00:45:16.879]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Shevron
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:45:16.880]PilotDef.DependenciesLoaded pilot_backer_Hurtado
+[00:45:16.880]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:45:16.880]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Ability
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+[00:45:16.880]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Shevron
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:45:16.892]SGBarracksDossierPanel.SetPilot
+ gifSpriteAnimator.gif: null
+flush
+flush
+flush
+[00:45:48.714]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrSpot_ambushConvoyContract:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Illustrations/uixTxrSpot_ambushConvoyContract.dds isGIF:False
+flush
+[00:45:50.593]PilotDecorationDefHelper.getDecorations commander:Blister type:Ability
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+[00:45:50.593]PilotDecorationDefHelper.getDecorations commander:Blister type:Shevron
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:45:50.593]PilotDecorationDefHelper.getDecorations commander:Blister type:Ability
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+[00:45:50.593]PilotDecorationDefHelper.getDecorations commander:Blister type:Shevron
+ tags: pilot_jinxed pilot_lucky commander_career_gladiator commander_ancestry_deepPeriphery pilot_vehicle_crew commander_player can_pilot_generic_mech can_pilot_generic_vehicle PqMarked
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:45:50.619]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Ability
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+[00:45:50.619]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Shevron
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.621]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Ability
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+[00:45:50.621]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo type:Shevron
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.655]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Ability
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+[00:45:50.655]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Shevron
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.657]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Ability
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+[00:45:50.657]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline type:Shevron
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.698]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Ability
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+[00:45:50.698]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Shevron
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.699]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Ability
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+[00:45:50.699]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter type:Shevron
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.748]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Ability
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+[00:45:50.748]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Shevron
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.749]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Ability
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+[00:45:50.749]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce type:Shevron
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.805]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Ability
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+[00:45:50.805]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Shevron
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.806]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Ability
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+[00:45:50.806]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV type:Shevron
+ tags: name_GV pilot_marik can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.869]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Ability
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+[00:45:50.869]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Shevron
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:45:50.869]PilotDef.DependenciesLoaded pilot_backer_Hurtado
+[00:45:50.869]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:45:50.871]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Ability
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+[00:45:50.871]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother type:Shevron
+ tags: name_Brother pilot_davion can_pilot_generic_mech PqMarked can_pilot_generic_vehicle
+ pilotdecorationdef_can_drive_mech
+ pilotdecorationdef_can_drive_vehicle
+[00:45:50.939]PilotDecorationDefHelper.getDecorations pilot_backer_Coldfire:Coldfire type:Ability
+ tags: name_Coldfire pilot_magistracy can_pilot_generic_mech PqMarked
+[00:45:50.939]PilotDecorationDefHelper.getDecorations pilot_backer_Coldfire:Coldfire type:Shevron
+ tags: name_Coldfire pilot_magistracy can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.939]PilotDef.DependenciesLoaded pilot_backer_Coldfire
+[00:45:50.939]PilotDecorationDefHelper.getDecorations pilot_backer_Coldfire:Coldfire
+ tags: name_Coldfire pilot_magistracy can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:50.941]PilotDecorationDefHelper.getDecorations pilot_backer_Coldfire:Coldfire type:Ability
+ tags: name_Coldfire pilot_magistracy can_pilot_generic_mech PqMarked
+[00:45:50.941]PilotDecorationDefHelper.getDecorations pilot_backer_Coldfire:Coldfire type:Shevron
+ tags: name_Coldfire pilot_magistracy can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:51.067]SGBarracksDossierPanel.SetPilot
+ gifSpriteAnimator.gif: null
+[00:45:53.481]PilotDef.DependenciesLoaded pilot_backer_Coldfire
+[00:45:53.481]PilotDecorationDefHelper.getDecorations pilot_backer_Coldfire:Coldfire
+ tags: name_Coldfire pilot_magistracy can_pilot_generic_mech PqMarked
+ pilotdecorationdef_can_drive_mech
+[00:45:53.482]SGBarracksDossierPanel.SetPilot
+ gifSpriteAnimator.gif: null
+flush
+flush
