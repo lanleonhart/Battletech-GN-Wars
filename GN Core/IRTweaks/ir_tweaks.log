@@ -1,254 +1,158 @@
-00:07:55.990 Assembly version: 0.9.8.6
-00:07:55.991 == Mod Config Initialization Started == 
-00:07:55.992 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
-00:07:55.992 == Mod Config Initialization Complete == 
-00:07:55.996 === MOD CONFIG BEGIN ===
-00:07:55.996   DEBUG: False Trace: False
-00:07:55.996   -- Fixes --
-00:07:55.996   AbilityResourceFix:                 True
-00:07:55.996   AlternateMechNamingStyle:           False
-00:07:55.996   BuildingDamageColorChange:          True
-00:07:55.996   BraceOnMeleeWithJuggernaut:         True
-00:07:55.996   BreachingShotIgnoresAllDR:          False
-00:07:55.996   BulkPurchasing:                     False
-00:07:55.996   BulkScrapping:                      False
-00:07:55.996   CalledShotTweaks:                   True
-00:07:55.997   CombatLog:                          True
-00:07:55.997   DifficultyModsFromStats:            True
-00:07:55.997   DisableCampaign:                    True
-00:07:55.997   DisableDebug:                       True
-00:07:55.997   DisableCombatRestarts:              True
-00:07:55.997   DisableCombatSaves:                 True
-00:07:55.997   DisableMPHashCalculation:           True
-00:07:55.997   DisableFiringStat:                  True
-00:07:55.997   DisableLowFundsNotification:        True
-00:07:55.997   ExplodingBuildingFix:               True
-00:07:55.997   EventRequirementsScopeFix:          True
-00:07:55.997   ExtendedStats:                      True
-00:07:55.997   FactionReputationFixes:             True
-00:07:55.997   FlexibleSensorLock:                 False
-00:07:55.997   MaxArmorMaxesArmor:                 True
-00:07:55.997   MechbayLayout:                      True
-00:07:55.997   MechbayLayoutDisableStore:          True
-00:07:55.997   OnWeaponFireFix:                    True
-00:07:55.997   PainTolerance:                      True
-00:07:55.997   PathfinderTeamFix:                  True
-00:07:55.997   RandomStartByDifficulty:            True
-00:07:55.997   ReduceSaveCompression:              True
-00:07:55.997   ScaleObjectiveBuildingStructure:    True
-00:07:55.997   ShowAllArgoUpgrades:                True
-00:07:55.997   SkipDeleteSavePopup:                True
-00:07:55.997   SkirmishAlwaysUnlimited:            True
-00:07:55.997   SkirmishReset:                      False
-00:07:55.997   SimGameDifficultyLabelsReplacer:    False
-00:07:55.997   SpawnProtection:                    True
-00:07:55.997   StreamlinedMainMenu:                True
-00:07:55.997   TurnDirectorStartFirstRoundFix:     True
-00:07:55.997   TgtComputerTonnageDisplay:          True
-00:07:55.997   UrbanExplosionsFix:                 False
-00:07:55.997   WeaponTooltips:                     True
-00:07:55.997   DamageReductionInCombatHud:         True
-00:07:55.997   DeathChanceStat:                    True
-00:07:55.997   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
-00:07:55.997   TorsoMountStatName:                     isTorsoMount
-00:07:55.997   -- Called Shot --
-00:07:55.997    Disable => AllLocations: True  Headshots: True
-00:07:55.997    Enable => ComplexTacticsModifier: True
-00:07:55.997    BaseModifier:-1
-00:07:55.997    CalledShotDefaultMod:-1
-00:07:55.997   -- Spawn Protection --
-00:07:55.997    ApplyGuard:True  EvasionPips:8
-00:07:55.997    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
-00:07:55.997    ApplyToReinforcements:True
-00:07:55.997   -- Cheat Detection --
-00:07:55.997    CheatDetection:True
-00:07:55.997    CheatDetectionNotify:True
-00:07:55.997    CheatDetectionStat:CheatFoundS2
-00:07:55.997   -- ObstructionTweaks --
-00:07:55.997    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
-00:07:55.997    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
-00:07:55.997    QuadTags:System.Collections.Generic.List`1[System.String]
-00:07:55.997    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
-00:07:55.997   -- Store --
-00:07:55.997    QuantityOnShift:5  QuantityOnControl:20
-00:07:55.997   -- Flexible Sensor Lock Options --
-00:07:55.997    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
-00:07:55.997 === MOD CONFIG END ===
-00:07:55.997 INFO: No errors reading settings file.
-00:07:56.005 Activating Fix: BraceOnMeleeWithJuggernaut
-00:07:56.005 Activating Fix: BuildingDamageColorChange
-00:07:56.005 Activating Fix: CalledShotTweaks
-00:07:56.005 Activating Fix: ExtendedStats
-00:07:56.005 Activating Fix: PainTolerance
-00:07:56.005 Activating Fix: PathfinderTeamFix
-00:07:56.005 Activating Fix: ScaleObjectiveBuildingStructure
-00:07:56.005 Activating Fix: SpawnProtection
-00:07:56.005 Activating Fix: RandomStartByDifficulty
-00:07:56.005 Activating Fix: DisableCampaign
-00:07:56.005 Activating Fix: DisableLowFundsNotification
-00:07:56.005 Activating Fix: DisableMPHashCalculation
-00:07:56.005 Activating Fix: MultiTargetStat
-00:07:56.005 Activating fix: ReduceSaveCompression.
-00:07:56.005 Activating fix: ShowAllArgoUpgrades.
-00:07:56.005 Activating fix: SkipDeleteSavePopup.
-00:07:56.006 Activating Fix: CombatLog
-00:07:56.138 Activating Fix: SkirmishAlwaysUnlimited
-00:07:56.138 Activating Fix: DisableCombatSaves
-00:07:56.138 Activating Fix: DisableCombatRestart
-00:07:56.138 Activating Fix: StreamlinedMainMenu
-00:07:56.203 Activating Fix: WeaponTooltip
-00:07:56.203 Activating Fix: DamageReductionInCombatHud
-00:07:58.741 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
-00:07:58.741 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
-00:07:58.771 M:CK Found INJURY IGNORED instruction at idx: 111
-00:07:58.925 [InitializeEffects] Initializing effects for Brace Effects
-00:07:58.926 EffectData statname: CACAoEDamageMult
-00:08:14.521 Disabling the campaign button on the main menu.
-00:08:14.546 Disabling the debug buttons in the main menu.
-00:09:10.819 Min Difficulty Modifier: -2.37. Final Max Difficulty Modifier: 5.26
-00:09:10.820 From INITSETTINGS: Atlas values: 1, 1, 1, 1
-00:09:10.855 COLOR SCORE MOD THING: real score -0.21 vs current 5.26 vs scaled 255
-00:09:10.855 From UPDATEDIFFICULTYSCOREBAR: Atlas values: 1, 1, 1, 1
-00:09:10.858 COLOR SCORE MOD THING: real score -0.21 vs current 5.26 vs scaled 255
-00:09:10.858 From UPDATEDIFFICULTYSCOREBAR: Atlas values: 1, 1, 1, 1
-00:09:39.263 CHEATDETECTION: pilot_commander_temp: Added key SGRef_16780 to PilotCurrentXP with 7000 UnspentXP value at AddExperience, Post.
-00:09:39.265 Replacing starting random mechs with:itemCollection_GundamA,itemCollection_GundamB,itemCollection_GundamD,itemCollection_GundamD,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light
-00:09:39.265 Applying rep: 100 to faction: (ComStar)
-00:09:46.124 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
-00:09:50.462 SGNL:Start - adding new button.
-00:09:50.462  - Creating store button
-00:09:50.467  - Creating staff button
-00:09:50.473  - Creating memorial button
-00:09:54.999 CHEATDETECTION: pilot_backer_Mzik: Added SGRef_16881  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:09:54.999 CHEATDETECTION: pilot_backer_SwansonA: Added SGRef_16882  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:09:54.999 CHEATDETECTION: pilot_sim_starter_glitch: Added SGRef_16883  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:09:54.999 CHEATDETECTION: pilot_backer_Liebenow: Added SGRef_16884  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:09:54.999 CHEATDETECTION: pilot_Strauss: Added SGRef_16885  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:09:54.999 CHEATDETECTION: pilot_backer_Fielding: Added SGRef_16886  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:09:54.999 CHEATDETECTION: pilot_backer_Oliver: Added SGRef_16887  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:09:54.999 CHEATDETECTION: pilot_commander_temp: Set tracker SGRef_16780 PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:09:55.469 CHEATDETECTION: Added key to SimGameFunds with Funds 0; this should have been done already...WTF. At AddFunds, Pre.
-00:11:25.722 CHEATDETECTION: commander: Added key commander to PilotCurrentXP with 7000 UnspentXP value at AddExperience, Post.
-00:11:29.208 CHEATDETECTION: commander: key commander for Metal  PilotCurrentXP for now 7000 after setting to 7000 at FromPilotDef, Post.
-00:13:29.130 DEBUG - calling SetSubroom for location:BARRACKS and menuType:Mechwarrior!
-00:13:29.270 CHEATDETECTION: pilot_backer_Mzik: Added SGRef_16881  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.271 CHEATDETECTION: pilot_backer_SwansonA: Added SGRef_16882  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.271 CHEATDETECTION: pilot_sim_starter_glitch: Added SGRef_16883  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.271 CHEATDETECTION: pilot_backer_Liebenow: Added SGRef_16884  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.271 CHEATDETECTION: pilot_Strauss: Added SGRef_16885  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.271 CHEATDETECTION: pilot_backer_Fielding: Added SGRef_16886  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.271 CHEATDETECTION: pilot_backer_Oliver: Added SGRef_16887  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.271 CHEATDETECTION: commander: Added commander  key to PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:13:29.405 CHEATDETECTION: pilot_backer_Mzik: Set tracker SGRef_16881 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.405 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.405 CHEATDETECTION: pilot_sim_starter_glitch: Set tracker SGRef_16883 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.405 CHEATDETECTION: pilot_backer_Liebenow: Set tracker SGRef_16884 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.405 CHEATDETECTION: pilot_Strauss: Set tracker SGRef_16885 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.405 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.405 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:29.405 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:13:51.687 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:51.687 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:51.687 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:13:51.687 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:14:07.447 DEBUG - calling SetSubroom for location:BARRACKS and menuType:Mechwarrior!
-00:14:07.673 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:07.673 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:07.673 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:07.673 CHEATDETECTION: pilot_backer_Eck: Added SGRef_16929  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:07.673 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:14:07.896 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:07.896 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:07.896 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:07.896 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:07.896 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:14:20.152 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:20.152 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:20.152 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:20.152 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:20.152 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:14:38.272 DEBUG - calling SetSubroom for location:BARRACKS and menuType:Mechwarrior!
-00:14:38.508 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:38.509 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:38.509 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:38.509 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:38.509 CHEATDETECTION: pilot_ronin_Ozone: Added SGRef_16930  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:38.509 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:14:38.739 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:38.740 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:38.740 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:38.740 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:38.740 CHEATDETECTION: pilot_ronin_Ozone: Set tracker SGRef_16930 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:14:38.740 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:18:38.748 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:18:38.748 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:18:38.748 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:18:38.748 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:18:38.748 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:19:38.392 DEBUG - calling SetSubroom for location:BARRACKS and menuType:Mechwarrior!
-00:19:38.605 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.605 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.605 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.605 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.605 CHEATDETECTION: pilot_backer_Shields: Added SGRef_16931  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.605 CHEATDETECTION: pilot_backer_Bono: Added SGRef_16932  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.605 CHEATDETECTION: pilot_backer_Reinke: Added SGRef_16933  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.605 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:19:38.812 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.812 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.812 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.812 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.812 CHEATDETECTION: pilot_backer_Shields: Set tracker SGRef_16931 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.812 CHEATDETECTION: pilot_backer_Bono: Set tracker SGRef_16932 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.812 CHEATDETECTION: pilot_backer_Reinke: Set tracker SGRef_16933 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:19:38.812 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:22:25.099 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:25.099 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:25.099 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:25.099 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:25.099 CHEATDETECTION: pilot_backer_Shields: Set tracker SGRef_16931 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:25.099 CHEATDETECTION: pilot_backer_Reinke: Set tracker SGRef_16933 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:25.099 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:22:50.064 DEBUG - calling SetSubroom for location:BARRACKS and menuType:Mechwarrior!
-00:22:50.274 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.274 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.274 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.274 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.274 CHEATDETECTION: pilot_backer_Shields: Set tracker SGRef_16931 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.274 CHEATDETECTION: pilot_backer_Reinke: Set tracker SGRef_16933 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.274 CHEATDETECTION: pilot_backer_Bemis: Added SGRef_16934  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.274 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:22:50.470 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.470 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.470 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.470 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.470 CHEATDETECTION: pilot_backer_Shields: Set tracker SGRef_16931 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.470 CHEATDETECTION: pilot_backer_Reinke: Set tracker SGRef_16933 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.470 CHEATDETECTION: pilot_backer_Bemis: Set tracker SGRef_16934 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:22:50.470 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:23:22.450 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:22.450 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:22.450 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:22.450 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:22.450 CHEATDETECTION: pilot_backer_Shields: Set tracker SGRef_16931 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:22.450 CHEATDETECTION: pilot_backer_Reinke: Set tracker SGRef_16933 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:22.450 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:23:35.906 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
-00:23:36.757 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
-00:23:42.717 DEBUG - calling SetSubroom for location:BARRACKS and menuType:Mechwarrior!
-00:23:42.926 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:42.926 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:42.926 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:42.926 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:42.926 CHEATDETECTION: pilot_backer_Shields: Set tracker SGRef_16931 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:42.926 CHEATDETECTION: pilot_backer_Reinke: Set tracker SGRef_16933 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:42.926 CHEATDETECTION: pilot_backer_Bozeman: Added SGRef_16935  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:42.926 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
-00:23:43.127 CHEATDETECTION: pilot_backer_SwansonA: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:43.127 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:43.127 CHEATDETECTION: pilot_backer_Oliver: Set tracker SGRef_16887 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:43.127 CHEATDETECTION: pilot_backer_Eck: Set tracker SGRef_16929 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:43.127 CHEATDETECTION: pilot_backer_Shields: Set tracker SGRef_16931 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:43.127 CHEATDETECTION: pilot_backer_Reinke: Set tracker SGRef_16933 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:43.127 CHEATDETECTION: pilot_backer_Bozeman: Set tracker SGRef_16935 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-00:23:43.127 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
+02:30:20.947 Assembly version: 0.9.8.6
+02:30:20.948 == Mod Config Initialization Started == 
+02:30:20.950 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
+02:30:20.950 == Mod Config Initialization Complete == 
+02:30:20.954 === MOD CONFIG BEGIN ===
+02:30:20.954   DEBUG: False Trace: False
+02:30:20.954   -- Fixes --
+02:30:20.954   AbilityResourceFix:                 True
+02:30:20.954   AlternateMechNamingStyle:           False
+02:30:20.954   BuildingDamageColorChange:          True
+02:30:20.954   BraceOnMeleeWithJuggernaut:         True
+02:30:20.954   BreachingShotIgnoresAllDR:          False
+02:30:20.954   BulkPurchasing:                     False
+02:30:20.954   BulkScrapping:                      False
+02:30:20.954   CalledShotTweaks:                   True
+02:30:20.954   CombatLog:                          True
+02:30:20.954   DifficultyModsFromStats:            True
+02:30:20.954   DisableCampaign:                    True
+02:30:20.954   DisableDebug:                       True
+02:30:20.954   DisableCombatRestarts:              True
+02:30:20.954   DisableCombatSaves:                 True
+02:30:20.955   DisableMPHashCalculation:           True
+02:30:20.955   DisableFiringStat:                  True
+02:30:20.955   DisableLowFundsNotification:        True
+02:30:20.955   ExplodingBuildingFix:               True
+02:30:20.955   EventRequirementsScopeFix:          True
+02:30:20.955   ExtendedStats:                      True
+02:30:20.955   FactionReputationFixes:             True
+02:30:20.955   FlexibleSensorLock:                 False
+02:30:20.955   MaxArmorMaxesArmor:                 True
+02:30:20.955   MechbayLayout:                      True
+02:30:20.955   MechbayLayoutDisableStore:          True
+02:30:20.955   OnWeaponFireFix:                    True
+02:30:20.955   PainTolerance:                      True
+02:30:20.955   PathfinderTeamFix:                  True
+02:30:20.955   RandomStartByDifficulty:            True
+02:30:20.955   ReduceSaveCompression:              True
+02:30:20.955   ScaleObjectiveBuildingStructure:    True
+02:30:20.955   ShowAllArgoUpgrades:                True
+02:30:20.955   SkipDeleteSavePopup:                True
+02:30:20.955   SkirmishAlwaysUnlimited:            True
+02:30:20.955   SkirmishReset:                      False
+02:30:20.955   SimGameDifficultyLabelsReplacer:    False
+02:30:20.955   SpawnProtection:                    True
+02:30:20.955   StreamlinedMainMenu:                True
+02:30:20.955   TurnDirectorStartFirstRoundFix:     True
+02:30:20.955   TgtComputerTonnageDisplay:          True
+02:30:20.955   UrbanExplosionsFix:                 False
+02:30:20.955   WeaponTooltips:                     True
+02:30:20.955   DamageReductionInCombatHud:         True
+02:30:20.955   DeathChanceStat:                    True
+02:30:20.955   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
+02:30:20.955   TorsoMountStatName:                     isTorsoMount
+02:30:20.955   -- Called Shot --
+02:30:20.955    Disable => AllLocations: True  Headshots: True
+02:30:20.955    Enable => ComplexTacticsModifier: True
+02:30:20.955    BaseModifier:-1
+02:30:20.955    CalledShotDefaultMod:-1
+02:30:20.955   -- Spawn Protection --
+02:30:20.955    ApplyGuard:True  EvasionPips:8
+02:30:20.955    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
+02:30:20.955    ApplyToReinforcements:True
+02:30:20.955   -- Cheat Detection --
+02:30:20.955    CheatDetection:True
+02:30:20.955    CheatDetectionNotify:True
+02:30:20.955    CheatDetectionStat:CheatFoundS2
+02:30:20.955   -- ObstructionTweaks --
+02:30:20.955    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
+02:30:20.955    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
+02:30:20.955    QuadTags:System.Collections.Generic.List`1[System.String]
+02:30:20.955    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
+02:30:20.955   -- Store --
+02:30:20.955    QuantityOnShift:5  QuantityOnControl:20
+02:30:20.955   -- Flexible Sensor Lock Options --
+02:30:20.955    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
+02:30:20.955 === MOD CONFIG END ===
+02:30:20.955 INFO: No errors reading settings file.
+02:30:20.961 Activating Fix: BraceOnMeleeWithJuggernaut
+02:30:20.961 Activating Fix: BuildingDamageColorChange
+02:30:20.961 Activating Fix: CalledShotTweaks
+02:30:20.961 Activating Fix: ExtendedStats
+02:30:20.961 Activating Fix: PainTolerance
+02:30:20.961 Activating Fix: PathfinderTeamFix
+02:30:20.961 Activating Fix: ScaleObjectiveBuildingStructure
+02:30:20.961 Activating Fix: SpawnProtection
+02:30:20.962 Activating Fix: RandomStartByDifficulty
+02:30:20.962 Activating Fix: DisableCampaign
+02:30:20.962 Activating Fix: DisableLowFundsNotification
+02:30:20.962 Activating Fix: DisableMPHashCalculation
+02:30:20.962 Activating Fix: MultiTargetStat
+02:30:20.962 Activating fix: ReduceSaveCompression.
+02:30:20.962 Activating fix: ShowAllArgoUpgrades.
+02:30:20.962 Activating fix: SkipDeleteSavePopup.
+02:30:20.963 Activating Fix: CombatLog
+02:30:21.086 Activating Fix: SkirmishAlwaysUnlimited
+02:30:21.086 Activating Fix: DisableCombatSaves
+02:30:21.086 Activating Fix: DisableCombatRestart
+02:30:21.086 Activating Fix: StreamlinedMainMenu
+02:30:21.148 Activating Fix: WeaponTooltip
+02:30:21.148 Activating Fix: DamageReductionInCombatHud
+02:30:23.617 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
+02:30:23.617 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
+02:30:23.647 M:CK Found INJURY IGNORED instruction at idx: 111
+02:30:23.785 [InitializeEffects] Initializing effects for Brace Effects
+02:30:23.786 EffectData statname: CACAoEDamageMult
+02:30:55.611 Disabling the campaign button on the main menu.
+02:30:55.633 Disabling the debug buttons in the main menu.
+02:31:03.750 Min Difficulty Modifier: -2.37. Final Max Difficulty Modifier: 5.26
+02:31:03.750 From INITSETTINGS: Atlas values: 1, 1, 1, 1
+02:31:03.792 COLOR SCORE MOD THING: real score -0.21 vs current 5.26 vs scaled 255
+02:31:03.792 From UPDATEDIFFICULTYSCOREBAR: Atlas values: 1, 1, 1, 1
+02:31:03.796 COLOR SCORE MOD THING: real score -0.21 vs current 5.26 vs scaled 255
+02:31:03.796 From UPDATEDIFFICULTYSCOREBAR: Atlas values: 1, 1, 1, 1
+02:31:28.870 CHEATDETECTION: pilot_commander_temp: Added key SGRef_16779 to PilotCurrentXP with 7000 UnspentXP value at AddExperience, Post.
+02:31:28.871 Replacing starting random mechs with:itemCollection_GundamA,itemCollection_GundamB,itemCollection_GundamD,itemCollection_GundamD,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light
+02:31:28.871 Applying rep: 100 to faction: (ComStar)
+02:31:35.460 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
+02:31:39.557 SGNL:Start - adding new button.
+02:31:39.557  - Creating store button
+02:31:39.562  - Creating staff button
+02:31:39.567  - Creating memorial button
+02:31:43.719 CHEATDETECTION: pilot_backer_Bixby: Added SGRef_16880  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:31:43.719 CHEATDETECTION: pilot_backer_Keane: Added SGRef_16881  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:31:43.719 CHEATDETECTION: pilot_backer_Huxley: Added SGRef_16882  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:31:43.719 CHEATDETECTION: pilot_backer_Fielding: Added SGRef_16883  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:31:43.719 CHEATDETECTION: pilot_sim_starter_dekker: Added SGRef_16884  key to PilotCurrentXP with UnspentXP 1200 on SGBarracksAdvancementPanel Close, post.
+02:31:43.719 CHEATDETECTION: pilot_backer_Leone: Added SGRef_16885  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:31:43.719 CHEATDETECTION: pilot_backer_FalkA: Added SGRef_16886  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:31:43.719 CHEATDETECTION: pilot_commander_temp: Set tracker SGRef_16779 PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
+02:31:44.094 CHEATDETECTION: Added key to SimGameFunds with Funds 0; this should have been done already...WTF. At AddFunds, Pre.
+02:32:26.821 CHEATDETECTION: commander: Added key commander to PilotCurrentXP with 7000 UnspentXP value at AddExperience, Post.
+02:32:29.998 CHEATDETECTION: commander: key commander for Kiwi  PilotCurrentXP for now 7000 after setting to 7000 at FromPilotDef, Post.
+02:32:32.599 DEBUG - calling SetSubroom for location:BARRACKS and menuType:Mechwarrior!
+02:32:32.741 CHEATDETECTION: pilot_backer_Bixby: Added SGRef_16880  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.741 CHEATDETECTION: pilot_backer_Keane: Added SGRef_16881  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.741 CHEATDETECTION: pilot_backer_Huxley: Added SGRef_16882  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.741 CHEATDETECTION: pilot_backer_Fielding: Added SGRef_16883  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.741 CHEATDETECTION: pilot_sim_starter_dekker: Added SGRef_16884  key to PilotCurrentXP with UnspentXP 1200 on SGBarracksAdvancementPanel Close, post.
+02:32:32.741 CHEATDETECTION: pilot_backer_Leone: Added SGRef_16885  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.742 CHEATDETECTION: pilot_backer_FalkA: Added SGRef_16886  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.742 CHEATDETECTION: commander: Added commander  key to PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
+02:32:32.888 CHEATDETECTION: pilot_backer_Bixby: Set tracker SGRef_16880 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.888 CHEATDETECTION: pilot_backer_Keane: Set tracker SGRef_16881 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.888 CHEATDETECTION: pilot_backer_Huxley: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.888 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16883 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.888 CHEATDETECTION: pilot_sim_starter_dekker: Set tracker SGRef_16884 PilotCurrentXP with UnspentXP 1200 on SGBarracksAdvancementPanel Close, post.
+02:32:32.888 CHEATDETECTION: pilot_backer_Leone: Set tracker SGRef_16885 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.888 CHEATDETECTION: pilot_backer_FalkA: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:32:32.888 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
+02:39:32.408 CHEATDETECTION: pilot_backer_Bixby: Set tracker SGRef_16880 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:39:32.408 CHEATDETECTION: pilot_backer_Keane: Set tracker SGRef_16881 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:39:32.408 CHEATDETECTION: pilot_backer_Huxley: Set tracker SGRef_16882 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:39:32.408 CHEATDETECTION: pilot_backer_Fielding: Set tracker SGRef_16883 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:39:32.408 CHEATDETECTION: pilot_sim_starter_dekker: Set tracker SGRef_16884 PilotCurrentXP with UnspentXP 1200 on SGBarracksAdvancementPanel Close, post.
+02:39:32.408 CHEATDETECTION: pilot_backer_Leone: Set tracker SGRef_16885 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:39:32.408 CHEATDETECTION: pilot_backer_FalkA: Set tracker SGRef_16886 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+02:39:32.408 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7000 on SGBarracksAdvancementPanel Close, post.
+02:39:55.996 DEBUG - calling SetSubroom for location:SHOP and menuType:Shop!
