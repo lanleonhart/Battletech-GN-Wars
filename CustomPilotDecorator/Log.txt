@@ -1,0 +1,388 @@
+[22:27:17.388]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator version: 0.0.0.3
+flush
+flush
+flush
+[22:27:49.861]FinishedLoading
+[22:27:49.861]customResource:PilotDecorationDef
+ E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_mech.json
+ id:pilotdecorationdef_can_drive_mech
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_mech",
+    "Name": "CAN DRIVE MECHS",
+    "Details": "This pilot can drive mechs of all types",
+    "Icon": "can_drive_mech"
+  },
+  "Type": 1,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "can_pilot_generic_mech"
+  ],
+  "shouldNotHaveTags": []
+}
+ E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_vehicle.json
+ id:pilotdecorationdef_can_drive_vehicle
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_vehicle",
+    "Name": "CAN DRIVE VEHICLES",
+    "Details": "This pilot can drive vehicles of all types",
+    "Icon": "can_drive_vehicle"
+  },
+  "Type": 1,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "can_pilot_generic_vehicle"
+  ],
+  "shouldNotHaveTags": []
+}
+[22:27:56.374]DataManager.SpriteLoadRequest.SpriteFromDisk:Shadowhawk:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\Shadowhawk.dds isGIF:False
+flush
+[22:27:58.719]PilotDef.GatherDependencies pilot_default
+[22:27:58.719]PilotDecorationDefHelper.getDecorations pilot_default:
+ tags: BLACKLISTED sample pilot_bracket_low pilot_bracket_mid pilot_bracket_high can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:27:58.775]DataManager.SpriteLoadRequest.SpriteFromDisk:spider:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\IS-Mechs\portraits\spider.dds isGIF:False
+flush
+flush
+[22:28:19.791]PilotDef.GatherDependencies pilot_sim_starter_glitch
+[22:28:19.791]PilotDecorationDefHelper.getDecorations pilot_sim_starter_glitch:Glitch
+ tags: BLACKLISTED pilot_criminal pilot_innersphere pilot_davion pilot_starter pilot_brave name_Glitch can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:19.792]PilotDef.GatherDependencies pilot_sim_starter_behemoth
+[22:28:19.792]PilotDecorationDefHelper.getDecorations pilot_sim_starter_behemoth:Behemoth
+ tags: BLACKLISTED pilot_criminal pilot_innersphere pilot_military pilot_spacer pilot_steiner pilot_brave pilot_starter name_Behemoth can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:19.792]PilotDef.GatherDependencies pilot_sim_starter_dekker
+[22:28:19.792]PilotDecorationDefHelper.getDecorations pilot_sim_starter_dekker:Dekker
+ tags: BLACKLISTED pilot_command pilot_innersphere pilot_liao pilot_military pilot_noble pilot_officer pilot_spacer pilot_mechwarrior pilot_starter name_Dekker can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:19.793]PilotDef.GatherDependencies pilot_sim_starter_medusa
+[22:28:19.793]PilotDecorationDefHelper.getDecorations pilot_sim_starter_medusa:Medusa
+ tags: BLACKLISTED pilot_aurigan pilot_cautious pilot_periphery pilot_tech pilot_military pilot_officer pilot_mechwarrior pilot_starter name_Medusa can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:19.798]PilotDef.GatherDependencies pilot_commander_temp
+[22:28:19.798]PilotDecorationDefHelper.getDecorations pilot_commander_temp:Arclight
+ tags: BLACKLISTED commander_player pilot_taurian pilot_tech pilot_spacer can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:21.396]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_atlas:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_atlas.dds isGIF:False
+[22:28:22.759]PilotDef.GatherDependencies pilot_backer_Alaniz
+[22:28:22.759]PilotDecorationDefHelper.getDecorations pilot_backer_Alaniz:Dragon 66
+ tags: name_Dragon_66 pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.762]PilotDef.GatherDependencies pilot_backer_Archangel
+[22:28:22.762]PilotDecorationDefHelper.getDecorations pilot_backer_Archangel:Archangel
+ tags: name_Archangel pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.766]PilotDef.GatherDependencies pilot_backer_Bemis
+[22:28:22.766]PilotDecorationDefHelper.getDecorations pilot_backer_Bemis:VonKobra
+ tags: name_VonKobra pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.769]PilotDef.GatherDependencies pilot_backer_Bixby
+[22:28:22.769]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter
+ tags: pilot_regular name_Arbiter pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.772]PilotDef.GatherDependencies pilot_backer_Bono
+[22:28:22.772]PilotDecorationDefHelper.getDecorations pilot_backer_Bono:T-Bone
+ tags: name_T-Bone pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.774]PilotDef.GatherDependencies pilot_backer_Bozeman
+[22:28:22.774]PilotDecorationDefHelper.getDecorations pilot_backer_Bozeman:Finn
+ tags: name_Finn pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.777]PilotDef.GatherDependencies pilot_backer_Brewer
+[22:28:22.777]PilotDecorationDefHelper.getDecorations pilot_backer_Brewer:Bronzite
+ tags: name_Bronzite pilot_marik can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.780]PilotDef.GatherDependencies pilot_backer_Brown
+[22:28:22.780]PilotDecorationDefHelper.getDecorations pilot_backer_Brown:Bootcamp
+ tags: name_Bootcamp pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.782]PilotDef.GatherDependencies pilot_backer_Chang
+[22:28:22.782]PilotDecorationDefHelper.getDecorations pilot_backer_Chang:Falcon
+ tags: name_Falcon pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.785]PilotDef.GatherDependencies pilot_backer_Chik
+[22:28:22.785]PilotDecorationDefHelper.getDecorations pilot_backer_Chik:Paradox
+ tags: name_Paradox pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.791]PilotDef.GatherDependencies pilot_backer_Chung
+[22:28:22.791]PilotDecorationDefHelper.getDecorations pilot_backer_Chung:Scrub
+ tags: name_Scrub pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.793]PilotDef.GatherDependencies pilot_backer_Cleary
+[22:28:22.793]PilotDecorationDefHelper.getDecorations pilot_backer_Cleary:Exodus
+ tags: name_Exodus pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.796]PilotDef.GatherDependencies pilot_backer_Cochran
+[22:28:22.796]PilotDecorationDefHelper.getDecorations pilot_backer_Cochran:Gridlock
+ tags: name_Gridlock pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.799]PilotDef.GatherDependencies pilot_backer_Coldfire
+[22:28:22.799]PilotDecorationDefHelper.getDecorations pilot_backer_Coldfire:Coldfire
+ tags: name_Coldfire pilot_magistracy can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.801]PilotDef.GatherDependencies pilot_backer_Doochin
+[22:28:22.801]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce
+ tags: name_El_Duce pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.803]PilotDef.GatherDependencies pilot_backer_Doukas
+[22:28:22.804]PilotDecorationDefHelper.getDecorations pilot_backer_Doukas:Popo
+ tags: name_Popo pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.806]PilotDef.GatherDependencies pilot_backer_Durand
+[22:28:22.806]PilotDecorationDefHelper.getDecorations pilot_backer_Durand:Bullet Trap
+ tags: name_Bullet_Trap pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.809]PilotDef.GatherDependencies pilot_backer_Eck
+[22:28:22.809]PilotDecorationDefHelper.getDecorations pilot_backer_Eck:Eck
+ tags: name_Eck pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.812]PilotDef.GatherDependencies pilot_backer_Eckett
+[22:28:22.812]PilotDecorationDefHelper.getDecorations pilot_backer_Eckett:Mummy Bear
+ tags: name_Mummy_Bear pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.814]PilotDef.GatherDependencies pilot_backer_Endorf
+[22:28:22.814]PilotDecorationDefHelper.getDecorations pilot_backer_Endorf:Hammer
+ tags: name_Hammer pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.817]PilotDef.GatherDependencies pilot_backer_FalkA
+[22:28:22.817]PilotDecorationDefHelper.getDecorations pilot_backer_FalkA:Phantom
+ tags: name_Phantom pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.819]PilotDef.GatherDependencies pilot_backer_FalkM
+[22:28:22.819]PilotDecorationDefHelper.getDecorations pilot_backer_FalkM:Gearhead
+ tags: name_Gearhead pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.821]PilotDef.GatherDependencies pilot_backer_Fielding
+[22:28:22.821]PilotDecorationDefHelper.getDecorations pilot_backer_Fielding:WeaselCakes
+ tags: name_WeaselCakes pilot_marik can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.824]PilotDef.GatherDependencies pilot_backer_Gibbs
+[22:28:22.824]PilotDecorationDefHelper.getDecorations pilot_backer_Gibbs:Whisper
+ tags: name_Whisper pilot_taurian can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.826]PilotDef.GatherDependencies pilot_backer_Godfrey
+[22:28:22.826]PilotDecorationDefHelper.getDecorations pilot_backer_Godfrey:God
+ tags: name_God pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.828]PilotDef.GatherDependencies pilot_backer_Hardie
+[22:28:22.828]PilotDecorationDefHelper.getDecorations pilot_backer_Hardie:Jester
+ tags: name_Jester pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.831]PilotDef.GatherDependencies pilot_backer_Helterbran
+[22:28:22.831]PilotDecorationDefHelper.getDecorations pilot_backer_Helterbran:Pathfinder
+ tags: name_Pathfinder pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.834]PilotDef.GatherDependencies pilot_backer_Heysek
+[22:28:22.834]PilotDecorationDefHelper.getDecorations pilot_backer_Heysek:Sabercat
+ tags: name_Sabercat pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.836]PilotDef.GatherDependencies pilot_backer_Hill
+[22:28:22.836]PilotDecorationDefHelper.getDecorations pilot_backer_Hill:Dust Raker
+ tags: name_Dust_Raker pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.839]PilotDef.GatherDependencies pilot_backer_Hollabaugh
+[22:28:22.839]PilotDecorationDefHelper.getDecorations pilot_backer_Hollabaugh:Deedah
+ tags: name_Deedah pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.841]PilotDef.GatherDependencies pilot_backer_Hording
+[22:28:22.841]PilotDecorationDefHelper.getDecorations pilot_backer_Hording:Paladin
+ tags: name_Paladin pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.843]PilotDef.GatherDependencies pilot_backer_Hurtado
+[22:28:22.843]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother
+ tags: name_Brother pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.846]PilotDef.GatherDependencies pilot_backer_Huxley
+[22:28:22.846]PilotDecorationDefHelper.getDecorations pilot_backer_Huxley:Strider
+ tags: name_Strider pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.848]PilotDef.GatherDependencies pilot_backer_Jakes
+[22:28:22.848]PilotDecorationDefHelper.getDecorations pilot_backer_Jakes:McWraith
+ tags: name_McWraith pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.851]PilotDef.GatherDependencies pilot_backer_Kaufman
+[22:28:22.851]PilotDecorationDefHelper.getDecorations pilot_backer_Kaufman:War Boar
+ tags: experience_regular pilot_veteran name_War_Boar pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.853]PilotDef.GatherDependencies pilot_backer_Keane
+[22:28:22.853]PilotDecorationDefHelper.getDecorations pilot_backer_Keane:Munin
+ tags: name_Munin pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.855]PilotDef.GatherDependencies pilot_backer_Korwes
+[22:28:22.855]PilotDecorationDefHelper.getDecorations pilot_backer_Korwes:Omega
+ tags: name_Omega pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.858]PilotDef.GatherDependencies pilot_backer_Lemos
+[22:28:22.858]PilotDecorationDefHelper.getDecorations pilot_backer_Lemos:Sabrewolf
+ tags: name_Sabrewolf pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.860]PilotDef.GatherDependencies pilot_backer_Leone
+[22:28:22.860]PilotDecorationDefHelper.getDecorations pilot_backer_Leone:Succubus
+ tags: name_Succubus pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.862]PilotDef.GatherDependencies pilot_backer_Liebenow
+[22:28:22.862]PilotDecorationDefHelper.getDecorations pilot_backer_Liebenow:Kingwolf
+ tags: name_Kingwolf pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.866]PilotDef.GatherDependencies pilot_backer_Loving
+[22:28:22.866]PilotDecorationDefHelper.getDecorations pilot_backer_Loving:M4J35T1C
+ tags: experience_regular pilot_veteran name_M4J35T1C pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.868]PilotDef.GatherDependencies pilot_backer_Metke
+[22:28:22.868]PilotDecorationDefHelper.getDecorations pilot_backer_Metke:Tinker
+ tags: name_Tinker pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.871]PilotDef.GatherDependencies pilot_backer_Miller
+[22:28:22.871]PilotDecorationDefHelper.getDecorations pilot_backer_Miller:Deadeye
+ tags: name_Deadeye pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.874]PilotDef.GatherDependencies pilot_backer_Mzik
+[22:28:22.874]PilotDecorationDefHelper.getDecorations pilot_backer_Mzik:Big Sly
+ tags: experience_regular pilot_veteran name_Big_Sly pilot_marik can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.876]PilotDef.GatherDependencies pilot_backer_Nick
+[22:28:22.876]PilotDecorationDefHelper.getDecorations pilot_backer_Nick:Corsair
+ tags: experience_regular pilot_veteran name_Corsair pilot_tortuga can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.879]PilotDef.GatherDependencies pilot_backer_Oliver
+[22:28:22.879]PilotDecorationDefHelper.getDecorations pilot_backer_Oliver:Skyros
+ tags: name_Skyros pilot_taurian can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.882]PilotDef.GatherDependencies pilot_backer_Piazza
+[22:28:22.882]PilotDecorationDefHelper.getDecorations pilot_backer_Piazza:Rook
+ tags: name_Rook pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.884]PilotDef.GatherDependencies pilot_backer_Reichenbach
+[22:28:22.884]PilotDecorationDefHelper.getDecorations pilot_backer_Reichenbach:Flatline
+ tags: experience_regular pilot_veteran name_Flatline pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.887]PilotDef.GatherDependencies pilot_backer_Reidinger
+[22:28:22.887]PilotDecorationDefHelper.getDecorations pilot_backer_Reidinger:Ariamaki
+ tags: name_Ariamaki pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.889]PilotDef.GatherDependencies pilot_backer_Reinke
+[22:28:22.889]PilotDecorationDefHelper.getDecorations pilot_backer_Reinke:Ronin
+ tags: name_Ronin pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.892]PilotDef.GatherDependencies pilot_backer_Ryia
+[22:28:22.892]PilotDecorationDefHelper.getDecorations pilot_backer_Ryia:Death Krusade
+ tags: name_Death_Krusade pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.894]PilotDef.GatherDependencies pilot_backer_Saada
+[22:28:22.894]PilotDecorationDefHelper.getDecorations pilot_backer_Saada:Spenthia
+ tags: name_Spenthia pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.897]PilotDef.GatherDependencies pilot_backer_Sampson
+[22:28:22.897]PilotDecorationDefHelper.getDecorations pilot_backer_Sampson:Live Fire
+ tags: name_Live_Fire pilot_marik can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.899]PilotDef.GatherDependencies pilot_backer_Shields
+[22:28:22.899]PilotDecorationDefHelper.getDecorations pilot_backer_Shields:Bearclaw
+ tags: name_Bearclaw pilot_steiner can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.902]PilotDef.GatherDependencies pilot_backer_Shvartz
+[22:28:22.902]PilotDecorationDefHelper.getDecorations pilot_backer_Shvartz:Varangian
+ tags: name_Varangian pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.905]PilotDef.GatherDependencies pilot_backer_Slipais
+[22:28:22.905]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline
+ tags: name_Adrenaline pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.907]PilotDef.GatherDependencies pilot_backer_SwansonA
+[22:28:22.907]PilotDecorationDefHelper.getDecorations pilot_backer_SwansonA:Coach
+ tags: name_Coach pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.910]PilotDef.GatherDependencies pilot_backer_SwansonK
+[22:28:22.910]PilotDecorationDefHelper.getDecorations pilot_backer_SwansonK:Ulysses
+ tags: name_Ulysses pilot_liao can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.913]PilotDef.GatherDependencies pilot_backer_Test9
+[22:28:22.913]PilotDecorationDefHelper.getDecorations pilot_backer_Test9:Test9
+ tags: experience_veteran pilot_veteran name_Test9 pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.915]PilotDef.GatherDependencies pilot_backer_Thomas
+[22:28:22.915]PilotDecorationDefHelper.getDecorations pilot_backer_Thomas:Hacker
+ tags: name_Hacker pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.917]PilotDef.GatherDependencies pilot_backer_Voyls
+[22:28:22.917]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV
+ tags: name_GV pilot_marik can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.920]PilotDef.GatherDependencies pilot_backer_Woods
+[22:28:22.920]PilotDecorationDefHelper.getDecorations pilot_backer_Woods:Ice Trey
+ tags: name_Ice_Trey pilot_kurita can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.922]PilotDef.GatherDependencies pilot_ronin_Apex
+[22:28:22.922]PilotDecorationDefHelper.getDecorations pilot_ronin_Apex:Apex
+ tags: name_Apex pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.925]PilotDef.GatherDependencies pilot_ronin_Arclight
+[22:28:22.925]PilotDecorationDefHelper.getDecorations pilot_ronin_Arclight:Arclight
+ tags: name_Arclight pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.927]PilotDef.GatherDependencies pilot_ronin_Blockade
+[22:28:22.927]PilotDecorationDefHelper.getDecorations pilot_ronin_Blockade:Blockade
+ tags: name_Blockade pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.929]PilotDef.GatherDependencies pilot_ronin_Buckshot
+[22:28:22.930]PilotDecorationDefHelper.getDecorations pilot_ronin_Buckshot:Buckshot
+ tags: name_Buckshot pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.932]PilotDef.GatherDependencies pilot_ronin_Kraken
+[22:28:22.932]PilotDecorationDefHelper.getDecorations pilot_ronin_Kraken:Kraken
+ tags: name_Kraken pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.934]PilotDef.GatherDependencies pilot_ronin_Mockingbird
+[22:28:22.934]PilotDecorationDefHelper.getDecorations pilot_ronin_Mockingbird:Mockingbird
+ tags: name_Mockingbird pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.937]PilotDef.GatherDependencies pilot_ronin_Ozone
+[22:28:22.937]PilotDecorationDefHelper.getDecorations pilot_ronin_Ozone:Ozone
+ tags: name_Ozone pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.939]PilotDef.GatherDependencies pilot_ronin_Paradise
+[22:28:22.940]PilotDecorationDefHelper.getDecorations pilot_ronin_Paradise:Paradise
+ tags: name_Paradise pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.942]PilotDef.GatherDependencies pilot_ronin_Showboat
+[22:28:22.942]PilotDecorationDefHelper.getDecorations pilot_ronin_Showboat:Showboat
+ tags: name_Showboat pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.945]PilotDef.GatherDependencies pilot_ronin_Squire
+[22:28:22.945]PilotDecorationDefHelper.getDecorations pilot_ronin_Squire:Squire
+ tags: name_Squire pilot_davion can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.948]PilotDef.GatherDependencies pilot_ronin_Sumo
+[22:28:22.948]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo
+ tags: name_Sumo pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.950]PilotDef.GatherDependencies pilot_ronin_Wildfire
+[22:28:22.950]PilotDecorationDefHelper.getDecorations pilot_ronin_Wildfire:Wildfire
+ tags: name_Wildfire pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.952]PilotDef.GatherDependencies pilot_ronin_Witness
+[22:28:22.952]PilotDecorationDefHelper.getDecorations pilot_ronin_Witness:Witness
+ tags: name_Witness pilot_periphery can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.955]PilotDef.GatherDependencies pilot_Indrahim
+[22:28:22.955]PilotDecorationDefHelper.getDecorations pilot_Indrahim:Indrahim
+ tags: experience_hero name_Indrahim pilot_lostech can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.958]PilotDef.GatherDependencies pilot_Lan
+[22:28:22.958]PilotDecorationDefHelper.getDecorations pilot_Lan:Lan
+ tags: experience_legend name_Lan Pilot_Innovator Pilot_ComstarTechnician pilot_lostech can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.960]PilotDef.GatherDependencies pilot_Strauss
+[22:28:22.960]PilotDecorationDefHelper.getDecorations pilot_Strauss:Tempestus
+ tags: pilot_backer experience_veteran name_Strauss can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:22.962]PilotDef.GatherDependencies pilot_Test
+[22:28:22.962]PilotDecorationDefHelper.getDecorations pilot_Test:Test
+ tags: pilot_backer name_Test pilot_criminal pilot_tech pilot_comstar pilot_spacer pilot_mechwarrior pilot_military pilot_officer pilot_command pilot_disgraced pilot_gladiator pilot_wealthy pilot_assassin pilot_lostech pilot_athletic pilot_bookish pilot_brave pilot_cautious pilot_dependable pilot_dishonest pilot_drunk pilot_honest pilot_jinxed pilot_klutz pilot_lucky pilot_naive pilot_rebellious pilot_reckless pilot_unstable can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[22:28:23.387]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrSpot_flashpointExample:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Illustrations/uixTxrSpot_flashpointExample.dds isGIF:False
+[22:28:23.390]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrSpot_StarmapV2-Example:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/Illustrations/uixTxrSpot_StarmapV2-Example.dds isGIF:False

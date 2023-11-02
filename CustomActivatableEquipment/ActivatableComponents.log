@@ -1,0 +1,9 @@
+Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected character was encountered: ". Path 'CriticalComponent', line 44, position 4.
+  at Newtonsoft.Json.JsonTextReader.ParsePostValue (System.Boolean ignoreComments) [0x00182] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0005a] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JContainer.ReadContentFrom (Newtonsoft.Json.JsonReader r, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00226] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings options) [0x00030] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0006a] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Parse (System.String json, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0000c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Parse (System.String json) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Prefix (BattleTech.MechComponentDef __instance, System.String& json, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00081] in <5b2b8bc2f11748c9a7e17104f9a244cd>:0 
