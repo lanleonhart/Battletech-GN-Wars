@@ -1,0 +1,60 @@
+{
+  "id": "pilotQuirkDef_pilot_klutz",
+  "tag": "pilot_klutz",
+  "quirkName": "Klutz",
+  "description": "",
+  "effectData": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "GainEvasion",
+        "Name": "Gain Evasive PIPs",
+        "Details": "Gains Additional Evasion Pips While Active.",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "EvasivePipsGainedAdditional",
+        "operation": "Int_Add",
+        "modValue": "1",
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "durationData": {
+        "duration": 1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "WeaponEffect-SelfknockdownCheck_OnFire",
+        "Name": "Rotary AC/10 RISC / x3: Increased Self Knockdown on Fire",
+        "Details": "Tubthumping",
+        "Icon": "uixSvgIcon_run_n_gun"
+      },
+      "statisticData": {
+        "statName": "SelfknockdownCheck_OnFire",
+        "operation": "Float_Add",
+        "modValue": "0.04",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "quirkEffects": []
+}
