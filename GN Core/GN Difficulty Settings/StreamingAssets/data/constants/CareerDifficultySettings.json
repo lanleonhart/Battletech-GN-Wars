@@ -51,7 +51,7 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": true,
+			"StartOnly": false,
 			"DefaultIndex": 1,
 			"Options": [
 				{
@@ -107,8 +107,8 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 2,
+			"StartOnly": true,
+			"DefaultIndex": 4,
 			"Options": [
 				{
 					"ID": "diff_FF_Disabled",
@@ -192,7 +192,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 1,
+			"DefaultIndex": 2,
 			"Options": [
 				{
 					"ID": "diff_MC_easy",
@@ -457,8 +457,8 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 0,
+			"StartOnly": true,
+			"DefaultIndex": 1,
 			"Options": [
 				{
 					"ID": "diff_CP_easy",
@@ -513,7 +513,7 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": false,
+			"StartOnly": true,
 			"DefaultIndex": 1,
 			"Options": [
 				{
@@ -570,7 +570,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 1,
+			"DefaultIndex": 2,
 			"Options": [
 				{
 					"ID": "diff_CMDEXP_easy2",
@@ -639,8 +639,8 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 2,
+			"StartOnly": true,
+			"DefaultIndex": 0,
 			"Options": [
 				{
 					"ID": "diff_Ronin_only",
@@ -710,7 +710,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 0,
+			"DefaultIndex": 2,
 			"Options": [
 				{
 					"ID": "diff_CMD_easy",
@@ -781,7 +781,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 3,
+			"DefaultIndex": 5,
 			"Options": [
 				{
 					"ID": "diff_pilotssys_10",
@@ -934,8 +934,8 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 1,
+			"StartOnly": true,
+			"DefaultIndex": 2,
 			"Options": [
 				{
 					"ID": "diff_PP_fast",
@@ -1004,8 +1004,8 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 1,
+			"StartOnly": true,
+			"DefaultIndex": 2,
 			"Options": [
 				{
 					"ID": "diff_PEXP_fast",
@@ -1074,7 +1074,7 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": false,
+			"StartOnly": true,
 			"DefaultIndex": 2,
 			"Options": [
 				{
@@ -1145,14 +1145,14 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 2,
+			"DefaultIndex": 3,
 			"Options": [
 				{
 					"ID": "diff_LTH_never",
 					"Name": "Never",
 					"TelemetryEventDesc": "",
 					"DifficultyValue": -2,
-					"CareerScoreModifier": -0.1,
+					"CareerScoreModifier": -0.2,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -1171,7 +1171,7 @@
 					"Name": "Half",
 					"TelemetryEventDesc": "",
 					"DifficultyValue": -1,
-					"CareerScoreModifier": -0.05,
+					"CareerScoreModifier": -0.1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -1190,7 +1190,7 @@
 					"Name": "Normal",
 					"TelemetryEventDesc": "",
 					"DifficultyValue": 0,
-					"CareerScoreModifier": 0,
+					"CareerScoreModifier": 0.15,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -1209,7 +1209,7 @@
 					"Name": "Lethal",
 					"TelemetryEventDesc": "",
 					"DifficultyValue": 1,
-					"CareerScoreModifier": 0.1,
+					"CareerScoreModifier": 0.3,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -1454,7 +1454,7 @@
 					"Name": "Expensive",
 					"TelemetryEventDesc": "",
 					"DifficultyValue": 0,
-					"CareerScoreModifier": 0.05,
+					"CareerScoreModifier": 0.5,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1706,7 +1706,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 0,
+			"DefaultIndex": 1,
 			"Options": [
 				{
 					"ID": "diff_Maint_low",
@@ -1747,58 +1747,6 @@
 							"ConstantType": "Finances",
 							"ConstantName": "MechCostPerQuarter",
 							"ConstantValue": "22000"
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "diff_argoUpgradeCost",
-			"Name": "Reduced Argo Upgrade Costs",
-			"TelemetryEventName": "argo_upgrade_cost",
-			"UIOrder": 17,
-			"Tooltip": "This setting controls the costs of Argo Upgrades. If this setting is Enabled, Argo Ship Upgrades will cost less for both the upfront Purchase Costs as well as the Additional Costs paid each month for completed upgrades.",
-			"Enabled": true,
-			"Visible": true,
-			"Toggle": true,
-			"StartOnly": true,
-			"DefaultIndex": 0,
-			"Options": [
-				{
-					"ID": "diff_AUCR_off",
-					"Name": "Full Argo Upgrade Cost",
-					"TelemetryEventDesc": "0",
-					"DifficultyValue": 0,
-					"CareerScoreModifier": 0.05,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "CareerMode",
-							"ConstantName": "ArgoUpgradeCostMultiplier",
-							"ConstantValue": "1"
-						},
-						{
-							"ConstantType": "CareerMode",
-							"ConstantName": "ArgoMaintenanceMultiplier",
-							"ConstantValue": "1"
-						}
-					]
-				},
-				{
-					"ID": "diff_AUCR_on",
-					"Name": "Half Argo Upgrade Cost",
-					"TelemetryEventDesc": "1",
-					"DifficultyValue": 1,
-					"CareerScoreModifier": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "CareerMode",
-							"ConstantName": "ArgoUpgradeCostMultiplier",
-							"ConstantValue": "0.5"
-						},
-						{
-							"ConstantType": "CareerMode",
-							"ConstantName": "ArgoMaintenanceMultiplier",
-							"ConstantValue": "0.5"
 						}
 					]
 				}
@@ -1872,9 +1820,6 @@
 						}
 					]
 				}
-					
-				  
-				
 			]
 		}
 	]
