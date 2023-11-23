@@ -22,7 +22,7 @@
   },
   "MovementCapDefID": "movedef_deploy_director",
   "PathingCapDefID": "pathingdef_deploy_director",
-  "HardpointDataDefID": "hardpointdatadef_kingcrab",
+  "HardpointDataDefID": "hardpointdatadef_kingcrab_a",
   "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
   "PrefabBase": "kingcrab",
   "Tonnage": 1,
@@ -45,7 +45,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 1,
+  "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 0,
@@ -69,7 +69,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMountID": "Energy",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -181,8 +181,7 @@
   "VariantName": "DEPLOY",
   "ChassisTags": {
     "items": [
-      "BLACKLISTED",
-      "deploy_director"
+      "BLACKLISTED","deploy_director"
     ],
     "tagSetSourceFile": ""
   },
