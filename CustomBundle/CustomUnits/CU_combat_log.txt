@@ -1,0 +1,1390 @@
+[02:56:13.289]Mech.CanEngageTarget searching
+ get_GameRep
+ get_PilotableActorDef
+ get_MechDef
+ set_MechDef
+ get_UnitType
+ get_PathingCaps
+ get_MovementCaps
+ get_HardpointData
+ get_UnitName
+ get_VariantName
+ get_Nickname
+ get_MoveMultiplier
+ get_MaxWalkDistance
+ get_MaxSprintDistance
+ get_CanSprint
+ get_IsLegged
+ get_MaxBackwardDistance
+ get_MaxMeleeEngageRangeDistance
+ get_SensorSignatureFromDef
+ get_Radius
+ get_pilot
+ set_pilot
+ get_SkillGunnery
+ get_SkillGuts
+ get_SkillPiloting
+ get_SkillTactics
+ get_CurrentTorsoRotation
+ get_PreviousTorsoRotation
+ get_Description
+ get_tonnage
+ get_weightClass
+ get_BaseInitiative
+ RecalcEvasivePips
+ GetEvasivePipsResult
+ get_HeatSinkCapacity
+ get_WalkSpeed
+ get_RunSpeed
+ get_EngageRangeModifier
+ get_StaticUnitRole
+ ApplyBraced
+ VentCoolant
+ get_CanBeEntrenched
+ get_HasBulwarkAbility
+ get_JumpDistance
+ get__stability
+ set__stability
+ get_CurrentStability
+ get_MaxStability
+ get_MinStability
+ get_UnsteadyThreshold
+ get_StabilityPercentage
+ get__isProne
+ set__isProne
+ get_IsProne
+ set_IsProne
+ get_IsBecomingProne
+ get_IsOrWillBeProne
+ get_turnRadius
+ get_HeadArmor
+ get_HeadStructure
+ get_HeadDamageLevel
+ get_CenterTorsoFrontArmor
+ get_CenterTorsoRearArmor
+ get_CenterTorsoStructure
+ get_CenterTorsoDamageLevel
+ get_LeftTorsoFrontArmor
+ get_LeftTorsoRearArmor
+ get_LeftTorsoStructure
+ get_LeftTorsoDamageLevel
+ get_RightTorsoFrontArmor
+ get_RightTorsoRearArmor
+ get_RightTorsoStructure
+ get_RightTorsoDamageLevel
+ get_LeftArmArmor
+ get_LeftArmStructure
+ get_LeftArmDamageLevel
+ get_RightArmArmor
+ get_RightArmStructure
+ get_RightArmDamageLevel
+ get_LeftLegArmor
+ get_LeftLegStructure
+ get_LeftLegDamageLevel
+ get_RightLegArmor
+ get_RightLegStructure
+ get_RightLegDamageLevel
+ ArmorForLocation
+ MaxArmorForLocation
+ StructureForLocation
+ MaxStructureForLocation
+ GetComponentDamageLevel
+ GetAbbreviatedChassisLocation
+ GetLongChassisLocation
+ GetLongArmorLocation
+ GetStringForArmorLocation
+ GetStringForStructureLocation
+ GetStringForStructureDamageLevel
+ GetCurrentArmor
+ GetMaxArmor
+ GetCurrentStructure
+ GetMaxStructure
+ GetLocationDamageLevel
+ UpdateLocationDamageLevel
+ IsLocationDestroyed
+ StabilityDefense
+ GetComponentsForLocation
+ GetComponentInSlot
+ GetStats
+ StatCollectionSerializationTest
+ SubscribeMessages
+ OnActionButtonResult
+ DebugModifyStatMessageHandler
+ get__heat
+ set__heat
+ get_CurrentHeat
+ get_MinHeatNextActivation
+ set_MinHeatNextActivation
+ get_OverheatLevel
+ get_IsOverheated
+ get_HasAppliedHeatSinks
+ set_HasAppliedHeatSinks
+ get_CurrentHeatAsRatio
+ get_MaxHeat
+ get_TempHeat
+ get_IsPastMaxHeat
+ get_IsOperational
+ get_CanMove
+ get_IsAvailableThisPhase
+ Init
+ get_ArmorMultiplier
+ get_StructureMultiplier
+ InitStats
+ InitEffectStats
+ InitPassiveTeamEffects
+ InitGameRep
+ CreateBlankPrefabs
+ GetActorInfoFromVisLevel
+ GetWeaponNameStrings
+ GetPilot
+ GetHitLocation
+ GetPossibleHitLocations
+ GetAdjacentHitLocation
+ GetImpactPosition
+ get_CurrentArmor
+ get_SummaryArmorCurrent
+ get_SummaryArmorMax
+ get_SummaryStructureCurrent
+ get_SummaryStructureMax
+ get_HealthAsRatio
+ get_IsAnyStructureExposed
+ get_IsDead
+ AddAbsoluteInstability
+ AddRelativeInstability
+ GetMinStability
+ GetMinStability
+ AddInstability
+ ResetInstability
+ ShowFloatie
+ DamageLocation
+ CheckForCrit
+ ApplyArmorStatDamage
+ ApplyStructureStatDamage
+ ApplyHeadStructureEffects
+ ApplySideTorsoStructureEffects
+ ApplyCenterTorsoStructureEffects
+ ApplyArmStructureEffects
+ ApplyLegStructureEffects
+ NukeStructureLocation
+ UpdateMinStability
+ OnLocationDestroyed
+ EvaluateExpectedArmorFromAttackDirection
+ GetAttachTransform
+ IsTargetPositionInFiringArc
+ HasChargeAbilityActive
+ CanEngageTarget
+  params:2
+   BattleTech.ICombatant
+   System.String&
+[02:56:14.283]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[02:56:14.283]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[02:56:32.222]CustomMech registered chrprfmech_barghest
+[02:56:32.222]CustomMech registered chrPrfComp_cubarghest_simgame
+[02:56:32.224]CustomMech registered chrprfmech_barghest_front
+[02:56:32.224]CustomMech registered chrPrfComp_barghest_front_simgame
+[02:56:32.225]CustomMech registered chrprfmech_barghest_rear
+[02:56:32.225]CustomMech registered chrPrfComp_barghest_rear_simgame
+[02:56:32.227]CustomMech registered chrprfmech_cudragoonbase-001
+[02:56:32.227]CustomMech registered chrPrfComp_cudragoon_simgame
+[02:56:32.341]CustomMech registered chrprfmech_cugreatturtlebase-001
+[02:56:32.341]CustomMech registered chrPrfComp_cugreatturtle_simgame
+[02:56:32.342]CustomMech registered chrprfmech_cugulonbase-001
+[02:56:32.342]CustomMech registered chrPrfComp_cugulon_simgame
+[02:56:32.342]CustomMech registered chrprfmech_cugunslingerbase-001
+[02:56:32.342]CustomMech registered chrPrfComp_cugunslinger_simgame
+[02:56:32.343]CustomMech registered chrprfmech_cuharpagosquadbase-001
+[02:56:32.343]CustomMech registered chrPrfComp_cuharpagosquad_simgame
+[02:56:32.343]CustomMech registered chrprfmech_cuharpagosquadtankbase-001
+[02:56:32.343]CustomMech registered chrPrfComp_cuharpagosquadtank_simgame
+[02:56:32.343]CustomMech registered chrprfmech_cuheliosbase-001
+[02:56:32.343]CustomMech registered chrPrfComp_cuhelios_simgame
+[02:56:32.344]CustomMech registered chrprfmech_cuironcladbase-001
+[02:56:32.344]CustomMech registered chrPrfComp_cuironclad_simgame
+[02:56:32.344]CustomMech registered chrprfmech_cukisobase-001
+[02:56:32.344]CustomMech registered chrPrfComp_cukiso_simgame
+[02:56:32.345]CustomMech registered chrprfmech_cusiroccobase-001
+[02:56:32.345]CustomMech registered chrPrfComp_cusirocco_simgame
+[02:56:32.345]CustomMech registered chrprfmech_cusirocco_front
+[02:56:32.345]CustomMech registered chrPrfComp_cusirocco_front_simgame
+[02:56:32.345]CustomMech registered chrprfmech_cusirocco_rear
+[02:56:32.345]CustomMech registered chrPrfComp_cusirocco_rear_simgame
+[02:56:32.346]CustomMech registered chrprfmech_cutarantulabase-001
+[02:56:32.346]CustomMech registered chrPrfComp_cutarantulabase_simgame
+[02:56:32.346]CustomMech registered chrprfmech_cuflashmanbase-001
+[02:56:32.346]CustomMech registered chrPrfComp_cuflashman_simgame
+[02:56:32.346]CustomMech registered chrprfmech_goliath
+[02:56:32.346]CustomMech registered chrPrfComp_cugoliath_simgame
+[02:56:32.347]CustomMech registered chrprfmech_curifleman3base-001
+[02:56:32.347]CustomMech registered chrPrfComp_curifleman3_simgame
+[02:56:32.347]CustomMech registered chrprfmech_scorpionmechbase-001
+[02:56:32.347]CustomMech registered chrPrfComp_scorpionmech_simgame
+[02:56:32.350]CustomMech registered chrprfmech_cuurbifobase-001
+[02:56:32.350]CustomMech registered chrPrfComp_cuurbifo_simgame
+[02:56:32.353]CustomMech registered chrprfmech_dixon_vtol
+[02:56:32.353]CustomMech registered chrPrfComp_cudixon_simgame
+[02:56:32.354]CustomMech registered chrprfmech_harpagos_tank
+[02:56:32.354]CustomMech registered chrPrfComp_cuharpagostank_simgame
+[02:56:32.354]CustomMech registered chrprfmech_horskr_vtol
+[02:56:32.354]CustomMech registered chrPrfComp_cuhorskr_simgame
+[02:56:32.354]CustomMech registered chrprfmech_ishtar_tank
+[02:56:32.354]CustomMech registered chrPrfComp_cuishtar_simgame
+[02:56:32.355]CustomMech registered chrprfmech_kamakiri_vtol
+[02:56:32.355]CustomMech registered chrPrfComp_cukamakiri_simgame
+[02:56:32.355]CustomMech registered chrprfmech_karr_vtol
+[02:56:32.355]CustomMech registered chrPrfComp_cukarr_simgame
+[02:56:32.355]CustomMech registered chrprfmech_markolab_tank
+[02:56:32.355]CustomMech registered chrPrfComp_cumarkolab_simgame
+[02:56:32.356]CustomMech registered chrprfmech_overlord_dropship
+[02:56:32.356]CustomMech registered chrPrfComp_cuoverlord_simgame
+[02:56:32.356]CustomMech registered chrprfmech_perikirov_vtol
+[02:56:32.356]CustomMech registered chrPrfComp_cuperikirov_simgame
+[02:56:32.357]CustomMech registered chrprfmech_rakirov_vtol
+[02:56:32.357]CustomMech registered chrPrfComp_curakirov_simgame
+[02:56:32.357]CustomMech registered chrprfmech_redkite_vtol
+[02:56:32.357]CustomMech registered chrPrfComp_curedkite_simgame
+[02:56:32.357]CustomMech registered chrprfmech_strix_vtol
+[02:56:32.357]CustomMech registered chrPrfComp_custrix_simgame
+[02:56:32.358]CustomMech registered chrprfmech_union_dropship
+[02:56:32.358]CustomMech registered chrPrfComp_cuunion_simgame
+[02:56:32.358]CustomMech registered chrprfmech_unnsvin_vtol
+[02:56:32.358]CustomMech registered chrPrfComp_cuunnsvin_simgame
+[02:56:32.358]CustomMech registered chrprfmech_urbiecopter_vtol
+[02:56:32.358]CustomMech registered chrPrfComp_cuurbiecopter_simgame
+[02:56:32.358]CustomMech registered chrprfmech_warrior_vtol
+[02:56:32.358]CustomMech registered chrPrfComp_cuwarriorvtol_simgame
+[02:56:32.359]CustomMech registered chrprfmech_yellowjacket_vtol
+[02:56:32.359]CustomMech registered chrPrfComp_cuyellowjacket_simgame
+[02:56:32.361]CustomMech registered coastalcutter_vehicle_body
+[02:56:32.361]CustomMech registered chrPrfComp_coastalcutter_simgame
+[02:56:32.362]CustomMech registered chrprfmech_dropship_ball_turret
+[02:56:32.362]CustomMech registered chrPrfComp_cudropshipballturret_simgame
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Autocannon_AC20_SPECIAL-Victoria.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Flamer_Flamer_SPECIAL-Victoria.json
+[02:56:40.566]System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ThrowKeyNullException () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomUnits.CustomHardPointsHelper.Find (System.String name) [0x00001] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.DataManager_Exists.Prefix (BattleTech.Data.DataManager __instance, BattleTech.BattleTechResourceType resourceType, System.String& id) [0x00014] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ UpgradeDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNWarsMechModules\Cockpit\LifeSupport\sortingtbd.txt
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Autocannon_AC20_SPECIAL-Victoria.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Flamer_Flamer_SPECIAL-Victoria.json
+[02:56:48.120]System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ThrowKeyNullException () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomUnits.CustomHardPointsHelper.Find (System.String name) [0x00001] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.DataManager_Exists.Prefix (BattleTech.Data.DataManager __instance, BattleTech.BattleTechResourceType resourceType, System.String& id) [0x00014] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ SVGAsset streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNTech\icons\Internals\GMShield.svg
+[02:57:13.017]Renderer.sharedMaterial set null BattleTech Decal (4)
+[02:57:15.248]Renderer.sharedMaterial set null scar02 (1)
+[02:57:15.248]Renderer.sharedMaterial set null BattleTech Decal (1)
+[02:57:16.532]Renderer.sharedMaterial set null BattleTech Decal (7)
+[02:57:16.630]Renderer.sharedMaterial set null BattleTech Decal (6)
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal (8)
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal (2)
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal (11)
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal (6)
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal (10)
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal (3)
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal (9)
+[02:57:23.017]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (12)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (4)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (5)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (1)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (2)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (1)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (1)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (7)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (2)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (2)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (2)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (2)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (2)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (1)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (1)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (1)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (1)
+[02:57:23.036]Renderer.sharedMaterial set null BattleTech Decal (1)
+[02:57:27.208]Renderer.sharedMaterial set null BattleTech Decal (1)
+[02:57:29.562]Renderer.sharedMaterial set null scar02 (1)
+[02:57:29.562]Renderer.sharedMaterial set null BattleTech Decal (2)
+[02:57:30.214]Renderer.sharedMaterial set null scar03 (1)
+[02:57:30.332]Renderer.sharedMaterial set null BattleTech Decal (14)
+[02:57:30.388]Renderer.sharedMaterial set null scar02 (1)
+[02:57:30.413]Renderer.sharedMaterial set null scar01 (1)
+[02:57:30.462]Renderer.sharedMaterial set null BattleTech Decal (16)
+[02:57:30.539]Renderer.sharedMaterial set null scar02 (2)
+[02:57:30.539]Renderer.sharedMaterial set null scar02 (1)
+[02:57:30.596]Renderer.sharedMaterial set null scar03 (1)
+[02:57:30.620]Renderer.sharedMaterial set null BattleTech Decal (8)
+[02:57:30.721]Renderer.sharedMaterial set null scar01 (1)
+[02:57:30.771]Renderer.sharedMaterial set null scar03 (1)
+[02:57:30.771]Renderer.sharedMaterial set null scar01 (1)
+[02:57:31.146]Renderer.sharedMaterial set null BattleTech Decal (9)
+[02:57:31.196]Renderer.sharedMaterial set null BattleTech Decal (11)
+[02:57:31.296]Renderer.sharedMaterial set null scar03 (2)
+[02:57:31.296]Renderer.sharedMaterial set null scar03 (1)
+[02:57:31.455]Renderer.sharedMaterial set null scar02 (1)
+[02:57:31.455]Renderer.sharedMaterial set null BattleTech Decal (13)
+[02:57:31.557]Renderer.sharedMaterial set null scar01 (1)
+[02:57:31.557]Renderer.sharedMaterial set null scar01 (2)
+[02:57:31.912]Renderer.sharedMaterial set null scar03 (1)
+[02:57:32.239]Renderer.sharedMaterial set null BattleTech Decal (18)
+[02:57:32.427]Renderer.sharedMaterial set null BattleTech Decal (15)
+[02:57:32.495]Renderer.sharedMaterial set null scar01 (4)
+[02:57:32.495]Renderer.sharedMaterial set null scar01 (3)
+[02:57:32.495]Renderer.sharedMaterial set null scar01 (5)
+[02:57:32.495]Renderer.sharedMaterial set null scar01 (2)
+[02:57:32.495]Renderer.sharedMaterial set null scar01 (1)
+[02:57:32.560]Renderer.sharedMaterial set null scar03 (1)
+[02:57:32.560]Renderer.sharedMaterial set null scar02 (1)
+[02:57:32.560]Renderer.sharedMaterial set null BattleTech Decal (10)
+[02:57:32.757]Renderer.sharedMaterial set null BattleTech Decal (3)
+[02:57:33.412]Renderer.sharedMaterial set null BattleTech Decal (12)
+[02:57:33.841]Renderer.sharedMaterial set null BattleTech Decal
+[02:57:35.250]Renderer.sharedMaterial set null BattleTech Decal (5)
+[02:57:50.979]PilotDef.DependenciesLoaded pilot_Lan
+[02:57:50.992]PilotDef.DependenciesLoaded pilot_ace
+[02:57:51.004]PilotDef.DependenciesLoaded pilot_backer_Piazza
+[02:57:51.015]PilotDef.DependenciesLoaded pilot_backer_FalkM
+[02:57:51.025]PilotDef.DependenciesLoaded pilot_ronin_Witness
+[02:57:53.121]PilotDef.DependenciesLoaded pilot_ronin_Witness
+[02:57:56.985]PilotDef.DependenciesLoaded pilot_backer_Piazza
+[02:57:59.670]PilotDef.DependenciesLoaded pilot_backer_FalkM
+[02:58:22.883]HUDMechArmorReadout.BayShowMech null
+[02:58:22.902]HUDMechArmorReadout.BayShowMech null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+[02:58:23.218]HUDMechArmorReadout.DisplayedMechDef mechdef_GN-000-FA-P chassis:chassisdef_GN-000-FA-P isFake:False info:False
+[02:58:23.218]HUDMechArmorReadout.BayShowMech chassisdef_GN-000-FA-P
+[02:58:23.419]HUDMechArmorReadout.BayShowMech null
+[02:58:23.427]HUDMechArmorReadout.BayShowMech null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+[02:58:23.680]HUDMechArmorReadout.DisplayedMechDef mechdef_GN-000-FA-P chassis:chassisdef_GN-000-FA-P isFake:False info:False
+[02:58:23.680]HUDMechArmorReadout.BayShowMech chassisdef_GN-000-FA-P
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+[02:58:25.124]DataManager.PooledInstantiate_CustomMechRep_MechLab chrPrfComp_madba_simgame custRepDef:null
+[02:58:25.129]CustomPrefabHelper.Searching chrPrfComp_madba_simgame
+ setupAlternates:False
+ setupSquad:False
+ setupQuad:False
+[02:58:25.130]CustomActorRepresentationHelper.ProcessSimGame custom representation found:
+customPropertyBlock chrPrfComp_stalker_simgame(Clone)
+[02:58:25.136]CustomMechCustomization.Init propertyBlock:chrPrfComp_stalker_simgame(Clone)
+[02:58:25.141]CustomPaintPattern.Init default stk_left_arm_upperarm_explode 6
+[02:58:25.141]CustomPaintPattern.Init default stk_right_arm_upperarm_explode 6
+[02:58:25.142]CustomPaintPattern.Init default stk_head_cockpit_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_head_cockpit 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_arm_forearm 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_arm_forearm_door 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_arm_upperarm 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_calf_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_foot_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_hip_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_talon1_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_talon2_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_thigh_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_calf 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_foot 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_hip 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_talon1 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_talon2 6
+[02:58:25.142]CustomPaintPattern.Init default stk_left_leg_thigh 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_arm_forearm 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_arm_forearm_door 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_arm_upperarm 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_leg_calf_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_leg_foot_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_leg_hip_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_leg_talon1_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_leg_talon2_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_leg_thigh_dmg 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_leg_calf 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_leg_foot 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_leg_hip 6
+[02:58:25.142]CustomPaintPattern.Init default stk_right_leg_talon1 6
+[02:58:25.143]CustomPaintPattern.Init default stk_right_leg_talon2 6
+[02:58:25.143]CustomPaintPattern.Init default stk_right_leg_thigh 6
+[02:58:25.143]CustomPaintPattern.Init default stk_left_torso_dmg 6
+[02:58:25.143]CustomPaintPattern.Init default stk_left_torso_rear_dmg 6
+[02:58:25.143]CustomPaintPattern.Init default stk_left_torso 6
+[02:58:25.143]CustomPaintPattern.Init default stk_left_torso_rear 6
+[02:58:25.143]CustomPaintPattern.Init default stk_right_torso_dmg 6
+[02:58:25.143]CustomPaintPattern.Init default stk_right_torso_rear_dmg 6
+[02:58:25.143]CustomPaintPattern.Init default stk_right_torso 6
+[02:58:25.143]CustomPaintPattern.Init default stk_right_torso_rear 6
+[02:58:25.143]CustomPaintPattern.Init default stk_centre_torso_dmg 6
+[02:58:25.143]CustomPaintPattern.Init default stk_centre_torso_pelvis_dmg 6
+[02:58:25.143]CustomPaintPattern.Init default stk_centre_torso_pelvis_rear_dmg 6
+[02:58:25.143]CustomPaintPattern.Init default stk_centre_torso_rear_dmg 6
+[02:58:25.143]CustomPaintPattern.Init default stk_centre_torso 6
+[02:58:25.143]CustomPaintPattern.Init default stk_centre_torso_pelvis 6
+[02:58:25.143]CustomPaintPattern.Init default stk_centre_torso_pelvis_rear 6
+[02:58:25.143]CustomPaintPattern.Init default stk_centre_torso_rear 6
+[02:58:25.145]CustomRepresentation.InitDestructable
+ no effective groups
+ no effective groups
+ no effective groups
+ chrPrfWeap_marauder_leftarm_laser_eh1 chrPrfWeap_marauder_leftarm_laser_eh1 chrPrfWeap_marauder_rightarm_laser_eh1 no effective components
+ chrPrfWeap_marauder_leftarm_laser_eh1 chrPrfWeap_marauder_rightarm_laser_eh1 chrPrfWeap_marauder_leftarm_laser_eh1 chrPrfWeap_marauder_rightarm_laser_eh1 chrPrfWeap_marauder_lefttorso_ams_ah1 chrPrfWeap_marauder_leftarm_laser_eh1 chrPrfWeap_marauder_rightarm_laser_eh1 chrPrfWeap_marauder_lefttorso_ams_ah1 chrPrfWeap_marauder_leftarm_laser_eh1 chrPrfWeap_marauder_rightarm_laser_eh1 chrPrfWeap_marauder_lefttorso_ams_ah1 chrPrfWeap_marauder_righttorso_mg_bh1[02:58:25.166]CustomRepresentation.AttachWeaponsSimGame chrPrfComp_stalker_simgame(Clone)
+[02:58:25.169]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_stalker-base-v05-msk
+[02:58:25.169]PaintPattern: chrTxrMech_stalker-base-v01-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:25.169]PaintPattern: chrTxrMech_stalker-base-v02-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:25.169]PaintPattern: chrTxrMech_stalker-base-v03-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:25.169]PaintPattern: chrTxrMech_stalker-base-v04-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:25.169]Matched paintPattern: chrTxrMech_stalker-base-v05-msk to paintTextureId: chrTxrMech_stalker-base-v05-msk
+   camo mask texture.name:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:25.170]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+  tag unit_MS is not starting from MR-Resize-
+  tag unit_Gundam is not starting from MR-Resize-
+  tag unit_heavy is not starting from MR-Resize-
+  tag unit_release is not starting from MR-Resize-
+  tag unit_ready is not starting from MR-Resize-
+  tag unit_comstar is not starting from MR-Resize-
+  tag unit_Gundam is not starting from MR-Resize-
+  tag unit_ms is not starting from MR-Resize-
+[02:58:25.176]BattleTech.Mech: Using Default Size for 'mechdef_GN-000-FA-P'
+[02:58:25.177]Setting Cache: mechdef_GN-000-FA-P: [1,1,1]
+[02:58:26.805]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]PaintPattern: chrTxrMech_stalker-base-v01-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:26.805]PaintPattern: chrTxrMech_stalker-base-v02-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:26.805]PaintPattern: chrTxrMech_stalker-base-v03-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:26.805]PaintPattern: chrTxrMech_stalker-base-v04-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:26.805]Matched paintPattern: chrTxrMech_stalker-base-v05-msk to paintTextureId: chrTxrMech_stalker-base-v05-msk
+   camo mask texture.name:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:26.805]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Autocannon_AC20_SPECIAL-Victoria.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Flamer_Flamer_SPECIAL-Victoria.json
+[02:58:27.392]System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ThrowKeyNullException () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomUnits.CustomHardPointsHelper.Find (System.String name) [0x00001] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.DataManager_Exists.Prefix (BattleTech.Data.DataManager __instance, BattleTech.BattleTechResourceType resourceType, System.String& id) [0x00014] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ UpgradeDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNWarsMechModules\Cockpit\LifeSupport\sortingtbd.txt
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ SVGAsset streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNTech\icons\Internals\GMShield.svg
+[02:58:35.549]HUDMechArmorReadout.DisplayedMechDef mechdef_GN-000-FA-P chassis:chassisdef_GN-000-FA-P isFake:False info:False
+[02:58:35.549]HUDMechArmorReadout.BayShowMech chassisdef_GN-000-FA-P
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+[02:58:37.829]DataManager.PooledInstantiate_CustomMechRep_MechLab chrPrfComp_madba_simgame custRepDef:null
+[02:58:37.830]CustomPrefabHelper.Searching chrPrfComp_madba_simgame
+ setupAlternates:False
+ setupSquad:False
+ setupQuad:False
+[02:58:37.830]CustomActorRepresentationHelper.ProcessSimGame custom representation found:
+customPropertyBlock chrPrfComp_stalker_simgame(Clone)
+[02:58:37.830]CustomMechCustomization.Init propertyBlock:chrPrfComp_stalker_simgame(Clone)
+[02:58:37.830]CustomPaintPattern.Init default stk_left_arm_upperarm_explode 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_arm_upperarm_explode 6
+[02:58:37.830]CustomPaintPattern.Init default stk_head_cockpit_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_head_cockpit 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_arm_forearm 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_arm_forearm_door 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_arm_upperarm 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_calf_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_foot_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_hip_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_talon1_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_talon2_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_thigh_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_calf 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_foot 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_hip 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_talon1 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_talon2 6
+[02:58:37.830]CustomPaintPattern.Init default stk_left_leg_thigh 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_arm_forearm 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_arm_forearm_door 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_arm_upperarm 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_calf_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_foot_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_hip_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_talon1_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_talon2_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_thigh_dmg 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_calf 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_foot 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_hip 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_talon1 6
+[02:58:37.830]CustomPaintPattern.Init default stk_right_leg_talon2 6
+[02:58:37.831]CustomPaintPattern.Init default stk_right_leg_thigh 6
+[02:58:37.831]CustomPaintPattern.Init default stk_left_torso_dmg 6
+[02:58:37.831]CustomPaintPattern.Init default stk_left_torso_rear_dmg 6
+[02:58:37.831]CustomPaintPattern.Init default stk_left_torso 6
+[02:58:37.831]CustomPaintPattern.Init default stk_left_torso_rear 6
+[02:58:37.831]CustomPaintPattern.Init default stk_right_torso_dmg 6
+[02:58:37.831]CustomPaintPattern.Init default stk_right_torso_rear_dmg 6
+[02:58:37.831]CustomPaintPattern.Init default stk_right_torso 6
+[02:58:37.831]CustomPaintPattern.Init default stk_right_torso_rear 6
+[02:58:37.831]CustomPaintPattern.Init default stk_centre_torso_dmg 6
+[02:58:37.831]CustomPaintPattern.Init default stk_centre_torso_pelvis_dmg 6
+[02:58:37.831]CustomPaintPattern.Init default stk_centre_torso_pelvis_rear_dmg 6
+[02:58:37.831]CustomPaintPattern.Init default stk_centre_torso_rear_dmg 6
+[02:58:37.831]CustomPaintPattern.Init default stk_centre_torso 6
+[02:58:37.831]CustomPaintPattern.Init default stk_centre_torso_pelvis 6
+[02:58:37.831]CustomPaintPattern.Init default stk_centre_torso_pelvis_rear 6
+[02:58:37.831]CustomPaintPattern.Init default stk_centre_torso_rear 6
+[02:58:37.831]CustomRepresentation.InitDestructable
+ no effective groups
+ no effective groups
+ no effective components
+ no effective components
+ no effective groups
+ no effective components
+ no effective components
+ no effective components
+[02:58:37.837]CustomRepresentation.AttachWeaponsSimGame chrPrfComp_stalker_simgame(Clone)
+[02:58:37.837]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]PaintPattern: chrTxrMech_stalker-base-v01-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:37.837]PaintPattern: chrTxrMech_stalker-base-v02-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:37.837]PaintPattern: chrTxrMech_stalker-base-v03-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:37.837]PaintPattern: chrTxrMech_stalker-base-v04-msk did not match target: chrTxrMech_stalker-base-v05-msk, skipping.
+[02:58:37.837]Matched paintPattern: chrTxrMech_stalker-base-v05-msk to paintTextureId: chrTxrMech_stalker-base-v05-msk
+   camo mask texture.name:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_head_cockpit texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm_explode texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_forearm_door texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_arm_upperarm texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_calf texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_foot texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_hip texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon1 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_talon2 texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_leg_thigh texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_left_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_right_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear_dmg texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.837]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_pelvis_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.838]CustomPaintPattern.ApplyPaintScheme 4 renderer:stk_centre_torso_rear texture:chrTxrMech_stalker-base-v05-msk
+[02:58:37.839]BattleTech.Mech: Found Cached 'mechdef_GN-000-FA-P'
+[02:58:39.530]HUDMechArmorReadout.DisplayedMechDef mechdef_annihilator_ANH-1A chassis:chassisdef_annihilator_ANH-1A isFake:False info:False
+[02:58:39.530]HUDMechArmorReadout.BayShowMech chassisdef_annihilator_ANH-1A
+[02:58:41.607]DataManager.PooledInstantiate_CustomMechRep_MechLab chrPrfComp_annihilator_simgame custRepDef:null
+[02:58:41.608]CustomPrefabHelper.Searching chrPrfComp_annihilator_simgame
+ setupAlternates:False
+ setupSquad:False
+ setupQuad:False
+[02:58:41.609]CustomActorRepresentationHelper.ProcessSimGame custom representation found:
+customPropertyBlock chrPrfComp_annihilator_simgame(Clone)
+[02:58:41.609]CustomMechCustomization.Init propertyBlock:chrPrfComp_annihilator_simgame(Clone)
+[02:58:41.609]CustomPaintPattern.Init default anh_left_arm_clavicle_explode 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_arm_forearm_explode 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_arm_upperarm_explode 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_arm_clavicle_explode 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_arm_forearm_explode 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_arm_upperarm_explode 6
+[02:58:41.609]CustomPaintPattern.Init default anh_head_cockpit_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_head_cockpit 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_arm_clavicle 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_arm_forearm 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_arm_upperarm 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_calf_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_foot_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_hip_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_pinky1_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_talon_index1_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_thigh_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_toe_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_calf 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_foot 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_hip 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_pinky1 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_talon_index1 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_thigh 6
+[02:58:41.609]CustomPaintPattern.Init default anh_left_leg_toe0 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_arm_clavicle 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_arm_forearm 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_arm_upperarm 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_leg_calf_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_leg_foot_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_leg_hip_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_leg_index1_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_leg_pinky_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_leg_thigh_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_leg_toe_dmg 6
+[02:58:41.609]CustomPaintPattern.Init default anh_right_leg_calf 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_leg_foot 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_leg_hip 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_leg_index1 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_leg_pinky1 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_leg_thigh 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_leg_toe0 6
+[02:58:41.610]CustomPaintPattern.Init default anh_left_torso_blank_gb_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_left_torso_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_left_torso_rear_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_left_torso 6
+[02:58:41.610]CustomPaintPattern.Init default anh_left_torso_blank_gb 6
+[02:58:41.610]CustomPaintPattern.Init default anh_left_torso_rear 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_torso_blank_gb_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_torso_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_torso_rear_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_torso 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_torso_blank_gb 6
+[02:58:41.610]CustomPaintPattern.Init default anh_right_torso_rear 6
+[02:58:41.610]CustomPaintPattern.Init default anh_centre_torso_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_centre_torso_pelvis_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_centre_torso_pelvis_rear_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_centre_torso_rear_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_centre_torso_twist_dmg 6
+[02:58:41.610]CustomPaintPattern.Init default anh_centre_torso 6
+[02:58:41.610]CustomPaintPattern.Init default anh_centre_torso_pelvis 6
+[02:58:41.610]CustomPaintPattern.Init default anh_centre_torso_pelvis_rear 6
+[02:58:41.610]CustomPaintPattern.Init default anh_centre_torso_rear 6
+[02:58:41.610]CustomPaintPattern.Init default anh_centre_torso_twist 6
+[02:58:41.610]CustomRepresentation.InitDestructable
+ no effective groups
+ no effective groups
+ chrPrfWeap_annihilator_centertorso_laser_eh1 chrPrfWeap_annihilator_centertorso_laser_eh1 chrPrfWeap_annihilator_centertorso_laser_eh2 no effective components
+ chrPrfWeap_annihilator_centertorso_laser_eh1 chrPrfWeap_annihilator_centertorso_laser_eh2 chrPrfWeap_annihilator_centertorso_laser_eh1 chrPrfWeap_annihilator_centertorso_laser_eh2 chrPrfWeap_annihilator_leftarm_ac10_bh1 chrPrfWeap_annihilator_centertorso_laser_eh1 chrPrfWeap_annihilator_centertorso_laser_eh2 chrPrfWeap_annihilator_leftarm_ac10_bh1 chrPrfWeap_annihilator_leftarm_laser_eh1 chrPrfWeap_annihilator_centertorso_laser_eh1 chrPrfWeap_annihilator_centertorso_laser_eh2 chrPrfWeap_annihilator_leftarm_ac10_bh1 chrPrfWeap_annihilator_leftarm_laser_eh1 chrPrfWeap_annihilator_rightarm_ac10_bh1 chrPrfWeap_annihilator_centertorso_laser_eh1 chrPrfWeap_annihilator_centertorso_laser_eh2 chrPrfWeap_annihilator_leftarm_ac10_bh1 chrPrfWeap_annihilator_leftarm_laser_eh1 chrPrfWeap_annihilator_rightarm_ac10_bh1 chrPrfWeap_annihilator_rightarm_laser_eh1 chrPrfWeap_annihilator_centertorso_laser_eh1 chrPrfWeap_annihilator_centertorso_laser_eh2 chrPrfWeap_annihilator_leftarm_ac10_bh1 chrPrfWeap_annihilator_leftarm_laser_eh1 chrPrfWeap_annihilator_rightarm_ac10_bh1 chrPrfWeap_annihilator_rightarm_laser_eh1 chrPrfWeap_annihilator_lefttorso_ac10_bh1[02:58:41.624]CustomPrefabHelper.Searching chrPrfWeap_annihilator_lefttorso_ac10_bh1
+[02:58:41.627]CustomPaintPattern.Init default anh_left_torso_ac10_bh1 6
+[02:58:41.627]CustomPaintPattern.Init default barrel114 6
+[02:58:41.628]CustomPrefabHelper.Searching chrPrfWeap_annihilator_leftarm_laser_eh1
+[02:58:41.628]CustomPaintPattern.Init default anh_left_arm_forearm_laser_eh1 6
+[02:58:41.628]CustomPrefabHelper.Searching chrPrfWeap_annihilator_rightarm_ac10_bh1
+[02:58:41.628]CustomPaintPattern.Init default anh_right_arm_forearm_ac10_bh1 6
+[02:58:41.628]CustomPaintPattern.Init default barrel126 6
+[02:58:41.628]CustomPaintPattern.Init default mount 6
+[02:58:41.628]CustomPrefabHelper.Searching chrPrfWeap_annihilator_rightarm_laser_eh1
+[02:58:41.628]CustomPaintPattern.Init default anh_right_arm_forearm_laser_eh1 6
+[02:58:41.629]CustomPrefabHelper.Searching chrPrfWeap_annihilator_centertorso_laser_eh1
+[02:58:41.629]CustomPaintPattern.Init default anh_centre_torso_laser_eh1 6
+[02:58:41.629]CustomPaintPattern.Init default mount 6
+[02:58:41.629]CustomPrefabHelper.Searching chrPrfWeap_annihilator_centertorso_laser_eh2
+[02:58:41.629]CustomPaintPattern.Init default anh_centre_torso_laser_eh2 6
+[02:58:41.629]CustomPaintPattern.Init default mount 6
+[02:58:41.629]CustomPrefabHelper.Searching chrPrfWeap_annihilator_righttorso_ac10_bh1
+[02:58:41.629]CustomPaintPattern.Init default anh_right_torso_ac10_bh1 6
+[02:58:41.629]CustomPaintPattern.Init default barrel120 6
+[02:58:41.629]CustomPrefabHelper.Searching chrPrfWeap_annihilator_leftarm_ac10_bh1
+[02:58:41.629]CustomPaintPattern.Init default anh_left_arm_forearm_ac10_bh1 6
+[02:58:41.629]CustomPaintPattern.Init default barrel108 6
+[02:58:41.629]CustomPaintPattern.Init default mount 6
+[02:58:41.630]CustomRepresentation.AttachWeaponsSimGame chrPrfComp_annihilator_simgame(Clone)
+ prefab chrPrfWeap_annihilator_lefttorso_ac10_bh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrPrfWeap_annihilator_leftarm_laser_eh1
+   no custom hardpoint. parentTransform:j_LForearm
+ prefab chrPrfWeap_annihilator_leftarm_ac10_bh1
+   no custom hardpoint. parentTransform:j_LForearm
+ prefab chrPrfWeap_annihilator_rightarm_ac10_bh1
+   no custom hardpoint. parentTransform:j_RForearm
+ prefab chrPrfWeap_annihilator_rightarm_laser_eh1
+   no custom hardpoint. parentTransform:j_RForearm
+ prefab chrPrfWeap_annihilator_centertorso_laser_eh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrPrfWeap_annihilator_centertorso_laser_eh2
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrPrfWeap_annihilator_righttorso_ac10_bh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+[02:58:41.630]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]Matched paintPattern: chrTxrMech_annihilator-base-v01-msk to paintTextureId: chrTxrMech_annihilator-base-v01-msk
+   camo mask texture.name:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_ac10_bh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:barrel114 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_laser_eh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:mount texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_laser_eh2 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:mount texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_ac10_bh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:barrel120 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm_laser_eh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm_ac10_bh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:barrel108 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:mount texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm_ac10_bh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:barrel126 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:mount texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm_laser_eh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_head_cockpit_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_head_cockpit texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_clavicle_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_upperarm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_clavicle texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_upperarm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_calf_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_foot_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_hip_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_pinky1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_talon_index1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_thigh_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_toe_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_calf texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_foot texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_hip texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_pinky1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_talon_index1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_thigh texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_toe0 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_clavicle_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_upperarm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_clavicle texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_upperarm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_calf_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_foot_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_hip_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_index1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_pinky_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_thigh_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_toe_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_calf texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_foot texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_hip texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_index1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_pinky1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_thigh texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_toe0 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_blank_gb_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_blank_gb texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_blank_gb_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_blank_gb texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_twist_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_twist texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_head_cockpit_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_head_cockpit texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_clavicle_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_upperarm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_clavicle texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_upperarm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_calf_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.630]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_foot_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_hip_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_pinky1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_talon_index1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_thigh_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_toe_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_calf texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_foot texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_hip texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_pinky1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_talon_index1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_thigh texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_toe0 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_clavicle_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_upperarm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_clavicle texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_upperarm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_calf_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_foot_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_hip_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_index1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_pinky_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_thigh_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_toe_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_calf texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_foot texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_hip texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_index1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_pinky1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_thigh texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_toe0 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_blank_gb_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_blank_gb texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_blank_gb_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_blank_gb texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_twist_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:41.631]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_twist texture:chrTxrMech_annihilator-base-v01-msk
+  tag Vanilla is not starting from MR-Resize-
+  tag unit_mech is not starting from MR-Resize-
+  tag unit_assault is not starting from MR-Resize-
+  tag unit_release is not starting from MR-Resize-
+  tag unit_ready is not starting from MR-Resize-
+  tag unit_role_sniper is not starting from MR-Resize-
+  tag unit_range_medium is not starting from MR-Resize-
+  tag unit_speed_low is not starting from MR-Resize-
+  tag Davion is not starting from MR-Resize-
+  tag Kurita is not starting from MR-Resize-
+  tag Liao is not starting from MR-Resize-
+  tag Marik is not starting from MR-Resize-
+  tag Steiner is not starting from MR-Resize-
+  tag unit_piloting_type_generic_mech is not starting from MR-Resize-
+  tag unit_drop_type_generic_mech is not starting from MR-Resize-
+[02:58:41.633]BattleTech.Mech: Using Default Size for 'mechdef_annihilator_ANH-1A'
+[02:58:41.633]Setting Cache: mechdef_annihilator_ANH-1A: [1,1,1]
+[02:58:42.942]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]Matched paintPattern: chrTxrMech_annihilator-base-v01-msk to paintTextureId: chrTxrMech_annihilator-base-v01-msk
+   camo mask texture.name:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_ac10_bh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]CustomPaintPattern.ApplyPaintScheme 0 renderer:barrel114 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_laser_eh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]CustomPaintPattern.ApplyPaintScheme 0 renderer:mount texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_laser_eh2 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]CustomPaintPattern.ApplyPaintScheme 0 renderer:mount texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_ac10_bh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]CustomPaintPattern.ApplyPaintScheme 0 renderer:barrel120 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm_laser_eh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.942]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm_ac10_bh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:barrel108 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:mount texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm_ac10_bh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:barrel126 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:mount texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm_laser_eh1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_head_cockpit_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_head_cockpit texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_clavicle_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_upperarm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_clavicle texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_upperarm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_calf_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_foot_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_hip_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_pinky1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_talon_index1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_thigh_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_toe_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_calf texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_foot texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_hip texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_pinky1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_talon_index1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_thigh texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_toe0 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_clavicle_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_upperarm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_clavicle texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_upperarm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_calf_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_foot_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_hip_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_index1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_pinky_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_thigh_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_toe_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_calf texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_foot texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_hip texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_index1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_pinky1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_thigh texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_toe0 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_blank_gb_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_blank_gb texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_blank_gb_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_blank_gb texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_twist_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_twist texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_head_cockpit_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_head_cockpit texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_clavicle_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_upperarm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_clavicle texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_forearm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_arm_upperarm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_calf_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_foot_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_hip_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_pinky1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_talon_index1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_thigh_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_toe_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_calf texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_foot texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_hip texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_pinky1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_talon_index1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_thigh texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_leg_toe0 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_clavicle_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_upperarm_explode texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_clavicle texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_forearm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_arm_upperarm texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_calf_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_foot_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_hip_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_index1_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_pinky_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_thigh_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_toe_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_calf texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_foot texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_hip texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_index1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_pinky1 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_thigh texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_leg_toe0 texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_blank_gb_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_blank_gb texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_left_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_blank_gb_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_blank_gb texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_right_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_rear_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_twist_dmg texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_pelvis_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_rear texture:chrTxrMech_annihilator-base-v01-msk
+[02:58:42.943]CustomPaintPattern.ApplyPaintScheme 0 renderer:anh_centre_torso_twist texture:chrTxrMech_annihilator-base-v01-msk
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Autocannon_AC20_SPECIAL-Victoria.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\.modtek\Cache\WeaponDef\Weapon_Flamer_Flamer_SPECIAL-Victoria.json
+[02:58:43.329]System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ThrowKeyNullException () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomUnits.CustomHardPointsHelper.Find (System.String name) [0x00001] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.DataManager_Exists.Prefix (BattleTech.Data.DataManager __instance, BattleTech.BattleTechResourceType resourceType, System.String& id) [0x00014] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ UpgradeDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNWarsMechModules\Cockpit\LifeSupport\sortingtbd.txt
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ SVGAsset streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GN Core\GNTech\icons\Internals\GMShield.svg
