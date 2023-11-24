@@ -24,7 +24,13 @@
 			"NameText": "E-Carbon Armor",
 			"BonusAText": "Dynamic Slot",
 			"BonusBText": " "
-		}
+		},
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.99 * [[Chassis.Tonnage]]",
+        "CBillCost": "80.6 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    }
   },
   "Description": {
     "Cost": 1850000,

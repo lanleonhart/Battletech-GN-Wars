@@ -8,6 +8,12 @@
 		"BonusDescriptions": [
 			"ACC: +1"
 		  ],
+		  "WorkOrderCosts": {
+			"Install": {
+			  "TechCost": "0.4 * [[Chassis.Tonnage]]",
+			 "CBillCost": "25 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+			}
+		},
 		"Flags": [
 				
 		]

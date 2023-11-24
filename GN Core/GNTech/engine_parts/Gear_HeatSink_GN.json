@@ -8,7 +8,13 @@
         "BonusDescriptions": [
             "HEATSINK: -9",
             "GNDK"
-    ]
+    ],
+    "WorkOrderCosts": {
+        "Install": {
+          "TechCost": "0.5 * [[Chassis.Tonnage]]",
+          "CBillCost": "35 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+        }
+      }
 },
     "DissipationCapacity" : 9,
     "Description" : {

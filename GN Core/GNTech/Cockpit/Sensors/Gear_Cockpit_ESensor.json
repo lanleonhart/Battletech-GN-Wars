@@ -4,7 +4,13 @@
         {
           "CategoryID": "SensorsB"
         }
-      ]
+      ],
+      "WorkOrderCosts": {
+        "Install": {
+          "TechCost": "1.25 * [[Chassis.Tonnage]]",
+          "CBillCost": "50 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+        }
+      }
     },
     "StatName": null,
     "RelativeModifier": 0,

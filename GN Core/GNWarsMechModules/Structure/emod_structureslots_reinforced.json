@@ -13,6 +13,12 @@
 		},
         "ArmorStructureChanges": {
             "StructureFactor": 1.5
+          },
+          "WorkOrderCosts": {
+            "Install": {
+              "TechCost": "0.55 * [[Chassis.Tonnage]]",
+              "CBillCost": "14 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+            }
           }
 	},
     "Description" : {

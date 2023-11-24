@@ -6,6 +6,12 @@
         "BonusDescriptions": [
           "TACTIC: +1"
         ],
+        "WorkOrderCosts": {
+          "Install": {
+            "TechCost": "0.45 * [[Chassis.Tonnage]]",
+            "CBillCost": "17 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+          }
+        },
 		"Flags": [ "not_broken"]
 	},
     "Description" : {

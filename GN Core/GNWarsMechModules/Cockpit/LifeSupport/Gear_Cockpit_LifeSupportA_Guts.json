@@ -6,7 +6,13 @@
         "BonusDescriptions": [
           "GUTS: +1"
         ],
-		"Flags": [ "not_broken"]
+		"Flags": [ "not_broken"],
+    "WorkOrderCosts": {
+			"Install": {
+			  "TechCost": "0.45 * [[Chassis.Tonnage]]",
+			  "CBillCost": "17 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+			}
+    }
 	},
     "Description" : {
         "Cost" : 0,

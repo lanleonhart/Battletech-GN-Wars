@@ -4,7 +4,13 @@
           {
             "CategoryID": "Thruster"
           }
-        ]
+        ],
+        "WorkOrderCosts": {
+            "Install": {
+              "TechCost": "0.25 * [[Chassis.Tonnage]]",
+              "CBillCost": "10 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+            }
+          }
         },
     "JumpCapacity" : 3.25,
     "MinTonnage" : 10,

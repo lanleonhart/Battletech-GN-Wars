@@ -4,7 +4,13 @@
           {
             "CategoryID": "JumpJets"
           }
-        ]
+        ],
+        "WorkOrderCosts": {
+            "Install": {
+              "TechCost": "0.25 * [[Chassis.Tonnage]]",
+              "CBillCost": "7 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+            }
+          }
         },
     "JumpCapacity" : 1,
     "MinTonnage" : 10,

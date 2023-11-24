@@ -11,7 +11,13 @@
 			"WALKACT: -90",
 			"RUNACT: -90",
 			"BULLWARK"
-		  ], 
+		  ],
+		  "WorkOrderCosts": {
+			"Install": {
+			  "TechCost": "0.4 * [[Chassis.Tonnage]]",
+			 "CBillCost": "25 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+			}
+		}, 
 		  "Linked": {
 			"Links": [
 				 {

@@ -8,6 +8,12 @@
             "ARMORWT: -20%",
             "SLOT: -21"
         ],
+        "WorkOrderCosts": {
+			"Install": {
+			  "TechCost": "0.4 * [[Chassis.Tonnage]]",
+			  "CBillCost": "15 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+			}
+		},
 		"DynamicSlots": {
 			"ReservedSlots": 21
 		},

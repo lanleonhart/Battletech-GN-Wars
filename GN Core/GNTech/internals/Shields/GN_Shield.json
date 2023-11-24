@@ -8,6 +8,12 @@
         "CategoryID": "HandHeld"
       }
     ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.50 * [[Chassis.Tonnage]]",
+        "CBillCost": "15.9 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    },
     "BonusDescriptions": [
       "HH-SHIELD",
       "DMGREDUCTION: 10,10,10"

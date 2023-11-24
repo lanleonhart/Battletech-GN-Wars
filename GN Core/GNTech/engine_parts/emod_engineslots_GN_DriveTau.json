@@ -9,6 +9,12 @@
   "Category" : { 
     "CategoryID" : "EngineShield" 
   },
+  "WorkOrderCosts": {
+    "Install": {
+      "TechCost": "4 * [[Chassis.Tonnage]]",
+      "CBillCost": "227.6 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+    }
+  },
   "BonusDescriptions": [
     "GNDRIVETAU",
     "WTFactor: -20%"

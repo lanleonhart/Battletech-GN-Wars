@@ -8,15 +8,11 @@
             "EngineWeight: - 35%",
             "Slots: - 6"
         ],
-		"WorkOrderCosts": {
-			"Default": {
-				"TechCost": "0",
-				"CBillCost": "0"
-			},
-			"Install": {
-				"TechCost": "1.2 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40",
-				"CBillCost": "20000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
-			}
+        "WorkOrderCosts": {
+            "Install": {
+              "TechCost": "0.66 * [[Chassis.Tonnage]]",
+              "CBillCost": "49.64 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+            }
 		},
 		"Category" : [
 			{"CategoryID": "EngineShield"},

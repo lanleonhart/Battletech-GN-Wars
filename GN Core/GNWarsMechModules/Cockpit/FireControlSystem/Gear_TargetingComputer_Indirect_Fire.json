@@ -6,7 +6,13 @@
           ],
           "BonusDescriptions": [ 
             "INDIRECT: +2"
-          ]
+          ],
+          "WorkOrderCosts": {
+            "Install": {
+              "TechCost": "0.45 * [[Chassis.Tonnage]]",
+              "CBillCost": "12.5 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+            }
+          }
     },
     "Description": {
       "Cost": 75000,

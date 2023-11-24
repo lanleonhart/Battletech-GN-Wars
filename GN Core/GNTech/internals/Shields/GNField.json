@@ -5,6 +5,12 @@
       "CategoryID": "MS"
       }
     ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "3 * [[Chassis.Tonnage]]",
+        "CBillCost": "300 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    },
     "BonusDescriptions": [
       "FIELDSTR: 100%",
       "FIELDRANGE: 30",

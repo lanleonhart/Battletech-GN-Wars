@@ -12,6 +12,12 @@
             { "ComponentDefId" : "Linked_ForcedCoolerCT", "Location" : "RightLeg" }
         ]
     },
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "1.1 * [[Chassis.Tonnage]]",
+        "CBillCost": "85 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    },
     "BonusDescriptions": [
         "EXPLODE",
         "HeatGen: -25%"

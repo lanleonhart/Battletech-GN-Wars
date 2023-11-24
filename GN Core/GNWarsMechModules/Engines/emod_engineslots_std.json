@@ -4,7 +4,13 @@
 		"Category" : [
 			{"CategoryID": "EngineShield"},
 			{"CategoryID": "EnginePart"}
-        ]
+        ],
+        "WorkOrderCosts": {
+            "Install": {
+              "TechCost": "0.75 * [[Chassis.Tonnage]]",
+              "CBillCost": "85 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+            }
+          }
 	},
     "Description" : {
         "Cost" : 200000,

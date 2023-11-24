@@ -19,6 +19,12 @@
 			  "CriticalEffect-LifeSupport2"
 			]
 		},
+		"WorkOrderCosts": {
+            "Install": {
+              "TechCost": "1.5 * [[Chassis.Tonnage]]",
+              "CBillCost": "150 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+            }
+          },
 		"Flags": {
 			"flags": [
 				"no_salvage",

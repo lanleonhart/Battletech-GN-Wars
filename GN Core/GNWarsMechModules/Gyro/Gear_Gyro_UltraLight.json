@@ -8,6 +8,12 @@
       "GyroStab: -10%",
       "GyroWT:-50%"
     ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.75 * [[Chassis.Tonnage]]",
+        "CBillCost": "22.5 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    },
 		"Flags" : ["not_broken"],
         "Weights": {
             "GyroFactor": 0.50
