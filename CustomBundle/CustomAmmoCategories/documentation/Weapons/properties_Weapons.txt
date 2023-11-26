@@ -95,6 +95,13 @@ Can be accessed via statistic value CAC_AIUnsafeJamChanceMod and modifier CAC_AI
 @Default:WeaponDef=0,WeaponMode=0
 @Description:not documented yet
 
+@Name:AMSAttractiveness
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_AMSAttractiveness and modifier CAC_AMSAttractiveness_Mod
+
 @Name:AMSDamage
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -107,11 +114,31 @@ Can be accessed via statistic value CAC_AMSDamage and modifier CAC_AMSDamage_Mod
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
+Can be accessed via statistic value CAC_AMSHitChance and modifier CAC_AMSHitChance_Mod
+
+@Name:AMSHitChanceMod
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponMode
+@Default:AmmunitionDef=1,WeaponMode=1
+@Description:not documented yet
+
+@Name:AMSHitChanceMult
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=1,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_AMSHitChanceMult and modifier CAC_AMSHitChanceMult_Mod
 
 @Name:AMSImmune
 @Type:boolean
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
+@Description:not documented yet
+
+@Name:AMSInterceptedTrace
+@Type:integer
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=-1,WeaponMode=0
 @Description:not documented yet
 
 @Name:AMSShootsEveryAttack
@@ -799,6 +826,13 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponMode=0
 @Description:not documented yet
 
+@Name:LongRangeClusterMod
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_LongRangeClusterMod and modifier CAC_LongRangeClusterMod_Mod
+
 @Name:LongVFXOnImpact
 @Type:string
 @AppliedTo:MineFieldDef,AmmunitionDef
@@ -836,6 +870,13 @@ Can be accessed via statistic value CAC_MaxMissRadius and modifier CAC_MaxMissRa
 @Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponMode=0
 @Description:not documented yet
 
+@Name:MaxRangeClusterMod
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_MaxRangeClusterMod and modifier CAC_MaxRangeClusterMod_Mod
+
 @Name:MaxShellsDistance
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -853,6 +894,13 @@ Can be accessed via statistic value CAC_MaxMissRadius and modifier CAC_MaxMissRa
 @AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponMode
 @Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponMode=0
 @Description:not documented yet
+
+@Name:MediumRangeClusterMod
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_MediumRangeClusterMod and modifier CAC_MediumRangeClusterMod_Mod
 
 @Name:meleeAttackType
 @Type:enum. Possible values: NotSet, Punch, Kick, Stomp, Tackle, Charge, DFA, MeleeWeapon
@@ -884,6 +932,13 @@ Can be accessed via statistic value CAC_MinMissRadius and modifier CAC_MinMissRa
 @AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponMode
 @Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponMode=0
 @Description:not documented yet
+
+@Name:MinRangeClusterMod
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_MinRangeClusterMod and modifier CAC_MinRangeClusterMod_Mod
 
 @Name:MinShellsDistance
 @Type:float
@@ -926,6 +981,12 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Type:integer
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+
+@Name:MissInCircle
+@Type:boolean
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
 @Description:not documented yet
 
 @Name:Modes
@@ -1062,6 +1123,18 @@ Can be accessed via statistic value CAC_RangeBonusDistance and modifier CAC_Rang
 @Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponMode=0
 @Description:not documented yet
 
+@Name:restrictedAmmo
+@Type:HashSet`1
+@AppliedTo:WeaponDef,WeaponMode
+@Default:WeaponDef=empty,WeaponMode=empty
+@Description:not documented yet
+
+@Name:RestrictedAmmo
+@Type:List`1
+@AppliedTo:WeaponDef,WeaponMode
+@Default:WeaponDef=empty,WeaponMode=empty
+@Description:not documented yet
+
 @Name:SFX
 @Type:string
 @AppliedTo:MineFieldDef
@@ -1079,6 +1152,13 @@ Can be accessed via statistic value CAC_RangeBonusDistance and modifier CAC_Rang
 @AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponMode
 @Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponMode=0
 @Description:not documented yet
+
+@Name:ShortRangeClusterMod
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+Can be accessed via statistic value CAC_ShortRangeClusterMod and modifier CAC_ShortRangeClusterMod_Mod
 
 @Name:shotDelay
 @Type:float

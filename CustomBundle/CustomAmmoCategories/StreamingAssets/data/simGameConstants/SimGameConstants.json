@@ -62,7 +62,7 @@
         "DefaultShopMaxInventory" : 50,
         "DefaultShopMaxSpecials" : 2,
 		"ContractPricePerDifficulty" : 200000,
-		
+		/* ContractTypeMod's are now located in StreamingAssets/Enums/ContractType.json */
 		"ContractPriceVariance" : 0.15,
 		"ContractFloorSalaryMultiplier" : 0.1,
 		"ContractFloorSalvageBonus" : 3,
@@ -82,7 +82,7 @@
 		"ContractBaseRepDifficultyMultiplier" : 1.5,
 		"ContractBaseReputationAddition" : 0,
 		"ContractNegotiableRepDifficultyMultiplier" : 1,
-		"ContractNegotiableReputationAddition" : 5
+		"ContractNegotiableReputationAddition" : 5,
    },
    "Shop" : {
       "InventoryRefreshRate" : 0,
@@ -328,9 +328,9 @@
 		"MaxMoralePowerLevelLimits" : [
 			12,
 			24
-		],
-		"MaxContractsPerSystem" : 10,
-		"ContractRenewalPerWeek" : 1,
+		]
+		"MaxContractsPerSystem" : 5,
+		"ContractRenewalPerWeek" : 0.5,
 		"ContractSuccessReduction" : 1.0,
 		"MaxBreadcrumbsPerSystem" : 2,
 		"MissionsForFirstBreadcrumb" : 1,
@@ -412,7 +412,7 @@
 		"AllianceBreakCooldown" : 365,
 		"DaysBetweenFactionRepUpdateNotifications" : 0,
 		"LowRepNotificationValue" : -50,
-		"HighRepNotificationValue" : 50
+		"HighRepNotificationValue" : 50,
 
    },
    "MechLab" :{
@@ -688,7 +688,7 @@
 		"TacticsDefaultTooltip" : "Tactics controls sensors and indirect fire accuracy.",
 		"GutsDefaultTooltip" : "Guts controls tolerance for heat and injuries."
    },
-
+	/* Mission Illustrations and Icons are now located in StreamingAssets/Enums/ContractType.json */
    "Flashpoints" : {
 		"MaxActiveFlashpoints" : 5,
 		"DefaultAvailableFlashpointTimeout" : 180,
@@ -709,7 +709,7 @@
 		"LessThanThisWeightIsLightUnit" : 55,
 		"GreaterThanThisWeightIsHeavyUnit" : 60,
 		"LessThanThisTotalWeightIsLightLance" : 220,
-		"GreaterThanThisTotalWeightIsHeavyLance" : 240	
+		"GreaterThanThisTotalWeightIsHeavyLance" : 240,		
    },
    "CareerMode" : {
         "CampaignStartDate" : "3025-01-01T05:00:00Z",
@@ -743,7 +743,7 @@
 			"itemCollection_Mechs_Starting_1",
 			"itemCollection_Mechs_Starting_2",
 			"itemCollection_Mechs_Starting_3",
-			"itemCollection_Mechs_Starting_4"
+			"itemCollection_Mechs_Starting_4",
 		],
 		"MinimumStartingWeight" : 100,
 		"MaximumStartingWeight" : 500,
@@ -753,7 +753,7 @@
 		"MaxStartingPilotSkill" : 4,
 		"FlashpointStartRange" : [
 			14,
-			21
+			21,
 		],
 		"CBillScoreTarget" : 800000000,
 		"CBillPointsPerUnit" : 0.0001,

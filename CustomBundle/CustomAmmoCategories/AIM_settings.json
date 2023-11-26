@@ -288,7 +288,7 @@
 
   /* Hit modifier after jumping, added on top of movement modifier (if any).  Effective only if "Jumped" is in the modifier factor list(s).  Default 0. */
 
-  "ToHitSelfJumped": 0,
+  "ToHitSelfJumped": 3,
 
   //
   // Net To Hit Modifiers
@@ -311,7 +311,7 @@
 
   /* Make hit chance modifier has diminishing return rather than simple add and subtract.  Default false. */
 
-  "DiminishingHitChanceModifier": true,
+  "DiminishingHitChanceModifier": false,
 
   /* Diminishing Bonus: 2-Base^(Bonus/Divisor).  Default 2-0.8^(Bonus/6) and caps at +16.
    * Example: +3 Bonus @ 80% Base ToHit == 1.1 x 0.8 == 88% Hit */
