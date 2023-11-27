@@ -1,6 +1,18 @@
 {
     "Settings": [
         {
+            "Tag": "emod_engineslots_GN_Drive",
+            "RequiredTags": [
+                "GNFrame"
+            ]
+        },
+        {
+            "Tag": "emod_engineslots_GN_DriveTau",
+            "RequiredTags": [
+                "GNFrameTau"
+            ]
+        },
+        {
             "Tag": "GN",
             "RequiredTags": [
                 "emod_engineslots_GN_Drive"
@@ -62,6 +74,12 @@
         },
         {
             "Tag": "GN_Vernier_L",
+            "RequiredTags": [
+                "unit_ms"
+            ]
+        },
+        {
+            "Tag": "MSFrame",
             "RequiredTags": [
                 "unit_ms"
             ]

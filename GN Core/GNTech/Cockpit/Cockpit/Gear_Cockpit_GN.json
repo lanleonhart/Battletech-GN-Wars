@@ -44,8 +44,8 @@
 		"Details": "Developed by Comstar to accommodate the precise control required to harness the full potential of the GN Drive. Loaded with state of the art equipment featuring a built in E-Sensor, optical communcations network, and capable of receiveing remote tactical support",
 		"Icon": "CbCockpit1"
 	  },
-	  "BonusValueA": "+2 Gunnery",
-	  "BonusValueB": "+2 Piloting",
+	  "BonusValueA": "+1 Gunnery",
+	  "BonusValueB": "+1 Piloting",
 	  "ComponentType": "Upgrade",
 	  "ComponentSubType": "NotSet",
 	  "PrefabIdentifier": "",
@@ -78,7 +78,7 @@
 		  "statisticData": {
 			"statName": "Gunnery",
 			"operation": "Int_Add",
-			"modValue": "2",
+			"modValue": "1",
 			"modType": "System.Int32",
 			"targetCollection": "Pilot"
 		  }
@@ -105,7 +105,7 @@
 		  "statisticData": {
 			"statName": "Piloting",
 			"operation": "Int_Add",
-			"modValue": "2",
+			"modValue": "1",
 			"modType": "System.Int32",
 			"targetCollection": "Pilot"
 		  }
@@ -187,7 +187,8 @@
 	],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock"
+			"component_type_stock",
+			"unit_ms"
 		],
 		"tagSetSourceFile": ""
 	}
