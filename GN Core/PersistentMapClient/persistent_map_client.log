@@ -1,4 +1,42 @@
-2023-12-01T06:03:28 - Starting Client: 4.1.2-8
-2023-12-01T06:03:28 - Settings are:(ServerURL:(http://www.gnwars.net:8000/) ClientID:() Debug:(True) PriorityContractPay%:(1.5) PriorityContractsPerAlly:2 ActivePlayerMarkerSize:(3.5))
-2023-12-01T06:03:28 - Fetched clientID:(cf5043f6-1ee9-4075-921d-06c422d7a894).
-2023-12-01T06:03:29 - Init Finished
+2023-12-06T03:11:22 - Starting Client: 4.1.2-8
+2023-12-06T03:11:22 - Settings are:(ServerURL:(http://www.gnwars.net:8000/) ClientID:() Debug:(True) PriorityContractPay%:(1.5) PriorityContractsPerAlly:2 ActivePlayerMarkerSize:(3.5))
+2023-12-06T03:11:22 - Fetched clientID:(cf5043f6-1ee9-4075-921d-06c422d7a894).
+2023-12-06T03:11:22 - Init Finished
+2023-12-06T03:11:49 - Career ID Loaded: 0a8c9cd8-b9ed-4a0f-a3d9-51b23e9f2184
+2023-12-06T03:11:49 - ----Refreshing client settings from server-------
+2023-12-06T03:11:49 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2023-12-06T03:11:49 - Can Post Sold: False
+2023-12-06T03:11:49 - Online BlackMarkets Available: False
+2023-12-06T03:11:49 - Bypass list:
+2023-12-06T03:11:49 - Capitals:
+2023-12-06T03:12:21 - PopulateMap - Postfix called
+2023-12-06T03:12:21 - methodSetOwner is:(Void set_OwnerValue(BattleTech.FactionValue))
+2023-12-06T03:12:21 - fieldSetContractEmployers is:(System.Collections.Generic.List`1[System.String] contractEmployerIDs)
+2023-12-06T03:12:21 - fieldSetContractTargets is:(System.Collections.Generic.List`1[System.String] contractTargetIDs)
+2023-12-06T03:12:21 - methodSetDescription is:(Void set_Description(BattleTech.BaseDescriptionDef))
+2023-12-06T03:12:21 - fieldSimGameInterruptManager is:(BattleTech.UI.SimGameInterruptManager interruptQueue)
+2023-12-06T03:12:21 - ----Refreshing client settings from server-------
+2023-12-06T03:12:21 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2023-12-06T03:12:21 - Can Post Sold: False
+2023-12-06T03:12:21 - Online BlackMarkets Available: False
+2023-12-06T03:12:21 - Bypass list:
+2023-12-06T03:12:21 - Capitals:
+2023-12-06T03:12:21 - http://www.gnwars.net:8000/warServices/StarMap/
+2023-12-06T03:12:22 - GetStarMap took: 125ms.
+2023-12-06T03:12:22 - GetStarMap: 3266
+2023-12-06T03:12:22 - Processing Starmap: 3266
+2023-12-06T03:12:22 - Bryant changing new owner to ComStar
+2023-12-06T03:12:22 - Keid changing new owner to ComStar
+2023-12-06T03:12:22 - New Home changing new owner to ComStar
+2023-12-06T03:12:22 - Outreach changing new owner to ComStar
+2023-12-06T03:12:22 - Procyon changing new owner to ComStar
+2023-12-06T03:12:22 - Rigil Kentarus changing new owner to ComStar
+2023-12-06T03:12:22 - Sirius changing new owner to ComStar
+2023-12-06T03:12:22 - Tau Ceti (New Earth 2116+) changing new owner to ComStar
+2023-12-06T03:12:22 - Zaurak changing new owner to Liao
+2023-12-06T03:12:22 - Zosma changing new owner to Marik
+2023-12-06T03:12:22 - Zurich changing new owner to Liao
+2023-12-06T03:12:23 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.shops.OnlineShop.get_RelatedFaction () [0x0000a] in <9d69d32b48e740439c8dbc99c962a39f>:0 
+  at PersistentMapClient.shops.OnlineShop.RefreshShop () [0x0000b] in <9d69d32b48e740439c8dbc99c962a39f>:0 
+  at PersistentMapClient.Starmap_PopulateMap_Patch.Postfix (BattleTech.Starmap __instance, BattleTech.SimGameState simGame) [0x00636] in <9d69d32b48e740439c8dbc99c962a39f>:0 

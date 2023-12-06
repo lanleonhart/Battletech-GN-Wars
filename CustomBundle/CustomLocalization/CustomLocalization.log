@@ -1,7 +1,7 @@
- E:\SteamLibrary\steamapps\common\BATTLETECH\GNWarsSaves\local\S0
-[18:05:25.177]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomBundle\CustomLocalization version: 0.0.0.44
+ C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\GNWarsSaves\local\S0
+[22:11:22.670]Initing... C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomBundle\CustomLocalization version: 0.0.0.44
  localizationProcType:Content
- cultureSettingsFilePath:E:\SteamLibrary\steamapps\common\BATTLETECH\GNWarsSaves\local\cultureSettings.json  exists
+ cultureSettingsFilePath:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\GNWarsSaves\local\cultureSettings.json  exists
 {
   "currentCulture": 0
 }
@@ -66,13 +66,13 @@ MechEngineer.Settings.Long
 MechEngineer.Settings.Full
 Settings.Description.Name
 Settings.Description.Details
-[18:05:25.190]loading assets:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomBundle\CustomLocalization\assets
-[18:05:54.484]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
-[18:05:54.498]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
-[18:05:54.530]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
-[18:05:54.616]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
-[18:05:54.630]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
-[18:05:58.855]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:22.677]loading assets:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomBundle\CustomLocalization\assets
+[22:11:31.401]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:31.408]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:31.430]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:31.480]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:31.488]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:35.018]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -82,7 +82,7 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:06:01.895]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:35.066]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -92,7 +92,7 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:06:04.751]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:35.526]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -102,8 +102,8 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:06:05.058]FinishedLoading
- types:108
+[22:11:35.822]FinishedLoading
+ types:109
   Prefab
   MoodSettings
   Sprite
@@ -182,6 +182,9 @@ Settings.Description.Details
   SoundBankDef
   CCUnitTypes
   CCHardpoints
+  DShopDef
+  DFactionShopDef
+  DBMShopDef
   AffinitiesDef
   MEBonusDescriptions
   MEStatusEffects
@@ -203,15 +206,13 @@ Settings.Description.Details
   DropClassDef
   CustomHangarDef
   PilotingClassDef
-  CustomPrefabDef
   CustomMechRepresentationDef
+  CustomPrefabDef
   CustomMapDef
   CustomMapMetaData
   TreesData
   InclineMeshData
   RaycastData
-  DFactionShopDef
-  DBMShopDef
 {
   "Prefab": {
     "type": "Prefab",
@@ -603,6 +604,21 @@ Settings.Description.Details
     "useName": true,
     "procs": []
   },
+  "DShopDef": {
+    "type": "DShopDef",
+    "useName": true,
+    "procs": []
+  },
+  "DFactionShopDef": {
+    "type": "DFactionShopDef",
+    "useName": true,
+    "procs": []
+  },
+  "DBMShopDef": {
+    "type": "DBMShopDef",
+    "useName": true,
+    "procs": []
+  },
   "AffinitiesDef": {
     "type": "AffinitiesDef",
     "useName": true,
@@ -708,13 +724,13 @@ Settings.Description.Details
     "useName": true,
     "procs": []
   },
-  "CustomPrefabDef": {
-    "type": "CustomPrefabDef",
+  "CustomMechRepresentationDef": {
+    "type": "CustomMechRepresentationDef",
     "useName": true,
     "procs": []
   },
-  "CustomMechRepresentationDef": {
-    "type": "CustomMechRepresentationDef",
+  "CustomPrefabDef": {
+    "type": "CustomPrefabDef",
     "useName": true,
     "procs": []
   },
@@ -742,21 +758,11 @@ Settings.Description.Details
     "type": "RaycastData",
     "useName": true,
     "procs": []
-  },
-  "DFactionShopDef": {
-    "type": "DFactionShopDef",
-    "useName": true,
-    "procs": []
-  },
-  "DBMShopDef": {
-    "type": "DBMShopDef",
-    "useName": true,
-    "procs": []
   }
 }
-[18:06:09.100]System.NullReferenceException: Object reference not set to an instance of an object
+[22:11:37.900]System.NullReferenceException: Object reference not set to an instance of an object
   at CustomTranslation.UnityGameInstance_Reset.Postfix (BattleTech.UnityGameInstance __instance) [0x00021] in <983dfee46d354854bf2db4ad64c6810c>:0 
-[18:06:09.732]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:38.169]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -766,7 +772,7 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:06:09.772]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:38.192]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -776,7 +782,7 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:06:10.147]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:38.438]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -786,7 +792,7 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:06:10.186]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:38.462]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -796,7 +802,7 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:06:10.223]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:38.485]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -806,7 +812,7 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:06:10.260]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:38.509]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -816,7 +822,7 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:06:13.091]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:11:40.428]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -826,7 +832,7 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:07:08.364]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:12:08.750]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
@@ -836,47 +842,7 @@ Settings.Description.Details
  MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
  MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
  MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:07:08.405]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
- BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- MechEngineer_ArmActuators  Settings.Description.Name Settings.Description.Details
- MechEngineer_Engines  Settings.Description.Name Settings.Description.Details
- MechEngineer_Gyro  Settings.Description.Name Settings.Description.Details
- MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
- MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
- MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:34:22.580]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
- BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- MechEngineer_ArmActuators  Settings.Description.Name Settings.Description.Details
- MechEngineer_Engines  Settings.Description.Name Settings.Description.Details
- MechEngineer_Gyro  Settings.Description.Name Settings.Description.Details
- MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
- MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
- MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:34:22.611]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
- BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- MechEngineer_ArmActuators  Settings.Description.Name Settings.Description.Details
- MechEngineer_Engines  Settings.Description.Name Settings.Description.Details
- MechEngineer_Gyro  Settings.Description.Name Settings.Description.Details
- MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
- MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
- MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:50:45.931]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
- BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
- MechEngineer_ArmActuators  Settings.Description.Name Settings.Description.Details
- MechEngineer_Engines  Settings.Description.Name Settings.Description.Details
- MechEngineer_Gyro  Settings.Description.Name Settings.Description.Details
- MechEngineer_LegActuators  Settings.Description.Name Settings.Description.Details
- MechEngineer_LifeSupport  Settings.Description.Name Settings.Description.Details
- MechEngineer_Sensors  Settings.Description.Name Settings.Description.Details
-[18:50:45.969]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
+[22:12:08.775]ModTek.Features.Manifest.BTRL.BetterBTRL.RefreshTypedEntries
  BonusDescriptions_GN  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_MechEngineer  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
  BonusDescriptions_Modifiers  MechEngineer.Settings.Short MechEngineer.Settings.Long MechEngineer.Settings.Full
