@@ -1,128 +1,481 @@
-03:11:30.368 Assembly version: 0.9.8.6
-03:11:30.369 == Mod Config Initialization Started == 
-03:11:30.369 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
-03:11:30.369 == Mod Config Initialization Complete == 
-03:11:30.372 === MOD CONFIG BEGIN ===
-03:11:30.372   DEBUG: False Trace: False
-03:11:30.372   -- Fixes --
-03:11:30.372   AbilityResourceFix:                 True
-03:11:30.372   AlternateMechNamingStyle:           False
-03:11:30.372   BuildingDamageColorChange:          True
-03:11:30.372   BraceOnMeleeWithJuggernaut:         True
-03:11:30.372   BreachingShotIgnoresAllDR:          False
-03:11:30.374   BulkPurchasing:                     False
-03:11:30.374   BulkScrapping:                      False
-03:11:30.374   CalledShotTweaks:                   True
-03:11:30.374   CombatLog:                          True
-03:11:30.374   DifficultyModsFromStats:            True
-03:11:30.374   DisableCampaign:                    True
-03:11:30.374   DisableDebug:                       True
-03:11:30.374   DisableCombatRestarts:              True
-03:11:30.374   DisableCombatSaves:                 True
-03:11:30.374   DisableMPHashCalculation:           True
-03:11:30.374   DisableFiringStat:                  True
-03:11:30.374   DisableLowFundsNotification:        True
-03:11:30.374   ExplodingBuildingFix:               True
-03:11:30.374   EventRequirementsScopeFix:          True
-03:11:30.374   ExtendedStats:                      True
-03:11:30.374   FactionReputationFixes:             True
-03:11:30.374   FlexibleSensorLock:                 False
-03:11:30.374   MaxArmorMaxesArmor:                 True
-03:11:30.374   MechbayLayout:                      True
-03:11:30.374   MechbayLayoutDisableStore:          True
-03:11:30.374   OnWeaponFireFix:                    True
-03:11:30.374   PainTolerance:                      True
-03:11:30.374   PathfinderTeamFix:                  True
-03:11:30.374   RandomStartByDifficulty:            True
-03:11:30.374   ReduceSaveCompression:              True
-03:11:30.374   ScaleObjectiveBuildingStructure:    True
-03:11:30.374   ShowAllArgoUpgrades:                True
-03:11:30.374   SkipDeleteSavePopup:                True
-03:11:30.374   SkirmishAlwaysUnlimited:            True
-03:11:30.374   SkirmishReset:                      False
-03:11:30.374   SimGameDifficultyLabelsReplacer:    False
-03:11:30.374   SpawnProtection:                    True
-03:11:30.374   StreamlinedMainMenu:                True
-03:11:30.374   TurnDirectorStartFirstRoundFix:     True
-03:11:30.374   TgtComputerTonnageDisplay:          True
-03:11:30.374   UrbanExplosionsFix:                 False
-03:11:30.374   WeaponTooltips:                     True
-03:11:30.374   DamageReductionInCombatHud:         True
-03:11:30.374   DeathChanceStat:                    True
-03:11:30.374   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
-03:11:30.374   TorsoMountStatName:                     isTorsoMount
-03:11:30.374   -- Called Shot --
-03:11:30.374    Disable => AllLocations: True  Headshots: True
-03:11:30.374    Enable => ComplexTacticsModifier: True
-03:11:30.374    BaseModifier:-1
-03:11:30.374    CalledShotDefaultMod:-1
-03:11:30.374   -- Spawn Protection --
-03:11:30.374    ApplyGuard:True  EvasionPips:8
-03:11:30.374    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
-03:11:30.374    ApplyToReinforcements:True
-03:11:30.374   -- Cheat Detection --
-03:11:30.374    CheatDetection:True
-03:11:30.374    CheatDetectionNotify:True
-03:11:30.374    CheatDetectionStat:CheatFoundS2
-03:11:30.374   -- ObstructionTweaks --
-03:11:30.374    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
-03:11:30.374    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
-03:11:30.374    QuadTags:System.Collections.Generic.List`1[System.String]
-03:11:30.374    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
-03:11:30.374   -- Store --
-03:11:30.374    QuantityOnShift:5  QuantityOnControl:20
-03:11:30.374   -- Flexible Sensor Lock Options --
-03:11:30.375    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
-03:11:30.375 === MOD CONFIG END ===
-03:11:30.375 INFO: No errors reading settings file.
-03:11:30.379 Activating Fix: BraceOnMeleeWithJuggernaut
-03:11:30.379 Activating Fix: BuildingDamageColorChange
-03:11:30.379 Activating Fix: CalledShotTweaks
-03:11:30.379 Activating Fix: ExtendedStats
-03:11:30.379 Activating Fix: PainTolerance
-03:11:30.379 Activating Fix: PathfinderTeamFix
-03:11:30.379 Activating Fix: ScaleObjectiveBuildingStructure
-03:11:30.379 Activating Fix: SpawnProtection
-03:11:30.379 Activating Fix: RandomStartByDifficulty
-03:11:30.379 Activating Fix: DisableCampaign
-03:11:30.379 Activating Fix: DisableLowFundsNotification
-03:11:30.379 Activating Fix: DisableMPHashCalculation
-03:11:30.379 Activating Fix: MultiTargetStat
-03:11:30.379 Activating fix: ReduceSaveCompression.
-03:11:30.379 Activating fix: ShowAllArgoUpgrades.
-03:11:30.379 Activating fix: SkipDeleteSavePopup.
-03:11:30.380 Activating Fix: CombatLog
-03:11:30.415 Activating Fix: SkirmishAlwaysUnlimited
-03:11:30.415 Activating Fix: DisableCombatSaves
-03:11:30.415 Activating Fix: DisableCombatRestart
-03:11:30.415 Activating Fix: StreamlinedMainMenu
-03:11:30.430 Activating Fix: WeaponTooltip
-03:11:30.430 Activating Fix: DamageReductionInCombatHud
-03:11:31.134 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
-03:11:31.134 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
-03:11:31.146 M:CK Found INJURY IGNORED instruction at idx: 111
-03:11:31.179 [InitializeEffects] Initializing effects for Brace Effects
-03:11:31.179 EffectData statname: CACAoEDamageMult
-03:11:40.160 Disabling the campaign button on the main menu.
-03:11:40.181 Disabling the debug buttons in the main menu.
-03:11:48.191 Min Difficulty Modifier: -4.17. Final Max Difficulty Modifier: 4.159999
-03:11:48.191 From INITSETTINGS: Atlas values: 1, 1, 1, 1
-03:11:48.213 COLOR SCORE MOD THING: real score 0.36 vs current 3.799999 vs scaled 232
-03:11:48.213 From UPDATEDIFFICULTYSCOREBAR: Atlas values: 1, 1, 1, 1
-03:11:48.218 COLOR SCORE MOD THING: real score 1.16 vs current 3 vs scaled 183
-03:11:48.218 From UPDATEDIFFICULTYSCOREBAR: Atlas values: 1, 0.9098039, 0.9098039, 1
-03:12:08.611 CHEATDETECTION: pilot_commander_temp: Added key SGRef_16751 to PilotCurrentXP with 3500 UnspentXP value at AddExperience, Post.
-03:12:08.614 Replacing starting random mechs with:itemCollection_GundamA,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light
-03:12:08.614 Applying rep: 100 to faction: (ComStar)
-03:12:14.161 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
-03:12:17.714 SGNL:Start - adding new button.
-03:12:17.714  - Creating store button
-03:12:17.727  - Creating staff button
-03:12:17.742  - Creating memorial button
-03:12:25.882 CHEATDETECTION: pilot_backer_Hording: Added SGRef_16811  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-03:12:25.882 CHEATDETECTION: pilot_Indrahim: Added SGRef_16812  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-03:12:25.882 CHEATDETECTION: pilot_backer_Lemos: Added SGRef_16813  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-03:12:25.882 CHEATDETECTION: pilot_backer_Test9: Added SGRef_16814  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-03:12:25.882 CHEATDETECTION: pilot_backer_Helterbran: Added SGRef_16815  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
-03:12:25.882 CHEATDETECTION: pilot_commander_temp: Set tracker SGRef_16751 PilotCurrentXP with UnspentXP 3500 on SGBarracksAdvancementPanel Close, post.
-03:12:26.693 CHEATDETECTION: Added key to SimGameFunds with Funds 0; this should have been done already...WTF. At AddFunds, Pre.
+05:04:52.848 Assembly version: 0.9.8.6
+05:04:52.849 == Mod Config Initialization Started == 
+05:04:52.850 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
+05:04:52.850 == Mod Config Initialization Complete == 
+05:04:52.853 === MOD CONFIG BEGIN ===
+05:04:52.853   DEBUG: False Trace: False
+05:04:52.854   -- Fixes --
+05:04:52.854   AbilityResourceFix:                 True
+05:04:52.854   AlternateMechNamingStyle:           False
+05:04:52.854   BuildingDamageColorChange:          True
+05:04:52.854   BraceOnMeleeWithJuggernaut:         True
+05:04:52.854   BreachingShotIgnoresAllDR:          False
+05:04:52.854   BulkPurchasing:                     False
+05:04:52.854   BulkScrapping:                      False
+05:04:52.859   CalledShotTweaks:                   True
+05:04:52.859   CombatLog:                          True
+05:04:52.859   DifficultyModsFromStats:            True
+05:04:52.859   DisableCampaign:                    True
+05:04:52.859   DisableDebug:                       True
+05:04:52.859   DisableCombatRestarts:              True
+05:04:52.859   DisableCombatSaves:                 True
+05:04:52.859   DisableMPHashCalculation:           True
+05:04:52.859   DisableFiringStat:                  True
+05:04:52.859   DisableLowFundsNotification:        True
+05:04:52.859   ExplodingBuildingFix:               True
+05:04:52.859   EventRequirementsScopeFix:          True
+05:04:52.859   ExtendedStats:                      True
+05:04:52.859   FactionReputationFixes:             True
+05:04:52.859   FlexibleSensorLock:                 False
+05:04:52.859   MaxArmorMaxesArmor:                 True
+05:04:52.859   MechbayLayout:                      True
+05:04:52.859   MechbayLayoutDisableStore:          True
+05:04:52.859   OnWeaponFireFix:                    True
+05:04:52.859   PainTolerance:                      True
+05:04:52.859   PathfinderTeamFix:                  True
+05:04:52.859   RandomStartByDifficulty:            True
+05:04:52.859   ReduceSaveCompression:              True
+05:04:52.859   ScaleObjectiveBuildingStructure:    True
+05:04:52.859   ShowAllArgoUpgrades:                True
+05:04:52.859   SkipDeleteSavePopup:                True
+05:04:52.859   SkirmishAlwaysUnlimited:            True
+05:04:52.859   SkirmishReset:                      False
+05:04:52.859   SimGameDifficultyLabelsReplacer:    False
+05:04:52.859   SpawnProtection:                    True
+05:04:52.859   StreamlinedMainMenu:                True
+05:04:52.859   TurnDirectorStartFirstRoundFix:     True
+05:04:52.859   TgtComputerTonnageDisplay:          True
+05:04:52.859   UrbanExplosionsFix:                 False
+05:04:52.859   WeaponTooltips:                     True
+05:04:52.859   DamageReductionInCombatHud:         True
+05:04:52.859   DeathChanceStat:                    True
+05:04:52.859   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
+05:04:52.859   TorsoMountStatName:                     isTorsoMount
+05:04:52.859   -- Called Shot --
+05:04:52.859    Disable => AllLocations: True  Headshots: True
+05:04:52.859    Enable => ComplexTacticsModifier: True
+05:04:52.859    BaseModifier:-1
+05:04:52.859    CalledShotDefaultMod:-1
+05:04:52.859   -- Spawn Protection --
+05:04:52.859    ApplyGuard:True  EvasionPips:8
+05:04:52.859    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
+05:04:52.859    ApplyToReinforcements:True
+05:04:52.859   -- Cheat Detection --
+05:04:52.859    CheatDetection:True
+05:04:52.859    CheatDetectionNotify:True
+05:04:52.859    CheatDetectionStat:CheatFoundS2
+05:04:52.859   -- ObstructionTweaks --
+05:04:52.859    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
+05:04:52.859    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
+05:04:52.859    QuadTags:System.Collections.Generic.List`1[System.String]
+05:04:52.859    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
+05:04:52.859   -- Store --
+05:04:52.859    QuantityOnShift:5  QuantityOnControl:20
+05:04:52.859   -- Flexible Sensor Lock Options --
+05:04:52.859    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
+05:04:52.859 === MOD CONFIG END ===
+05:04:52.859 INFO: No errors reading settings file.
+05:04:52.866 Activating Fix: BraceOnMeleeWithJuggernaut
+05:04:52.866 Activating Fix: BuildingDamageColorChange
+05:04:52.866 Activating Fix: CalledShotTweaks
+05:04:52.866 Activating Fix: ExtendedStats
+05:04:52.866 Activating Fix: PainTolerance
+05:04:52.866 Activating Fix: PathfinderTeamFix
+05:04:52.866 Activating Fix: ScaleObjectiveBuildingStructure
+05:04:52.866 Activating Fix: SpawnProtection
+05:04:52.866 Activating Fix: RandomStartByDifficulty
+05:04:52.866 Activating Fix: DisableCampaign
+05:04:52.866 Activating Fix: DisableLowFundsNotification
+05:04:52.866 Activating Fix: DisableMPHashCalculation
+05:04:52.866 Activating Fix: MultiTargetStat
+05:04:52.866 Activating fix: ReduceSaveCompression.
+05:04:52.867 Activating fix: ShowAllArgoUpgrades.
+05:04:52.867 Activating fix: SkipDeleteSavePopup.
+05:04:52.867 Activating Fix: CombatLog
+05:04:52.973 Activating Fix: SkirmishAlwaysUnlimited
+05:04:52.974 Activating Fix: DisableCombatSaves
+05:04:52.974 Activating Fix: DisableCombatRestart
+05:04:52.974 Activating Fix: StreamlinedMainMenu
+05:04:53.023 Activating Fix: WeaponTooltip
+05:04:53.023 Activating Fix: DamageReductionInCombatHud
+05:04:54.910 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
+05:04:54.910 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
+05:04:54.934 M:CK Found INJURY IGNORED instruction at idx: 111
+05:04:55.035 [InitializeEffects] Initializing effects for Brace Effects
+05:04:55.035 EffectData statname: CACAoEDamageMult
+05:05:06.240 Disabling the campaign button on the main menu.
+05:05:06.262 Disabling the debug buttons in the main menu.
+05:05:13.758 Min Difficulty Modifier: -4.17. Final Max Difficulty Modifier: 4.159999
+05:05:13.758 From INITSETTINGS: Atlas values: 1, 1, 1, 1
+05:05:13.788 COLOR SCORE MOD THING: real score 0.36 vs current 3.799999 vs scaled 232
+05:05:13.788 From UPDATEDIFFICULTYSCOREBAR: Atlas values: 1, 1, 1, 1
+05:05:13.795 COLOR SCORE MOD THING: real score 1.16 vs current 3 vs scaled 183
+05:05:13.795 From UPDATEDIFFICULTYSCOREBAR: Atlas values: 1, 0.9098039, 0.9098039, 1
+05:05:40.511 CHEATDETECTION: pilot_commander_temp: Added key SGRef_16703 to PilotCurrentXP with 3500 UnspentXP value at AddExperience, Post.
+05:05:40.512 Replacing starting random mechs with:itemCollection_GundamA,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light
+05:05:40.512 Applying rep: 100 to faction: (ComStar)
+05:05:46.843 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
+05:05:50.959 SGNL:Start - adding new button.
+05:05:50.959  - Creating store button
+05:05:50.965  - Creating staff button
+05:05:50.971  - Creating memorial button
+05:05:54.714 CHEATDETECTION: pilot_ronin_Sumo: Added SGRef_16762  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:05:54.714 CHEATDETECTION: pilot_sim_starter_behemoth: Added SGRef_16763  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:05:54.714 CHEATDETECTION: pilot_ronin_Buckshot: Added SGRef_16764  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:05:54.714 CHEATDETECTION: pilot_backer_Lemos: Added SGRef_16765  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:05:54.714 CHEATDETECTION: pilot_backer_Cleary: Added SGRef_16766  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:05:54.714 CHEATDETECTION: pilot_commander_temp: Set tracker SGRef_16703 PilotCurrentXP with UnspentXP 3500 on SGBarracksAdvancementPanel Close, post.
+05:05:55.141 CHEATDETECTION: Added key to SimGameFunds with Funds 0; this should have been done already...WTF. At AddFunds, Pre.
+05:07:19.035 CHEATDETECTION: commander: Added key commander to PilotCurrentXP with 3500 UnspentXP value at AddExperience, Post.
+05:07:22.081 CHEATDETECTION: commander: key commander for Gonzo  PilotCurrentXP for now 3500 after setting to 3500 at FromPilotDef, Post.
+05:07:28.172 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+05:07:38.128 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+05:07:43.019 DEBUG - calling SetSubroom for location:NAVIGATION and menuType:Navigation!
+05:07:53.685 DEBUG - calling SetSubroom for location:BARRACKS and menuType:Mechwarrior!
+05:07:53.798 CHEATDETECTION: pilot_ronin_Sumo: Added SGRef_16762  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:07:53.798 CHEATDETECTION: pilot_sim_starter_behemoth: Added SGRef_16763  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:07:53.798 CHEATDETECTION: pilot_ronin_Buckshot: Added SGRef_16764  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:07:53.798 CHEATDETECTION: pilot_backer_Lemos: Added SGRef_16765  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:07:53.798 CHEATDETECTION: pilot_backer_Cleary: Added SGRef_16766  key to PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:07:53.798 CHEATDETECTION: commander: Added commander  key to PilotCurrentXP with UnspentXP 3500 on SGBarracksAdvancementPanel Close, post.
+05:07:53.901 CHEATDETECTION: pilot_ronin_Sumo: Set tracker SGRef_16762 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:07:53.901 CHEATDETECTION: pilot_sim_starter_behemoth: Set tracker SGRef_16763 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:07:53.901 CHEATDETECTION: pilot_ronin_Buckshot: Set tracker SGRef_16764 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:07:53.901 CHEATDETECTION: pilot_backer_Lemos: Set tracker SGRef_16765 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:07:53.901 CHEATDETECTION: pilot_backer_Cleary: Set tracker SGRef_16766 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:07:53.901 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 3500 on SGBarracksAdvancementPanel Close, post.
+05:08:03.295 CHEATDETECTION: pilot_ronin_Sumo: Set tracker SGRef_16762 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:08:03.295 CHEATDETECTION: pilot_sim_starter_behemoth: Set tracker SGRef_16763 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:08:03.295 CHEATDETECTION: pilot_ronin_Buckshot: Set tracker SGRef_16764 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:08:03.295 CHEATDETECTION: pilot_backer_Lemos: Set tracker SGRef_16765 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:08:03.295 CHEATDETECTION: pilot_backer_Cleary: Set tracker SGRef_16766 PilotCurrentXP with UnspentXP 0 on SGBarracksAdvancementPanel Close, post.
+05:08:03.295 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 3500 on SGBarracksAdvancementPanel Close, post.
+05:08:46.170 CHEATDETECTION: pilot_Lan: Added key SGRef_16845 to PilotCurrentXP with 0 UnspentXP value at AddExperience, Post.
+05:08:46.171 Skipping Low Funds warning.
+05:08:52.174 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:08:52.174 Skipping Low Funds warning.
+05:08:53.426 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:08:53.426 Skipping Low Funds warning.
+05:08:54.677 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:08:54.677 Skipping Low Funds warning.
+05:08:55.934 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:08:55.934 Skipping Low Funds warning.
+05:08:57.187 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:08:57.187 Skipping Low Funds warning.
+05:08:58.437 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:08:58.437 Skipping Low Funds warning.
+05:08:59.695 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:08:59.696 Skipping Low Funds warning.
+05:09:00.977 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:00.977 Skipping Low Funds warning.
+05:09:02.609 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:02.609 Skipping Low Funds warning.
+05:09:02.631 CHEATDETECTION: Added key to SimGameFunds with Funds 600000; this should have been done already...WTF. At AddFunds, Pre.
+05:09:03.861 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:03.861 Skipping Low Funds warning.
+05:09:05.173 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:05.173 Skipping Low Funds warning.
+05:09:16.559 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:16.559 Skipping Low Funds warning.
+05:09:17.809 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:17.809 Skipping Low Funds warning.
+05:09:19.060 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:19.060 Skipping Low Funds warning.
+05:09:20.310 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:20.310 Skipping Low Funds warning.
+05:09:49.723 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:49.723 Skipping Low Funds warning.
+05:09:50.978 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:50.978 Skipping Low Funds warning.
+05:09:52.261 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:09:52.262 Skipping Low Funds warning.
+05:10:17.024 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+05:11:02.592 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:02.592 Skipping Low Funds warning.
+05:11:03.846 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:03.846 Skipping Low Funds warning.
+05:11:05.096 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:05.097 Skipping Low Funds warning.
+05:11:06.354 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:06.354 Skipping Low Funds warning.
+05:11:07.608 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:07.608 Skipping Low Funds warning.
+05:11:08.860 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:08.861 Skipping Low Funds warning.
+05:11:10.112 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:10.112 Skipping Low Funds warning.
+05:11:11.363 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:11.364 Skipping Low Funds warning.
+05:11:12.631 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:12.631 Skipping Low Funds warning.
+05:11:13.893 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:13.894 Skipping Low Funds warning.
+05:11:15.138 CHEATDETECTION: pilot_Lan: SGRef_16845 PilotCurrentXP now 0 after adding 0 at AddExperience, Post.
+05:11:45.815 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+05:13:09.527 Checking contract for contract-specific building scaling:
+05:13:09.532 Building scaling set to: IRTweaks.CombatOpts+StructureScale
+05:13:45.293 Checking actor:DEPLOY_ROT IN HELL_B9C213E that belongs to team:Player 1
+05:13:45.293  Spawn protecting actor: DEPLOY_ROT IN HELL_B9C213E
+05:13:45.293  -- applying Braced state
+05:13:45.320 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:45.321  -- setting evasion pips to: 8
+05:13:45.997 Checking actor:0 Gundam Full Armor_Lan_547D0D86 that belongs to team:Player 1
+05:13:45.997  Spawn protecting actor: 0 Gundam Full Armor_Lan_547D0D86
+05:13:45.997  -- applying Braced state
+05:13:46.023 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:46.023  -- setting evasion pips to: 8
+05:13:48.854 Checking actor:Phoenix Hawk_Sumo_68BECF7F that belongs to team:Player 1
+05:13:48.854  Spawn protecting actor: Phoenix Hawk_Sumo_68BECF7F
+05:13:48.854  -- applying Braced state
+05:13:48.878 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:48.878  -- setting evasion pips to: 8
+05:13:49.167 Checking actor:Wolfhound_Gonzo_C76E80F0 that belongs to team:Player 1
+05:13:49.167  Spawn protecting actor: Wolfhound_Gonzo_C76E80F0
+05:13:49.167  -- applying Braced state
+05:13:49.191 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:49.191  -- setting evasion pips to: 8
+05:13:49.415 Checking actor:Wolfhound_Sabrewolf_64DB4691 that belongs to team:Player 1
+05:13:49.415  Spawn protecting actor: Wolfhound_Sabrewolf_64DB4691
+05:13:49.415  -- applying Braced state
+05:13:49.440 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:49.440  -- setting evasion pips to: 8
+05:13:49.761 Checking actor:Wolfhound_Exodus_EF353B81 that belongs to team:Player 1
+05:13:49.761  Spawn protecting actor: Wolfhound_Exodus_EF353B81
+05:13:49.761  -- applying Braced state
+05:13:49.785 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:49.785  -- setting evasion pips to: 8
+05:13:50.082 Checking actor:Wolfhound_Buckshot_D23C993E that belongs to team:Player 1
+05:13:50.082  Spawn protecting actor: Wolfhound_Buckshot_D23C993E
+05:13:50.082  -- applying Braced state
+05:13:50.107 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:50.107  -- setting evasion pips to: 8
+05:13:50.314 Checking actor:Cicada_Defender_E07DCF4B that belongs to team:TargetTeam
+05:13:50.314  Spawn protecting actor: Cicada_Defender_E07DCF4B
+05:13:50.314  -- applying Braced state
+05:13:50.338 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:50.338  -- setting evasion pips to: 8
+05:13:51.325 Checking actor:Vulcan_Gunner_2B6D940B that belongs to team:TargetTeam
+05:13:51.325  Spawn protecting actor: Vulcan_Gunner_2B6D940B
+05:13:51.325  -- applying Braced state
+05:13:51.349 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:51.349  -- setting evasion pips to: 8
+05:13:51.732 Checking actor:Trebuchet_Defender_68F0C967 that belongs to team:TargetTeam
+05:13:51.732  Spawn protecting actor: Trebuchet_Defender_68F0C967
+05:13:51.732  -- applying Braced state
+05:13:51.763 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:51.763  -- setting evasion pips to: 8
+05:13:52.263 Checking actor:Wolverine_Tactician_B8311330 that belongs to team:TargetTeam
+05:13:52.263  Spawn protecting actor: Wolverine_Tactician_B8311330
+05:13:52.263  -- applying Braced state
+05:13:52.287 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:52.287  -- setting evasion pips to: 8
+05:13:52.315 Scaling health for building: Medium Military Building_D7AD4278 =>  currentStructure: 100  startingStructure: 100  ratio: 1
+05:13:52.315  -- adjustedStructure: 559 = ( currentStruct: 100 x scaleMulti: 5 ) + scaleMod: 59
+05:13:52.315 Scaling health for building: Medium Military Building_F3E8F78 =>  currentStructure: 100  startingStructure: 100  ratio: 1
+05:13:52.315  -- adjustedStructure: 559 = ( currentStruct: 100 x scaleMulti: 5 ) + scaleMod: 59
+05:13:52.315 Scaling health for building: Large Military Building_DD83155D =>  currentStructure: 150  startingStructure: 150  ratio: 1
+05:13:52.315  -- adjustedStructure: 809 = ( currentStruct: 150 x scaleMulti: 5 ) + scaleMod: 59
+05:13:52.315 Scaling health for building: Small Military Building_B03BF0EA =>  currentStructure: 75  startingStructure: 75  ratio: 1
+05:13:52.316  -- adjustedStructure: 434 = ( currentStruct: 75 x scaleMulti: 5 ) + scaleMod: 59
+05:13:52.317  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:52.317  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:52.317  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:52.317  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:52.417 Checking actor:Cicada_Gunner_E99A0A34 that belongs to team:EmployerTeam
+05:13:52.417  Spawn protecting actor: Cicada_Gunner_E99A0A34
+05:13:52.417  -- applying Braced state
+05:13:52.442 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:52.442  -- setting evasion pips to: 8
+05:13:52.959 Checking actor:Blackjack_Defender_713475A3 that belongs to team:EmployerTeam
+05:13:52.959  Spawn protecting actor: Blackjack_Defender_713475A3
+05:13:52.959  -- applying Braced state
+05:13:52.983 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:52.984  -- setting evasion pips to: 8
+05:13:53.363 Checking actor:Hunchback_Pilot_C3F8ED49 that belongs to team:EmployerTeam
+05:13:53.363  Spawn protecting actor: Hunchback_Pilot_C3F8ED49
+05:13:53.363  -- applying Braced state
+05:13:53.387 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:53.387  -- setting evasion pips to: 8
+05:13:53.923 Checking actor:Dervish_Pilot_F9A353C3 that belongs to team:EmployerTeam
+05:13:53.923  Spawn protecting actor: Dervish_Pilot_F9A353C3
+05:13:53.923  -- applying Braced state
+05:13:53.948 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:13:53.948  -- setting evasion pips to: 8
+05:13:57.863 Checking actor:Standard LRM Turret_Automatic_A1F1D775 that belongs to team:TargetTeam
+05:13:57.863  Spawn protection skipping turret:Standard LRM Turret_Automatic_A1F1D775
+05:13:57.973 Checking actor:Standard Shredder Turret_Automatic_3D735718 that belongs to team:TargetTeam
+05:13:57.973  Spawn protection skipping turret:Standard Shredder Turret_Automatic_3D735718
+05:13:58.004 Checking actor:Standard LRM Turret_Automatic_D0587CB7 that belongs to team:TargetTeam
+05:13:58.004  Spawn protection skipping turret:Standard LRM Turret_Automatic_D0587CB7
+05:13:58.036 Checking actor:Standard LRM Turret_Automatic_935C20A9 that belongs to team:TargetTeam
+05:13:58.036  Spawn protection skipping turret:Standard LRM Turret_Automatic_935C20A9
+05:13:58.665  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:58.665  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:58.665  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:58.665  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:58.730  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:58.730  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:58.730  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:58.730  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:58.795  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:58.795  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:58.795  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:58.795  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:58.861  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:58.861  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:58.861  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:58.861  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:58.952  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:58.952  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:58.952  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:58.952  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:59.023  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:59.023  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:59.023  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:59.023  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:59.087  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:59.087  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:59.087  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:59.087  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:59.154  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:59.154  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:59.154  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:59.154  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:59.221  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:59.221  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:59.221  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:59.221  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:59.287  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:59.287  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:59.288  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:59.288  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:59.357  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:59.357  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:59.357  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:59.357  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:59.422  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:59.422  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:59.422  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:59.422  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:59.487  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:59.487  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:59.487  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:59.487  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:59.551  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:59.551  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:59.551  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:59.551  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:13:59.617  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:13:59.618  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:13:59.618  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:13:59.618  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:14:07.775  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:14:07.775  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:14:07.775  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:14:07.775  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:14:08.234 Background image size: 222h x 450
+05:14:08.235 CombatChatModule pos: (951.2, 572.4, -4900.0)
+05:14:08.235 RetreatEscMenu pos: (1947.9, 1120.2, -4900.0)
+05:14:08.235 new CombatChatModule pos: (2434.9, 1000.2, -4900.0)
+05:14:08.235 ChatButton base  pos: (2434.9, 1000.2, -4900.0)
+05:14:08.235 ChatButton new  pos: (1694.9, 1080.2, -4900.0)
+05:14:18.369  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:14:18.369  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:14:18.369  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:14:18.369  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:14:20.239  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:14:20.239  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:14:20.239  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:14:20.239  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:14:52.845 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:14:53.180 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:14:53.229 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:14:53.274 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:14:53.314 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:14:53.354 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:14:53.394 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:16:15.314 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:16:27.571 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:16:57.741 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:17:36.913 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:17:58.677 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:18:02.099 [CustomMech_ApplyBraced] Applying effect with ID BraceAOE_DR.
+05:18:31.300  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:18:31.300  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:18:31.300  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:18:31.300  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:18:31.358  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:18:31.358  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:18:31.358  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:18:31.358  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:19:58.979  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:19:58.979  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:19:58.979  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:19:58.979  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:19:59.050  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:19:59.051  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:19:59.051  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:19:59.051  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:21:25.344  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:21:25.344  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:21:25.344  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:21:25.344  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:21:25.550  -- building: Medium Military Building_D7AD4278 was already scaled, skipping
+05:21:25.551  -- building: Medium Military Building_F3E8F78 was already scaled, skipping
+05:21:25.551  -- building: Large Military Building_DD83155D was already scaled, skipping
+05:21:25.551  -- building: Small Military Building_B03BF0EA was already scaled, skipping
+05:23:21.293 MCMT subscription list is size: 52
+05:23:21.294 MCMT subscription list is size: 51
+05:23:21.295 MCMT subscription list is size: 50
+05:23:21.295 MCMT subscription list is size: 49
+05:23:21.295 MCMT subscription list is size: 48
+05:23:21.295 MCMT subscription list is size: 47
+05:23:21.295 MCMT subscription list is size: 46
+05:23:21.295 MCMT subscription list is size: 45
+05:23:21.295 MCMT subscription list is size: 44
+05:23:21.295 MCMT subscription list is size: 43
+05:23:21.295 MCMT subscription list is size: 42
+05:23:21.295 MCMT subscription list is size: 41
+05:23:21.295 MCMT subscription list is size: 40
+05:23:21.295 MCMT subscription list is size: 39
+05:23:21.295 MCMT subscription list is size: 38
+05:23:21.295 MCMT subscription list is size: 37
+05:23:21.295 MCMT subscription list is size: 36
+05:23:21.298 Combat game destroyed, cleaning up
+05:23:21.304 MCMT subscription list is size: 35
+05:23:21.304 MCMT subscription list is size: 34
+05:23:21.304 MCMT subscription list is size: 33
+05:23:21.304 MCMT subscription list is size: 32
+05:23:21.304 MCMT subscription list is size: 31
+05:23:21.304 MCMT subscription list is size: 30
+05:23:21.304 MCMT subscription list is size: 29
+05:23:21.304 MCMT subscription list is size: 28
+05:23:21.304 MCMT subscription list is size: 27
+05:23:21.304 MCMT subscription list is size: 26
+05:23:21.304 MCMT subscription list is size: 25
+05:23:21.304 MCMT subscription list is size: 24
+05:23:21.304 MCMT subscription list is size: 23
+05:23:21.304 MCMT subscription list is size: 22
+05:23:21.304 MCMT subscription list is size: 21
+05:23:21.304 MCMT subscription list is size: 20
+05:23:21.304 MCMT subscription list is size: 19
+05:23:21.304 MCMT subscription list is size: 18
+05:23:21.304 MCMT subscription list is size: 17
+05:23:21.304 MCMT subscription list is size: 16
+05:23:21.304 MCMT subscription list is size: 15
+05:23:21.304 MCMT subscription list is size: 14
+05:23:21.304 MCMT subscription list is size: 13
+05:23:21.304 MCMT subscription list is size: 12
+05:23:21.304 MCMT subscription list is size: 11
+05:23:21.304 MCMT subscription list is size: 10
+05:23:21.304 MCMT subscription list is size: 9
+05:23:21.304 MCMT subscription list is size: 8
+05:23:21.304 MCMT subscription list is size: 7
+05:23:21.304 MCMT subscription list is size: 6
+05:23:21.304 MCMT subscription list is size: 5
+05:23:21.304 MCMT subscription list is size: 4
+05:23:21.304 MCMT subscription list is size: 3
+05:23:21.304 MCMT subscription list is size: 2
+05:23:21.304 MCMT subscription list is size: 1
+05:23:25.285 Disabling the campaign button on the main menu.
+05:23:25.304 Disabling the debug buttons in the main menu.

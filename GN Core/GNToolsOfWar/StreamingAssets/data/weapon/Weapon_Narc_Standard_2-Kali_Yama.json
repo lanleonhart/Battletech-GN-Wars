@@ -47,8 +47,8 @@
         "Details" : "The Narc Missile Beacon launcher is designed to fire a single, highly specialized missile that deploys a homing beacon upon impact. The attached beacon transmits data to allied units, causing the linked target to receive increased damage from subsequent Missile weaponry attacks. Narc launchers are inherently very accurate.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA" : "+ 75% Dmg. Mark",
-    "BonusValueB" : "* Missile",
+    "BonusValueA" : "",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "narc",
@@ -95,7 +95,7 @@
                 "appliesEachTick" : false,
                 "statName": "DamageReductionMultiplierMissile",
                 "operation": "Float_Multiply",
-                "modValue": "1.75",
+                "modValue": "1",
                 "modType": "System.Single"
             },
             "tagData" : null,
@@ -153,7 +153,7 @@
             "component_type_variant",
             "component_type_variant2",
             "range_standard",
-			"component_type_lostech",
+			"component_type_lostech"
             
         ],
         "tagSetSourceFile" : ""

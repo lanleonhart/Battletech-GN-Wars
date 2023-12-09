@@ -1,7 +1,6 @@
-CombatGameState.ShutdownCombatState
-[23:07:15.544]uixPrfPanl_ML_main-Widget found
-[23:07:15.544]MechLabDismountWidget found
-[23:33:35.687]MapMetaData.Load 512 X 512
+[05:05:48.326]uixPrfPanl_ML_main-Widget found
+[05:05:48.326]MechLabDismountWidget found
+[05:07:45.424]MapMetaData.Load 512 X 512
   at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
   at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
@@ -13,39 +12,49 @@ CombatGameState.ShutdownCombatState
   at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
   at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::ListContracts> (BattleTech.UI.SGContractsWidget , System.Collections.Generic.List`1[T] , System.Nullable`1[T] ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
   at BattleTech.UI.SGRoomController_CmdCenter.OnContractsFetched () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
-  at BattleTech.UI.SGRoomController_CmdCenter.StartContractScreen () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
-  at BattleTech.UI.SGRoomController_CmdCenter.CharacterClickedOn (BattleTech.SimGameState+SimGameCharacterType characterClicked) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
-  at BattleTech.UI.SGRoomController_CmdCenter.EnterRoom () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
-  at BattleTech.UI.SGRoomManager.RoomChangeComplete () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
-  at BattleTech.UI.SGRoomManager.ChangeRoom (BattleTech.DropshipLocation newRoom) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
-  at BattleTech.SimGameState.DMD<BattleTech.SimGameState::SetSimRoomState> (BattleTech.SimGameState , BattleTech.DropshipLocation ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
-  at BattleTech.UI.SGRoomManager.SetSubRoom (BattleTech.DropshipLocation loc, BattleTech.DropshipMenuType subLoc) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
-  at IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationButton_OnClick.QueueOrForceActivation (BattleTech.DropshipMenuType menuType, BattleTech.DropshipLocation location, BattleTech.UI.SGNavigationWidgetLeft sgnwl, BattleTech.SimGameState sgs) [0x00000] in <736cd14886c8475691d1770403462b15>:0 
-  at IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationButton_OnClick.Postfix (BattleTech.UI.SGNavigationButton __instance, BattleTech.UI.SGNavigationList ___buttonParent, BattleTech.UI.TMProWrapper.LocalizableText ___text) [0x00000] in <736cd14886c8475691d1770403462b15>:0 
-  at BattleTech.UI.SGNavigationButton.DMD<BattleTech.UI.SGNavigationButton::OnClick> (BattleTech.UI.SGNavigationButton ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
-  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
-  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
-  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
-  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
-  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at BattleTech.StarSystem.OnInitialContractFetched () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at PersistentMapClient.SimGameState_GeneratePotentialContracts+<StartGeneratePotentialContractsRoutine>d__1.MoveNext () [0x00000] in <9d69d32b48e740439c8dbc99c962a39f>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
  active terrain is null
 Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
-Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
 Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
 Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
 Dynamic design mask loaded:DesignMaskSmoke = SMOKE
 Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
 Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
 Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:10:22.876]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::ListContracts> (BattleTech.UI.SGContractsWidget , System.Collections.Generic.List`1[T] , System.Nullable`1[T] ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGRoomController_CmdCenter.OnContractsFetched () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.StarSystem.OnInitialContractFetched () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at PersistentMapClient.SimGameState_GeneratePotentialContracts+<StartGeneratePotentialContractsRoutine>d__1.MoveNext () [0x00000] in <9d69d32b48e740439c8dbc99c962a39f>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
 Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
 Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
 Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
-[23:33:37.428]MapMetaData.Load 512 X 512
+[05:10:24.006]MapMetaData.Load 512 X 512
   at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
   at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
@@ -71,13 +80,446 @@ Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
  active terrain is null
 Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
-Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
-Dynamic design mask loaded:DesignMaskIce = ICE
 Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
 Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
 Dynamic design mask loaded:DesignMaskForest = FOREST
 Dynamic design mask loaded:DesignMaskSmoke = SMOKE
 Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
 Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:10:25.246]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:10:30.367]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:10:35.341]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:10:38.525]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomMaps.Patches.MapMetaData_LoadMapMetaData.Prefix (BattleTech.Contract contract, BattleTech.Data.DataManager dataManager, System.String& __state, BattleTech.MapMetaData& __result) [0x00000] in <792159e0852347f199dcf3b514864c54>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:10:41.079]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:10:49.177]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:10:53.001]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:10:56.441]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:11:51.352]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:11:55.523]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:11:59.235]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[05:12:11.565]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <5e937efe29144b0383efa8dad62f63cc>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <c58f4fcec9a344ca868c7eb0b8e9d7e5>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
 Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
 Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
