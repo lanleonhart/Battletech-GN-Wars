@@ -6,22 +6,43 @@
   },
   "unitSpawnPointOverrideList": [
     {
-      "unitType": "Mech"
-    },
+			"unitType": "Mech",
+			"unitTagSet": {
+				"items": [
+					"unit_light",
+					"unit_mech",				
+					"{CUR_TEAM.faction}"
+				]
+			},
+			"spawnEffectTags": {
+				"items": []
+			}
+		},
     {
-      "unitType": "Mech"
-    },
-    {
-      "unitType": "Vehicle",
-      "unitTagSet": {
-        "items": ["unit_vehicle_carrier"]
-      }
-    },
-    {
-      "unitType": "Vehicle",
-      "unitTagSet": {
-        "items": ["unit_vehicle_carrier"]
-      }
-    }
+			"unitType": "Mech",
+			"unitTagSet": {
+				"items": [
+					"unit_light",
+					"unit_mech",					
+					"{CUR_TEAM.faction}"
+				]
+			},
+			"spawnEffectTags": {
+				"items": []
+			}
+		},
+		{
+			"unitType": "Mech",
+			"unitTagSet": {
+				"items": [
+					"unit_light",
+					"unit_mech",				
+					"{CUR_TEAM.faction}"
+				]
+			},
+			"spawnEffectTags": {
+				"items": []
+			}
+		}
   ]
 }

@@ -1,0 +1,47 @@
+{
+    "IncludeContractTypes": [],
+    "ExcludeContractTypes": [],
+    "LancePool": {
+        "ALL": [
+            "Generic_Assault_Battle_Lance",
+            "Generic_Assault_Battle_Lance",
+            "Generic_Heavy_Mixed_Lance",
+            "Generic_Heavy_Vehicle_Lance",
+            "Generic_Assault_Mixed_Lance",
+            "Generic_Assault_Vehicle_Lance"
+        ]
+    },
+    "Enemy": {
+        "Max": 0,
+        "ExcludeContractTypes": [],
+        "ChanceToSpawn": 0.55,
+        "EliteLances": {
+            "Conditions": [
+                "IsEnemy"
+            ],
+            "Suffix": "_Elite",
+            "Overrides": {
+                "ChanceToSpawn": 0.33
+            }
+        },
+        "LancePool": {
+            "ALL": []
+        }
+    },
+    "Allies": {
+        "Max": 1,
+        "ChanceToSpawn": 0.55,
+        "EliteLances": {
+            "Conditions": [
+                "IsAlly"
+            ],
+            "Overrides": {
+                "Max": 2,
+                "ChanceToSpawn": 0.33
+            }
+        },
+        "LancePool": {
+            "ALL": []
+        }
+    }
+}
