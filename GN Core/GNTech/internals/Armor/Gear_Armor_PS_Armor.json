@@ -1,0 +1,80 @@
+{
+"Custom":{
+  "Category": [
+    {
+      "CategoryID": "MS"
+    },
+    {
+      "CategoryID": "Armor"
+    }
+  ],
+  "BonusDescriptions": [],
+    "ActivatableComponent": {
+      "ButtonName": "Phase Shift",
+      "CanActivateAfterMove": true,
+      "CanActivateAfterFire": false,
+      "CanNotBeActivatedManualy": true,
+      "NoUniqueCheck": true,
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTargetsCreator": true,
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": true,
+            "showInStatusPanel": true
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "GN Shield",
+            "Name": "GN Shield",
+            "Details": "GN Shield reduces incoming damage by 30%",
+            "Icon": "shield"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "DamageReductionMultiplierAll",
+            "operation": "Float_Multiply",
+            "modValue": "0.9",
+            "modType": "System.Single"
+          }
+        }
+      ]
+    }
+},
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 20000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Morgenrote",
+    "Model": "PS",
+    "UIName": "Phase Shift Armor",
+    "Id": "Gear_Armor_PS_Armor",
+    "Name": "Phase Shift Armor",
+    "Details": "", 
+    "Icon": ""
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  }
+  }

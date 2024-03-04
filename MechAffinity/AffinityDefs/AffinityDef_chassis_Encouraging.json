@@ -1,0 +1,58 @@
+{
+  "id": "AffinityDef_chassis_Encouraging",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "chassisNames": [
+      "chrPrfMech_phoenixhawkBase-001_45",
+      "chrPrfMech_crabBase-001_50",
+      "chrPrfMech_wolverineBase-001_55",
+      "chrPrfMech_quickdrawBase-001_60",
+      "chrPrfMech_riflemanBase-001_60"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "missionsRequired": 15,
+        "levelName": "Encouraging",
+        "decription": "Great at Keeping Morale High! (+3 Morale Gain)",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its morale boost by 3.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-MoraleBoost",
+              "Name": "Mech Affinity Morale Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Int32",
+              "modValue": "3",
+              "operation": "Int_Add",
+              "statName": "MoraleBonusGain",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

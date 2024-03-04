@@ -1,0 +1,95 @@
+{
+  "Custom":{
+    "Category": [
+      {
+        "CategoryID": "MS"
+      },
+      {
+        "CategoryID": "HandHeld"
+      }
+    ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.50 * [[Chassis.Tonnage]]",
+        "CBillCost": "15.9 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    },
+    "BonusDescriptions": [
+      "HH-SHIELD",
+      "DMGREDUCTION: 10,10,10"
+    ],
+      "ActivatableComponent": {
+        "ButtonName": "ABC Shield",
+        "CanActivateAfterMove": true,
+        "CanActivateAfterFire": false,
+        "CanNotBeActivatedManualy": false,
+        "NoUniqueCheck": true,
+        "statusEffects": [
+          {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTargetsCreator": true,
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": true,
+              "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "GN Shield",
+              "Name": "GN Shield",
+              "Details": "GN Shield reduces incoming damage by 30%",
+              "Icon": "shield"
+            },
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "DamageReductionMultiplierAll",
+              "operation": "Float_Multiply",
+              "modValue": "0.9",
+              "modType": "System.Single"
+            }
+          }
+        ]
+      }
+    
+    
+  },
+  "Description": {
+    "Cost": 830000,
+    "Rarity": 10,
+    "Purchasable": false,
+    "Manufacturer": "Morgonrote",
+    "Model": "Anti Beam Coated Shield",
+    "UIName": "ABC Shield",
+    "Id": "Linked_Gear_ABC_Shield",
+    "Name": "Anti Beam Coated Shield",
+    "Details": "",
+    "Icon": "shield"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 5,
+  "Tonnage": 0,
+  "AllowedLocations": "LeftArm",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+     
+    ],
+    "tagSetSourceFile": ""
+}
+}
+
+
+  

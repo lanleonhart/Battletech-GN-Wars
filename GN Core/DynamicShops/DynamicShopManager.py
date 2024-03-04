@@ -1106,7 +1106,7 @@ item_Collection = {
                 "itemCollection_Periphery_Light_Mech_Parts": ["Reference",2, 5]                    
     },
     "Liked_Clans": {},
-    #------------------------------------Faction Lists------------------------------------NOTE: faction_ list cannot use reference list. I needs to be correct DEF Type
+    #------------------------------------Faction Lists------------------------------------NOTE: faction_ list cannot use reference list. It needs to be correct DEF Type
     "faction_ComStar": {},
     "Honored_ComStar": {
                 "itemCollection_ComStar_Heavy_Mech_Parts": ["Reference",1, 3],

@@ -249,6 +249,24 @@ Can be accessed via statistic value CAC_AMSHitChanceMult and modifier CAC_AMSHit
 @Default:AmmunitionDef=1,WeaponDef=1,WeaponMode=1
 @Description:not documented yet
 
+@Name:ArtilleryReticleColor
+@Type:ColorTableJsonEntry
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
+@Description:not documented yet
+
+@Name:ArtilleryReticleRadius
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+
+@Name:ArtilleryReticleText
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
+@Description:not documented yet
+
 @Name:AttackRecoil
 @Type:integer
 @AppliedTo:AmmunitionDef,WeaponMode
@@ -760,6 +778,12 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
 @Description:not documented yet
 
+@Name:IsArtillery
+@Type:boolean
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
+@Description:not documented yet
+
 @Name:ISDamageModifier
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -1011,6 +1035,36 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Type:boolean
 @AppliedTo:WeaponDef
 @Default:NotSet
+@Description:not documented yet
+
+@Name:OnlyDefferEffect
+@Type:boolean
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
+@Description:not documented yet
+
+@Name:parentPreFireSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
+@Name:PersistentJamming
+@Type:boolean
+@AppliedTo:WeaponDef
+@Default:false
+@Description:not documented yet
+
+@Name:PhysicsAoE
+@Type:boolean
+@AppliedTo:MineFieldDef,AmmunitionDef,WeaponDef,WeaponMode
+@Default:MineFieldDef=true,AmmunitionDef=NotSet,WeaponDef=True,WeaponMode=NotSet
+@Description:not documented yet
+
+@Name:PhysicsAoE_Height
+@Type:float
+@AppliedTo:MineFieldDef,AmmunitionDef,WeaponDef,WeaponMode
+@Default:MineFieldDef=10,AmmunitionDef=10,WeaponDef=10,WeaponMode=10
 @Description:not documented yet
 
 @Name:PrefireAnimationSpeedMod
