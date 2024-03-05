@@ -1,0 +1,100 @@
+
+{
+  "Custom": {
+    "Category": [
+		{
+        "CategoryID": "MSHardPoint"
+      }
+    ],
+	"BonusDescriptions": []
+    },
+    "Category": "Ballistic",
+    "Type": "Autocannon",
+    "WeaponSubType": "AC5",
+    "MinRange": 60,
+    "MaxRange": 780,
+    "RangeSplit": [
+      180,
+      390,
+      600
+    ],
+    "weaponCategoryID": "MSHardPoint",
+    "ammoCategoryID" : "AR5",
+    "StartingAmmoCapacity": 45,
+	"HeatGenerated": 2,
+	"Damage": 18,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability":5,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
+	"Description": {
+		"Cost": 240000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Omni Enforcer",
+		"Model": "Vulcan",
+		"UIName": "120mm Anti Ship Vulcan",
+		"Id": "120mm_Vulcan",
+		"Name": "120mm Anti Ship Vulcan",
+		"Details": "A rapid fire Vulcan which specialized in Anti-Ship combat. This weapon system is also effective at engaging Mechs and MS.",
+		"Icon": ""
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC5",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"ImprovedBallistic": true,
+	"FireDelayMultiplier": 2,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": true,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": false,
+			"ShotsWhenFired": 2,
+			"HeatGenerated": 8,
+			"FireDelayMultiplier": 0,
+			"FlatJammingChance": 0.05
+		},
+    {
+			"Id": "x5",
+			"UIName": "x5",
+			"isBaseMode": false,
+			"ShotsWhenFired": 4,
+			"HeatGenerated": 12,
+			"FireDelayMultiplier": 0,
+			"FlatJammingChance": 0.10
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_very-long"
+		],
+		"tagSetSourceFile": ""
+	}
+}

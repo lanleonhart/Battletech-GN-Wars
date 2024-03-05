@@ -1,3 +1,127 @@
-CombatGameState.ShutdownCombatState
-[22:43:58.806]uixPrfPanl_ML_main-Widget found
-[22:43:58.806]MechLabDismountWidget found
+[20:50:16.787]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <f38a3581bc004818a5b10e9dc473864f>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.CombatGameState.DMD<BattleTech.CombatGameState::_Init> (BattleTech.CombatGameState , BattleTech.GameInstance , BattleTech.Contract , System.String ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.CombatGameState.FirstTimeInit (BattleTech.Contract contract, BattleTech.GameInstance game, System.String localPlayerTeamGuid) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.GameInstance.DMD<BattleTech.GameInstance::LaunchContract> (BattleTech.GameInstance , BattleTech.Contract , System.String ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.GameInstance.DMD<BattleTech.GameInstance::LaunchContract> (BattleTech.GameInstance , BattleTech.Contract ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SkirmishSettings_Beta+<>c__DisplayClass27_0.<LaunchMap>b__1 () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.LoadingCurtain+<DelayExecuteVisibilityAction>d__32.MoveNext () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+ active terrain is null
+[20:50:19.544]Contract.RequestConversations
+ sprite:turret_unit_result_stat
+  not exist in manifest
+ sprite:battle_armor_unit_result_stat
+  not exist in manifest
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskForest = FOREST
+[20:50:31.709]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <f38a3581bc004818a5b10e9dc473864f>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaDataExporter.DMD<BattleTech.MapMetaDataExporter::LoadMapMetaDataOnly> (BattleTech.MapMetaDataExporter , BattleTech.MapMetaData , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaDataExporter.DMD<BattleTech.MapMetaDataExporter::LoadMapMetaDataV2> (BattleTech.MapMetaDataExporter , BattleTech.MapMetaData , System.String , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.EncounterLayerParent.DMD<BattleTech.EncounterLayerParent::InitializeContract> (BattleTech.EncounterLayerParent , MessageCenterMessage ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at MessageCenter.SendMessagesForType (MessageCenterMessageType messageType, MessageCenterMessage message) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at MessageCenter.DMD<MessageCenter::PublishMessage> (MessageCenter , MessageCenterMessage ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.Briefing.InitializeContract () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.Briefing.Update () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+[20:50:31.713]Map biome:DesignMaskBiomeHighlandsSpring noForest:False hex grid:not null
+[20:50:32.000]Weapon.Constructor chassisdef_spider_SDR-5V Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[20:50:32.000]Weapon.Constructor mechdef_spider_SDR-5V Weapon_Laser_MediumLaser_0-STOCK
+[20:50:32.006]Weapon.Constructor chassisdef_spider_SDR-5V Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[20:50:32.006]Weapon.Constructor mechdef_spider_SDR-5V Weapon_Laser_MediumLaser_0-STOCK
+[20:50:32.007]Weapon.Constructor chassisdef_spider_SDR-5V Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[20:50:32.008]Weapon.Constructor mechdef_spider_SDR-5V Weapon_MeleeAttack
+[20:50:32.009]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[20:50:32.012]RecalculateBlocked:Spider
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+[20:50:32.014]Weapon.Constructor chassisdef_spider_SDR-5V Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[20:50:32.014]Weapon.Constructor mechdef_spider_SDR-5V Weapon_DFAAttack
+[20:50:32.015]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[20:50:32.015]RecalculateBlocked:Spider
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+[20:50:32.015]Weapon.Constructor chassisdef_spider_SDR-5V Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[20:50:32.015]Weapon.Constructor mechdef_spider_SDR-5V Weapon_Laser_AI_Imaginary
+[20:50:32.017]RecalculateBlocked:Spider
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:040aa904-d911-4805-ba57-b65d9f08f9ad.9999999999
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:040aa904-d911-4805-ba57-b65d9f08f9ad.9999999999
+Weapon.InitStats Weapon_MeleeAttack:040aa904-d911-4805-ba57-b65d9f08f9ad.9999999999
+Weapon.InitStats Weapon_DFAAttack:040aa904-d911-4805-ba57-b65d9f08f9ad.9999999999
+[20:50:32.049]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ boxes:0
+[20:50:32.049]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ boxes:0
+[20:50:32.049]AbstractActor.AssignAmmoToWeapons mechdef_spider_SDR-5V
+[20:50:32.049]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[20:50:32.049]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[20:50:32.163]Pilot.InitAbilities pilot_default
+[20:50:32.163]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[20:50:32.163]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[20:50:32.163]Late ReapplyDesignMasks chassisdef_spider_SDR-5V
+[20:50:32.226]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[20:50:32.226]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Spider
+  mode:BASE.WeaponEffectID is empty
+[20:50:32.231]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[20:50:32.231]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Spider
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_MeleeAttack:Spider
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_DFAAttack:Spider
+  mode:BASE.WeaponEffectID is empty

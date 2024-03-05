@@ -2,15 +2,13 @@
     "CustomParts": {
         "AlternateRepresentations": [
           {
-            "PrefabIdentifier": "chrprfmech_madbabase-001",
+            "PrefabIdentifier": "chrPrfMech_shadowhawkBase-001",
             "AdditionalPrefabs": [],
             "PrefabBase": "madba",
-            "HardpointDataDef": "hardpointdatadef_marauder",
+            "HardpointDataDef": "hardpointdatadef_shadowhawk",
             "Type": "AirMech",
             "HoveringSoundStart": "",
             "HoveringSoundEnd": "",
-            "SwitchInAudio": "GNAscend",
-            "SwitchOutAudio": "GNDescend",
             "additionalEncounterTags": [
               
             ],
@@ -54,11 +52,11 @@
         "Details": "The GAT-X105 Strike Gundam is the most versatile of the five Gundams in the G Project and can be easily configured for various types of combat. Powered by an ultra compact battery, this suit is equipped with PS Armor (Phase Shift) which nullfies non energy weapons upon impact",
         "Icon": "Strike"
     },
-    "MovementCapDefID": "movedef_marauder_MAD-2R",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_marauder",
-    "PrefabIdentifier": "chrprfmech_madbabase-001",
-    "PrefabBase": "madba",
+   "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_shadowhawk",
+    "PrefabIdentifier": "chrPrfMech_shadowhawkBase-001",
+    "PrefabBase": "shadowhawk",
     "Tonnage": 75,
     "InitialTonnage": 32.5,
     "weightClass": "HEAVY", 
@@ -89,7 +87,12 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+              {
+                "WeaponMountID": "CIWS",
+                "Omni": false
+              }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 60,
