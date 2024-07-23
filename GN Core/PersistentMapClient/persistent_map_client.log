@@ -1,4 +1,1065 @@
-2024-03-05T20:47:30 - Starting Client: 4.1.2-8
-2024-03-05T20:47:30 - Settings are:(ServerURL:(http://www.gnwars.net:8000/) ClientID:() Debug:(True) PriorityContractPay%:(1.5) PriorityContractsPerAlly:2 ActivePlayerMarkerSize:(3.5))
-2024-03-05T20:47:30 - Fetched clientID:(cf5043f6-1ee9-4075-921d-06c422d7a894).
-2024-03-05T20:47:30 - Init Finished
+2024-07-23T04:26:07 - Starting Client: 4.1.2-8
+2024-07-23T04:26:07 - Settings are:(ServerURL:(http://www.gnwars.net:8000/) ClientID:() Debug:(True) PriorityContractPay%:(1.5) PriorityContractsPerAlly:2 ActivePlayerMarkerSize:(3.5))
+2024-07-23T04:26:07 - Fetched clientID:(cf5043f6-1ee9-4075-921d-06c422d7a894).
+2024-07-23T04:26:07 - Init Finished
+2024-07-23T04:29:21 - ----Refreshing client settings from server-------
+2024-07-23T04:29:21 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2024-07-23T04:29:21 - Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'System.Collections.Generic.Dictionary`2[System.String,System.Int32]' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'PlanetSlotsByClimate', line 1, position 192.
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract) [0x00058] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.Object existingValue, System.String id) [0x00012] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0007f] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00061] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00268] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0015c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0006d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:21 - ----Refreshing client settings from server-------
+2024-07-23T04:29:21 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2024-07-23T04:29:21 - Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'System.Collections.Generic.Dictionary`2[System.String,System.Int32]' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'PlanetSlotsByClimate', line 1, position 192.
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract) [0x00058] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.Object existingValue, System.String id) [0x00012] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0007f] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00061] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00268] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0015c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0006d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:21 - Career ID Loaded: d42e1654-d1a2-49cb-bd0c-9a1b500ae357
+2024-07-23T04:29:21 - ----Refreshing client settings from server-------
+2024-07-23T04:29:21 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2024-07-23T04:29:21 - Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'System.Collections.Generic.Dictionary`2[System.String,System.Int32]' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'PlanetSlotsByClimate', line 1, position 192.
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract) [0x00058] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.Object existingValue, System.String id) [0x00012] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0007f] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00061] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00268] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0015c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0006d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - PopulateMap - Postfix called
+2024-07-23T04:29:37 - methodSetOwner is:(Void set_OwnerValue(BattleTech.FactionValue))
+2024-07-23T04:29:37 - fieldSetContractEmployers is:(System.Collections.Generic.List`1[System.String] contractEmployerIDs)
+2024-07-23T04:29:37 - fieldSetContractTargets is:(System.Collections.Generic.List`1[System.String] contractTargetIDs)
+2024-07-23T04:29:37 - methodSetDescription is:(Void set_Description(BattleTech.BaseDescriptionDef))
+2024-07-23T04:29:37 - fieldSimGameInterruptManager is:(BattleTech.UI.SimGameInterruptManager interruptQueue)
+2024-07-23T04:29:37 - ----Refreshing client settings from server-------
+2024-07-23T04:29:37 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2024-07-23T04:29:37 - Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'System.Collections.Generic.Dictionary`2[System.String,System.Int32]' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'PlanetSlotsByClimate', line 1, position 192.
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract) [0x00058] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.Object existingValue, System.String id) [0x00012] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0007f] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00061] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00268] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0015c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0006d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - http://www.gnwars.net:8000/warServices/StarMap/
+2024-07-23T04:29:37 - GetStarMap took: 79ms.
+2024-07-23T04:29:37 - GetStarMap: 3461
+2024-07-23T04:29:37 - Processing Starmap: 3461
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - Aea changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5004]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - Althastan changing new owner to Circinus
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5021]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5001]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5009]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5011]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5010]
+2024-07-23T04:29:37 - Artru changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Aspropirgos changing new owner to MagistracyOfCanopus
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5001]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5016]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5005]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5010]
+2024-07-23T04:29:37 - Babylon changing new owner to ClanGoliathScorpion
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5014]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5009]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5021]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5022]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5005]
+2024-07-23T04:29:37 - Bringdam changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Brinton changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Bromhead changing new owner to TaurianConcordat
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - Butte Hold changing new owner to Oberon
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5001]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - Choex changing new owner to Circinus
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5017]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5011]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5010]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5001]
+2024-07-23T04:29:37 - Coromodir changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5010]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5022]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5021]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5007]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5004]
+2024-07-23T04:29:37 - Delios changing new owner to ClanBurrock
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5027]
+2024-07-23T04:29:37 - Dì-fang changing new owner to Liao
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5011]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5022]
+2024-07-23T04:29:37 - Enkra changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5010]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - Fjaldr changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Flatspin changing new owner to TaurianConcordat
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5032]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5006]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5013]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5001]
+2024-07-23T04:29:37 - Gangtok changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5014]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - Girondas changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5013]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5001]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5019]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - Guldra changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5021]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5026]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5012]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - Heliat changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5019]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5021]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5021]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5004]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5026]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5016]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5015]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5013]
+2024-07-23T04:29:37 - Huntress changing new owner to ClansGeneric
+2024-07-23T04:29:37 - Hurik changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Ichlangis changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5024]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5013]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - Itrom changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - Jump Point194 changing new owner to ClanCloudCobra
+2024-07-23T04:29:37 - Jump Point195 changing new owner to Hanse
+2024-07-23T04:29:37 - Jump Point204 changing new owner to Hanse
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5021]
+2024-07-23T04:29:37 - Katinka changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - Keid changing new owner to ComStar
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5011]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - Ki Zoban changing new owner to Outworld
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5024]
+2024-07-23T04:29:37 - Landfall changing new owner to Illyrian
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5021]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5001]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5027]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5027]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5027]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5016]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5027]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5027]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5017]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5008]
+2024-07-23T04:29:37 - Lum changing new owner to ClanFireMandrill
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5027]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5022]
+2024-07-23T04:29:37 - Mangzhangdian changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Manteno changing new owner to ComStar
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5019]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - Mechdur changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Merdal changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Midale changing new owner to TaurianConcordat
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5032]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5001]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5021]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5032]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5032]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5018]
+2024-07-23T04:29:37 - New Kent changing new owner to ClanStarAdder
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5032]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5011]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - Panzyr changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5027]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5004]
+2024-07-23T04:29:37 - Payia changing new owner to Liao
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5022]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5004]
+2024-07-23T04:29:37 - Qalzi changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5005]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - Ramen changing new owner to Marik
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - Regis Roost changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Relevow changing new owner to ComStar
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5024]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5020]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - Ryans Fate changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5022]
+2024-07-23T04:29:37 - Santander (Santander's World) changing new owner to Elysia
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5008]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5018]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - Sierra changing new owner to Circinus
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - Smithon changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - Son Hoa changing new owner to Circinus
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5015]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5007]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5028]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5006]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - Taran's World changing new owner to Oberon
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5007]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - Tetski changing new owner to MagistracyOfCanopus
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5021]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - Thorin changing new owner to ComStar
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5022]
+2024-07-23T04:29:37 - Thule changing new owner to Elysia
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5020]
+2024-07-23T04:29:37 - Tiskilwa changing new owner to ComStar
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5000]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5009]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5011]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - Tordenskjold changing new owner to Chainelane
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5032]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5020]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5024]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5026]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5024]
+2024-07-23T04:29:37 - Tyrlon changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Ulsan changing new owner to Kurita
+2024-07-23T04:29:37 - Umgard changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5001]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5007]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - Ward changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - Weldry changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5005]
+2024-07-23T04:29:37 - York (Clan) changing new owner to ClanCloudCobra
+2024-07-23T04:29:37 - Zangul changing new owner to AuriganDirectorate
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5005]
+2024-07-23T04:29:37 - Zaurak changing new owner to Liao
+2024-07-23T04:29:37 - Zelmag changing new owner to MagistracyOfCanopus
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - Zosma changing new owner to Marik
+2024-07-23T04:29:37 - Zurich changing new owner to Liao
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5026]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5010]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5011]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5017]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5011]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5010]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5009]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5011]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5010]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5004]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5014]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5015]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5013]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5006]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5013]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5005]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5004]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5023]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5030]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5024]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5024]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5008]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5020]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5018]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5022]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5022]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5003]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5029]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5002]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5005]
+2024-07-23T04:29:37 - System.NullReferenceException: Object reference not set to an instance of an object
+  at PersistentMapClient.Helper.GetFactionName (PersistentMapAPI.Domain.StarSystem system, System.String faction) [0x0001b] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - GetFactionName exception on system [PersistentMapAPI.Domain.StarSystem] faction [5019]
+2024-07-23T04:29:37 - ----Refreshing client settings from server-------
+2024-07-23T04:29:37 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2024-07-23T04:29:37 - Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'System.Collections.Generic.Dictionary`2[System.String,System.Int32]' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'PlanetSlotsByClimate', line 1, position 192.
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract) [0x00058] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.Object existingValue, System.String id) [0x00012] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0007f] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00061] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00268] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0015c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0006d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:37 - ----Refreshing client settings from server-------
+2024-07-23T04:29:37 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2024-07-23T04:29:37 - Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'System.Collections.Generic.Dictionary`2[System.String,System.Int32]' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'PlanetSlotsByClimate', line 1, position 192.
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract) [0x00058] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.Object existingValue, System.String id) [0x00012] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0007f] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00061] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00268] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0015c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0006d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <f7572d72a8c34acdbb305270bd86191d>:0 
+2024-07-23T04:29:39 - ----Refreshing client settings from server-------
+2024-07-23T04:29:39 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2024-07-23T04:29:39 - Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'System.Collections.Generic.Dictionary`2[System.String,System.Int32]' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'PlanetSlotsByClimate', line 1, position 192.
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract) [0x00058] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.Object existingValue, System.String id) [0x00012] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0007f] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue (Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.JsonConverter propertyConverter, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, Newtonsoft.Json.JsonReader reader, System.Object target) [0x00061] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject (System.Object newObject, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.String id) [0x00268] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0015c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0006d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <f7572d72a8c34acdbb305270bd86191d>:0 

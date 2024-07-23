@@ -1,122 +1,262 @@
-20:47:39.774 Assembly version: 0.9.8.6
-20:47:39.775 == Mod Config Initialization Started == 
-20:47:39.776 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
-20:47:39.776 == Mod Config Initialization Complete == 
-20:47:39.778 === MOD CONFIG BEGIN ===
-20:47:39.778   DEBUG: False Trace: False
-20:47:39.778   -- Fixes --
-20:47:39.778   AbilityResourceFix:                 True
-20:47:39.778   AlternateMechNamingStyle:           False
-20:47:39.778   BuildingDamageColorChange:          True
-20:47:39.778   BraceOnMeleeWithJuggernaut:         True
-20:47:39.778   BreachingShotIgnoresAllDR:          False
-20:47:39.779   BulkPurchasing:                     False
-20:47:39.779   BulkScrapping:                      False
-20:47:39.779   CalledShotTweaks:                   True
-20:47:39.779   CombatLog:                          False
-20:47:39.779   DifficultyModsFromStats:            True
-20:47:39.779   DisableCampaign:                    True
-20:47:39.779   DisableDebug:                       True
-20:47:39.779   DisableCombatRestarts:              True
-20:47:39.779   DisableCombatSaves:                 True
-20:47:39.779   DisableMPHashCalculation:           True
-20:47:39.779   DisableFiringStat:                  True
-20:47:39.779   DisableLowFundsNotification:        True
-20:47:39.779   ExplodingBuildingFix:               True
-20:47:39.779   EventRequirementsScopeFix:          True
-20:47:39.779   ExtendedStats:                      True
-20:47:39.779   FactionReputationFixes:             True
-20:47:39.779   FlexibleSensorLock:                 False
-20:47:39.779   MaxArmorMaxesArmor:                 True
-20:47:39.779   MechbayLayout:                      True
-20:47:39.779   MechbayLayoutDisableStore:          True
-20:47:39.779   OnWeaponFireFix:                    True
-20:47:39.779   PainTolerance:                      True
-20:47:39.779   PathfinderTeamFix:                  True
-20:47:39.779   RandomStartByDifficulty:            True
-20:47:39.779   ReduceSaveCompression:              True
-20:47:39.779   ScaleObjectiveBuildingStructure:    True
-20:47:39.779   ShowAllArgoUpgrades:                True
-20:47:39.779   SkipDeleteSavePopup:                True
-20:47:39.779   SkirmishAlwaysUnlimited:            True
-20:47:39.779   SkirmishReset:                      True
-20:47:39.779   SimGameDifficultyLabelsReplacer:    False
-20:47:39.779   SpawnProtection:                    True
-20:47:39.779   StreamlinedMainMenu:                True
-20:47:39.779   TurnDirectorStartFirstRoundFix:     True
-20:47:39.779   TgtComputerTonnageDisplay:          True
-20:47:39.779   UrbanExplosionsFix:                 True
-20:47:39.779   WeaponTooltips:                     True
-20:47:39.779   DamageReductionInCombatHud:         True
-20:47:39.779   DeathChanceStat:                    True
-20:47:39.779   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
-20:47:39.779   TorsoMountStatName:                     isTorsoMount
-20:47:39.779   -- Called Shot --
-20:47:39.779    Disable => AllLocations: True  Headshots: True
-20:47:39.779    Enable => ComplexTacticsModifier: True
-20:47:39.779    BaseModifier:-1
-20:47:39.779    CalledShotDefaultMod:-1
-20:47:39.779   -- Spawn Protection --
-20:47:39.779    ApplyGuard:True  EvasionPips:8
-20:47:39.779    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
-20:47:39.779    ApplyToReinforcements:True
-20:47:39.779   -- Cheat Detection --
-20:47:39.779    CheatDetection:True
-20:47:39.779    CheatDetectionNotify:True
-20:47:39.779    CheatDetectionStat:CheatFoundS2
-20:47:39.779   -- ObstructionTweaks --
-20:47:39.779    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
-20:47:39.779    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
-20:47:39.779    QuadTags:System.Collections.Generic.List`1[System.String]
-20:47:39.779    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
-20:47:39.779   -- Store --
-20:47:39.779    QuantityOnShift:5  QuantityOnControl:20
-20:47:39.779   -- Flexible Sensor Lock Options --
-20:47:39.779    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
-20:47:39.779 === MOD CONFIG END ===
-20:47:39.779 INFO: No errors reading settings file.
-20:47:39.785 Activating Fix: BraceOnMeleeWithJuggernaut
-20:47:39.785 Activating Fix: BuildingDamageColorChange
-20:47:39.785 Activating Fix: CalledShotTweaks
-20:47:39.785 Activating Fix: ExtendedStats
-20:47:39.785 Activating Fix: PainTolerance
-20:47:39.785 Activating Fix: PathfinderTeamFix
-20:47:39.785 Activating Fix: ScaleObjectiveBuildingStructure
-20:47:39.785 Activating Fix: SpawnProtection
-20:47:39.785 Activating Fix: UrbanExplosionsFix
-20:47:39.785 Activating Fix: RandomStartByDifficulty
-20:47:39.785 Activating Fix: DisableCampaign
-20:47:39.785 Activating Fix: DisableLowFundsNotification
-20:47:39.785 Activating Fix: DisableMPHashCalculation
-20:47:39.785 Activating Fix: MultiTargetStat
-20:47:39.785 Activating fix: ReduceSaveCompression.
-20:47:39.785 Activating fix: ShowAllArgoUpgrades.
-20:47:39.785 Activating fix: SkipDeleteSavePopup.
-20:47:39.785 Activating fix: SkirmishReset.
-20:47:39.786 Activating Fix: SkirmishAlwaysUnlimited
-20:47:39.786 Activating Fix: DisableCombatSaves
-20:47:39.786 Activating Fix: DisableCombatRestart
-20:47:39.786 Activating Fix: StreamlinedMainMenu
-20:47:39.807 Activating Fix: WeaponTooltip
-20:47:39.807 Activating Fix: DamageReductionInCombatHud
-20:47:40.567 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
-20:47:40.568 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
-20:47:40.581 M:CK Found INJURY IGNORED instruction at idx: 111
-20:47:40.624 [InitializeEffects] Initializing effects for Brace Effects
-20:47:40.624 EffectData statname: CACAoEDamageMult
-20:47:47.964 Resetting used lances and custom units after PostDeserialize call.
-20:47:47.968 Resetting used lances and custom units after PostDeserialize call.
-20:47:47.968 Resetting used lances and custom units after PostDeserialize call.
-20:47:48.346 Resetting used lances and custom units after PostDeserialize call.
-20:47:50.454 Disabling the campaign button on the main menu.
-20:47:50.475 Disabling the debug buttons in the main menu.
-20:49:44.610 Disabling the campaign button on the main menu.
-20:49:44.610 Disabling the debug buttons in the main menu.
-20:49:52.591 Set battlevalue to 3
-20:50:19.503 Skirmish Mode found, using default value: IRTweaks.CombatOpts+StructureScale
-20:50:33.787 Checking actor:Strike Gundam - Copy_Apex_7B9F1E30 that belongs to team:Player 1
-20:50:33.787  Spawn protecting actor: Strike Gundam - Copy_Apex_7B9F1E30
-20:50:33.787  -- applying Braced state
-20:50:33.974 Checking actor:Strike Gundam - Copy_Apex_7B9F1E30 that belongs to team:Player 1
-20:50:33.974  Spawn protecting actor: Strike Gundam - Copy_Apex_7B9F1E30
-20:50:33.974  -- applying Braced state
+04:26:36.976 Assembly version: 0.9.8.6
+04:26:36.977 == Mod Config Initialization Started == 
+04:26:36.978 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
+04:26:36.978 == Mod Config Initialization Complete == 
+04:26:36.982 === MOD CONFIG BEGIN ===
+04:26:36.982   DEBUG: False Trace: True
+04:26:36.982   -- Fixes --
+04:26:36.982   AbilityResourceFix:                 True
+04:26:36.982   AlternateMechNamingStyle:           False
+04:26:36.982   BuildingDamageColorChange:          True
+04:26:36.982   BraceOnMeleeWithJuggernaut:         True
+04:26:36.982   BreachingShotIgnoresAllDR:          False
+04:26:36.982   BulkPurchasing:                     False
+04:26:36.982   BulkScrapping:                      False
+04:26:36.982   CalledShotTweaks:                   True
+04:26:36.982   CombatLog:                          True
+04:26:36.982   DifficultyModsFromStats:            True
+04:26:36.982   DisableCampaign:                    True
+04:26:36.982   DisableDebug:                       True
+04:26:36.982   DisableCombatRestarts:              True
+04:26:36.982   DisableCombatSaves:                 True
+04:26:36.982   DisableMPHashCalculation:           True
+04:26:36.982   DisableFiringStat:                  True
+04:26:36.982   DisableLowFundsNotification:        True
+04:26:36.982   ExplodingBuildingFix:               True
+04:26:36.982   EventRequirementsScopeFix:          True
+04:26:36.982   ExtendedStats:                      True
+04:26:36.982   FactionReputationFixes:             True
+04:26:36.982   FlexibleSensorLock:                 False
+04:26:36.982   MaxArmorMaxesArmor:                 True
+04:26:36.982   MechbayLayout:                      True
+04:26:36.982   MechbayLayoutDisableStore:          True
+04:26:36.982   OnWeaponFireFix:                    True
+04:26:36.982   PainTolerance:                      True
+04:26:36.982   PathfinderTeamFix:                  True
+04:26:36.982   RandomStartByDifficulty:            True
+04:26:36.982   ReduceSaveCompression:              True
+04:26:36.982   ScaleObjectiveBuildingStructure:    True
+04:26:36.982   ShowAllArgoUpgrades:                True
+04:26:36.982   SkipDeleteSavePopup:                True
+04:26:36.982   SkirmishAlwaysUnlimited:            True
+04:26:36.982   SkirmishReset:                      True
+04:26:36.982   SimGameDifficultyLabelsReplacer:    False
+04:26:36.982   SpawnProtection:                    True
+04:26:36.982   StreamlinedMainMenu:                True
+04:26:36.982   TurnDirectorStartFirstRoundFix:     True
+04:26:36.982   TgtComputerTonnageDisplay:          True
+04:26:36.982   UrbanExplosionsFix:                 True
+04:26:36.982   WeaponTooltips:                     True
+04:26:36.982   DamageReductionInCombatHud:         True
+04:26:36.982   DeathChanceStat:                    True
+04:26:36.983   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
+04:26:36.983   TorsoMountStatName:                     isTorsoMount
+04:26:36.983   -- Called Shot --
+04:26:36.983    Disable => AllLocations: True  Headshots: True
+04:26:36.983    Enable => ComplexTacticsModifier: True
+04:26:36.983    BaseModifier:-1
+04:26:36.983    CalledShotDefaultMod:-1
+04:26:36.983   -- Spawn Protection --
+04:26:36.983    ApplyGuard:True  EvasionPips:8
+04:26:36.983    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
+04:26:36.983    ApplyToReinforcements:True
+04:26:36.983   -- Cheat Detection --
+04:26:36.983    CheatDetection:True
+04:26:36.983    CheatDetectionNotify:True
+04:26:36.983    CheatDetectionStat:CheatFoundS2
+04:26:36.983   -- ObstructionTweaks --
+04:26:36.983    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
+04:26:36.983    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
+04:26:36.983    QuadTags:System.Collections.Generic.List`1[System.String]
+04:26:36.983    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
+04:26:36.983   -- Store --
+04:26:36.983    QuantityOnShift:5  QuantityOnControl:20
+04:26:36.983   -- Flexible Sensor Lock Options --
+04:26:36.983    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
+04:26:36.983 === MOD CONFIG END ===
+04:26:36.983 INFO: No errors reading settings file.
+04:26:36.990 Activating Fix: BraceOnMeleeWithJuggernaut
+04:26:36.990 Activating Fix: BuildingDamageColorChange
+04:26:36.990 Activating Fix: CalledShotTweaks
+04:26:36.990 Activating Fix: ExtendedStats
+04:26:36.990 Activating Fix: PainTolerance
+04:26:36.990 Activating Fix: PathfinderTeamFix
+04:26:36.991 Activating Fix: ScaleObjectiveBuildingStructure
+04:26:36.991 Activating Fix: SpawnProtection
+04:26:36.991 Activating Fix: UrbanExplosionsFix
+04:26:36.991 Activating Fix: RandomStartByDifficulty
+04:26:36.991 Activating Fix: DisableCampaign
+04:26:36.991 Activating Fix: DisableLowFundsNotification
+04:26:36.991 Activating Fix: DisableMPHashCalculation
+04:26:36.991 Activating Fix: MultiTargetStat
+04:26:36.991 Activating fix: ReduceSaveCompression.
+04:26:36.992 Activating fix: ShowAllArgoUpgrades.
+04:26:36.992 Activating fix: SkipDeleteSavePopup.
+04:26:36.992 Activating fix: SkirmishReset.
+04:26:36.992 Activating Fix: CombatLog
+04:26:37.140 Activating Fix: SkirmishAlwaysUnlimited
+04:26:37.140 Activating Fix: DisableCombatSaves
+04:26:37.140 Activating Fix: DisableCombatRestart
+04:26:37.140 Activating Fix: StreamlinedMainMenu
+04:26:37.208 Activating Fix: WeaponTooltip
+04:26:37.208 Activating Fix: DamageReductionInCombatHud
+04:26:40.068 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
+04:26:40.068 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
+04:26:40.102 M:CK Found INJURY IGNORED instruction at idx: 111
+04:26:40.308 [InitializeEffects] Initializing effects for Brace Effects
+04:26:40.309 EffectData statname: CACAoEDamageMult
+04:27:14.139 Resetting used lances and custom units after PostDeserialize call.
+04:27:14.145 Resetting used lances and custom units after PostDeserialize call.
+04:27:14.145 Resetting used lances and custom units after PostDeserialize call.
+04:27:14.531 Resetting used lances and custom units after PostDeserialize call.
+04:27:17.850 Disabling the campaign button on the main menu.
+04:27:17.878 Disabling the debug buttons in the main menu.
+04:28:47.122 P:ISV entered.
+04:28:55.346 P:ISV entered.
+04:28:55.347 P:ISV entered.
+04:28:55.348 P:ISV entered.
+04:28:55.349 P:ISV entered.
+04:28:55.351 P:ISV entered.
+04:28:55.352 P:ISV entered.
+04:28:55.354 P:ISV entered.
+04:29:21.366 P:ISV entered.
+04:29:21.367 P:ISV entered.
+04:29:21.367 P:ISV entered.
+04:29:21.367 P:ISV entered.
+04:29:21.367 P:ISV entered.
+04:29:21.367 P:ISV entered.
+04:29:21.368 P:ISV entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.378 SGCO:AO entered.
+04:29:21.379 SGCO:AO entered.
+04:29:21.379 SGCO:AO entered.
+04:29:21.379 SGCO:AO entered.
+04:29:21.743 CHEATDETECTION: Added key to SimGameFunds with Funds 16436851 on rehydrate, post.
+04:29:21.744 CHEATDETECTION: PilotGen_SGRef_16737: Added SGRef_16738  key to PilotCurrentXP with UnspentXP 8750 on rehydrate, post.
+04:29:21.744 CHEATDETECTION: PilotGen_SGRef_16739: Added SGRef_16740  key to PilotCurrentXP with UnspentXP 9750 on rehydrate, post.
+04:29:21.744 CHEATDETECTION: PilotGen_SGRef_16742: Added SGRef_16743  key to PilotCurrentXP with UnspentXP 8750 on rehydrate, post.
+04:29:21.744 CHEATDETECTION: PilotGen_SGRef_16744: Added SGRef_16745  key to PilotCurrentXP with UnspentXP 2000 on rehydrate, post.
+04:29:21.744 CHEATDETECTION: pilot_Lan: Added SGRef_16898  key to PilotCurrentXP with UnspentXP 50 on rehydrate, post.
+04:29:21.744 CHEATDETECTION: pilot_Indrahim: Added SGRef_16899  key to PilotCurrentXP with UnspentXP 9250 on rehydrate, post.
+04:29:21.744 CHEATDETECTION: commander: Added commander  key to PilotCurrentXP with UnspentXP 7750 on rehydrate, post.
+04:29:28.638 SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
+04:29:30.178 SGCW:I - entered.
+04:29:34.888 SGNB:RFTP - entered button            with 0 flyout buttons for ID: SHIP
+04:29:34.889 SGNB:RFTP - entered button            with 2 flyout buttons for ID: NAVIGATION
+04:29:34.889 SGNB:RFTP - entered button            with 2 flyout buttons for ID: CMD_CENTER
+04:29:34.889 SGNB:RFTP - entered button            with 2 flyout buttons for ID: MECH_BAY
+04:29:34.889 SGNB:RFTP - entered button            with 2 flyout buttons for ID: BARRACKS
+04:29:34.889 SGNB:RFTP - entered button            with 3 flyout buttons for ID: CPT_QUARTER
+04:29:34.889 SGNB:RFTP - entered button            with 2 flyout buttons for ID: ENGINEERING
+04:29:34.890 SGNL:Start - adding new button.
+04:29:34.890  - Creating store button
+04:29:34.896 SGNB:RFTP - entered button            with 0 flyout buttons for ID: SHIP
+04:29:34.896  - Creating staff button
+04:29:34.901 SGNB:RFTP - entered button            with 0 flyout buttons for ID: CMD_CENTER
+04:29:34.902  - Creating memorial button
+04:29:34.907 SGNB:RFTP - entered button            with 0 flyout buttons for ID: BARRACKS
+04:29:39.597 CHEATDETECTION: PilotGen_SGRef_16737: Set tracker SGRef_16738 PilotCurrentXP with UnspentXP 8750 on SGBarracksAdvancementPanel Close, post.
+04:29:39.597 CHEATDETECTION: PilotGen_SGRef_16739: Set tracker SGRef_16740 PilotCurrentXP with UnspentXP 9750 on SGBarracksAdvancementPanel Close, post.
+04:29:39.597 CHEATDETECTION: PilotGen_SGRef_16742: Set tracker SGRef_16743 PilotCurrentXP with UnspentXP 8750 on SGBarracksAdvancementPanel Close, post.
+04:29:39.597 CHEATDETECTION: PilotGen_SGRef_16744: Set tracker SGRef_16745 PilotCurrentXP with UnspentXP 2000 on SGBarracksAdvancementPanel Close, post.
+04:29:39.597 CHEATDETECTION: pilot_Lan: Set tracker SGRef_16898 PilotCurrentXP with UnspentXP 50 on SGBarracksAdvancementPanel Close, post.
+04:29:39.597 CHEATDETECTION: pilot_Indrahim: Set tracker SGRef_16899 PilotCurrentXP with UnspentXP 9250 on SGBarracksAdvancementPanel Close, post.
+04:29:39.598 CHEATDETECTION: commander: Set tracker commander PilotCurrentXP with UnspentXP 7750 on SGBarracksAdvancementPanel Close, post.
+04:29:39.906 SGNB:RFTP - entered button ARGO with 0 flyout buttons for ID: SHIP
+04:29:39.907 SGNB:SSATSD - entered shipType:Argo for ID: SHIP
+04:29:39.907 SGNB:SSATSD - entered shipType:Argo for ID: NAVIGATION
+04:29:39.907 SGNB:RFTP - entered button CMD CENTER with 2 flyout buttons for ID: CMD_CENTER
+04:29:39.907 SGNB:SSATSD - entered shipType:Argo for ID: CMD_CENTER
+04:29:39.907 SGNB:SSATSD - entered shipType:Argo for ID: MECH_BAY
+04:29:39.907 SGNB:SSATSD - entered shipType:Argo for ID: BARRACKS
+04:29:39.907 SGNB:SSATSD - entered shipType:Argo for ID: CPT_QUARTER
+04:29:39.907 SGNB:SSATSD - entered shipType:Argo for ID: ENGINEERING
+04:29:39.974 SGNB:RFTP - entered button ARGO with 0 flyout buttons for ID: SHIP
+04:29:39.974 SGNB:SSATSD - entered shipType:Argo for ID: SHIP
+04:29:39.974 SGNB:SSATSD - entered shipType:Argo for ID: NAVIGATION
+04:29:39.974 SGNB:RFTP - entered button CMD CENTER with 2 flyout buttons for ID: CMD_CENTER
+04:29:39.974 SGNB:SSATSD - entered shipType:Argo for ID: CMD_CENTER
+04:29:39.974 SGNB:SSATSD - entered shipType:Argo for ID: MECH_BAY
+04:29:39.974 SGNB:SSATSD - entered shipType:Argo for ID: BARRACKS
+04:29:39.974 SGNB:SSATSD - entered shipType:Argo for ID: CPT_QUARTER
+04:29:39.974 SGNB:SSATSD - entered shipType:Argo for ID: ENGINEERING
+04:29:40.031 SGNB:RFTP - entered button ARGO with 0 flyout buttons for ID: SHIP
+04:29:40.031 SGNB:SSATSD - entered shipType:Argo for ID: SHIP
+04:29:40.031 SGNB:SSATSD - entered shipType:Argo for ID: NAVIGATION
+04:29:40.031 SGNB:RFTP - entered button CMD CENTER with 2 flyout buttons for ID: CMD_CENTER
+04:29:40.031 SGNB:SSATSD - entered shipType:Argo for ID: CMD_CENTER
+04:29:40.031 SGNB:SSATSD - entered shipType:Argo for ID: MECH_BAY
+04:29:40.031 SGNB:SSATSD - entered shipType:Argo for ID: BARRACKS
+04:29:40.031 SGNB:SSATSD - entered shipType:Argo for ID: CPT_QUARTER
+04:29:40.031 SGNB:SSATSD - entered shipType:Argo for ID: ENGINEERING
+04:29:40.077 SGNB:RFTP - entered button ARGO with 0 flyout buttons for ID: SHIP
+04:29:40.077 SGNB:SSATSD - entered shipType:Argo for ID: SHIP
+04:29:40.077 SGNB:SSATSD - entered shipType:Argo for ID: NAVIGATION
+04:29:40.077 SGNB:RFTP - entered button CMD CENTER with 2 flyout buttons for ID: CMD_CENTER
+04:29:40.077 SGNB:SSATSD - entered shipType:Argo for ID: CMD_CENTER
+04:29:40.077 SGNB:SSATSD - entered shipType:Argo for ID: MECH_BAY
+04:29:40.077 SGNB:SSATSD - entered shipType:Argo for ID: BARRACKS
+04:29:40.077 SGNB:SSATSD - entered shipType:Argo for ID: CPT_QUARTER
+04:29:40.077 SGNB:SSATSD - entered shipType:Argo for ID: ENGINEERING
+04:29:42.141 SGNB:OPE - entered.
+04:29:42.335 SGNB:OPE - entered.
+04:29:42.416 SGNB:OPE - entered.
+04:29:42.667 SGNB:OPE - entered.
+04:29:42.994 SGNB:RFTP - entered button ARGO with 0 flyout buttons for ID: SHIP
+04:29:42.994 SGNB:SSATSD - entered shipType:Argo for ID: SHIP
+04:29:42.994 SGNB:SSATSD - entered shipType:Argo for ID: NAVIGATION
+04:29:42.994 SGNB:RFTP - entered button CMD CENTER with 2 flyout buttons for ID: CMD_CENTER
+04:29:42.994 SGNB:SSATSD - entered shipType:Argo for ID: CMD_CENTER
+04:29:42.994 SGNB:SSATSD - entered shipType:Argo for ID: MECH_BAY
+04:29:42.994 SGNB:SSATSD - entered shipType:Argo for ID: BARRACKS
+04:29:42.994 SGNB:SSATSD - entered shipType:Argo for ID: CPT_QUARTER
+04:29:42.994 SGNB:SSATSD - entered shipType:Argo for ID: ENGINEERING
+04:29:43.021 DEBUG - calling SetSubroom for location:CMD_CENTER and menuType:Contract!
+04:29:43.023 SGNB:RFTP - entered button ARGO with 0 flyout buttons for ID: SHIP
+04:29:43.023 SGNB:SSATSD - entered shipType:Argo for ID: SHIP
+04:29:43.023 SGNB:SSATSD - entered shipType:Argo for ID: NAVIGATION
+04:29:43.023 SGNB:RFTP - entered button CMD CENTER with 2 flyout buttons for ID: CMD_CENTER
+04:29:43.023 SGNB:SSATSD - entered shipType:Argo for ID: CMD_CENTER
+04:29:43.023 SGNB:SSATSD - entered shipType:Argo for ID: MECH_BAY
+04:29:43.023 SGNB:SSATSD - entered shipType:Argo for ID: BARRACKS
+04:29:43.023 SGNB:SSATSD - entered shipType:Argo for ID: CPT_QUARTER
+04:29:43.023 SGNB:SSATSD - entered shipType:Argo for ID: ENGINEERING
+04:29:54.361 SGNB:OPE - entered.
+04:29:54.405 SGNB:OPE - entered.
+04:29:54.495 SGNB:OPE - entered.
+04:29:54.780 SGNB:OPE - entered.
+04:29:54.854 SGNB:OPE - entered.
+04:29:54.920 SGNB:OPE - entered.
+04:29:54.980 SGNB:OPE - entered.
+04:29:55.006 SGNB:OPE - entered.
+04:29:55.039 SGNB:OPE - entered.
