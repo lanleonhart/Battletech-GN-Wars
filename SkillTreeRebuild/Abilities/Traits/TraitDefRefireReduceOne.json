@@ -1,0 +1,113 @@
+{
+	"Description" : {
+		"Id" : "TraitDefRefireReduceOne",
+		"Name" : "Reduced Recoil",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior have their Ballistic recoil penalties reduced by 1.",
+		"Icon" : "uixSvgIcon_ability_mastertactician"
+	},
+	"Type" : "RefireReduction",
+	"ShortDesc" : "-1 Recoil Penalty",
+    "DisplayParams" : "ShowInPilotToolTip",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "TraitDefIndirectReduceOne",
+				"Name" : "Reduced Recoil",
+				"Details" : "Ballistic recoil penalties reduced by 1",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"targetCollection" : "Weapon",
+				"statName" : "RefireModifier",
+				"operation" : "Int_Add",
+				"modValue" : "-1",
+				"modType" : "System.Int32"
+			}
+		},
+		{
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "HalfArmorOrLess",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-BerserkAttack",
+                "Name" : "MELEE DAMAGE INCREASED",
+                "Details" : "Melee attacks deal [AMT] more damage.",
+                "Icon" : "uixSvgIcon_ability_berserk"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "60.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "Melee"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-BerserkFloatie",
+                "Name" : "BERSERK",
+                "Details" : "+60 Melee damage at 50% or less armor.",
+                "Icon" : "uixSvgIcon_ability_berserk"
+            },
+            "effectType" : "FloatieEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : 1,
+                "stackLimit" : 0,
+                "triggerLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnDamaged",
+                "specialRules" : "HalfArmorOrLess",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+            "floatieData" : {
+                "targetCollection" : "NotSet"
+            }
+        }
+	]
+}
