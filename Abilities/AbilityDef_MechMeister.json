@@ -1,0 +1,116 @@
+{
+	"Description" : {
+		"Id" : "AbilityDef_MechMeister",
+		"Name" : "MECH MEISTER",
+		"Details" : "PASSIVE: Experienced MechWarriors recieve bonus movement speed and 25% damage reduction.",
+		"Icon" : "uixSvgIcon_ability_mechmeister"
+	},
+	"ShortDesc" : "+ 25% Move Speed, + 25% Dmg Reduction",
+    "DisplayParams" : "ShowInMWTRay",
+    "ReqSkill" : "Piloting",
+	"ReqSkillLevel" : 8,
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+            "Description" : {
+                "Id" : "StatusEffect-MechMeister-WalkSpeed",
+                "Name" : "MECH MEISTER - WALK SPEED INCREASE",
+                "Details" : "Experienced MechWarriors recieve bonus movement speed and take [AMT] less damage.",
+                "Icon" : "uixSvgIcon_ability_mechmeister"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+				"modValue" : "1.25",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-MechMeister-SprintSpeed",
+                "Name" : "MECH MEISTER - RUN SPEED INCREASE",
+                "Details" : "Experienced MechWarriors recieve bonus movement speed and take [AMT] less damage.",
+                "Icon" : "uixSvgIcon_ability_mechmeister"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+				"modValue" : "1.25",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-MechMeister-DamageReduction",
+                "Name" : "MECH MEISTER - DAMAGE REDUCTION",
+                "Details" : "Experienced MechWarriors recieve bonus movement speed and take [AMT] less damage.",
+                "Icon" : "uixSvgIcon_ability_mechmeister"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Multiply",
+				"modValue" : "0.75",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+	],
+    "IsPrimaryAbility": true
+}
