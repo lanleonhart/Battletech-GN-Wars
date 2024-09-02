@@ -1,0 +1,45 @@
+{
+	"Description" : {
+		"Id" : "AbilityDef_TargetFiring",
+		"Name" : "TARGETED AND FIRING",
+		"Details" : "PASSIVE: Very long and extreme range weapons bypass armor and deal structure damage to the target.",
+		"Icon" : "UixSvgIcon_specialAbility_HiredGuns"
+	},
+	"ShortDesc" : "Hits Bypass Armor",
+    "DisplayParams" : "ShowInMWTRay",
+    "ReqSkill" : "Gunnery",
+	"ReqSkillLevel" : 8,
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+            "Description" : {
+                "Id" : "StatusEffect-LongestRanges",
+                "Name" : "ARMOR BYPASS",
+                "Details" : "Very long and extreme range weapons bypass armor and deal structure damage to the target.",
+                "Icon" : "UixSvgIcon_specialAbility_HiredGuns"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit": -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : false
+            },
+            "statisticData" : {
+                "statName" : "StructureDamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "5.0",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon"
+            }
+        }
+	],
+    "IsPrimaryAbility": true
+}
