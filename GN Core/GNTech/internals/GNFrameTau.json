@@ -1,57 +1,36 @@
 {
   "Custom": {
     "Category": [
-			{
-        "CategoryID": "MS"
-        },
       {
 				"CategoryID": "Structure"
 			}
     ],
-    "CriticalEffects": {
-    "LinkedStatisticName": "GN Frame Tau"
+ 
+      
+      "CriticalEffects": {
   },
-  "Linked": {
-     "Links": [
-          {
-            "ComponentDefId": "Linked_GNFrameTau",
-            "Location": "LeftTorso"
-          },
-          {
-            "ComponentDefId": "Linked_GNFrameTau",
-            "Location": "RightTorso"
-          },
-          {
-            "ComponentDefId": "Linked_GNFrameTau",
-            "Location": "LeftArm"
-          },
-          {
-            "ComponentDefId": "Linked_GNFrameTau",
-            "Location": "RightArm"
-          },
-          {
-            "ComponentDefId": "Linked_GNFrameTau",
-            "Location": "LeftLeg"
-          },
-          {
-            "ComponentDefId": "Linked_GNFrameTau",
-            "Location": "RightLeg"
-          }
-          
-        ]
+  "Weights": {
+    "StructureFactor": 0.75
+  },
+  "DynamicSlots": {
+    "ReservedSlots": 8,
+    "ShowIcon": true,
+    "NameText": "GN Tau Frame",
+    "BonusAText": "Dynamic Slot",
+    "BonusBText": " "
   }
 },
 "Description": {
-  "Cost": 600000,
-  "Rarity": 25,
+  "Cost": 150000,
+  "Rarity": 0,
   "Purchasable": true,
-  "Manufacturer": "Vidar Armaments",
-  "Model": "GN-Frame-Tau",
-  "UIName": "GN Frame Tau",
+  "Manufacturer": "",
+  "Model": "GN-Frame",
+  "UIName": "GN Tau Frame",
   "Id": "GNFrameTau",
-  "Name": "GN Field Tau",
-  "Details": "GN Frame Tau was developed by Vidar Armaments on the planet Flychenia in secret. The Tau frame is the basis for GN Tau Battlemechs,  ",
-  "Icon": ""
+  "Name": "GN Tau Frame",
+  "Details": "Developed for Battlemechs using GN Tau technology. The GN Tau Frame constructed from Endo-Steel and features built GN Particle transmission. Required for using GN Drives",
+  "Icon": "GNFrame"
 },
 "BonusValueA": "",
 "BonusValueB": "",

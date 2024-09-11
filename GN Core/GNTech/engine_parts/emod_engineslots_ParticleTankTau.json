@@ -1,29 +1,28 @@
 {
 "Custom": {
-  "Weights": {
-    "ReservedSlots": 3,
-    "EngineFactor": 0.80
-  
-    
-  },
-  "Category" : { 
-    "CategoryID" : "EngineShield" 
-  },
+  "Category": [
+    {
+      "CategoryID": "EngineShield"
+    }
+  ],
   "WorkOrderCosts": {
     "Install": {
-      "TechCost": "4 * [[Chassis.Tonnage]]",
+      "TechCost": "5 * [[Chassis.Tonnage]]",
       "CBillCost": "227.6 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
     }
   },
+  "Weights": {
+    "ReservedSlots": 4,
+    "EngineFactor": 0.70
+  },
   "BonusDescriptions": [
-    "GNDRIVETAU",
-    "WTFactor: -20%"
-    
+    "WTFactor: -30%",
+    "GNDRIVETAU"
   ],
   "ActivatableComponent": {
-    "ButtonName": "GN Drive",
-    "ActivationMessage": "Flight",
-    "DeactivationMessage": "Standby",
+    "ButtonName": "GN Particle Tank Tau",
+    "ActivationMessage": "FLIGHT",
+    "DeactivationMessage": "STANDBY",
     "CanNotBeActivatedManualy": false,
     "SwitchOffOnFall": true,
     "statusEffects": [
@@ -109,6 +108,60 @@
           "operation": "Set",
           "modValue": "True",
           "modType": "System.Boolean"
+        }
+      },
+      {
+        "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+        },
+        "targetingData": {
+          "effectTriggerType": "Passive",
+          "effectTargetType": "Creator",
+          "forcePathRebuild": true,
+          "showInStatusPanel": true
+        },
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "StatusEffect-Flight-Mode-WalkSpeed",
+          "Name": "Flight Mode Boost",
+          "Details": "Flight Mode gains a movement bonus.",
+          "Icon": "uixSvgIcon_equipment_Gyro"
+        },
+        "nature": "Buff",
+        "statisticData": {
+          "effectsPersistAfterDestruction": false,
+          "statName": "WalkSpeed",
+          "operation": "Float_Multiply",
+          "modValue": "1.9",
+          "modType": "System.Single"
+        }
+      },
+      {
+        "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+        },
+        "targetingData": {
+          "effectTriggerType": "Passive",
+          "effectTargetType": "Creator",
+          "forcePathRebuild": true,
+          "showInStatusPanel": false
+        },
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "StatusEffect-Flight-Mode-RunSpeed",
+          "Name": "Flight mode",
+          "Details": "Flight mode",
+          "Icon": "uixSvgIcon_equipment_Gyro"
+        },
+        "nature": "Buff",
+        "statisticData": {
+          "effectsPersistAfterDestruction": false,
+          "statName": "CBTBE_RunMultiMod",
+          "operation": "Float_Multiply",
+          "modValue": "0.4",
+          "modType": "System.Single"
         }
       },
       {
@@ -220,8 +273,8 @@
       },
       {
         "Description" : {
-            "Id" : "StatusEffect-TauDrive-SprintSpeed",
-            "Name" : "Tau Drive Sprint Buff",
+            "Id" : "StatusEffect-TSM-SprintSpeed",
+            "Name" : "PROTOTYPE TRIPLE MYOMER",
             "Details" : "This unit's improved myomer muscle technology improves its movement speed by [AMT].",
             "Icon" : "UixSvgIcon_specialEquip_System"
         },
@@ -241,7 +294,7 @@
         "statisticData" : {
             "statName" : "RunSpeed",
             "operation" : "Float_Multiply",
-            "modValue" : "1.25",
+            "modValue" : "1.50",
             "modType" : "System.Single",
             "additionalRules" : "NotSet",
             "targetCollection" : "NotSet",
@@ -253,8 +306,8 @@
     },
     {
       "Description" : {
-          "Id" : "StatusEffect-TauDrive-WalkSpeed",
-          "Name" : "Tau Drive Walk Buff",
+          "Id" : "StatusEffect-TSM-WalkSpeed",
+          "Name" : "PROTOTYPE TRIPLE MYOMER",
           "Details" : "This unit's improved myomer muscle technology improves its movement speed by [AMT].",
           "Icon" : "UixSvgIcon_specialEquip_System"
       },
@@ -274,7 +327,7 @@
       "statisticData" : {
           "statName" : "WalkSpeed",
           "operation" : "Float_Multiply",
-          "modValue" : "1.25",
+          "modValue" : "1.50",
           "modType" : "System.Single",
           "additionalRules" : "NotSet",
           "targetCollection" : "NotSet",
@@ -312,15 +365,15 @@
   }
 },
     "Description": {
-    "Cost": 0,
+    "Cost": 2000000,
     "Rarity": 12,
     "Purchasable": false,
-    "Manufacturer": "Agrestral Industries",
-    "Model": "Psuedo Solar Furnace ",
-    "UIName": "GN Drive Tau",
-    "Id": "emod_engineslots_GN_DriveTau",
-    "Name": "Psuedo Solar Furnace",
-    "Details": "GN Drive Taus are imitations of the Comstar's GN Drive Technology, developed by Agrestral Industries. Tau Dries are able to perform the same functions as the latter, they are incapable of semi-perpetual energy generation or storage",
+    "Manufacturer": "",
+    "Model": "Particle Tank",
+    "UIName": "GN Particle Tank",
+    "Id": "emod_engineslots_ParticleTankTau",
+    "Name": "GN Particle Tank",
+    "Details": "Developed to overcome the the limited availability of GN Tau Drives. The particle tanks store compressed Tau Particles to operate the battlemech without a GN Tau Drive. The trade off is limited power for particle weaponry.",
     "Icon": "GNDriveTau"
   },
   "BonusValueA": "",
@@ -336,7 +389,7 @@
   "statusEffects": null,
   "ComponentTags": {
     "items": [
-     "GN_Drive_Tau"
+      "GN_Drive_Tau"
     ],
     "tagSetSourceFile": ""
   }

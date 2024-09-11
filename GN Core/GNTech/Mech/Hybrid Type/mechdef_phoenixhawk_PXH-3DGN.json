@@ -1,19 +1,19 @@
 {
-    "ChassisID": "chassisdef_phoenixhawk_PXH-1",
+    "ChassisID": "chassisdef_phoenixhawk_PXH-3DGN",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4910000,
-        "Rarity": 0,
+        "Cost": 5390000,
+        "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Phoenix Hawk PXH-1",
-        "Id": "mechdef_phoenixhawk_PXH-1",
+        "UIName": "Phoenix Hawk 3DGN",
+        "Id": "mechdef_phoenixhawk_PXH-3DGN",
         "Name": "Phoenix Hawk",
-        "Details": "The PXH-1 is one of the most elegant and agile 'Mechs around, boasting good armor and decent weapons. Sadly, its heat buildup is also noteworthy. Savvy MechWarriors take advantage of this 'Mech's jump capability to land timely shots and then reposition to another vantage point.",
+        "Details": "",
         "Icon": "phoenixhawk"
     },
-    "simGameMechPartCost": 490000,
+    "simGameMechPartCost": 510000,
     "Version": 1,
     "Locations": [
         {
@@ -92,10 +92,22 @@
     "inventory": [
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_engineslots_std",
+            "ComponentDefID": "emod_engineslots_GN_DriveTau",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false,
+            "isFixed": true
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_kit_dhs",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": 0,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -103,29 +115,19 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_engine_270",
+            "ComponentDefID": "GNFrameTau",
             "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": 0,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
-            "hasPrefabName": false
+            "hasPrefabName": false,
+            "isFixed": true
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -136,7 +138,18 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_GNT_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -147,7 +160,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -158,7 +171,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -168,8 +181,30 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_MachineGun",
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "CompactShield",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Weapon_AMS",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -179,32 +214,10 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefID": "Ammo_AmmunitionBox_AMS",
             "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
+            "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
@@ -212,11 +225,11 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_265",
             "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": 0,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -225,8 +238,6 @@
     ],
     "MechTags": {
         "items": [
-"Vanilla",
-            "unit_mech",
             "unit_medium",
             "unit_release",
             "unit_ready",
@@ -237,33 +248,10 @@
             "unit_speed_high",
             "unit_common",
             "Davion",
-            "Kurita",
-            "Liao",
-            "Marik",
             "Steiner",
-            "TaurianConcordat",
-            "MagistracyOfCanopus",
-            "AuriganDirectorate",
-            "AuriganRestoration",
-            "AuriganPirates",
-            "AuriganMercenaries",
-            "Locals",
-            "Axumite",
-            "Castile",
-            "Chainelane",
-            "Delphi",
-            "Elysia",
-            "Hanse",
-            "Illyrian",
+            "Marik",
             "Ives",
-            "JarnFolk",
-            "Lothian",
-            "Marian",
-            "Oberon",
-            "Outworld",
-            "Tortuga",
-            "Valkyrate",
-            "Rim"
+            "unit_hybrid"
         ],
         "tagSetSourceFile": ""
     }
