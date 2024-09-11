@@ -90,6 +90,7 @@
           {"UnitType": "Vehicle", "Limits": [{"Location": "None","Min": 0,"Max": 0}]},
           {"UnitType" : "MobileSuit", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
           {"UnitType" : "MobileSuitHero", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
+          {"UnitType" : "MobileSuitHyrbid", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
           {"UnitType" : "Gundam", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] }
         ]
       },
@@ -138,7 +139,7 @@
         ]
       },
       {
-        //"Name": "LegHipMS",
+        "Name": "LegHipMS",
         "DisplayName": "Hip",
         "BaseLimits": [
            
@@ -162,6 +163,21 @@
             "UnitLimits": [
               {
                 "UnitType": "MobileSuit",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "MobileSuitHybrid",
                 "Limits": [
                   {
                     "Location": "RightLeg",
@@ -228,7 +244,7 @@
               }
     },
     {
-        //"Name": "LegUpperActuatorMS",
+        "Name": "LegUpperActuatorMS",
         "DisplayName": "Upper Leg Actuator",
         "BaseLimits": [
             {
@@ -279,6 +295,21 @@
                 ]
               },
               {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
                 "UnitType": "Gundam",
                 "Limits": [
                   {
@@ -312,7 +343,7 @@
             }
         },
     {
-        //"Name": "LegLowerActuatorMS",
+        "Name": "LegLowerActuatorMS",
         "DisplayName": "Lower Leg Actuator",
         "BaseLimits": [
             {
@@ -363,6 +394,21 @@
                 ]
               },
               {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "Right",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
                 "UnitType": "Gundam",
                 "Limits": [
                   {
@@ -396,7 +442,7 @@
             }
           },
     {
-        //"Name": "LegFootActuatorMS",
+        "Name": "LegFootActuatorMS",
         "DisplayName": "Foot Actuator",
         "BaseLimits": [
             {
@@ -480,7 +526,7 @@
             }
           },
     {
-        //"Name": "ArmShoulderMS",
+        "Name": "ArmShoulderMS",
         "DisplayName": "Shoulder",
         "BaseLimits": [
             {
@@ -509,6 +555,21 @@
                     "Max": 0
                   }
                 ]
+              },
+              {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "RightArm",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftArm",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
               }
           ],
             "CriticalEffects": {
@@ -522,7 +583,7 @@
             }
         },
     {
-       // "Name": "ArmUpperActuatorMS",
+       "Name": "ArmUpperActuatorMS",
         "DisplayName": "Upper Arm Actuator",
         "BaseLimits": [
             {
@@ -552,6 +613,21 @@
                     "Max": 0
                   }
                 ]
+              },
+              {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "RightArm",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftArm",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
               }
           ],
             "CriticalEffects": {
@@ -560,7 +636,7 @@
             }
         },
     {
-       // "Name": "ArmLowerActuatorMS",
+       "Name": "ArmLowerActuatorMS",
         "DisplayName": "Lower Arm Actuator",
         "BaseLimits": [
           {
@@ -588,6 +664,21 @@
                     "Max": 0
                   }
                 ]
+              },
+              {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "RightArm",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftArm",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
               }
           ],
             "CriticalEffects": {
@@ -596,7 +687,7 @@
             }
         },
       {
-       // "Name": "ArmHandActuatorMS",
+       "Name": "ArmHandActuatorMS",
         "DisplayName": "Hand Actuator",
         "BaseLimits": [
             
@@ -629,6 +720,21 @@
                     "Location": "LeftArm",
                     "Min": 0,
                     "Max": 0
+                  }
+                ]
+              },
+              {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "RightArm",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftArm",
+                    "Min": 1,
+                    "Max": 2
                   }
                 ]
               }

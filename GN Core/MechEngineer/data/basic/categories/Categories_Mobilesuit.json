@@ -207,7 +207,7 @@
                 ]
               },
               {
-                "UnitType": "MobileSuitHero",
+                "UnitType": "MobileSuitHybrid",
                 "Limits": [
                   {
                     "Location": "RightLeg",
@@ -310,6 +310,21 @@
                 ]
               },
               {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
                 "UnitType": "Gundam",
                 "Limits": [
                   {
@@ -380,6 +395,21 @@
               },
               {
                 "UnitType": "MobileSuitHero",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
+                "UnitType": "MobileSuitHybrid",
                 "Limits": [
                   {
                     "Location": "RightLeg",
@@ -478,6 +508,21 @@
                 ]
               },
               {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "RightLeg",
+                    "Min": 1,
+                    "Max": 2
+                  },
+                  {
+                    "Location": "LeftLeg",
+                    "Min": 1,
+                    "Max": 2
+                  }
+                ]
+              },
+              {
                 "UnitType": "Gundam",
                 "Limits": [
                   {
@@ -540,6 +585,16 @@
                     "Max": 0
                   }
                 ]
+              },
+              {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "Arms",
+                    "Min": 1,
+                    "Max": 1
+                  }
+                ]
               }
           ],
             "CriticalEffects": {
@@ -583,6 +638,16 @@
                     "Max": 0
                   }
                 ]
+              },
+              {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "Arms",
+                    "Min": 1,
+                    "Max": 1
+                  }
+                ]
               }
           ],
             "CriticalEffects": {
@@ -619,7 +684,17 @@
                     "Max": 0
                   }
                 ]
-              }
+              },
+              {
+                  "UnitType": "MobileSuitHybrid",
+                  "Limits": [
+                    {
+                      "Location": "Arms",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                }
           ],
             "CriticalEffects": {
                 "DestroyedFloatieMessage": "Actuator DESTROYED",
@@ -660,6 +735,16 @@
                     "Location": "LeftArm",
                     "Min": 0,
                     "Max": 0
+                  }
+                ]
+              },
+              {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "Arms",
+                    "Min": 1,
+                    "Max": 1
                   }
                 ]
               }

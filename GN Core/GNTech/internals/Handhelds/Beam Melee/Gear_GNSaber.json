@@ -5,7 +5,7 @@
           "CategoryID": "Melee"
         },
         {
-          "CategoryID": "MSHardPoint"
+          "CategoryID": "HandHeld"
         }
         ],
         "BonusDescriptions": [
@@ -13,249 +13,187 @@
           "DRIVEREQ"
         ]
       },
-    "StatName": null,
-    "RelativeModifier": 0,
-    "AbsoluteModifier": 0,
-    "Description": {
-      "Cost": 300000,
-      "Rarity": 30,
-      "Purchasable": false,
-      "Manufacturer": "Comstar",
-      "Model": "GN",
-      "UIName": "GN Saber",
-      "Id": "Gear_GNSaber",
-      "Name": "GN Saber",
-      "Details": "Handheld beamsaber using condensed GN Particles to cut through enemy armor at close range.",
-    "Icon": "GNSaber"
-    },
-    "BonusValueA": "",
-    "BonusValueB": "",
-    "ComponentType": "Upgrade",
-    "ComponentSubType": "NotSet",
-    "PrefabIdentifier": "",
-    "BattleValue": 0,
-    "InventorySize": 1,
-    "Tonnage": 1,
-    "AllowedLocations": "All",
-    "DisallowedLocations": "All",
-    "CriticalComponent": false,
-    "statusEffects": [
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "MeleeWeaponMechTonScaleDmg",
-          "Name": "GN Saber",
-          "Details": "Damage Modifier",
-          "Icon": "uixSvgIcon_equipment_ActuatorArm"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "CBTBE_Physical_Weapon_Target_Damage_Per_Attacker_Ton",
-          "operation": "Float_Add",
-          "modValue": "0.7",
-          "modType": "System.Single"
-        }
-      },
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "IsPhysicalWeapon",
-          "Name": "GN Saber",
-          "Details": "Damage Modifier",
-          "Icon": "uixSvgIcon_equipment_ActuatorArm"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "CBTBE_Punch_Is_Physical_Weapon",
-          "operation": "Set",
-          "modValue": "true",
-          "modType": "System.Boolean"
-        }
-      },
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "PhysicalWeaponLocation",
-          "Name": "GN Saber",
-          "Details": "This is a physical weapon and hits like a normal weapon.",
-          "Icon": "uixSvgIcon_equipment_Gyro"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "CBTBE_Physical_Weapon_Location_Table",
-          "operation": "Set",
-          "modValue": "STANDARD",
-          "modType": "System.String"
-        }
-      },
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "GNSaber_Damage_Mod",
-          "Name": "GN Saber",
-          "Details": "Damage Modifier",
-          "Icon": "uixSvgIcon_equipment_ActuatorArm"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "CBTBE_Physical_Weapon_Target_Damage_Mod",
-          "operation": "Int_Add",
-          "modValue": "100",
-          "modType": "System.Int32"
-        }
-      },
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "Mace_Stability_Mod",
-          "Name": "GN Saber",
-          "Details": "Damage Modifier",
-          "Icon": "uixSvgIcon_equipment_ActuatorArm"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "CBTBE_Physical_Weapon_Target_Instability_Mod",
-          "operation": "Int_Add",
-          "modValue": "60",
-          "modType": "System.Int32"
-        }
-      },
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "MeleeAccuracy_Mace",
-          "Name": "GNSaber: Reduced Physical Weapon Hit Chance",
-          "Details": "MeleeWeapon Accuracy Modifier",
-          "Icon": "uixSvgIcon_run_n_gun"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "CBTBE_Physical_Weapon_Attack_Mod",
-          "operation": "Int_Add",
-          "modValue": "1",
-          "modType": "System.Int32"
-        }
-      },
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "PhysicalWeaponDealsUnsteady",
-          "Name": "GNSaber: Physical Weapon Target Unsteady on Hit",
-          "Details": "Damage Modifier",
-          "Icon": "uixSvgIcon_equipment_ActuatorArm"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "CBTBE_Physical_Weapon_Unsteady_Target_On_Hit",
-          "operation": "Set",
-          "modValue": "true",
-          "modType": "System.Boolean"
-        }
-      },
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "PhysicalWeaponDealsUnsteadyMiss",
-          "Name": "GNSaber: Physical Weapon Attacker Unsteady on Miss",
-          "Details": "Damage Modifier",
-          "Icon": "uixSvgIcon_equipment_ActuatorArm"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "CBTBE_Physical_Weapon_Unsteady_Attacker_On_Miss",
-          "operation": "Set",
-          "modValue": "true",
-          "modType": "System.Boolean"
-        }
-      }
-    ],
-    "ComponentTags": {
-      "items": [
-        "component_type_stock"
-    
-      ],
-      "tagSetSourceFile": ""
-    }
+    "AnimatorReplacer":{
+			"AnimationSource":"chrPrfMech_hatchetmanBase-001"
+		},
+	"weaponCategoryID": "SpecialHandHeld",
+	"Type": "MachineGun",
+	"WeaponSubType": "MachineGun",
+	"MinRange": 0,
+	"MaxRange": 0,
+	"RangeSplit": [
+		0,
+		0,
+		0
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 0,
+	"Damage": 0,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 0,
+	"Instability": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+	"Description": {
+		"Cost": 12000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "GN Saber",
+		"Id": "Gear_GNSaber",
+		"Name": "GN Saber",
+		"Details": "",
+		"Icon": "GNSaber"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "Arms",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "PunchIsPhysical",
+				"Name": "This is a Physical Weapon",
+				"Details": "This is a physical weapon and uses those melee rules."
+			},
+			"statisticData": {
+				"statName": "CBTBE_Punch_Is_Physical_Weapon",
+				"operation": "Set",
+				"modValue": "true",
+				"modType": "System.Boolean"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0.0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CBTBE_PHYSICAL_WEAPON_LOCATION_TABLE",
+				"Name": "Location table to use",
+				"Details": "Foo"
+			},
+			"statisticData": {
+				"statName": "CBTBE_Physical_Weapon_Location_Table",
+				"operation": "Set",
+				"modValue": "PUNCH",
+				"modType": "System.String"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-SwordBaseDamage",
+				"Name": "Sword Base Damage",
+				"Details": "Swords do 7.5 damage per 10 tons of the mech and do do 7.5 stab damage per 10 tons of the mech.",
+				"Icon": "broadsword"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Physical_Weapon_Target_Damage_Per_Attacker_Ton",
+				"operation": "Set",
+				"modValue": "0.75",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-SwordBaseStabDamage",
+				"Name": "Swords Base Stab Damage",
+				"Details": "Swords do 7.5 stab damage per 10 tons of the mech.",
+				"Icon": "broadsword"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Physical_Weapon_Target_Instability_Per_Attacker_Ton",
+				"operation": "Set",
+				"modValue": "0.75",
+				"modType": "System.Single"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_close"
+		],
+		"tagSetSourceFile": ""
+	}
 }
 
   

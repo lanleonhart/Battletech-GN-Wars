@@ -54,6 +54,21 @@
                   ]
                 },
                 {
+                "UnitType": "MobileSuitHybrid",
+                "Limits": [
+                  {
+                    "Location": "LeftTorso",
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  {
+                    "Location": "RightTorso",
+                    "Min": 0,
+                    "Max": 0
+                  }
+                ]
+              },
+                {
                   "UnitType": "Gundam",
                   "Limits": [
                     {
@@ -250,12 +265,12 @@
             "BaseLimits": [
                 {
                     "Location": "RightArm",
-                    "Min": 0,
+                    "Min": 1,
                     "Max": 0
                 },
                 {
                     "Location": "LeftArm",
-                    "Min": 0,
+                    "Min": 1,
                     "Max": 0
                 }
             ],
@@ -310,6 +325,36 @@
                       "Location": "RightArm",
                       "Min": 1,
                       "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "MobileSuitHybrid",
+                  "Limits": [
+                    {
+                      "Location": "LeftArm",
+                      "Min": 1,
+                      "Max": 1
+                    },
+                    {
+                      "Location": "RightArm",
+                      "Min": 1,
+                      "Max": 1
+                    }
+                  ]
+                },
+                {
+                  "UnitType": "Mech",
+                  "Limits": [
+                    {
+                      "Location": "LeftArm",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    {
+                      "Location": "RightArm",
+                      "Min": 0,
+                      "Max": 0
                     }
                   ]
                 },

@@ -1,21 +1,10 @@
 {
     "Custom": {
-    "Weights": {
-			"EngineFactor": 0.5
-		},
-		"BonusDescriptions": [
-            "EngineWeight: - 50%"
-        ],
-        "WorkOrderCosts": {
-            "Install": {
-              "TechCost": "2.2 * [[Chassis.Tonnage]]",
-              "CBillCost": "50.5 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+        "Category": [
+            {
+                "CategoryID": "EngineShield"
             }
-		},
-		"Category" : [
-			{"CategoryID": "EngineShield"},
-			{"CategoryID": "EnginePart"}
-		]
+        ]
     },
     "Description": {
         "Cost": 1200000,
