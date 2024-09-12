@@ -10,7 +10,8 @@
         "UIName": "Assassin ASN-21",
         "Id": "mechdef_assassin_ASN-21",
         "Name": "Assassin",
-        "Details": "The ASN-21 lives up to its name, at least against lighter units. It has astounding jump capability in addition to its ground speed and a flexible weapons package. It has poor armor for its tonnage, however, so it's best at hit-and-run attacks.", "Icon": "Assassin"
+        "Details": "The ASN-21 lives up to its name, at least against lighter units. It has astounding jump capability in addition to its ground speed and a flexible weapons package. It has poor armor for its tonnage, however, so it's best at hit-and-run attacks.",
+        "Icon": "Assassin"
     },
     "simGameMechPartCost": 440000,
     "Version": 1,
@@ -231,11 +232,22 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_280",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
     ],
     "MechTags": {
         "items": [
-"Vanilla",
+            "Vanilla",
             "unit_mech",
             "unit_medium",
             "unit_release",

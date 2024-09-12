@@ -13,7 +13,7 @@
         "Details": "The well-known Archer is the epitome of the \"missile boat\" concept. It is commonly found hurling deadly swarms of LRMs at targets from behind the safety of a hill. It's not too shabby in closer-range fights, either. Its only real weakness is terrible heat management.",
         "Icon": "Archer"
     },
-    "prefabOverride" : "chrPrfMech_archer_BHABase-001",
+    "prefabOverride": "chrPrfMech_archer_BHABase-001",
     "simGameMechPartCost": 840000,
     "Version": 1,
     "Locations": [
@@ -222,11 +222,22 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_280",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
     ],
     "MechTags": {
         "items": [
-"Vanilla",
+            "Vanilla",
             "unit_mech",
             "unit_heavy",
             "unit_release",

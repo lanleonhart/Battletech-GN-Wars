@@ -13,7 +13,7 @@
         "Details": "The Archer's 2S variant trades some of its long-range punch to become even deadlier when it gets up close, mounting SRMs to follow up what its LRMs have battered. Its heat management still poses a huge problem, though, so its pilots have to stay very wary of overheating.",
         "Icon": "Archer"
     },
-    "prefabOverride" : "chrPrfMech_archer_BlackWidowBase-001",
+    "prefabOverride": "chrPrfMech_archer_BlackWidowBase-001",
     "simGameMechPartCost": 860000,
     "Version": 1,
     "Locations": [
@@ -277,11 +277,22 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_280",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
     ],
     "MechTags": {
         "items": [
-"Vanilla",
+            "Vanilla",
             "unit_mech",
             "unit_heavy",
             "unit_release",

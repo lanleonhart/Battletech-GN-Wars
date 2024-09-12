@@ -13,7 +13,7 @@
         "Details": "The Warhammer 6R is a legendary 'Mech that's often found in the thick of combat, hurling PPC bolts at its foes. It's not the most heavily armored brawler but it tends to give at least as good as it gets, especially with any Energy-based weapons.",
         "Icon": "Warhammer"
     },
-    "prefabOverride" : "chrPrfMech_warhammer_BlackWidowBase-001",
+    "prefabOverride": "chrPrfMech_warhammer_BlackWidowBase-001",
     "simGameMechPartCost": 820000,
     "Version": 1,
     "Locations": [
@@ -299,11 +299,22 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_280",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
     ],
     "MechTags": {
         "items": [
-"Vanilla",
+            "Vanilla",
             "unit_mech",
             "unit_heavy",
             "unit_release",

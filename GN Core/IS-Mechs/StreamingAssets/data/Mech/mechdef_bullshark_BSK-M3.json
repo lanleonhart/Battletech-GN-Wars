@@ -13,12 +13,12 @@
         "Details": "This is something brand-new to me, Commander. I don't know where this 'Mech came from, but it's a serious force to be reckoned with because of its heavy weaponry and nearly impenetrable armor. Quite a find!",
         "Icon": "uixTxrIcon_bullshark"
     },
-    "RequiredToSpawnCompanyTags" : {
-        "items" : [
-"Vanilla",
+    "RequiredToSpawnCompanyTags": {
+        "items": [
+            "Vanilla",
             "flashpoint_HM5_hourglass_complete"
         ],
-        "tagSetSourceFile" : ""
+        "tagSetSourceFile": ""
     },
     "simGameMechPartCost": 3020000,
     "Version": 1,
@@ -294,11 +294,22 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_190",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
     ],
     "MechTags": {
         "items": [
-"Vanilla",
+            "Vanilla",
             "unit_mech",
             "unit_assault",
             "unit_release",

@@ -1,7 +1,7 @@
 {
     "MechTags": {
         "items": [
-"Vanilla",
+            "Vanilla",
             "unit_mech",
             "unit_heavy",
             "unit_lance_tank",
@@ -9,16 +9,16 @@
             "unit_electronicWarfare",
             "unit_release",
             "unit_dlc",
-			"unit_range_medium",
-			"unit_hot",
-			"unit_speed_low",
-			"NotDavion",
-			"NotKurita",
-			"Liao",
-			"NotMarik",
-			"NotSteiner",
-			"NotMagistracyOfCanopus",
-			"NotTaurianConcordat"
+            "unit_range_medium",
+            "unit_hot",
+            "unit_speed_low",
+            "NotDavion",
+            "NotKurita",
+            "Liao",
+            "NotMarik",
+            "NotSteiner",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
@@ -36,12 +36,12 @@
         "Details": "The Cataphract 0X \u2014 much like the lighter Raven \u2014 is an experimental model designed to carry a new generation of electronic warfare gear. Though less well-armed than other Cataphract variants, it's able to hold its own on the battlefield.",
         "Icon": "Cataphract"
     },
-    "RequiredToSpawnCompanyTags" : {
-        "items" : [
-"Vanilla",
+    "RequiredToSpawnCompanyTags": {
+        "items": [
+            "Vanilla",
             "flashpoint_uw1_complete"
         ],
-        "tagSetSourceFile" : ""
+        "tagSetSourceFile": ""
     },
     "simGameMechPartCost": 1160000,
     "Version": 1,
@@ -222,6 +222,17 @@
         {
             "MountedLocation": "RightLeg",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_280",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,

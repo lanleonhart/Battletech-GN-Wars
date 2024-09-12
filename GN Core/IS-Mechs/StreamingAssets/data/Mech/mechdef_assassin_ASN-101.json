@@ -10,7 +10,8 @@
         "UIName": "Assassin ASN-101",
         "Id": "mechdef_assassin_ASN-101",
         "Name": "Assassin",
-        "Details": "The ASN-101 is a rare Assassin variant that reduces jump capability and trims some of its already-thin armor to mount additional weapons. The extra punch meshes well with its advanced tracking systems.", "Icon": "Assassin"
+        "Details": "The ASN-101 is a rare Assassin variant that reduces jump capability and trims some of its already-thin armor to mount additional weapons. The extra punch meshes well with its advanced tracking systems.",
+        "Icon": "Assassin"
     },
     "simGameMechPartCost": 420000,
     "Version": 1,
@@ -242,11 +243,22 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_280",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
     ],
     "MechTags": {
         "items": [
-"Vanilla",
+            "Vanilla",
             "unit_mech",
             "unit_medium",
             "unit_release",

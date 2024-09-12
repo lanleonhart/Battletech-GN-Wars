@@ -1,19 +1,19 @@
 {
     "MechTags": {
         "items": [
-"Vanilla",
+            "Vanilla",
             "unit_mech",
             "unit_assault",
             "unit_lance_tank",
             "unit_role_brawler",
             "unit_release",
-			"unit_range_medium",
-			"unit_indirectFire",
-			"unit_jumpOK",
-			"unit_speed_low",
-			"unit_armor_high",
-			"Liao",
-			"Steiner"
+            "unit_range_medium",
+            "unit_indirectFire",
+            "unit_jumpOK",
+            "unit_speed_low",
+            "unit_armor_high",
+            "Liao",
+            "Steiner"
         ],
         "tagSetSourceFile": ""
     },
@@ -29,7 +29,7 @@
         "Id": "mechdef_highlander_HGN-733",
         "Name": "Highlander",
         "Details": "The Highlander 733 is one of the few jump-capable assault 'Mechs. A mixture of medium- and long-range weaponry ensures that while the Highlander excels at no particular role, it is decent at all of them.",
-         "Icon": "Highlander"
+        "Icon": "Highlander"
     },
     "simGameMechPartCost": 1080000,
     "Version": 1,
@@ -279,6 +279,17 @@
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_270",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
