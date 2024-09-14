@@ -9,7 +9,7 @@
         "Id": "chassisdef_dragon_DRG-5N",
         "Name": "Dragon",
         "Details": "The 5N variant of the Dragon was used as a bridge between it and the Grand Dragon. This field upgrade, which utilizes formerly lost technology, upgrades its normal autocannon to an Ultra Autocannon/5, which is capable of firing at twice the rate of a standard model. Additionally, the rear-facing medium laser has been removed from the 'Mech. ",
-         "Icon": "Dragon"
+        "Icon": "Dragon"
     },
     "MovementCapDefID": "movedef_dragon_DRG-1N",
     "PathingCapDefID": "pathingdef_heavy",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_dragonBase-001",
     "PrefabBase": "dragon",
     "Tonnage": 60,
-    "InitialTonnage": 31,
+    "InitialTonnage": 6.0,
     "weightClass": "HEAVY",
     "BattleValue": 5383000,
     "Heatsinks": 0,
@@ -49,9 +49,7 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-        
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 55,
@@ -78,9 +76,7 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 210,
@@ -193,7 +189,9 @@
     ],
     "VariantName": "DRG-5N",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

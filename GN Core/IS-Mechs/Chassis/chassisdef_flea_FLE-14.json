@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_fleaBase-001",
     "PrefabBase": "flea",
     "Tonnage": 15,
-    "InitialTonnage": 5,
+    "InitialTonnage": 1.5,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 6,
@@ -55,9 +55,7 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 30,
@@ -109,7 +107,6 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-                
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -186,10 +183,12 @@
     ],
     "VariantName": "FLE-14",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout",
     "YangsThoughts": "",
-    "FixedEquipment" : []
+    "FixedEquipment": []
 }

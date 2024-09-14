@@ -9,7 +9,7 @@
         "Id": "chassisdef_dragon_DRG-1C",
         "Name": "Dragon",
         "Details": "The 1C Dragon replaces the Autocannon/5 with a longer range Autocannon/2 and adds three additional tons of armor protection. This allows the Dragon to have an ever further direct fire reach, while reducing the direct fire capability at range by sixty percent.",
-         "Icon": "Dragon"
+        "Icon": "Dragon"
     },
     "MovementCapDefID": "movedef_dragon_DRG-1N",
     "PathingCapDefID": "pathingdef_heavy",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_dragonBase-001",
     "PrefabBase": "dragon",
     "Tonnage": 60,
-    "InitialTonnage": 31,
+    "InitialTonnage": 6.0,
     "weightClass": "HEAVY",
     "BattleValue": 5383000,
     "Heatsinks": 0,
@@ -81,9 +81,7 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 210,
@@ -195,7 +193,9 @@
     ],
     "VariantName": "DRG-2Y",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

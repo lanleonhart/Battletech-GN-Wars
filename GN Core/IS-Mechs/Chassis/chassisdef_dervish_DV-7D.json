@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_dervishbase-001",
     "PrefabBase": "dervish",
     "Tonnage": 55,
-    "InitialTonnage": 5,
+    "InitialTonnage": 5.5,
     "weightClass": "MEDIUM",
     "BattleValue": 4665000,
     "Heatsinks": 0,
@@ -78,10 +78,10 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                "WeaponMount": "Missile",
-                "Omni": false
-            }
-        ],
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 110,
@@ -194,7 +194,9 @@
     ],
     "VariantName": "DV-7D",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
