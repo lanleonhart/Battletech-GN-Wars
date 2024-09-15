@@ -119,60 +119,6 @@
           "effectTriggerType": "Passive",
           "effectTargetType": "Creator",
           "forcePathRebuild": true,
-          "showInStatusPanel": true
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "StatusEffect-Flight-Mode-WalkSpeed",
-          "Name": "Flight Mode Boost",
-          "Details": "Flight Mode gains a movement bonus.",
-          "Icon": "uixSvgIcon_equipment_Gyro"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "effectsPersistAfterDestruction": false,
-          "statName": "WalkSpeed",
-          "operation": "Float_Multiply",
-          "modValue": "1.9",
-          "modType": "System.Single"
-        }
-      },
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "forcePathRebuild": true,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "StatusEffect-Flight-Mode-RunSpeed",
-          "Name": "Flight mode",
-          "Details": "Flight mode",
-          "Icon": "uixSvgIcon_equipment_Gyro"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "effectsPersistAfterDestruction": false,
-          "statName": "CBTBE_RunMultiMod",
-          "operation": "Float_Multiply",
-          "modValue": "0.4",
-          "modType": "System.Single"
-        }
-      },
-      {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "forcePathRebuild": true,
           "showInStatusPanel": false
         },
         "effectType": "StatisticEffect",
