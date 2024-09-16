@@ -9,7 +9,7 @@
         "Id": "chassisdef_Ostroc_OSR-9C",
         "Name": "Ostroc MK II",
         "Details": "This FrankenMech variant of the Ostroc, built with parts from the Ostwar,[22] swaps the SRM-4 for one SRM-2 launcher in each arm, with one ton of ammunition in the center torso. Half a ton of armor was added to the front torso and legs (adding one point to each leg and side torso, and four to center torso), and four more heat sinks were installed along with three jump jets for a jump capacity of 90 meters. To make room for these components, the engine had to be changed to a Pitban 240, reducing the top speed to 64.8 km/h.",
-         "Icon": "Ostroc"
+        "Icon": "Ostroc"
     },
     "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
     "PathingCapDefID": "pathingdef_heavy",
@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 15
@@ -65,7 +65,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -87,18 +87,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 40,
             "InternalStructure": 70
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-               
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 220,
             "MaxRearArmor": 60,
             "InternalStructure": 100
@@ -116,7 +114,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 40,
             "InternalStructure": 70
@@ -130,7 +128,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -139,7 +137,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 70
@@ -148,7 +146,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 70
@@ -200,7 +198,9 @@
     ],
     "VariantName": "OSR-9C",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

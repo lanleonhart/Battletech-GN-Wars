@@ -14,8 +14,8 @@
     "MovementCapDefID": "movedef_rifleman_RFL-4D",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_ostwar",
-  "PrefabIdentifier": "chrprfmech_ostwarhotd-001",
-  "PrefabBase": "ostwar",
+    "PrefabIdentifier": "chrprfmech_ostwarhotd-001",
+    "PrefabBase": "ostwar",
     "Tonnage": 65,
     "InitialTonnage": 6.5,
     "weightClass": "HEAVY",
@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 15
@@ -69,29 +69,25 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 140,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 180,
             "MaxRearArmor": 90,
             "InternalStructure": 50
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 175,
             "MaxRearArmor": 135,
             "InternalStructure": 105
@@ -105,7 +101,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 180,
             "MaxRearArmor": 90,
             "InternalStructure": 50
@@ -123,7 +119,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 140,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -132,7 +128,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 180,
             "MaxRearArmor": -1,
             "InternalStructure": 75
@@ -141,7 +137,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 180,
             "MaxRearArmor": -1,
             "InternalStructure": 75
@@ -193,7 +189,9 @@
     ],
     "VariantName": "CTS-6Y",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

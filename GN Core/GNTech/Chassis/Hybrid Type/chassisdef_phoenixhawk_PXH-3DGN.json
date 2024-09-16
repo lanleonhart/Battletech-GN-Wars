@@ -1,49 +1,47 @@
 {
     "CustomParts": {
         "AlternateRepresentations": [
-          {
-            "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001",
-            "AdditionalPrefabs": [],
-            "PrefabBase": "madba",
-            "HardpointDataDef": "hardpointdatadef_phoenixhawk",
-            "Type": "AirMech",
-            "HoveringSoundStart": "",
-            "HoveringSoundEnd": "",
-            "SwitchInAudio": "GNAscend",
-            "SwitchOutAudio": "GNDescend",
-            "additionalEncounterTags": [
-              
-            ],
-            "FlyHeight": 12.0,
-            "NoJumpjetsBlock": true,
-            "AirMechVerticalJets": [
-              {
-                "Prefab": "vf11lam_vjets_left_leg",
-                "Attach": "j_LHeel",
-                "JetsAttachPoints": [
-                  "jetAttachPoint"
+            {
+                "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001",
+                "AdditionalPrefabs": [],
+                "PrefabBase": "madba",
+                "HardpointDataDef": "hardpointdatadef_phoenixhawk",
+                "Type": "AirMech",
+                "HoveringSoundStart": "",
+                "HoveringSoundEnd": "",
+                "SwitchInAudio": "GNAscend",
+                "SwitchOutAudio": "GNDescend",
+                "additionalEncounterTags": [],
+                "FlyHeight": 12.0,
+                "NoJumpjetsBlock": true,
+                "AirMechVerticalJets": [
+                    {
+                        "Prefab": "vf11lam_vjets_left_leg",
+                        "Attach": "j_LHeel",
+                        "JetsAttachPoints": [
+                            "jetAttachPoint"
+                        ]
+                    },
+                    {
+                        "Prefab": "vf11lam_vjets_right_leg",
+                        "Attach": "j_RHeel",
+                        "JetsAttachPoints": [
+                            "jetAttachPoint"
+                        ]
+                    },
+                    {
+                        "Prefab": "vf11lam_vjets_torso",
+                        "Attach": "j_Spine2",
+                        "JetsAttachPoints": [
+                            "jetAttachPoint"
+                        ]
+                    }
                 ]
-              },
-              {
-                "Prefab": "vf11lam_vjets_right_leg",
-                "Attach": "j_RHeel",
-                "JetsAttachPoints": [
-                  "jetAttachPoint"
-                ]
-              },
-              {
-                "Prefab": "vf11lam_vjets_torso",
-                "Attach": "j_Spine2",
-                "JetsAttachPoints": [
-                  "jetAttachPoint"
-                ]
-              }
-            ]
-          }
+            }
         ]
-      },
+    },
     "Description": {
-        "Cost": 82576000,
+        "Cost": 11600000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
@@ -52,7 +50,7 @@
         "Id": "chassisdef_phoenixhawk_PXH-3DGN",
         "Name": "Phoenix Hawk",
         "Details": "This Phoenix Hawk 3D has been upgrade with GN weaponry and components. This is Davions first machine utilizing GN weaponry developed by using data stolen from ComStar. This machine has been exported to the Free Worlds League,Lyran Commonwealth, and St. Ives.",
-         "Icon": "phoenixhawk"
+        "Icon": "phoenixhawk"
     },
     "MovementCapDefID": "movedef_centurion_CN9-A",
     "PathingCapDefID": "pathingdef_medium",
@@ -99,7 +97,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -110,18 +108,18 @@
                 {
                     "WeaponMountID": "SpecialHandHeld",
                     "Omni": false
-                  },
-                  {
+                },
+                {
                     "WeaponMountID": "Energy",
                     "Omni": false
-                  },
-                  {
+                },
+                {
                     "WeaponMountID": "Energy",
                     "Omni": false
-                  }
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 110,
             "MaxRearArmor": -1,
             "InternalStructure": 30
@@ -135,18 +133,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 140,
             "MaxRearArmor": 50,
             "InternalStructure": 30
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 170,
             "MaxRearArmor": 50,
             "InternalStructure": 60
@@ -160,7 +156,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 140,
             "MaxRearArmor": 50,
             "InternalStructure": 30
@@ -171,10 +167,10 @@
                 {
                     "WeaponMountID": "SpecialHandHeld",
                     "Omni": false
-                  }
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 110,
             "MaxRearArmor": -1,
             "InternalStructure": 25
@@ -183,8 +179,8 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor":140,
+            "InventorySlots": 6,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
@@ -192,7 +188,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 140,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -244,7 +240,9 @@
     ],
     "VariantName": "PXH-3DGN",
     "ChassisTags": {
-        "items": [""],
+        "items": [
+            ""
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Hybrid GN Battlemech",

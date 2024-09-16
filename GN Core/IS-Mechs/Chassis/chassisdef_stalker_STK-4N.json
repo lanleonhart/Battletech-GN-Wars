@@ -39,19 +39,19 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage" : 115,
-    "MeleeInstability" : 90,
-    "MeleeToHitModifier" : 0,
-    "DFADamage" : 115,
-    "DFAToHitModifier" : 0,
-    "DFASelfDamage" : 115,
-    "DFAInstability" : 115,
+    "MeleeDamage": 115,
+    "MeleeInstability": 90,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 115,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 115,
+    "DFAInstability": 115,
     "Locations": [
         {
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -69,7 +69,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 230,
             "MaxRearArmor": -1,
             "InternalStructure": 70
@@ -77,7 +77,6 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-                
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -88,7 +87,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 250,
             "MaxRearArmor": 70,
             "InternalStructure": 90
@@ -97,7 +96,7 @@
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 360,
             "MaxRearArmor": 70,
             "InternalStructure": 135
@@ -115,7 +114,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 250,
             "MaxRearArmor": 70,
             "InternalStructure": 90
@@ -137,17 +136,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 230,
             "MaxRearArmor": -1,
             "InternalStructure": 70
-
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 250,
             "MaxRearArmor": -1,
             "InternalStructure": 90
@@ -156,7 +154,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 250,
             "MaxRearArmor": -1,
             "InternalStructure": 90
@@ -208,7 +206,9 @@
     ],
     "VariantName": "STK-4N",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",

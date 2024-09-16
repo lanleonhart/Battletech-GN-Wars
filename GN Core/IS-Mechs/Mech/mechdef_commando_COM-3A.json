@@ -7,12 +7,12 @@
             "unit_ready",
             "unit_lance_assassin",
             "unit_role_scout",
-			"unit_range_medium",
-			"unit_speed_high",
-			"NotLiao",
-			"Steiner",
-			"NotMagistracyOfCanopus",
-			"NotTaurianConcordat"
+            "unit_range_medium",
+            "unit_speed_high",
+            "NotLiao",
+            "Steiner",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
@@ -28,7 +28,7 @@
         "Id": "mechdef_commando_COM-3A",
         "Name": "Commando",
         "Details": "The COM-3A carries two SRM-6 launchers, a medium laser and a flamer. This was accomplished by removing the SRM-4 launcher and lowering the amount of armor on the 'Mech by one ton. This variant appeared in 3025 and became quite popular because of its hitting power.",
-         "Icon": "Commando"
+        "Icon": "Commando"
     },
     "simGameMechPartCost": 250000,
     "Version": 1,
@@ -40,7 +40,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 16,
             "AssignedArmor": 20,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -49,7 +50,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 20,
             "AssignedArmor": 20,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -58,7 +60,8 @@
             "CurrentRearArmor": 10,
             "CurrentInternalStructure": 30,
             "AssignedArmor": 20,
-            "AssignedRearArmor": 15
+            "AssignedRearArmor": 15,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -67,7 +70,8 @@
             "CurrentRearArmor": 20,
             "CurrentInternalStructure": 40,
             "AssignedArmor": 30,
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 20,
+            "InventorySlots": 16
         },
         {
             "DamageLevel": "Functional",
@@ -76,7 +80,8 @@
             "CurrentRearArmor": 10,
             "CurrentInternalStructure": 30,
             "AssignedArmor": 20,
-            "AssignedRearArmor": 15
+            "AssignedRearArmor": 15,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -85,7 +90,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 20,
             "AssignedArmor": 20,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -94,7 +100,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 30,
             "AssignedArmor": 30,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -103,7 +110,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 30,
             "AssignedArmor": 30,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         }
     ],
     "inventory": [
@@ -195,7 +203,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-       {
+        {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
@@ -217,7 +225,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-       {
+        {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
@@ -228,6 +236,5 @@
             "prefabName": null,
             "hasPrefabName": false
         }
-        
     ]
 }

@@ -1,47 +1,45 @@
 {
     "CustomParts": {
         "AlternateRepresentations": [
-          {
-            "PrefabIdentifier": "chrprfmech_madbabase-001",
-            "AdditionalPrefabs": [],
-            "PrefabBase": "madba",
-            "HardpointDataDef": "hardpointdatadef_marauder",
-            "Type": "AirMech",
-            "HoveringSoundStart": "",
-            "HoveringSoundEnd": "",
-            "SwitchInAudio": "GNAscend",
-            "SwitchOutAudio": "GNDescend",
-            "additionalEncounterTags": [
-              
-            ],
-            "FlyHeight": 8.0,
-            "NoJumpjetsBlock": true,
-            "AirMechVerticalJets": [
-              {
-                "Prefab": "vf11lam_vjets_left_leg",
-                "Attach": "j_LHeel",
-                "JetsAttachPoints": [
-                  "jetAttachPoint"
+            {
+                "PrefabIdentifier": "chrprfmech_madbabase-001",
+                "AdditionalPrefabs": [],
+                "PrefabBase": "madba",
+                "HardpointDataDef": "hardpointdatadef_marauder",
+                "Type": "AirMech",
+                "HoveringSoundStart": "",
+                "HoveringSoundEnd": "",
+                "SwitchInAudio": "GNAscend",
+                "SwitchOutAudio": "GNDescend",
+                "additionalEncounterTags": [],
+                "FlyHeight": 8.0,
+                "NoJumpjetsBlock": true,
+                "AirMechVerticalJets": [
+                    {
+                        "Prefab": "vf11lam_vjets_left_leg",
+                        "Attach": "j_LHeel",
+                        "JetsAttachPoints": [
+                            "jetAttachPoint"
+                        ]
+                    },
+                    {
+                        "Prefab": "vf11lam_vjets_right_leg",
+                        "Attach": "j_RHeel",
+                        "JetsAttachPoints": [
+                            "jetAttachPoint"
+                        ]
+                    },
+                    {
+                        "Prefab": "vf11lam_vjets_torso",
+                        "Attach": "j_Spine2",
+                        "JetsAttachPoints": [
+                            "jetAttachPoint"
+                        ]
+                    }
                 ]
-              },
-              {
-                "Prefab": "vf11lam_vjets_right_leg",
-                "Attach": "j_RHeel",
-                "JetsAttachPoints": [
-                  "jetAttachPoint"
-                ]
-              },
-              {
-                "Prefab": "vf11lam_vjets_torso",
-                "Attach": "j_Spine2",
-                "JetsAttachPoints": [
-                  "jetAttachPoint"
-                ]
-              }
-            ]
-          }
+            }
         ]
-      },
+    },
     "Description": {
         "Cost": 2600000,
         "Rarity": 1,
@@ -91,7 +89,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 60,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -102,10 +100,10 @@
                 {
                     "WeaponMountID": "SpecialHandHeld",
                     "Omni": false
-                  }
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 60
@@ -116,14 +114,14 @@
                 {
                     "WeaponMountID": "MSHardPoint",
                     "Omni": false
-                  },
-                  {
+                },
+                {
                     "WeaponMountID": "MSHardPoint",
                     "Omni": false
-                  }
-        ],
+                }
+            ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 240,
             "MaxRearArmor": 80,
             "InternalStructure": 80
@@ -132,7 +130,7 @@
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 290,
             "MaxRearArmor": 115,
             "InternalStructure": 110
@@ -143,14 +141,14 @@
                 {
                     "WeaponMountID": "MSHardPoint",
                     "Omni": false
-                  },
-                  {
+                },
+                {
                     "WeaponMountID": "MSHardPoint",
                     "Omni": false
-                  }
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 240,
             "MaxRearArmor": 80,
             "InternalStructure": 80
@@ -161,10 +159,10 @@
                 {
                     "WeaponMountID": "SpecialHandHeld",
                     "Omni": false
-                  }
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 60
@@ -173,7 +171,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
             "InternalStructure": 80
@@ -182,7 +180,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
             "InternalStructure": 80
@@ -243,11 +241,11 @@
     "YangsThoughts": "",
     "FixedEquipment": [
         {
-          "MountedLocation": "CenterTorso",
-          "ComponentDefID": "emod_engineslots_GN_Drive",
-          "ComponentDefType": "HeatSink",
-          "HardpointSlot": -1,
-          "DamageLevel": "Functional"
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_GN_Drive",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
         }
     ]
 }

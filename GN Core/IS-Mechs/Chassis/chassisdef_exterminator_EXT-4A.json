@@ -9,13 +9,13 @@
         "Id": "chassisdef_exterminator_EXT-4A",
         "Name": "Exterminator",
         "Details": "The 4A is what became of the Exterminator during the Succession Wars, revived by Kallon Industries when they came across blueprints for the design in 3007. The resulting 'Mech resembles the Exterminator outwardly and carries an almost identical weapons load but otherwise is not the same machine. The only weapons change is the use of an M100 heavy machine gun with a half-ton of ammo in place of the anti-missile system. A smaller VOX 325 standard fusion engine reduces its top speed by about 10 km/h. The armor is still identical to that of the original Exterminator, but unfortunately the Null-Signature System could not be saved. This version also made use of a Tek BattleCom communication system and Tek LOR T13d targeting system.",
-         "Icon": "Exterminator"
+        "Icon": "Exterminator"
     },
     "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_331exterminator",
-	"PrefabIdentifier": "chrprfmech_331exterminatorbase-001",
-	"PrefabBase": "331exterminator",
+    "PrefabIdentifier": "chrprfmech_331exterminatorbase-001",
+    "PrefabBase": "331exterminator",
     "Tonnage": 65,
     "InitialTonnage": 6.5,
     "weightClass": "HEAVY",
@@ -56,7 +56,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -82,7 +82,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 190,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -96,7 +96,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 80,
             "InternalStructure": 75
@@ -105,7 +105,7 @@
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 220,
             "MaxRearArmor": 100,
             "InternalStructure": 105
@@ -119,7 +119,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 80,
             "InternalStructure": 75
@@ -137,7 +137,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 190,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -146,7 +146,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 190,
             "MaxRearArmor": -1,
             "InternalStructure": 75
@@ -155,7 +155,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 190,
             "MaxRearArmor": -1,
             "InternalStructure": 75
@@ -207,7 +207,9 @@
     ],
     "VariantName": "EXT-4A",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Skirmisher",

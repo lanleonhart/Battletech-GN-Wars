@@ -9,7 +9,7 @@
         "Id": "chassisdef_HermesII_HER-2M",
         "Name": "Hermes II",
         "Details": "Also known as the Mercury, this variant of the Hermes II was introduced in 2802 and used primarily by SAFE's Dark Shadows units. A larger VOX 280 engine was installed to bring the 'Mech's top speed up to 118.8 km/h, although this necessitated the removal of the AC/5, eliminating the 'Mech's long-range firepower. To make up for this, short-range firepower was increased with two additional medium lasers and two machine guns mounted in the right torso. Half a ton of machine gun ammo was stored in the left torso while an additional single heat sink was added.This variant was used mainly by the Dark Shadows.",
-         "Icon": "HermesII"
+        "Icon": "HermesII"
     },
     "MovementCapDefID": "movedef_centurion_CN9-A",
     "PathingCapDefID": "pathingdef_medium",
@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -65,7 +65,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 110,
             "MaxRearArmor": -1,
             "InternalStructure": 30
@@ -74,18 +74,16 @@
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 140,
             "MaxRearArmor": 50,
             "InternalStructure": 30
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 170,
             "MaxRearArmor": 50,
             "InternalStructure": 60
@@ -111,7 +109,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 140,
             "MaxRearArmor": 50,
             "InternalStructure": 30
@@ -119,14 +117,13 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-               
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 50,
             "MaxRearArmor": -1,
             "InternalStructure": 25
@@ -135,8 +132,8 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor":140,
+            "InventorySlots": 6,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
@@ -144,7 +141,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 140,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -196,7 +193,9 @@
     ],
     "VariantName": "HER-2M",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

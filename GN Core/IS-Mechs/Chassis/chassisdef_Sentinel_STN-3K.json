@@ -9,7 +9,7 @@
         "Id": "chassisdef_Sentinel_STN-3K",
         "Name": "Sentinel",
         "Details": "The 3K Sentinel is the downgraded Succession Wars era version of the 3L model. The UAC/5 and Streak SRM-2 have both been downgraded to a Defiance Type J AC/5 and a Holly SRM-2 rack. While its speed has stayed the same, the 'Mechs endurance in the field is actually enhanced by an extra ton of autocannon reloads and an extra half ton of armor.",
-         "Icon": "Sentinel"
+        "Icon": "Sentinel"
     },
     "MovementCapDefID": "movedef_centurion_CN9-A",
     "PathingCapDefID": "pathingdef_medium",
@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -65,7 +65,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 30
@@ -74,7 +74,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 100,
             "MaxRearArmor": 50,
             "InternalStructure": 30
@@ -83,7 +83,7 @@
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 120,
             "MaxRearArmor": 70,
             "InternalStructure": 60
@@ -105,19 +105,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 100,
             "MaxRearArmor": 50,
             "InternalStructure": 30
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [
-               
-        
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 30
@@ -126,8 +123,8 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor":110,
+            "InventorySlots": 6,
+            "MaxArmor": 110,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
@@ -135,7 +132,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 110,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -187,7 +184,9 @@
     ],
     "VariantName": "STN-3K",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout",

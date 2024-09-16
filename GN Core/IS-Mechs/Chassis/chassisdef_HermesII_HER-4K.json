@@ -9,7 +9,7 @@
         "Id": "chassisdef_HermesII_HER-4K",
         "Name": "Hermes II",
         "Details": "The Hermes II was first produced in 2798, based on the original Hermes BattleMech that had been used by the Star League. A heavy scout, the Hermes II boasted respectable weaponry, armoring, and speed, allowing it to easily brawl with lighter 'Mechs or survive an encounter with heavier 'Mechs and retreat. Out of all medium-weight 'Mechs at the time the Hermes II was the easiest to perform field maintenance on, leading to its nickname old reliable.",
-         "Icon": "HermesII"
+        "Icon": "HermesII"
     },
     "MovementCapDefID": "movedef_centurion_CN9-A",
     "PathingCapDefID": "pathingdef_medium",
@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -65,7 +65,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 110,
             "MaxRearArmor": -1,
             "InternalStructure": 30
@@ -79,18 +79,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 140,
             "MaxRearArmor": 50,
             "InternalStructure": 30
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 170,
             "MaxRearArmor": 50,
             "InternalStructure": 60
@@ -104,19 +102,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 140,
             "MaxRearArmor": 50,
             "InternalStructure": 30
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [
-               
-        
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 50,
             "MaxRearArmor": -1,
             "InternalStructure": 25
@@ -125,8 +120,8 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor":140,
+            "InventorySlots": 6,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
             "InternalStructure": 50
         },
@@ -134,7 +129,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 140,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -186,7 +181,9 @@
     ],
     "VariantName": "HER-4K",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

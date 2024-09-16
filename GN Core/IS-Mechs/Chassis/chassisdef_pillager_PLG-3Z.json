@@ -6,16 +6,16 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Pillager PLG-3Z",
-    "Id": "chassisdef_pillager_PLG-3Z",
-    "Name": "Pillager",
-    "Details": "For the longest time it seemed the first iteration of the Pillager was consigned to history. The idea of a jumping close-assault 'Mech with twin autocannons, however, was too good not to revisit, albeit half a millennium later. Used as a bodyguard of Gauss-equipped variants, the new 6Z variant features two massive Clan LB 20-X autocannons with a deadly punch at close to medium distances. The ER large laser offers only token long-range firepower, and this pitiful, lone back-up weapon can be the downfall of inexperienced pilots. The strategios issued an order to keep the new Pillager near support 'Mechs in open terrain, but MechWarriors eager to take the fight to the enemy often choose to ignore it.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
-    "Icon": ""
+        "Id": "chassisdef_pillager_PLG-3Z",
+        "Name": "Pillager",
+        "Details": "For the longest time it seemed the first iteration of the Pillager was consigned to history. The idea of a jumping close-assault 'Mech with twin autocannons, however, was too good not to revisit, albeit half a millennium later. Used as a bodyguard of Gauss-equipped variants, the new 6Z variant features two massive Clan LB 20-X autocannons with a deadly punch at close to medium distances. The ER large laser offers only token long-range firepower, and this pitiful, lone back-up weapon can be the downfall of inexperienced pilots. The strategios issued an order to keep the new Pillager near support 'Mechs in open terrain, but MechWarriors eager to take the fight to the enemy often choose to ignore it.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
+        "Icon": ""
     },
     "MovementCapDefID": "movedef_atlas_AS7-D",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_pillager",
-  "PrefabIdentifier": "chrprfmech_pillagerbase-001",
-  "PrefabBase": "pillager",
+    "PrefabIdentifier": "chrprfmech_pillagerbase-001",
+    "PrefabBase": "pillager",
     "Tonnage": 100,
     "InitialTonnage": 10,
     "weightClass": "ASSAULT",
@@ -56,7 +56,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -74,7 +74,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 210,
             "MaxRearArmor": -1,
             "InternalStructure": 90
@@ -88,7 +88,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 100,
             "InternalStructure": 105
@@ -102,7 +102,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 320,
             "MaxRearArmor": 100,
             "InternalStructure": 155
@@ -116,7 +116,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 100,
             "InternalStructure": 105
@@ -130,7 +130,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 210,
             "MaxRearArmor": -1,
             "InternalStructure": 90
@@ -139,7 +139,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 250,
             "MaxRearArmor": -1,
             "InternalStructure": 105
@@ -148,7 +148,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 250,
             "MaxRearArmor": -1,
             "InternalStructure": 105
@@ -200,7 +200,9 @@
     ],
     "VariantName": "PLG-3Z",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",

@@ -8,17 +8,16 @@
             "unit_ready",
             "unit_lance_tank",
             "unit_role_brawler",
-			"unit_range_short",
-			"unit_indirectFire",
-			"unit_speed_low",
-			"unit_armor_high",
-			"Comstar"		
+            "unit_range_short",
+            "unit_indirectFire",
+            "unit_speed_low",
+            "unit_armor_high",
+            "Comstar"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_thunderhawk_DK-7X",
     "HeraldryID": null,
-    
     "Description": {
         "Cost": 22576000,
         "Rarity": 5,
@@ -27,7 +26,7 @@
         "Model": "",
         "UIName": "Thunder Hawk_DK-7X",
         "Id": "mechdef_thunderhawk_DK-7X",
-        "Name":"Thunder Hawk",
+        "Name": "Thunder Hawk",
         "Details": "The Thunder Hawk was built by Norse-Storm BattleMechs in 2771, during the final six years of the SLDF's drive to retake the Terran Hegemony. The Thunder Hawk epitomizes the doctrine of firepower over maneuverability with its heavy weapons arsenal and low top speed. Taken out of production after the end of the Amaris Civil War, Thunder Hawk production began again during the mid-3050s",
         "Icon": ""
     },
@@ -41,7 +40,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 16,
             "AssignedArmor": 45,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -50,7 +50,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 85,
             "AssignedArmor": 170,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -59,7 +60,8 @@
             "CurrentRearArmor": 50,
             "CurrentInternalStructure": 105,
             "AssignedArmor": 160,
-            "AssignedRearArmor": 50
+            "AssignedRearArmor": 50,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -68,7 +70,8 @@
             "CurrentRearArmor": 50,
             "CurrentInternalStructure": 155,
             "AssignedArmor": 250,
-            "AssignedRearArmor": 50
+            "AssignedRearArmor": 50,
+            "InventorySlots": 16
         },
         {
             "DamageLevel": "Functional",
@@ -77,7 +80,8 @@
             "CurrentRearArmor": 50,
             "CurrentInternalStructure": 105,
             "AssignedArmor": 160,
-            "AssignedRearArmor": 50
+            "AssignedRearArmor": 50,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -86,7 +90,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 85,
             "AssignedArmor": 170,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -95,7 +100,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 105,
             "AssignedArmor": 210,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -104,7 +110,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 105,
             "AssignedArmor": 210,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         }
     ],
     "inventory": [
@@ -279,14 +286,14 @@
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
-          },
-          {
+        },
+        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "emod_engineslots_size3",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
-          },
+        },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_engine_300",

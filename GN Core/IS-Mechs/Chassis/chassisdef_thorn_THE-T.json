@@ -9,7 +9,7 @@
         "Id": "chassisdef_thorn_THE-T",
         "Name": "Thorn",
         "Details": "One of the older Terran Hegemony and Star League light 'Mechs, the Thorn was originally debuted in the late twenty-fourth century. According to survivng records from the period, the Thorn was the first BattleMech to mount an Endo-Steel II internal structure. This allowed the design to save significant weight on its chasis at the expense of increased bulk taking up what would otherwise be valuable space for additional equipment. The Second Succession War was unkind to the Thorn, as it was to many other designs of the era, by destroying the primary supplier of the materials needed to manufacture its Endo-Steel skeleton. The ravages of the war continued to take their toll by ensuring other manufacturers could not take up the slack, resulting in a gradual extinction of the Thorn within the armies of the Successor States.",
-         "Icon": "Thorn"
+        "Icon": "Thorn"
     },
     "MovementCapDefID": "movedef_locust_LCT-1V",
     "PathingCapDefID": "pathingdef_light",
@@ -56,7 +56,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 15
@@ -70,7 +70,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": -1,
             "InternalStructure": 15
@@ -79,7 +79,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": 20,
             "InternalStructure": 25
@@ -88,18 +88,16 @@
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 80,
             "MaxRearArmor": 40,
             "InternalStructure": 30
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": 20,
             "InternalStructure": 25
@@ -113,7 +111,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": -1,
             "InternalStructure": 15
@@ -122,7 +120,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 70,
             "MaxRearArmor": -1,
             "InternalStructure": 20
@@ -131,7 +129,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 70,
             "MaxRearArmor": -1,
             "InternalStructure": 20
@@ -183,7 +181,9 @@
     ],
     "VariantName": "THE-T",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

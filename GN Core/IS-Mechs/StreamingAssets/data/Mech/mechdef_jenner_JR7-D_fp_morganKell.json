@@ -1,7 +1,7 @@
 {
     "MechTags": {
         "items": [
-"Vanilla",
+            "Vanilla",
             "unit_jumpOK",
             "unit_release",
             "unit_mech",
@@ -10,7 +10,7 @@
             "unit_lance_assassin",
             "unit_lance_vanguard",
             "unit_role_scout",
-			"BLACKLISTED"
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
@@ -38,7 +38,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 16,
             "AssignedArmor": 35,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -47,7 +48,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 30,
             "AssignedArmor": 20,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -56,7 +58,8 @@
             "CurrentRearArmor": 20,
             "CurrentInternalStructure": 40,
             "AssignedArmor": 40,
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 20,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -65,7 +68,8 @@
             "CurrentRearArmor": 15,
             "CurrentInternalStructure": 55,
             "AssignedArmor": 50,
-            "AssignedRearArmor": 15
+            "AssignedRearArmor": 15,
+            "InventorySlots": 16
         },
         {
             "DamageLevel": "Functional",
@@ -74,7 +78,8 @@
             "CurrentRearArmor": 20,
             "CurrentInternalStructure": 40,
             "AssignedArmor": 40,
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 20,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -83,7 +88,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 30,
             "AssignedArmor": 20,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -92,7 +98,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 40,
             "AssignedArmor": 30,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -101,7 +108,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 40,
             "AssignedArmor": 30,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         }
     ],
     "inventory": [
@@ -117,147 +125,147 @@
             "hasPrefabName": false
         },
         {
-                "MountedLocation": "CenterTorso",
-                "ComponentDefID": "emod_engine_245",
-                "SimGameUID": null,
-                "ComponentDefType": "HeatSink",
-                "HardpointSlot": -1,
-                "GUID": null,
-                "DamageLevel": "Functional",
-                "prefabName": null,
-                "hasPrefabName": false
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_245",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         },
         {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_JumpJet_Generic_Standard",
-            "SimGameUID" : null,
-            "ComponentDefType" : "JumpJet",
-            "HardpointSlot" : -1,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : "",
-            "hasPrefabName" : true
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
         },
         {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_JumpJet_Generic_Standard",
-            "SimGameUID" : null,
-            "ComponentDefType" : "JumpJet",
-            "HardpointSlot" : -1,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : "",
-            "hasPrefabName" : true
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
         },
         {
-            "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "Weapon_SRM_SRM4_0-STOCK",
-            "SimGameUID" : null,
-            "ComponentDefType" : "Weapon",
-            "HardpointSlot" : 0,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : "chrPrfWeap_jenner_centertorso_srm4_mh1",
-            "hasPrefabName" : true
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "chrPrfWeap_jenner_centertorso_srm4_mh1",
+            "hasPrefabName": true
         },
         {
-            "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "Gear_JumpJet_Generic_Standard",
-            "SimGameUID" : null,
-            "ComponentDefType" : "JumpJet",
-            "HardpointSlot" : -1,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : "",
-            "hasPrefabName" : true
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
         },
         {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_JumpJet_Generic_Standard",
-            "SimGameUID" : null,
-            "ComponentDefType" : "JumpJet",
-            "HardpointSlot" : -1,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : "",
-            "hasPrefabName" : true
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
         },
         {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_JumpJet_Generic_Standard",
-            "SimGameUID" : null,
-            "ComponentDefType" : "JumpJet",
-            "HardpointSlot" : -1,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : "",
-            "hasPrefabName" : true
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
         },
         {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
-            "SimGameUID" : null,
-            "ComponentDefType" : "AmmunitionBox",
-            "HardpointSlot" : -1,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : "",
-            "hasPrefabName" : true
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
         },
         {
-            "MountedLocation" : "RightArm",
-            "ComponentDefID" : "Weapon_Laser_MediumLaser_1-Magna",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Weapon",
-            "HardpointSlot" : 0,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-Magna",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         },
         {
-            "MountedLocation" : "RightArm",
-            "ComponentDefID" : "Weapon_Laser_MediumLaser_1-Magna",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Weapon",
-            "HardpointSlot" : 1,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-Magna",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         },
         {
-            "MountedLocation" : "LeftArm",
-            "ComponentDefID" : "Weapon_Laser_MediumLaser_1-Magna",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Weapon",
-            "HardpointSlot" : 0,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-Magna",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         },
         {
-            "MountedLocation" : "LeftArm",
-            "ComponentDefID" : "Weapon_Laser_MediumLaser_1-Magna",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Weapon",
-            "HardpointSlot" : 1,
-            "IsFixed" : false,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-Magna",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
     ]
 }

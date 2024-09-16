@@ -6,14 +6,13 @@
             "unit_lance_vanguard",
             "unit_role_scout",
             "unit_release",
-			"unit_range_short",
-			"unit_jumpOK",
-			"unit_hot",
-			"unit_speed_high",
-			"unit_armor_low",
-			"Davion",
+            "unit_range_short",
+            "unit_jumpOK",
+            "unit_hot",
+            "unit_speed_high",
+            "unit_armor_low",
+            "Davion",
             "Steiner"
-			
         ],
         "tagSetSourceFile": ""
     },
@@ -29,7 +28,7 @@
         "Id": "mechdef_valkyrie_VLK-QF",
         "Name": "Valkyrie",
         "Details": "The Valkyrie was originally planned for use by the Star League Defense Force, but production of the BattleMech did not begin until 2787, after the fall of the Star League and the start of the First Succession War. This was mainly due to legal entanglement with Harvard Company, Inc. who claimed the VLK-QA was a nearly wholesale copy of the WSP-100A Wasp LAM. Because of this odd twist of fate, and because the only factory to produce the Valkyrie was located on New Avalon, the only nation to possess a large number of Valkyries was the Federated Suns.",
-         "Icon": "Valkyrie"
+        "Icon": "Valkyrie"
     },
     "simGameMechPartCost": 310000,
     "Version": 1,
@@ -41,7 +40,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 16,
             "AssignedArmor": 30,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -50,7 +50,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 25,
             "AssignedArmor": 45,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -59,7 +60,8 @@
             "CurrentRearArmor": 10,
             "CurrentInternalStructure": 35,
             "AssignedArmor": 60,
-            "AssignedRearArmor": 10
+            "AssignedRearArmor": 10,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -68,25 +70,28 @@
             "CurrentRearArmor": 20,
             "CurrentInternalStructure": 50,
             "AssignedArmor": 70,
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 20,
+            "InventorySlots": 16
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-           "CurrentArmor": 60,
+            "CurrentArmor": 60,
             "CurrentRearArmor": 10,
             "CurrentInternalStructure": 35,
             "AssignedArmor": 60,
-            "AssignedRearArmor": 10
+            "AssignedRearArmor": 10,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-           "CurrentArmor": 45,
+            "CurrentArmor": 45,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 25,
             "AssignedArmor": 45,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -95,16 +100,18 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 35,
             "AssignedArmor": 60,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-             "CurrentArmor": 60,
+            "CurrentArmor": 60,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 35,
             "AssignedArmor": 60,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         }
     ],
     "inventory": [
@@ -118,7 +125,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "LeftLeg",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",

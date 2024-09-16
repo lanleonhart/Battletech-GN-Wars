@@ -8,7 +8,8 @@
         "UIName": "Thorn",
         "Id": "chassisdef_thorn_THE-N",
         "Name": "Thorn",
-        "Details": "Developed in 3051 on the orders of Precentor Martial Anastasius Focht to try and close the gap between the Clans and Com Guards, the factory refit THE-N1 received its baptism of fire during the Battle of Tukayyid. Having reached a similar conclusion that resulted in the THE-Nb, the CASE was dropped and the standard engine was swapped for an XL engine to allow the standard weaponry to be stripped for an all energy weapon array: a right arm mounted Kinslaughter H-Class ER PPC and a head-mounted Intek small laser. This new weapons array, enhanced by double heat sinks, added a level of lethality never seen before on the Thorn", "Icon": "Thorn"
+        "Details": "Developed in 3051 on the orders of Precentor Martial Anastasius Focht to try and close the gap between the Clans and Com Guards, the factory refit THE-N1 received its baptism of fire during the Battle of Tukayyid. Having reached a similar conclusion that resulted in the THE-Nb, the CASE was dropped and the standard engine was swapped for an XL engine to allow the standard weaponry to be stripped for an all energy weapon array: a right arm mounted Kinslaughter H-Class ER PPC and a head-mounted Intek small laser. This new weapons array, enhanced by double heat sinks, added a level of lethality never seen before on the Thorn",
+        "Icon": "Thorn"
     },
     "MovementCapDefID": "movedef_locust_LCT-1V",
     "PathingCapDefID": "pathingdef_light",
@@ -59,18 +60,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 15
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": -1,
             "InternalStructure": 15
@@ -79,7 +78,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": 20,
             "InternalStructure": 25
@@ -88,18 +87,16 @@
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 80,
             "MaxRearArmor": 40,
             "InternalStructure": 30
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": 20,
             "InternalStructure": 25
@@ -113,7 +110,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": -1,
             "InternalStructure": 15
@@ -122,7 +119,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 70,
             "MaxRearArmor": -1,
             "InternalStructure": 20
@@ -131,7 +128,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 70,
             "MaxRearArmor": -1,
             "InternalStructure": 20
@@ -183,7 +180,9 @@
     ],
     "VariantName": "THE-N",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

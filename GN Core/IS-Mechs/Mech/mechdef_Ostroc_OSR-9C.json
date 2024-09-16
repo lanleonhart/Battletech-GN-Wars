@@ -7,9 +7,9 @@
             "unit_lance_tank",
             "unit_role_brawler",
             "unit_release",
-			"unit_range_short",
-			"unit_armor_high",
-			"unit_speed_low",
+            "unit_range_short",
+            "unit_armor_high",
+            "unit_speed_low",
             "Davion",
             "Kurita"
         ],
@@ -27,7 +27,7 @@
         "Id": "mechdef_Ostroc_OSR-9C",
         "Name": "Ostroc MK II",
         "Details": "This FrankenMech variant of the Ostroc, built with parts from the Ostwar,[22] swaps the SRM-4 for one SRM-2 launcher in each arm, with one ton of ammunition in the center torso. Half a ton of armor was added to the front torso and legs (adding one point to each leg and side torso, and four to center torso), and four more heat sinks were installed along with three jump jets for a jump capacity of 90 meters. To make room for these components, the engine had to be changed to a Pitban 240, reducing the top speed to 64.8 km/h.",
-         "Icon": "Ostroc"
+        "Icon": "Ostroc"
     },
     "simGameMechPartCost": 760000,
     "Version": 1,
@@ -39,7 +39,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 15,
             "AssignedArmor": 40,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -48,7 +49,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 50,
             "AssignedArmor": 40,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -57,7 +59,8 @@
             "CurrentRearArmor": 20,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 110,
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 20,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -66,7 +69,8 @@
             "CurrentRearArmor": 30,
             "CurrentInternalStructure": 100,
             "AssignedArmor": 110,
-            "AssignedRearArmor": 30
+            "AssignedRearArmor": 30,
+            "InventorySlots": 16
         },
         {
             "DamageLevel": "Functional",
@@ -75,7 +79,8 @@
             "CurrentRearArmor": 20,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 110,
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 20,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -84,7 +89,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 50,
             "AssignedArmor": 40,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -93,7 +99,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 100,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -102,7 +109,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 100,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         }
     ],
     "inventory": [
@@ -116,9 +124,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }, 
+        },
         {
-
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_engine_300",
             "SimGameUID": null,

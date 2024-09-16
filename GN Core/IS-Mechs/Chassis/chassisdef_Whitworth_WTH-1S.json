@@ -9,7 +9,7 @@
         "Id": "chassisdef_Whitworth_WTH-1S",
         "Name": "Whitworth",
         "Details": "The original production model of the Whitworth prior to its service in the Star League armies. The two LRM-10 missile launchers are replaced with two SRM-6 launchers and four additional heat sinks, allowing the MechWarrior better heat management capabilities. However since this loadout encourages a close combat approach for which the 'Mech is grossly ill-equipped, these were phased out and the variant remains extremely rare.",
-         "Icon": "Whitworth"
+        "Icon": "Whitworth"
     },
     "MovementCapDefID": "movedef_locust_LCT-1V",
     "PathingCapDefID": "pathingdef_light",
@@ -51,12 +51,12 @@
             "Location": "Head",
             "Hardpoints": [
                 {
-                "WeaponMount": "Energy",
-                "Omni": false
-            }
-        ],
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 50,
             "MaxRearArmor": -1,
             "InternalStructure": 15
@@ -67,22 +67,24 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }    
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 120,
             "MaxRearArmor": -1,
             "InternalStructure": 30
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [{
-                "WeaponMount": "Missile",
-                "Omni": false
-            }],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 120,
             "MaxRearArmor": 70,
             "InternalStructure": 50
@@ -91,7 +93,7 @@
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 160,
             "MaxRearArmor": 70,
             "InternalStructure": 50
@@ -102,10 +104,10 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }    
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 120,
             "MaxRearArmor": 70,
             "InternalStructure": 50
@@ -119,7 +121,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 120,
             "MaxRearArmor": -1,
             "InternalStructure": 30
@@ -128,7 +130,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -137,7 +139,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -189,7 +191,9 @@
     ],
     "VariantName": "WTH-1S",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",

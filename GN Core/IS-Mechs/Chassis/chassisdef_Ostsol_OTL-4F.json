@@ -8,8 +8,8 @@
         "UIName": "Ostsol",
         "Id": "chassisdef_Ostsol_OTL-4F",
         "Name": "Ostsol",
-        "Details": "The 4F Ostsol introduced in 2871 was the only common variant of the 'Mech pre–Clan Invasion, completely removing the laser weapons and replacing them with two Dominion-V PPCs in the side torsos. The 'Mech is seen as, in some ways at least, a poor man's Marauder or Warhammer, and the PPC array can quickly overload the sixteen heat sinks. Though, on its own merits, the variant is a good long-range direct fire support 'Mech which uses its top speed of 86.4 km/h to dictate combat ranges against most heavier 'Mechs. ",
-         "Icon": "Ostsol"
+        "Details": "The 4F Ostsol introduced in 2871 was the only common variant of the 'Mech pre\u2013Clan Invasion, completely removing the laser weapons and replacing them with two Dominion-V PPCs in the side torsos. The 'Mech is seen as, in some ways at least, a poor man's Marauder or Warhammer, and the PPC array can quickly overload the sixteen heat sinks. Though, on its own merits, the variant is a good long-range direct fire support 'Mech which uses its top speed of 86.4 km/h to dictate combat ranges against most heavier 'Mechs. ",
+        "Icon": "Ostsol"
     },
     "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
     "PathingCapDefID": "pathingdef_heavy",
@@ -51,18 +51,16 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 15
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -80,17 +78,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 40,
             "InternalStructure": 70
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 220,
             "MaxRearArmor": 40,
             "InternalStructure": 100
@@ -108,17 +105,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 40,
             "InternalStructure": 70
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [  
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -127,7 +123,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 70
@@ -136,7 +132,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 70
@@ -188,7 +184,9 @@
     ],
     "VariantName": "OSR-4F",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

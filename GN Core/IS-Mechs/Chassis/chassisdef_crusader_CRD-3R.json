@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 15
@@ -73,18 +73,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 70
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 60,
             "InternalStructure": 50
@@ -98,18 +96,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 320,
             "MaxRearArmor": 150,
             "InternalStructure": 120
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 60,
             "InternalStructure": 50
@@ -131,7 +127,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 70
@@ -140,12 +136,12 @@
             "Location": "LeftLeg",
             "Hardpoints": [
                 {
-                "WeaponMount": "Missile",
-                "Omni": false
-            }
-        ],
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 75
@@ -154,12 +150,12 @@
             "Location": "RightLeg",
             "Hardpoints": [
                 {
-                "WeaponMount": "Missile",
-                "Omni": false
-            }
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 75
@@ -211,7 +207,9 @@
     ],
     "VariantName": "CRD-3R",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",

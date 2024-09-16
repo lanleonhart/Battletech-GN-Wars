@@ -9,7 +9,7 @@
         "Id": "chassisdef_Ostsol_OTL-4D",
         "Name": "Ostsol",
         "Details": "Ostmann Industries had built up a solid portfolio of BattleMechs by 2693, having drawn up and produced the successful Ostwar, Ostsol, and Ostscout designs. Their attempt at a new member of their line-up, a heavy cavalry BattleMech capable of independant operations, would lead to the development of the Ostsol. Their manufacturing lines, however, were already overloaded by demand for the popular Ostsol, leading Ostsmann to partner with Kong Interstellar to manufacture the design on Kong's lines on Connaught. The pact would be profitable for both companies, and the Ostsol became a popular staple in both House armies and SLDF forces.",
-         "Icon": "Ostsol"
+        "Icon": "Ostsol"
     },
     "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
     "PathingCapDefID": "pathingdef_heavy",
@@ -51,18 +51,16 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 15
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -80,7 +78,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 40,
             "InternalStructure": 70
@@ -98,7 +96,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 220,
             "MaxRearArmor": 40,
             "InternalStructure": 100
@@ -116,17 +114,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 220,
             "MaxRearArmor": 40,
             "InternalStructure": 70
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [  
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -135,7 +132,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 70
@@ -144,7 +141,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 200,
             "MaxRearArmor": -1,
             "InternalStructure": 70
@@ -196,7 +193,9 @@
     ],
     "VariantName": "OSR-4D",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

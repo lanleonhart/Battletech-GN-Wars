@@ -8,13 +8,13 @@
         "UIName": "Hatamoto-Chi HTM-27T",
         "Id": "chassisdef_hatamoto-chi_HTM-27T",
         "Name": "Hatamoto-Chi",
-        "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger, the samurai-themed Hatamoto-Chi was the first post–Succession Wars Draconis Combine BattleMech constructed utilizing recovered LosTech. Tasked by Kanrei Theodore Kurita to reverse engineer examples of the advanced Star League Defense Force BattleMechs provided by ComStar in 3035 for future production, Luthien Armor Works secretly mated the weaponry of the Thug to the form of the maligned Charger. While initially unable to mass produce the advanced Endo Steel chassis required to match the Thug, the appearance of the early Hatamoto-Chi and their endless variations born of the Charger's spacious torso sent the combined Armed Forces of the Federated Commonwealth into confusion during the War of 3039.",
-         "Icon": "HatamotoChi"
+        "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger, the samurai-themed Hatamoto-Chi was the first post\u2013Succession Wars Draconis Combine BattleMech constructed utilizing recovered LosTech. Tasked by Kanrei Theodore Kurita to reverse engineer examples of the advanced Star League Defense Force BattleMechs provided by ComStar in 3035 for future production, Luthien Armor Works secretly mated the weaponry of the Thug to the form of the maligned Charger. While initially unable to mass produce the advanced Endo Steel chassis required to match the Thug, the appearance of the early Hatamoto-Chi and their endless variations born of the Charger's spacious torso sent the combined Armed Forces of the Federated Commonwealth into confusion during the War of 3039.",
+        "Icon": "HatamotoChi"
     },
     "MovementCapDefID": "movedef_zeus_ZEU-5T",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_hatamotochi",
-	"PrefabIdentifier": "chrPrfMech_hatamotochiBase-001",
+    "PrefabIdentifier": "chrPrfMech_hatamotochiBase-001",
     "PrefabBase": "hatamoto",
     "Tonnage": 80,
     "InitialTonnage": 8,
@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -65,7 +65,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 250,
             "MaxRearArmor": -1,
             "InternalStructure": 65
@@ -79,18 +79,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 240,
             "MaxRearArmor": 80,
             "InternalStructure": 85
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 330,
             "MaxRearArmor": 100,
             "InternalStructure": 125
@@ -104,7 +102,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 240,
             "MaxRearArmor": 80,
             "InternalStructure": 85
@@ -118,7 +116,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 250,
             "MaxRearArmor": -1,
             "InternalStructure": 65
@@ -127,7 +125,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 240,
             "MaxRearArmor": -1,
             "InternalStructure": 85
@@ -136,7 +134,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 240,
             "MaxRearArmor": -1,
             "InternalStructure": 85
@@ -188,7 +186,9 @@
     ],
     "VariantName": "HTM-27T",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

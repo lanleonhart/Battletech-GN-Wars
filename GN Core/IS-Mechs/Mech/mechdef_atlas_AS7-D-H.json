@@ -7,15 +7,15 @@
             "unit_ready",
             "unit_lance_tank",
             "unit_role_brawler",
-			"unit_range_short",
-			"unit_indirectFire",
-			"unit_speed_low",
-			"unit_armor_high",
-			"Davion",
-			"Kurita",
-			"Liao",
-			"Marik",
-			"Steiner"			
+            "unit_range_short",
+            "unit_indirectFire",
+            "unit_speed_low",
+            "unit_armor_high",
+            "Davion",
+            "Kurita",
+            "Liao",
+            "Marik",
+            "Steiner"
         ],
         "tagSetSourceFile": ""
     },
@@ -43,7 +43,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 16,
             "AssignedArmor": 45,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -52,7 +53,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 85,
             "AssignedArmor": 170,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -61,7 +63,8 @@
             "CurrentRearArmor": 50,
             "CurrentInternalStructure": 105,
             "AssignedArmor": 160,
-            "AssignedRearArmor": 50
+            "AssignedRearArmor": 50,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -70,7 +73,8 @@
             "CurrentRearArmor": 70,
             "CurrentInternalStructure": 155,
             "AssignedArmor": 235,
-            "AssignedRearArmor": 70
+            "AssignedRearArmor": 70,
+            "InventorySlots": 16
         },
         {
             "DamageLevel": "Functional",
@@ -79,7 +83,8 @@
             "CurrentRearArmor": 50,
             "CurrentInternalStructure": 105,
             "AssignedArmor": 160,
-            "AssignedRearArmor": 50
+            "AssignedRearArmor": 50,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -88,7 +93,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 85,
             "AssignedArmor": 170,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -97,7 +103,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 105,
             "AssignedArmor": 205,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -106,7 +113,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 105,
             "AssignedArmor": 205,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         }
     ],
     "inventory": [
@@ -120,20 +128,21 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }, {
+        },
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_engine_300",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
-          },
-          {
+        },
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_kit_dhs",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
-          },
+        },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "emod_case",
@@ -278,38 +287,37 @@
             "hasPrefabName": false
         },
         {
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         },
         {
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
         {
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		}
-        
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
     ]
 }

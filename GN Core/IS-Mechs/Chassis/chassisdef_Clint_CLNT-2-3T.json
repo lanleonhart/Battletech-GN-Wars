@@ -51,42 +51,44 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 50,
             "MaxRearArmor": -1,
             "InternalStructure": 15
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 30,
             "MaxRearArmor": -1,
             "InternalStructure": 30
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [{
-                "WeaponMount": "Energy",
-                "Omni": false
-            }],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 75,
             "MaxRearArmor": 40,
             "InternalStructure": 40
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [ {
-                "WeaponMount": "Energy",
-                "Omni": false
-            }],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 60,
             "MaxRearArmor": 20,
             "InternalStructure": 60
@@ -95,7 +97,7 @@
             "Location": "RightTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": 40,
             "InternalStructure": 40
@@ -109,7 +111,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 30
@@ -118,7 +120,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 40
@@ -127,7 +129,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 40
@@ -179,7 +181,9 @@
     ],
     "VariantName": "CLNT-2-3T",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

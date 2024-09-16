@@ -9,7 +9,7 @@
         "Id": "chassisdef_Hermes_HER-1S",
         "Name": "Hermes",
         "Details": "The Hermes was first commissioned in 2632 by Irian BattleMechs Unlimited for the Star League Defense Force and reached units in record time, allowing it to be deployed immediately as a heavy scout BattleMech. With the rushed nature of its deployment, it came as little surprise to the SLDF that glitches began appearing in the Hermes, and the 'Mech quickly gained a reputation for having problematic electronics. These problems would eventually be resolved through time-consuming field repairs carried out by SLDF technicians. As for the Hermes' intended mission, the 'Mech was originally designed to be as fast as any 'Mech that existed at the time, trading a great deal of potential firepower and armor for an incredible ground speed. While this made the Hermes nearly untouchable at sustained pace, the MechWarriors who piloted them usually had doubts about taking such an underarmed scout 'Mech into battle and it soon became unpopular.",
-         "Icon": "Hermes"
+        "Icon": "Hermes"
     },
     "MovementCapDefID": "movedef_spider_SDR-5V",
     "PathingCapDefID": "pathingdef_light",
@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -63,10 +63,9 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-                
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 50,
             "MaxRearArmor": -1,
             "InternalStructure": 25
@@ -75,7 +74,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": 20,
             "InternalStructure": 35
@@ -89,7 +88,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 140,
             "MaxRearArmor": 40,
             "InternalStructure": 50
@@ -98,7 +97,7 @@
             "Location": "RightTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 60,
             "MaxRearArmor": 20,
             "InternalStructure": 3
@@ -106,14 +105,13 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-               
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 50,
             "MaxRearArmor": -1,
             "InternalStructure": 25
@@ -122,7 +120,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 60,
             "MaxRearArmor": -1,
             "InternalStructure": 35
@@ -131,7 +129,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 60,
             "MaxRearArmor": -1,
             "InternalStructure": 35
@@ -183,7 +181,9 @@
     ],
     "VariantName": "HER-1S",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout",

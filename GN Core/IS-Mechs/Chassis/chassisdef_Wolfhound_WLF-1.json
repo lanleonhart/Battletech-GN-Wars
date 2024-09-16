@@ -14,7 +14,7 @@
     "MovementCapDefID": "movedef_locust_LCT-1V",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_wolfhound",
-	"PrefabIdentifier": "chrprfmech_wolfhoundbase-001",
+    "PrefabIdentifier": "chrprfmech_wolfhoundbase-001",
     "PrefabBase": "wolfhound",
     "Tonnage": 35,
     "InitialTonnage": 3.5,
@@ -51,18 +51,16 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 6,
             "MaxArmor": 50,
             "MaxRearArmor": -1,
             "InternalStructure": 15
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 120,
             "MaxRearArmor": -1,
             "InternalStructure": 30
@@ -76,23 +74,25 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 110,
             "MaxRearArmor": 25,
             "InternalStructure": 40
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [ {
-                "WeaponMount": "Energy",
-                "Omni": false
-            },
-            {
-                "WeaponMount": "Energy",
-                "Omni": false
-            }],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 16,
             "MaxArmor": 75,
             "MaxRearArmor": 45,
             "InternalStructure": 55
@@ -106,7 +106,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 110,
             "MaxRearArmor": 25,
             "InternalStructure": 40
@@ -120,7 +120,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 12,
             "MaxArmor": 120,
             "MaxRearArmor": -1,
             "InternalStructure": 30
@@ -129,7 +129,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
             "InternalStructure": 40
@@ -138,7 +138,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 6,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
             "InternalStructure": 40
@@ -190,7 +190,9 @@
     ],
     "VariantName": "WLF-1",
     "ChassisTags": {
-        "items": ["Vanilla"],
+        "items": [
+            "Vanilla"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

@@ -8,11 +8,11 @@
             "unit_lance_vanguard",
             "unit_role_brawler",
             "unit_release",
-			"unit_range_short",
-			"unit_indirectFire",
-			"unit_speed_high",
-			"Kurita",
-			"unit_common"
+            "unit_range_short",
+            "unit_indirectFire",
+            "unit_speed_high",
+            "Kurita",
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },
@@ -28,7 +28,7 @@
         "Id": "mechdef_dragon_DRG-5N",
         "Name": "Dragon",
         "Details": "The 5N variant of the Dragon was used as a bridge between it and the Grand Dragon. This field upgrade, which utilizes formerly lost technology, upgrades its normal autocannon to an Ultra Autocannon/5, which is capable of firing at twice the rate of a standard model. Additionally, the rear-facing medium laser has been removed from the 'Mech. ",
-         "Icon": "Dragon"
+        "Icon": "Dragon"
     },
     "simGameMechPartCost": 690000,
     "Version": 1,
@@ -40,7 +40,8 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 16,
             "AssignedArmor": 45,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
@@ -49,16 +50,18 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 50,
             "AssignedArmor": 100,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
             "CurrentArmor": 105,
-            "CurrentRearArmor":35,
+            "CurrentRearArmor": 35,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 105,
-            "AssignedRearArmor": 50
+            "AssignedRearArmor": 50,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -67,25 +70,28 @@
             "CurrentRearArmor": 45,
             "CurrentInternalStructure": 100,
             "AssignedArmor": 150,
-            "AssignedRearArmor": 45
+            "AssignedRearArmor": 45,
+            "InventorySlots": 16
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
             "CurrentArmor": 105,
-            "CurrentRearArmor":35,
+            "CurrentRearArmor": 35,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 105,
-            "AssignedRearArmor": 50
+            "AssignedRearArmor": 50,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-             "CurrentArmor": 100,
+            "CurrentArmor": 100,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 50,
             "AssignedArmor": 100,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
@@ -94,16 +100,18 @@
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 140,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-           "CurrentArmor": 140,
+            "CurrentArmor": 140,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 140,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": -1,
+            "InventorySlots": 6
         }
     ],
     "inventory": [
@@ -117,7 +125,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }, {
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "SimGameUID": null,
@@ -150,7 +159,6 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-        
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
@@ -173,6 +181,5 @@
             "prefabName": null,
             "hasPrefabName": false
         }
-       
     ]
 }
