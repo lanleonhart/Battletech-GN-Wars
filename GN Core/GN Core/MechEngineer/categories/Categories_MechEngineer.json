@@ -1,0 +1,389 @@
+{
+    "Settings": [
+        {
+          "Name": "LifeSupportA",
+          "DisplayName": "Life Support A",
+          "DefaultCustoms": {
+            "InventorySorter": "Cockpit0",
+            "Sorter": 0,
+            "CriticalEffects": {
+              "LinkedStatisticName": "LifeSupport",
+              "OnDestroyedEffectIDs": [
+                "CriticalEffect-LifeSupport1",
+                "CriticalEffect-LifeSupport2"
+              ]
+            },
+            "RGBColor": "#A6AA8A",
+            "TRGBColor": {"Color": "#FFFFFF"}
+          },
+          "BaseLimits": [
+            {"Max": 1,"Min": 1}
+          ]          
+        },
+        {
+            "Name": "SensorsA",
+            "DisplayName": "FCS",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "Cockpit1",
+                "Sorter": 1,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                  "LinkedStatisticName": "Sensors",
+                  "OnDestroyedEffectIDs": [
+                    "CriticalEffect-Sensors1",
+                    "CriticalEffect-Sensors2"
+                  ]
+                }
+            }
+        },
+        {
+            "Name": "Cockpit",
+            "DisplayName": "Cockpit",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "Cockpit3",
+                "Sorter": 2,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                  "DeathMethod": "CockpitDestroyed"
+              }
+            }
+        },
+        {
+            "Name": "SensorsB",
+            "DisplayName": "Sensors",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "Cockpit3",
+                "Sorter": 3,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                  "LinkedStatisticName": "Sensors",
+                  "PenalizedEffectIDs": [
+                      [ "CriticalEffect-Sensors1" ]
+                  ],
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-Sensors2" ]
+              }
+            }
+        },
+        {
+          "Name": "LifeSupportB",
+          "DisplayName": "Life Support B",
+          "DefaultCustoms": {
+            "InventorySorter": "Cockpit5",
+            "Sorter": 0,
+            "CriticalEffects": {
+              "LinkedStatisticName": "LifeSupport",
+              "OnDestroyedEffectIDs": [
+                "CriticalEffect-LifeSupport1",
+                "CriticalEffect-LifeSupport2"
+              ]
+            },
+            "RGBColor": "#A6AA8A",
+            "TRGBColor": {"Color": "#FFFFFF"}
+          },
+          "BaseLimits": [
+            {"Max": 1,"Min": 1}
+          ]
+        },
+        {
+            "Name": "Armor",
+            "DisplayName": "Armor",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "CustomWidget": "TopLeft",
+                "InventorySorter": "CzOrder0",
+                "Sorter": 0,
+                "RGBColor": "#bd8900",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "Flags": [ "ignore_damage", "no_salvage" ]
+            }
+        },
+        {
+            "Name": "Structure",
+            "DisplayName": "Structure",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "CustomWidget": "TopLeft",
+                "InventorySorter": "CzOrder1",
+                "Sorter": 1,
+                "RGBColor": "#bd8900",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "Flags": [ "ignore_damage", "no_salvage" ]
+            }
+        },
+        {
+            "Name": "Cooling",
+            "DisplayName": "Cooling System",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "CustomWidget": "TopLeft",
+                "InventorySorter": "CzOrder2",
+                "Sorter": 2,
+                "RGBColor": "#1888b8",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "Flags": [ "ignore_damage", "no_salvage" ]
+            }
+        },
+        {
+            "Name": "Quirk",
+            "DisplayName": "Quirk",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "CustomWidget": "TopRight",
+                "InventorySorter": "CzOrder10",
+                "Sorter": 10,
+                "Flags": [ "ignore_damage", "no_salvage" ]
+            }
+        },
+        {
+            "Name": "Gyro",
+            "DisplayName": "Gyro",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "CzOrder20",
+                "Sorter": 20,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                    "PenalizedEffectIDs": [
+                        [ "CriticalEffect-GyroCrit" ]
+                    ],
+                    "OnDestroyedEffectIDs": [ "CriticalEffect-GyroDestroyed" ]
+                }
+            }
+        },
+        {
+            "Name": "EnginePart",
+            "DisplayName": "Engine Part",
+            "DefaultCustoms": {
+                "CriticalEffects": {
+                    "CritFloatieMessage": "Engine CRIT",
+                    "DestroyedFloatieMessage": "Engine DESTROYED",
+                    "LinkedStatisticName": "EngineCrits",
+                    "PenalizedEffectIDs": [
+                        [ "CriticalEffect-EngineCrit1" ],
+                        [ "CriticalEffect-EngineCrit2" ]
+                    ],
+                    "DeathMethod": "EngineDestroyed"
+                }
+            }
+        },
+        {
+            "Name": "EngineShield",
+            "DisplayName": "Engine Shielding",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "CzOrder21",
+                "Sorter": 21
+            }
+        },
+        {
+            "Name": "EngineHeatBlock",
+            "DisplayName": "Engine Cooling",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "CzOrder22",
+                "Sorter": 22
+            }
+        },
+        {
+            "Name": "EngineCore",
+            "DisplayName": "Engine Core",
+            "BaseLimits": [
+                {"Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "CzOrder23",
+                "Sorter": 23
+            }
+        },
+        {
+            "Name": "EngineSlots",
+            "DisplayName": "Engine Slots",
+            "DefaultCustoms": {
+                "Sorter": 0,
+                "Flags": [ "not_broken", "default" ]
+            },
+            "RGBColor": "#A6AA8A",
+                "TRGBColor": {
+                  "Color": "#FFFFFF"
+                }
+        },
+        {
+            "Name": "HeatSink",
+            "DisplayName": "Heat Sink",
+            "DefaultCustoms": {
+                "InventorySorter": "CzOrder1",
+                "Sorter": 200
+            }
+        },
+        {
+            "Name": "Ammunition",
+            "DisplayName": "Ammunition",
+            "DefaultCustoms": {
+                "Sorter": 190
+            }
+        },
+        {
+            "Name": "LegHip",
+            "DisplayName": "Hip",
+            "BaseLimits": [
+                {"Location": "RightLeg","Min": 1,"Max": 1},
+                {"Location": "LeftLeg","Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "ActuatorLeg0",
+                "Sorter": 0,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-HipDestroyed-{location}" ],
+                  "OnDestroyedDisableEffectIds": [
+                      "CriticalEffect-LegUpperActuatorDestroyed-{location}",
+                      "CriticalEffect-LegLowerActuatorDestroyed-{location}",
+                      "CriticalEffect-LegFootActuatorDestroyed-{location}"
+                  ]
+              }
+            }
+        },
+        {
+            "Name": "LegUpperActuator",
+            "DisplayName": "Upper Leg Actuator",
+            "BaseLimits": [
+                {"Location": "RightLeg","Min": 1,"Max": 1},
+                {"Location": "LeftLeg","Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "ActuatorLeg1",
+                "Sorter": 1,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-LegUpperActuatorDestroyed-{location}" ]
+              }
+            }
+        },
+        {
+            "Name": "LegLowerActuator",
+            "DisplayName": "Lower Leg Actuator",
+            "BaseLimits": [
+                {"Location": "RightLeg","Min": 1,"Max": 1},
+                {"Location": "LeftLeg","Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "ActuatorLeg2",
+                "Sorter": 2,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-LegLowerActuatorDestroyed-{location}" ]
+              }
+            }
+        },
+        {
+            "Name": "LegFootActuator",
+            "DisplayName": "Foot Actuator",
+            "BaseLimits": [
+              {"Location": "RightLeg","Min": 1,"Max": 1},
+              {"Location": "LeftLeg","Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "ActuatorLeg3",
+                "Sorter": 3,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-LegFootActuatorDestroyed-{location}" ]
+              }
+            }
+        },
+        {
+            "Name": "ArmShoulder",
+            "DisplayName": "Shoulder",
+            "BaseLimits": [
+                {"Location": "RightArm","Min": 1,"Max": 1},
+                {"Location": "LeftArm","Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "ActuatorArm0",
+                "Sorter": 0,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-ShoulderDestroyed-{location}" ],
+                  "OnDestroyedDisableEffectIds": [
+                      "CriticalEffect-ArmUpperActuatorDestroyed-{location}",
+                      "CriticalEffect-ArmLowerActuatorDestroyed-{location}",
+                      "CriticalEffect-ArmHandActuatorDestroyed-{location}"
+                  ]
+              }
+            }
+        },
+        {
+            "Name": "ArmUpperActuator",
+            "DisplayName": "Upper Arm Actuator",
+            "BaseLimits": [
+                {"Location": "RightArm","Min": 1,"Max": 1},
+                {"Location": "LeftArm","Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "ActuatorArm1",
+                "Sorter": 1,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-ArmUpperActuatorDestroyed-{location}" ]
+              }
+            }
+        },
+        {
+            "Name": "ArmLowerActuator",
+            "DisplayName": "Lower Arm Actuator",
+            "BaseLimits": [
+                {"Location": "RightArm","Min": 1,"Max": 1},
+                {"Location": "LeftArm","Min": 1,"Max": 1}
+            ],
+            "DefaultCustoms": {
+                "InventorySorter": "ActuatorArm2",
+                "Sorter": 2,
+                "RGBColor": "#A6AA8A",
+                "TRGBColor": {"Color": "#FFFFFF"},
+                "CriticalEffects": {
+                  "DestroyedFloatieMessage": "Actuator DESTROYED",
+                  "OnDestroyedEffectIDs": [ "CriticalEffect-ArmLowerActuatorDestroyed-{location}" ]
+              }
+            }
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+   "Custom": {
+        "Category": [
+          {
+            "CategoryID": "PPC"
+          }
+        ],
+        "BonusDescriptions": [
+            "PPCDEBUFF: 1",
+            "MINE"        
+          ],
+          "InventorySorter": "00212"
+        },
+    "Category" : "Energy",
+    "Type" : "PPC",
+    "WeaponSubType" : "PPCER",
+    "MinRange" : 0,
+    "MaxRange": 840,
+  "RangeSplit": [
+    210,
+    420,
+    690
+    ],
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 48,
+    "Damage" : 75,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 3,
+    "Instability" : 20,
+    "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
+    "Description" : {
+        "Cost" : 1200000,
+        "Rarity" : 100,
+        "Purchasable" : false,
+        "Manufacturer" : "Clans",
+        "Model" : "Clan Extended-Range PPC",
+        "UIName" : "ER PPC (C)",
+        "Id" : "Weapon_PPC_PPCER_Clan",
+        "Name" : "ER PPC (C)",
+        "Details" : "An improvement upon standard PPCs using Clan Technologys, Extended-Range PPCs greatly extend their effective range at the cost of incredible heat generation. ER PPCs also generate a mild EM field that degrades the firing capability of their target.",
+        "Icon" : "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "PPC",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 7,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData": {
+              "duration": 2,
+              "stackLimit": -1,
+              "ticksOnActivations": true,
+              "useActivationsOfTarget": true
+            },
+            "targetingData": {
+              "effectTriggerType": "OnHit",
+              "showInTargetPreview": false,
+              "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Debuff",
+            "Description": {
+              "Id": "AbilityDefPPC",
+              "Name": "PPC: Increased Target ECM Jamming",
+              "Details": "EM Interference reduces sensor efficiency.",
+              "Icon": "uixSvgIcon_status_sensorsImpaired"
+            },
+            "statisticData": {
+              "statName": "LV_ECM_JAMMED",
+              "operation": "Int_Add",
+              "modValue": "1",
+              "modType": "System.Int32"
+            }
+          }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_extreme"
+			
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,0 +1,467 @@
+{
+	"Custom": {
+	  "Category": [
+		{
+		  "CategoryID": "ECM"
+		}
+	  ],
+	  "BonusDescriptions": [
+		"ECM: 3",
+		"Probe: 2",
+		"E-JAM: 1"
+	],
+	  "ActivatableComponent": {
+		"CanNotBeActivatedManualy": true,
+		"NoUniqueCheck": true,
+		"ActivationMessage": "Active",
+		"DeactivationMessage": "",
+		"statusEffects": [],
+		"offlineStatusEffects": []
+      },
+	  "Flags": [
+		"not_broken"
+	  ]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+	  "Cost": 420000,
+	  "Rarity": 6,
+	  "Purchasable": true,
+	  "Manufacturer": "Ceres",
+	  "Model": "X-1",
+	  "UIName": "Electronic Warfare Suite",
+	  "Id": "Gear_ECM_EWS",
+	  "Name": "Electronic Warfare Suite",
+	  "Details": "Electronic Warfare Equipment (EW Equipment) was a suite of basic electronic devices developed in 3025 by the Capellan Confederation and included on the first model of their Raven BattleMech along with the rare -0X variant of the Cataphract. The device mimicked the combined capabilities of the then-lostech Beagle Active Probe and Guardian ECM Suite, but without the range of those Star League era devices. It was a landmark development for the Confederation in its time, but became obsolete with the redevelopment of the Star League systems it copied.",
+	  "Icon": "ECM"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "",
+	"PrefabIdentifier": "",
+	"BattleValue": 80,
+	"InventorySize": 3,
+	"Tonnage": 3,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [
+	  {
+		"Id": "MINEDETECTIONAURA",
+		"Name": "Minesweeper",
+		"ReticleColor": "white",
+		"LineType": "Dots",
+		"isSpining": false,
+		"MinefieldDetector": true,
+		"HideOnNotSelected": true,
+		"Range": 180,
+		"RemoveOnSensorLock": false,
+		"State": "Persistent",
+		"ApplySelf": true,
+		"AllyStealthAffection": "None",
+		"EnemyStealthAffection": "None",
+		"IsPositiveToAlly": false,
+		"IsNegativeToEnemy": false,
+		"ownerVFX": [],
+		"targetVFX": [],
+		"removeOwnerVFX": [],
+		"removeTargetVFX": [],
+		"ownerSFX": [],
+		"targetSFX": [],
+		"removeOwnerSFX": [],
+		"removeTargetSFX": [],
+		"statusEffects": []
+	  },
+	  {
+		"Id": "ECM_Aura",
+		"Name": "ECM",
+		"ReticleColor": "#a31aff",
+		"Range": 180,
+		"HideOnNotSelected": false,
+		"RemoveOnSensorLock": false,
+		"State": "Persistent",
+		"ApplySelf": false,
+		"AllyStealthAffection": "PositiveOne",
+		"EnemyStealthAffection": "None",
+		"IsPositiveToAlly": true,
+		"IsNegativeToEnemy": false,
+		"ownerVFX": [],
+		"targetVFX": [],
+		"removeOwnerVFX": [],
+		"removeTargetVFX": [],
+		"ownerSFX": [],
+		"targetSFX": [],
+		"removeOwnerSFX": [],
+		"removeTargetSFX": [],
+		"statusEffects": [
+		  {
+			"durationData": {
+			  "duration": -1,
+			  "stackLimit": -1
+			},
+			"targetingData": {
+			  "effectTriggerType": "Passive",
+			  "effectTargetType": "AlliesWithinRange",
+			  "forceVisRebuild": true,
+			  "showInTargetPreview": false,
+			  "showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+			  "Id": "LV_ECM_SHIELD",
+			  "Name": "Warfare Suite / Aura ECM: Increased Allies ECM Shield",
+			  "Details": "Ally ECM Shield",
+			  "Icon": "uixSvgIcon_status_ECM-missileDef"
+			},
+			"statisticData": {
+			  "statName": "LV_ECM_SHIELD",
+			  "operation": "Int_Add",
+			  "modValue": "3",
+			  "modType": "System.Int32"
+			},
+			"nature": "Buff"
+		  }
+		]
+	  },
+	  {
+		"Id": "ECCM_Aura",
+		"Name": "ECCM",
+		"ReticleColor": "#a31aff",
+		"Range": 180,
+		"HideOnNotSelected": false,
+		"RemoveOnSensorLock": false,
+		"State": "Persistent",
+		"ApplySelf": false,
+		"AllyStealthAffection": "None",
+		"EnemyStealthAffection": "Nullify",
+		"IsPositiveToAlly": false,
+		"IsNegativeToEnemy": true,
+		"ownerVFX": [],
+		"targetVFX": [],
+		"removeOwnerVFX": [],
+		"removeTargetVFX": [],
+		"ownerSFX": [],
+		"targetSFX": [],
+		"removeOwnerSFX": [],
+		"removeTargetSFX": [],
+		"statusEffects": [
+		  {
+			"durationData": {
+			  "duration": -1,
+			  "stackLimit": -1
+			},
+			"targetingData": {
+			  "effectTriggerType": "Passive",
+			  "effectTargetType": "EnemiesWithinRange",
+			  "forceVisRebuild": true,
+			  "showInTargetPreview": false,
+			  "showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+			  "Id": "LV_ECCM_SHIELD",
+			  "Name": "Warfare Suite / Aura ECCM: Decreased Enemies ECM Shield",
+			  "Details": "ECCM Shield Reduction",
+			  "Icon": "uixSvgIcon_status_ECM-missileDef"
+			},
+			"statisticData": {
+			  "statName": "LV_ECM_SHIELD",
+			  "operation": "Int_Add",
+			  "modValue": "-1",
+			  "modType": "System.Int32"
+			},
+			"nature": "Debuff"
+		  },
+		  {
+			"durationData": {
+			  "duration": -1,
+			  "stackLimit": 1
+			},
+			"targetingData": {
+			  "effectTriggerType": "Passive",
+			  "effectTargetType": "EnemiesWithinRange",
+			  "showInTargetPreview": false,
+			  "showInStatusPanel": false
+			},
+			"Description": {
+			  "Id": "ECM_disrupt_C3",
+			  "Name": "Warfare Suite / Aura ECCM: ECM Disrupts C3",
+			  "Details": "C3 network",
+			  "Icon": "uixSvgIcon_status_ECM-missileDef"
+			},
+			"statisticData": {
+			  "statName": "ADD_ENCOUNTER_TAG_C3_network",
+			  "operation": "Float_Add",
+			  "modValue": "-2",
+			  "modType": "System.Single"
+			},
+			"effectType": "StatisticEffect",
+			"nature": "Debuff"
+		  },
+		  {
+			"durationData": {
+			  "duration": -1,
+			  "stackLimit": 1
+			},
+			"targetingData": {
+			  "effectTriggerType": "Passive",
+			  "effectTargetType": "EnemiesWithinRange",
+			  "showInTargetPreview": false,
+			  "showInStatusPanel": false
+			},
+			"Description": {
+			  "Id": "ECM_disrupt_C3i",
+			  "Name": "Warfare Suite / Aura ECCM: ECM Disrupts C3i",
+			  "Details": "C3 network",
+			  "Icon": "uixSvgIcon_status_ECM-missileDef"
+			},
+			"statisticData": {
+			  "statName": "ADD_ENCOUNTER_TAG_C3i_network",
+			  "operation": "Float_Add",
+			  "modValue": "-2",
+			  "modType": "System.Single"
+			},
+			"effectType": "StatisticEffect",
+			"nature": "Debuff"
+		  },
+		  {
+			"durationData": {
+			  "duration": -1,
+			  "stackLimit": 1
+			},
+			"targetingData": {
+			  "effectTriggerType": "Passive",
+			  "effectTargetType": "EnemiesWithinRange",
+			  "showInTargetPreview": false,
+			  "showInStatusPanel": false
+			},
+			"Description": {
+			  "Id": "ECM_disrupt_C3n",
+			  "Name": "Warfare Suite / Aura ECCM: ECM Disrupts C3 Nova",
+			  "Details": "C3 network",
+			  "Icon": "uixSvgIcon_status_ECM-missileDef"
+			},
+			"statisticData": {
+			  "statName": "ADD_ENCOUNTER_TAG_C3n_network",
+			  "operation": "Float_Add",
+			  "modValue": "-2",
+			  "modType": "System.Single"
+			},
+			"effectType": "StatisticEffect",
+			"nature": "Debuff"
+		  },
+		  {
+			"durationData": {
+			  "duration": -1,
+			  "stackLimit": 1
+			},
+			"targetingData": {
+			  "effectTriggerType": "Passive",
+			  "effectTargetType": "EnemiesWithinRange",
+			  "showInTargetPreview": false,
+			  "showInStatusPanel": false
+			},
+			"Description": {
+			  "Id": "ECM_disrupt_C3AI",
+			  "Name": "Warfare Suite / Aura ECCM: ECM Disrupts C3 AI",
+			  "Details": "C3 network",
+			  "Icon": "uixSvgIcon_status_ECM-missileDef"
+			},
+			"statisticData": {
+			  "statName": "ADD_ENCOUNTER_TAG_C3AI_network",
+			  "operation": "Float_Add",
+			  "modValue": "-2",
+			  "modType": "System.Single"
+			},
+			"effectType": "StatisticEffect",
+			"nature": "Debuff"
+		  }
+		]
+	  }
+	],
+	"statusEffects": [
+	  {
+		"targetingData": {
+		  "effectTriggerType": "OnActivation",
+		  "effectTargetType": "EnemiesWithinRange",
+		  "alsoTargetsCreator": true,
+		  "forceVisRebuild": true
+		},
+		"effectType": "ActiveAbility",
+		"Description": {
+		  "Id": "EWS_Ping",
+		  "Name": "EWS PING",
+		  "Details": "Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
+		  "Icon": "uixSvgIcon_action_sensorlock"
+		},
+		"activeAbilityEffectData": {
+		  "abilityName": "AbilityDef_EWS_Ping"
+		}
+	  },
+	  {
+		"durationData": {
+		  "duration": -1,
+		  "stackLimit": -1
+		},
+		"targetingData": {
+		  "effectTriggerType": "Passive",
+		  "effectTargetType": "Creator",
+		  "showInTargetPreview": false,
+		  "showInStatusPanel": false
+		},
+		"effectType": "StatisticEffect",
+		"Description": {
+		  "Id": "MineFieldDetection",
+		  "Name": "Warfare Suite: Increased Minefield Detection",
+		  "Details": "Detects Minefields",
+		  "Icon": "uixSvgIcon_status_ECM-ghost"
+		},
+		"statisticData": {
+		  "statName": "MinefieldDetection",
+		  "operation": "Float_Add",
+		  "modValue": "1",
+		  "modType": "System.Single"
+		},
+		"nature": "Buff"
+	  },
+	  {
+		"durationData": {
+		  "duration": -1,
+		  "stackLimit": -1
+		},
+		"targetingData": {
+		  "effectTriggerType": "Passive",
+		  "effectTargetType": "Creator",
+		  "showInTargetPreview": false,
+		  "showInStatusPanel": false
+		},
+		"effectType": "StatisticEffect",
+		"Description": {
+		  "Id": "LV_PROBE_CARRIER",
+		  "Name": "Warfare Suite: Active Probe",
+		  "Details": "Reduces effectiveness of stealthed and ECM shielded units",
+		  "Icon": "uixSvgIcon_status_ECM-ghost"
+		},
+		"statisticData": {
+		  "statName": "LV_PROBE_CARRIER",
+		  "operation": "Int_Add",
+		  "modValue": "2",
+		  "modType": "System.Int32"
+		},
+		"nature": "Buff"
+	  },
+	  {
+		"durationData": {
+		  "duration": -1,
+		  "stackLimit": -1
+		},
+		"targetingData": {
+		  "effectTriggerType": "Passive",
+		  "effectTargetType": "Creator",
+		  "showInTargetPreview": false,
+		  "showInStatusPanel": false
+		},
+		"effectType": "StatisticEffect",
+		"Description": {
+		  "Id": "LV_ADVANCED_SENSORS",
+		  "Name": "Warfare Suite: Increased Advanced Sensor Strength",
+		  "Details": "Provides detailed information on enemy units",
+		  "Icon": "uixSvgIcon_status_ECM-ghost"
+		},
+		"statisticData": {
+		  "statName": "LV_ADVANCED_SENSORS",
+		  "operation": "Int_Add",
+		  "modValue": "1",
+		  "modType": "System.Int32"
+		},
+		"nature": "Buff"
+	  },
+	  {
+		"durationData": {
+		  "duration": -1,
+		  "stackLimit": -1
+		},
+		"targetingData": {
+		  "effectTriggerType": "Passive",
+		  "effectTargetType": "Creator",
+		  "showInTargetPreview": false,
+		  "showInStatusPanel": false
+		},
+		"effectType": "StatisticEffect",
+		"Description": {
+		  "Id": "AdvancedProbeSight",
+		  "Name": "Warfare Suite: Increased Vision Range",
+		  "Details": "Increases spotting distance by 50m.",
+		  "Icon": "uixSvgIcon_equipment_Comms"
+		},
+		"nature": "Buff",
+		"statisticData": {
+		  "statName": "SpotterDistanceAbsolute",
+		  "operation": "Float_Multiply",
+		  "modValue": "1.1",
+		  "modType": "System.Single"
+		}
+	  },
+	  {
+		"durationData": {
+		  "duration": -1,
+		  "stackLimit": -1
+		},
+		"targetingData": {
+		  "effectTriggerType": "Passive",
+		  "effectTargetType": "Creator",
+		  "showInTargetPreview": false,
+		  "showInStatusPanel": false
+		},
+		"effectType": "StatisticEffect",
+		"Description": {
+		  "Id": "ECMPassiveShield",
+		  "Name": "Warfare Suite: Increased ECM Shield",
+		  "Details": "Passive ECM Protection",
+		  "Icon": "uixSvgIcon_equipment_Gyro"
+		},
+		"nature": "Buff",
+		"statisticData": {
+		  "statName": "LV_ECM_SHIELD",
+		  "operation": "Int_Add",
+		  "modValue": "1",
+		  "modType": "System.Int32"
+		}
+	  },
+	  {
+		"durationData": {
+		  "duration": -1,
+		  "stackLimit": -1
+		},
+		"targetingData": {
+		  "effectTriggerType": "Passive",
+		  "effectTargetType": "Creator",
+		  "showInTargetPreview": false,
+		  "showInStatusPanel": false
+		},
+		"effectType": "StatisticEffect",
+		"Description": {
+		  "Id": "ECMPassiveJam",
+		  "Name": "Warfare Suite: Decreased ECM Jamming",
+		  "Details": "Passive Jamming Protection",
+		  "Icon": "uixSvgIcon_equipment_Gyro"
+		},
+		"nature": "Buff",
+		"statisticData": {
+		  "statName": "LV_ECM_JAMMED",
+		  "operation": "Int_Add",
+		  "modValue": "-1",
+		  "modType": "System.Int32"
+		}
+	  }
+	],
+	"ComponentTags": {
+	  "items": [
+		"component_type_stock"
+	  ],
+	  "tagSetSourceFile": ""
+	}
+  }

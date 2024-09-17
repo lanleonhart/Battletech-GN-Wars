@@ -1,0 +1,199 @@
+{
+    "Description": {
+        "Cost": 8400000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Cestus_CTS-6Y",
+        "Id": "chassisdef_Cestus_CTS-6Y",
+        "Name": "Cestus",
+        "Details": "The CTS-6Y Cestus began production for the Star League Defense Force in 2766. However the original CTS-6X Cestus was produced during 2603.[6] Introduced by General Motors and constructed at their Kathil plant, the Cestus served in the Armed Forces of the Federated Suns after the Fall of the Star League until its factory became a casualty during a Capellan Confederation Armed Forces raid at the beginning of the Second Succession War. The 'Mech was originally designed to carry a heavy energy weapons payload, but because of complications encountered with the heat sinks on the 'Mech, the upgraded Cestus was modified to carry a mix of ballistic and energy weapons. The Cestus was reintroduced by both Blue Shot Weapons and General Motors in the mid-3050s",
+        "Icon": "Cestus"
+    },
+    "MovementCapDefID": "movedef_rifleman_RFL-4D",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_ostwar",
+    "PrefabIdentifier": "chrprfmech_ostwarhotd-001",
+    "PrefabBase": "ostwar",
+    "Tonnage": 65,
+    "InitialTonnage": 6.5,
+    "weightClass": "HEAVY",
+    "BattleValue": 8821000,
+    "Heatsinks": 0,
+    "TopSpeed": 105,
+    "TurnRadius": 90,
+    "MaxJumpjets": 3,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 55,
+    "MeleeInstability": 60,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 75,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 75,
+    "DFAInstability": 75,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 16,
+            "MaxArmor": 175,
+            "MaxRearArmor": 135,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 180,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 180,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 16,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "CTS-6Y",
+    "ChassisTags": {
+        "items": [
+            "Vanilla"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Brawler",
+    "YangsThoughts": ""
+}

@@ -1,0 +1,64 @@
+{
+  "lanceKey": "Damaged_Heavy_Battle_Lance",
+  "lanceDefId": "Tagged",
+  "lanceTagSet": {
+    "items": ["lance_type_battle", "lance_type_heavy"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+				"items": [
+					"unit_heavy",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			},
+			"spawnEffectTags": {
+				"items": []
+			}
+		},
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+				"items": [
+					"unit_heavy",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			},
+			"spawnEffectTags": {
+				"items": []
+			}
+		},
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+				"items": [
+					"unit_heavy",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			},
+			"spawnEffectTags": {
+				"items": []
+			}
+		},
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+				"items": [
+					"unit_vehicle",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				]
+			},
+			"spawnEffectTags": {
+				"items": []
+			}
+		}
+  ]
+}
