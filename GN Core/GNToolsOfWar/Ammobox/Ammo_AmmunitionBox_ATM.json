@@ -1,29 +1,30 @@
-{ "Custom": {
+{
+    "Custom": {
         
-    "Category": [
-       {
-         "CategoryID": "ATM"
-       }
-     ], 
-     "ComponentExplosion": {
-        "ExplosionDamagePerAmmo": 4.0,
-        "HeatDamagePerAmmo": 2.5,
-        "StabilityDamagePerAmmo": 1.25
- },
- "InventorySorter": "614"
- },
-    "AmmoID" : "Ammunition_ATM",
-    "Capacity" : 32,
-    "Description" : {
-        "Cost" : 100000,
-        "Rarity" : 0,
-        "Purchasable" : true,
-        "Manufacturer" : "Guided Technologies",
-        "Model" : "",
-        "UIName" : "ATM Ammo",
-        "Id" : "Ammo_AmmunitionBox_ATM",
-        "Name" : "ATM Ammo",
-        "Details" : "Ammo Bins contain the rounds needed for Streak SRM weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nStreak SRM Ammo Bins each contain 60 rounds and may feed multiple weapons.",
+        "Category": [
+           {
+             "CategoryID": "ATM"
+           }
+         ],
+         "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 15.0,
+            "HeatDamagePerAmmo": 6,
+            "StabilityDamagePerAmmo": 8
+     },
+     "InventorySorter": "620"
+     },
+     "AmmoID" : "Ammunition_ATM",
+     "Capacity" : 120,
+     "Description" : {
+         "Cost" : 20000,
+         "Rarity" : 0,
+         "Purchasable" : true,
+         "Manufacturer" : "Generic",
+         "Model" : "ATM",
+         "UIName" : "ATM Ammo",
+         "Id" : "Ammo_AmmunitionBox_ATM",
+         "Name" : "ATM Ammo",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nLRM Ammo Bins each contain 120 rounds and may feed multiple weapons.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "",
@@ -47,5 +48,4 @@
         ],
         "tagSetSourceFile" : ""
     }
-
 }
