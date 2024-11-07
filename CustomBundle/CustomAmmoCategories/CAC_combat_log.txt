@@ -1,0 +1,2320 @@
+[23:04:36.458]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <f38a3581bc004818a5b10e9dc473864f>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <4bc04f6497764b5ab775ef43af099937>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <4bc04f6497764b5ab775ef43af099937>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <4bc04f6497764b5ab775ef43af099937>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::ListContracts> (BattleTech.UI.SGContractsWidget , System.Collections.Generic.List`1[T] , System.Nullable`1[T] ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGRoomController_CmdCenter.OnContractsFetched () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGRoomController_CmdCenter.StartContractScreen () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGRoomController_CmdCenter.CharacterClickedOn (BattleTech.SimGameState+SimGameCharacterType characterClicked) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGRoomController_CmdCenter.EnterRoom () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGRoomManager.RoomChangeComplete () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGRoomManager.ChangeRoom (BattleTech.DropshipLocation newRoom) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.SimGameState.DMD<BattleTech.SimGameState::SetSimRoomState> (BattleTech.SimGameState , BattleTech.DropshipLocation ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGRoomManager.SetSubRoom (BattleTech.DropshipLocation loc, BattleTech.DropshipMenuType subLoc) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationButton_OnClick.QueueOrForceActivation (BattleTech.DropshipMenuType menuType, BattleTech.DropshipLocation location, BattleTech.UI.SGNavigationWidgetLeft sgnwl, BattleTech.SimGameState sgs) [0x00000] in <736cd14886c8475691d1770403462b15>:0 
+  at IRTweaks.Modules.UI.StreamlinedMainMenu+SGNavigationButton_OnClick.Postfix (BattleTech.UI.SGNavigationButton __instance, BattleTech.UI.SGNavigationList ___buttonParent, BattleTech.UI.TMProWrapper.LocalizableText ___text) [0x00000] in <736cd14886c8475691d1770403462b15>:0 
+  at BattleTech.UI.SGNavigationButton.DMD<BattleTech.UI.SGNavigationButton::OnClick> (BattleTech.UI.SGNavigationButton ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[23:04:37.882]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <f38a3581bc004818a5b10e9dc473864f>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.LanceContractIntelWidget.GetIntelMinimapSprite (BattleTech.Contract contract) [0x00000] in <4bc04f6497764b5ab775ef43af099937>:0 
+  at CustomUnits.LanceContractIntelWidget.Init (BattleTech.UI.TMProWrapper.LocalizableText ContractDescriptionField, BattleTech.Contract contract) [0x00000] in <4bc04f6497764b5ab775ef43af099937>:0 
+  at CustomUnits.SGContractsWidget_PopulateContract.Postfix (BattleTech.UI.SGContractsWidget __instance, BattleTech.Contract contract) [0x00000] in <4bc04f6497764b5ab775ef43af099937>:0 
+  at BattleTech.UI.SGContractsWidget.DMD<BattleTech.UI.SGContractsWidget::PopulateContract> (BattleTech.UI.SGContractsWidget , BattleTech.Contract , System.Action ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.SGContractsWidget.onContractSelected (BattleTech.Contract contract) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.SGContractsListItem.OnClicked () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 
+  at BattleTech.UI.HBSToggle.OnPointerUp (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMousePress (UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData data) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent (System.Int32 id) [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.StandaloneInputModule.Process () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <689405fdf241479fa6250af7e4b0368a>:0 
+ active terrain is null
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+[23:04:50.655]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <f38a3581bc004818a5b10e9dc473864f>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::LoadMapMetaData> (BattleTech.Contract , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.CombatGameState.DMD<BattleTech.CombatGameState::_Init> (BattleTech.CombatGameState , BattleTech.GameInstance , BattleTech.Contract , System.String ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.CombatGameState.FirstTimeInit (BattleTech.Contract contract, BattleTech.GameInstance game, System.String localPlayerTeamGuid) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.GameInstance.DMD<BattleTech.GameInstance::LaunchContract> (BattleTech.GameInstance , BattleTech.Contract , System.String ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.GameInstance_LaunchContract.Prefix (BattleTech.GameInstance __instance, BattleTech.Contract contract, System.String playerGUID) [0x00000] in <4bc04f6497764b5ab775ef43af099937>:0 
+  at BattleTech.GameInstance.DMD<BattleTech.GameInstance::LaunchContract> (BattleTech.GameInstance , BattleTech.Contract , System.String ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at CustomUnits.DeployManualHelper+<>c__DisplayClass37_0.<CheckDefinitiosDeps>b__0 () [0x00000] in <4bc04f6497764b5ab775ef43af099937>:0 
+  at BattleTech.Data.DataManager+DependencyLoadRequest.Complete () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.Data.DataManager+DependencyLoadRequest.CompleteRequest (BattleTech.Data.LoadRequest request) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.Data.LoadRequest.Finish () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.Data.LoadRequest.FlushCompleteRequests (System.Single deltaTime) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.Data.DataManager.CheckRequestsComplete (System.Single deltaTime) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.Data.DataManager.Update (System.Single deltaTime) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.GameInstance.Update (System.Single deltaTime) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UnityGameInstance.DMD<BattleTech.UnityGameInstance::Update> (BattleTech.UnityGameInstance ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+ active terrain is null
+[23:04:53.814]Contract.RequestConversations
+ sprite:turret_unit_result_stat
+  not exist in manifest
+ sprite:battle_armor_unit_result_stat
+  not exist in manifest
+Dynamic design mask loaded:DesignMaskRadiation = RADIATION FIELD
+Dynamic design mask loaded:DesignMaskIce = ICE
+Dynamic design mask loaded:DesignMaskGeothermal = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskCrystals = CRYSTAL FIELD
+Dynamic design mask loaded:DesignMaskForest = FOREST
+Dynamic design mask loaded:DesignMaskSmoke = SMOKE
+Dynamic design mask loaded:DesignMaskBurningTerrain = FIRE
+Dynamic design mask loaded:DesignMaskBurnedForest = BURNED FOREST
+Dynamic design mask loaded:DesignMaskBurningForest = BURNING FOREST
+Dynamic design mask loaded:DesignMaskGeothermalLava = GEOTHERMAL
+Dynamic design mask loaded:DesignMaskSpores = SPORE FIELD
+[23:05:13.440]MapMetaData.Load 512 X 512
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomAmmoCategoriesPatches.MapMetaData_Load.Postfix (BattleTech.MapMetaData __instance, HBS.Util.SerializationStream stream) [0x00000] in <f38a3581bc004818a5b10e9dc473864f>:0 
+  at BattleTech.MapMetaData.DMD<BattleTech.MapMetaData::Load> (BattleTech.MapMetaData , HBS.Util.SerializationStream ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaDataExporter.DMD<BattleTech.MapMetaDataExporter::LoadMapMetaDataOnly> (BattleTech.MapMetaDataExporter , BattleTech.MapMetaData , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.MapMetaDataExporter.DMD<BattleTech.MapMetaDataExporter::LoadMapMetaDataV2> (BattleTech.MapMetaDataExporter , BattleTech.MapMetaData , System.String , BattleTech.Data.DataManager ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.EncounterLayerParent.DMD<BattleTech.EncounterLayerParent::InitializeContract> (BattleTech.EncounterLayerParent , MessageCenterMessage ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at MessageCenter.SendMessagesForType (MessageCenterMessageType messageType, MessageCenterMessage message) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at MessageCenter.DMD<MessageCenter::PublishMessage> (MessageCenter , MessageCenterMessage ) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.Briefing.InitializeContract () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.UI.Briefing.Update () [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+[23:05:13.444]Map biome:DesignMaskBiomeJungleTropical noForest:False hex grid:not null
+[23:05:14.014]Weapon.Constructor chassisdef_spider_SDR-5V Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:14.015]Weapon.Constructor mechdef_spider_SDR-5V Weapon_Laser_MediumLaser_0-STOCK
+[23:05:14.022]Weapon.Constructor chassisdef_spider_SDR-5V Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:14.022]Weapon.Constructor mechdef_spider_SDR-5V Weapon_Laser_MediumLaser_0-STOCK
+[23:05:14.023]Weapon.Constructor chassisdef_spider_SDR-5V Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[23:05:14.023]Weapon.Constructor mechdef_spider_SDR-5V Weapon_MeleeAttack
+[23:05:14.026]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:14.030]RecalculateBlocked:Spider
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+[23:05:14.031]Weapon.Constructor chassisdef_spider_SDR-5V Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[23:05:14.031]Weapon.Constructor mechdef_spider_SDR-5V Weapon_DFAAttack
+[23:05:14.033]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:14.033]RecalculateBlocked:Spider
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+[23:05:14.033]Weapon.Constructor chassisdef_spider_SDR-5V Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:14.033]Weapon.Constructor mechdef_spider_SDR-5V Weapon_Laser_AI_Imaginary
+[23:05:14.035]RecalculateBlocked:Spider
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:8:False
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:25aa8a21-2563-4230-853c-91aa483d6870.9999999999
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:25aa8a21-2563-4230-853c-91aa483d6870.9999999999
+Weapon.InitStats Weapon_MeleeAttack:25aa8a21-2563-4230-853c-91aa483d6870.9999999999
+Weapon.InitStats Weapon_DFAAttack:25aa8a21-2563-4230-853c-91aa483d6870.9999999999
+[23:05:14.074]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ boxes:0
+[23:05:14.074]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ boxes:0
+[23:05:14.074]AbstractActor.AssignAmmoToWeapons mechdef_spider_SDR-5V
+[23:05:14.074]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:14.075]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:14.145]Pilot.InitAbilities pilot_default
+[23:05:14.146]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:14.146]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:14.146]Late ReapplyDesignMasks chassisdef_spider_SDR-5V
+[23:05:14.260]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[23:05:14.260]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Spider
+  mode:BASE.WeaponEffectID is empty
+[23:05:14.268]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[23:05:14.268]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Spider
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_MeleeAttack:Spider
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_DFAAttack:Spider
+  mode:BASE.WeaponEffectID is empty
+CombatGameState.RebuildAllLists
+[23:05:15.233]Weapon.Constructor chassisdef_deploy_director Weapon_Laser_SmallLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_SmallLaser_0-STOCK
+[23:05:15.233]Weapon.Constructor mechdef_deploy_director Weapon_Laser_SmallLaser_0-STOCK
+[23:05:15.235]Weapon.Constructor chassisdef_deploy_director Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[23:05:15.235]Weapon.Constructor mechdef_deploy_director Weapon_MeleeAttack
+[23:05:15.237]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.237]RecalculateBlocked:DEPLOY
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_SmallLaser_0-STOCK loc:2:False
+[23:05:15.237]Weapon.Constructor chassisdef_deploy_director Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[23:05:15.237]Weapon.Constructor mechdef_deploy_director Weapon_DFAAttack
+[23:05:15.238]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.238]RecalculateBlocked:DEPLOY
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_SmallLaser_0-STOCK loc:2:False
+[23:05:15.238]Weapon.Constructor chassisdef_deploy_director Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:15.238]Weapon.Constructor mechdef_deploy_director Weapon_Laser_AI_Imaginary
+[23:05:15.240]RecalculateBlocked:DEPLOY
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_SmallLaser_0-STOCK loc:2:False
+Weapon.InitStats Weapon_Laser_SmallLaser_0-STOCK:7e84b5b7-47b8-409d-bf8f-f2fa36d56f91
+Weapon.InitStats Weapon_MeleeAttack:7e84b5b7-47b8-409d-bf8f-f2fa36d56f91
+Weapon.InitStats Weapon_DFAAttack:7e84b5b7-47b8-409d-bf8f-f2fa36d56f91
+[23:05:15.248]Weapon SetAmmoBoxes Weapon_Laser_SmallLaser_0-STOCK can use categories:
+ boxes:0
+[23:05:15.248]AbstractActor.AssignAmmoToWeapons mechdef_deploy_director
+[23:05:15.248]Revalidate:Weapon_Laser_SmallLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.248]Pilot.InitAbilities pilot_deploy_director
+[23:05:15.248]RefreshModeAvaibility:Weapon_Laser_SmallLaser_0-STOCK
+[23:05:15.249]Late ReapplyDesignMasks chassisdef_deploy_director
+CombatGameState.RebuildAllLists
+  DEPLOY
+RegisterPlayerWeapon
+ Weapon modes count 1
+CombatGameState.RebuildAllLists
+  DEPLOY
+RegisterPlayerWeapon
+ Weapon modes count 1
+[23:05:15.442]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_Laser_GNT_Standard:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_GNT_Standard
+[23:05:15.442]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_Laser_GNT_Standard
+[23:05:15.445]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_Laser_MediumLaserER_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.445]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.447]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_SRM_SRM4_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_SRM_SRM4_0-STOCK
+[23:05:15.447]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_SRM_SRM4_0-STOCK
+[23:05:15.448]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_SRM_SRM4_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_SRM_SRM4_0-STOCK
+[23:05:15.448]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_SRM_SRM4_0-STOCK
+[23:05:15.450]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_AMS:Weapon
+ incoming ref definition:WeaponDef:Weapon_AMS
+[23:05:15.450]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_AMS
+[23:05:15.454]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_Laser_MediumLaserER_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.454]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.455]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[23:05:15.455]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_MeleeAttack
+[23:05:15.457]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.457]RecalculateBlocked:Phoenix Hawk
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_GNT_Standard loc:32:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:4:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:16:False
+ weapon Weapon_AMS loc:1:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+[23:05:15.457]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[23:05:15.457]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_DFAAttack
+[23:05:15.458]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.458]RecalculateBlocked:Phoenix Hawk
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_GNT_Standard loc:32:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:4:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:16:False
+ weapon Weapon_AMS loc:1:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+[23:05:15.458]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:15.458]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_Laser_AI_Imaginary
+[23:05:15.460]RecalculateBlocked:Phoenix Hawk
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_GNT_Standard loc:32:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:4:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:16:False
+ weapon Weapon_AMS loc:1:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+Weapon.InitStats Weapon_Laser_GNT_Standard:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+Weapon.InitStats Weapon_Laser_MediumLaserER_0-STOCK:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+Weapon.InitStats Weapon_SRM_SRM4_0-STOCK:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+Weapon.InitStats Weapon_SRM_SRM4_0-STOCK:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+Weapon.InitStats Weapon_AMS:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+Weapon.InitStats Weapon_Laser_MediumLaserER_0-STOCK:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+Weapon.InitStats Weapon_MeleeAttack:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+Weapon.InitStats Weapon_DFAAttack:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+[23:05:15.472]Weapon SetAmmoBoxes Weapon_Laser_GNT_Standard can use categories: GNParticlesTau
+ skip ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:0
+[23:05:15.472]Weapon SetAmmoBoxes Weapon_Laser_MediumLaserER_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:0
+[23:05:15.472]Weapon SetAmmoBoxes Weapon_SRM_SRM4_0-STOCK can use categories: SRM
+ add ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:1
+[23:05:15.472]Weapon SetAmmoBoxes Weapon_SRM_SRM4_0-STOCK can use categories: SRM
+ add ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:1
+[23:05:15.472]Weapon SetAmmoBoxes Weapon_AMS can use categories: AMS
+ skip ammunition box Ammunition_SRM category:SRM
+ add ammunition box Ammunition_AMS category:AMS
+ boxes:1
+[23:05:15.472]Weapon SetAmmoBoxes Weapon_Laser_MediumLaserER_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:0
+[23:05:15.472]AbstractActor.AssignAmmoToWeapons mechdef_phoenixhawk_PXH-3DGN
+[23:05:15.472]Revalidate:Weapon_Laser_GNT_Standard.
+ Mode id:x1
+  mod found
+ effective ammo category GNParticlesTau
+ ammo id NotSet category:NotSet
+[23:05:15.473]getAvaibleAmmo Weapon_Laser_GNT_Standard category:GNParticlesTau ammoBoxes:0
+[23:05:15.473]getAvaibleAmmo Weapon_Laser_GNT_Standard category:GNParticlesTau ammoBoxes:0
+ resulting ammo Ammunition_GNParticlesTau mode:x1 ammoCount:10
+[23:05:15.474]Revalidate:Weapon_Laser_MediumLaserER_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.474]Revalidate:Weapon_SRM_SRM4_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category SRM
+ ammo id NotSet category:NotSet
+[23:05:15.474]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+[23:05:15.474]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+ resulting ammo Ammunition_SRM mode:BASE ammoCount:100
+[23:05:15.474]Revalidate:Weapon_SRM_SRM4_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category SRM
+ ammo id NotSet category:NotSet
+[23:05:15.474]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+[23:05:15.474]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+ resulting ammo Ammunition_SRM mode:BASE ammoCount:100
+[23:05:15.474]Revalidate:Weapon_AMS.
+ Mode id:On
+  mod found
+ effective ammo category AMS
+ ammo id NotSet category:NotSet
+[23:05:15.474]getAvaibleAmmo Weapon_AMS category:AMS ammoBoxes:1
+[23:05:15.474]getAvaibleAmmo Weapon_AMS category:AMS ammoBoxes:1
+ resulting ammo Ammunition_AMS mode:On ammoCount:150
+[23:05:15.475]Revalidate:Weapon_Laser_MediumLaserER_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.499]Pilot.InitAbilities pilot_Lan
+[23:05:15.500]RefreshModeAvaibility:Weapon_Laser_GNT_Standard
+[23:05:15.500]RefreshModeAvaibility:Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.500]RefreshModeAvaibility:Weapon_SRM_SRM4_0-STOCK
+[23:05:15.500]RefreshModeAvaibility:Weapon_SRM_SRM4_0-STOCK
+[23:05:15.500]RefreshModeAvaibility:Weapon_AMS
+[23:05:15.500]RefreshModeAvaibility:Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.500]Late ReapplyDesignMasks chassisdef_phoenixhawk_PXH-3DGN
+[23:05:15.588]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_lrg
+ activeProjectileName:
+[23:05:15.588]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_GNT_Standard:Phoenix Hawk
+  Ammunition_GNParticlesTau.WeaponEffectID is empty
+  mode:x1.WeaponEffectID is empty
+  mode:x2.WeaponEffectID is empty
+[23:05:15.591]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_med
+ activeProjectileName:
+[23:05:15.591]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaserER_0-STOCK:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Phoenix Hawk
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Phoenix Hawk
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_AMS:Phoenix Hawk
+  Ammunition_AMS.WeaponEffectID is empty
+  mode:On.WeaponEffectID is empty
+  mode:Overload.WeaponEffectID is empty
+  mode:Off.WeaponEffectID is empty
+[23:05:15.598]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_med
+ activeProjectileName:
+[23:05:15.598]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaserER_0-STOCK:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+[23:05:15.606]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_lrg
+ activeProjectileName:
+[23:05:15.606]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_GNT_Standard:Phoenix Hawk
+  Ammunition_GNParticlesTau.WeaponEffectID is empty
+  mode:x1.WeaponEffectID is empty
+  mode:x2.WeaponEffectID is empty
+[23:05:15.606]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_med
+ activeProjectileName:
+[23:05:15.606]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaserER_0-STOCK:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Phoenix Hawk
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Phoenix Hawk
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_AMS:Phoenix Hawk
+  Ammunition_AMS.WeaponEffectID is empty
+  mode:On.WeaponEffectID is empty
+  mode:Overload.WeaponEffectID is empty
+  mode:Off.WeaponEffectID is empty
+  Weapon_AMS already inited as AMS
+[23:05:15.608]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_med
+ activeProjectileName:
+[23:05:15.608]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaserER_0-STOCK:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_MeleeAttack:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_DFAAttack:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+[23:05:15.630]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_Laser_GNT_Standard:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_GNT_Standard
+[23:05:15.630]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_Laser_GNT_Standard
+[23:05:15.633]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_Laser_MediumLaserER_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.633]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.635]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_SRM_SRM4_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_SRM_SRM4_0-STOCK
+[23:05:15.635]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_SRM_SRM4_0-STOCK
+[23:05:15.636]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_SRM_SRM4_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_SRM_SRM4_0-STOCK
+[23:05:15.636]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_SRM_SRM4_0-STOCK
+[23:05:15.638]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_AMS:Weapon
+ incoming ref definition:WeaponDef:Weapon_AMS
+[23:05:15.638]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_AMS
+[23:05:15.642]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_Laser_MediumLaserER_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.642]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.644]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[23:05:15.644]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_MeleeAttack
+[23:05:15.645]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.645]RecalculateBlocked:Phoenix Hawk
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_GNT_Standard loc:32:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:4:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:16:False
+ weapon Weapon_AMS loc:1:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+[23:05:15.645]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[23:05:15.645]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_DFAAttack
+[23:05:15.647]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.647]RecalculateBlocked:Phoenix Hawk
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_GNT_Standard loc:32:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:4:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:16:False
+ weapon Weapon_AMS loc:1:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+[23:05:15.647]Weapon.Constructor chassisdef_phoenixhawk_PXH-3DGN Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:15.647]Weapon.Constructor mechdef_phoenixhawk_PXH-3DGN Weapon_Laser_AI_Imaginary
+[23:05:15.648]RecalculateBlocked:Phoenix Hawk
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_GNT_Standard loc:32:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:4:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:16:False
+ weapon Weapon_AMS loc:1:False
+ weapon Weapon_Laser_MediumLaserER_0-STOCK loc:2:False
+Weapon.InitStats Weapon_Laser_GNT_Standard:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+Weapon.InitStats Weapon_Laser_MediumLaserER_0-STOCK:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+Weapon.InitStats Weapon_SRM_SRM4_0-STOCK:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+Weapon.InitStats Weapon_SRM_SRM4_0-STOCK:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+Weapon.InitStats Weapon_AMS:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+Weapon.InitStats Weapon_Laser_MediumLaserER_0-STOCK:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+Weapon.InitStats Weapon_MeleeAttack:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+Weapon.InitStats Weapon_DFAAttack:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+[23:05:15.658]Weapon SetAmmoBoxes Weapon_Laser_GNT_Standard can use categories: GNParticlesTau
+ skip ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:0
+[23:05:15.658]Weapon SetAmmoBoxes Weapon_Laser_MediumLaserER_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:0
+[23:05:15.658]Weapon SetAmmoBoxes Weapon_SRM_SRM4_0-STOCK can use categories: SRM
+ add ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:1
+[23:05:15.658]Weapon SetAmmoBoxes Weapon_SRM_SRM4_0-STOCK can use categories: SRM
+ add ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:1
+[23:05:15.658]Weapon SetAmmoBoxes Weapon_AMS can use categories: AMS
+ skip ammunition box Ammunition_SRM category:SRM
+ add ammunition box Ammunition_AMS category:AMS
+ boxes:1
+[23:05:15.658]Weapon SetAmmoBoxes Weapon_Laser_MediumLaserER_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:0
+[23:05:15.658]AbstractActor.AssignAmmoToWeapons mechdef_phoenixhawk_PXH-3DGN
+[23:05:15.658]Revalidate:Weapon_Laser_GNT_Standard.
+ Mode id:x1
+  mod found
+ effective ammo category GNParticlesTau
+ ammo id NotSet category:NotSet
+[23:05:15.658]getAvaibleAmmo Weapon_Laser_GNT_Standard category:GNParticlesTau ammoBoxes:0
+[23:05:15.658]getAvaibleAmmo Weapon_Laser_GNT_Standard category:GNParticlesTau ammoBoxes:0
+ resulting ammo Ammunition_GNParticlesTau mode:x1 ammoCount:10
+[23:05:15.658]Revalidate:Weapon_Laser_MediumLaserER_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.658]Revalidate:Weapon_SRM_SRM4_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category SRM
+ ammo id NotSet category:NotSet
+[23:05:15.658]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+[23:05:15.658]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+ resulting ammo Ammunition_SRM mode:BASE ammoCount:100
+[23:05:15.658]Revalidate:Weapon_SRM_SRM4_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category SRM
+ ammo id NotSet category:NotSet
+[23:05:15.658]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+[23:05:15.658]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+ resulting ammo Ammunition_SRM mode:BASE ammoCount:100
+[23:05:15.658]Revalidate:Weapon_AMS.
+ Mode id:On
+  mod found
+ effective ammo category AMS
+ ammo id NotSet category:NotSet
+[23:05:15.658]getAvaibleAmmo Weapon_AMS category:AMS ammoBoxes:1
+[23:05:15.658]getAvaibleAmmo Weapon_AMS category:AMS ammoBoxes:1
+ resulting ammo Ammunition_AMS mode:On ammoCount:150
+[23:05:15.658]Revalidate:Weapon_Laser_MediumLaserER_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.676]Pilot.InitAbilities pilot_ace
+[23:05:15.676]RefreshModeAvaibility:Weapon_Laser_GNT_Standard
+[23:05:15.676]RefreshModeAvaibility:Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.676]RefreshModeAvaibility:Weapon_SRM_SRM4_0-STOCK
+[23:05:15.676]RefreshModeAvaibility:Weapon_SRM_SRM4_0-STOCK
+[23:05:15.676]RefreshModeAvaibility:Weapon_AMS
+[23:05:15.676]RefreshModeAvaibility:Weapon_Laser_MediumLaserER_0-STOCK
+[23:05:15.676]Late ReapplyDesignMasks chassisdef_phoenixhawk_PXH-3DGN
+[23:05:15.734]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_lrg
+ activeProjectileName:
+[23:05:15.735]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_GNT_Standard:Phoenix Hawk
+  Ammunition_GNParticlesTau.WeaponEffectID is empty
+  mode:x1.WeaponEffectID is empty
+  mode:x2.WeaponEffectID is empty
+[23:05:15.735]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_med
+ activeProjectileName:
+[23:05:15.735]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaserER_0-STOCK:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Phoenix Hawk
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Phoenix Hawk
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_AMS:Phoenix Hawk
+  Ammunition_AMS.WeaponEffectID is empty
+  mode:On.WeaponEffectID is empty
+  mode:Overload.WeaponEffectID is empty
+  mode:Off.WeaponEffectID is empty
+[23:05:15.736]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_med
+ activeProjectileName:
+[23:05:15.736]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaserER_0-STOCK:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+[23:05:15.742]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_lrg
+ activeProjectileName:
+[23:05:15.742]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_GNT_Standard:Phoenix Hawk
+  Ammunition_GNParticlesTau.WeaponEffectID is empty
+  mode:x1.WeaponEffectID is empty
+  mode:x2.WeaponEffectID is empty
+[23:05:15.742]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_med
+ activeProjectileName:
+[23:05:15.742]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaserER_0-STOCK:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Phoenix Hawk
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Phoenix Hawk
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_AMS:Phoenix Hawk
+  Ammunition_AMS.WeaponEffectID is empty
+  mode:On.WeaponEffectID is empty
+  mode:Overload.WeaponEffectID is empty
+  mode:Off.WeaponEffectID is empty
+  Weapon_AMS already inited as AMS
+[23:05:15.743]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_med
+ activeProjectileName:
+[23:05:15.743]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaserER_0-STOCK:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_MeleeAttack:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_DFAAttack:Phoenix Hawk
+  mode:BASE.WeaponEffectID is empty
+[23:05:15.827]Weapon.Constructor chassisdef_jenner_JR7-D Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.827]Weapon.Constructor mechdef_jenner_JR7-D Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.829]Weapon.Constructor chassisdef_jenner_JR7-D Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.829]Weapon.Constructor mechdef_jenner_JR7-D Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.830]Weapon.Constructor chassisdef_jenner_JR7-D Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.830]Weapon.Constructor mechdef_jenner_JR7-D Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.832]Weapon.Constructor chassisdef_jenner_JR7-D Weapon_SRM_SRM4_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_SRM_SRM4_0-STOCK
+[23:05:15.832]Weapon.Constructor mechdef_jenner_JR7-D Weapon_SRM_SRM4_0-STOCK
+[23:05:15.833]Weapon.Constructor chassisdef_jenner_JR7-D Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.833]Weapon.Constructor mechdef_jenner_JR7-D Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.835]Weapon.Constructor chassisdef_jenner_JR7-D Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[23:05:15.835]Weapon.Constructor mechdef_jenner_JR7-D Weapon_MeleeAttack
+[23:05:15.836]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.836]RecalculateBlocked:Jenner
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:2:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:2:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:8:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:32:False
+[23:05:15.837]Weapon.Constructor chassisdef_jenner_JR7-D Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[23:05:15.837]Weapon.Constructor mechdef_jenner_JR7-D Weapon_DFAAttack
+[23:05:15.838]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.838]RecalculateBlocked:Jenner
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:2:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:2:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:8:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:32:False
+[23:05:15.838]Weapon.Constructor chassisdef_jenner_JR7-D Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:15.838]Weapon.Constructor mechdef_jenner_JR7-D Weapon_Laser_AI_Imaginary
+[23:05:15.840]RecalculateBlocked:Jenner
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:2:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:2:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:8:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:32:False
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+Weapon.InitStats Weapon_SRM_SRM4_0-STOCK:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+Weapon.InitStats Weapon_MeleeAttack:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+Weapon.InitStats Weapon_DFAAttack:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+[23:05:15.849]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ boxes:0
+[23:05:15.849]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ boxes:0
+[23:05:15.849]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ boxes:0
+[23:05:15.849]Weapon SetAmmoBoxes Weapon_SRM_SRM4_0-STOCK can use categories: SRM
+ add ammunition box Ammunition_SRM category:SRM
+ boxes:1
+[23:05:15.849]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ boxes:0
+[23:05:15.849]AbstractActor.AssignAmmoToWeapons mechdef_jenner_JR7-D
+[23:05:15.849]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.849]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.849]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.849]Revalidate:Weapon_SRM_SRM4_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category SRM
+ ammo id NotSet category:NotSet
+[23:05:15.849]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+[23:05:15.849]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+ resulting ammo Ammunition_SRM mode:BASE ammoCount:100
+[23:05:15.849]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.889]Pilot.InitAbilities pilot_backer_Bemis
+[23:05:15.889]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.889]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.889]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.889]RefreshModeAvaibility:Weapon_SRM_SRM4_0-STOCK
+[23:05:15.889]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:15.889]Late ReapplyDesignMasks chassisdef_jenner_JR7-D
+[23:05:15.925]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[23:05:15.925]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Jenner
+  mode:BASE.WeaponEffectID is empty
+[23:05:15.926]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[23:05:15.926]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Jenner
+  mode:BASE.WeaponEffectID is empty
+[23:05:15.927]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[23:05:15.927]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Jenner
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Jenner
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+[23:05:15.929]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[23:05:15.929]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Jenner
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_MeleeAttack:Jenner
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_DFAAttack:Jenner
+  mode:BASE.WeaponEffectID is empty
+[23:05:15.972]Weapon.Constructor chassisdef_falcon_FLC-G Weapon_GNVulcanTau:Weapon
+ incoming ref definition:WeaponDef:Weapon_GNVulcanTau
+[23:05:15.972]Weapon.Constructor mechdef_falcon_FLC-G Weapon_GNVulcanTau
+[23:05:15.978]Weapon.Constructor chassisdef_falcon_FLC-G Weapon_GNVulcanTau:Weapon
+ incoming ref definition:WeaponDef:Weapon_GNVulcanTau
+[23:05:15.978]Weapon.Constructor mechdef_falcon_FLC-G Weapon_GNVulcanTau
+[23:05:15.983]Weapon.Constructor chassisdef_falcon_FLC-G Weapon_AMS:Weapon
+ incoming ref definition:WeaponDef:Weapon_AMS
+[23:05:15.983]Weapon.Constructor mechdef_falcon_FLC-G Weapon_AMS
+[23:05:15.988]Weapon.Constructor chassisdef_falcon_FLC-G Weapon_LRM_LRM5_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_LRM_LRM5_0-STOCK
+[23:05:15.988]Weapon.Constructor mechdef_falcon_FLC-G Weapon_LRM_LRM5_0-STOCK
+[23:05:15.989]Weapon.Constructor chassisdef_falcon_FLC-G Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[23:05:15.989]Weapon.Constructor mechdef_falcon_FLC-G Weapon_MeleeAttack
+[23:05:15.991]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.991]RecalculateBlocked:Falcon
+ blockedLocations:0 {
+}
+ weapon Weapon_GNVulcanTau loc:32:False
+ weapon Weapon_GNVulcanTau loc:2:False
+ weapon Weapon_AMS loc:1:False
+ weapon Weapon_LRM_LRM5_0-STOCK loc:16:False
+[23:05:15.991]Weapon.Constructor chassisdef_falcon_FLC-G Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[23:05:15.991]Weapon.Constructor mechdef_falcon_FLC-G Weapon_DFAAttack
+[23:05:15.992]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:15.992]RecalculateBlocked:Falcon
+ blockedLocations:0 {
+}
+ weapon Weapon_GNVulcanTau loc:32:False
+ weapon Weapon_GNVulcanTau loc:2:False
+ weapon Weapon_AMS loc:1:False
+ weapon Weapon_LRM_LRM5_0-STOCK loc:16:False
+[23:05:15.992]Weapon.Constructor chassisdef_falcon_FLC-G Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:15.992]Weapon.Constructor mechdef_falcon_FLC-G Weapon_Laser_AI_Imaginary
+[23:05:15.994]RecalculateBlocked:Falcon
+ blockedLocations:0 {
+}
+ weapon Weapon_GNVulcanTau loc:32:False
+ weapon Weapon_GNVulcanTau loc:2:False
+ weapon Weapon_AMS loc:1:False
+ weapon Weapon_LRM_LRM5_0-STOCK loc:16:False
+Weapon.InitStats Weapon_GNVulcanTau:461141c2-f956-49a5-b2c6-6f951b957a94.0
+Weapon.InitStats Weapon_GNVulcanTau:461141c2-f956-49a5-b2c6-6f951b957a94.0
+Weapon.InitStats Weapon_AMS:461141c2-f956-49a5-b2c6-6f951b957a94.0
+Weapon.InitStats Weapon_LRM_LRM5_0-STOCK:461141c2-f956-49a5-b2c6-6f951b957a94.0
+Weapon.InitStats Weapon_MeleeAttack:461141c2-f956-49a5-b2c6-6f951b957a94.0
+Weapon.InitStats Weapon_DFAAttack:461141c2-f956-49a5-b2c6-6f951b957a94.0
+[23:05:16.003]Weapon SetAmmoBoxes Weapon_GNVulcanTau can use categories: GNParticles
+ skip ammunition box Ammunition_LRM category:LRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:0
+[23:05:16.003]Weapon SetAmmoBoxes Weapon_GNVulcanTau can use categories: GNParticles
+ skip ammunition box Ammunition_LRM category:LRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:0
+[23:05:16.003]Weapon SetAmmoBoxes Weapon_AMS can use categories: AMS
+ skip ammunition box Ammunition_LRM category:LRM
+ add ammunition box Ammunition_AMS category:AMS
+ boxes:1
+[23:05:16.003]Weapon SetAmmoBoxes Weapon_LRM_LRM5_0-STOCK can use categories: LRM
+ add ammunition box Ammunition_LRM category:LRM
+ skip ammunition box Ammunition_AMS category:AMS
+ boxes:1
+[23:05:16.003]AbstractActor.AssignAmmoToWeapons mechdef_falcon_FLC-G
+[23:05:16.003]Revalidate:Weapon_GNVulcanTau.
+ Mode id:x1
+  mod found
+ effective ammo category GNParticles
+ ammo id NotSet category:NotSet
+[23:05:16.003]getAvaibleAmmo Weapon_GNVulcanTau category:GNParticles ammoBoxes:0
+[23:05:16.003]getAvaibleAmmo Weapon_GNVulcanTau category:GNParticles ammoBoxes:0
+ resulting ammo Ammunition_GNParticles mode:x1 ammoCount:80
+[23:05:16.003]Revalidate:Weapon_GNVulcanTau.
+ Mode id:x1
+  mod found
+ effective ammo category GNParticles
+ ammo id NotSet category:NotSet
+[23:05:16.003]getAvaibleAmmo Weapon_GNVulcanTau category:GNParticles ammoBoxes:0
+[23:05:16.003]getAvaibleAmmo Weapon_GNVulcanTau category:GNParticles ammoBoxes:0
+ resulting ammo Ammunition_GNParticles mode:x1 ammoCount:80
+[23:05:16.003]Revalidate:Weapon_AMS.
+ Mode id:On
+  mod found
+ effective ammo category AMS
+ ammo id NotSet category:NotSet
+[23:05:16.003]getAvaibleAmmo Weapon_AMS category:AMS ammoBoxes:1
+[23:05:16.003]getAvaibleAmmo Weapon_AMS category:AMS ammoBoxes:1
+ resulting ammo Ammunition_AMS mode:On ammoCount:150
+[23:05:16.003]Revalidate:Weapon_LRM_LRM5_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category LRM
+ ammo id NotSet category:NotSet
+[23:05:16.003]getAvaibleAmmo Weapon_LRM_LRM5_0-STOCK category:LRM ammoBoxes:1
+[23:05:16.003]getAvaibleAmmo Weapon_LRM_LRM5_0-STOCK category:LRM ammoBoxes:1
+ resulting ammo Ammunition_LRM mode:BASE ammoCount:120
+[23:05:16.034]Pilot.InitAbilities commander
+[23:05:16.034]RefreshModeAvaibility:Weapon_GNVulcanTau
+[23:05:16.034]RefreshModeAvaibility:Weapon_GNVulcanTau
+[23:05:16.034]RefreshModeAvaibility:Weapon_AMS
+[23:05:16.034]RefreshModeAvaibility:Weapon_LRM_LRM5_0-STOCK
+[23:05:16.034]Late ReapplyDesignMasks chassisdef_falcon_FLC-G
+[23:05:16.086]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_sm
+ activeProjectileName:
+[23:05:16.086]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_GNVulcanTau:Falcon
+  Ammunition_GNParticles.WeaponEffectID is empty
+  mode:x1.WeaponEffectID is empty
+  mode:x2.WeaponEffectID is empty
+  mode:x3.WeaponEffectID is empty
+  mode:x4.WeaponEffectID is empty
+[23:05:16.087]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_sm
+ activeProjectileName:
+[23:05:16.087]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_GNVulcanTau:Falcon
+  Ammunition_GNParticles.WeaponEffectID is empty
+  mode:x1.WeaponEffectID is empty
+  mode:x2.WeaponEffectID is empty
+  mode:x3.WeaponEffectID is empty
+  mode:x4.WeaponEffectID is empty
+InitWeaponEffects Weapon_AMS:Falcon
+  Ammunition_AMS.WeaponEffectID is empty
+  mode:On.WeaponEffectID is empty
+  mode:Overload.WeaponEffectID is empty
+  mode:Off.WeaponEffectID is empty
+InitWeaponEffects Weapon_LRM_LRM5_0-STOCK:Falcon
+  Ammunition_LRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+[23:05:16.125]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_sm
+ activeProjectileName:
+[23:05:16.125]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_GNVulcanTau:Falcon
+  Ammunition_GNParticles.WeaponEffectID is empty
+  mode:x1.WeaponEffectID is empty
+  mode:x2.WeaponEffectID is empty
+  mode:x3.WeaponEffectID is empty
+  mode:x4.WeaponEffectID is empty
+[23:05:16.125]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserER_sm
+ activeProjectileName:
+[23:05:16.125]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_GNVulcanTau:Falcon
+  Ammunition_GNParticles.WeaponEffectID is empty
+  mode:x1.WeaponEffectID is empty
+  mode:x2.WeaponEffectID is empty
+  mode:x3.WeaponEffectID is empty
+  mode:x4.WeaponEffectID is empty
+InitWeaponEffects Weapon_AMS:Falcon
+  Ammunition_AMS.WeaponEffectID is empty
+  mode:On.WeaponEffectID is empty
+  mode:Overload.WeaponEffectID is empty
+  mode:Off.WeaponEffectID is empty
+  Weapon_AMS already inited as AMS
+InitWeaponEffects Weapon_LRM_LRM5_0-STOCK:Falcon
+  Ammunition_LRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_MeleeAttack:Falcon
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_DFAAttack:Falcon
+  mode:BASE.WeaponEffectID is empty
+CombatGameState.RebuildAllLists
+  DEPLOY
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Phoenix Hawk
+RegisterPlayerWeapon
+ Weapon modes count 2
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 3
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Phoenix Hawk
+RegisterPlayerWeapon
+ Weapon modes count 2
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 3
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Jenner
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Falcon
+RegisterPlayerWeapon
+ Weapon modes count 4
+RegisterPlayerWeapon
+ Weapon modes count 4
+RegisterPlayerWeapon
+ Weapon modes count 3
+RegisterPlayerWeapon
+ Weapon modes count 1
+[23:05:16.183]Weapon.Constructor chassisdef_javelin_JVN-10F Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.183]Weapon.Constructor mechdef_javelin_JVN-10F Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.185]Weapon.Constructor chassisdef_javelin_JVN-10F Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.185]Weapon.Constructor mechdef_javelin_JVN-10F Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.186]Weapon.Constructor chassisdef_javelin_JVN-10F Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.186]Weapon.Constructor mechdef_javelin_JVN-10F Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.188]Weapon.Constructor chassisdef_javelin_JVN-10F Weapon_Laser_MediumLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.188]Weapon.Constructor mechdef_javelin_JVN-10F Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.189]Weapon.Constructor chassisdef_javelin_JVN-10F Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[23:05:16.189]Weapon.Constructor mechdef_javelin_JVN-10F Weapon_MeleeAttack
+[23:05:16.191]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.191]RecalculateBlocked:Javelin
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:4:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:16:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:4:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:16:False
+[23:05:16.191]Weapon.Constructor chassisdef_javelin_JVN-10F Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[23:05:16.191]Weapon.Constructor mechdef_javelin_JVN-10F Weapon_DFAAttack
+[23:05:16.192]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.193]RecalculateBlocked:Javelin
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:4:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:16:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:4:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:16:False
+[23:05:16.193]Weapon.Constructor chassisdef_javelin_JVN-10F Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:16.193]Weapon.Constructor mechdef_javelin_JVN-10F Weapon_Laser_AI_Imaginary
+[23:05:16.194]RecalculateBlocked:Javelin
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:4:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:16:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:4:False
+ weapon Weapon_Laser_MediumLaser_0-STOCK loc:16:False
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+Weapon.InitStats Weapon_Laser_MediumLaser_0-STOCK:9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+Weapon.InitStats Weapon_MeleeAttack:9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+Weapon.InitStats Weapon_DFAAttack:9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+[23:05:16.203]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ boxes:0
+[23:05:16.203]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ boxes:0
+[23:05:16.203]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ boxes:0
+[23:05:16.203]Weapon SetAmmoBoxes Weapon_Laser_MediumLaser_0-STOCK can use categories:
+ boxes:0
+[23:05:16.203]AbstractActor.AssignAmmoToWeapons mechdef_javelin_JVN-10F
+[23:05:16.203]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.203]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.203]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.203]Revalidate:Weapon_Laser_MediumLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.277]Pilot.InitAbilities pilot_d2_recruit
+[23:05:16.277]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.277]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.277]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.277]RefreshModeAvaibility:Weapon_Laser_MediumLaser_0-STOCK
+[23:05:16.277]Late ReapplyDesignMasks chassisdef_javelin_JVN-10F
+[23:05:16.431]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[23:05:16.431]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Javelin
+  mode:BASE.WeaponEffectID is empty
+[23:05:16.433]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[23:05:16.433]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Javelin
+  mode:BASE.WeaponEffectID is empty
+[23:05:16.434]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[23:05:16.434]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Javelin
+  mode:BASE.WeaponEffectID is empty
+[23:05:16.435]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_med
+ activeProjectileName:
+[23:05:16.435]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_MediumLaser_0-STOCK:Javelin
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_MeleeAttack:Javelin
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_DFAAttack:Javelin
+  mode:BASE.WeaponEffectID is empty
+[23:05:16.486]Weapon.Constructor chassisdef_commando_COM-2D Weapon_Laser_LargeLaser_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_LargeLaser_0-STOCK
+[23:05:16.486]Weapon.Constructor mechdef_commando_COM-2D Weapon_Laser_LargeLaser_0-STOCK
+[23:05:16.487]Weapon.Constructor chassisdef_commando_COM-2D Weapon_SRM_SRM4_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_SRM_SRM4_0-STOCK
+[23:05:16.487]Weapon.Constructor mechdef_commando_COM-2D Weapon_SRM_SRM4_0-STOCK
+[23:05:16.489]Weapon.Constructor chassisdef_commando_COM-2D Weapon_SRM_SRM6_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_SRM_SRM6_0-STOCK
+[23:05:16.489]Weapon.Constructor mechdef_commando_COM-2D Weapon_SRM_SRM6_0-STOCK
+[23:05:16.490]Weapon.Constructor chassisdef_commando_COM-2D Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[23:05:16.490]Weapon.Constructor mechdef_commando_COM-2D Weapon_MeleeAttack
+[23:05:16.492]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.492]RecalculateBlocked:Commando
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_LargeLaser_0-STOCK loc:2:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM6_0-STOCK loc:8:False
+[23:05:16.492]Weapon.Constructor chassisdef_commando_COM-2D Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[23:05:16.492]Weapon.Constructor mechdef_commando_COM-2D Weapon_DFAAttack
+[23:05:16.493]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.494]RecalculateBlocked:Commando
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_LargeLaser_0-STOCK loc:2:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM6_0-STOCK loc:8:False
+[23:05:16.494]Weapon.Constructor chassisdef_commando_COM-2D Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:16.494]Weapon.Constructor mechdef_commando_COM-2D Weapon_Laser_AI_Imaginary
+[23:05:16.495]RecalculateBlocked:Commando
+ blockedLocations:0 {
+}
+ weapon Weapon_Laser_LargeLaser_0-STOCK loc:2:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM6_0-STOCK loc:8:False
+Weapon.InitStats Weapon_Laser_LargeLaser_0-STOCK:e3e34fc2-c664-42ab-920b-6002c058ac55.0
+Weapon.InitStats Weapon_SRM_SRM4_0-STOCK:e3e34fc2-c664-42ab-920b-6002c058ac55.0
+Weapon.InitStats Weapon_SRM_SRM6_0-STOCK:e3e34fc2-c664-42ab-920b-6002c058ac55.0
+Weapon.InitStats Weapon_MeleeAttack:e3e34fc2-c664-42ab-920b-6002c058ac55.0
+Weapon.InitStats Weapon_DFAAttack:e3e34fc2-c664-42ab-920b-6002c058ac55.0
+[23:05:16.503]Weapon SetAmmoBoxes Weapon_Laser_LargeLaser_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ skip ammunition box Ammunition_SRM category:SRM
+ boxes:0
+[23:05:16.503]Weapon SetAmmoBoxes Weapon_SRM_SRM4_0-STOCK can use categories: SRM
+ add ammunition box Ammunition_SRM category:SRM
+ add ammunition box Ammunition_SRM category:SRM
+ boxes:2
+[23:05:16.503]Weapon SetAmmoBoxes Weapon_SRM_SRM6_0-STOCK can use categories: SRM
+ add ammunition box Ammunition_SRM category:SRM
+ add ammunition box Ammunition_SRM category:SRM
+ boxes:2
+[23:05:16.503]AbstractActor.AssignAmmoToWeapons mechdef_commando_COM-2D
+[23:05:16.503]Revalidate:Weapon_Laser_LargeLaser_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.503]Revalidate:Weapon_SRM_SRM4_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category SRM
+ ammo id NotSet category:NotSet
+[23:05:16.503]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:2
+[23:05:16.504]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:2
+ resulting ammo Ammunition_SRM mode:BASE ammoCount:200
+[23:05:16.504]Revalidate:Weapon_SRM_SRM6_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category SRM
+ ammo id NotSet category:NotSet
+[23:05:16.504]getAvaibleAmmo Weapon_SRM_SRM6_0-STOCK category:SRM ammoBoxes:2
+[23:05:16.504]getAvaibleAmmo Weapon_SRM_SRM6_0-STOCK category:SRM ammoBoxes:2
+ resulting ammo Ammunition_SRM mode:BASE ammoCount:200
+[23:05:16.522]Pilot.InitAbilities pilot_d2_recruit
+[23:05:16.522]RefreshModeAvaibility:Weapon_Laser_LargeLaser_0-STOCK
+[23:05:16.522]RefreshModeAvaibility:Weapon_SRM_SRM4_0-STOCK
+[23:05:16.522]RefreshModeAvaibility:Weapon_SRM_SRM6_0-STOCK
+[23:05:16.522]Late ReapplyDesignMasks chassisdef_commando_COM-2D
+[23:05:16.523]AbstractActor.ApplyDesignMaskStickyEffect Prefix Commando:e3e34fc2-c664-42ab-920b-6002c058ac55.0 UnaffectedDesignMasks:False
+AbstractActor.ApplyDesignMaskStickyEffect:DesignMaskForest
+ no additional sticky effects
+
+[23:05:16.556]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotLaserEffect original:LaserEffect
+ projectile:null
+ projectilePrefab:vfxPrfLine_weaponLaserBeam_lrg
+ activeProjectileName:
+[23:05:16.556]MultiShotLaserEffect.BaseInit
+InitWeaponEffects Weapon_Laser_LargeLaser_0-STOCK:Commando
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Commando
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM6_0-STOCK:Commando
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_MeleeAttack:Commando
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_DFAAttack:Commando
+  mode:BASE.WeaponEffectID is empty
+[23:05:16.578]Weapon.Constructor chassisdef_panther_PNT-9R Weapon_PPC_PPC_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_PPC_PPC_0-STOCK
+[23:05:16.578]Weapon.Constructor mechdef_panther_PNT-9R Weapon_PPC_PPC_0-STOCK
+[23:05:16.580]Weapon.Constructor chassisdef_panther_PNT-9R Weapon_SRM_SRM4_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_SRM_SRM4_0-STOCK
+[23:05:16.580]Weapon.Constructor mechdef_panther_PNT-9R Weapon_SRM_SRM4_0-STOCK
+[23:05:16.581]Weapon.Constructor chassisdef_panther_PNT-9R Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[23:05:16.581]Weapon.Constructor mechdef_panther_PNT-9R Weapon_MeleeAttack
+[23:05:16.583]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.583]RecalculateBlocked:Panther
+ blockedLocations:0 {
+}
+ weapon Weapon_PPC_PPC_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:8:False
+[23:05:16.583]Weapon.Constructor chassisdef_panther_PNT-9R Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[23:05:16.583]Weapon.Constructor mechdef_panther_PNT-9R Weapon_DFAAttack
+[23:05:16.584]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.584]RecalculateBlocked:Panther
+ blockedLocations:0 {
+}
+ weapon Weapon_PPC_PPC_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:8:False
+[23:05:16.585]Weapon.Constructor chassisdef_panther_PNT-9R Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:16.585]Weapon.Constructor mechdef_panther_PNT-9R Weapon_Laser_AI_Imaginary
+[23:05:16.586]RecalculateBlocked:Panther
+ blockedLocations:0 {
+}
+ weapon Weapon_PPC_PPC_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:8:False
+Weapon.InitStats Weapon_PPC_PPC_0-STOCK:ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+Weapon.InitStats Weapon_SRM_SRM4_0-STOCK:ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+Weapon.InitStats Weapon_MeleeAttack:ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+Weapon.InitStats Weapon_DFAAttack:ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+[23:05:16.595]Weapon SetAmmoBoxes Weapon_PPC_PPC_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ boxes:0
+[23:05:16.595]Weapon SetAmmoBoxes Weapon_SRM_SRM4_0-STOCK can use categories: SRM
+ add ammunition box Ammunition_SRM category:SRM
+ boxes:1
+[23:05:16.595]AbstractActor.AssignAmmoToWeapons mechdef_panther_PNT-9R
+[23:05:16.595]Revalidate:Weapon_PPC_PPC_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.595]Revalidate:Weapon_SRM_SRM4_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category SRM
+ ammo id NotSet category:NotSet
+[23:05:16.595]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+[23:05:16.595]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+ resulting ammo Ammunition_SRM mode:BASE ammoCount:100
+[23:05:16.663]Pilot.InitAbilities pilot_d2_recruit
+[23:05:16.663]RefreshModeAvaibility:Weapon_PPC_PPC_0-STOCK
+[23:05:16.663]RefreshModeAvaibility:Weapon_SRM_SRM4_0-STOCK
+[23:05:16.663]Late ReapplyDesignMasks chassisdef_panther_PNT-9R
+[23:05:16.725]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotPPCEffect original:PPCEffect
+ projectile:null
+ projectilePrefab:vfxPrfPrtl_weaponPPCprojectile
+ activeProjectileName:
+[23:05:16.725]MultiShotPPCEffect.Init
+InitWeaponEffects Weapon_PPC_PPC_0-STOCK:Panther
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Panther
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_MeleeAttack:Panther
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_DFAAttack:Panther
+  mode:BASE.WeaponEffectID is empty
+[23:05:16.744]Weapon.Constructor chassisdef_panther_PNT-9R Weapon_PPC_PPC_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_PPC_PPC_0-STOCK
+[23:05:16.744]Weapon.Constructor mechdef_panther_PNT-9R Weapon_PPC_PPC_0-STOCK
+[23:05:16.745]Weapon.Constructor chassisdef_panther_PNT-9R Weapon_SRM_SRM4_0-STOCK:Weapon
+ incoming ref definition:WeaponDef:Weapon_SRM_SRM4_0-STOCK
+[23:05:16.745]Weapon.Constructor mechdef_panther_PNT-9R Weapon_SRM_SRM4_0-STOCK
+[23:05:16.747]Weapon.Constructor chassisdef_panther_PNT-9R Weapon_MeleeAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_MeleeAttack
+[23:05:16.747]Weapon.Constructor mechdef_panther_PNT-9R Weapon_MeleeAttack
+[23:05:16.748]Revalidate:Weapon_MeleeAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.748]RecalculateBlocked:Panther
+ blockedLocations:0 {
+}
+ weapon Weapon_PPC_PPC_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:8:False
+[23:05:16.748]Weapon.Constructor chassisdef_panther_PNT-9R Weapon_DFAAttack:Weapon
+ incoming ref definition:WeaponDef:Weapon_DFAAttack
+[23:05:16.748]Weapon.Constructor mechdef_panther_PNT-9R Weapon_DFAAttack
+[23:05:16.750]Revalidate:Weapon_DFAAttack.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.750]RecalculateBlocked:Panther
+ blockedLocations:0 {
+}
+ weapon Weapon_PPC_PPC_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:8:False
+[23:05:16.750]Weapon.Constructor chassisdef_panther_PNT-9R Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:16.750]Weapon.Constructor mechdef_panther_PNT-9R Weapon_Laser_AI_Imaginary
+[23:05:16.751]RecalculateBlocked:Panther
+ blockedLocations:0 {
+}
+ weapon Weapon_PPC_PPC_0-STOCK loc:32:False
+ weapon Weapon_SRM_SRM4_0-STOCK loc:8:False
+Weapon.InitStats Weapon_PPC_PPC_0-STOCK:f46b3021-803a-41ed-87e0-1b8cb86663b8.0
+Weapon.InitStats Weapon_SRM_SRM4_0-STOCK:f46b3021-803a-41ed-87e0-1b8cb86663b8.0
+Weapon.InitStats Weapon_MeleeAttack:f46b3021-803a-41ed-87e0-1b8cb86663b8.0
+Weapon.InitStats Weapon_DFAAttack:f46b3021-803a-41ed-87e0-1b8cb86663b8.0
+[23:05:16.759]Weapon SetAmmoBoxes Weapon_PPC_PPC_0-STOCK can use categories:
+ skip ammunition box Ammunition_SRM category:SRM
+ boxes:0
+[23:05:16.759]Weapon SetAmmoBoxes Weapon_SRM_SRM4_0-STOCK can use categories: SRM
+ add ammunition box Ammunition_SRM category:SRM
+ boxes:1
+[23:05:16.759]AbstractActor.AssignAmmoToWeapons mechdef_panther_PNT-9R
+[23:05:16.759]Revalidate:Weapon_PPC_PPC_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category NotSet
+ ammo id NotSet category:NotSet
+ resulting ammo NotSet mode:BASE ammoCount:0
+[23:05:16.759]Revalidate:Weapon_SRM_SRM4_0-STOCK.
+ Mode id:BASE
+  mod found
+ effective ammo category SRM
+ ammo id NotSet category:NotSet
+[23:05:16.759]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+[23:05:16.759]getAvaibleAmmo Weapon_SRM_SRM4_0-STOCK category:SRM ammoBoxes:1
+ resulting ammo Ammunition_SRM mode:BASE ammoCount:100
+[23:05:16.828]Pilot.InitAbilities pilot_d2_recruit
+[23:05:16.828]RefreshModeAvaibility:Weapon_PPC_PPC_0-STOCK
+[23:05:16.828]RefreshModeAvaibility:Weapon_SRM_SRM4_0-STOCK
+[23:05:16.828]Late ReapplyDesignMasks chassisdef_panther_PNT-9R
+[23:05:16.878]CopyAbleWeaponEffect.Init CustAmmoCategories.MultiShotPPCEffect original:PPCEffect
+ projectile:null
+ projectilePrefab:vfxPrfPrtl_weaponPPCprojectile
+ activeProjectileName:
+[23:05:16.878]MultiShotPPCEffect.Init
+InitWeaponEffects Weapon_PPC_PPC_0-STOCK:Panther
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_SRM_SRM4_0-STOCK:Panther
+  Ammunition_SRM.WeaponEffectID is empty
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_MeleeAttack:Panther
+  mode:BASE.WeaponEffectID is empty
+InitWeaponEffects Weapon_DFAAttack:Panther
+  mode:BASE.WeaponEffectID is empty
+CombatGameState.RebuildAllLists
+  DEPLOY
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Phoenix Hawk
+RegisterPlayerWeapon
+ Weapon modes count 2
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 3
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Phoenix Hawk
+RegisterPlayerWeapon
+ Weapon modes count 2
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 3
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Jenner
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Falcon
+RegisterPlayerWeapon
+ Weapon modes count 4
+RegisterPlayerWeapon
+ Weapon modes count 4
+RegisterPlayerWeapon
+ Weapon modes count 3
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Javelin
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Commando
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Panther
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+  Panther
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+ weaponPanel.transform.localScale:(1.0, 1.0, 1.0) WeaponPanelWidthScale:1
+ desiredCount:44
+ wp_Slot15 SiblingIndex:19
+ wp_Slot16 SiblingIndex:20
+ wp_Slot17 SiblingIndex:21
+ wp_Slot18 SiblingIndex:22
+ wp_Slot19 SiblingIndex:23
+ wp_Slot20 SiblingIndex:24
+ wp_Slot21 SiblingIndex:25
+ wp_Slot22 SiblingIndex:26
+ wp_Slot23 SiblingIndex:27
+ wp_Slot24 SiblingIndex:28
+ wp_Slot25 SiblingIndex:29
+ wp_Slot26 SiblingIndex:30
+ wp_Slot27 SiblingIndex:31
+ wp_Slot28 SiblingIndex:32
+ wp_Slot29 SiblingIndex:33
+ wp_Slot30 SiblingIndex:34
+ wp_Slot31 SiblingIndex:35
+ wp_Slot32 SiblingIndex:36
+ wp_Slot33 SiblingIndex:37
+ wp_Slot34 SiblingIndex:38
+ wp_Slot35 SiblingIndex:39
+ wp_Slot36 SiblingIndex:40
+ wp_Slot37 SiblingIndex:41
+ wp_Slot38 SiblingIndex:42
+ wp_Slot39 SiblingIndex:43
+ wp_Slot40 SiblingIndex:44
+ wp_Slot41 SiblingIndex:45
+ wp_Slot42 SiblingIndex:46
+ wp_Slot43 SiblingIndex:47
+ wp_Slot44 SiblingIndex:48
+pre CombatHUD.Init
+ DEPLOY
+RegisterPlayerWeapon
+ Weapon modes count 1
+ Phoenix Hawk
+RegisterPlayerWeapon
+ Weapon modes count 2
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 3
+RegisterPlayerWeapon
+ Weapon modes count 1
+ Phoenix Hawk
+RegisterPlayerWeapon
+ Weapon modes count 2
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 3
+RegisterPlayerWeapon
+ Weapon modes count 1
+ Jenner
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+ Falcon
+RegisterPlayerWeapon
+ Weapon modes count 4
+RegisterPlayerWeapon
+ Weapon modes count 4
+RegisterPlayerWeapon
+ Weapon modes count 3
+RegisterPlayerWeapon
+ Weapon modes count 1
+ Javelin
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+ Commando
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+ Panther
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+ Panther
+RegisterPlayerWeapon
+ Weapon modes count 1
+RegisterPlayerWeapon
+ Weapon modes count 1
+[23:05:18.693]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:18.707]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:18.766]CombatHUDMiniMap.Create
+[23:05:19.794]CombatHUDWeaponPanel.Init
+[23:05:19.797]WeaponSwitchButton.Init
+[23:05:19.797]WeaponSwitchButton.Init
+[23:05:19.802]WeaponSwitchButton.Init
+[23:05:19.802]WeaponSwitchButton.Init
+[23:05:19.803]WeaponSwitchButton.Init
+[23:05:19.803]WeaponSwitchButton.Init
+[23:05:19.804]WeaponSwitchButton.Init
+[23:05:19.805]WeaponSwitchButton.Init
+[23:05:19.806]WeaponSwitchButton.Init
+[23:05:19.806]WeaponSwitchButton.Init
+[23:05:19.808]WeaponSwitchButton.Init
+[23:05:19.808]WeaponSwitchButton.Init
+[23:05:19.809]WeaponSwitchButton.Init
+[23:05:19.809]WeaponSwitchButton.Init
+[23:05:19.810]WeaponSwitchButton.Init
+[23:05:19.811]WeaponSwitchButton.Init
+[23:05:19.812]WeaponSwitchButton.Init
+[23:05:19.812]WeaponSwitchButton.Init
+[23:05:19.813]WeaponSwitchButton.Init
+[23:05:19.813]WeaponSwitchButton.Init
+[23:05:19.815]WeaponSwitchButton.Init
+[23:05:19.815]WeaponSwitchButton.Init
+[23:05:19.816]WeaponSwitchButton.Init
+[23:05:19.816]WeaponSwitchButton.Init
+[23:05:19.817]WeaponSwitchButton.Init
+[23:05:19.817]WeaponSwitchButton.Init
+[23:05:19.819]WeaponSwitchButton.Init
+[23:05:19.819]WeaponSwitchButton.Init
+[23:05:19.820]WeaponSwitchButton.Init
+[23:05:19.820]WeaponSwitchButton.Init
+[23:05:19.821]WeaponSwitchButton.Init
+[23:05:19.821]WeaponSwitchButton.Init
+[23:05:19.823]WeaponSwitchButton.Init
+[23:05:19.823]WeaponSwitchButton.Init
+[23:05:19.824]WeaponSwitchButton.Init
+[23:05:19.824]WeaponSwitchButton.Init
+[23:05:19.825]WeaponSwitchButton.Init
+[23:05:19.826]WeaponSwitchButton.Init
+[23:05:19.827]WeaponSwitchButton.Init
+[23:05:19.827]WeaponSwitchButton.Init
+[23:05:19.828]WeaponSwitchButton.Init
+[23:05:19.828]WeaponSwitchButton.Init
+[23:05:19.829]WeaponSwitchButton.Init
+[23:05:19.829]WeaponSwitchButton.Init
+[23:05:19.830]WeaponSwitchButton.Init
+[23:05:19.831]WeaponSwitchButton.Init
+[23:05:19.832]WeaponSwitchButton.Init
+[23:05:19.832]WeaponSwitchButton.Init
+[23:05:19.833]WeaponSwitchButton.Init
+[23:05:19.833]WeaponSwitchButton.Init
+[23:05:19.834]WeaponSwitchButton.Init
+[23:05:19.835]WeaponSwitchButton.Init
+[23:05:19.836]WeaponSwitchButton.Init
+[23:05:19.836]WeaponSwitchButton.Init
+[23:05:19.837]WeaponSwitchButton.Init
+[23:05:19.837]WeaponSwitchButton.Init
+[23:05:19.838]WeaponSwitchButton.Init
+[23:05:19.838]WeaponSwitchButton.Init
+[23:05:19.839]WeaponSwitchButton.Init
+[23:05:19.840]WeaponSwitchButton.Init
+[23:05:19.841]WeaponSwitchButton.Init
+[23:05:19.841]WeaponSwitchButton.Init
+[23:05:19.842]WeaponSwitchButton.Init
+[23:05:19.842]WeaponSwitchButton.Init
+[23:05:19.843]WeaponSwitchButton.Init
+[23:05:19.843]WeaponSwitchButton.Init
+[23:05:19.845]WeaponSwitchButton.Init
+[23:05:19.845]WeaponSwitchButton.Init
+[23:05:19.846]WeaponSwitchButton.Init
+[23:05:19.846]WeaponSwitchButton.Init
+[23:05:19.847]WeaponSwitchButton.Init
+[23:05:19.847]WeaponSwitchButton.Init
+[23:05:19.848]WeaponSwitchButton.Init
+[23:05:19.849]WeaponSwitchButton.Init
+[23:05:19.850]WeaponSwitchButton.Init
+[23:05:19.850]WeaponSwitchButton.Init
+[23:05:19.851]WeaponSwitchButton.Init
+[23:05:19.851]WeaponSwitchButton.Init
+[23:05:19.852]WeaponSwitchButton.Init
+[23:05:19.853]WeaponSwitchButton.Init
+[23:05:19.854]WeaponSwitchButton.Init
+[23:05:19.854]WeaponSwitchButton.Init
+[23:05:19.855]WeaponSwitchButton.Init
+[23:05:19.855]WeaponSwitchButton.Init
+[23:05:19.857]WeaponSwitchButton.Init
+[23:05:19.857]WeaponSwitchButton.Init
+[23:05:19.858]WeaponSwitchButton.Init
+[23:05:19.858]WeaponSwitchButton.Init
+[23:05:19.859]WeaponSwitchButton.Init
+[23:05:19.859]WeaponSwitchButton.Init
+[23:05:19.860]WeaponSwitchButton.Init
+[23:05:19.860]WeaponSwitchButton.Init
+[23:05:20.048]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:20.054]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:20.063]CombatHUDTargetingComputer.RefreshActorInfo null
+[23:05:20.064]CombatHUDTargetingComputer.RefreshActorInfo null
+[23:05:20.311]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:20.429]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:20.512]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:20.591]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:20.670]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:20.752]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:20.835]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:20.914]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:20.998]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:21.390]ExplosionAPIHelper.Init
+[23:05:21.391]Weapon.Constructor chassisdef_deploy_director Weapon_Laser_AI_Imaginary:Weapon
+ incoming ref definition:WeaponDef:Weapon_Laser_AI_Imaginary
+[23:05:21.391]Weapon.Constructor mechdef_deploy_director Weapon_Laser_AI_Imaginary
+[23:05:21.394]PersistentFloatieHelper.Init
+[23:05:21.395]DeferredEffectHelper.Clear
+ playingEffects:0
+ deferredEffects:0
+[23:05:21.395]PersistentFloatieHelper.Clear:0
+[23:05:21.585]CombatHUDEvasiveBarPips.Init Postfix
+[23:05:21.743]Briefing.InitializeContractComplete clearing combat statistic
+[23:05:26.257]RenderTrees.InitQuadTree postfix
+ envMdlTree_deadWood_polar_frozen_shapeA_LOD0 components:
+  UnityEngine.Transform
+ meshFilter is not null envMdlTree_deadWood_polar_frozen_shapeA_LOD0_0:envMdlTree_deadWood_polar_frozen_shapeA_LOD0_0
+ active terrain unity tree prototypes:
+  envPrfTree_tallficus_jungle_tropical_shapeA
+  envPrfTree_tallficus_jungle_tropical_shapeA_burned lods count: 3
+ initing burned success
+avaible tree prototypes (8):
+ envPrfTree_tallficus_jungle_tropical_shapeA
+ envPrfTree_shortficus_jungle_tropical_shapeA
+ envPrfTree_shortPalm_jungle_tropical_shapeA
+ envPrfTree_tallPalm_jungle_tropical_shapeB
+ envPrfBush_bushPalm_jungle_tropical_shapeA
+ envPrfBush_starLeaf_jungle_tropical_shapeA
+ envPrfBush_pollenPlant_jungle_tropical_shapeA
+ envPrfTree_tallficus_jungle_tropical_shapeA_burned
+Installing burned trees. All trees-like objects count: (151571):
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+ burned not inited
+All trees count:38374
+ quadTreeNodes.Count = 64
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 8
+   children = null
+   dataDictionary = 7
+   children = null
+   dataDictionary = 7
+ minimap world start:-1024,-1024 end:1020,1020 size:2044,2044
+ minimap cells start:0,0 end:511,511 size:512,512
+ border:(-942.0, 0.0, -818.0) cell:(-940.0, 240.3, -816.0) meta:21,52
+ border:(943.0, 0.0, 482.0) cell:(944.0, 304.1, 484.0) meta:492,377
+ minimap region:Region_Withdraw:bb9bef5d-aef1-4f83-9b9c-7ce5ce55bf63 cells:0 regionDefId:regionDef_EvacZone drawRegionDefDisplay:null
+[23:05:26.791]ASWatchdog.Update
+[23:05:31.744]ASWatchdog.Update
+[23:05:36.748]ASWatchdog.Update
+[23:05:41.754]ASWatchdog.Update
+[23:05:46.760]ASWatchdog.Update
+[23:05:51.762]ASWatchdog.Update
+[23:05:56.762]ASWatchdog.Update
+[23:06:01.764]ASWatchdog.Update
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.GenerateCombinedMesh
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.GenerateCombinedMesh
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+QuadTreeData.SetupComputeBuffer
+QuadTreeData.SetupFullArray
+[23:06:07.165]ASWatchdog.Update

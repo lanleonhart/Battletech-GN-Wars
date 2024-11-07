@@ -1,16 +1,16 @@
 {
   "DebugMode": true,
-  "VersionCheck": true,
+  "VersionCheck": false,
   "EnableSkirmishMode": true,
   "DebugSkirmishMode": false,
   "EnableFlashpointOverrides": false,
   "EnableAdditionalPlayerMechsForFlashpoints": false,
   "NeverFailSimGameInFlashpoints": true,
   "EnableStoryOverrides": false,
-  "EnableAdditionalPlayerMechsForStory": false,
+  "EnableAdditionalPlayerMechsForStory": true,
   "RandomSpawns": {
     "Enable": true,
-    "EnableForFlashpoints": true,
+    "EnableForFlashpoints": false,
     "EnableForStory": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"]
   },
@@ -20,13 +20,13 @@
     "EnableForStory": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "GuardOnHotDrop": false,
-    "EvasionPipsOnHotDrop": 6,
+    "EvasionPipsOnHotDrop": 4,
     "IncludeEnemies": true,
     "IncludeAllyTurrets": false,
     "IncludeEnemyTurrets": false
   },
   "AdditionalLances": {
-    "Enable": false,
+    "Enable": true,
     "EnableForFlashpoints": true,
     "EnableForStory": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
@@ -47,7 +47,7 @@
     },
     "MatchAllyLanceCountToEnemy": false,
     "DropWeightInfluence": {
-      "Enable": false,
+      "Enable": true,
       "EnemySpawnInfluenceMax": 0.9,
       "AllySpawnInfluenceMax": 0.9,
       "EnemySpawnInfluencePerHalfSkullAbove": 0.1,
@@ -146,8 +146,7 @@
   },
   "Misc": {
     "LanceSelectionDivergenceOverride": {
-      "Enable": true,
-      "Divergence": 20
+      "Enable": true
     },
     "ContractOverrideDataCleanupMethod": "RestoreFromCopy"
   }
