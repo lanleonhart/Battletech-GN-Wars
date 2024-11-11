@@ -1,0 +1,71 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "MS"
+        }
+      ],
+      "BonusDescriptions": []
+  },
+"Description": {
+  "Cost": 4000000,
+  "Rarity": 10,
+  "Purchasable": false,
+  "Manufacturer": "Morgenrote",
+  "Model": "",
+  "UIName": "Launcher Weapons Pod",
+  "Id": "Launcher_Pod",
+  "Name": "Launcher Weapons Pod",
+  "Details": "A Weapons suit mounted on the Right Torso providing the MS with a 120mm Vulcan and 350mm Gun Launcher. This attachment also provides armor to the location",
+  "Icon": ""
+},
+"BonusValueA": "",
+"BonusValueB": "",
+"ComponentType": "Upgrade",
+"ComponentSubType": "NotSet",
+"PrefabIdentifier": "",
+"BattleValue": 0,
+"InventorySize": 3,
+"Tonnage": 0,
+"AllowedLocations": "All",
+"DisallowedLocations": "All",
+"CriticalComponent": false,
+"statusEffects": [
+    {
+        "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+        },
+        "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+        },
+        "effectType": "StatisticEffect",
+        "Description": {
+            "Id": "Status-ModularArmor-{location}",
+            "Name": "Reinforced Armor",
+            "Details": "Reinforced Armor",
+            "Icon": "uixSvgIcon_equipment_ActuatorArm"
+        },
+        "nature": "Buff",
+        "statisticData": {
+            "effectsPersistAfterDestruction": true,
+            "statName": "{location}.Armor",
+            "operation": "Float_Multiply",
+            "modValue": "1.10",
+            "modType": "System.Single"
+        }
+    }
+],
+"ComponentTags": {
+  "items": [
+    "component_type_stock"
+   
+  ],
+  "tagSetSourceFile": ""
+}
+
+}
+

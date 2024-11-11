@@ -1,0 +1,66 @@
+{
+    "Custom": {
+          "Category" : [
+              {"CategoryID": "SensorsB"},
+              {"CategoryID": ""}
+          ],
+          "WorkOrderCosts": {
+            "Install": {
+              "TechCost": "0.8 * [[Chassis.Tonnage]]",
+              "CBillCost": "30 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+            }
+          },
+          "BonusDescriptions": [ 
+            "",
+            ""
+          ]
+    },
+    "Description": {
+      "Cost": 75000,
+      "Rarity": 1,
+      "Purchasable": true,
+      "Manufacturer": "",
+      "Model": "",
+      "UIName": "name_in_storage",
+      "Id": "for_mech_fitting",
+      "Name": "",
+      "Details": "grey_text_description",
+      "Icon": "Icon"
+    },
+    "statusEffects": [
+      {
+        "durationData": {"stackLimit": -1,"duration": -1},
+        "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "nature": "Debuff",
+        "effectType": "StatisticEffect",
+        "Description": {
+          "Id": "",
+          "Name": "",
+          "Details": "",
+          "Icon": ""
+        },
+        "statisticData": {
+          "statName": "",
+          "operation": "",
+          "modValue": "",
+          "modType": ""
+        }
+      }
+    ],   
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "Flags": ["not_broken"],
+    "IBLS": {"StorageSize": 1},
+    "ComponentTags": {
+      "items": ["component_type_stock"],
+      "tagSetSourceFile": ""
+    },
+  "BonusValueA": "","BonusValueB": "","PrefabIdentifier": "","BattleValue": 0
+  }

@@ -1,0 +1,75 @@
+{
+    "Name": "GNWarsMechModules",
+    "Enabled": true,
+    "Hidden": false,
+    "Version": "1.0",
+    "Author": "Snapko",
+    "CustomResourceTypes": [
+        "MEBonusDescriptions",
+        "MECriticalEffects",
+        "CCCategories",
+        "CCDefaults",
+        "CCTagRestrictions",
+        "CustomSVGIcon",
+        "CustomActivatableEquipment",
+        "CustomComponents",
+        "CCCEquipLocationTag",
+        "CCUnitTypes"
+    ],
+    "DataAddendumEntries": [
+        {
+            "name": "BattleTech.WeaponCategoryEnumeration",
+            "path": "WeaponCategory.json"
+        }
+    ],
+    "Manifest": [
+        {
+            "Type": "UpgradeDef",
+            "Path": "Cockpit/Cockpit"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "Gyro"
+        },
+        {
+            "Type": "HeatSinkDef",
+            "Path": "Engines"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "Cockpit/FireControlSystem"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "Cockpit/LifeSupport"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "Cockpit/Sensors"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "Upgrades"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "Armor"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "ECM"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "Structure"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "Actuators"
+        },
+        {
+            "Type": "JumpJetDef",
+            "Path": "Jumpjets"
+        }
+    ]
+}

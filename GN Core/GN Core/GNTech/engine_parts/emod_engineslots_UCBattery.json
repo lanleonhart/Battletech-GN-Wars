@@ -1,0 +1,48 @@
+{
+"Custom": {
+  "Category": [
+    {
+      "CategoryID": "EngineShield"
+    }
+  ],
+  "WorkOrderCosts": {
+    "Install": {
+      "TechCost": "3 * [[Chassis.Tonnage]]",
+      "CBillCost": "175.6 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+    }
+  },
+  "Weights": {
+    "ReservedSlots": 2,
+    "EngineFactor": 0.50
+  },
+  "BonusDescriptions": []
+},
+    "Description": {
+    "Cost": 225000,
+    "Rarity": 12,
+    "Purchasable": false,
+    "Manufacturer": "Generic MS",
+    "Model": "Battery",
+    "UIName": "Ultracompact Energy Battery",
+    "Id": "emod_engineslots_UCBattery",
+    "Name": "Ultracompact Energy Battery",
+    "Details": "A highly compact battery for mobile suit use.",
+    "Icon": "CATEngine"
+  },
+  "JumpCapacity" : 0,
+  "BonusValueA": "",
+  "ComponentType": "HeatSink",
+  "ComponentSubType": "Heatsink",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 0,
+  "AllowedLocations": "CenterTorso",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": null,
+  "ComponentTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  }
+}

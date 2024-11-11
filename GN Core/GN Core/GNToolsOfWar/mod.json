@@ -1,0 +1,79 @@
+{
+	"Name": "GN Wars Weapons",
+	"Enabled": true,
+	"Hidden": false,
+	"Version": "1.0",
+    "CustomResourceTypes": [
+        "MEBonusDescriptions",
+        "MECriticalEffects",
+        "CCCategories",
+        "CCDefaults",
+        "CCTagRestrictions",
+        "CustomSVGIcon"
+
+    ],
+
+    "DataAddendumEntries": [
+     
+        {
+            "name": "BattleTech.AmmoCategoryEnumeration",
+            "path": "AmmoCategory.json"
+        }
+    ],
+        
+        "Manifest": [
+        {
+        "Type": "WeaponDef",
+        "Path": "weapon"
+        },
+        {
+            "Type": "WeaponDef",
+            "Path": "StreamingAssets/data/weapon"
+            },
+            {
+                "Type": "UpgradeDef",
+                "Path": "StreamingAssets/data/upgrade"
+                },
+                {
+                    "Type": "HeatSinkDef",
+                    "Path": "StreamingAssets/data/upgrade/heatsinks"
+                },
+                {
+                    "Type": "JumpJetDef",
+                    "Path": "StreamingAssets/data/jumpjets"
+                },
+        
+        {
+            "Type": "WeaponDef",
+            "Path": "Weapon [Clan]"
+            },
+            {
+                "Type": "WeaponDef",
+                "Path": "Blacklist"
+                },
+                {
+                    "Type": "AmmunitionDef",
+                    "Path": "ammunition [Clan]"
+                },
+                {
+                    "Type": "AmmunitionBoxDef",
+                    "Path": "ammobox [clan]"
+                },
+                {
+                    "Type": "AmmunitionDef",
+                    "Path": "ammunition"
+                },
+                {
+                    "Type": "AmmunitionBoxDef",
+                    "Path": "ammobox"
+                }
+                
+
+        
+    ],
+    "DependsOn": [
+
+        "MechEngineer",
+    "CustomComponents"
+    ]
+}
