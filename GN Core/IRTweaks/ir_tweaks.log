@@ -1,128 +1,129 @@
-17:07:48.117 Assembly version: 0.9.8.6
-17:07:48.117 == Mod Config Initialization Started == 
-17:07:48.118 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
-17:07:48.118 == Mod Config Initialization Complete == 
-17:07:48.122 === MOD CONFIG BEGIN ===
-17:07:48.122   DEBUG: False Trace: True
-17:07:48.122   -- Fixes --
-17:07:48.122   AbilityResourceFix:                 True
-17:07:48.122   AlternateMechNamingStyle:           False
-17:07:48.122   BuildingDamageColorChange:          True
-17:07:48.122   BraceOnMeleeWithJuggernaut:         True
-17:07:48.122   BreachingShotIgnoresAllDR:          False
-17:07:48.122   BulkPurchasing:                     False
-17:07:48.122   BulkScrapping:                      False
-17:07:48.122   CalledShotTweaks:                   True
-17:07:48.122   CombatLog:                          True
-17:07:48.122   DifficultyModsFromStats:            True
-17:07:48.122   DisableCampaign:                    True
-17:07:48.122   DisableDebug:                       True
-17:07:48.122   DisableCombatRestarts:              True
-17:07:48.122   DisableCombatSaves:                 True
-17:07:48.122   DisableMPHashCalculation:           True
-17:07:48.122   DisableFiringStat:                  True
-17:07:48.122   DisableLowFundsNotification:        True
-17:07:48.122   ExplodingBuildingFix:               True
-17:07:48.122   EventRequirementsScopeFix:          True
-17:07:48.122   ExtendedStats:                      True
-17:07:48.122   FactionReputationFixes:             True
-17:07:48.122   FlexibleSensorLock:                 False
-17:07:48.122   MaxArmorMaxesArmor:                 True
-17:07:48.122   MechbayLayout:                      True
-17:07:48.122   MechbayLayoutDisableStore:          True
-17:07:48.122   OnWeaponFireFix:                    True
-17:07:48.122   PainTolerance:                      True
-17:07:48.122   PathfinderTeamFix:                  True
-17:07:48.122   RandomStartByDifficulty:            True
-17:07:48.122   ReduceSaveCompression:              True
-17:07:48.122   ScaleObjectiveBuildingStructure:    True
-17:07:48.122   ShowAllArgoUpgrades:                True
-17:07:48.122   SkipDeleteSavePopup:                True
-17:07:48.122   SkirmishAlwaysUnlimited:            True
-17:07:48.122   SkirmishReset:                      True
-17:07:48.122   SimGameDifficultyLabelsReplacer:    False
-17:07:48.122   SpawnProtection:                    True
-17:07:48.122   StreamlinedMainMenu:                True
-17:07:48.122   TurnDirectorStartFirstRoundFix:     True
-17:07:48.123   TgtComputerTonnageDisplay:          True
-17:07:48.123   UrbanExplosionsFix:                 True
-17:07:48.123   WeaponTooltips:                     True
-17:07:48.123   DamageReductionInCombatHud:         True
-17:07:48.123   DeathChanceStat:                    True
-17:07:48.123   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
-17:07:48.123   TorsoMountStatName:                     isTorsoMount
-17:07:48.123   -- Called Shot --
-17:07:48.123    Disable => AllLocations: True  Headshots: True
-17:07:48.123    Enable => ComplexTacticsModifier: True
-17:07:48.123    BaseModifier:-1
-17:07:48.123    CalledShotDefaultMod:-1
-17:07:48.123   -- Spawn Protection --
-17:07:48.123    ApplyGuard:True  EvasionPips:8
-17:07:48.123    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
-17:07:48.123    ApplyToReinforcements:True
-17:07:48.123   -- Cheat Detection --
-17:07:48.123    CheatDetection:True
-17:07:48.123    CheatDetectionNotify:True
-17:07:48.123    CheatDetectionStat:CheatFoundS2
-17:07:48.123   -- ObstructionTweaks --
-17:07:48.123    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
-17:07:48.123    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
-17:07:48.123    QuadTags:System.Collections.Generic.List`1[System.String]
-17:07:48.123    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
-17:07:48.123   -- Store --
-17:07:48.123    QuantityOnShift:5  QuantityOnControl:20
-17:07:48.123   -- Flexible Sensor Lock Options --
-17:07:48.123    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
-17:07:48.123 === MOD CONFIG END ===
-17:07:48.123 INFO: No errors reading settings file.
-17:07:48.129 Activating Fix: BraceOnMeleeWithJuggernaut
-17:07:48.129 Activating Fix: BuildingDamageColorChange
-17:07:48.129 Activating Fix: CalledShotTweaks
-17:07:48.129 Activating Fix: ExtendedStats
-17:07:48.129 Activating Fix: PainTolerance
-17:07:48.129 Activating Fix: PathfinderTeamFix
-17:07:48.129 Activating Fix: ScaleObjectiveBuildingStructure
-17:07:48.129 Activating Fix: SpawnProtection
-17:07:48.129 Activating Fix: UrbanExplosionsFix
-17:07:48.130 Activating Fix: RandomStartByDifficulty
-17:07:48.130 Activating Fix: DisableCampaign
-17:07:48.130 Activating Fix: DisableLowFundsNotification
-17:07:48.130 Activating Fix: DisableMPHashCalculation
-17:07:48.130 Activating Fix: MultiTargetStat
-17:07:48.130 Activating fix: ReduceSaveCompression.
-17:07:48.130 Activating fix: ShowAllArgoUpgrades.
-17:07:48.130 Activating fix: SkipDeleteSavePopup.
-17:07:48.130 Activating fix: SkirmishReset.
-17:07:48.131 Activating Fix: CombatLog
-17:07:48.244 Activating Fix: SkirmishAlwaysUnlimited
-17:07:48.244 Activating Fix: DisableCombatSaves
-17:07:48.244 Activating Fix: DisableCombatRestart
-17:07:48.244 Activating Fix: StreamlinedMainMenu
-17:07:48.299 Activating Fix: WeaponTooltip
-17:07:48.299 Activating Fix: DamageReductionInCombatHud
-17:07:50.391 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
-17:07:50.391 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
-17:07:50.418 M:CK Found INJURY IGNORED instruction at idx: 111
-17:07:50.682 [InitializeEffects] Initializing effects for Brace Effects
-17:07:50.683 EffectData statname: CACAoEDamageMult
-17:07:59.223 Resetting used lances and custom units after PostDeserialize call.
-17:07:59.229 Resetting used lances and custom units after PostDeserialize call.
-17:07:59.229 Resetting used lances and custom units after PostDeserialize call.
-17:07:59.580 Resetting used lances and custom units after PostDeserialize call.
-17:08:01.984 Disabling the campaign button on the main menu.
-17:08:02.006 Disabling the debug buttons in the main menu.
-17:08:19.933 P:ISV entered.
-17:08:19.937 P:ISV entered.
-17:08:19.958 P:ISV entered.
-17:08:19.958 P:ISV entered.
-17:08:19.958 P:ISV entered.
-17:08:19.961 P:ISV entered.
-17:08:19.961 P:ISV entered.
-17:08:19.961 P:ISV entered.
-17:08:19.961 P:ISV entered.
-17:08:19.961 P:ISV entered.
-17:08:19.961 P:ISV entered.
-17:08:19.961 P:ISV entered.
-17:08:21.574 P:ISV entered.
-17:08:21.708 P:ISV entered.
-17:08:21.730 P:ISV entered.
+22:47:31.723 Assembly version: 0.9.8.6
+22:47:31.724 == Mod Config Initialization Started == 
+22:47:31.726 ScaleObjectiveBuildingStructure has difficulties between 1 and 12
+22:47:31.726 == Mod Config Initialization Complete == 
+22:47:31.734 === MOD CONFIG BEGIN ===
+22:47:31.734   DEBUG: False Trace: True
+22:47:31.734   -- Fixes --
+22:47:31.734   AbilityResourceFix:                 True
+22:47:31.734   AlternateMechNamingStyle:           False
+22:47:31.734   BuildingDamageColorChange:          True
+22:47:31.734   BraceOnMeleeWithJuggernaut:         True
+22:47:31.734   BreachingShotIgnoresAllDR:          False
+22:47:31.734   BulkPurchasing:                     False
+22:47:31.734   BulkScrapping:                      False
+22:47:31.734   CalledShotTweaks:                   True
+22:47:31.734   CombatLog:                          True
+22:47:31.735   DifficultyModsFromStats:            True
+22:47:31.735   DisableCampaign:                    True
+22:47:31.735   DisableDebug:                       True
+22:47:31.735   DisableCombatRestarts:              True
+22:47:31.735   DisableCombatSaves:                 True
+22:47:31.735   DisableMPHashCalculation:           True
+22:47:31.735   DisableFiringStat:                  True
+22:47:31.735   DisableLowFundsNotification:        True
+22:47:31.735   ExplodingBuildingFix:               True
+22:47:31.735   EventRequirementsScopeFix:          True
+22:47:31.735   ExtendedStats:                      True
+22:47:31.735   FactionReputationFixes:             True
+22:47:31.735   FlexibleSensorLock:                 False
+22:47:31.735   MaxArmorMaxesArmor:                 True
+22:47:31.735   MechbayLayout:                      True
+22:47:31.735   MechbayLayoutDisableStore:          True
+22:47:31.735   OnWeaponFireFix:                    True
+22:47:31.735   PainTolerance:                      True
+22:47:31.735   PathfinderTeamFix:                  True
+22:47:31.735   RandomStartByDifficulty:            True
+22:47:31.735   ReduceSaveCompression:              True
+22:47:31.735   ScaleObjectiveBuildingStructure:    True
+22:47:31.735   ShowAllArgoUpgrades:                True
+22:47:31.735   SkipDeleteSavePopup:                True
+22:47:31.735   SkirmishAlwaysUnlimited:            True
+22:47:31.735   SkirmishReset:                      True
+22:47:31.735   SimGameDifficultyLabelsReplacer:    False
+22:47:31.735   SpawnProtection:                    True
+22:47:31.735   StreamlinedMainMenu:                True
+22:47:31.735   TurnDirectorStartFirstRoundFix:     True
+22:47:31.735   TgtComputerTonnageDisplay:          True
+22:47:31.735   UrbanExplosionsFix:                 True
+22:47:31.735   WeaponTooltips:                     True
+22:47:31.735   DamageReductionInCombatHud:         True
+22:47:31.735   DeathChanceStat:                    True
+22:47:31.735   DisableCTMaxInjureTags:                     System.Collections.Generic.List`1[System.String]
+22:47:31.735   TorsoMountStatName:                     isTorsoMount
+22:47:31.735   -- Called Shot --
+22:47:31.735    Disable => AllLocations: True  Headshots: True
+22:47:31.735    Enable => ComplexTacticsModifier: True
+22:47:31.735    BaseModifier:-1
+22:47:31.735    CalledShotDefaultMod:-1
+22:47:31.735   -- Spawn Protection --
+22:47:31.735    ApplyGuard:True  EvasionPips:8
+22:47:31.735    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
+22:47:31.735    ApplyToReinforcements:True
+22:47:31.735   -- Cheat Detection --
+22:47:31.735    CheatDetection:True
+22:47:31.735    CheatDetectionNotify:True
+22:47:31.735    CheatDetectionStat:CheatFoundS2
+22:47:31.735   -- ObstructionTweaks --
+22:47:31.735    DRMechLocs:System.Collections.Generic.List`1[BattleTech.ArmorLocation]
+22:47:31.735    DRVehicleLocs:System.Collections.Generic.List`1[BattleTech.VehicleChassisLocations]
+22:47:31.735    QuadTags:System.Collections.Generic.List`1[System.String]
+22:47:31.735    ObstructionDRByTags:System.Collections.Generic.Dictionary`2[System.String,System.Single]
+22:47:31.735   -- Store --
+22:47:31.735    QuantityOnShift:5  QuantityOnControl:20
+22:47:31.735   -- Flexible Sensor Lock Options --
+22:47:31.735    FreeActionWithAbility:False  AbilityId:AbilityDefT5A
+22:47:31.735 === MOD CONFIG END ===
+22:47:31.735 INFO: No errors reading settings file.
+22:47:31.743 Activating Fix: BraceOnMeleeWithJuggernaut
+22:47:31.743 Activating Fix: BuildingDamageColorChange
+22:47:31.743 Activating Fix: CalledShotTweaks
+22:47:31.743 Activating Fix: ExtendedStats
+22:47:31.743 Activating Fix: PainTolerance
+22:47:31.743 Activating Fix: PathfinderTeamFix
+22:47:31.744 Activating Fix: ScaleObjectiveBuildingStructure
+22:47:31.744 Activating Fix: SpawnProtection
+22:47:31.744 Activating Fix: UrbanExplosionsFix
+22:47:31.744 Activating Fix: RandomStartByDifficulty
+22:47:31.744 Activating Fix: DisableCampaign
+22:47:31.744 Activating Fix: DisableLowFundsNotification
+22:47:31.744 Activating Fix: DisableMPHashCalculation
+22:47:31.744 Activating Fix: MultiTargetStat
+22:47:31.744 Activating fix: ReduceSaveCompression.
+22:47:31.744 Activating fix: ShowAllArgoUpgrades.
+22:47:31.744 Activating fix: SkipDeleteSavePopup.
+22:47:31.744 Activating fix: SkirmishReset.
+22:47:31.745 Activating Fix: CombatLog
+22:47:31.905 Activating Fix: SkirmishAlwaysUnlimited
+22:47:31.905 Activating Fix: DisableCombatSaves
+22:47:31.905 Activating Fix: DisableCombatRestart
+22:47:31.905 Activating Fix: StreamlinedMainMenu
+22:47:31.976 Activating Fix: WeaponTooltip
+22:47:31.976 Activating Fix: DamageReductionInCombatHud
+22:47:35.112 AA:CPSFA Found INJURY IGNORED instruction at idx: 73
+22:47:35.112 AA:CPSFA Found Pilot.ClearNeedsInjury instruction at idx: 118
+22:47:35.142 M:CK Found INJURY IGNORED instruction at idx: 111
+22:47:35.471 [InitializeEffects] Initializing effects for Brace Effects
+22:47:35.472 EffectData statname: CACAoEDamageMult
+22:48:06.337 Resetting used lances and custom units after PostDeserialize call.
+22:48:06.343 Resetting used lances and custom units after PostDeserialize call.
+22:48:06.343 Resetting used lances and custom units after PostDeserialize call.
+22:48:06.689 Resetting used lances and custom units after PostDeserialize call.
+22:48:09.898 Disabling the campaign button on the main menu.
+22:48:09.920 Disabling the debug buttons in the main menu.
+22:48:45.323 P:ISV entered.
+22:48:45.326 P:ISV entered.
+22:48:45.338 P:ISV entered.
+22:48:45.338 P:ISV entered.
+22:48:45.338 P:ISV entered.
+22:48:45.340 P:ISV entered.
+22:48:45.340 P:ISV entered.
+22:48:45.340 P:ISV entered.
+22:48:45.340 P:ISV entered.
+22:48:45.340 P:ISV entered.
+22:48:45.340 P:ISV entered.
+22:48:45.340 P:ISV entered.
+22:48:47.475 P:ISV entered.
+22:48:47.540 P:ISV entered.
+22:48:47.558 P:ISV entered.
+22:48:47.581 P:ISV entered.
