@@ -182,7 +182,17 @@
         "SensorsBSlotChange" : null,
         "LegUpgradesCategorizer" : null,
         "LegUpgradesSlotChange" : null,
-        "ChassisDefSlotsChanges" : null,
+        "ChassisDefSlotsChanges" : [
+            {
+                "Location" : "CenterTorso",
+                "Change" : {
+                    "From" : 8,
+                    "By" : 8,
+                    "FromIsMin" : false,
+                    "NewMin" : 16
+                }
+            }
+        ],
         "ChassisDefInitialTonnage" : true,
         "ChassisDefInitialToTotalTonnageFactor" : 0.1,
         "ChassisDefArmorStructureRatio" : true,
@@ -350,7 +360,7 @@
         "RunMultiplierDescription" : "How much faster running is than walking.",
         "EngineRatingForChassisMovementStatDescription" : "The engine rating to use when evaluating the movement stat of a mech.",
         "ProtoMechEngineTagDescription" : "ChassisTag that overwrites engine calculations to adhere to ProtoMech rules",
-        "AllowMountingAllRatings" : false,
+        "AllowMountingAllRatings" : true,
         "AllowMountingAllRatingsDescription" : "Allow mounting all fusion core rating regardless of min/max sprint factors.",
         "HeatSinksMaximumFreeCount" : 10,
         "HeatSinksMaximumFreeCountDescription" : "Number of heat sinks mounted outside fo the engine that are allowed to be free, minus the engine-internal heat sinks.",
