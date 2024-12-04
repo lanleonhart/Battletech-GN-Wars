@@ -5,21 +5,21 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Crusader CRD-6T",
-        "Id": "chassisdef_crusader_CRD-6T",
-        "Name": "Crusader",
+        "UIName": "Gallowglas GAL-3GLS",
+        "Id": "chassisdef_gallowglas_GAL-3GLS",
+        "Name": "Gallowglas",
         "Details": "",
-        "Icon": "Crusader"
+        "Icon": "Gallowglas"
     },
     "MovementCapDefID": "movedef_rifleman_RFL-4D",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_crusader",
-    "PrefabIdentifier": "chrprfmech_crusaderhotd-001",
-    "PrefabBase": "crusader",
-    "Tonnage": 65,
-    "InitialTonnage": 6.5,
+    "HardpointDataDefID": "hardpointdatadef_genericsh2",
+    "PrefabIdentifier": "chrprfmech_genericsh2base-001",
+    "PrefabBase": "genericsh2",
+    "Tonnage": 70,
+    "InitialTonnage": 7.0,
     "weightClass": "HEAVY",
-    "BattleValue": 1890,
+    "BattleValue": 2291,
     "Heatsinks": 0,
     "TopSpeed": 30,
     "TurnRadius": 60,
@@ -67,41 +67,21 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 200,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 55
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 240,
-            "MaxRearArmor": 60,
+            "MaxArmor": 230,
+            "MaxRearArmor": 70,
             "InternalStructure": 75
         },
         {
@@ -109,78 +89,57 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 16,
-            "MaxArmor": 330,
-            "MaxRearArmor": 80,
-            "InternalStructure": 105
+            "MaxArmor": 320,
+            "MaxRearArmor": 90,
+            "InternalStructure": 110
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 240,
-            "MaxRearArmor": 60,
+            "MaxArmor": 230,
+            "MaxRearArmor": 70,
             "InternalStructure": 75
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 200,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 55
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 250,
+            "MaxArmor": 280,
             "MaxRearArmor": -1,
             "InternalStructure": 75
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 250,
+            "MaxArmor": 280,
             "MaxRearArmor": -1,
             "InternalStructure": 75
         }
@@ -199,11 +158,11 @@
             "z": 0
         }
     ],
-    "VariantName": "CRD-6T",
+    "VariantName": "GAL-3GLS",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher",
+    "StockRole": "Brawler",
     "YangsThoughts": ""
 }
