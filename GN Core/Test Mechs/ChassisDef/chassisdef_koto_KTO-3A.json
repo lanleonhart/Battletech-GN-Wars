@@ -1,0 +1,168 @@
+{
+    "Description": {
+        "Cost": 0,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "Unknown",
+        "Model": "",
+        "UIName": "Koto KTO-3A",
+        "Id": "chassisdef_koto_KTO-3A",
+        "Name": "Koto",
+        "Details": "",
+        "Icon": "Koto"
+    },
+    "MovementCapDefID": "movedef_locust_LCT-1V",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_locust",
+    "PrefabIdentifier": "chrPrfMech_locustBase-001",
+    "PrefabBase": "locust",
+    "Tonnage": 25,
+    "InitialTonnage": 2.5,
+    "weightClass": "LIGHT",
+    "BattleValue": 806,
+    "Heatsinks": 0,
+    "TopSpeed": 90,
+    "TurnRadius": 80,
+    "MaxJumpjets": 6,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 20,
+    "MeleeInstability": 20,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 30,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 30,
+    "DFAInstability": 30,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "HardpointCapacity": 1
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 100,
+            "MaxRearArmor": 20,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 16,
+            "MaxArmor": 120,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 100,
+            "MaxRearArmor": 20,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    ],
+    "VariantName": "KTO-3A",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Striker",
+    "YangsThoughts": ""
+}
