@@ -5,21 +5,21 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Viking VKG-2G",
-        "Id": "chassisdef_viking_VKG-2G",
-        "Name": "Viking",
+        "UIName": "Naginata NG-C3B",
+        "Id": "chassisdef_naginata_NG-C3B",
+        "Name": "Naginata",
         "Details": "",
-        "Icon": "Viking"
+        "Icon": "no_image"
     },
     "MovementCapDefID": "movedef_atlas_AS7-D",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_masonviking",
-    "PrefabIdentifier": "chrprfmech_masonvikingbase-001",
-    "PrefabBase": "masonviking",
-    "Tonnage": 90,
-    "InitialTonnage": 9.0,
+    "HardpointDataDefID": "hardpointdatadef_naginata",
+    "PrefabIdentifier": "chrprfmech_naginatabase-001",
+    "PrefabBase": "naginata",
+    "Tonnage": 95,
+    "InitialTonnage": 9.5,
     "weightClass": "ASSAULT",
-    "BattleValue": 2152,
+    "BattleValue": 1943,
     "Heatsinks": 0,
     "TopSpeed": 40,
     "TurnRadius": 50,
@@ -65,92 +65,92 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
+                    "HardpointCapacity": 1
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 300,
+            "MaxArmor": 250,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 80
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 310,
-            "MaxRearArmor": 70,
-            "InternalStructure": 95
+            "MaxArmor": 260,
+            "MaxRearArmor": 80,
+            "InternalStructure": 100
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 16,
-            "MaxArmor": 480,
-            "MaxRearArmor": 100,
-            "InternalStructure": 145
-        },
-        {
-            "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 310,
-            "MaxRearArmor": 70,
-            "InternalStructure": 95
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
+            "InventorySlots": 16,
+            "MaxArmor": 350,
+            "MaxRearArmor": 140,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 300,
+            "MaxArmor": 260,
+            "MaxRearArmor": 80,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 250,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 80
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 380,
+            "MaxArmor": 320,
             "MaxRearArmor": -1,
-            "InternalStructure": 95
+            "InternalStructure": 100
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 380,
+            "MaxArmor": 320,
             "MaxRearArmor": -1,
-            "InternalStructure": 95
+            "InternalStructure": 100
         }
     ],
     "LOSSourcePositions": [
@@ -167,11 +167,11 @@
             "z": 0
         }
     ],
-    "VariantName": "VKG-2G",
+    "VariantName": "NG-C3B",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Juggernaut",
+    "StockRole": "Missile Boat",
     "YangsThoughts": ""
 }

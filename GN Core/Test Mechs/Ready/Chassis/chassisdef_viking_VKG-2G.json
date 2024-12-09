@@ -5,21 +5,21 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Pillager PLG-4Z",
-        "Id": "chassisdef_pillager_PLG-4Z",
-        "Name": "Pillager",
+        "UIName": "Viking VKG-2G",
+        "Id": "chassisdef_viking_VKG-2G",
+        "Name": "Viking",
         "Details": "",
-        "Icon": "Pillager"
+        "Icon": "no_image"
     },
     "MovementCapDefID": "movedef_atlas_AS7-D",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_pillager",
-    "PrefabIdentifier": "chrprfmech_pillagerbase-001",
-    "PrefabBase": "pillager",
-    "Tonnage": 100,
-    "InitialTonnage": 10.0,
+    "HardpointDataDefID": "hardpointdatadef_masonviking",
+    "PrefabIdentifier": "chrprfmech_masonvikingbase-001",
+    "PrefabBase": "masonviking",
+    "Tonnage": 90,
+    "InitialTonnage": 9.0,
     "weightClass": "ASSAULT",
-    "BattleValue": 2868,
+    "BattleValue": 2152,
     "Heatsinks": 0,
     "TopSpeed": 40,
     "TurnRadius": 50,
@@ -51,10 +51,6 @@
             "Location": "Head",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "AntiPersonnel",
                     "HardpointCapacity": 1
                 }
@@ -67,12 +63,25 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 340,
+            "MaxArmor": 300,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 75
         },
         {
             "Location": "LeftTorso",
@@ -84,23 +93,18 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 320,
-            "MaxRearArmor": 100,
-            "InternalStructure": 105
+            "MaxArmor": 310,
+            "MaxRearArmor": 70,
+            "InternalStructure": 95
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 16,
-            "MaxArmor": 520,
+            "MaxArmor": 480,
             "MaxRearArmor": 100,
-            "InternalStructure": 155
+            "InternalStructure": 145
         },
         {
             "Location": "RightTorso",
@@ -112,36 +116,41 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 320,
-            "MaxRearArmor": 100,
-            "InternalStructure": 105
+            "MaxArmor": 310,
+            "MaxRearArmor": 70,
+            "InternalStructure": 95
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 340,
+            "MaxArmor": 300,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 75
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 420,
+            "MaxArmor": 380,
             "MaxRearArmor": -1,
-            "InternalStructure": 105
+            "InternalStructure": 95
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 420,
+            "MaxArmor": 380,
             "MaxRearArmor": -1,
-            "InternalStructure": 105
+            "InternalStructure": 95
         }
     ],
     "LOSSourcePositions": [
@@ -158,11 +167,11 @@
             "z": 0
         }
     ],
-    "VariantName": "PLG-4Z",
+    "VariantName": "VKG-2G",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Sniper",
+    "StockRole": "Juggernaut",
     "YangsThoughts": ""
 }

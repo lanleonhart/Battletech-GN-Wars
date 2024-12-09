@@ -5,21 +5,21 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Tai-sho TSH-7S",
-        "Id": "chassisdef_tai-sho_TSH-7S",
-        "Name": "Tai-sho",
+        "UIName": "Pillager PLG-4Z",
+        "Id": "chassisdef_pillager_PLG-4Z",
+        "Name": "Pillager",
         "Details": "",
-        "Icon": "Tai-sho"
+        "Icon": "no_image"
     },
     "MovementCapDefID": "movedef_atlas_AS7-D",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_thorn",
-    "PrefabIdentifier": "chrprfmech_thornbase-001",
-    "PrefabBase": "thorn",
-    "Tonnage": 85,
-    "InitialTonnage": 8.5,
+    "HardpointDataDefID": "hardpointdatadef_pillager",
+    "PrefabIdentifier": "chrprfmech_pillagerbase-001",
+    "PrefabBase": "pillager",
+    "Tonnage": 100,
+    "InitialTonnage": 10.0,
     "weightClass": "ASSAULT",
-    "BattleValue": 1774,
+    "BattleValue": 2868,
     "Heatsinks": 0,
     "TopSpeed": 40,
     "TurnRadius": 50,
@@ -51,6 +51,10 @@
             "Location": "Head",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
                     "HardpointCapacity": 1
                 }
@@ -63,39 +67,40 @@
         },
         {
             "Location": "LeftArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 340,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "LeftTorso",
             "Hardpoints": [
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "HardpointCapacity": 1
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 280,
-            "MaxRearArmor": -1,
-            "InternalStructure": 70
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 270,
-            "MaxRearArmor": 90,
-            "InternalStructure": 90
+            "MaxArmor": 320,
+            "MaxRearArmor": 100,
+            "InternalStructure": 105
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 16,
-            "MaxArmor": 410,
-            "MaxRearArmor": 130,
-            "InternalStructure": 135
+            "MaxArmor": 520,
+            "MaxRearArmor": 100,
+            "InternalStructure": 155
         },
         {
             "Location": "RightTorso",
@@ -107,45 +112,36 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 270,
-            "MaxRearArmor": 90,
-            "InternalStructure": 90
+            "MaxArmor": 320,
+            "MaxRearArmor": 100,
+            "InternalStructure": 105
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "HardpointCapacity": 1
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 280,
+            "MaxArmor": 340,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 85
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 360,
+            "MaxArmor": 420,
             "MaxRearArmor": -1,
-            "InternalStructure": 90
+            "InternalStructure": 105
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 360,
+            "MaxArmor": 420,
             "MaxRearArmor": -1,
-            "InternalStructure": 90
+            "InternalStructure": 105
         }
     ],
     "LOSSourcePositions": [
@@ -162,7 +158,7 @@
             "z": 0
         }
     ],
-    "VariantName": "TSH-7S",
+    "VariantName": "PLG-4Z",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""

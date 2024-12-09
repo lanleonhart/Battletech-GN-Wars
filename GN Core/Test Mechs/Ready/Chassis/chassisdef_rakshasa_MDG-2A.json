@@ -5,26 +5,26 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Viking VKG-2F",
-        "Id": "chassisdef_viking_VKG-2F",
-        "Name": "Viking",
+        "UIName": "Rakshasa MDG-2A",
+        "Id": "chassisdef_rakshasa_MDG-2A",
+        "Name": "Rakshasa",
         "Details": "",
-        "Icon": "Viking"
+        "Icon": "TimberWolf"
     },
-    "MovementCapDefID": "movedef_atlas_AS7-D",
-    "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_masonviking",
-    "PrefabIdentifier": "chrprfmech_masonvikingbase-001",
-    "PrefabBase": "masonviking",
-    "Tonnage": 90,
-    "InitialTonnage": 9.0,
-    "weightClass": "ASSAULT",
-    "BattleValue": 2079,
+    "MovementCapDefID": "movedef_rifleman_RFL-4D",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_rakshasa",
+    "PrefabIdentifier": "chrprfmech_rakshasabase-001",
+    "PrefabBase": "rakshasa",
+    "Tonnage": 75,
+    "InitialTonnage": 7.5,
+    "weightClass": "HEAVY",
+    "BattleValue": 1766,
     "Heatsinks": 0,
-    "TopSpeed": 40,
-    "TurnRadius": 50,
+    "TopSpeed": 30,
+    "TurnRadius": 60,
     "MaxJumpjets": 20,
-    "Stability": 200,
+    "Stability": 160,
     "StabilityDefenses": [
         0,
         0,
@@ -37,15 +37,15 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 8,
-    "PunchesWithLeftArm": true,
-    "MeleeDamage": 80,
-    "MeleeInstability": 80,
+    "Radius": 6,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 60,
+    "MeleeInstability": 60,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 70,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
     "Locations": [
         {
             "Location": "Head",
@@ -65,48 +65,39 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 300,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 60
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 310,
+            "MaxArmor": 220,
             "MaxRearArmor": 70,
-            "InternalStructure": 95
+            "InternalStructure": 80
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 16,
-            "MaxArmor": 330,
-            "MaxRearArmor": 100,
-            "InternalStructure": 145
+            "MaxArmor": 320,
+            "MaxRearArmor": 90,
+            "InternalStructure": 115
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -116,59 +107,49 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 310,
+            "MaxArmor": 220,
             "MaxRearArmor": 70,
-            "InternalStructure": 95
+            "InternalStructure": 80
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 300,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 60
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 300,
+            "MaxArmor": 280,
             "MaxRearArmor": -1,
-            "InternalStructure": 95
+            "InternalStructure": 80
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 300,
+            "MaxArmor": 280,
             "MaxRearArmor": -1,
-            "InternalStructure": 95
+            "InternalStructure": 80
         }
     ],
     "LOSSourcePositions": [
@@ -185,11 +166,11 @@
             "z": 0
         }
     ],
-    "VariantName": "VKG-2F",
+    "VariantName": "MDG-2A",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Missile Boat",
+    "StockRole": "Skirmisher",
     "YangsThoughts": ""
 }

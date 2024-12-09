@@ -5,26 +5,26 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "UrbanMech UM-R68",
-        "Id": "chassisdef_urbanmech_UM-R68",
-        "Name": "UrbanMech",
+        "UIName": "Rakshasa MDG-1A",
+        "Id": "chassisdef_rakshasa_MDG-1A",
+        "Name": "Rakshasa",
         "Details": "",
-        "Icon": "UrbanMech"
+        "Icon": "TimberWolf"
     },
-    "MovementCapDefID": "movedef_locust_LCT-1V",
-    "PathingCapDefID": "pathingdef_light",
-    "HardpointDataDefID": "hardpointdatadef_urbie",
-    "PrefabIdentifier": "chrprfmech_urbiebase-001",
-    "PrefabBase": "urbie",
-    "Tonnage": 30,
-    "InitialTonnage": 3.0,
-    "weightClass": "LIGHT",
-    "BattleValue": 561,
+    "MovementCapDefID": "movedef_rifleman_RFL-4D",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_rakshasa",
+    "PrefabIdentifier": "chrprfmech_rakshasabase-001",
+    "PrefabBase": "rakshasa",
+    "Tonnage": 75,
+    "InitialTonnage": 7.5,
+    "weightClass": "HEAVY",
+    "BattleValue": 1795,
     "Heatsinks": 0,
-    "TopSpeed": 90,
-    "TurnRadius": 80,
+    "TopSpeed": 30,
+    "TurnRadius": 60,
     "MaxJumpjets": 20,
-    "Stability": 100,
+    "Stability": 160,
     "StabilityDefenses": [
         0,
         0,
@@ -37,15 +37,15 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 4,
+    "Radius": 6,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 20,
-    "MeleeInstability": 20,
+    "MeleeDamage": 60,
+    "MeleeInstability": 60,
     "MeleeToHitModifier": 0,
-    "DFADamage": 30,
+    "DFADamage": 70,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 30,
-    "DFAInstability": 30,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
     "Locations": [
         {
             "Location": "Head",
@@ -67,17 +67,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 100,
-            "MaxRearArmor": -1,
-            "InternalStructure": 25
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -85,30 +75,39 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 80,
-            "MaxRearArmor": 40,
-            "InternalStructure": 35
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 220,
+            "MaxRearArmor": 70,
+            "InternalStructure": 80
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 16,
-            "MaxArmor": 110,
-            "MaxRearArmor": 80,
-            "InternalStructure": 50
+            "MaxArmor": 320,
+            "MaxRearArmor": 90,
+            "InternalStructure": 115
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 80,
-            "MaxRearArmor": 40,
-            "InternalStructure": 35
-        },
-        {
-            "Location": "RightArm",
             "Hardpoints": [
                 {
                     "WeaponMount": "Missile",
@@ -117,27 +116,45 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 100,
+            "MaxArmor": 220,
+            "MaxRearArmor": 70,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 25
+            "InternalStructure": 60
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 120,
+            "MaxArmor": 280,
             "MaxRearArmor": -1,
-            "InternalStructure": 35
+            "InternalStructure": 80
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 120,
+            "MaxArmor": 280,
             "MaxRearArmor": -1,
-            "InternalStructure": 35
+            "InternalStructure": 80
         }
     ],
     "LOSSourcePositions": [
@@ -154,11 +171,11 @@
             "z": 0
         }
     ],
-    "VariantName": "UM-R68",
+    "VariantName": "MDG-1A",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Ambusher",
+    "StockRole": "Skirmisher",
     "YangsThoughts": ""
 }
