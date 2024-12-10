@@ -1,0 +1,172 @@
+{
+    "Description": {
+        "Cost": 0,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "Unknown",
+        "Model": "",
+        "UIName": "Shadow Cat C",
+        "Id": "mechdef_shadow_Cat_C",
+        "Name": "Shadow",
+        "Details": "",
+        "Icon": "Shadow"
+    },
+    "MovementCapDefID": "movedef_centurion_CN9",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_shadowcat",
+    "PrefabIdentifier": "chrPrfMech_shadowcatbase-001",
+    "PrefabBase": "shadowcat",
+    "Tonnage": 45,
+    "InitialTonnage": 4.5,
+    "weightClass": "MEDIUM",
+    "BattleValue": 2199,
+    "Heatsinks": 0,
+    "TopSpeed": 70,
+    "TurnRadius": 70,
+    "MaxJumpjets": 4,
+    "Stability": 130,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 40,
+    "MeleeInstability": 40,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 50,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 50,
+    "DFAInstability": 50,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 16,
+            "MaxArmor": 200,
+            "MaxRearArmor": 60,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 180,
+            "MaxRearArmor": 40,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 180,
+            "MaxRearArmor": 40,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 180,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 180,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    ],
+    "VariantName": "C",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "DefaultRole",
+    "YangsThoughts": ""
+}
