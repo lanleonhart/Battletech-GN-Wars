@@ -5,11 +5,11 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Thor H",
-        "Id": "mechdef_Thor_H",
-        "Name": "Thor",
+        "UIName": "Summoner M",
+        "Id": "mechdef_Summoner_M",
+        "Name": "Summoner",
         "Details": "",
-        "Icon": "Thor"
+        "Icon": "Summoner"
     },
     "MovementCapDefID": "movedef_rifleman_RFL-4D",
     "PathingCapDefID": "pathingdef_heavy",
@@ -19,7 +19,7 @@
     "Tonnage": 70,
     "InitialTonnage": 7.0,
     "weightClass": "HEAVY",
-    "BattleValue": 2536,
+    "BattleValue": 2251,
     "Heatsinks": 0,
     "TopSpeed": 30,
     "TurnRadius": 60,
@@ -69,7 +69,11 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -92,7 +96,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -149,7 +153,7 @@
             "z": 0
         }
     ],
-    "VariantName": "H",
+    "VariantName": "M",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""

@@ -5,11 +5,11 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Thor E",
-        "Id": "mechdef_Thor_E",
-        "Name": "Thor",
+        "UIName": "Summoner F",
+        "Id": "mechdef_Summoner_F",
+        "Name": "Summoner",
         "Details": "",
-        "Icon": "Thor"
+        "Icon": "Summoner"
     },
     "MovementCapDefID": "movedef_rifleman_RFL-4D",
     "PathingCapDefID": "pathingdef_heavy",
@@ -19,7 +19,7 @@
     "Tonnage": 70,
     "InitialTonnage": 7.0,
     "weightClass": "HEAVY",
-    "BattleValue": 2612,
+    "BattleValue": 2186,
     "Heatsinks": 0,
     "TopSpeed": 30,
     "TurnRadius": 60,
@@ -67,7 +67,12 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 12,
             "MaxArmor": 220,
@@ -76,7 +81,12 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 12,
             "MaxArmor": 220,
@@ -88,6 +98,10 @@
             "Hardpoints": [
                 {
                     "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -101,7 +115,11 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -144,7 +162,7 @@
             "z": 0
         }
     ],
-    "VariantName": "E",
+    "VariantName": "F",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
