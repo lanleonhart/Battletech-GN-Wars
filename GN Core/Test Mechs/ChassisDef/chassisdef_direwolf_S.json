@@ -5,11 +5,11 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Daishi C",
-        "Id": "mechdef_Daishi_C",
-        "Name": "Daishi",
+        "UIName": "Direwolf S",
+        "Id": "mechdef_direwolf_S",
+        "Name": "Direwolf",
         "Details": "",
-        "Icon": "Daishi"
+        "Icon": "direwolf"
     },
     "MovementCapDefID": "movedef_atlas_AS7-D",
     "PathingCapDefID": "pathingdef_assault",
@@ -19,7 +19,7 @@
     "Tonnage": 100,
     "InitialTonnage": 10.0,
     "weightClass": "ASSAULT",
-    "BattleValue": 3610,
+    "BattleValue": 2985,
     "Heatsinks": 0,
     "TopSpeed": 40,
     "TurnRadius": 50,
@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -63,7 +63,12 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 16,
             "MaxArmor": 470,
@@ -74,7 +79,15 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -87,6 +100,10 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -102,10 +119,6 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
@@ -120,11 +133,7 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -167,7 +176,7 @@
             "z": 0
         }
     ],
-    "VariantName": "DSI-C",
+    "VariantName": "DW-S",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""

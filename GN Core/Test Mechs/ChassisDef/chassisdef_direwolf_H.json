@@ -5,11 +5,11 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Daishi X",
-        "Id": "mechdef_Daishi_X",
-        "Name": "Daishi",
+        "UIName": "Direwolf H",
+        "Id": "mechdef_direwolf_H",
+        "Name": "Direwolf",
         "Details": "",
-        "Icon": "Daishi"
+        "Icon": "direwolf"
     },
     "MovementCapDefID": "movedef_atlas_AS7-D",
     "PathingCapDefID": "pathingdef_assault",
@@ -19,7 +19,7 @@
     "Tonnage": 100,
     "InitialTonnage": 10.0,
     "weightClass": "ASSAULT",
-    "BattleValue": 2645,
+    "BattleValue": 2992,
     "Heatsinks": 0,
     "TopSpeed": 40,
     "TurnRadius": 50,
@@ -49,12 +49,7 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
             "MaxArmor": 45,
@@ -63,12 +58,7 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 16,
             "MaxArmor": 470,
@@ -77,12 +67,7 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 12,
             "MaxArmor": 320,
@@ -93,7 +78,7 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -106,6 +91,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -122,6 +111,10 @@
             "Hardpoints": [
                 {
                     "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -164,7 +157,7 @@
             "z": 0
         }
     ],
-    "VariantName": "DSI-X",
+    "VariantName": "DW-H",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""

@@ -24,7 +24,7 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_Daishi_W",
+    "ChassisID": "chassisdef_direwolf_C",
     "HeraldryID": null,
     "Description": {
         "Cost": 0,
@@ -32,11 +32,11 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Daishi W",
-        "Id": "mechdef_Daishi_W",
-        "Name": "Daishi",
+        "UIName": "Direwolf C",
+        "Id": "mechdef_direwolf_C",
+        "Name": "Direwolf",
         "Details": "",
-        "Icon": "Daishi"
+        "Icon": "direwolf"
     },
     "simGameMechPartCost": 0,
     "Version": 1,
@@ -209,6 +209,27 @@
             "DamageLevel": "Functional"
         },
         {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_kit_dhs_clan",
             "ComponentDefType": "HeatSink",
@@ -217,20 +238,34 @@
         },
         {
             "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_Laser_SmallERLaser_Clan",
+            "ComponentDefID": "Weapon_SRM_SSRM4_Clan_OS",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumPulseLaser_Clan",
-            "ComponentDefType": "Weapon",
+            "ComponentDefID": "Gear_ECM_ECMSuit_Clan",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_MediumPulseLaser_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
@@ -238,50 +273,78 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Autocannon_UAC2_Clan",
+            "ComponentDefID": "Gear_Cockpit_TargetingComputer_Clan",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumPulseLaser_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM20_Clan",
+            "ComponentDefID": "Weapon_Laser_MediumPulseLaser_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_LRM_Clan",
-            "ComponentDefType": "AmmunitionBox",
+            "ComponentDefID": "Weapon_Laser_MediumPulseLaser_Clan",
+            "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB20X",
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_LRM_ATM6",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_ATM",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeERLaser_Clan",
+            "ComponentDefID": "Weapon_PPC_PPCER_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Gauss_Gauss_Clan",
+            "ComponentDefID": "Weapon_LRM_ATM6",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefID": "Ammo_AmmunitionBox_ATM",
             "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_PPC_PPCER_Clan",
+            "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
