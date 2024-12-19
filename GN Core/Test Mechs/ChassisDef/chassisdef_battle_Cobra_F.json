@@ -9,8 +9,45 @@
         "Id": "chassisdef_battle_Cobra_F",
         "Name": "Battle",
         "Details": "",
-        "Icon": "Battle"
+        "Icon": "Battlecobra"
     },
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_240",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Omni",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Structure_EndoSteel_Clan",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_armorslots_clan",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ],
     "MovementCapDefID": "movedef_centurion_CN9-A",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_emperor",
@@ -49,7 +86,12 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 6,
             "MaxArmor": 45,
@@ -58,7 +100,16 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 16,
             "MaxArmor": 160,
@@ -67,7 +118,20 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 12,
             "MaxArmor": 140,
@@ -76,7 +140,20 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 12,
             "MaxArmor": 140,
@@ -87,8 +164,16 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
                 }
             ],
             "Tonnage": 0,
@@ -101,8 +186,16 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
                 }
             ],
             "Tonnage": 0,

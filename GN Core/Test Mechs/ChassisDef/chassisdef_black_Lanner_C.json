@@ -9,8 +9,66 @@
         "Id": "chassisdef_black_Lanner_C",
         "Name": "Black Lanner",
         "Details": "",
-        "Icon": "Black"
+        "Icon": "BlackLanner"
     },
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_385",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Engine_XL_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "emod_engineslots_size2",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "emod_engineslots_size2",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Omni",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Structure_EndoSteel_Clan",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_armorslots_clan",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_MASC_Clan",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ],
     "MovementCapDefID": "movedef_centurion_CN9-A",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_blacklanner",
@@ -49,7 +107,12 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 6,
             "MaxArmor": 45,
@@ -58,7 +121,16 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 16,
             "MaxArmor": 250,
@@ -67,7 +139,20 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 12,
             "MaxArmor": 160,
@@ -76,7 +161,20 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 12,
             "MaxArmor": 160,
@@ -87,8 +185,16 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
                 }
             ],
             "Tonnage": 0,
@@ -101,8 +207,16 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": true
                 }
             ],
             "Tonnage": 0,

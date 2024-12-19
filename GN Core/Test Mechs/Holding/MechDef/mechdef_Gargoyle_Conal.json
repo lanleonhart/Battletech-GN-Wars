@@ -5,17 +5,11 @@
             "unit_mech",
             "unit_ready",
             "unit_release",
-            "ClanBurrock",
-            "ClanCloudCobra",
-            "ClanCoyote",
-            "ClanHellsHorses",
-            "ClanIceHellion",
-            "ClanStarAdder",
             "ClanWolf"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_savage_Coyote_PRIME",
+    "ChassisID": "chassisdef_Gargoyle_Conal",
     "HeraldryID": null,
     "Description": {
         "Cost": 0,
@@ -23,11 +17,11 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Savage Coyote PRIME",
-        "Id": "mechdef_savage_Coyote_PRIME",
-        "Name": "Savage Coyote",
+        "UIName": "Gargoyle Conal",
+        "Id": "mechdef_Gargoyle_Conal",
+        "Name": "Gargoyle",
         "Details": "",
-        "Icon": "Savage"
+        "Icon": "Man"
     },
     "simGameMechPartCost": 0,
     "Version": 1,
@@ -45,70 +39,70 @@
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 170,
-            "CurrentRearArmor": 75,
-            "CurrentInternalStructure": 135,
-            "AssignedArmor": 170,
-            "AssignedRearArmor": 75,
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 125,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 50,
             "InventorySlots": 16
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 130,
+            "CurrentArmor": 120,
             "CurrentRearArmor": 50,
-            "CurrentInternalStructure": 90,
-            "AssignedArmor": 130,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 120,
             "AssignedRearArmor": 50,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 130,
+            "CurrentArmor": 120,
             "CurrentRearArmor": 50,
-            "CurrentInternalStructure": 90,
-            "AssignedArmor": 130,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 120,
             "AssignedRearArmor": 50,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 125,
+            "CurrentArmor": 115,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 70,
-            "AssignedArmor": 125,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 115,
             "AssignedRearArmor": -1,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 125,
+            "CurrentArmor": 115,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 70,
-            "AssignedArmor": 125,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 115,
             "AssignedRearArmor": -1,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 150,
+            "CurrentArmor": 120,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 90,
-            "AssignedArmor": 150,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 120,
             "AssignedRearArmor": -1,
             "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 150,
+            "CurrentArmor": 120,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 90,
-            "AssignedArmor": 150,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 120,
             "AssignedRearArmor": -1,
             "InventorySlots": 6
         }
@@ -116,7 +110,7 @@
     "inventory": [
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_engine_255",
+            "ComponentDefID": "emod_engine_400",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
@@ -172,13 +166,6 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_kit_dhs_clan",
             "ComponentDefType": "HeatSink",
@@ -186,72 +173,37 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_Laser_MediumERLaser_Clan",
-            "ComponentDefType": "Weapon",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_ECM_ECMSuit_Clan",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_LRM_ATM12",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_ATM",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_ATM_ER",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_ATM_HE",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_ATM12",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Support_LightTAG_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_ATM",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_ATM_ER",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_ATM_HE",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumERLaser_Clan",
+            "ComponentDefID": "Weapon_SRM_SSRM6_Clan",
             "ComponentDefType": "Weapon",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_SRM_SSRM6_Clan",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_SRMStreak_Clan",
+            "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
@@ -264,43 +216,8 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallERLaser_Clan",
+            "ComponentDefID": "Weapon_PPC_PPCER_Clan",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallERLaser_Clan",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumERLaser_Clan",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Autocannon_UAC10_Clan",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X_Cluster",
-            "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }

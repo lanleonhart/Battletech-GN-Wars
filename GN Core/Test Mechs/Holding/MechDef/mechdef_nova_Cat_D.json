@@ -24,7 +24,7 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_Ebon_Jaguar_CB",
+    "ChassisID": "chassisdef_nova_Cat_D",
     "HeraldryID": null,
     "Description": {
         "Cost": 0,
@@ -32,11 +32,11 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Ebon Jaguar B",
-        "Id": "mechdef_Ebon_Jaguar_B",
-        "Name": "Ebon Jaguar",
+        "UIName": "Nova Cat D",
+        "Id": "mechdef_nova_Cat_D",
+        "Name": "Nova",
         "Details": "",
-        "Icon": "Ebon Jaguar"
+        "Icon": "Nova"
     },
     "simGameMechPartCost": 0,
     "Version": 1,
@@ -54,70 +54,70 @@
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 160,
-            "CurrentRearArmor": 45,
-            "CurrentInternalStructure": 105,
-            "AssignedArmor": 160,
-            "AssignedRearArmor": 45,
+            "CurrentArmor": 175,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 110,
+            "AssignedArmor": 175,
+            "AssignedRearArmor": 40,
             "InventorySlots": 16
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 110,
-            "CurrentRearArmor": 40,
+            "CurrentArmor": 115,
+            "CurrentRearArmor": 35,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 110,
-            "AssignedRearArmor": 40,
+            "AssignedArmor": 115,
+            "AssignedRearArmor": 35,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 110,
-            "CurrentRearArmor": 40,
+            "CurrentArmor": 115,
+            "CurrentRearArmor": 35,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 110,
-            "AssignedRearArmor": 40,
+            "AssignedArmor": 115,
+            "AssignedRearArmor": 35,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 85,
+            "CurrentArmor": 110,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 50,
-            "AssignedArmor": 85,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 110,
             "AssignedRearArmor": -1,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 85,
+            "CurrentArmor": 110,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 50,
-            "AssignedArmor": 85,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 110,
             "AssignedRearArmor": -1,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 95,
+            "CurrentArmor": 150,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 95,
+            "AssignedArmor": 150,
             "AssignedRearArmor": -1,
             "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 95,
+            "CurrentArmor": 150,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 95,
+            "AssignedArmor": 150,
             "AssignedRearArmor": -1,
             "InventorySlots": 6
         }
@@ -125,7 +125,7 @@
     "inventory": [
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_engine_325",
+            "ComponentDefID": "emod_engine_280",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
@@ -166,6 +166,55 @@
             "DamageLevel": "Functional"
         },
         {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_kit_dhs_clan",
             "ComponentDefType": "HeatSink",
@@ -173,57 +222,50 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_ECM_ActiveProbe_Clan",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LBX10_Cluster",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Cockpit_TargetingComputer_Clan",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumPulseLaser_Clan",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumPulseLaser_Clan",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Support_TAG_Clan",
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_LargeHeavyLaser_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_Clan",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargePulseLaser_Clan",
+            "ComponentDefID": "Weapon_Laser_LargeHeavyLaser_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_Clan",
+            "ComponentDefID": "Weapon_Laser_LargeHeavyLaser_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargePulseLaser_Clan",
+            "ComponentDefID": "Weapon_Autocannon_UAC10_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"

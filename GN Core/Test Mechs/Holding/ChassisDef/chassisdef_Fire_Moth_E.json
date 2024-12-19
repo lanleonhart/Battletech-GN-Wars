@@ -5,26 +5,26 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Marauder II Bounty Hunter",
-        "Id": "chassisdef_marauder_II_BH",
-        "Name": "Marauder",
+        "UIName": "Fire Moth E",
+        "Id": "chassisdef_Fire_Moth_E",
+        "Name": "Fire Moth",
         "Details": "",
-        "Icon": "Marauder"
+        "Icon": "Fire Moth"
     },
-    "MovementCapDefID": "movedef_atlas_AS7-D",
-    "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_marauderii",
-    "PrefabIdentifier": "chrprfmech_marauderiibase-001",
-    "PrefabBase": "marauderii",
-    "Tonnage": 100,
-    "InitialTonnage": 10.0,
-    "weightClass": "ASSAULT",
-    "BattleValue": 3767,
+    "MovementCapDefID": "movedef_spider_SDR-5V",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_dasher",
+    "PrefabIdentifier": "chrprfmech_dasherbase-001",
+    "PrefabBase": "dasher",
+    "Tonnage": 20,
+    "InitialTonnage": 2.0,
+    "weightClass": "LIGHT",
+    "BattleValue": 822,
     "Heatsinks": 0,
-    "TopSpeed": 40,
-    "TurnRadius": 50,
+    "TopSpeed": 120,
+    "TurnRadius": 60,
     "MaxJumpjets": 20,
-    "Stability": 200,
+    "Stability": 50,
     "StabilityDefenses": [
         0,
         0,
@@ -37,15 +37,15 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 8,
-    "PunchesWithLeftArm": true,
-    "MeleeDamage": 80,
-    "MeleeInstability": 80,
+    "Radius": 3,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 10,
+    "MeleeInstability": 10,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 20,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 20,
+    "DFAInstability": 20,
     "Locations": [
         {
             "Location": "Head",
@@ -61,78 +61,68 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 16,
-            "MaxArmor": 460,
-            "MaxRearArmor": 160,
-            "InternalStructure": 155
+            "MaxArmor": 50,
+            "MaxRearArmor": 20,
+            "InternalStructure": 30
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 310,
-            "MaxRearArmor": 110,
-            "InternalStructure": 105
+            "MaxArmor": 40,
+            "MaxRearArmor": 20,
+            "InternalStructure": 25
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 310,
-            "MaxRearArmor": 110,
-            "InternalStructure": 105
+            "MaxArmor": 40,
+            "MaxRearArmor": 20,
+            "InternalStructure": 25
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 340,
+            "MaxArmor": 30,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 15
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 340,
+            "MaxArmor": 30,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 15
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 420,
+            "MaxArmor": 40,
             "MaxRearArmor": -1,
-            "InternalStructure": 105
+            "InternalStructure": 20
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 420,
+            "MaxArmor": 40,
             "MaxRearArmor": -1,
-            "InternalStructure": 105
+            "InternalStructure": 20
         }
     ],
     "LOSSourcePositions": [
@@ -149,7 +139,7 @@
             "z": 0
         }
     ],
-    "VariantName": "MAD-II-BH",
+    "VariantName": "FRM-E",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""

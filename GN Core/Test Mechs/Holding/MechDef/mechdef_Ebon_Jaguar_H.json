@@ -24,7 +24,7 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_Ebon_Jaguar_CA",
+    "ChassisID": "chassisdef_Ebon_Jaguar_H",
     "HeraldryID": null,
     "Description": {
         "Cost": 0,
@@ -32,8 +32,8 @@
         "Purchasable": true,
         "Manufacturer": "Unknown",
         "Model": "",
-        "UIName": "Ebon Jaguar A",
-        "Id": "mechdef_Ebon_Jaguar_A",
+        "UIName": "Ebon Jaguar H",
+        "Id": "mechdef_Ebon_Jaguar_H",
         "Name": "Ebon Jaguar",
         "Details": "",
         "Icon": "Ebon Jaguar"
@@ -166,6 +166,27 @@
             "DamageLevel": "Functional"
         },
         {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_DoubleHeatSink_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_kit_dhs_clan",
             "ComponentDefType": "HeatSink",
@@ -181,15 +202,15 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumERLaser_Clan",
+            "ComponentDefID": "Weapon_Laser_MediumPulseLaser_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
-            "ComponentDefType": "AmmunitionBox",
+            "ComponentDefID": "Gear_Cockpit_TargetingComputer_Clan",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
@@ -202,35 +223,21 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeERLaser_Clan",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_Clan",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumPulseLaser_Clan",
+            "ComponentDefID": "Weapon_Laser_LargeHeavyLaser_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeERLaser_Clan",
+            "ComponentDefID": "Weapon_Laser_MediumHeavyLaser_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_Clan",
+            "ComponentDefID": "Weapon_Laser_MediumHeavyLaser_Clan",
             "ComponentDefType": "Weapon",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
