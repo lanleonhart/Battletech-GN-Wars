@@ -7,7 +7,7 @@
         "Model": "",
         "UIName": "Battle Cobra F",
         "Id": "chassisdef_battle_Cobra_F",
-        "Name": "Battle",
+        "Name": "Battle Cobra",
         "Details": "",
         "Icon": "Battlecobra"
     },
@@ -42,8 +42,15 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_armorslots_clan",
+            "ComponentDefID": "Gear_Armor_FerroFibrous_Clan",
             "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_kit_dhs_clan",
+            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
