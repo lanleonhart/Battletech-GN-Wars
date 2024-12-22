@@ -28,13 +28,11 @@
 				}
 			],
 			"UnitTypes" : [
-				{ "UnitType" : "MobileSuit", "Defaults" : [ 
-					{ "Location" : "None", "DefID" : "Gear_Cockpit_SensorsA_Standard"} ] },
-				{ "UnitType" : "MobileSuitHero", "Defaults" : [ 
-					{ "Location" : "None", "DefID" : "Gear_Cockpit_SensorsA_Standard"} ] } ,
-				{ "UnitType" : "Gundam", "Defaults" : [ 
-					{ "Location" : "None", "DefID" : "Gear_Cockpit_SensorsA_Standard"} ] }
-		 ]
+				
+					{ "UnitType" : "MobileSuit", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_CIWS", "Type" : "Upgrade" } ] },
+					{ "UnitType" : "MobileSuitHero", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_CIWS", "Type" : "Upgrade" } ] },
+					{ "UnitType" : "Gundam", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_CIWS", "Type" : "Upgrade" } ] }
+			]
 		},
 		{
 			"CategoryID": "Cockpit",
@@ -46,13 +44,12 @@
 				}
 			],
 			"UnitTypes" : [
-				{ "UnitType" : "MobileSuit", "Defaults" : [ 
-					{ "Location" : "None", "DefID" : "Gear_Cockpit_GenericB_Standard"} ] },
-				{ "UnitType" : "MobileSuitHero", "Defaults" : [ 
-					{ "Location" : "None", "DefID" : "Gear_Cockpit_GenericB_Standard"} ] } ,
-				{ "UnitType" : "Gundam", "Defaults" : [ 
-					{ "Location" : "None", "DefID" : "Gear_Cockpit_GenericB_Standard"} ] }
-		 ]
+				
+					{ "UnitType" : "MobileSuit", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
+					{ "UnitType" : "MobileSuitHero", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
+					{ "UnitType" : "MobileSuitHybrid", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
+				 	{ "UnitType" : "Gundam", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] }
+			]
 		},
 		{
 			"CategoryID": "SensorsB",
@@ -64,12 +61,10 @@
 				}
 			],
 			"UnitTypes" : [
-				{ "UnitType" : "MobileSuit", "Defaults" : [ 
-					{ "Location" : "None", "DefID" : "Gear_Cockpit_SensorsB_Standard"} ] },
-				{ "UnitType" : "MobileSuitHero", "Defaults" : [ 
-					{ "Location" : "None", "DefID" : "Gear_Cockpit_SensorsB_Standard"} ] } ,
-				{ "UnitType" : "Gundam", "Defaults" : [ 
-					{ "Location" : "None", "DefID" : "Gear_Cockpit_SensorsB_Standard"} ] }
+
+				{ "UnitType" : "MobileSuit", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_optical", "Type" : "Upgrade" } ] },
+				{ "UnitType" : "MobileSuitHero", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_optical", "Type" : "Upgrade" } ] },
+				{ "UnitType" : "Gundam", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_optical", "Type" : "Upgrade" } ] }
 		 ]
 		},
 		{
@@ -188,12 +183,15 @@
 				{ "UnitType" : "MobileSuit", "Defaults" : [ 
 					{ "Location" : "LeftLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" } ] },
+				{ "UnitType" : "MobileSuitHybrid", "Defaults" : [ 
+					{ "Location" : "LeftLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" },
+					{ "Location" : "RightLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" } ] },
 				{ "UnitType" : "MobileSuitHero", "Defaults" : [ 
 					{ "Location" : "LeftLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" } ]} ,
-				{ "UnitType" : "MobileSuitHyrbid", "Defaults" : [ 
-					{ "Location" : "LeftLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" },
-					{ "Location" : "RightLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" } ]} ,
+				{ "UnitType" : "MobileSuitHybrid", "Defaults" : [ 
+					{ "Location" : "LeftLeg", "DefID" : "emod_leg_upper_ms", "Type" : "Upgrade" },
+					{ "Location" : "RightLeg", "DefID" : "emod_leg_upper_ms", "Type" : "Upgrade" } ]} ,
 				{ "UnitType" : "Gundam", "Defaults" : [ 
 					{ "Location" : "LeftLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" } ] }
@@ -221,8 +219,8 @@
 					{ "Location" : "LeftLeg", "DefID" : "emod_leg_upper_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightLeg", "DefID" : "emod_leg_upper_ms", "Type" : "Upgrade" } ]} ,
 				{ "UnitType" : "MobileSuitHybrid", "Defaults" : [ 
-					{ "Location" : "LeftLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" },
-					{ "Location" : "RightLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" } ]} ,
+					{ "Location" : "LeftLeg", "DefID" : "emod_leg_upper_ms", "Type" : "Upgrade" },
+					{ "Location" : "RightLeg", "DefID" : "emod_leg_upper_ms", "Type" : "Upgrade" } ]} ,
 				{ "UnitType" : "Gundam", "Defaults" : [ 
 					{ "Location" : "LeftLeg", "DefID" : "emod_leg_upper_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightLeg", "DefID" : "emod_leg_upper_ms", "Type" : "Upgrade" } ] }
@@ -250,8 +248,8 @@
 					{ "Location" : "LeftLeg", "DefID" : "emod_leg_lower_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightLeg", "DefID" : "emod_leg_lower_ms", "Type" : "Upgrade" } ]} ,
 				{ "UnitType" : "MobileSuitHybrid", "Defaults" : [ 
-					{ "Location" : "LeftLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" },
-					{ "Location" : "RightLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" } ]} ,
+					{ "Location" : "LeftLeg", "DefID" : "emod_leg_lower_ms", "Type" : "Upgrade" },
+					{ "Location" : "RightLeg", "DefID" : "emod_leg_lower_ms", "Type" : "Upgrade" } ]} ,
 				{ "UnitType" : "Gundam", "Defaults" : [ 
 					{ "Location" : "LeftLeg", "DefID" : "emod_leg_lower_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightLeg", "DefID" : "emod_leg_lower_ms", "Type" : "Upgrade" } ] }
@@ -278,9 +276,9 @@
 				{ "UnitType" : "MobileSuitHero", "Defaults" : [ 
 					{ "Location" : "LeftLeg", "DefID" : "emod_leg_foot_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightLeg", "DefID" : "emod_leg_foot_ms", "Type" : "Upgrade" } ]} ,
-				{ "UnitType" : "MobileSuitHero", "Defaults" : [ 
-					{ "Location" : "LeftLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" },
-					{ "Location" : "RightLeg", "DefID" : "emod_leg_hip_ms", "Type" : "Upgrade" } ]} ,
+				{ "UnitType" : "MobileSuitHybrid", "Defaults" : [ 
+					{ "Location" : "LeftLeg", "DefID" : "emod_leg_foot_ms", "Type" : "Upgrade" },
+					{ "Location" : "RightLeg", "DefID" : "emod_leg_foot_ms", "Type" : "Upgrade" } ]} ,
 				{ "UnitType" : "Gundam", "Defaults" : [ 
 					{ "Location" : "LeftLeg", "DefID" : "emod_leg_foot_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightLeg", "DefID" : "emod_leg_foot_ms", "Type" : "Upgrade" } ] }
@@ -306,6 +304,9 @@
 					{ "Location" : "LeftArm", "DefID" : "emod_arm_part_shoulder_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightArm", "DefID" : "emod_arm_part_shoulder_ms", "Type" : "Upgrade" } ] },
 				{ "UnitType" : "MobileSuitHero", "Defaults" : [ 
+					{ "Location" : "LeftArm", "DefID" : "emod_arm_part_shoulder_ms", "Type" : "Upgrade" },
+					{ "Location" : "RightArm", "DefID" : "emod_arm_part_shoulder_ms", "Type" : "Upgrade" } ]} ,
+				{ "UnitType" : "MobileSuitHybrid", "Defaults" : [ 
 					{ "Location" : "LeftArm", "DefID" : "emod_arm_part_shoulder_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightArm", "DefID" : "emod_arm_part_shoulder_ms", "Type" : "Upgrade" } ]} ,
 				{ "UnitType" : "Gundam", "Defaults" : [ 
@@ -356,8 +357,8 @@
 					{ "Location" : "LeftArm", "DefID" : "emod_arm_part_lower_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightArm", "DefID" : "emod_arm_part_lower_ms", "Type" : "Upgrade" } ]} ,
 				{ "UnitType" : "MobileSuitHybrid", "Defaults" : [ 
-					{ "Location" : "LeftArm", "DefID" : "emod_arm_part_upper_ms", "Type" : "Upgrade" },
-					{ "Location" : "RightArm", "DefID" : "emod_arm_part_upper_ms", "Type" : "Upgrade" } ]} ,
+					{ "Location" : "LeftArm", "DefID" : "emod_arm_part_lower_ms", "Type" : "Upgrade" },
+					{ "Location" : "RightArm", "DefID" : "emod_arm_part_lower_ms", "Type" : "Upgrade" } ]} ,
 				{ "UnitType" : "Gundam", "Defaults" : [ 
 					{ "Location" : "LeftArm", "DefID" : "emod_arm_part_lower_ms", "Type" : "Upgrade" },
 					{ "Location" : "RightArm", "DefID" : "emod_arm_part_lower_ms", "Type" : "Upgrade" } ] }

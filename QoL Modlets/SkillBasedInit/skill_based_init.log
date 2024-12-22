@@ -1,263 +1,44 @@
-04:26:08.486 ModDir is:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\SkillBasedInit
-04:26:08.487 mod.json settings are:({"Debug":true,"Trace":false,"Icons":{"Stopwatch":"sbi_stopwatch"},"Colors":{"ColorFriendlyUnactivated":[0.231,0.694,0.262,1.0],"ColorFriendlyAlreadyActivated":[0.043,0.4,0.137,1.0],"ColorAlliedUnactivated":[0.521,0.858,0.964,1.0],"ColorAlliedAlreadyActivated":[0.345,0.545,0.682,1.0],"ColorNeutralUnactivated":[0.85,0.866,0.862,1.0],"ColorNeutralAlreadyActivated":[0.466,0.482,0.494,1.0],"ColorEnemyUnactivated":[1.0,0.031,0.0,1.0],"ColorEnemyAlreadyActivated":[0.486,0.039,0.007,1.0]},"Pilot":{"PilotTagModifiers":{"pilot_morale_high":2,"pilot_morale_low":-2,"pilot_reckless":1,"pilot_lucky":1,"pilot_cautious":-1}},"Mech":{"TypeMod":0,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"ProneModifierMax":-9,"ProneModifierMin":-2,"ShutdownModifierMax":-8,"ShutdownModifierMin":-2,"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Trooper":{"TypeMod":0,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"ShutdownModifierMax":-8,"ShutdownModifierMin":-2},"Naval":{"TypeMod":-2,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Vehicle":{"TypeMod":-2,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Turret":{"TypeMod":-6,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"LightTonnage":60.0,"MediumTonnage":80.0,"HeavyTonnage":100.0}})
-04:26:08.489 === MOD CONFIG BEGIN ===
-04:26:08.489   DEBUG:True Trace:False
-04:26:08.489   == Pilot Tag Modifiers
-04:26:08.489     tag:pilot_morale_high modifier:2
-04:26:08.489     tag:pilot_morale_low modifier:-2
-04:26:08.489     tag:pilot_reckless modifier:1
-04:26:08.489     tag:pilot_lucky modifier:1
-04:26:08.489     tag:pilot_cautious modifier:-1
-04:26:08.489 
-04:26:08.489   == MECH ==
-04:26:08.489   TypeMod: 0 DefaultTonnage: 120 CrippledMod (max: -13 min: -5) Hesitation: (max: -6 min: -2)  Prone: (max: -9 min: -2)  Randomness: (max: -10 min: -2)  Shutdown: (max: -8 min: -2)
-04:26:08.489 
-04:26:08.489   == TROOPER ==
-04:26:08.489   TypeMod: 0
-04:26:08.489 
-04:26:08.489   == VEHICLE ==
-04:26:08.489   TypeMod: -2 CrippledMod (max: -13 min: -5)
-04:26:08.489 
-04:26:08.489   == NAVAL ==
-04:26:08.489   TypeMod: -2 CrippledMod (max: -13 min: -5)
-04:26:08.489 
-04:26:08.489   == TURRET ==
-04:26:08.489   TypeMod: -6  Tonnages (Light:60  Medium:80  Heavy:100  Default:120) 
-04:26:08.489 
-04:26:08.489 === MOD CONFIG END ===
-04:26:08.493 Assembly version: 1.0.0
-04:29:47.187 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:29:47.187 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:29:47.188 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:29:47.188 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:47.344 Calculating unit tonnage for mechDef: Dervish
-04:29:47.344 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:29:47.344 Calculating type modifier for mechDef: Dervish
-04:29:47.344 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:47.364 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:29:47.364 Calculating unit tonnage for mechDef: Dervish
-04:29:47.364 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:29:47.364 Calculating type modifier for mechDef: Dervish
-04:29:47.364 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:47.367 For pilot: Lowball with skill: 3  normedMod: 1 + skillMod: 0
-04:29:47.368 Calculating randomness bounds for pilot: Lowball
-04:29:47.368 For pilot: Lowball with skill: 4  normedMod: 2 + skillMod: 0
-04:29:47.368   adjustedBound: 8 = config.RanBoundsMax: 10 - skillMod: 2
-04:29:47.425 Calculating unit tonnage for mechDef: Dervish
-04:29:47.425 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:29:47.425 Calculating type modifier for mechDef: Dervish
-04:29:47.425 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:47.430 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:29:47.430 Calculating unit tonnage for mechDef: Dervish
-04:29:47.430 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:29:47.430 Calculating type modifier for mechDef: Dervish
-04:29:47.430 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:47.431 For pilot: Lowball with skill: 3  normedMod: 1 + skillMod: 0
-04:29:47.431 Calculating randomness bounds for pilot: Lowball
-04:29:47.431 For pilot: Lowball with skill: 4  normedMod: 2 + skillMod: 0
-04:29:47.431   adjustedBound: 8 = config.RanBoundsMax: 10 - skillMod: 2
-04:29:47.442 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:29:47.442 Calculating unit tonnage for mechDef: Dervish
-04:29:47.442 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:29:47.442 Calculating type modifier for mechDef: Dervish
-04:29:47.442 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:47.442 For pilot: Lowball with skill: 3  normedMod: 1 + skillMod: 0
-04:29:47.442 Calculating randomness bounds for pilot: Lowball
-04:29:47.442 For pilot: Lowball with skill: 4  normedMod: 2 + skillMod: 0
-04:29:47.442   adjustedBound: 8 = config.RanBoundsMax: 10 - skillMod: 2
-04:29:47.442 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:29:47.442 Calculating unit tonnage for mechDef: Dervish
-04:29:47.442 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:29:47.442 Calculating type modifier for mechDef: Dervish
-04:29:47.442 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:47.442 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:29:47.442 Calculating randomness bounds for pilot: Magma
-04:29:47.442 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:29:47.442   adjustedBound: 9 = config.RanBoundsMax: 10 - skillMod: 1
-04:29:47.445 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:29:47.445 Calculating unit tonnage for mechDef: Dervish
-04:29:47.445 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:29:47.445 Calculating type modifier for mechDef: Dervish
-04:29:47.445 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:47.445 For pilot: Lowball with skill: 3  normedMod: 1 + skillMod: 0
-04:29:47.445 Calculating randomness bounds for pilot: Lowball
-04:29:47.445 For pilot: Lowball with skill: 4  normedMod: 2 + skillMod: 0
-04:29:47.445   adjustedBound: 8 = config.RanBoundsMax: 10 - skillMod: 2
-04:29:47.445 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:29:47.445 Calculating unit tonnage for mechDef: Dervish
-04:29:47.445 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:29:47.445 Calculating type modifier for mechDef: Dervish
-04:29:47.445 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:47.445 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:29:47.445 Calculating randomness bounds for pilot: Magma
-04:29:47.445 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:29:47.445   adjustedBound: 9 = config.RanBoundsMax: 10 - skillMod: 1
-04:29:49.221 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:29:49.221 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:29:49.221 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:29:49.221 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:51.023 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:29:51.023 Calculating unit tonnage for mechDef: Dervish
-04:29:51.023 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:29:51.023 Calculating type modifier for mechDef: Dervish
-04:29:51.023 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:51.023 For pilot: Lowball with skill: 3  normedMod: 1 + skillMod: 0
-04:29:51.023 Calculating randomness bounds for pilot: Lowball
-04:29:51.024 For pilot: Lowball with skill: 4  normedMod: 2 + skillMod: 0
-04:29:51.024   adjustedBound: 8 = config.RanBoundsMax: 10 - skillMod: 2
-04:29:51.024 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:29:51.024 Calculating unit tonnage for mechDef: Dervish
-04:29:51.024 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:29:51.024 Calculating type modifier for mechDef: Dervish
-04:29:51.024 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:29:51.024 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:29:51.024 Calculating randomness bounds for pilot: Magma
-04:29:51.024 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:29:51.024   adjustedBound: 9 = config.RanBoundsMax: 10 - skillMod: 1
-04:30:02.447 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:30:02.447 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:30:02.447 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:30:02.447 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:02.598 Calculating unit tonnage for mechDef: Dervish
-04:30:02.598 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:02.598 Calculating type modifier for mechDef: Dervish
-04:30:02.598 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:02.614 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:02.614 Calculating unit tonnage for mechDef: Dervish
-04:30:02.614 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:02.614 Calculating type modifier for mechDef: Dervish
-04:30:02.614 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:02.614 For pilot: Lowball with skill: 3  normedMod: 1 + skillMod: 0
-04:30:02.614 Calculating randomness bounds for pilot: Lowball
-04:30:02.614 For pilot: Lowball with skill: 4  normedMod: 2 + skillMod: 0
-04:30:02.615   adjustedBound: 8 = config.RanBoundsMax: 10 - skillMod: 2
-04:30:02.679 Calculating unit tonnage for mechDef: Dervish
-04:30:02.679 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:02.679 Calculating type modifier for mechDef: Dervish
-04:30:02.679 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:02.684 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:02.684 Calculating unit tonnage for mechDef: Dervish
-04:30:02.684 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:02.684 Calculating type modifier for mechDef: Dervish
-04:30:02.684 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:02.684 For pilot: Lowball with skill: 3  normedMod: 1 + skillMod: 0
-04:30:02.684 Calculating randomness bounds for pilot: Lowball
-04:30:02.684 For pilot: Lowball with skill: 4  normedMod: 2 + skillMod: 0
-04:30:02.684   adjustedBound: 8 = config.RanBoundsMax: 10 - skillMod: 2
-04:30:02.695 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:02.695 Calculating unit tonnage for mechDef: Dervish
-04:30:02.695 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:02.695 Calculating type modifier for mechDef: Dervish
-04:30:02.695 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:02.695 For pilot: Lowball with skill: 3  normedMod: 1 + skillMod: 0
-04:30:02.695 Calculating randomness bounds for pilot: Lowball
-04:30:02.695 For pilot: Lowball with skill: 4  normedMod: 2 + skillMod: 0
-04:30:02.695   adjustedBound: 8 = config.RanBoundsMax: 10 - skillMod: 2
-04:30:02.695 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:02.695 Calculating unit tonnage for mechDef: Dervish
-04:30:02.695 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:02.695 Calculating type modifier for mechDef: Dervish
-04:30:02.695 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:02.695 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:30:02.695 Calculating randomness bounds for pilot: Magma
-04:30:02.695 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:30:02.695   adjustedBound: 9 = config.RanBoundsMax: 10 - skillMod: 1
-04:30:02.697 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:02.697 Calculating unit tonnage for mechDef: Dervish
-04:30:02.697 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:02.697 Calculating type modifier for mechDef: Dervish
-04:30:02.697 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:02.697 For pilot: Lowball with skill: 3  normedMod: 1 + skillMod: 0
-04:30:02.697 Calculating randomness bounds for pilot: Lowball
-04:30:02.697 For pilot: Lowball with skill: 4  normedMod: 2 + skillMod: 0
-04:30:02.697   adjustedBound: 8 = config.RanBoundsMax: 10 - skillMod: 2
-04:30:02.697 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:02.697 Calculating unit tonnage for mechDef: Dervish
-04:30:02.697 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:02.697 Calculating type modifier for mechDef: Dervish
-04:30:02.697 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:02.697 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:30:02.697 Calculating randomness bounds for pilot: Magma
-04:30:02.697 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:30:02.697   adjustedBound: 9 = config.RanBoundsMax: 10 - skillMod: 1
-04:30:03.891 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:03.891 Calculating unit tonnage for mechDef: Dervish
-04:30:03.891 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:03.891 Calculating type modifier for mechDef: Dervish
-04:30:03.891 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:03.891 For pilot: Lowball with skill: 3  normedMod: 1 + skillMod: 0
-04:30:03.892 Calculating randomness bounds for pilot: Lowball
-04:30:03.892 For pilot: Lowball with skill: 4  normedMod: 2 + skillMod: 0
-04:30:03.892   adjustedBound: 8 = config.RanBoundsMax: 10 - skillMod: 2
-04:30:03.892 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:03.892 Calculating unit tonnage for mechDef: Dervish
-04:30:03.892 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:03.892 Calculating type modifier for mechDef: Dervish
-04:30:03.892 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:03.892 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:30:03.892 Calculating randomness bounds for pilot: Magma
-04:30:03.892 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:30:03.892   adjustedBound: 9 = config.RanBoundsMax: 10 - skillMod: 1
-04:30:05.497 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:30:05.498 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:30:05.498 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:30:05.498 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:07.509 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:30:07.509 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:30:07.509 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:30:07.509 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:09.004 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:30:09.005 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:30:09.005 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:30:09.005 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:13.968 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:13.968 Calculating unit tonnage for mechDef: Dervish
-04:30:13.968 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:13.968 Calculating type modifier for mechDef: Dervish
-04:30:13.968 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:13.968 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:30:13.968 Calculating randomness bounds for pilot: Magma
-04:30:13.968 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:30:13.968   adjustedBound: 9 = config.RanBoundsMax: 10 - skillMod: 1
-04:30:14.029 Calculating unit tonnage for mechDef: Dervish
-04:30:14.029 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:14.029 Calculating type modifier for mechDef: Dervish
-04:30:14.029 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:14.505 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:14.505 Calculating unit tonnage for mechDef: Dervish
-04:30:14.505 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:14.505 Calculating type modifier for mechDef: Dervish
-04:30:14.505 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:14.506 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:30:14.506 Calculating randomness bounds for pilot: Magma
-04:30:14.506 For pilot: Magma with skill: 2  normedMod: 1 + skillMod: 0
-04:30:14.506   adjustedBound: 9 = config.RanBoundsMax: 10 - skillMod: 1
-04:30:15.682 Calculating unit tonnage for mechDef: Dervish
-04:30:15.682 Using initPhase: 14 => baseInit: 17 for mechDef: Dervish with tonnage: 55
-04:30:15.682 Calculating type modifier for mechDef: Dervish
-04:30:15.682 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:17.057 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:30:17.057 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:30:17.057 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:30:17.057 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:18.868 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:30:18.868 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:30:18.868 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:30:18.868 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:20.728 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:30:20.728 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:30:20.728 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:30:20.728 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:22.595 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:30:22.595 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:30:22.595 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:30:22.595 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:35.868 Building init data for mechdef: uixPrfPanl_LC_MechSlot(Clone) with pilot: uixPrfPanl_SIM_mechWarriorSlot-Element(Clone)
-04:30:35.868 Calculating unit tonnage for mechDef: 0 Gundam Full Armor
-04:30:35.868 Using initPhase: 12 => baseInit: 19 for mechDef: 0 Gundam Full Armor with tonnage: 75
-04:30:35.868 Calculating type modifier for mechDef: 0 Gundam Full Armor
-04:30:35.868 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-04:30:35.868 For pilot: Indrahim with skill: 3  normedMod: 1 + skillMod: 0
-04:30:35.868 Calculating randomness bounds for pilot: Indrahim
-04:30:35.868 For pilot: Indrahim with skill: 3  normedMod: 1 + skillMod: 0
-04:30:35.868   adjustedBound: 9 = config.RanBoundsMax: 10 - skillMod: 1
+22:47:00.142 ModDir is:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\SkillBasedInit
+22:47:00.142 mod.json settings are:({"Debug":true,"Trace":false,"Icons":{"Stopwatch":"sbi_stopwatch"},"Colors":{"ColorFriendlyUnactivated":[0.231,0.694,0.262,1.0],"ColorFriendlyAlreadyActivated":[0.043,0.4,0.137,1.0],"ColorAlliedUnactivated":[0.521,0.858,0.964,1.0],"ColorAlliedAlreadyActivated":[0.345,0.545,0.682,1.0],"ColorNeutralUnactivated":[0.85,0.866,0.862,1.0],"ColorNeutralAlreadyActivated":[0.466,0.482,0.494,1.0],"ColorEnemyUnactivated":[1.0,0.031,0.0,1.0],"ColorEnemyAlreadyActivated":[0.486,0.039,0.007,1.0]},"Pilot":{"PilotTagModifiers":{"pilot_morale_high":2,"pilot_morale_low":-2,"pilot_reckless":1,"pilot_lucky":1,"pilot_cautious":-1}},"Mech":{"TypeMod":0,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"ProneModifierMax":-9,"ProneModifierMin":-2,"ShutdownModifierMax":-8,"ShutdownModifierMin":-2,"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Trooper":{"TypeMod":0,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"ShutdownModifierMax":-8,"ShutdownModifierMin":-2},"Naval":{"TypeMod":-2,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Vehicle":{"TypeMod":-2,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Turret":{"TypeMod":-6,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"LightTonnage":60.0,"MediumTonnage":80.0,"HeavyTonnage":100.0}})
+22:47:00.144 === MOD CONFIG BEGIN ===
+22:47:00.144   DEBUG:True Trace:False
+22:47:00.144   == Pilot Tag Modifiers
+22:47:00.144     tag:pilot_morale_high modifier:2
+22:47:00.144     tag:pilot_morale_low modifier:-2
+22:47:00.144     tag:pilot_reckless modifier:1
+22:47:00.144     tag:pilot_lucky modifier:1
+22:47:00.144     tag:pilot_cautious modifier:-1
+22:47:00.144 
+22:47:00.144   == MECH ==
+22:47:00.144   TypeMod: 0 DefaultTonnage: 120 CrippledMod (max: -13 min: -5) Hesitation: (max: -6 min: -2)  Prone: (max: -9 min: -2)  Randomness: (max: -10 min: -2)  Shutdown: (max: -8 min: -2)
+22:47:00.144 
+22:47:00.144   == TROOPER ==
+22:47:00.144   TypeMod: 0
+22:47:00.145 
+22:47:00.145   == VEHICLE ==
+22:47:00.145   TypeMod: -2 CrippledMod (max: -13 min: -5)
+22:47:00.145 
+22:47:00.145   == NAVAL ==
+22:47:00.145   TypeMod: -2 CrippledMod (max: -13 min: -5)
+22:47:00.145 
+22:47:00.145   == TURRET ==
+22:47:00.145   TypeMod: -6  Tonnages (Light:60  Medium:80  Heavy:100  Default:120) 
+22:47:00.145 
+22:47:00.145 === MOD CONFIG END ===
+22:47:00.149 Assembly version: 1.0.0
+22:49:19.261 Calculating unit tonnage for mechDef: Atlas
+22:49:19.261 Using initPhase: 9 => baseInit: 22 for mechDef: Atlas with tonnage: 100
+22:49:19.261 Calculating type modifier for mechDef: Atlas
+22:49:19.261 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+22:49:21.731 Calculating unit tonnage for mechDef: Fafnir
+22:49:21.731 Using initPhase: 9 => baseInit: 22 for mechDef: Fafnir with tonnage: 100
+22:49:21.731 Calculating type modifier for mechDef: Fafnir
+22:49:21.731 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+22:49:23.301 Calculating unit tonnage for mechDef: Fafnir
+22:49:23.302 Using initPhase: 9 => baseInit: 22 for mechDef: Fafnir with tonnage: 100
+22:49:23.302 Calculating type modifier for mechDef: Fafnir
+22:49:23.302 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+22:49:24.259 Calculating unit tonnage for mechDef: Fafnir
+22:49:24.259 Using initPhase: 9 => baseInit: 22 for mechDef: Fafnir with tonnage: 100
+22:49:24.259 Calculating type modifier for mechDef: Fafnir
+22:49:24.259 Mechdef GetTypeMod fallthrough, returning mech typeMod.

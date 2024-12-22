@@ -175,7 +175,17 @@
 		"SensorsBSlotChange": null,
 		"LegUpgradesCategorizer": null,
 		"LegUpgradesSlotChange": null,
-		"ChassisDefSlotsChanges": null,
+		"ChassisDefSlotsChanges": [            
+			{
+			"Location" : "CenterTorso",
+			"Change" : {
+				"From" : 8,
+				"By" : 8,
+				"FromIsMin" : false,
+				"NewMin" : 16
+			}
+		}
+	],
 		"ChassisDefInitialTonnage": true,
 		"ChassisDefInitialToTotalTonnageFactor": 0.1,
 		"ChassisDefMaxJumpjets": false,
@@ -295,7 +305,7 @@
 		"JumpJetDefaultJumpHeatDescription": "The heat the jump jet produces when fully* used (* jumping below max distance reduces produced heat). Can be adjusted using the JumpHeat statistic.",
 		"RunMultiplierDescription": "How much faster running is than walking.",
 		"EngineRatingForChassisMovementStatDescription": "The engine rating to use when evaluating the movement stat of a mech.",
-		"AllowMountingAllRatings": false,
+		"AllowMountingAllRatings": true,
 		"AllowMountingAllRatingsDescription": "Allow mounting all fusion core rating regardless of min/max sprint factors.",
 		"MinimumHeatSinksOnMech": 10,
 		"MinimumHeatSinksOnMechDescription": "Minimum heatsinks a mech requires.",

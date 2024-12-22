@@ -9,7 +9,9 @@
 					"Location": "Head"
 				}
 			],
+			
 			"UnitTypes" : [
+				{ "UnitType" : "Mech", "Defaults" : [ { "Location" : "Head", "DefID" : "Gear_Cockpit_LifeSupportA_Standard", "Type" : "Upgrade" } ] },
 				{ "UnitType" : "MobileSuit", "Defaults" : [ 
 					{ "Location" : "None", "DefID" : "Gear_Cockpit_LifeSupportA_Standard"} ] },
 				{ "UnitType" : "MobileSuitHero", "Defaults" : [ 
@@ -28,7 +30,7 @@
 				}
 			],
 			"UnitTypes" : [
-				
+				    { "UnitType" : "Mech", "Defaults" : [ { "Location" : "Head", "DefID" : "Gear_Cockpit_SensorsA_Standard", "Type" : "Upgrade" } ] },
 					{ "UnitType" : "MobileSuit", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_CIWS", "Type" : "Upgrade" } ] },
 					{ "UnitType" : "MobileSuitHero", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_CIWS", "Type" : "Upgrade" } ] },
 					{ "UnitType" : "Gundam", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_CIWS", "Type" : "Upgrade" } ] }
@@ -45,7 +47,8 @@
 			],
 			"UnitTypes" : [
 				
-					{ "UnitType" : "MobileSuit", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
+				    { "UnitType" : "Mech", "Defaults" : [ { "Location" : "Head", "DefID" : "Gear_Cockpit_Generic_Standard", "Type" : "Upgrade" } ] },	
+				    { "UnitType" : "MobileSuit", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
 					{ "UnitType" : "MobileSuitHero", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
 					{ "UnitType" : "MobileSuitHybrid", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] },
 				 	{ "UnitType" : "Gundam", "Defaults" : [ { "Location" : "CenterTorso", "DefID" : "Gear_Cockpit_ms", "Type" : "Upgrade" } ] }
@@ -61,7 +64,7 @@
 				}
 			],
 			"UnitTypes" : [
-
+				{ "UnitType" : "Mech", "Defaults" : [ { "Location" : "Head", "DefID" : "Gear_Cockpit_SensorsB_Standard", "Type" : "Upgrade" } ] },
 				{ "UnitType" : "MobileSuit", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_optical", "Type" : "Upgrade" } ] },
 				{ "UnitType" : "MobileSuitHero", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_optical", "Type" : "Upgrade" } ] },
 				{ "UnitType" : "Gundam", "Defaults" : [ { "Location" : "Head", "DefID" : "emod_head_part_optical", "Type" : "Upgrade" } ] }
@@ -77,6 +80,7 @@
 				}
 			],
 			"UnitTypes" : [
+				{ "UnitType" : "Mech", "Defaults" : [ { "Location" : "Head", "DefID" : "Gear_Cockpit_LifeSupportB_Standard", "Type" : "Upgrade" } ] },
 				{ "UnitType" : "MobileSuit", "Defaults" : [ 
 					{ "Location" : "None", "DefID" : "Gear_Cockpit_LifeSupportB_Standard"} ] },
 				{ "UnitType" : "MobileSuitHero", "Defaults" : [ 
@@ -115,16 +119,6 @@
 				}
 			]
 		},
-        {
-            "CategoryID": "Quirk",
-            "Defaults": [
-                {
-                    "Type": "Upgrade",
-                    "DefID": "Gear_Quirk_placeholder",
-                    "Location": "CenterTorso"
-                }
-            ]
-        },
 		{
 			"CategoryID": "Gyro",
 			"Defaults": [
