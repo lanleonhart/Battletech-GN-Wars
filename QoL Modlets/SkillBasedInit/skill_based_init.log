@@ -1,44 +1,144 @@
-22:47:00.142 ModDir is:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\QoL Modlets\SkillBasedInit
-22:47:00.142 mod.json settings are:({"Debug":true,"Trace":false,"Icons":{"Stopwatch":"sbi_stopwatch"},"Colors":{"ColorFriendlyUnactivated":[0.231,0.694,0.262,1.0],"ColorFriendlyAlreadyActivated":[0.043,0.4,0.137,1.0],"ColorAlliedUnactivated":[0.521,0.858,0.964,1.0],"ColorAlliedAlreadyActivated":[0.345,0.545,0.682,1.0],"ColorNeutralUnactivated":[0.85,0.866,0.862,1.0],"ColorNeutralAlreadyActivated":[0.466,0.482,0.494,1.0],"ColorEnemyUnactivated":[1.0,0.031,0.0,1.0],"ColorEnemyAlreadyActivated":[0.486,0.039,0.007,1.0]},"Pilot":{"PilotTagModifiers":{"pilot_morale_high":2,"pilot_morale_low":-2,"pilot_reckless":1,"pilot_lucky":1,"pilot_cautious":-1}},"Mech":{"TypeMod":0,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"ProneModifierMax":-9,"ProneModifierMin":-2,"ShutdownModifierMax":-8,"ShutdownModifierMin":-2,"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Trooper":{"TypeMod":0,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"ShutdownModifierMax":-8,"ShutdownModifierMin":-2},"Naval":{"TypeMod":-2,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Vehicle":{"TypeMod":-2,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Turret":{"TypeMod":-6,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"LightTonnage":60.0,"MediumTonnage":80.0,"HeavyTonnage":100.0}})
-22:47:00.144 === MOD CONFIG BEGIN ===
-22:47:00.144   DEBUG:True Trace:False
-22:47:00.144   == Pilot Tag Modifiers
-22:47:00.144     tag:pilot_morale_high modifier:2
-22:47:00.144     tag:pilot_morale_low modifier:-2
-22:47:00.144     tag:pilot_reckless modifier:1
-22:47:00.144     tag:pilot_lucky modifier:1
-22:47:00.144     tag:pilot_cautious modifier:-1
-22:47:00.144 
-22:47:00.144   == MECH ==
-22:47:00.144   TypeMod: 0 DefaultTonnage: 120 CrippledMod (max: -13 min: -5) Hesitation: (max: -6 min: -2)  Prone: (max: -9 min: -2)  Randomness: (max: -10 min: -2)  Shutdown: (max: -8 min: -2)
-22:47:00.144 
-22:47:00.144   == TROOPER ==
-22:47:00.144   TypeMod: 0
-22:47:00.145 
-22:47:00.145   == VEHICLE ==
-22:47:00.145   TypeMod: -2 CrippledMod (max: -13 min: -5)
-22:47:00.145 
-22:47:00.145   == NAVAL ==
-22:47:00.145   TypeMod: -2 CrippledMod (max: -13 min: -5)
-22:47:00.145 
-22:47:00.145   == TURRET ==
-22:47:00.145   TypeMod: -6  Tonnages (Light:60  Medium:80  Heavy:100  Default:120) 
-22:47:00.145 
-22:47:00.145 === MOD CONFIG END ===
-22:47:00.149 Assembly version: 1.0.0
-22:49:19.261 Calculating unit tonnage for mechDef: Atlas
-22:49:19.261 Using initPhase: 9 => baseInit: 22 for mechDef: Atlas with tonnage: 100
-22:49:19.261 Calculating type modifier for mechDef: Atlas
-22:49:19.261 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-22:49:21.731 Calculating unit tonnage for mechDef: Fafnir
-22:49:21.731 Using initPhase: 9 => baseInit: 22 for mechDef: Fafnir with tonnage: 100
-22:49:21.731 Calculating type modifier for mechDef: Fafnir
-22:49:21.731 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-22:49:23.301 Calculating unit tonnage for mechDef: Fafnir
-22:49:23.302 Using initPhase: 9 => baseInit: 22 for mechDef: Fafnir with tonnage: 100
-22:49:23.302 Calculating type modifier for mechDef: Fafnir
-22:49:23.302 Mechdef GetTypeMod fallthrough, returning mech typeMod.
-22:49:24.259 Calculating unit tonnage for mechDef: Fafnir
-22:49:24.259 Using initPhase: 9 => baseInit: 22 for mechDef: Fafnir with tonnage: 100
-22:49:24.259 Calculating type modifier for mechDef: Fafnir
-22:49:24.259 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:32:33.781 ModDir is:D:\Steam\steamapps\common\BATTLETECH\Mods\QoL Modlets\SkillBasedInit
+02:32:33.782 mod.json settings are:({"Debug":true,"Trace":false,"Icons":{"Stopwatch":"sbi_stopwatch"},"Colors":{"ColorFriendlyUnactivated":[0.231,0.694,0.262,1.0],"ColorFriendlyAlreadyActivated":[0.043,0.4,0.137,1.0],"ColorAlliedUnactivated":[0.521,0.858,0.964,1.0],"ColorAlliedAlreadyActivated":[0.345,0.545,0.682,1.0],"ColorNeutralUnactivated":[0.85,0.866,0.862,1.0],"ColorNeutralAlreadyActivated":[0.466,0.482,0.494,1.0],"ColorEnemyUnactivated":[1.0,0.031,0.0,1.0],"ColorEnemyAlreadyActivated":[0.486,0.039,0.007,1.0]},"Pilot":{"PilotTagModifiers":{"pilot_morale_high":2,"pilot_morale_low":-2,"pilot_reckless":1,"pilot_lucky":1,"pilot_cautious":-1}},"Mech":{"TypeMod":0,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"ProneModifierMax":-9,"ProneModifierMin":-2,"ShutdownModifierMax":-8,"ShutdownModifierMin":-2,"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Trooper":{"TypeMod":0,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"ShutdownModifierMax":-8,"ShutdownModifierMin":-2},"Naval":{"TypeMod":-2,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Vehicle":{"TypeMod":-2,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Turret":{"TypeMod":-6,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"LightTonnage":60.0,"MediumTonnage":80.0,"HeavyTonnage":100.0}})
+02:32:33.783 === MOD CONFIG BEGIN ===
+02:32:33.783   DEBUG:True Trace:False
+02:32:33.783   == Pilot Tag Modifiers
+02:32:33.783     tag:pilot_morale_high modifier:2
+02:32:33.783     tag:pilot_morale_low modifier:-2
+02:32:33.783     tag:pilot_reckless modifier:1
+02:32:33.783     tag:pilot_lucky modifier:1
+02:32:33.783     tag:pilot_cautious modifier:-1
+02:32:33.783 
+02:32:33.783   == MECH ==
+02:32:33.783   TypeMod: 0 DefaultTonnage: 120 CrippledMod (max: -13 min: -5) Hesitation: (max: -6 min: -2)  Prone: (max: -9 min: -2)  Randomness: (max: -10 min: -2)  Shutdown: (max: -8 min: -2)
+02:32:33.783 
+02:32:33.783   == TROOPER ==
+02:32:33.783   TypeMod: 0
+02:32:33.783 
+02:32:33.783   == VEHICLE ==
+02:32:33.783   TypeMod: -2 CrippledMod (max: -13 min: -5)
+02:32:33.783 
+02:32:33.783   == NAVAL ==
+02:32:33.783   TypeMod: -2 CrippledMod (max: -13 min: -5)
+02:32:33.783 
+02:32:33.783   == TURRET ==
+02:32:33.783   TypeMod: -6  Tonnages (Light:60  Medium:80  Heavy:100  Default:120) 
+02:32:33.783 
+02:32:33.783 === MOD CONFIG END ===
+02:32:33.787 Assembly version: 1.0.0
+02:34:55.151 Calculating unit tonnage for mechDef: Javelin
+02:34:55.151 Using initPhase: 17 => baseInit: 14 for mechDef: Javelin with tonnage: 30
+02:34:55.151 Calculating type modifier for mechDef: Javelin
+02:34:55.151 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:37:04.798 Calculating unit tonnage for mechDef: Javelin
+02:37:04.798 Using initPhase: 17 => baseInit: 14 for mechDef: Javelin with tonnage: 30
+02:37:04.798 Calculating type modifier for mechDef: Javelin
+02:37:04.798 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:37:06.060 Calculating unit tonnage for mechDef: Raven
+02:37:06.060 Using initPhase: 16 => baseInit: 15 for mechDef: Raven with tonnage: 35
+02:37:06.060 Calculating type modifier for mechDef: Raven
+02:37:06.060 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:38:28.355 Calculating unit tonnage for mechDef: Raven
+02:38:28.355 Using initPhase: 16 => baseInit: 15 for mechDef: Raven with tonnage: 35
+02:38:28.356 Calculating type modifier for mechDef: Raven
+02:38:28.356 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:38:38.767 Calculating unit tonnage for mechDef: Shadow Hawk
+02:38:38.767 Using initPhase: 14 => baseInit: 17 for mechDef: Shadow Hawk with tonnage: 55
+02:38:38.767 Calculating type modifier for mechDef: Shadow Hawk
+02:38:38.767 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:39:53.863 Calculating unit tonnage for mechDef: Shadow Hawk
+02:39:53.863 Using initPhase: 14 => baseInit: 17 for mechDef: Shadow Hawk with tonnage: 55
+02:39:53.863 Calculating type modifier for mechDef: Shadow Hawk
+02:39:53.863 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:39:58.736 Calculating unit tonnage for mechDef: Shadow Hawk
+02:39:58.736 Using initPhase: 14 => baseInit: 17 for mechDef: Shadow Hawk with tonnage: 55
+02:39:58.736 Calculating type modifier for mechDef: Shadow Hawk
+02:39:58.736 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:39:59.266 Calculating unit tonnage for mechDef: Wolverine
+02:39:59.266 Using initPhase: 14 => baseInit: 17 for mechDef: Wolverine with tonnage: 55
+02:39:59.266 Calculating type modifier for mechDef: Wolverine
+02:39:59.266 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:39:59.986 Calculating unit tonnage for mechDef: Wolverine
+02:39:59.986 Using initPhase: 14 => baseInit: 17 for mechDef: Wolverine with tonnage: 55
+02:39:59.986 Calculating type modifier for mechDef: Wolverine
+02:39:59.986 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:40:00.436 Calculating unit tonnage for mechDef: Crab
+02:40:00.436 Using initPhase: 15 => baseInit: 16 for mechDef: Crab with tonnage: 50
+02:40:00.436 Calculating type modifier for mechDef: Crab
+02:40:00.436 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:40:00.874 Calculating unit tonnage for mechDef: Centurion
+02:40:00.874 Using initPhase: 15 => baseInit: 16 for mechDef: Centurion with tonnage: 50
+02:40:00.874 Calculating type modifier for mechDef: Centurion
+02:40:00.874 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:40:01.314 Calculating unit tonnage for mechDef: Rhythm Nation
+02:40:01.314 Using initPhase: 15 => baseInit: 16 for mechDef: Rhythm Nation with tonnage: 50
+02:40:01.314 Calculating type modifier for mechDef: Rhythm Nation
+02:40:01.314 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:40:01.718 Calculating unit tonnage for mechDef: Centurion
+02:40:01.718 Using initPhase: 15 => baseInit: 16 for mechDef: Centurion with tonnage: 50
+02:40:01.718 Calculating type modifier for mechDef: Centurion
+02:40:01.718 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:40:02.086 Calculating unit tonnage for mechDef: Albion
+02:40:02.086 Using initPhase: 15 => baseInit: 16 for mechDef: Albion with tonnage: 50
+02:40:02.086 Calculating type modifier for mechDef: Albion
+02:40:02.086 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:40:02.571 Calculating unit tonnage for mechDef: Royal Crab
+02:40:02.571 Using initPhase: 15 => baseInit: 16 for mechDef: Royal Crab with tonnage: 50
+02:40:02.571 Calculating type modifier for mechDef: Royal Crab
+02:40:02.571 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:40:03.226 Calculating unit tonnage for mechDef: Enforcer
+02:40:03.226 Using initPhase: 15 => baseInit: 16 for mechDef: Enforcer with tonnage: 50
+02:40:03.226 Calculating type modifier for mechDef: Enforcer
+02:40:03.226 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:40:03.759 Calculating unit tonnage for mechDef: Enforcer
+02:40:03.759 Using initPhase: 15 => baseInit: 16 for mechDef: Enforcer with tonnage: 50
+02:40:03.759 Calculating type modifier for mechDef: Enforcer
+02:40:03.759 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:40:04.490 Calculating unit tonnage for mechDef: Hunchback
+02:40:04.490 Using initPhase: 15 => baseInit: 16 for mechDef: Hunchback with tonnage: 50
+02:40:04.490 Calculating type modifier for mechDef: Hunchback
+02:40:04.490 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:40:05.054 Calculating unit tonnage for mechDef: Hunchback
+02:40:05.054 Using initPhase: 15 => baseInit: 16 for mechDef: Hunchback with tonnage: 50
+02:40:05.054 Calculating type modifier for mechDef: Hunchback
+02:40:05.054 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:42:32.793 Calculating unit tonnage for mechDef: Assassin
+02:42:32.793 Using initPhase: 16 => baseInit: 15 for mechDef: Assassin with tonnage: 40
+02:42:32.793 Calculating type modifier for mechDef: Assassin
+02:42:32.793 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:43:09.422 Calculating unit tonnage for mechDef: Assassin
+02:43:09.422 Using initPhase: 16 => baseInit: 15 for mechDef: Assassin with tonnage: 40
+02:43:09.422 Calculating type modifier for mechDef: Assassin
+02:43:09.422 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:43:19.076 Calculating unit tonnage for mechDef: Cauldron-Born
+02:43:19.076 Using initPhase: 13 => baseInit: 18 for mechDef: Cauldron-Born with tonnage: 65
+02:43:19.076 Calculating type modifier for mechDef: Cauldron-Born
+02:43:19.076 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:43:36.003 Calculating unit tonnage for mechDef: Cauldron-Born
+02:43:36.003 Using initPhase: 13 => baseInit: 18 for mechDef: Cauldron-Born with tonnage: 65
+02:43:36.003 Calculating type modifier for mechDef: Cauldron-Born
+02:43:36.003 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:43:40.351 Calculating unit tonnage for mechDef: Awesome Dragon
+02:43:40.351 Using initPhase: 14 => baseInit: 17 for mechDef: Awesome Dragon with tonnage: 60
+02:43:40.351 Calculating type modifier for mechDef: Awesome Dragon
+02:43:40.351 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:44:09.963 Calculating unit tonnage for mechDef: Awesome Dragon
+02:44:09.963 Using initPhase: 14 => baseInit: 17 for mechDef: Awesome Dragon with tonnage: 60
+02:44:09.963 Calculating type modifier for mechDef: Awesome Dragon
+02:44:09.963 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:44:12.215 Calculating unit tonnage for mechDef: Rifleman
+02:44:12.215 Using initPhase: 14 => baseInit: 17 for mechDef: Rifleman with tonnage: 60
+02:44:12.215 Calculating type modifier for mechDef: Rifleman
+02:44:12.215 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:45:21.106 Calculating unit tonnage for mechDef: Rifleman
+02:45:21.106 Using initPhase: 14 => baseInit: 17 for mechDef: Rifleman with tonnage: 60
+02:45:21.106 Calculating type modifier for mechDef: Rifleman
+02:45:21.106 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:45:25.936 Calculating unit tonnage for mechDef: Royal Marauder
+02:45:25.936 Using initPhase: 12 => baseInit: 19 for mechDef: Royal Marauder with tonnage: 75
+02:45:25.936 Calculating type modifier for mechDef: Royal Marauder
+02:45:25.936 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+02:45:35.614 Calculating unit tonnage for mechDef: Royal Marauder
+02:45:35.614 Using initPhase: 12 => baseInit: 19 for mechDef: Royal Marauder with tonnage: 75
+02:45:35.614 Calculating type modifier for mechDef: Royal Marauder
+02:45:35.614 Mechdef GetTypeMod fallthrough, returning mech typeMod.

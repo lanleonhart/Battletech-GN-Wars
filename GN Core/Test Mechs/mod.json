@@ -3,28 +3,32 @@
 	"Enabled": true,
 	"Hidden": false,
 	"Version": "1.0",
-    "CustomResourceTypes": [
-        
-
-    ],
-
-
-        "Manifest": [
-     
-           
-    {
-            "Type": "ChassisDef",
-            "Path": "ChassisDef"
-        },
-        {
-            "Type": "MechDef",
-            "Path": "MechDef"
-        }
-      
-        
-    ],
-    "DependsOn": [
-
-     
-    ]
+	"CustomResourceTypes": [],
+	"Manifest": [
+		{
+			"Type": "ChassisDef",
+			"Path": "ChassisDef"
+		},
+		{
+			"Type": "MechDef",
+			"Path": "MechDef"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "ClanOmniMech/Chassis"
+		},
+		{
+			"Type": "MechDef",
+			"Path": "ClanOmniMech/Mech"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "ISOmniMechs/Chassis"
+		},
+		{
+			"Type": "MechDef",
+			"Path": "ISOmniMechs/Mech"
+		}		
+	],
+	"DependsOn": []
 }
