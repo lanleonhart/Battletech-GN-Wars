@@ -1,10 +1,4 @@
 {
-    "ShowLoadingScreenErrors": true,
-    "ShowErrorPopup": true,
-    "UseErrorWhiteList": true,
-    "ErrorWhitelist": [
-        "Data.DataManager [ERROR] ManifestEntry is null"
-    ],
     "SearchModsInSubDirectories": true,
     "ImplicitManifestShouldMergeJSON": true,
     "ImplicitManifestShouldAppendText": false,
@@ -14,6 +8,7 @@
     "DataManagerEverSpinnyDetectionTimespan": 30.0,
     "DelayPrewarmToMainMenu": true,
     "ShowDataManagerStatsInLoadingCurtain": true,
+    "ProfilerEnabled": false,
     "BlockedMods": [
         "FYLS"
     ],
@@ -22,83 +17,45 @@
     ],
     "MinimalLastConfig": true,
     "Logging": {
+        "DebugLogDumpServerListen": "",
         "LogUncaughtExceptions": true,
         "LogExceptionInitializations": false,
         "LogSqlQueryInitializations": false,
+        "LogSqlQueryExecutionsFromDapper": false,
         "LogThreadStarts": false,
         "LogStackTraces": false,
         "LogStackTracesOnExceptions": true,
-        "OverrideLoggerLevels": {
-            "UnityLoggerName": "Debug",
-            "Debugger": "Debug",
-            "AppDomain": "Debug",
-            "ModTek": 200
-        },
-        "IgnoreLoggerLogLevel": false,
         "DebugLogLevelSetters": false,
-        "SkipOriginalLoggers": true,
-        "IgnoreSkipForLoggers": [],
         "UnityConsoleAppenderEnabled": false,
+        "ModLogAppendersEnabled": true,
         "UnityConsoleAppender": {
             "LogRotationCount": 1,
-            "IndentNewLines": true,
-            "NormalizeNewLines": true,
-            "MessageSanitizerRegex": "[\\p{C}-[\\r\\n\\t]]+",
             "AbsoluteTimeEnabled": false,
             "AbsoluteTimeUseUtc": true,
-            "AbsoluteFormat": "HH:mm:ss.fffffff",
-            "StartupTimeEnabled": false,
-            "StartupTimeFormat": "hh':'mm':'ss'.'fffffff"
+            "StartupTimeEnabled": false
         },
         "AsynchronousLoggingEnabled": true,
+        "LogFlushToDisk": true,
         "MainLog": {
             "LogRotationCount": 1,
-            "Excludes": [
-                {
-                    "LoggerNames": [
-                        "ModTek"
-                    ]
-                }
-            ],
-            "IndentNewLines": true,
-            "NormalizeNewLines": true,
-            "MessageSanitizerRegex": "[\\p{C}-[\\r\\n\\t]]+",
             "AbsoluteTimeEnabled": true,
-            "AbsoluteTimeUseUtc": false,
-            "AbsoluteFormat": "HH:mm:ss.fffffff",
-            "StartupTimeEnabled": false,
-            "StartupTimeFormat": "hh':'mm':'ss'.'fffffff"
+            "AbsoluteTimeUseUtc": true,
+            "StartupTimeEnabled": false
         },
         "MainLogFilePath": "battletech_log.txt",
         "Logs": {
             "ModTek.log": {
                 "LogRotationCount": 1,
-                "Includes": [
-                    {
-                        "LoggerNames": [
-                            "ModTek"
-                        ]
-                    }
+                "Include": [
+                    "ModTek"
                 ],
-                "IndentNewLines": true,
-                "NormalizeNewLines": true,
-                "MessageSanitizerRegex": "[\\p{C}-[\\r\\n\\t]]+",
                 "AbsoluteTimeEnabled": true,
                 "AbsoluteTimeUseUtc": true,
-                "AbsoluteFormat": "HH:mm:ss.fffffff",
-                "StartupTimeEnabled": false,
-                "StartupTimeFormat": "hh':'mm':'ss'.'fffffff"
+                "StartupTimeEnabled": false
             },
             "battletech_log_cleaned.txt": {
                 "LogRotationCount": 1,
-                "Excludes": [
-                    {
-                        "LoggerNames": [
-                            "ModTek"
-                        ]
-                    }
-                ],
-                "PrefixesToIgnore": [
+                "Exclude": [
                     "ModTek",
                     "Unity [ERROR] Desired shader compiler platform",
                     "Unity [LOG] Look rotation viewing vector is zero",
@@ -144,24 +101,31 @@
                     "CustomComponents [DEBUG] [CC]Mech validation for NULL return",
                     "CustomComponents [DEBUG] [CC]-- CustomComponents.Flags",
                     "CustomComponents [DEBUG] [CC]-- CustomComponents.AutoLinked",
+                    "CustomComponents.UnitType [DEBUG]",
                     "Data.DataManager [WARNING] LoadRequest for",
-                    "LewdableTanks [DEBUG] [LTMod]Fixing cost of",
+                    "LewdableTanks [DEBUG] Fixing cost of",
                     "CombatLog.Initialization [ERROR] Error instantiating VFX",
                     "PilotDef [WARNING] PilotDef already did Init From Save!",
                     "Achievements [LOG]",
                     "DataLoader [DEBUG] Loading:",
                     "Save.Core.SaveSystem [DEBUG]",
                     "Unity [ERROR] Generating SIM GAME UID while still loading!",
-                    "Unity [WARNING] HBS Tooltip on UI Element"
+                    "Unity [WARNING] HBS Tooltip on UI Element",
+                    "HarmonyX [TRACE]",
+                    "HarmonyX [LOG]",
+                    "Unity [ERROR] RenderTexture.Create failed: format unsupported for random writes",
+                    "Unity [WARNING] HBS Tooltip on UI Element",
+                    "Unity [ERROR] LanceStat.SetValue had invalid Max value!",
+                    "Unity [WARNING] No DefaultCombatLeaderCastDefId specified for faction",
+                    "<mod> [WARNING] 22:35:53.160  <mod>",
+                    "Unity [ERROR] A scripted object (probably VersionTrackingBreadcrumb?)",
+                    "Unity [WARNING] TerrainCollider: MeshCollider",
+                    "EncounterLogic [ERROR] PROBLEM - Can't find [Spawner_PlayerLance.Unit",
+                    "EncounterLogic [LOG] Avoids a conflicting chunk's objectives"
                 ],
-                "IndentNewLines": true,
-                "NormalizeNewLines": true,
-                "MessageSanitizerRegex": "[\\p{C}-[\\r\\n\\t]]+",
                 "AbsoluteTimeEnabled": true,
-                "AbsoluteTimeUseUtc": false,
-                "AbsoluteFormat": "HH:mm:ss.fffffff",
-                "StartupTimeEnabled": false,
-                "StartupTimeFormat": "hh':'mm':'ss'.'fffffff"
+                "AbsoluteTimeUseUtc": true,
+                "StartupTimeEnabled": false
             }
         }
     }

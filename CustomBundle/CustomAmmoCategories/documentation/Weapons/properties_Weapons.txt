@@ -1,3 +1,9 @@
+@Name:_UIName
+@Type:string
+@AppliedTo:WeaponMode
+@Default:empty
+@Description:not documented yet
+
 @Name:AccuracyModifier
 @Type:float
 @AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponMode
@@ -218,6 +224,13 @@ Can be accessed via statistic value CAC_AMSHitChanceMult and modifier CAC_AMSHit
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
+
+@Name:APCriticalChanceModifier
+@Type:float
+@AppliedTo:WeaponDef
+@Default:1
+@Description:not documented yet
+Can be accessed via statistic value CAC_APCriticalChanceModifier and modifier CAC_APCriticalChanceModifier_Mod
 
 @Name:APCriticalChanceMultiplier
 @Type:float
@@ -453,6 +466,12 @@ Can be accessed via statistic value CAC_AMSHitChanceMult and modifier CAC_AMSHit
 @Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
 @Description:not documented yet
 
+@Name:DelayedExposion
+@Type:boolean
+@AppliedTo:AmmunitionDef
+@Default:false
+@Description:not documented yet
+
 @Name:delayedSFX
 @Type:string
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -536,6 +555,12 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Type:boolean
 @AppliedTo:MineFieldDef
 @Default:true
+@Description:not documented yet
+
+@Name:ExposionModifier
+@Type:float
+@AppliedTo:AmmunitionDef
+@Default:1
 @Description:not documented yet
 
 @Name:FireAnimationSpeedMod
@@ -976,6 +1001,12 @@ Can be accessed via statistic value CAC_MinRangeClusterMod and modifier CAC_MinR
 @Default:0
 @Description:not documented yet
 
+@Name:MissBehavior
+@Type:enum. Possible values: NotSet, Guided, Unguided
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
+@Description:not documented yet
+
 @Name:MissileExplosionScale
 @Type:Vector
 @AppliedTo:AmmunitionDef,WeaponMode
@@ -1011,6 +1042,12 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Type:boolean
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
+@Description:not documented yet
+
+@Name:modeModifiers
+@Type:List`1
+@AppliedTo:WeaponMode
+@Default:empty
 @Description:not documented yet
 
 @Name:Modes
@@ -1065,6 +1102,12 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Type:float
 @AppliedTo:MineFieldDef,AmmunitionDef,WeaponDef,WeaponMode
 @Default:MineFieldDef=10,AmmunitionDef=10,WeaponDef=10,WeaponMode=10
+@Description:not documented yet
+
+@Name:PhysicsAoE_MinDist
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
 
 @Name:PrefireAnimationSpeedMod
@@ -1244,6 +1287,12 @@ Can be accessed via statistic value CAC_ShortRangeClusterMod and modifier CAC_Sh
 @Default:false
 @Description:not documented yet
 
+@Name:SkipUnusedAmmoCheck
+@Type:boolean
+@AppliedTo:AmmunitionDef
+@Default:false
+@Description:not documented yet
+
 @Name:SpecialHitTable
 @Type:string
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -1291,6 +1340,12 @@ Can be accessed via statistic value CAC_SpreadRange and modifier CAC_SpreadRange
 @Type:boolean
 @AppliedTo:AmmunitionDef
 @Default:NotSet
+@Description:not documented yet
+
+@Name:TagAoEDamageMult
+@Type:dictionary of { "<string>": { AoEModifiers structure } }
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
 @Description:not documented yet
 
 @Name:TagsAccuracyModifiers

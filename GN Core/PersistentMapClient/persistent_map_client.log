@@ -1,4 +1,2251 @@
-2025-01-11T02:32:33 - Starting Client: 4.1.2-8
-2025-01-11T02:32:33 - Settings are:(ServerURL:(http://www.gnwars.net:8000/) ClientID:() Debug:(True) PriorityContractPay%:(1.5) PriorityContractsPerAlly:2 ActivePlayerMarkerSize:(3.5))
-2025-01-11T02:32:33 - Fetched clientID:(0c60bf79-84e5-4aa3-8848-4d59e1e961b4).
-2025-01-11T02:32:33 - Init Finished
+2025-03-21T03:59:55 - Starting Client: 4.1.2-8
+2025-03-21T03:59:55 - Settings are:(ServerURL:(http://www.gnwars.net:8000/) ClientID:() Debug:(True) PriorityContractPay%:(1.5) PriorityContractsPerAlly:2 ActivePlayerMarkerSize:(3.5))
+2025-03-21T03:59:55 - Fetched clientID:(55b94faa-a506-426e-b1f0-555993469715).
+2025-03-21T03:59:55 - Init Finished
+2025-03-21T04:00:18 - Career ID Loaded: de8bb03a-c91b-4538-9e73-cdc6cbd92e34
+2025-03-21T04:00:18 - ----Refreshing client settings from server-------
+2025-03-21T04:00:18 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:00:19 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:00:43 - PopulateMap - Postfix called
+2025-03-21T04:00:43 - methodSetOwner is:(Void set_OwnerValue(BattleTech.FactionValue))
+2025-03-21T04:00:43 - fieldSetContractEmployers is:(System.Collections.Generic.List`1[System.String] contractEmployerIDs)
+2025-03-21T04:00:43 - fieldSetContractTargets is:(System.Collections.Generic.List`1[System.String] contractTargetIDs)
+2025-03-21T04:00:43 - methodSetDescription is:(Void set_Description(BattleTech.BaseDescriptionDef))
+2025-03-21T04:00:43 - fieldSimGameInterruptManager is:(BattleTech.UI.SimGameInterruptManager interruptQueue)
+2025-03-21T04:00:43 - ----Refreshing client settings from server-------
+2025-03-21T04:00:43 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:00:43 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:00:43 - http://www.gnwars.net:8000/warServices/StarMap/
+2025-03-21T04:00:44 - GetStarMap took: 1109ms.
+2025-03-21T04:00:45 - GetStarMap: 3694
+2025-03-21T04:00:45 - Processing Starmap: 3694
+2025-03-21T04:00:45 - Aalzorg changing new owner to Outworld
+2025-03-21T04:00:45 - Abagnar changing new owner to Outworld
+2025-03-21T04:00:45 - Abbeville changing new owner to Tortuga
+2025-03-21T04:00:45 - Aberystwyth changing new owner to Circinus
+2025-03-21T04:00:45 - Abiy Adi changing new owner to Outworld
+2025-03-21T04:00:45 - Able's Glory changing new owner to Steiner
+2025-03-21T04:00:45 - Aboukir changing new owner to Steiner
+2025-03-21T04:00:45 - Abramkovo changing new owner to Circinus
+2025-03-21T04:00:45 - Abruzzi changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Abushiri changing new owner to Steiner
+2025-03-21T04:00:45 - Acala changing new owner to Liao
+2025-03-21T04:00:45 - Accrington changing new owner to Kurita
+2025-03-21T04:00:45 - Achilles changing new owner to Liao
+2025-03-21T04:00:45 - Achnoly changing new owner to Outworld
+2025-03-21T04:00:45 - Achton changing new owner to Outworld
+2025-03-21T04:00:45 - Acoma changing new owner to ComStar
+2025-03-21T04:00:45 - Aconcagua changing new owner to Illyrian
+2025-03-21T04:00:45 - Acrux changing new owner to Circinus
+2025-03-21T04:00:45 - Addicks changing new owner to ComStar
+2025-03-21T04:00:45 - Ad Duwayd changing new owner to Outworld
+2025-03-21T04:00:45 - Adelson changing new owner to Tortuga
+2025-03-21T04:00:45 - Adler changing new owner to Davion
+2025-03-21T04:00:45 - Adrar changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Adrian changing new owner to Outworld
+2025-03-21T04:00:45 - Aea changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Aer (Finnalon 2822+) changing new owner to Liao
+2025-03-21T04:00:45 - Afleir changing new owner to ComStar
+2025-03-21T04:00:45 - Agador (Yance) changing new owner to ComStar
+2025-03-21T04:00:45 - Aggstein changing new owner to Davion
+2025-03-21T04:00:45 - Agliana changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Agmond (Bornal 3130+) changing new owner to Davion
+2025-03-21T04:00:45 - Ahlat changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Aigle changing new owner to ComStar
+2025-03-21T04:00:45 - Aiguebelle changing new owner to Circinus
+2025-03-21T04:00:45 - Alamagordo changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Albert Falls changing new owner to Illyrian
+2025-03-21T04:00:45 - Albiero changing new owner to Elysia
+2025-03-21T04:00:45 - Albion (LC) changing new owner to Steiner
+2025-03-21T04:00:45 - Alchiba changing new owner to ComStar
+2025-03-21T04:00:45 - Alcor changing new owner to ComStar
+2025-03-21T04:00:45 - Aldrecht changing new owner to Kurita
+2025-03-21T04:00:45 - Alexandria changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Algorab changing new owner to Marik
+2025-03-21T04:00:45 - Algot changing new owner to Liao
+2025-03-21T04:00:45 - Alhena changing new owner to ComStar
+2025-03-21T04:00:45 - Al Hillah changing new owner to Steiner
+2025-03-21T04:00:45 - Alioth changing new owner to ComStar
+2025-03-21T04:00:45 - Al Jafr changing new owner to Circinus
+2025-03-21T04:00:45 - Al Jubaylah changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Alkalurops changing new owner to ComStar
+2025-03-21T04:00:45 - Alktral changing new owner to Outworld
+2025-03-21T04:00:45 - All Dawn changing new owner to Steiner
+2025-03-21T04:00:45 - Alleghe changing new owner to Elysia
+2025-03-21T04:00:45 - Alloway changing new owner to Liao
+2025-03-21T04:00:45 - Almach changing new owner to Liao
+2025-03-21T04:00:45 - Alnadal changing new owner to Davion
+2025-03-21T04:00:45 - Al Na'ir changing new owner to ComStar
+2025-03-21T04:00:45 - Alorton changing new owner to Circinus
+2025-03-21T04:00:45 - Alphecca changing new owner to ComStar
+2025-03-21T04:00:45 - Alrakis changing new owner to ComStar
+2025-03-21T04:00:45 - Alsek changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Alta changing new owner to Illyrian
+2025-03-21T04:00:45 - Altair changing new owner to ComStar
+2025-03-21T04:00:45 - Alta Vista changing new owner to Outworld
+2025-03-21T04:00:45 - Altdorf changing new owner to Outworld
+2025-03-21T04:00:45 - Alterf changing new owner to Illyrian
+2025-03-21T04:00:45 - Althastan changing new owner to Circinus
+2025-03-21T04:00:45 - Alto changing new owner to Liao
+2025-03-21T04:00:45 - Altoona (FS) changing new owner to Outworld
+2025-03-21T04:00:45 - Altoona (LC) changing new owner to Circinus
+2025-03-21T04:00:45 - Alula Australis changing new owner to ComStar
+2025-03-21T04:00:45 - Alula Borealis changing new owner to Circinus
+2025-03-21T04:00:45 - Alyina changing new owner to Oberon
+2025-03-21T04:00:45 - Ambatomainty changing new owner to Outworld
+2025-03-21T04:00:45 - Amber changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Ambrose changing new owner to Oberon
+2025-03-21T04:00:45 - Amiga changing new owner to ComStar
+2025-03-21T04:00:45 - Ammon changing new owner to Outworld
+2025-03-21T04:00:45 - Amu Darya changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Anaea changing new owner to Liao
+2025-03-21T04:00:45 - Anaheim changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Anatolia (Pillory 3130+) changing new owner to Steiner
+2025-03-21T04:00:45 - Ancha changing new owner to ComStar
+2025-03-21T04:00:45 - Andarmax changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Andelys changing new owner to Outworld
+2025-03-21T04:00:45 - Andurien changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Angelsey changing new owner to Liao
+2025-03-21T04:00:45 - Angol changing new owner to Liao
+2025-03-21T04:00:45 - Angra changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Anguilla changing new owner to Outworld
+2025-03-21T04:00:45 - Ankaa changing new owner to ComStar
+2025-03-21T04:00:45 - Ankolika changing new owner to Illyrian
+2025-03-21T04:00:45 - Annwyn changing new owner to Circinus
+2025-03-21T04:00:45 - Antias changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - An Ting changing new owner to Outworld
+2025-03-21T04:00:45 - Anywhere changing new owner to Oberon
+2025-03-21T04:00:45 - Aodh changing new owner to Marik
+2025-03-21T04:00:45 - Aomen changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Aosia changing new owner to Liao
+2025-03-21T04:00:45 - Apinzel changing new owner to Circinus
+2025-03-21T04:00:45 - Apolakkia changing new owner to Oberon
+2025-03-21T04:00:45 - Apollo changing new owner to Oberon
+2025-03-21T04:00:45 - Appian changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Aquagea changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Aquavita changing new owner to Circinus
+2025-03-21T04:00:45 - Aquileia changing new owner to Marik
+2025-03-21T04:00:45 - Arcadia (Clan) changing new owner to ClanSnowRaven
+2025-03-21T04:00:45 - Arcadia (FS) changing new owner to ComStar
+2025-03-21T04:00:45 - Arcadia (LC) changing new owner to ComStar
+2025-03-21T04:00:45 - Argos changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Argyle changing new owner to ComStar
+2025-03-21T04:00:45 - Arlanda changing new owner to Steiner
+2025-03-21T04:00:45 - Arlington changing new owner to Davion
+2025-03-21T04:00:45 - Armaxa changing new owner to Davion
+2025-03-21T04:00:45 - Armington changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Armstrong changing new owner to Circinus
+2025-03-21T04:00:45 - Arn (Jia Tian 3130+) changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Arn changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Arnaudville changing new owner to Outworld
+2025-03-21T04:00:45 - Arromanches changing new owner to Outworld
+2025-03-21T04:00:45 - Artru changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Ascella changing new owner to ComStar
+2025-03-21T04:00:45 - Ashburton changing new owner to Illyrian
+2025-03-21T04:00:45 - Ashkum changing new owner to Liao
+2025-03-21T04:00:45 - Ashley changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Aspropirgos changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - As Samik changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Asta changing new owner to ComStar
+2025-03-21T04:00:45 - Asuncion changing new owner to Liao
+2025-03-21T04:00:45 - Athenry changing new owner to ComStar
+2025-03-21T04:00:45 - Athna changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Atreus (Clan) changing new owner to ClanWolf
+2025-03-21T04:00:45 - Atreus (FWL) changing new owner to Illyrian
+2025-03-21T04:00:45 - Atria changing new owner to ComStar
+2025-03-21T04:00:45 - Atsugi changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Atzenbrugg changing new owner to Illyrian
+2025-03-21T04:00:45 - Aucara changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - August changing new owner to Marik
+2025-03-21T04:00:45 - Augusta changing new owner to ComStar
+2025-03-21T04:00:45 - Austerlitz (Scauld 3130+) changing new owner to Steiner
+2025-03-21T04:00:45 - Autumn Wind changing new owner to ComStar
+2025-03-21T04:00:45 - Avigait changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Avranches changing new owner to Outworld
+2025-03-21T04:00:45 - Awyron changing new owner to Oberon
+2025-03-21T04:00:45 - Axton changing new owner to Liao
+2025-03-21T04:00:45 - Ayacucho changing new owner to Circinus
+2025-03-21T04:00:45 - Aylmer changing new owner to Illyrian
+2025-03-21T04:00:45 - Ayn Tarma changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Azur changing new owner to Outworld
+2025-03-21T04:00:45 - Babylon changing new owner to ClanSnowRaven
+2025-03-21T04:00:45 - Bacum changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Badlands changing new owner to Davion
+2025-03-21T04:00:45 - Bad News changing new owner to Outworld
+2025-03-21T04:00:45 - Baggville changing new owner to Steiner
+2025-03-21T04:00:45 - Bahl's Retreat changing new owner to Davion
+2025-03-21T04:00:45 - Bainsville changing new owner to ComStar
+2025-03-21T04:00:45 - Baker 3 changing new owner to Oberon
+2025-03-21T04:00:45 - Balkan changing new owner to ComStar
+2025-03-21T04:00:45 - Ballentine changing new owner to Davion
+2025-03-21T04:00:45 - Balsta changing new owner to Elysia
+2025-03-21T04:00:45 - Banfora changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Bangor changing new owner to Elysia
+2025-03-21T04:00:45 - Ban Na San changing new owner to Outworld
+2025-03-21T04:00:45 - Bannerhoft changing new owner to Outworld
+2025-03-21T04:00:45 - Barahona changing new owner to Outworld
+2025-03-21T04:00:45 - Baranda changing new owner to Tortuga
+2025-03-21T04:00:45 - Barcelona changing new owner to Oberon
+2025-03-21T04:00:45 - Barlaston changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Barlow's End changing new owner to Outworld
+2025-03-21T04:00:45 - Barras changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Basalt changing new owner to Liao
+2025-03-21T04:00:45 - Basantapur changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Basiliano changing new owner to Oberon
+2025-03-21T04:00:45 - Bassfield changing new owner to Outworld
+2025-03-21T04:00:45 - Bastrop changing new owner to Outworld
+2025-03-21T04:00:45 - Batavia changing new owner to ComStar
+2025-03-21T04:00:45 - Battaraigi changing new owner to Oberon
+2025-03-21T04:00:45 - Bayeux changing new owner to Outworld
+2025-03-21T04:00:45 - Bayindir changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Bayis changing new owner to Steiner
+2025-03-21T04:00:45 - Beaumont changing new owner to Outworld
+2025-03-21T04:00:45 - Beauvais changing new owner to Steiner
+2025-03-21T04:00:45 - Beckars changing new owner to Circinus
+2025-03-21T04:00:45 - Beecher changing new owner to ComStar
+2025-03-21T04:00:45 - Beenleigh changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Beils changing new owner to Kurita
+2025-03-21T04:00:45 - Belacruz changing new owner to Outworld
+2025-03-21T04:00:45 - Belaire changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Belamor (Zanzor 2822+) changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Bell (CC) changing new owner to Liao
+2025-03-21T04:00:45 - Bell (OA) changing new owner to Outworld
+2025-03-21T04:00:45 - Bella changing new owner to Circinus
+2025-03-21T04:00:45 - Belladonna changing new owner to ComStar
+2025-03-21T04:00:45 - Bellatrix changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Belluevue changing new owner to Liao
+2025-03-21T04:00:45 - Benedict changing new owner to Outworld
+2025-03-21T04:00:45 - Bensinger changing new owner to Oberon
+2025-03-21T04:00:45 - Beowulf changing new owner to Oberon
+2025-03-21T04:00:45 - Bergtatt changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Beta changing new owner to Oberon
+2025-03-21T04:00:45 - Beta Regulus changing new owner to Steiner
+2025-03-21T04:00:45 - Betelgeuse changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Bex changing new owner to Liao
+2025-03-21T04:00:45 - Bhaktapur changing new owner to Liao
+2025-03-21T04:00:45 - Bhykov changing new owner to Liao
+2025-03-21T04:00:45 - Biegga changing new owner to Oberon
+2025-03-21T04:00:45 - Biham changing new owner to ComStar
+2025-03-21T04:00:45 - Bilma changing new owner to Kurita
+2025-03-21T04:00:45 - Biloela changing new owner to Circinus
+2025-03-21T04:00:45 - Binyang changing new owner to Circinus
+2025-03-21T04:00:45 - Birmensdorf changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Birqash changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Bismarck changing new owner to Illyrian
+2025-03-21T04:00:45 - Black Earth changing new owner to Oberon
+2025-03-21T04:00:45 - Blackjack changing new owner to Oberon
+2025-03-21T04:00:45 - Blandou changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Blida changing new owner to Davion
+2025-03-21T04:00:45 - Blommestein changing new owner to Outworld
+2025-03-21T04:00:45 - Blue Hole changing new owner to Oberon
+2025-03-21T04:00:45 - Blue Sava changing new owner to Marik
+2025-03-21T04:00:45 - Blueys changing new owner to Outworld
+2025-03-21T04:00:45 - Boara changing new owner to Steiner
+2025-03-21T04:00:45 - Bobruisk changing new owner to Circinus
+2025-03-21T04:00:45 - Bodnath changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Boeotia changing new owner to Davion
+2025-03-21T04:00:45 - Bogerth changing new owner to Liao
+2025-03-21T04:00:45 - Bogrib changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Bolan changing new owner to Circinus
+2025-03-21T04:00:45 - Bonaire changing new owner to Marik
+2025-03-21T04:00:45 - Bonavista changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Bondurant changing new owner to ComStar
+2025-03-21T04:00:45 - Bone-Norman changing new owner to Oberon
+2025-03-21T04:00:45 - Boondock changing new owner to Outworld
+2025-03-21T04:00:45 - Borden changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Borka changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Bossangoa changing new owner to Outworld
+2025-03-21T04:00:45 - Botany Bay changing new owner to Oberon
+2025-03-21T04:00:45 - Bothwell changing new owner to Outworld
+2025-03-21T04:00:45 - Bougie changing new owner to Steiner
+2025-03-21T04:00:45 - Boulsi changing new owner to Outworld
+2025-03-21T04:00:45 - Bowang changing new owner to Illyrian
+2025-03-21T04:00:45 - Braben's Frontier changing new owner to Outworld
+2025-03-21T04:00:45 - Brabent changing new owner to Davion
+2025-03-21T04:00:45 - Branzoll changing new owner to Davion
+2025-03-21T04:00:45 - Braum changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Bremen (RW) changing new owner to Steiner
+2025-03-21T04:00:45 - Bremond changing new owner to Outworld
+2025-03-21T04:00:45 - Brest changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Brim changing new owner to ClanNovaCat
+2025-03-21T04:00:45 - Bringdam changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Bristol changing new owner to ComStar
+2025-03-21T04:00:45 - Broaddus changing new owner to Outworld
+2025-03-21T04:00:45 - Brockton changing new owner to Tortuga
+2025-03-21T04:00:45 - Brockway changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Broken Wheel changing new owner to Tortuga
+2025-03-21T04:00:45 - Bromhead changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Brookeland changing new owner to Outworld
+2025-03-21T04:00:45 - Brownsville changing new owner to ComStar
+2025-03-21T04:00:45 - Bruben changing new owner to Elysia
+2025-03-21T04:00:45 - Brundage changing new owner to Outworld
+2025-03-21T04:00:45 - Brusett changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Bryant changing new owner to ComStar
+2025-03-21T04:00:45 - Bryceland changing new owner to Outworld
+2025-03-21T04:00:45 - Budingen changing new owner to Outworld
+2025-03-21T04:00:45 - Buena changing new owner to Circinus
+2025-03-21T04:00:45 - Buenos Aires changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Burnt Rock changing new owner to Steiner
+2025-03-21T04:00:45 - Bushmill changing new owner to Elysia
+2025-03-21T04:00:45 - Butler changing new owner to Oberon
+2025-03-21T04:00:45 - Butte Hold changing new owner to Oberon
+2025-03-21T04:00:45 - Butzfleth changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Byesville changing new owner to Elysia
+2025-03-21T04:00:45 - Cadela changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Cadiz (TC) changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Caerlaverock changing new owner to Outworld
+2025-03-21T04:00:45 - Caesaera changing new owner to Kurita
+2025-03-21T04:00:45 - Cajamarca changing new owner to Illyrian
+2025-03-21T04:00:45 - Calchedon changing new owner to Circinus
+2025-03-21T04:00:45 - Caldarium changing new owner to Steiner
+2025-03-21T04:00:45 - Caldwell changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Caledea changing new owner to Steiner
+2025-03-21T04:00:45 - Calingasta changing new owner to Outworld
+2025-03-21T04:00:45 - Callison changing new owner to ComStar
+2025-03-21T04:00:45 - Calseraigne changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Calvados changing new owner to Circinus
+2025-03-21T04:00:45 - Cambiano changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Camlann (FWL) changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Cammal changing new owner to Liao
+2025-03-21T04:00:45 - Campbelton changing new owner to ComStar
+2025-03-21T04:00:45 - Campoleone changing new owner to Illyrian
+2025-03-21T04:00:45 - Caph changing new owner to ComStar
+2025-03-21T04:00:45 - Capolla changing new owner to ComStar
+2025-03-21T04:00:45 - Capra changing new owner to Outworld
+2025-03-21T04:00:45 - Cap Rouge changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Caracol changing new owner to Kurita
+2025-03-21T04:00:45 - Carcassonne changing new owner to Outworld
+2025-03-21T04:00:45 - Cardff changing new owner to Circinus
+2025-03-21T04:00:45 - Caria changing new owner to Davion
+2025-03-21T04:00:45 - Carmelita changing new owner to Outworld
+2025-03-21T04:00:45 - Carmichael changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Carnac changing new owner to Davion
+2025-03-21T04:00:45 - Carnwath changing new owner to ComStar
+2025-03-21T04:00:45 - Carse changing new owner to Kurita
+2025-03-21T04:00:45 - Carsphairn changing new owner to ComStar
+2025-03-21T04:00:45 - Carvajal changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Carver (Liberty 3063+) changing new owner to ComStar
+2025-03-21T04:00:45 - Cascade changing new owner to ComStar
+2025-03-21T04:00:45 - Caselton changing new owner to Liao
+2025-03-21T04:00:45 - Casere changing new owner to Elysia
+2025-03-21T04:00:45 - Cassias changing new owner to Outworld
+2025-03-21T04:00:45 - Cassilda changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Castor changing new owner to ComStar
+2025-03-21T04:00:45 - Catroxx changing new owner to Marik
+2025-03-21T04:00:45 - Cavalor changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Cavanaugh changing new owner to Circinus
+2025-03-21T04:00:45 - Ceará changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Ceiba changing new owner to Outworld
+2025-03-21T04:00:45 - Celebes changing new owner to Kurita
+2025-03-21T04:00:45 - Centavido changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Ceram changing new owner to Steiner
+2025-03-21T04:00:45 - Cerignola changing new owner to Illyrian
+2025-03-21T04:00:45 - Cerillos changing new owner to Circinus
+2025-03-21T04:00:45 - Ceuta changing new owner to Steiner
+2025-03-21T04:00:45 - Chagos changing new owner to Illyrian
+2025-03-21T04:00:45 - Chalouba changing new owner to Illyrian
+2025-03-21T04:00:45 - Chanute changing new owner to Outworld
+2025-03-21T04:00:45 - Charleston changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Charleywood changing new owner to Davion
+2025-03-21T04:00:45 - Chateau changing new owner to Oberon
+2025-03-21T04:00:45 - Chaumont changing new owner to Outworld
+2025-03-21T04:00:45 - Chaville changing new owner to ComStar
+2025-03-21T04:00:45 - Chebanse changing new owner to ComStar
+2025-03-21T04:00:45 - Chengdu changing new owner to Liao
+2025-03-21T04:00:45 - Chenier changing new owner to Outworld
+2025-03-21T04:00:45 - Chennai changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Chertan changing new owner to ComStar
+2025-03-21T04:00:45 - Chesterton changing new owner to Liao
+2025-03-21T04:00:45 - Chiavenna changing new owner to Circinus
+2025-03-21T04:00:45 - Chillon changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Chilung changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Chimpaw changing new owner to Kurita
+2025-03-21T04:00:45 - Chinmen Tao changing new owner to Outworld
+2025-03-21T04:00:45 - Chirala changing new owner to Outworld
+2025-03-21T04:00:45 - Chirikof changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Chita changing new owner to Steiner
+2025-03-21T04:00:45 - Chitwan changing new owner to Liao
+2025-03-21T04:00:45 - Choex changing new owner to Circinus
+2025-03-21T04:00:45 - Chota changing new owner to Davion
+2025-03-21T04:00:45 - Choudrant changing new owner to Outworld
+2025-03-21T04:00:45 - Chouli changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Christiania changing new owner to Elysia
+2025-03-21T04:00:45 - Cilvituk changing new owner to Steiner
+2025-03-21T04:00:45 - Cimeron changing new owner to Outworld
+2025-03-21T04:00:45 - Cirebon changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Claybrooke changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Clipperton changing new owner to Illyrian
+2025-03-21T04:00:45 - Cluff's Stand changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Cogdell changing new owner to Tortuga
+2025-03-21T04:00:45 - Cohagen changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Cohay changing new owner to Outworld
+2025-03-21T04:00:45 - Colchis changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Coldbrook changing new owner to Circinus
+2025-03-21T04:00:45 - Cole Harbour changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Colfax changing new owner to ComStar
+2025-03-21T04:00:45 - Colia changing new owner to Outworld
+2025-03-21T04:00:45 - Colorado changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Columbine changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Conakry changing new owner to Illyrian
+2025-03-21T04:00:45 - Conley's Patch changing new owner to Steiner
+2025-03-21T04:00:45 - Conquista changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Conroe changing new owner to Outworld
+2025-03-21T04:00:45 - Constance changing new owner to Elysia
+2025-03-21T04:00:45 - Conwy changing new owner to Liao
+2025-03-21T04:00:45 - Corbeanca changing new owner to Illyrian
+2025-03-21T04:00:45 - Cor Caroli changing new owner to ComStar
+2025-03-21T04:00:45 - Corfu changing new owner to Elysia
+2025-03-21T04:00:45 - Coriscana changing new owner to ComStar
+2025-03-21T04:00:45 - Cork changing new owner to Outworld
+2025-03-21T04:00:45 - Corodiz changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Coromodir changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Cosenza changing new owner to Outworld
+2025-03-21T04:00:45 - Cotocallao changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Courcellete changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Courchevel changing new owner to Elysia
+2025-03-21T04:00:45 - Courtney changing new owner to Davion
+2025-03-21T04:00:45 - Coyle changing new owner to Outworld
+2025-03-21T04:00:45 - Cranston changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Crawford changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Cree changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Crichton changing new owner to Outworld
+2025-03-21T04:00:45 - Crofton changing new owner to Tortuga
+2025-03-21T04:00:45 - Cronulla changing new owner to Liao
+2025-03-21T04:00:45 - Cruz Alta changing new owner to Circinus
+2025-03-21T04:00:45 - Cryfder changing new owner to Oberon
+2025-03-21T04:00:45 - Csesztreg changing new owner to Oberon
+2025-03-21T04:00:45 - Csomad changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Culmia changing new owner to Outworld
+2025-03-21T04:00:45 - Cumberland changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Curaumilla changing new owner to Illyrian
+2025-03-21T04:00:45 - Cursa changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Cylene changing new owner to Davion
+2025-03-21T04:00:45 - Czarvowo changing new owner to Circinus
+2025-03-21T04:00:45 - Dagda (Clan) changing new owner to ClanSnowRaven
+2025-03-21T04:00:45 - Dahar changing new owner to Outworld
+2025-03-21T04:00:45 - Dalcour changing new owner to Circinus
+2025-03-21T04:00:45 - Dalian changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Dalmantia changing new owner to Kurita
+2025-03-21T04:00:45 - Damevang changing new owner to Outworld
+2025-03-21T04:00:45 - Damian changing new owner to Elysia
+2025-03-21T04:00:45 - Danli changing new owner to Outworld
+2025-03-21T04:00:45 - Dansur changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Danxian changing new owner to Circinus
+2025-03-21T04:00:45 - Daol changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Dar-es-Salaam changing new owner to ComStar
+2025-03-21T04:00:45 - Darwendale changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Davisville changing new owner to Outworld
+2025-03-21T04:00:45 - Dawn changing new owner to Elysia
+2025-03-21T04:00:45 - Ddraig changing new owner to Outworld
+2025-03-21T04:00:45 - De Berry changing new owner to Outworld
+2025-03-21T04:00:45 - Decatur changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Declan changing new owner to Outworld
+2025-03-21T04:00:45 - Delacambre changing new owner to Outworld
+2025-03-21T04:00:45 - Delacruz changing new owner to Outworld
+2025-03-21T04:00:45 - Delavan changing new owner to ComStar
+2025-03-21T04:00:45 - Delios changing new owner to ClanHellsHorses
+2025-03-21T04:00:45 - Dell changing new owner to Oberon
+2025-03-21T04:00:45 - Demeter changing new owner to Liao
+2025-03-21T04:00:45 - Deneb Algedi changing new owner to ComStar
+2025-03-21T04:00:45 - Deneb Kaitos changing new owner to ComStar
+2025-03-21T04:00:45 - Denebola changing new owner to ComStar
+2025-03-21T04:00:45 - Denizli changing new owner to Oberon
+2025-03-21T04:00:45 - Derby changing new owner to Steiner
+2025-03-21T04:00:45 - Derf changing new owner to Oberon
+2025-03-21T04:00:45 - Des Arc changing new owner to Tortuga
+2025-03-21T04:00:45 - Deschenes changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Desolate Plains changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Devil's Breath changing new owner to Outworld
+2025-03-21T04:00:45 - Devil's Rock changing new owner to ComStar
+2025-03-21T04:00:45 - Devin changing new owner to Oberon
+2025-03-21T04:00:45 - Deweidewd changing new owner to Steiner
+2025-03-21T04:00:45 - Dhaulgiri changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Dì-fang changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Diamantina changing new owner to Circinus
+2025-03-21T04:00:45 - Diass changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Diboll changing new owner to Outworld
+2025-03-21T04:00:45 - Dichell changing new owner to Chainelane
+2025-03-21T04:00:45 - Dicon changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Diefenbaker changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Die Moot changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Dieron changing new owner to ComStar
+2025-03-21T04:00:45 - Dijonne (Pain 3050+) changing new owner to Steiner
+2025-03-21T04:00:45 - Dili changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Dirkel changing new owner to Oberon
+2025-03-21T04:00:45 - Dirk's Gulf changing new owner to Davion
+2025-03-21T04:00:45 - Dixie changing new owner to ComStar
+2025-03-21T04:00:45 - Dol changing new owner to Davion
+2025-03-21T04:00:45 - Domeyko changing new owner to Outworld
+2025-03-21T04:00:45 - Dove changing new owner to Kurita
+2025-03-21T04:00:45 - Dowles changing new owner to Davion
+2025-03-21T04:00:45 - Dralkig changing new owner to Outworld
+2025-03-21T04:00:45 - Dreadlord changing new owner to Outworld
+2025-03-21T04:00:45 - Dresden changing new owner to Steiner
+2025-03-21T04:00:45 - Drienfontein changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Dromini changing new owner to ComStar
+2025-03-21T04:00:45 - Drozan changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Duantia changing new owner to Circinus
+2025-03-21T04:00:45 - Dubhe changing new owner to ComStar
+2025-03-21T04:00:45 - Du Lac changing new owner to Davion
+2025-03-21T04:00:45 - Dumassas changing new owner to Davion
+2025-03-21T04:00:45 - Dunkerque changing new owner to Davion
+2025-03-21T04:00:45 - Dunklewälderdunklerflüssenschattenwelt (Bob 2789+) changing new owner to Outworld
+2025-03-21T04:00:45 - Duxford changing new owner to Outworld
+2025-03-21T04:00:45 - Duxfort changing new owner to Kurita
+2025-03-21T04:00:45 - Dyev changing new owner to ComStar
+2025-03-21T04:00:45 - Ebro changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B42A changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B43A changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B44A changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B45A changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B46A changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B47A changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B48A changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B49A changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B50A changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B51A changing new owner to Tortuga
+2025-03-21T04:00:45 - EC3040-B52A changing new owner to Tortuga
+2025-03-21T04:00:45 - Eden changing new owner to ClanSnowRaven
+2025-03-21T04:00:45 - Edirne (Brank 3130+) changing new owner to Steiner
+2025-03-21T04:00:45 - Edmondson changing new owner to Circinus
+2025-03-21T04:00:45 - Egress changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Eigerland changing new owner to Outworld
+2025-03-21T04:00:45 - Eilenburg changing new owner to ComStar
+2025-03-21T04:00:45 - Eion changing new owner to Illyrian
+2025-03-21T04:00:45 - Ejeda changing new owner to Outworld
+2025-03-21T04:00:45 - Elba changing new owner to Steiner
+2025-03-21T04:00:45 - Elbing (FWL) changing new owner to Marik
+2025-03-21T04:00:45 - Electra changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Eleusis changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Elix changing new owner to Kurita
+2025-03-21T04:00:45 - El Kerak changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Ellijay changing new owner to Circinus
+2025-03-21T04:00:45 - Ellsworth changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Emar changing new owner to Outworld
+2025-03-21T04:00:45 - Enchi changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Enders Cluster changing new owner to Circinus
+2025-03-21T04:00:45 - Engadin changing new owner to Elysia
+2025-03-21T04:00:45 - Enif changing new owner to Outworld
+2025-03-21T04:00:45 - Enkra changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Entalun changing new owner to Outworld
+2025-03-21T04:00:45 - Epsilon changing new owner to Circinus
+2025-03-21T04:00:45 - Epsilon Eridani changing new owner to ComStar
+2025-03-21T04:00:45 - Epsilon Indi changing new owner to ComStar
+2025-03-21T04:00:45 - Erdvynn changing new owner to Circinus
+2025-03-21T04:00:45 - Erewhon changing new owner to Oberon
+2025-03-21T04:00:45 - Erin (Von Strang's World 2830+) changing new owner to Oberon
+2025-03-21T04:00:45 - Eromanga changing new owner to Circinus
+2025-03-21T04:00:45 - Errai changing new owner to ComStar
+2025-03-21T04:00:45 - Eschenberg changing new owner to Steiner
+2025-03-21T04:00:45 - Escobas changing new owner to Illyrian
+2025-03-21T04:00:45 - Espia changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Estuan changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Esztergom changing new owner to ComStar
+2025-03-21T04:00:45 - Eustatius changing new owner to Tortuga
+2025-03-21T04:00:45 - Evciler changing new owner to Oberon
+2025-03-21T04:00:45 - Everett changing new owner to Liao
+2025-03-21T04:00:45 - Fable changing new owner to Davion
+2025-03-21T04:00:45 - Fadiffolu changing new owner to Illyrian
+2025-03-21T04:00:45 - Fagerholm changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Fairfax changing new owner to Outworld
+2025-03-21T04:00:45 - Fairfield changing new owner to Outworld
+2025-03-21T04:00:45 - Faleolo changing new owner to Illyrian
+2025-03-21T04:00:45 - Fallen Stars changing new owner to Circinus
+2025-03-21T04:00:45 - Fallon changing new owner to Outworld
+2025-03-21T04:00:45 - Fallry changing new owner to Outworld
+2025-03-21T04:00:45 - False Dawn changing new owner to Outworld
+2025-03-21T04:00:45 - Farcry changing new owner to Steiner
+2025-03-21T04:00:45 - Farnsworth changing new owner to Outworld
+2025-03-21T04:00:45 - Farstar changing new owner to Kurita
+2025-03-21T04:00:45 - Farwell changing new owner to Liao
+2025-03-21T04:00:45 - Fasa changing new owner to ClanGoliathScorpion
+2025-03-21T04:00:45 - Fathepur changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Fefferfer changing new owner to Kurita
+2025-03-21T04:00:45 - Feijo changing new owner to Outworld
+2025-03-21T04:00:45 - Fellanin changing new owner to Davion
+2025-03-21T04:00:45 - Feltre changing new owner to Elysia
+2025-03-21T04:00:45 - Ferleiten changing new owner to Elysia
+2025-03-21T04:00:45 - Ferranil changing new owner to Elysia
+2025-03-21T04:00:45 - Ferrara changing new owner to Davion
+2025-03-21T04:00:45 - Fetsund changing new owner to Tortuga
+2025-03-21T04:00:45 - Fianna changing new owner to Marik
+2025-03-21T04:00:45 - Fieferana changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Fiery Plains changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Filtvelt changing new owner to Tortuga
+2025-03-21T04:00:45 - Findal changing new owner to Steiner
+2025-03-21T04:00:45 - Finmark changing new owner to Steiner
+2025-03-21T04:00:45 - Finse changing new owner to Outworld
+2025-03-21T04:00:45 - Finsterwalde changing new owner to Circinus
+2025-03-21T04:00:45 - Firgrove changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Fjaldr changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Fjernet changing new owner to Steiner
+2025-03-21T04:00:45 - Flatspin changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Fletcher (CC) changing new owner to ComStar
+2025-03-21T04:00:45 - Flintoft changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Florarda changing new owner to Liao
+2025-03-21T04:00:45 - Florida changing new owner to Circinus
+2025-03-21T04:00:45 - Flushing changing new owner to ComStar
+2025-03-21T04:00:45 - Flychenia changing new owner to ComStar
+2025-03-21T04:00:45 - Flynn changing new owner to Outworld
+2025-03-21T04:00:45 - Fomalhaut changing new owner to ComStar
+2025-03-21T04:00:45 - Ford changing new owner to ComStar
+2025-03-21T04:00:45 - Frankson changing new owner to Tortuga
+2025-03-21T04:00:45 - Franmalin changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Frazer changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Fugeres changing new owner to Tortuga
+2025-03-21T04:00:45 - Furud changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Futuna changing new owner to Illyrian
+2025-03-21T04:00:45 - Fuveau changing new owner to Tortuga
+2025-03-21T04:00:45 - Fylovar changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Gacrux changing new owner to ComStar
+2025-03-21T04:00:45 - Gaeri changing new owner to Outworld
+2025-03-21T04:00:45 - Gahral changing new owner to Davion
+2025-03-21T04:00:45 - Galatea changing new owner to ComStar
+2025-03-21T04:00:45 - Galatia changing new owner to ComStar
+2025-03-21T04:00:45 - Galax changing new owner to ComStar
+2025-03-21T04:00:45 - Galedon changing new owner to Outworld
+2025-03-21T04:00:45 - Galisteo changing new owner to Circinus
+2025-03-21T04:00:45 - Gallatin changing new owner to ComStar
+2025-03-21T04:00:45 - Galuzzo changing new owner to Steiner
+2025-03-21T04:00:45 - Gambarare changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Gandy's Luck changing new owner to Davion
+2025-03-21T04:00:45 - Gangtok changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Gannett changing new owner to ComStar
+2025-03-21T04:00:45 - Gant changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Gardnaus changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Garstedt changing new owner to Elysia
+2025-03-21T04:00:45 - Gaucin changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Genf changing new owner to Davion
+2025-03-21T04:00:45 - Ghaziabad changing new owner to Illyrian
+2025-03-21T04:00:45 - Ghorepani changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Giausar changing new owner to ComStar
+2025-03-21T04:00:45 - Gibraltar changing new owner to Illyrian
+2025-03-21T04:00:45 - Gibson changing new owner to Illyrian
+2025-03-21T04:00:45 - Gienah changing new owner to ComStar
+2025-03-21T04:00:45 - Gillfillan's Gold changing new owner to Circinus
+2025-03-21T04:00:45 - Gillingham changing new owner to Tortuga
+2025-03-21T04:00:45 - Girondas changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Gitarama changing new owner to Outworld
+2025-03-21T04:00:45 - Giverny changing new owner to Davion
+2025-03-21T04:00:45 - Glabach changing new owner to Elysia
+2025-03-21T04:00:45 - Glenlivet changing new owner to Kurita
+2025-03-21T04:00:45 - Glenmora changing new owner to Outworld
+2025-03-21T04:00:45 - Glentworth changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Glevakha changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Glitnir changing new owner to Outworld
+2025-03-21T04:00:45 - Gniezno changing new owner to Marik
+2025-03-21T04:00:45 - Goat Path changing new owner to Oberon
+2025-03-21T04:00:45 - Goito changing new owner to Elysia
+2025-03-21T04:00:45 - Golandrinas changing new owner to Oberon
+2025-03-21T04:00:45 - Goldlure changing new owner to Davion
+2025-03-21T04:00:45 - Gorfynt changing new owner to Chainelane
+2025-03-21T04:00:45 - Gorki changing new owner to Liao
+2025-03-21T04:00:45 - Goshen changing new owner to Liao
+2025-03-21T04:00:45 - Goth Khakar changing new owner to Illyrian
+2025-03-21T04:00:45 - Gotterdammerung changing new owner to Oberon
+2025-03-21T04:00:45 - Goubellat changing new owner to Outworld
+2025-03-21T04:00:45 - Gouderak changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Graham changing new owner to ComStar
+2025-03-21T04:00:45 - Gran changing new owner to Illyrian
+2025-03-21T04:00:45 - Granera changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Grankum changing new owner to Outworld
+2025-03-21T04:00:45 - Grant's Station changing new owner to ClanSmokeJaguar
+2025-03-21T04:00:45 - Gravensteen changing new owner to Davion
+2025-03-21T04:00:45 - Graz changing new owner to Steiner
+2025-03-21T04:00:45 - Greeley changing new owner to Outworld
+2025-03-21T04:00:45 - Greypearl changing new owner to Outworld
+2025-03-21T04:00:45 - Griffith changing new owner to Circinus
+2025-03-21T04:00:45 - Grobin changing new owner to Marik
+2025-03-21T04:00:45 - Gronholt changing new owner to Tortuga
+2025-03-21T04:00:45 - Grootfontein changing new owner to Kurita
+2025-03-21T04:00:45 - Grosvenor changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Groveld changing new owner to Outworld
+2025-03-21T04:00:45 - Gruyeres changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Guangzho changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Guldra changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Gulkana changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Gunthar changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Gunzburg changing new owner to Elysia
+2025-03-21T04:00:45 - Gurnet changing new owner to Liao
+2025-03-21T04:00:45 - Gurrnazovo changing new owner to Tortuga
+2025-03-21T04:00:45 - Gypsum changing new owner to Circinus
+2025-03-21T04:00:45 - Hadnall changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Haerhbin changing new owner to Liao
+2025-03-21T04:00:45 - Haggard changing new owner to Circinus
+2025-03-21T04:00:45 - Hahira changing new owner to Tortuga
+2025-03-21T04:00:45 - Hainfeld changing new owner to Steiner
+2025-03-21T04:00:45 - Hakkaido changing new owner to Kurita
+2025-03-21T04:00:45 - Halgrim changing new owner to Outworld
+2025-03-21T04:00:45 - Halifax changing new owner to Circinus
+2025-03-21T04:00:45 - Hall changing new owner to ComStar
+2025-03-21T04:00:45 - Halla changing new owner to Outworld
+2025-03-21T04:00:45 - Halloran changing new owner to Liao
+2025-03-21T04:00:45 - Halstead Station changing new owner to ComStar
+2025-03-21T04:00:45 - Hammer changing new owner to Illyrian
+2025-03-21T04:00:45 - Hanover changing new owner to Elysia
+2025-03-21T04:00:45 - Hanseta changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Harbin changing new owner to Liao
+2025-03-21T04:00:45 - Harlez changing new owner to Steiner
+2025-03-21T04:00:45 - Harsefeld changing new owner to Liao
+2025-03-21T04:00:45 - Harvest changing new owner to Oberon
+2025-03-21T04:00:45 - Hastur changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Hawktor changing new owner to Davion
+2025-03-21T04:00:45 - Haynesville changing new owner to Outworld
+2025-03-21T04:00:45 - Hazeldean changing new owner to Illyrian
+2025-03-21T04:00:45 - Hazelhurst changing new owner to Outworld
+2025-03-21T04:00:45 - Hean changing new owner to ComStar
+2025-03-21T04:00:45 - Heart Fjord changing new owner to Marik
+2025-03-21T04:00:45 - Heathville changing new owner to Steiner
+2025-03-21T04:00:45 - Hecheng changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Hechnar changing new owner to ComStar
+2025-03-21T04:00:45 - Hednesford changing new owner to Illyrian
+2025-03-21T04:00:45 - Hegel changing new owner to Steiner
+2025-03-21T04:00:45 - Heiligendreuz changing new owner to Elysia
+2025-03-21T04:00:45 - Helduza changing new owner to Steiner
+2025-03-21T04:00:45 - Helen changing new owner to ComStar
+2025-03-21T04:00:45 - Heliat changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Helios changing new owner to Marian
+2025-03-21T04:00:45 - Helixmar changing new owner to Davion
+2025-03-21T04:00:45 - Helland changing new owner to Outworld
+2025-03-21T04:00:45 - Hellos Minor changing new owner to Illyrian
+2025-03-21T04:00:45 - Hell's Paradise changing new owner to Circinus
+2025-03-21T04:00:45 - Herat (FS) changing new owner to Davion
+2025-03-21T04:00:45 - Herbania changing new owner to Steiner
+2025-03-21T04:00:45 - Here changing new owner to Oberon
+2025-03-21T04:00:45 - Hergazil changing new owner to Outworld
+2025-03-21T04:00:45 - Hermagor changing new owner to Elysia
+2025-03-21T04:00:45 - Herotitus changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Herrmaz changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Herzberg changing new owner to Circinus
+2025-03-21T04:00:45 - Hiberius changing new owner to Steiner
+2025-03-21T04:00:45 - Hibuarius changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Hickok changing new owner to Outworld
+2025-03-21T04:00:45 - Hildaman changing new owner to Kurita
+2025-03-21T04:00:45 - Hinckley changing new owner to Circinus
+2025-03-21T04:00:45 - Hindmarsh changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Hiratsuka changing new owner to Illyrian
+2025-03-21T04:00:45 - Hivrannee changing new owner to Outworld
+2025-03-21T04:00:45 - Hoard changing new owner to ClanJadeFalcon
+2025-03-21T04:00:45 - Hobbs changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Hobson changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Hódmezovásárhely changing new owner to Illyrian
+2025-03-21T04:00:45 - Hoensbroek changing new owner to Tortuga
+2025-03-21T04:00:45 - Hohenems changing new owner to Elysia
+2025-03-21T04:00:45 - Holloway changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Holmsbu changing new owner to Elysia
+2025-03-21T04:00:45 - Home changing new owner to Illyrian
+2025-03-21T04:00:45 - Hongor changing new owner to Outworld
+2025-03-21T04:00:45 - Hongqiao changing new owner to Illyrian
+2025-03-21T04:00:45 - Hoonaar changing new owner to Tortuga
+2025-03-21T04:00:45 - Hornir's Keep changing new owner to Circinus
+2025-03-21T04:00:45 - Horsham changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Hortense changing new owner to Tortuga
+2025-03-21T04:00:45 - Hot Springs changing new owner to Oberon
+2025-03-21T04:00:45 - Howrah changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Hoyleton changing new owner to Outworld
+2025-03-21T04:00:45 - Hrafn changing new owner to Outworld
+2025-03-21T04:00:45 - Huaide changing new owner to Outworld
+2025-03-21T04:00:45 - Huan changing new owner to Outworld
+2025-03-21T04:00:45 - Hudeiba changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Huesta changing new owner to Circinus
+2025-03-21T04:00:45 - Humansville changing new owner to Outworld
+2025-03-21T04:00:45 - Huntington changing new owner to Illyrian
+2025-03-21T04:00:45 - Huntress changing new owner to ClanCoyote
+2025-03-21T04:00:45 - Hurgh changing new owner to Davion
+2025-03-21T04:00:45 - Hurik changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Hyalite changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Hyde changing new owner to Marik
+2025-03-21T04:00:45 - Hyperion changing new owner to Steiner
+2025-03-21T04:00:45 - Hè-shì changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Ibarra changing new owner to Illyrian
+2025-03-21T04:00:45 - Icar changing new owner to Oberon
+2025-03-21T04:00:45 - Ichlangis changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Ichmandu changing new owner to Oberon
+2025-03-21T04:00:45 - Ictus changing new owner to Outworld
+2025-03-21T04:00:45 - Ideyld changing new owner to ComStar
+2025-03-21T04:00:45 - Idlewind changing new owner to Elysia
+2025-03-21T04:00:45 - Ife changing new owner to Liao
+2025-03-21T04:00:45 - Igualada changing new owner to Outworld
+2025-03-21T04:00:45 - Ikast changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Ildlandet changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Ilion changing new owner to Circinus
+2025-03-21T04:00:45 - Illium changing new owner to Oberon
+2025-03-21T04:00:45 - Ilmachna changing new owner to Liao
+2025-03-21T04:00:45 - Ilmar changing new owner to Liao
+2025-03-21T04:00:45 - Ilzra changing new owner to Circinus
+2025-03-21T04:00:45 - Imbros changing new owner to ComStar
+2025-03-21T04:00:45 - Immenstadt changing new owner to Liao
+2025-03-21T04:00:45 - Ina changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Inchicore changing new owner to Circinus
+2025-03-21T04:00:45 - Indrapurai changing new owner to Steiner
+2025-03-21T04:00:45 - Ingenstrem changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Ingonish changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Ingress changing new owner to ComStar
+2025-03-21T04:00:45 - Inman changing new owner to Outworld
+2025-03-21T04:00:45 - Inner End changing new owner to Outworld
+2025-03-21T04:00:45 - Inner Surge changing new owner to Steiner
+2025-03-21T04:00:45 - Ionus changing new owner to Illyrian
+2025-03-21T04:00:45 - Ipava changing new owner to ComStar
+2025-03-21T04:00:45 - Ironhold changing new owner to ClanCoyote
+2025-03-21T04:00:45 - Iron Land changing new owner to Oberon
+2025-03-21T04:00:45 - Isabela changing new owner to Illyrian
+2025-03-21T04:00:45 - Islamabad changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Itabaiana changing new owner to Elysia
+2025-03-21T04:00:45 - Itica changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Itrom changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Itsbur changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Itzehoe changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Izmir changing new owner to Illyrian
+2025-03-21T04:00:45 - Jaboatao changing new owner to Tortuga
+2025-03-21T04:00:45 - Jabuka changing new owner to Steiner
+2025-03-21T04:00:45 - Jacobabad changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jacomarle changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Jacson changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Jaipur changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Janina changing new owner to Steiner
+2025-03-21T04:00:45 - Jápminboddu changing new owner to Chainelane
+2025-03-21T04:00:45 - Jarett changing new owner to Elysia
+2025-03-21T04:00:45 - Jászberény changing new owner to Marik
+2025-03-21T04:00:45 - Java changing new owner to Liao
+2025-03-21T04:00:45 - Jeju changing new owner to Kurita
+2025-03-21T04:00:45 - Jenet changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jeppens changing new owner to Outworld
+2025-03-21T04:00:45 - Jesup changing new owner to Tortuga
+2025-03-21T04:00:45 - Jezersko changing new owner to Elysia
+2025-03-21T04:00:45 - Jiddah changing new owner to Illyrian
+2025-03-21T04:00:45 - Jilin changing new owner to Liao
+2025-03-21T04:00:45 - Joan's Post changing new owner to Outworld
+2025-03-21T04:00:45 - Jodipur (Neukirchen 3025+) changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Johnson changing new owner to Outworld
+2025-03-21T04:00:45 - Jonzac changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Joppa changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Jorvikland changing new owner to Steiner
+2025-03-21T04:00:45 - Joshua changing new owner to Outworld
+2025-03-21T04:00:45 - Josselin changing new owner to Outworld
+2025-03-21T04:00:45 - Jubka changing new owner to Illyrian
+2025-03-21T04:00:45 - Jump Point11 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point12 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point13 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point14 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point15 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point179 changing new owner to ClanGhostBear
+2025-03-21T04:00:45 - Jump Point180 changing new owner to ClanGhostBear
+2025-03-21T04:00:45 - Jump Point189 changing new owner to ClanGhostBear
+2025-03-21T04:00:45 - Jump Point190 changing new owner to ClanGhostBear
+2025-03-21T04:00:45 - Jump Point191 changing new owner to ClanNovaCat
+2025-03-21T04:00:45 - Jump Point192 changing new owner to ClanNovaCat
+2025-03-21T04:00:45 - Jump Point193 changing new owner to ClanNovaCat
+2025-03-21T04:00:45 - Jump Point194 changing new owner to ClanNovaCat
+2025-03-21T04:00:45 - Jump Point195 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point196 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point197 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point198 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point199 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point200 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point201 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point202 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point203 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point204 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point205 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point206 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point207 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point208 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point209 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point210 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point211 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point212 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point213 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point214 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point215 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point216 changing new owner to ClanBurrock
+2025-03-21T04:00:45 - Jump Point217 changing new owner to ClanBurrock
+2025-03-21T04:00:45 - Jump Point224 changing new owner to ClanGoliathScorpion
+2025-03-21T04:00:45 - Jump Point230 changing new owner to ClanGoliathScorpion
+2025-03-21T04:00:45 - Jump Point 300 changing new owner to Lothian
+2025-03-21T04:00:45 - Jump Point 303 changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jump Point 306 changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jump Point 309 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 310 changing new owner to Tortuga
+2025-03-21T04:00:45 - Jump Point 312 changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jump Point 316 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 317 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 320 changing new owner to Tortuga
+2025-03-21T04:00:45 - Jump Point 322 changing new owner to Steiner
+2025-03-21T04:00:45 - Jump Point 323 changing new owner to Steiner
+2025-03-21T04:00:45 - Jump Point 325 changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jump Point 326 changing new owner to ClanCoyote
+2025-03-21T04:00:45 - Jump Point 327 changing new owner to ClanStarAdder
+2025-03-21T04:00:45 - Jump Point 328 changing new owner to ClanWolf
+2025-03-21T04:00:45 - Jump Point 329 changing new owner to ClanHellsHorses
+2025-03-21T04:00:45 - Jump Point 330 changing new owner to ClanBurrock
+2025-03-21T04:00:45 - Jump Point 331 changing new owner to ClanSmokeJaguar
+2025-03-21T04:00:45 - Jump Point 332 changing new owner to ClanWolf
+2025-03-21T04:00:45 - Jump Point 333 changing new owner to ClanSteelViper
+2025-03-21T04:00:45 - Jump Point 334 changing new owner to ClanSteelViper
+2025-03-21T04:00:45 - Jump Point 336 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 337 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 338 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 339 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 340 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 341 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 342 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 351 changing new owner to ClanGhostBear
+2025-03-21T04:00:45 - Jump Point 352 changing new owner to ClanGoliathScorpion
+2025-03-21T04:00:45 - Jump Point 353 changing new owner to ClanGoliathScorpion
+2025-03-21T04:00:45 - Jump Point 354 changing new owner to ClanGoliathScorpion
+2025-03-21T04:00:45 - Jump Point 355 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 356 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 357 changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jump Point 362 changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jump Point 363 changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jump Point 364 changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jump Point 367 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 368 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 369 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 370 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 371 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 372 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 373 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 374 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 375 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 379 changing new owner to Tortuga
+2025-03-21T04:00:45 - Jump Point 380 changing new owner to Tortuga
+2025-03-21T04:00:45 - Jump Point 381 changing new owner to Tortuga
+2025-03-21T04:00:45 - Jump Point 384 changing new owner to ClanGoliathScorpion
+2025-03-21T04:00:45 - Jump Point 386 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 387 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 388 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 389 changing new owner to ComStar
+2025-03-21T04:00:45 - Jump Point 390 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 391 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 392 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 393 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 394 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 395 changing new owner to Tortuga
+2025-03-21T04:00:45 - Jump Point 396 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 397 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 398 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 399 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 400 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 401 changing new owner to ClanStarAdder
+2025-03-21T04:00:45 - Jump Point 402 changing new owner to ClanJadeFalcon
+2025-03-21T04:00:45 - Jump Point 403 changing new owner to ClanSteelViper
+2025-03-21T04:00:45 - Jump Point 404 changing new owner to ClanStarAdder
+2025-03-21T04:00:45 - Jump Point 405 changing new owner to ClanWolf
+2025-03-21T04:00:45 - Jump Point 406 changing new owner to ClanJadeFalcon
+2025-03-21T04:00:45 - Jump Point 407 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point41 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 410 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 411 changing new owner to ClanWolf
+2025-03-21T04:00:45 - Jump Point 412 changing new owner to ClanStarAdder
+2025-03-21T04:00:45 - Jump Point 413 changing new owner to ClanStarAdder
+2025-03-21T04:00:45 - Jump Point 414 changing new owner to ClanJadeFalcon
+2025-03-21T04:00:45 - Jump Point 415 changing new owner to ClanHellsHorses
+2025-03-21T04:00:45 - Jump Point 416 changing new owner to ClanSmokeJaguar
+2025-03-21T04:00:45 - Jump Point 417 changing new owner to ClanHellsHorses
+2025-03-21T04:00:45 - Jump Point 418 changing new owner to ClanJadeFalcon
+2025-03-21T04:00:45 - Jump Point42 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point43 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point44 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 447 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 449 changing new owner to ClanBurrock
+2025-03-21T04:00:45 - Jump Point45 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 472 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 473 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 474 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point 481 changing new owner to Steiner
+2025-03-21T04:00:45 - Jump Point 500 changing new owner to ClanNovaCat
+2025-03-21T04:00:45 - Jump Point 501 changing new owner to ClanNovaCat
+2025-03-21T04:00:45 - Jump Point 502 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 503 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 504 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 505 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 506 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 507 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 508 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 509 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 510 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 511 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point 512 changing new owner to Hanse
+2025-03-21T04:00:45 - Jump Point52 changing new owner to Tortuga
+2025-03-21T04:00:45 - Jump Point 521 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point 522 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point 523 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point 524 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point 525 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point 526 changing new owner to ClanNovaCat
+2025-03-21T04:00:45 - Jump Point 527 changing new owner to ClanNovaCat
+2025-03-21T04:00:45 - Jump Point53 changing new owner to Tortuga
+2025-03-21T04:00:45 - Jump Point 547 changing new owner to Marian
+2025-03-21T04:00:45 - Jump Point 548 changing new owner to Marian
+2025-03-21T04:00:45 - Jump Point 549 changing new owner to Marian
+2025-03-21T04:00:45 - Jump Point 550 changing new owner to Axumite
+2025-03-21T04:00:45 - Jump Point57 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point58 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point62 changing new owner to Kurita
+2025-03-21T04:00:45 - Jump Point63 changing new owner to ComStar
+2025-03-21T04:00:45 - Jump Point78 changing new owner to ComStar
+2025-03-21T04:00:45 - Jump Point79 changing new owner to ComStar
+2025-03-21T04:00:45 - June changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Jungar Qi changing new owner to Liao
+2025-03-21T04:00:45 - Junior changing new owner to Outworld
+2025-03-21T04:00:45 - Juniper changing new owner to Kurita
+2025-03-21T04:00:45 - Kafr Silim changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Kaguyak changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Kaitangata changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Kakada changing new owner to Illyrian
+2025-03-21T04:00:45 - Kaldu changing new owner to Outworld
+2025-03-21T04:00:45 - Kalmar (CC) changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Kamenz changing new owner to Circinus
+2025-03-21T04:00:45 - Kanata changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Kandis changing new owner to Elysia
+2025-03-21T04:00:45 - Kannon changing new owner to Kurita
+2025-03-21T04:00:45 - Kanto changing new owner to Outworld
+2025-03-21T04:00:45 - Karachi changing new owner to Illyrian
+2025-03-21T04:00:45 - Karakiraz changing new owner to Illyrian
+2025-03-21T04:00:45 - Karbala changing new owner to Steiner
+2025-03-21T04:00:45 - Karkkila changing new owner to Circinus
+2025-03-21T04:00:45 - Karlstejn changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Karston changing new owner to Steiner
+2025-03-21T04:00:45 - Kasdach changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Katinka changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Katla changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Katlehong changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Kaufermann changing new owner to Davion
+2025-03-21T04:00:45 - Kaus Australis changing new owner to ComStar
+2025-03-21T04:00:45 - Kaus Media changing new owner to ComStar
+2025-03-21T04:00:45 - Kautokeino changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Kawich changing new owner to Liao
+2025-03-21T04:00:45 - Kazanka changing new owner to Outworld
+2025-03-21T04:00:45 - Kaznejoy (Kaznejov) changing new owner to Outworld
+2025-03-21T04:00:45 - Kazu changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Kearny changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Keeling changing new owner to Illyrian
+2025-03-21T04:00:45 - Keid changing new owner to ComStar
+2025-03-21T04:00:45 - Keihoku changing new owner to Outworld
+2025-03-21T04:00:45 - Kek changing new owner to Liao
+2025-03-21T04:00:45 - Kempten changing new owner to Elysia
+2025-03-21T04:00:45 - Kendall changing new owner to Illyrian
+2025-03-21T04:00:45 - Kenilworth changing new owner to Tortuga
+2025-03-21T04:00:45 - Kennard changing new owner to Outworld
+2025-03-21T04:00:45 - Kent changing new owner to Outworld
+2025-03-21T04:00:45 - Kentwood changing new owner to Outworld
+2025-03-21T04:00:45 - Kerman changing new owner to Steiner
+2025-03-21T04:00:45 - Kern changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Kervil changing new owner to ComStar
+2025-03-21T04:00:45 - Kesai (Kasai) changing new owner to Outworld
+2025-03-21T04:00:45 - Kessel changing new owner to ComStar
+2025-03-21T04:00:45 - Keuterville changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Keytesville changing new owner to Outworld
+2025-03-21T04:00:45 - Khi changing new owner to Davion
+2025-03-21T04:00:45 - Khon Kaen changing new owner to Circinus
+2025-03-21T04:00:45 - Kievanur changing new owner to Marik
+2025-03-21T04:00:45 - Kigamboni changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Kilarney changing new owner to Circinus
+2025-03-21T04:00:45 - Kilbourne changing new owner to Outworld
+2025-03-21T04:00:45 - Killbourn changing new owner to ComStar
+2025-03-21T04:00:45 - Kimball changing new owner to Steiner
+2025-03-21T04:00:45 - Kimi changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Kingtribel changing new owner to Kurita
+2025-03-21T04:00:45 - Kirbyville changing new owner to Outworld
+2025-03-21T04:00:45 - Kirchbach changing new owner to Elysia
+2025-03-21T04:00:45 - Kirkenlaard changing new owner to ComStar
+2025-03-21T04:00:45 - Kirkvåg (Toch Zu 2822+) changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Kiruna changing new owner to Elysia
+2025-03-21T04:00:45 - Kiserian changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Kitopler changing new owner to Circinus
+2025-03-21T04:00:45 - Kittery changing new owner to Liao
+2025-03-21T04:00:45 - Ki Zoban changing new owner to Outworld
+2025-03-21T04:00:45 - Klamriz changing new owner to Davion
+2025-03-21T04:00:45 - Klayne changing new owner to Liao
+2025-03-21T04:00:45 - Klenkar changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Knutdor changing new owner to Davion
+2025-03-21T04:00:45 - Knutstad changing new owner to Kurita
+2025-03-21T04:00:45 - Ko changing new owner to ComStar
+2025-03-21T04:00:45 - Kochab changing new owner to ComStar
+2025-03-21T04:00:45 - Köln (FWL) changing new owner to ComStar
+2025-03-21T04:00:45 - Kogl changing new owner to Illyrian
+2025-03-21T04:00:45 - Kohlman changing new owner to Liao
+2025-03-21T04:00:45 - Kokpekty changing new owner to Outworld
+2025-03-21T04:00:45 - Kolobrzeg changing new owner to Marik
+2025-03-21T04:00:45 - Konopiste changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Kooken's Pleasure Pit changing new owner to Oberon
+2025-03-21T04:00:45 - Korramabad changing new owner to Outworld
+2025-03-21T04:00:45 - Korvitz changing new owner to Davion
+2025-03-21T04:00:45 - Kosciusko changing new owner to Circinus
+2025-03-21T04:00:45 - Koskenkorva changing new owner to Chainelane
+2025-03-21T04:00:45 - Kotzebue changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Koulen changing new owner to Outworld
+2025-03-21T04:00:45 - Kountze changing new owner to Outworld
+2025-03-21T04:00:45 - Koury changing new owner to Outworld
+2025-03-21T04:00:45 - Krakatau changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Kreller changing new owner to Oberon
+2025-03-21T04:00:45 - Kristiandsund changing new owner to Liao
+2025-03-21T04:00:45 - Kublenz changing new owner to Outworld
+2025-03-21T04:00:45 - Kufstein changing new owner to Elysia
+2025-03-21T04:00:45 - Kujari changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Kumqwat changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Kupang (CC) changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Kupang (RW) changing new owner to Steiner
+2025-03-21T04:00:45 - Kurvasa changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Kutludugun changing new owner to Illyrian
+2025-03-21T04:00:45 - Kuzuu changing new owner to ComStar
+2025-03-21T04:00:45 - Kyrkbacken changing new owner to Liao
+2025-03-21T04:00:45 - La Blon changing new owner to ComStar
+2025-03-21T04:00:45 - Labouchere changing new owner to ComStar
+2025-03-21T04:00:45 - Labrea changing new owner to Elysia
+2025-03-21T04:00:45 - Lacadon changing new owner to Liao
+2025-03-21T04:00:45 - Lackhove changing new owner to Oberon
+2025-03-21T04:00:45 - Lackland changing new owner to Tortuga
+2025-03-21T04:00:45 - Lahti changing new owner to Illyrian
+2025-03-21T04:00:45 - La Ligua changing new owner to Outworld
+2025-03-21T04:00:45 - Lamar changing new owner to Kurita
+2025-03-21T04:00:45 - Lambrecht changing new owner to ComStar
+2025-03-21T04:00:45 - Lamon changing new owner to Marik
+2025-03-21T04:00:45 - Lamu (Tunlmar 2822+) changing new owner to Liao
+2025-03-21T04:00:45 - Lande changing new owner to Steiner
+2025-03-21T04:00:45 - Landfall changing new owner to Illyrian
+2025-03-21T04:00:45 - Land's End changing new owner to Outworld
+2025-03-21T04:00:45 - Laong changing new owner to Davion
+2025-03-21T04:00:45 - Larsha changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Last Chance changing new owner to Oberon
+2025-03-21T04:00:45 - Last Frontier changing new owner to Elysia
+2025-03-21T04:00:45 - Las Tunas changing new owner to Outworld
+2025-03-21T04:00:45 - Latexo changing new owner to Outworld
+2025-03-21T04:00:45 - Latice changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Launam changing new owner to Marik
+2025-03-21T04:00:45 - Laureles changing new owner to ComStar
+2025-03-21T04:00:45 - Lee changing new owner to Liao
+2025-03-21T04:00:45 - Leh changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Lengkong changing new owner to Illyrian
+2025-03-21T04:00:45 - Leoben changing new owner to Elysia
+2025-03-21T04:00:45 - Lepaterique changing new owner to Illyrian
+2025-03-21T04:00:45 - Leskovik changing new owner to Oberon
+2025-03-21T04:00:45 - Lesnovo changing new owner to Illyrian
+2025-03-21T04:00:45 - Leyda changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Lhasa changing new owner to Liao
+2025-03-21T04:00:45 - Liezen changing new owner to Elysia
+2025-03-21T04:00:45 - Lihue changing new owner to Tortuga
+2025-03-21T04:00:45 - Lindsay changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Linhauiguan changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Linneus changing new owner to Outworld
+2025-03-21T04:00:45 - Linqing changing new owner to Outworld
+2025-03-21T04:00:45 - Lintz changing new owner to Steiner
+2025-03-21T04:00:45 - Lipton changing new owner to ComStar
+2025-03-21T04:00:45 - Liu's Memory changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Loburg changing new owner to Circinus
+2025-03-21T04:00:45 - Lochmantle changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Lockdale changing new owner to ComStar
+2025-03-21T04:00:45 - Logres changing new owner to Steiner
+2025-03-21T04:00:45 - Loikaw changing new owner to Outworld
+2025-03-21T04:00:45 - Lokoja changing new owner to Steiner
+2025-03-21T04:00:45 - Londerholm changing new owner to ClanHellsHorses
+2025-03-21T04:00:45 - Lone Star changing new owner to ComStar
+2025-03-21T04:00:45 - Loongana changing new owner to Circinus
+2025-03-21T04:00:45 - Lopez changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Loric changing new owner to ComStar
+2025-03-21T04:00:45 - Lorkdal changing new owner to Davion
+2025-03-21T04:00:45 - Lothair changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Lovinac changing new owner to Elysia
+2025-03-21T04:00:45 - Loyalty changing new owner to Illyrian
+2025-03-21T04:00:45 - Luanda changing new owner to Steiner
+2025-03-21T04:00:45 - Lucknow changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Lukla changing new owner to Marik
+2025-03-21T04:00:45 - Lum changing new owner to ClanFireMandrill
+2025-03-21T04:00:45 - Lurgatan changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Lushun (Jibbet 3130+) changing new owner to Steiner
+2025-03-21T04:00:45 - Luxani changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Luzerne changing new owner to Elysia
+2025-03-21T04:00:45 - Lyceum changing new owner to Outworld
+2025-03-21T04:00:45 - Lynchburg changing new owner to Davion
+2025-03-21T04:00:45 - Lyons changing new owner to ComStar
+2025-03-21T04:00:45 - Lyreton changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Macintosh changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Mackenzie changing new owner to Illyrian
+2025-03-21T04:00:45 - Macomb changing new owner to Outworld
+2025-03-21T04:00:45 - Maderas changing new owner to Illyrian
+2025-03-21T04:00:45 - Madiun changing new owner to Circinus
+2025-03-21T04:00:45 - Madras changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Maharet changing new owner to Davion
+2025-03-21T04:00:45 - Mahrah changing new owner to Steiner
+2025-03-21T04:00:45 - Maia changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Maison changing new owner to Davion
+2025-03-21T04:00:45 - Maisons changing new owner to Circinus
+2025-03-21T04:00:45 - Malacca changing new owner to Steiner
+2025-03-21T04:00:45 - Maladar changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Malaga changing new owner to Steiner
+2025-03-21T04:00:45 - Malagrotta changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Malazan changing new owner to Circinus
+2025-03-21T04:00:45 - Maldive changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Malibu changing new owner to Oberon
+2025-03-21T04:00:45 - Manapire changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Manaus changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Mandal changing new owner to Liao
+2025-03-21T04:00:45 - Mandalas changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Mandaree changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Mandeville changing new owner to Outworld
+2025-03-21T04:00:45 - Manennaia changing new owner to Liao
+2025-03-21T04:00:45 - Mangor changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Mangzhangdian changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Manihiki changing new owner to Illyrian
+2025-03-21T04:00:45 - Mankova changing new owner to Illyrian
+2025-03-21T04:00:45 - Manksville changing new owner to Outworld
+2025-03-21T04:00:45 - Manotick changing new owner to Illyrian
+2025-03-21T04:00:45 - Mansfield changing new owner to Outworld
+2025-03-21T04:00:45 - Manteno changing new owner to ComStar
+2025-03-21T04:00:45 - Manx changing new owner to Steiner
+2025-03-21T04:00:45 - Mao changing new owner to Steiner
+2025-03-21T04:00:45 - Marathon changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Marcus changing new owner to ComStar
+2025-03-21T04:00:45 - Marielund changing new owner to Tortuga
+2025-03-21T04:00:45 - Maripa changing new owner to Outworld
+2025-03-21T04:00:45 - Marisura changing new owner to Steiner
+2025-03-21T04:00:45 - Markab changing new owner to ComStar
+2025-03-21T04:00:45 - Markesan changing new owner to ComStar
+2025-03-21T04:00:45 - Marlowe's Rift changing new owner to Davion
+2025-03-21T04:00:45 - Marodzi changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Marsalle changing new owner to Circinus
+2025-03-21T04:00:45 - Marshall changing new owner to ClanCoyote
+2025-03-21T04:00:45 - Marshdale changing new owner to Elysia
+2025-03-21T04:00:45 - Mas changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Masterton changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Matsuida changing new owner to Davion
+2025-03-21T04:00:45 - Mattisskogen changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Mauckport changing new owner to Outworld
+2025-03-21T04:00:45 - Mauripur changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Mavegh changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Maxie's Planet changing new owner to Oberon
+2025-03-21T04:00:45 - Maxwell changing new owner to Illyrian
+2025-03-21T04:00:45 - Mayetta changing new owner to Outworld
+2025-03-21T04:00:45 - Maynard changing new owner to Outworld
+2025-03-21T04:00:45 - Mazdru changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - McAffe changing new owner to ComStar
+2025-03-21T04:00:45 - McGehee changing new owner to Outworld
+2025-03-21T04:00:45 - McHenry changing new owner to ComStar
+2025-03-21T04:00:45 - McKellan changing new owner to Steiner
+2025-03-21T04:00:45 - McRae changing new owner to Tortuga
+2025-03-21T04:00:45 - Meadowvale changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Mearra changing new owner to Chainelane
+2025-03-21T04:00:45 - Mechdur changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Medron changing new owner to Outworld
+2025-03-21T04:00:45 - Megaris changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Meghy changing new owner to Steiner
+2025-03-21T04:00:45 - Megrez changing new owner to ComStar
+2025-03-21T04:00:45 - Meinhof changing new owner to Davion
+2025-03-21T04:00:45 - Melcher changing new owner to Outworld
+2025-03-21T04:00:45 - Melilla changing new owner to Steiner
+2025-03-21T04:00:45 - Melk changing new owner to Illyrian
+2025-03-21T04:00:45 - Memmingen changing new owner to Elysia
+2025-03-21T04:00:45 - Memphis changing new owner to Tortuga
+2025-03-21T04:00:45 - Mendham changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Menion changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Menkalinan changing new owner to Liao
+2025-03-21T04:00:45 - Menke changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Menkent changing new owner to ComStar
+2025-03-21T04:00:45 - Merdal changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Merlin changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Merlynpede changing new owner to Circinus
+2025-03-21T04:00:45 - Mermentau changing new owner to Outworld
+2025-03-21T04:00:45 - Merope changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Merowinger changing new owner to Tortuga
+2025-03-21T04:00:45 - Merton changing new owner to Illyrian
+2025-03-21T04:00:45 - Mesartim (Conway) changing new owner to Liao
+2025-03-21T04:00:45 - Metter changing new owner to Tortuga
+2025-03-21T04:00:45 - Mezzana changing new owner to Circinus
+2025-03-21T04:00:45 - Michtal changing new owner to Outworld
+2025-03-21T04:00:45 - Mickleover changing new owner to Steiner
+2025-03-21T04:00:45 - Micros changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Midale changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Midkiff changing new owner to ComStar
+2025-03-21T04:00:45 - Midthun changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Milligan changing new owner to Outworld
+2025-03-21T04:00:45 - Millray changing new owner to Outworld
+2025-03-21T04:00:45 - Millungera changing new owner to Circinus
+2025-03-21T04:00:45 - Milton changing new owner to ComStar
+2025-03-21T04:00:45 - Milvano changing new owner to Circinus
+2025-03-21T04:00:45 - Mindrel changing new owner to Outworld
+2025-03-21T04:00:45 - Minette changing new owner to Tortuga
+2025-03-21T04:00:45 - Mira changing new owner to Liao
+2025-03-21T04:00:45 - Mirach changing new owner to Liao
+2025-03-21T04:00:45 - Mirage changing new owner to Outworld
+2025-03-21T04:00:45 - Mirfak changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Misery changing new owner to Davion
+2025-03-21T04:00:45 - Mitchel changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Miyada changing new owner to Outworld
+2025-03-21T04:00:45 - Miyako changing new owner to Kurita
+2025-03-21T04:00:45 - Miyazaki changing new owner to ComStar
+2025-03-21T04:00:45 - Mizar changing new owner to ComStar
+2025-03-21T04:00:45 - Mizt changing new owner to Outworld
+2025-03-21T04:00:45 - Mizunami changing new owner to Outworld
+2025-03-21T04:00:45 - Mogabouti changing new owner to Steiner
+2025-03-21T04:00:45 - Mohács changing new owner to Illyrian
+2025-03-21T04:00:45 - Mokane changing new owner to Outworld
+2025-03-21T04:00:45 - Mokpo changing new owner to Kurita
+2025-03-21T04:00:45 - Molokai changing new owner to Illyrian
+2025-03-21T04:00:45 - Monroe changing new owner to Outworld
+2025-03-21T04:00:45 - Monthey changing new owner to Steiner
+2025-03-21T04:00:45 - Montour changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Montsegur changing new owner to Steiner
+2025-03-21T04:00:45 - Monywa changing new owner to Outworld
+2025-03-21T04:00:45 - Moore changing new owner to ComStar
+2025-03-21T04:00:45 - Moravian changing new owner to Liao
+2025-03-21T04:00:45 - Mordialloc changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Moritz changing new owner to Steiner
+2025-03-21T04:00:45 - Moroney changing new owner to Steiner
+2025-03-21T04:00:45 - Morrigan changing new owner to Circinus
+2025-03-21T04:00:45 - Morrill changing new owner to Outworld
+2025-03-21T04:00:45 - Morven changing new owner to Tortuga
+2025-03-21T04:00:45 - Mosiro changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Mozirje changing new owner to Oberon
+2025-03-21T04:00:45 - Multan changing new owner to Outworld
+2025-03-21T04:00:45 - Mumbai changing new owner to Liao
+2025-03-21T04:00:45 - Mundrabilla changing new owner to Illyrian
+2025-03-21T04:00:45 - Muphrid changing new owner to ComStar
+2025-03-21T04:00:45 - Murchison changing new owner to ComStar
+2025-03-21T04:00:45 - Muridox changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Murmansk changing new owner to Outworld
+2025-03-21T04:00:45 - Muroto changing new owner to Kurita
+2025-03-21T04:00:45 - Murris changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Muswell changing new owner to Kurita
+2025-03-21T04:00:45 - Myrrdin changing new owner to Circinus
+2025-03-21T04:00:45 - Myrvoll changing new owner to Liao
+2025-03-21T04:00:45 - Mystras changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Mytilene changing new owner to Davion
+2025-03-21T04:00:45 - Naco changing new owner to Steiner
+2025-03-21T04:00:45 - Nagel changing new owner to Outworld
+2025-03-21T04:00:45 - Nai-Stohl changing new owner to ComStar
+2025-03-21T04:00:45 - Naissus changing new owner to Illyrian
+2025-03-21T04:00:45 - Naka Pabni changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Nam Dinh changing new owner to Marik
+2025-03-21T04:00:45 - Namen changing new owner to Davion
+2025-03-21T04:00:45 - Nara changing new owner to Outworld
+2025-03-21T04:00:45 - Narellan changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Naryn changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Nashira changing new owner to ComStar
+2025-03-21T04:00:45 - Necedah changing new owner to Outworld
+2025-03-21T04:00:45 - Negushevo changing new owner to Illyrian
+2025-03-21T04:00:45 - Neosho changing new owner to Outworld
+2025-03-21T04:00:45 - Nerum changing new owner to Outworld
+2025-03-21T04:00:45 - Nestor changing new owner to ComStar
+2025-03-21T04:00:45 - New Aragon changing new owner to Liao
+2025-03-21T04:00:45 - New Athens changing new owner to Liao
+2025-03-21T04:00:45 - New Avalon changing new owner to ComStar
+2025-03-21T04:00:45 - New Bergen changing new owner to Elysia
+2025-03-21T04:00:45 - New Britain (Inglesmond 2349+) changing new owner to ComStar
+2025-03-21T04:00:45 - New Caledonia changing new owner to Oberon
+2025-03-21T04:00:45 - Newcastle changing new owner to Illyrian
+2025-03-21T04:00:45 - New Ceylon changing new owner to Kurita
+2025-03-21T04:00:45 - New Crete changing new owner to Liao
+2025-03-21T04:00:45 - New Dallas changing new owner to ComStar
+2025-03-21T04:00:45 - New Damascus changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - New Florence changing new owner to ComStar
+2025-03-21T04:00:45 - New Galicia changing new owner to Illyrian
+2025-03-21T04:00:45 - New Home changing new owner to ComStar
+2025-03-21T04:00:45 - New India changing new owner to Circinus
+2025-03-21T04:00:45 - New Kent changing new owner to ClanStarAdder
+2025-03-21T04:00:45 - New Kyoto changing new owner to Marik
+2025-03-21T04:00:45 - New Mendham changing new owner to Davion
+2025-03-21T04:00:45 - New Olympia changing new owner to ComStar
+2025-03-21T04:00:45 - New Oslo changing new owner to Elysia
+2025-03-21T04:00:45 - New Praha changing new owner to Marik
+2025-03-21T04:00:45 - New Roland changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - New Samarkand changing new owner to Outworld
+2025-03-21T04:00:45 - New Sapporo changing new owner to Kurita
+2025-03-21T04:00:45 - New Sarum changing new owner to Kurita
+2025-03-21T04:00:45 - New Stevens changing new owner to ComStar
+2025-03-21T04:00:45 - New Sumatra changing new owner to Kurita
+2025-03-21T04:00:45 - New Syrtis changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - New Troy changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - New Valencia changing new owner to ComStar
+2025-03-21T04:00:45 - New Venice changing new owner to Lothian
+2025-03-21T04:00:45 - New Ålborg changing new owner to Oberon
+2025-03-21T04:00:45 - Nexus Ri changing new owner to Outworld
+2025-03-21T04:00:45 - Nichol's Rest changing new owner to Steiner
+2025-03-21T04:00:45 - Nightwish changing new owner to Circinus
+2025-03-21T04:00:45 - Nihal changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Niihau changing new owner to ComStar
+2025-03-21T04:00:45 - Niles (Clan) changing new owner to ClanWolf
+2025-03-21T04:00:45 - Niles (OA) changing new owner to Outworld
+2025-03-21T04:00:45 - Ningxia changing new owner to Outworld
+2025-03-21T04:00:45 - Niomede changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Niops changing new owner to Illyrian
+2025-03-21T04:00:45 - Niquinohomo changing new owner to Tortuga
+2025-03-21T04:00:45 - Nirasaki changing new owner to ComStar
+2025-03-21T04:00:45 - Nis changing new owner to Davion
+2025-03-21T04:00:45 - Nizina changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Noatak changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Nobel changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Nockatunga changing new owner to Circinus
+2025-03-21T04:00:45 - Nogales changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Noh-wan Hohm changing new owner to Davion
+2025-03-21T04:00:45 - Non Diz changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Nopah changing new owner to Liao
+2025-03-21T04:00:45 - Norfolk changing new owner to Illyrian
+2025-03-21T04:00:45 - Norn (Verthandi) changing new owner to Oberon
+2025-03-21T04:00:45 - Northsun changing new owner to Outworld
+2025-03-21T04:00:45 - Northwind changing new owner to ComStar
+2025-03-21T04:00:45 - Nouveau Toulouse changing new owner to Outworld
+2025-03-21T04:00:45 - Nuelson Minor changing new owner to Steiner
+2025-03-21T04:00:45 - Nukus changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Nullarbor changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Numenor changing new owner to ComStar
+2025-03-21T04:00:45 - Nusakan changing new owner to ComStar
+2025-03-21T04:00:45 - Nykvarn changing new owner to Elysia
+2025-03-21T04:00:45 - Obrenovac changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Odawara changing new owner to Kurita
+2025-03-21T04:00:45 - Odell changing new owner to ComStar
+2025-03-21T04:00:45 - Offerman changing new owner to Outworld
+2025-03-21T04:00:45 - Okains changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Okaya changing new owner to Kurita
+2025-03-21T04:00:45 - Olafsvik changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Old Canton changing new owner to Outworld
+2025-03-21T04:00:45 - Oldsmith changing new owner to Outworld
+2025-03-21T04:00:45 - Oli changing new owner to Davion
+2025-03-21T04:00:45 - Oligar changing new owner to Liao
+2025-03-21T04:00:45 - Olindo changing new owner to Tortuga
+2025-03-21T04:00:45 - Oliver changing new owner to ComStar
+2025-03-21T04:00:45 - Oltepesi changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Onverwacht changing new owner to Outworld
+2025-03-21T04:00:45 - Oporto (Veil 3075+) changing new owner to Steiner
+2025-03-21T04:00:45 - Ordino changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Orestes changing new owner to Steiner
+2025-03-21T04:00:45 - Orkney (TC) changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Ormal changing new owner to Outworld
+2025-03-21T04:00:45 - Osset changing new owner to Outworld
+2025-03-21T04:00:45 - Osumi changing new owner to Kurita
+2025-03-21T04:00:45 - Otisberg changing new owner to Circinus
+2025-03-21T04:00:45 - Ottumwa changing new owner to Outworld
+2025-03-21T04:00:45 - Ouagadougou (Silence 3130+) changing new owner to Kurita
+2025-03-21T04:00:45 - Ourem changing new owner to Outworld
+2025-03-21T04:00:45 - Outer Volta changing new owner to Elysia
+2025-03-21T04:00:45 - Outpost changing new owner to Elysia
+2025-03-21T04:00:45 - Outreach changing new owner to ComStar
+2025-03-21T04:00:45 - Oyevaina changing new owner to Kurita
+2025-03-21T04:00:45 - Ozawa changing new owner to ComStar
+2025-03-21T04:00:45 - Paches changing new owner to Davion
+2025-03-21T04:00:45 - Pacifica (Chara) changing new owner to ComStar
+2025-03-21T04:00:45 - Pajarito changing new owner to Outworld
+2025-03-21T04:00:45 - Palladaine changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Palmyra changing new owner to Outworld
+2025-03-21T04:00:45 - Panjang changing new owner to Illyrian
+2025-03-21T04:00:45 - Panpour changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Panzyr changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Paradise changing new owner to Illyrian
+2025-03-21T04:00:45 - Parakoila changing new owner to Oberon
+2025-03-21T04:00:45 - Pardeau changing new owner to Marik
+2025-03-21T04:00:45 - Parian changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Paris changing new owner to Davion
+2025-03-21T04:00:45 - Parma changing new owner to Outworld
+2025-03-21T04:00:45 - Parvan changing new owner to Steiner
+2025-03-21T04:00:45 - Pascagoula changing new owner to Outworld
+2025-03-21T04:00:45 - Pasemah changing new owner to Steiner
+2025-03-21T04:00:45 - Pasig changing new owner to Oberon
+2025-03-21T04:00:45 - Patan changing new owner to Liao
+2025-03-21T04:00:45 - Pattison changing new owner to Outworld
+2025-03-21T04:00:45 - Pattonsbrug changing new owner to Outworld
+2025-03-21T04:00:45 - Pavia changing new owner to Marik
+2025-03-21T04:00:45 - Paxon changing new owner to ClanSmokeJaguar
+2025-03-21T04:00:45 - Payia changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Payvand changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Peabody changing new owner to Outworld
+2025-03-21T04:00:45 - Pec changing new owner to Marik
+2025-03-21T04:00:45 - Pell changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Pencader changing new owner to Circinus
+2025-03-21T04:00:45 - Penobscot changing new owner to Circinus
+2025-03-21T04:00:45 - Pentvar changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Périgueux changing new owner to Outworld
+2025-03-21T04:00:45 - Perkasie changing new owner to Liao
+2025-03-21T04:00:45 - Pernik changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Persistence changing new owner to Oberon
+2025-03-21T04:00:45 - Phecda changing new owner to ComStar
+2025-03-21T04:00:45 - Pierce changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Pietermaritzburg changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Pike changing new owner to ComStar
+2025-03-21T04:00:45 - Pilon changing new owner to Outworld
+2025-03-21T04:00:45 - Pilpala changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Pingree changing new owner to ComStar
+2025-03-21T04:00:45 - Pinnacle changing new owner to Elysia
+2025-03-21T04:00:45 - Piriapolis changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Pitkin changing new owner to Outworld
+2025-03-21T04:00:45 - Planting changing new owner to Oberon
+2025-03-21T04:00:45 - Plataea changing new owner to Liao
+2025-03-21T04:00:45 - Pleiades Cluster changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Pliska changing new owner to Marik
+2025-03-21T04:00:45 - Pojos changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Pokhara changing new owner to ComStar
+2025-03-21T04:00:45 - Polcenigo changing new owner to Elysia
+2025-03-21T04:00:45 - Pollux changing new owner to ComStar
+2025-03-21T04:00:45 - Pomme De Terre changing new owner to Elysia
+2025-03-21T04:00:45 - Pondicherry changing new owner to Outworld
+2025-03-21T04:00:45 - Port Moseby changing new owner to Kurita
+2025-03-21T04:00:45 - Port Vail (The Rack 3050+) changing new owner to Steiner
+2025-03-21T04:00:45 - Poulsbo changing new owner to Circinus
+2025-03-21T04:00:45 - Prato changing new owner to Illyrian
+2025-03-21T04:00:45 - Predlitz changing new owner to Elysia
+2025-03-21T04:00:45 - Premana changing new owner to Circinus
+2025-03-21T04:00:45 - Pressby changing new owner to ComStar
+2025-03-21T04:00:45 - Preston (FWL) changing new owner to ComStar
+2025-03-21T04:00:45 - Primus changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Principia changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Princton changing new owner to Outworld
+2025-03-21T04:00:45 - Priori changing new owner to ClanHellsHorses
+2025-03-21T04:00:45 - Prix changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Procyon changing new owner to ComStar
+2025-03-21T04:00:45 - Promised Land changing new owner to Circinus
+2025-03-21T04:00:45 - Proserpina changing new owner to Davion
+2025-03-21T04:00:45 - Protection changing new owner to Outworld
+2025-03-21T04:00:45 - Prydain changing new owner to Steiner
+2025-03-21T04:00:45 - Pula changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Pusht-i-rud changing new owner to Outworld
+2025-03-21T04:00:45 - Puttalam changing new owner to Outworld
+2025-03-21T04:00:45 - Qalzi changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Qandahar changing new owner to Outworld
+2025-03-21T04:00:45 - Qualip (Kerensky's Vision 3130+) changing new owner to Steiner
+2025-03-21T04:00:45 - Quarell changing new owner to Steiner
+2025-03-21T04:00:45 - Quelimane changing new owner to Steiner
+2025-03-21T04:00:45 - Quentin changing new owner to ComStar
+2025-03-21T04:00:45 - Quimberton changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Quimper (Chirac 3130+) changing new owner to Davion
+2025-03-21T04:00:45 - Quimper changing new owner to Davion
+2025-03-21T04:00:45 - Quincy changing new owner to Outworld
+2025-03-21T04:00:45 - Quines changing new owner to Outworld
+2025-03-21T04:00:45 - Radlje changing new owner to Elysia
+2025-03-21T04:00:45 - Radostov changing new owner to Circinus
+2025-03-21T04:00:45 - Radstadt changing new owner to Elysia
+2025-03-21T04:00:45 - Raetia changing new owner to Outworld
+2025-03-21T04:00:45 - Ragusa changing new owner to Marik
+2025-03-21T04:00:45 - Rahne changing new owner to Marik
+2025-03-21T04:00:45 - Rajkot changing new owner to Circinus
+2025-03-21T04:00:45 - Ramen changing new owner to Marik
+2025-03-21T04:00:45 - Ramgarh changing new owner to Outworld
+2025-03-21T04:00:45 - Raphael changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Rapla changing new owner to Circinus
+2025-03-21T04:00:45 - Rasalas changing new owner to ComStar
+2025-03-21T04:00:45 - Rasalhague changing new owner to Elysia
+2025-03-21T04:00:45 - Redondo changing new owner to Tortuga
+2025-03-21T04:00:45 - Regis Roost changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Reinhardstein changing new owner to Davion
+2025-03-21T04:00:45 - Rennes changing new owner to Tortuga
+2025-03-21T04:00:45 - Renorsal changing new owner to Outworld
+2025-03-21T04:00:45 - Renown changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Renren changing new owner to Oberon
+2025-03-21T04:00:45 - Rentz changing new owner to Tortuga
+2025-03-21T04:00:45 - Repulse changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Restitution changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Revel changing new owner to Illyrian
+2025-03-21T04:00:45 - Revivim changing new owner to Circinus
+2025-03-21T04:00:45 - Rexburg changing new owner to ComStar
+2025-03-21T04:00:45 - Rezak's Hole changing new owner to Outworld
+2025-03-21T04:00:45 - Rhodos (Runrig 2822+) changing new owner to Liao
+2025-03-21T04:00:45 - Ridderkerk changing new owner to Oberon
+2025-03-21T04:00:45 - Ridgebrook changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Rigil Kentarus changing new owner to ComStar
+2025-03-21T04:00:45 - Rijeka changing new owner to Circinus
+2025-03-21T04:00:45 - Rio changing new owner to Liao
+2025-03-21T04:00:45 - Roadside changing new owner to Oberon
+2025-03-21T04:00:45 - Robsart changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Roche changing new owner to ClanJadeFalcon
+2025-03-21T04:00:45 - Rochers changing new owner to Circinus
+2025-03-21T04:00:45 - Rocky changing new owner to ComStar
+2025-03-21T04:00:45 - Rodigo changing new owner to Elysia
+2025-03-21T04:00:45 - Rohinjan changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Rollis changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Romita changing new owner to Illyrian
+2025-03-21T04:00:45 - Romulus changing new owner to Oberon
+2025-03-21T04:00:45 - Rondon changing new owner to Outworld
+2025-03-21T04:00:45 - Ronel changing new owner to ComStar
+2025-03-21T04:00:45 - Roscoff changing new owner to Outworld
+2025-03-21T04:00:45 - Rosendal changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Rosepine changing new owner to Outworld
+2025-03-21T04:00:45 - Rosetta changing new owner to Steiner
+2025-03-21T04:00:45 - Rosice changing new owner to Circinus
+2025-03-21T04:00:45 - Rosiclare changing new owner to Outworld
+2025-03-21T04:00:45 - Rowe changing new owner to Outworld
+2025-03-21T04:00:45 - Ruchbah changing new owner to Liao
+2025-03-21T04:00:45 - Ruschegg changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Ryans Fate changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Ryerson changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Rzhishchev changing new owner to Illyrian
+2025-03-21T04:00:45 - Sabhal Mòr Ostaig changing new owner to Steiner
+2025-03-21T04:00:45 - Sabik changing new owner to ComStar
+2025-03-21T04:00:45 - Sackville changing new owner to Illyrian
+2025-03-21T04:00:45 - Sacromonte changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Sadachbia changing new owner to ComStar
+2025-03-21T04:00:45 - Sadurni changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Safe Port changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Saffel changing new owner to ComStar
+2025-03-21T04:00:45 - Salardion changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Salisberg changing new owner to Steiner
+2025-03-21T04:00:45 - Saltillo changing new owner to Circinus
+2025-03-21T04:00:45 - Saltural changing new owner to Davion
+2025-03-21T04:00:45 - Saltville changing new owner to Davion
+2025-03-21T04:00:45 - Salvende changing new owner to Outworld
+2025-03-21T04:00:45 - San Carlos changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Sanda changing new owner to Outworld
+2025-03-21T04:00:45 - San Nicolas changing new owner to Illyrian
+2025-03-21T04:00:45 - Santa-Ana changing new owner to Outworld
+2025-03-21T04:00:45 - Santander (Santander's World) changing new owner to Elysia
+2025-03-21T04:00:45 - Santiago (OA) changing new owner to Outworld
+2025-03-21T04:00:45 - Sanurcha (Ildrong 2750+) changing new owner to Tortuga
+2025-03-21T04:00:45 - Sanurcha changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Saonara changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Sapienza changing new owner to Circinus
+2025-03-21T04:00:45 - Sappho changing new owner to Marik
+2025-03-21T04:00:45 - Sardis changing new owner to Illyrian
+2025-03-21T04:00:45 - Sarikavak changing new owner to Circinus
+2025-03-21T04:00:45 - Sarkel changing new owner to Marik
+2025-03-21T04:00:45 - Sarpsborg changing new owner to Marik
+2025-03-21T04:00:45 - Sartu (Bastille 3130+) changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Saumur changing new owner to Outworld
+2025-03-21T04:00:45 - Savinsville changing new owner to Elysia
+2025-03-21T04:00:45 - Savonburg changing new owner to Outworld
+2025-03-21T04:00:45 - Sax changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Scarborough changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Scheat changing new owner to Davion
+2025-03-21T04:00:45 - Schererville changing new owner to Circinus
+2025-03-21T04:00:45 - Scheuerheck changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Schiedam changing new owner to Illyrian
+2025-03-21T04:00:45 - Schirmeck changing new owner to Outworld
+2025-03-21T04:00:45 - Schrim changing new owner to Outworld
+2025-03-21T04:00:45 - Schuyler changing new owner to Elysia
+2025-03-21T04:00:45 - Scituate changing new owner to Liao
+2025-03-21T04:00:45 - Scudder changing new owner to ComStar
+2025-03-21T04:00:45 - Sebha changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Segerica changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Seiduts changing new owner to Oberon
+2025-03-21T04:00:45 - Semichi changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Sendai changing new owner to Kurita
+2025-03-21T04:00:45 - Senftenberg changing new owner to ComStar
+2025-03-21T04:00:45 - Senorbi changing new owner to Outworld
+2025-03-21T04:00:45 - Sentarus changing new owner to Chainelane
+2025-03-21T04:00:45 - Serenity changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Sertar changing new owner to Outworld
+2025-03-21T04:00:45 - Seuta Bimyeong changing new owner to Kurita
+2025-03-21T04:00:45 - Seven Lands (Garotte 3130+) changing new owner to Steiner
+2025-03-21T04:00:45 - Shahr Kord changing new owner to Circinus
+2025-03-21T04:00:45 - Shalaine changing new owner to Steiner
+2025-03-21T04:00:45 - Shardayne changing new owner to Kurita
+2025-03-21T04:00:45 - Sharpe (Obeedah 3025+) changing new owner to Liao
+2025-03-21T04:00:45 - Sharqah changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Shasta changing new owner to ComStar
+2025-03-21T04:00:45 - Shaun (Burl 2822+) changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Shaun changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Shaunavon changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Shawnee changing new owner to Outworld
+2025-03-21T04:00:45 - Sheratan changing new owner to ComStar
+2025-03-21T04:00:45 - Sheridan (FWL) changing new owner to ComStar
+2025-03-21T04:00:45 - Sherwood changing new owner to Tortuga
+2025-03-21T04:00:45 - Shiba changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Shiloh changing new owner to ComStar
+2025-03-21T04:00:45 - Shinonoi changing new owner to ComStar
+2025-03-21T04:00:45 - Shira changing new owner to Outworld
+2025-03-21T04:00:45 - Shiri changing new owner to Outworld
+2025-03-21T04:00:45 - Shiro changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Shubuta changing new owner to Tortuga
+2025-03-21T04:00:45 - Shuen Wan changing new owner to Liao
+2025-03-21T04:00:45 - Shui-pào changing new owner to Liao
+2025-03-21T04:00:45 - Sialkot changing new owner to Steiner
+2025-03-21T04:00:45 - Sichuan changing new owner to Liao
+2025-03-21T04:00:45 - Sidon changing new owner to Steiner
+2025-03-21T04:00:45 - Siendou changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Sierpc changing new owner to Circinus
+2025-03-21T04:00:45 - Sierra changing new owner to Circinus
+2025-03-21T04:00:45 - Sighisoara changing new owner to Outworld
+2025-03-21T04:00:45 - Sigma Mare changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Sikkim changing new owner to Outworld
+2025-03-21T04:00:45 - Silver changing new owner to Illyrian
+2025-03-21T04:00:45 - Simancas changing new owner to Davion
+2025-03-21T04:00:45 - Simferopol changing new owner to Outworld
+2025-03-21T04:00:45 - Simone changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Simpson Desert changing new owner to Circinus
+2025-03-21T04:00:45 - Sindalin changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Sinope changing new owner to Outworld
+2025-03-21T04:00:45 - Sirdar changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Sirius changing new owner to ComStar
+2025-03-21T04:00:45 - Skallevoll changing new owner to Elysia
+2025-03-21T04:00:45 - Skaslien changing new owner to Davion
+2025-03-21T04:00:45 - Skat changing new owner to ComStar
+2025-03-21T04:00:45 - Skepptana changing new owner to Tortuga
+2025-03-21T04:00:45 - Skiland changing new owner to Oberon
+2025-03-21T04:00:45 - Skokie changing new owner to Steiner
+2025-03-21T04:00:45 - Skondia changing new owner to ComStar
+2025-03-21T04:00:45 - Skvorec changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Skye changing new owner to ComStar
+2025-03-21T04:00:45 - Slewis changing new owner to Steiner
+2025-03-21T04:00:45 - Small World changing new owner to ComStar
+2025-03-21T04:00:45 - Smithon changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Smythe changing new owner to Davion
+2025-03-21T04:00:45 - Snailzar changing new owner to Liao
+2025-03-21T04:00:45 - Snowdon changing new owner to Steiner
+2025-03-21T04:00:45 - Sodertalje changing new owner to Tortuga
+2025-03-21T04:00:45 - Solaris changing new owner to Marik
+2025-03-21T04:00:45 - Solor changing new owner to Steiner
+2025-03-21T04:00:45 - Somerset changing new owner to Oberon
+2025-03-21T04:00:45 - Songgang changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Son Hoa changing new owner to Circinus
+2025-03-21T04:00:45 - Sonnia changing new owner to Liao
+2025-03-21T04:00:45 - Sornath changing new owner to Outworld
+2025-03-21T04:00:45 - Sorsk changing new owner to Outworld
+2025-03-21T04:00:45 - Soul changing new owner to Outworld
+2025-03-21T04:00:45 - Sparrevohn changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Sparta changing new owner to Illyrian
+2025-03-21T04:00:45 - Spica changing new owner to Liao
+2025-03-21T04:00:45 - Spirit changing new owner to Illyrian
+2025-03-21T04:00:45 - Spittal changing new owner to Elysia
+2025-03-21T04:00:45 - St. Cyr changing new owner to Tortuga
+2025-03-21T04:00:45 - St. Gall changing new owner to Marik
+2025-03-21T04:00:45 - St. John changing new owner to Elysia
+2025-03-21T04:00:45 - St. Robert changing new owner to Outworld
+2025-03-21T04:00:45 - Staffin changing new owner to Liao
+2025-03-21T04:00:45 - Stanley changing new owner to Circinus
+2025-03-21T04:00:45 - Stantsiya changing new owner to Circinus
+2025-03-21T04:00:45 - Stanzach changing new owner to Elysia
+2025-03-21T04:00:45 - Stardawn changing new owner to Steiner
+2025-03-21T04:00:45 - Star's End (Novo Cressidas) changing new owner to Oberon
+2025-03-21T04:00:45 - Starshine changing new owner to Circinus
+2025-03-21T04:00:45 - Steelton changing new owner to Oberon
+2025-03-21T04:00:45 - Steinhatchee changing new owner to Tortuga
+2025-03-21T04:00:45 - Stellaris changing new owner to Steiner
+2025-03-21T04:00:45 - Sterling changing new owner to ComStar
+2025-03-21T04:00:45 - Sterlington changing new owner to Outworld
+2025-03-21T04:00:45 - Stettin (FWL) changing new owner to Illyrian
+2025-03-21T04:00:45 - Stirling changing new owner to Steiner
+2025-03-21T04:00:45 - Stockpoll changing new owner to Davion
+2025-03-21T04:00:45 - Stonarboi changing new owner to Steiner
+2025-03-21T04:00:45 - Stotzing changing new owner to Illyrian
+2025-03-21T04:00:45 - Strana Mechty changing new owner to ClanCoyote
+2025-03-21T04:00:45 - Stratford changing new owner to Outworld
+2025-03-21T04:00:45 - Strawn changing new owner to ComStar
+2025-03-21T04:00:45 - Streator changing new owner to ComStar
+2025-03-21T04:00:45 - Sturganos changing new owner to Outworld
+2025-03-21T04:00:45 - Sturgis changing new owner to Outworld
+2025-03-21T04:00:45 - Styx changing new owner to ComStar
+2025-03-21T04:00:45 - Suianheer changing new owner to Outworld
+2025-03-21T04:00:45 - Sullivan changing new owner to Outworld
+2025-03-21T04:00:45 - Summer changing new owner to ComStar
+2025-03-21T04:00:45 - Summerstide changing new owner to Tortuga
+2025-03-21T04:00:45 - Sumy changing new owner to Liao
+2025-03-21T04:00:45 - Sunchon changing new owner to Kurita
+2025-03-21T04:00:45 - Sunnywood changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Sun Prairie changing new owner to Outworld
+2025-03-21T04:00:45 - Susquehanna changing new owner to Elysia
+2025-03-21T04:00:45 - Suzano changing new owner to Liao
+2025-03-21T04:00:45 - Svarstaad changing new owner to Oberon
+2025-03-21T04:00:45 - Svelvik changing new owner to Elysia
+2025-03-21T04:00:45 - Sverdlovsk changing new owner to Outworld
+2025-03-21T04:00:45 - Swales changing new owner to Outworld
+2025-03-21T04:00:45 - Sweet Water changing new owner to Steiner
+2025-03-21T04:00:45 - Sylvan changing new owner to Outworld
+2025-03-21T04:00:45 - Symsonia changing new owner to Tortuga
+2025-03-21T04:00:45 - Synsstad changing new owner to Steiner
+2025-03-21T04:00:45 - Syrma changing new owner to ComStar
+2025-03-21T04:00:45 - Szepes changing new owner to ComStar
+2025-03-21T04:00:45 - Szombathely changing new owner to ComStar
+2025-03-21T04:00:45 - Tabayama changing new owner to Outworld
+2025-03-21T04:00:45 - Tabit (Tyrfing 2350's+) changing new owner to ComStar
+2025-03-21T04:00:45 - Takata (New Start 3130+) changing new owner to Outworld
+2025-03-21T04:00:45 - Talisker changing new owner to Kurita
+2025-03-21T04:00:45 - Talitha changing new owner to ComStar
+2025-03-21T04:00:45 - Tallassee changing new owner to Davion
+2025-03-21T04:00:45 - Tallin changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Tallmadge changing new owner to Outworld
+2025-03-21T04:00:45 - Tamarind changing new owner to Circinus
+2025-03-21T04:00:45 - Tancredi changing new owner to Outworld
+2025-03-21T04:00:45 - Tangerz (Mayadi 2822+) changing new owner to Kurita
+2025-03-21T04:00:45 - Tangipahoa changing new owner to Outworld
+2025-03-21T04:00:45 - Tantallon changing new owner to Outworld
+2025-03-21T04:00:45 - Tantara changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Tanz changing new owner to Outworld
+2025-03-21T04:00:45 - Tapachula changing new owner to Illyrian
+2025-03-21T04:00:45 - Taran's World changing new owner to Oberon
+2025-03-21T04:00:45 - Tarkio changing new owner to Outworld
+2025-03-21T04:00:45 - Tathis changing new owner to ClanStarAdder
+2025-03-21T04:00:45 - Tatopani changing new owner to Circinus
+2025-03-21T04:00:45 - Tau Ceti (New Earth 2116+) changing new owner to ComStar
+2025-03-21T04:00:45 - Taumaturgo changing new owner to Outworld
+2025-03-21T04:00:45 - Taygeta changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Tazaraki changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Tchamba changing new owner to Illyrian
+2025-03-21T04:00:45 - Tecumseh changing new owner to Liao
+2025-03-21T04:00:45 - Tedibyhr changing new owner to Liao
+2025-03-21T04:00:45 - Tegaldanas changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Tellman's Mistake changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Telos changing new owner to ComStar
+2025-03-21T04:00:45 - Tematagi changing new owner to Illyrian
+2025-03-21T04:00:45 - Teng changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Tengil changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Tentativa changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Terra Firma changing new owner to ComStar
+2025-03-21T04:00:45 - Tetschner changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Tetski changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Texlos changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Teylingen changing new owner to Davion
+2025-03-21T04:00:45 - Teyvareb changing new owner to Circinus
+2025-03-21T04:00:45 - Thannhausen changing new owner to Steiner
+2025-03-21T04:00:45 - Thazi changing new owner to Outworld
+2025-03-21T04:00:45 - The Edge changing new owner to Elysia
+2025-03-21T04:00:45 - Thermopolis changing new owner to ComStar
+2025-03-21T04:00:45 - Thessalonika changing new owner to Elysia
+2025-03-21T04:00:45 - Thestria changing new owner to Outworld
+2025-03-21T04:00:45 - Thibodaux changing new owner to Outworld
+2025-03-21T04:00:45 - Thimphu changing new owner to Outworld
+2025-03-21T04:00:45 - Thirty Weight changing new owner to Illyrian
+2025-03-21T04:00:45 - Thorin changing new owner to ComStar
+2025-03-21T04:00:45 - Thraxa changing new owner to Marian
+2025-03-21T04:00:45 - Thule changing new owner to Elysia
+2025-03-21T04:00:45 - Thun changing new owner to Steiner
+2025-03-21T04:00:45 - Thurrock changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Tianamon changing new owner to Liao
+2025-03-21T04:00:45 - Tiber (Clan) changing new owner to ClanJadeFalcon
+2025-03-21T04:00:45 - Tiflis changing new owner to Outworld
+2025-03-21T04:00:45 - Timbiqui changing new owner to Circinus
+2025-03-21T04:00:45 - Tincalunas changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Tintavel changing new owner to Marik
+2025-03-21T04:00:45 - Tirabad changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Tiruchchirappalli changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Tishomingo changing new owner to Outworld
+2025-03-21T04:00:45 - Tiskilwa changing new owner to ComStar
+2025-03-21T04:00:45 - Togwotee changing new owner to ComStar
+2025-03-21T04:00:45 - Tohelet changing new owner to Illyrian
+2025-03-21T04:00:45 - Tokasha changing new owner to ClanWolf
+2025-03-21T04:00:45 - Toland changing new owner to Oberon
+2025-03-21T04:00:45 - Tongatapu changing new owner to Illyrian
+2025-03-21T04:00:45 - Tordenskjold changing new owner to Chainelane
+2025-03-21T04:00:45 - Tormentine changing new owner to Illyrian
+2025-03-21T04:00:45 - Torrence changing new owner to ComStar
+2025-03-21T04:00:45 - Toten changing new owner to Outworld
+2025-03-21T04:00:45 - Totness changing new owner to Outworld
+2025-03-21T04:00:45 - Tottori changing new owner to Outworld
+2025-03-21T04:00:45 - Tovetin (Tovetine) changing new owner to Elysia
+2025-03-21T04:00:45 - Towne changing new owner to ComStar
+2025-03-21T04:00:45 - Traussin changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Treeline (Winfield 2863+) changing new owner to Oberon
+2025-03-21T04:00:45 - Trell (Trellwan) changing new owner to Oberon
+2025-03-21T04:00:45 - Trellisane changing new owner to ComStar
+2025-03-21T04:00:45 - Tresspass changing new owner to Outworld
+2025-03-21T04:00:45 - Trinidad changing new owner to Illyrian
+2025-03-21T04:00:45 - Tripoli changing new owner to Davion
+2025-03-21T04:00:45 - Trondheim (DC) changing new owner to Elysia
+2025-03-21T04:00:45 - Tsamma changing new owner to Outworld
+2025-03-21T04:00:45 - Tuamotu changing new owner to Illyrian
+2025-03-21T04:00:45 - Tuat changing new owner to Kurita
+2025-03-21T04:00:45 - Turin changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Turkalia changing new owner to Outworld
+2025-03-21T04:00:45 - Turko changing new owner to Davion
+2025-03-21T04:00:45 - Turov changing new owner to Illyrian
+2025-03-21T04:00:45 - Twycross changing new owner to Oberon
+2025-03-21T04:00:45 - Tylarzka changing new owner to Circinus
+2025-03-21T04:00:45 - Tyrlon changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Tyrrhenia changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Ubangi changing new owner to Steiner
+2025-03-21T04:00:45 - Udibi changing new owner to Outworld
+2025-03-21T04:00:45 - Ugland changing new owner to Outworld
+2025-03-21T04:00:45 - Ukunela changing new owner to Steiner
+2025-03-21T04:00:45 - Ulan Batar changing new owner to Liao
+2025-03-21T04:00:45 - Ullieri changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Ulsan changing new owner to Kurita
+2025-03-21T04:00:45 - Ulubis changing new owner to Outworld
+2025-03-21T04:00:45 - Ulvskollen changing new owner to Tortuga
+2025-03-21T04:00:45 - Ulysses changing new owner to Outworld
+2025-03-21T04:00:45 - Umgard changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Umka changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Undra changing new owner to Liao
+2025-03-21T04:00:45 - Unkador changing new owner to Davion
+2025-03-21T04:00:45 - Untran changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Unukalhai changing new owner to ComStar
+2025-03-21T04:00:45 - Unzmarkt changing new owner to Elysia
+2025-03-21T04:00:45 - Uravan changing new owner to Liao
+2025-03-21T04:00:45 - Úr Cruinne changing new owner to Liao
+2025-03-21T04:00:45 - Urich changing new owner to Outworld
+2025-03-21T04:00:45 - Urjala changing new owner to Circinus
+2025-03-21T04:00:45 - Vaajakoski changing new owner to Kurita
+2025-03-21T04:00:45 - Vackisujfalu changing new owner to Tortuga
+2025-03-21T04:00:45 - Vakarel changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Valabhi changing new owner to Steiner
+2025-03-21T04:00:45 - Valdives changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Valentina changing new owner to Outworld
+2025-03-21T04:00:45 - Valexa changing new owner to Liao
+2025-03-21T04:00:45 - Valil'yevskiy changing new owner to Illyrian
+2025-03-21T04:00:45 - Valladolid (Mudd's Hut 2864+) changing new owner to Steiner
+2025-03-21T04:00:45 - Valloire changing new owner to Circinus
+2025-03-21T04:00:45 - Vandalia changing new owner to Outworld
+2025-03-21T04:00:45 - Van Diemen IV changing new owner to ComStar
+2025-03-21T04:00:45 - Vangburg changing new owner to Outworld
+2025-03-21T04:00:45 - Vantaa changing new owner to Oberon
+2025-03-21T04:00:45 - Vard changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Vargtass changing new owner to Chainelane
+2025-03-21T04:00:45 - Vaucluse changing new owner to Tortuga
+2025-03-21T04:00:45 - Vecchio changing new owner to Davion
+2025-03-21T04:00:45 - Velhas changing new owner to Liao
+2025-03-21T04:00:45 - Venaria changing new owner to Circinus
+2025-03-21T04:00:45 - Ventabren changing new owner to Liao
+2025-03-21T04:00:45 - Verde changing new owner to Outworld
+2025-03-21T04:00:45 - Verdigreis changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Verdinge changing new owner to Outworld
+2025-03-21T04:00:45 - Vereeniging changing new owner to Davion
+2025-03-21T04:00:45 - Verlo changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Viborg changing new owner to Circinus
+2025-03-21T04:00:45 - Vibrunum changing new owner to Outworld
+2025-03-21T04:00:45 - Vicksland changing new owner to Illyrian
+2025-03-21T04:00:45 - Victoria changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Victralla changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Vikindu changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Villanueva changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Vindemiatrix changing new owner to Marik
+2025-03-21T04:00:45 - Vinstra changing new owner to Outworld
+2025-03-21T04:00:45 - Vintru changing new owner to Liao
+2025-03-21T04:00:45 - Vipaava changing new owner to Elysia
+2025-03-21T04:00:45 - Viribium changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Voehn changing new owner to Outworld
+2025-03-21T04:00:45 - Volders changing new owner to Steiner
+2025-03-21T04:00:45 - Vonja changing new owner to Outworld
+2025-03-21T04:00:45 - Vorarlberg changing new owner to Elysia
+2025-03-21T04:00:45 - Vortalcoy changing new owner to Circinus
+2025-03-21T04:00:45 - Vosloorus changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Vulture's Nest changing new owner to Oberon
+2025-03-21T04:00:45 - Waini Point changing new owner to Outworld
+2025-03-21T04:00:45 - Waitur changing new owner to Outworld
+2025-03-21T04:00:45 - Waldheim changing new owner to Outworld
+2025-03-21T04:00:45 - Waldorff changing new owner to Oberon
+2025-03-21T04:00:45 - Wallacia changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Wallis changing new owner to Illyrian
+2025-03-21T04:00:45 - Wantorill changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Ward changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Warlock changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Warren changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Warrumbungle changing new owner to Steiner
+2025-03-21T04:00:45 - Wasat changing new owner to ComStar
+2025-03-21T04:00:45 - Washburn changing new owner to ComStar
+2025-03-21T04:00:45 - Watermael changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Waunakee changing new owner to Outworld
+2025-03-21T04:00:45 - Waycross changing new owner to Davion
+2025-03-21T04:00:45 - Waypoint changing new owner to Steiner
+2025-03-21T04:00:45 - Weatogue changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Wedderborg changing new owner to Tortuga
+2025-03-21T04:00:45 - Weekapaug changing new owner to Liao
+2025-03-21T04:00:45 - Weingarten changing new owner to Steiner
+2025-03-21T04:00:45 - Weippe changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Weisau changing new owner to Outworld
+2025-03-21T04:00:45 - Weitinger changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Weiz changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Weldry changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Werfer changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Wernke (Talon) changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Westfield changing new owner to Davion
+2025-03-21T04:00:45 - Westover changing new owner to Illyrian
+2025-03-21T04:00:45 - Westphalia changing new owner to Liao
+2025-03-21T04:00:45 - Wetumpka changing new owner to Tortuga
+2025-03-21T04:00:45 - Wheel changing new owner to Steiner
+2025-03-21T04:00:45 - Wildwood changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Wilkes changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Wiltshire changing new owner to Circinus
+2025-03-21T04:00:45 - Windhoek changing new owner to Steiner
+2025-03-21T04:00:45 - Winfield changing new owner to Outworld
+2025-03-21T04:00:45 - Wing changing new owner to ComStar
+2025-03-21T04:00:45 - Wingzar changing new owner to Circinus
+2025-03-21T04:00:45 - Wisconsin changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Wittington changing new owner to Outworld
+2025-03-21T04:00:45 - Wokha changing new owner to Outworld
+2025-03-21T04:00:45 - Wolcott changing new owner to Elysia
+2025-03-21T04:00:45 - Wolof changing new owner to Illyrian
+2025-03-21T04:00:45 - Wonju changing new owner to Kurita
+2025-03-21T04:00:45 - Woodbine changing new owner to Outworld
+2025-03-21T04:00:45 - Woogi changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Worrell changing new owner to Outworld
+2025-03-21T04:00:45 - Wotan changing new owner to Oberon
+2025-03-21T04:00:45 - Wrentham changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Wroxeter changing new owner to ComStar
+2025-03-21T04:00:45 - Wyatt changing new owner to ComStar
+2025-03-21T04:00:45 - Wyeth's Glory changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Wynn's Roost changing new owner to Outworld
+2025-03-21T04:00:45 - Wypoute changing new owner to Steiner
+2025-03-21T04:00:45 - Xanthe changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Xanthe III changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Xieng Khouang changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Yamoussoukra changing new owner to Outworld
+2025-03-21T04:00:45 - Yanchep changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Yidtall changing new owner to Circinus
+2025-03-21T04:00:45 - Ylemelke changing new owner to Chainelane
+2025-03-21T04:00:45 - Yongd changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Yorii changing new owner to ComStar
+2025-03-21T04:00:45 - York (Clan) changing new owner to ClanCloudCobra
+2025-03-21T04:00:45 - Ype-Jhu changing new owner to Outworld
+2025-03-21T04:00:45 - Yufu changing new owner to Kurita
+2025-03-21T04:00:45 - Yuris changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Yàn-huì changing new owner to Liao
+2025-03-21T04:00:45 - Zacatecoluca changing new owner to Davion
+2025-03-21T04:00:45 - Zalaf changing new owner to Outworld
+2025-03-21T04:00:45 - Zalt changing new owner to Outworld
+2025-03-21T04:00:45 - Zalzangor changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Zambezi changing new owner to Davion
+2025-03-21T04:00:45 - Zanbasa changing new owner to Steiner
+2025-03-21T04:00:45 - Zangul changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Zaniah changing new owner to Marik
+2025-03-21T04:00:45 - Zanzibar changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Zaprudy changing new owner to Circinus
+2025-03-21T04:00:45 - Zara (FWL) changing new owner to Marik
+2025-03-21T04:00:45 - Zathras changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Zaurak changing new owner to Liao
+2025-03-21T04:00:45 - Zavijava changing new owner to ComStar
+2025-03-21T04:00:45 - Zawiercie changing new owner to Kurita
+2025-03-21T04:00:45 - Zdice changing new owner to Circinus
+2025-03-21T04:00:45 - Zebebelgenubi changing new owner to ComStar
+2025-03-21T04:00:45 - Zebrenaski changing new owner to Circinus
+2025-03-21T04:00:45 - Zebuluraskai changing new owner to Outworld
+2025-03-21T04:00:45 - Zefri changing new owner to Steiner
+2025-03-21T04:00:45 - Zelmag changing new owner to MagistracyOfCanopus
+2025-03-21T04:00:45 - Zelski changing new owner to TaurianConcordat
+2025-03-21T04:00:45 - Zempoatlepetl changing new owner to Illyrian
+2025-03-21T04:00:45 - Zertarum changing new owner to Oberon
+2025-03-21T04:00:45 - Zetang changing new owner to Outworld
+2025-03-21T04:00:45 - Zhaomaon (Cluff's Stand 3130+) changing new owner to AuriganDirectorate
+2025-03-21T04:00:45 - Ziliang changing new owner to Liao
+2025-03-21T04:00:45 - Zinal changing new owner to Steiner
+2025-03-21T04:00:45 - Zindao changing new owner to Davion
+2025-03-21T04:00:45 - Zion changing new owner to Liao
+2025-03-21T04:00:45 - Zlatousi changing new owner to Outworld
+2025-03-21T04:00:45 - Zoetermeer changing new owner to Oberon
+2025-03-21T04:00:45 - Zolfo changing new owner to Tortuga
+2025-03-21T04:00:45 - Zollikofen changing new owner to ComStar
+2025-03-21T04:00:45 - Zortman changing new owner to ComStar
+2025-03-21T04:00:45 - Zosma changing new owner to ComStar
+2025-03-21T04:00:45 - Zuhbehr changing new owner to Circinus
+2025-03-21T04:00:45 - Zumbo changing new owner to Outworld
+2025-03-21T04:00:45 - Zurich changing new owner to Liao
+2025-03-21T04:00:45 - Zwenkau changing new owner to ComStar
+2025-03-21T04:00:45 - ----Refreshing client settings from server-------
+2025-03-21T04:00:45 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:00:45 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:00:45 - ----Refreshing client settings from server-------
+2025-03-21T04:00:45 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:00:45 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:00:47 - ----Refreshing client settings from server-------
+2025-03-21T04:00:47 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:00:47 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:00:47 - ----Refreshing client settings from server-------
+2025-03-21T04:00:47 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:00:47 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:00:47 - ----Refreshing client settings from server-------
+2025-03-21T04:00:47 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:00:47 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:00:48 - ----Refreshing client settings from server-------
+2025-03-21T04:00:48 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:00:48 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:00:48 - ----Refreshing client settings from server-------
+2025-03-21T04:00:48 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:00:49 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:00:59 - SystemOverride is null, falling back to vanilla generator: Terra
+2025-03-21T04:01:00 - ----Refreshing client settings from server-------
+2025-03-21T04:01:00 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:01:00 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:01:01 - ----Refreshing client settings from server-------
+2025-03-21T04:01:01 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:01:01 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:01:01 - ----Refreshing client settings from server-------
+2025-03-21T04:01:01 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:01:01 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:01:02 - ----Refreshing client settings from server-------
+2025-03-21T04:01:02 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:01:02 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:01:02 - ----Refreshing client settings from server-------
+2025-03-21T04:01:02 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:01:02 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:01:03 - ----Refreshing client settings from server-------
+2025-03-21T04:01:03 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:01:03 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:01:03 - ----Refreshing client settings from server-------
+2025-03-21T04:01:03 - http://www.gnwars.net:8000/warServices/Util/ServerSettings/
+2025-03-21T04:01:03 - Newtonsoft.Json.JsonSerializationException: Error converting value "{"CanPostSoldItems":false,"SupportBypass":[],"BlackMarketAvailable":false,"Capitals":[],"CanTransmit":false,"GetsAllShops":false,"FactionMarketAvailable":false,"PlanetSlotsByClimate":{"arid":2,"desert":3,"tropical":3,"water":3,"rocky":4,"mars":2,"ice":3,"arctic":3,"terran":4,"lunar":2},"Max_Planets_Per_Player":3}" to type 'PersistentMapAPI.Domain.ServerSettings'. Path '', line 1, position 354. ---> System.ArgumentException: Could not cast or convert from System.String to PersistentMapAPI.Domain.ServerSettings.
+  at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable (System.Object value, System.Type initialType, System.Type targetType) [0x00067] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast (System.Object initialValue, System.Globalization.CultureInfo culture, System.Type targetType) [0x00031] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x0008d] in <bcfe3779d9974effb214d2a48329f488>:0 
+   --- End of inner exception stack trace ---
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType) [0x000bd] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x000d7] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at PersistentMapClient.Web.RefreshServerSettings (System.Boolean force) [0x00062] in <8efdb6cff32447598d55d3b291e2bab5>:0 
+2025-03-21T04:01:03 - Using RTC generator: Thurrock

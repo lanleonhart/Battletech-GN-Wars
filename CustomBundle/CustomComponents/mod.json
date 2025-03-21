@@ -7,23 +7,23 @@
 	"DependsOn": [],
 	"DLL": "CustomComponents.dll",
 	"DLLEntryPoint": "CustomComponents.Control.Init",
-
-	"CustomResourceTypes": [ "CCCategories", "CCDefaults", "CCTagRestrictions", "CustomSVGIcon", "CCHardpoints", "CCCEquipLocationTag", "CCUnitTypes" ],
 	"DataAddendumEntries": [
         {
             "name": "BattleTech.WeaponCategoryEnumeration",
             "path": "WeaponCategory.json"
 		}
     ],
+	"CustomResourceTypes": [ "CCCategories", "CCDefaults", "CCTagRestrictions", "CustomSVGIcon", "CCHardpoints", "CCCEquipLocationTag", "CCUnitTypes" ],
+
 	"Settings": {
-		"DEBUG_ValidateMechDefs": true,
-		"DEBUG_ShowOnlyErrors": true,
+		"DEBUG_ValidateMechDefs": false,
+		"DEBUG_ShowOnlyErrors": false,
 		"DEBUG_ShowAllUnitTypes": false,
 		"DEBUG_ShowConfig": false,
 		"DEBUG_ShowLoadedCategory": false,
-		"DEBUG_ShowLoadedDefaults": true,
+		"DEBUG_ShowLoadedDefaults": false,
 		"DEBUG_ShowLoadedAlLocations": false,
-		"DEBUG_ShowLoadedHardpoints": true,
+		"DEBUG_ShowLoadedHardpoints": false,
 		"DEBUG_EnableAllTags": false,
 		"DEBUG_ShowMechUT": false,
 		"DEBUG_DropValidationDisabled": false,
@@ -53,9 +53,7 @@
 		},
 
 
-		"ColorTags": [
-			{ "Tag" : "Armor", "Color" : "#bd8900" }
-		],
+		"ColorTags": [],
 
 		"TagRestrictionDropValidateRequiredTags": false,
 		"TagRestrictionDropValidateIncompatibleTags": true,

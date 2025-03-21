@@ -382,6 +382,12 @@
 @Default:0.2
 @Description:not documented yet
 
+@Name:ConsequenceDropAutosave
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
 @Name:CritLocationTransfer
 @Type:boolean
 @AppliedTo:Settings
@@ -398,6 +404,18 @@
 @Type:dictionary of { "<UnitType enum>": { AoEModifiers structure } }
 @AppliedTo:Settings
 @Default:empty
+@Description:not documented yet
+
+@Name:DefaultGenderGenerator
+@Type:GenderGeneratorCarrier
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
+@Name:DefaultGenderGeneratorOverride
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
 @Description:not documented yet
 
 @Name:DefaultMoveCosts
@@ -458,6 +476,12 @@
 @Type:list of strings
 @AppliedTo:Settings
 @Default:empty
+@Description:not documented yet
+
+@Name:EjectOutOfAmmoWeaponAtEndOfAttack
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
 @Description:not documented yet
 
 @Name:EnableMinimap
@@ -766,6 +790,12 @@
 @Default:true
 @Description:not documented yet
 
+@Name:PhysicsAoE_MinDist
+@Type:float
+@AppliedTo:Settings
+@Default:40
+@Description:not documented yet
+
 @Name:PhysicsAoE_Minefield
 @Type:boolean
 @AppliedTo:Settings
@@ -884,6 +914,12 @@
 @Type:boolean
 @AppliedTo:Settings
 @Default:false
+@Description:not documented yet
+
+@Name:SkipUnusedAmmoTag
+@Type:string
+@AppliedTo:Settings
+@Default:empty
 @Description:not documented yet
 
 @Name:SpawnMenuEnabled
