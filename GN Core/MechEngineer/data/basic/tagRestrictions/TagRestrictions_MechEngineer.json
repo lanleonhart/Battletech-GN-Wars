@@ -13,15 +13,89 @@
             ]
         },
         {
-            "Tag": "Gear_HeatSink_Generic_Standard",
+            "Tag": "SHS",
             "RequiredTags": [
-                "emod_kit_shs"
+                "HSKit"
+            ],
+            "IncompatibleTags": [
+				"DHSKit",
+				"CDHSKit",
+				"LHSKit",
+				"GNHSKit"
             ]
         },
         {
-            "Tag": "Gear_HeatSink_Generic_Double",
+            "Tag": "DHS",
             "RequiredTags": [
-                "emod_kit_dhs"
+                "DHSKit"
+            ],
+            "IncompatibleTags": [
+                "HSKit",
+				"CDHSKit",
+				"LHSKit",
+				"GNHSKit"
+            ]
+        },
+        {
+            "Tag": "CDHS",
+            "RequiredTags": [
+                "CDHSKit"
+            ],
+            "IncompatibleTags": [
+                "HSKit",
+				"DHSKit",
+				"LHSKit",
+				"GNHSKit"
+            ]
+        },
+        {
+            "Tag": "LHS",
+            "RequiredTags": [
+                "LHSKit"
+            ],
+            "IncompatibleTags": [
+                "HSKit",
+				"DHSKit",
+				"CDHSKit",
+				"GNHSKit"
+            ]
+        },
+        {
+            "Tag": "GNHS",
+            "RequiredTags": [
+                "GNHSKit"
+            ],
+            "IncompatibleTags": [
+                "HSKit",
+				"DHSKit",
+				"CDHSKit",
+				"LHSKit"
+				
+            ]
+        },
+        {
+            "Tag": "FreezerDHS",
+            "RequiredTags": [
+                "HSKit"
+            ],
+            "IncompatibleTags": [
+				"DHSKit",
+				"CDHSKit",
+				"LHSKit",
+				"GNHSKit"
+            ]
+        },
+        {
+            "Tag": "BHS",
+            "RequiredTags": [
+                "HSKit"
+            ],
+            "IncompatibleTags": [
+				"SHS",
+				"DHSKit",
+				"CDHSKit",
+				"LHSKit",
+				"GNHSKit"
             ]
         }
     ]

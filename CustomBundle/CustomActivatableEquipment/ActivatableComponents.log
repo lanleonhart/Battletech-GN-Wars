@@ -1,4 +1,4 @@
-[03:59:50.784]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomBundle\CustomActivatableEquipment version: 0.0.0.150
+[05:16:32.044]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomBundle\CustomActivatableEquipment version: 0.0.0.150
 Settings = [{
   "AdditionalInjuryReasonsTable": {
     "10": "Component Fail",
@@ -116,42 +116,26 @@ ForceMouseEvents(28);;;;;;;;;;;;;;;;;;;;;;X;X;X;
 (29);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
 (30);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
 (31);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
-[03:59:51.084]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.Location found
-[03:59:51.084]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldHaveTags found
-[03:59:51.084]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldNotHaveTags found
- BaseComponentRef.LocalGUID found
- BaseComponentRef.TargetComponentGUID found
- BaseComponentRef.LocalGUID found
- BaseComponentRef.TargetComponentGUID found
- BaseComponentRef.LocalGUID found
- BaseComponentRef.TargetComponentGUID found
- BaseComponentRef.LocalGUID found
- BaseComponentRef.TargetComponentGUID found
- BaseComponentRef.LocalGUID found
- BaseComponentRef.TargetComponentGUID found
- BaseComponentRef.LocalGUID found
- BaseComponentRef.TargetComponentGUID found
- BaseComponentRef.LocalGUID found
- BaseComponentRef.TargetComponentGUID found
- BaseComponentRef.LocalGUID found
- BaseComponentRef.TargetComponentGUID found
- BaseComponentRef.LocalGUID found
- BaseComponentRef.TargetComponentGUID found
-[04:00:00.244]
+[05:16:32.337]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.Location not found
+[05:16:32.337]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldHaveTags not found
+[05:16:32.337]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldNotHaveTags not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+[05:16:41.997]
 System.ArgumentNullException: Value cannot be null.
 Parameter name: key
   at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at CustomActivatableEquipment.CAEAuraHelper.AddAuras (BattleTech.MechComponentDef def, System.Collections.Generic.List`1[T] auras) [0x00010] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
   at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Postfix (BattleTech.MechComponentDef __instance, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00064] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
-[04:00:00.250]
-System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
-  at CustomActivatableEquipment.CAEAuraHelper.AddAuras (BattleTech.MechComponentDef def, System.Collections.Generic.List`1[T] auras) [0x00010] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
-  at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Postfix (BattleTech.MechComponentDef __instance, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00064] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
-[04:00:00.340]Gear_Cockpit_SLDF_Custom
+[05:16:42.066]Gear_Cockpit_SLDF_Custom
 Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected character was encountered: ". Path 'CriticalComponent', line 44, position 4.
   at Newtonsoft.Json.JsonTextReader.ParsePostValue (System.Boolean ignoreComments) [0x00182] in <bcfe3779d9974effb214d2a48329f488>:0 
   at Newtonsoft.Json.JsonTextReader.Read () [0x0005a] in <bcfe3779d9974effb214d2a48329f488>:0 
@@ -161,35 +145,35 @@ Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected charact
   at Newtonsoft.Json.Linq.JObject.Parse (System.String json, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0000c] in <bcfe3779d9974effb214d2a48329f488>:0 
   at Newtonsoft.Json.Linq.JObject.Parse (System.String json) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
   at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Prefix (BattleTech.MechComponentDef __instance, System.String& json, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00081] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
-[04:00:00.444]
+[05:16:42.143]
 System.ArgumentNullException: Value cannot be null.
 Parameter name: key
   at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at CustomActivatableEquipment.CAEAuraHelper.AddAuras (BattleTech.MechComponentDef def, System.Collections.Generic.List`1[T] auras) [0x00010] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
   at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Postfix (BattleTech.MechComponentDef __instance, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00064] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
-[04:00:00.452]
+[05:16:42.146]
 System.ArgumentNullException: Value cannot be null.
 Parameter name: key
   at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at CustomActivatableEquipment.CAEAuraHelper.AddAuras (BattleTech.MechComponentDef def, System.Collections.Generic.List`1[T] auras) [0x00010] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
   at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Postfix (BattleTech.MechComponentDef __instance, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00064] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
-[04:00:00.453]
+[05:16:42.148]
 System.ArgumentNullException: Value cannot be null.
 Parameter name: key
   at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
   at CustomActivatableEquipment.CAEAuraHelper.AddAuras (BattleTech.MechComponentDef def, System.Collections.Generic.List`1[T] auras) [0x00010] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
   at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Postfix (BattleTech.MechComponentDef __instance, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00064] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
-[04:00:09.514]FinishedLoading
+[05:16:51.243]FinishedLoading
  customResource:WeaponAddonDef
  customResource:AuraDef
- MechEngineer assembly found:MechEngineer, Version=2.3.16.0, Culture=neutral, PublicKeyToken=null
+ MechEngineer assembly found:MechEngineer, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null
   System.RuntimeType type found
   System.RuntimeType.Shared field found
   System.RuntimeType.IgnoreShutdown method found
-[04:00:10.303]Settings.ApplyLocal
+[05:16:52.066]Settings.ApplyLocal
  updating:debug
 Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected character was encountered: ". Path 'CriticalComponent', line 44, position 4.
   at Newtonsoft.Json.JsonTextReader.ParsePostValue (System.Boolean ignoreComments) [0x00182] in <bcfe3779d9974effb214d2a48329f488>:0 

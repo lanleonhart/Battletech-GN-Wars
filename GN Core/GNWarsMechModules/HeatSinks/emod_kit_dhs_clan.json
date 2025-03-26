@@ -1,59 +1,63 @@
 {
-	"Custom": {
-		"Cooling": {
-			"HeatSinkDefId": "Gear_DoubleHeatSink_Clan"
-		},
-		"WorkOrderCosts": {
-			"Default": {
-				"TechCost": "0",
-				"CBillCost": "0"
-			},
-			"Install": {
-				"TechCost": "0.4 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40",
-				"CBillCost": "2000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
-			}
-		},
-        "Category" : [
-			{"CategoryID": "Cooling"},
-			{"CategoryID": "EnginePart"},
-			{"CategoryID": "CDHSKit"}
-			
-        ],
-		"Color": "DarkGray",
-		"Flags" : [
-				"ignore_damage",
-				"no_salvage"
-			]
+  "Custom": {
+    "Cooling": {
+      "HeatSinkDefId": "Gear_DoubleHeatSink_Clan"
     },
-    "DissipationCapacity" : 0,
-    "Description" : {
-        "Cost" : 600000,
-        "Rarity" : 0,
-        "Purchasable" : false,
-        "Manufacturer" : "Lostech",
-        "Model" : "DHS",
-        "UIName" : "Double Heat Sink Kit TESTING ME",
-        "Id" : "emod_kit_dhs_clan",
-        "Name" : "Double Heat Sink Kit",
-        "Details" : "A Mech' <b>Cooling System</b> provides heat dissipation for components inside the mech and compatible extension points for additional heat sinks throughout the mech. It differs from the closed cooling system of the engine.",
-        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    "WorkOrderCosts": {
+      "Default": {
+        "TechCost": "0",
+        "CBillCost": "0"
+      },
+      "Install": {
+        "TechCost": "0.4 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40",
+        "CBillCost": "2000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
+      }
     },
-    "BonusValueA" : "",
-    "BonusValueB" : "",
-    "ComponentType" : "HeatSink",
-    "ComponentSubType" : "Heatsink",
-    "PrefabIdentifier" : "",
-    "BattleValue" : 0,
-    "InventorySize" : 1,
-    "Tonnage" : 0,
-    "AllowedLocations" : "CenterTorso",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "statusEffects" : null,
-    "ComponentTags" : {
-        "items" : [
-            "component_type_stock"
-        ],
-        "tagSetSourceFile" : ""
-    }
+    "Category": [
+      {
+        "CategoryID": "Cooling"
+      },
+      {
+        "CategoryID": "EnginePart"
+      },
+      {
+        "CategoryID": "CDHSKit"
+      }
+    ],
+    "Color": "DarkGray",
+    "Flags": [
+      "ignore_damage"
+    ]
+  },
+  "DissipationCapacity": 0,
+  "Description": {
+    "Cost": 600000,
+    "Rarity": 0,
+    "Purchasable": false,
+    "Manufacturer": "Lostech",
+    "Model": "DHS",
+    "UIName": "Double Heat Sink Kit TESTING ME",
+    "Id": "emod_kit_dhs_clan",
+    "Name": "Double Heat Sink Kit",
+    "Details": "A Mech' <b>Cooling System</b> provides heat dissipation for components inside the mech and compatible extension points for additional heat sinks throughout the mech. It differs from the closed cooling system of the engine.",
+    "Icon": "uixSvgIcon_equipment_Heatsink"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "HeatSink",
+  "ComponentSubType": "Heatsink",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "CenterTorso",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": null,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

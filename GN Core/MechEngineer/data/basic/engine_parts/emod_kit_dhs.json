@@ -1,8 +1,5 @@
 {
 	"Custom": {
-		"BonusDescriptions": [
-            "COOLING: 2x"
-        ],
 		"Cooling": {
 			"HeatSinkDefId": "Gear_HeatSink_Generic_Double"
 		},
@@ -17,13 +14,13 @@
 			}
 		},
         "Category" : [
-            {
-                "CategoryID": "Cooling"
-              },
-              {
-                "CategoryID": "EnginePart"
-              }
-        ]
+			{"CategoryID": "Cooling"},
+			{"CategoryID": "EnginePart"},
+			{"CategoryID": "DHSKit"}
+			
+        ],
+		"Color": "DarkGray",
+		"Flags" : [ "ignore_damage"]
     },
     "DissipationCapacity" : 0,
     "Description" : {

@@ -1,81 +1,77 @@
 {
     "Custom": {
-         "Category": [
-           {
-             "CategoryID": "Energy"
-           }
-         ],
-         "BonusDescriptions": [
-             "ACC: +1",
-             "DMG: +9",
-             "WT: -1",
-             "EVA-IG: 1"
-           ],
-           "InventorySorter": "00206"
-         },
-         "Category": "Energy",
-         "Type": "Laser",
-         "WeaponSubType": "LargeLaser",
-         "MinRange": 0,
-         "MaxRange": 540,
-         "RangeSplit": [
-           120,
-           270,
-           390
-     ],
-     "ammoCategoryID" : "NotSet",
-     "StartingAmmoCapacity" : 0,
-     "HeatGenerated" : 26,
-     "Damage" : 22,
-     "OverheatedDamageMultiplier" : 0,
-     "EvasiveDamageMultiplier" : 0,
-     "EvasivePipsIgnored" : -1,
-     "DamageVariance" : 0,
-     "HeatDamage" : 0,
-     "AccuracyModifier" : -1,
-     "CriticalChanceMultiplier" : 1,
-     "AOECapable" : false,
-     "IndirectFireCapable" : false,
-     "RefireModifier" : 0,
-     "ShotsWhenFired" : 3,
-     "ProjectilesPerShot" : 1,
-     "AttackRecoil" : 1,
-     "Instability" : 0,
-     "FireDelayMultiplier": 0.15,
-    "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Large",
-    "Description" : {
-        "Cost" : 2750000,
-        "Rarity" : 100,
-        "Purchasable" : false,
-        "Manufacturer" : "ExoStar",
-        "Model" : "Large Pulse Laser",
-        "UIName" : "Large Pulse Laser",
-        "Id" : "Weapon_Laser_LargeLaserPulse_2-Exostar",
-        "Name" : "Large Pulse Laser",
-        "Details" : "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Large Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
-        "Icon" : "uixSvgIcon_weapon_Energy"
+        "Category": [
+            {
+                "CategoryID": "Energy"
+            }
+        ],
+        "BonusDescriptions": [
+            "ACC: +1",
+            "DMG: +9",
+            "WT: -1",
+            "EVA-IG: 1"
+        ]
     },
-    "BonusValueA" : "+ 10 Dmg.",
-    "BonusValueB" : "- 1 Ton",
-    "ComponentType" : "Weapon",
-    "ComponentSubType" : "Weapon",
-    "PrefabIdentifier" : "Laser",
-    "BattleValue" : 0,
-    "InventorySize" : 2,
-    "Tonnage" : 6,
-    "AllowedLocations" : "All",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "statusEffects" : [
-        
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "LargeLaserPulse",
+    "MinRange": 0,
+    "MaxRange": 540,
+    "RangeSplit": [
+        120,
+        270,
+        390
     ],
-    "ComponentTags" : {
-        "items" : [
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 26,
+    "Damage": 22,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": -1,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -1,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 3,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "FireDelayMultiplier": 0.15,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
+    "Description": {
+        "Cost": 2750000,
+        "Rarity": 100,
+        "Purchasable": false,
+        "Manufacturer": "ExoStar",
+        "Model": "Large Pulse Laser",
+        "UIName": "Large Pulse Laser",
+        "Id": "Weapon_Laser_LargeLaserPulse_2-Exostar",
+        "Name": "Large Pulse Laser",
+        "Details": "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Large Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "+ 10 Dmg.",
+    "BonusValueB": "- 1 Ton",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 6,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
             "component_type_stock",
             "component_type_lostech",
             "range_long"
-			
         ],
-        "tagSetSourceFile" : ""
+        "tagSetSourceFile": ""
     }
 }

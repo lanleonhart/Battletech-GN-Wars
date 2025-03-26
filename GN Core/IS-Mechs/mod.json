@@ -3,17 +3,26 @@
 	"Enabled": true,
 	"Hidden": false,
 	"Version": "1.0",
-    "CustomResourceTypes": [],
+    "CustomResourceTypes": [
+        
+
+    ],
 
 
-        "Manifest": [        
-        {
+        "Manifest": [
+     
+           
+    {
             "Type": "ChassisDef",
-            "Path": "Chassis"
+            "Path": "chassis"
         },
         {
             "Type": "MechDef",
-            "Path": "Mech"
+            "Path": "mech"
+        },
+        {
+            "Type": "MechDef",
+            "Path": "fix"
         },
          {
             "Type": "ChassisDef",
@@ -26,7 +35,12 @@
         {
 			"Type": "Sprite",
 			"Path": "portraits"
-		}     
+		}
+      
+        
     ],
-    "DependsOn": []
+    "DependsOn": [
+
+     
+    ]
 }

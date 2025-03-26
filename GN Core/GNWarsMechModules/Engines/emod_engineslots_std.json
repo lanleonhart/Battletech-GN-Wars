@@ -1,27 +1,26 @@
 {
-	"Custom": {
-        "WorkOrderCosts": {
-            "Install": {
-              "TechCost": "0.75 * [[Chassis.Tonnage]]",
-              "CBillCost": "85 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
-            }
-          },
+  "Custom": {
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.75 * [[Chassis.Tonnage]]",
+        "CBillCost": "85 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    },
     "Category": [
-        {
-            "CategoryID": "EngineShield"
-        },
-        {
-            "CategoryID": "EnginePart"
-        }
+      {
+        "CategoryID": "EngineShield"
+      },
+      {
+        "CategoryID": "EnginePart"
+      }
     ],
     "Flags": [
-        "default",
-            "not_broken",
-            "vital",
-            "no_salvage"
+      "default",
+      "not_broken",
+      "vital"
     ]
-},
-"Description": {
+  },
+  "Description": {
     "Cost": 0,
     "Rarity": 0,
     "Purchasable": false,
@@ -32,23 +31,23 @@
     "Name": "Standard Engine",
     "Details": "Fusion engines function by harnessing the power of a fusion reaction, running on light hydrogen and protium.\r\nFusion engines are defined by their <b>engine rating</b>. For 'Mechs, the engine rating is the mathematical product of the mass of the vehicle and its desired maximum walking or cruising velocity.",
     "Icon": "uixSvgIcon_equipment_ThermalExchanger"
-},
-"BonusValueA": "",
-"BonusValueB": "",
-"ComponentType": "HeatSink",
-"ComponentSubType": "Heatsink",
-"PrefabIdentifier": "",
-"BattleValue": 0,
-"InventorySize": 4,
-"Tonnage": 0,
-"AllowedLocations": "CenterTorso",
-"DisallowedLocations": "All",
-"CriticalComponent": false,
-"statusEffects": null,
-"ComponentTags": {
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "HeatSink",
+  "ComponentSubType": "Heatsink",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 0,
+  "AllowedLocations": "CenterTorso",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": null,
+  "ComponentTags": {
     "items": [
-        "component_type_stock"
+      "component_type_stock"
     ],
     "tagSetSourceFile": ""
-}
+  }
 }

@@ -1,94 +1,117 @@
 {
-    "Custom": {
-          "Category" : [
-              {"CategoryID": ""},
-              {"CategoryID": "SensorsA"}
-          ],
-          "BonusDescriptions": [ 
-            "",
-            ""
-          ],
-          "WorkOrderCosts": {
-            "Install": {
-              "TechCost": "0.45 * [[Chassis.Tonnage]]",
-              "CBillCost": "12.5 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
-            }
-          }
-    },
-    "Description": {
-      "Cost": 75000,
-      "Rarity": 1,
-      "Purchasable": true,
-      "Manufacturer": "",
-      "Model": "",
-      "UIName": "TC Multiple Targets",
-      "Id": "Gear_TargetingComputer_Multiple_Targets",
-      "Name": "Targeting Computer",
-      "Details": "grey_text_description",
-      "Icon": "fcs"
-    },
-    "CriticalHitStates": {
-        "MaxStates": 1,
-        "HitEffects": [
-          {
-            "State": 1,
-            "StatusEffect": {
-              "durationData": {"duration": -1,"stackLimit": 1},
-              "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator","effectTargetsCreator": true},
-              "showInTargetPreview": false,
-              "showInStatusPanel": false,
-              "nature": "Debuff",
-              "effectType": "StatisticEffect",
-              "Description": {
-                "Id": "TCMT_Crit",
-                "Name": "Disable Multiple Target Effect",
-                "Details": "Disables Multi-Target",
-                "Icon": "fcs"
-              },
-              "statisticData": {
-                "statName": "IRAllowMultiTarget",
-                "operation": "Set",
-                "modValue": "false",
-                "modType": "System.Boolean"
-              }
-            }
-          }
-        ]
-    },
-    "statusEffects": [
+  "Custom": {
+    "Category": [
       {
-        "durationData": {"duration": -1,"stackLimit": 1},
-        "targetingData": {"effectTriggerType": "Passive","effectTargetType": "Creator"},
-        "showInTargetPreview": false,
-        "showInStatusPanel": false,
-        "nature": "Buff",
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "IRAllowMultiTargetEffect",
-          "Name": "Multiple Target Effect",
-          "Details": "Enables Multi-Target",
-          "Icon": "fcs"
-        },
-        "statisticData": {
-          "statName": "IRAllowMultiTarget",
-          "operation": "Set",
-          "modValue": "true",
-          "modType": "System.Boolean"
+        "CategoryID": ""
+      },
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.45 * [[Chassis.Tonnage]]",
+        "CBillCost": "12.5 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    }
+  },
+  "Description": {
+    "Cost": 75000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "TC Multiple Targets",
+    "Id": "Gear_TargetingComputer_Multiple_Targets",
+    "Name": "Targeting Computer",
+    "Details": "grey_text_description",
+    "Icon": "fcs"
+  },
+  "CriticalHitStates": {
+    "MaxStates": 1,
+    "HitEffects": [
+      {
+        "State": 1,
+        "StatusEffect": {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "effectTargetsCreator": true
+          },
+          "showInTargetPreview": false,
+          "showInStatusPanel": false,
+          "nature": "Debuff",
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "TCMT_Crit",
+            "Name": "Disable Multiple Target Effect",
+            "Details": "Disables Multi-Target",
+            "Icon": "fcs"
+          },
+          "statisticData": {
+            "statName": "IRAllowMultiTarget",
+            "operation": "Set",
+            "modValue": "false",
+            "modType": "System.Boolean"
+          }
         }
       }
-    ],   
-    "ComponentType": "Upgrade",
-    "ComponentSubType": "NotSet",
-    "InventorySize": 1,
-    "Tonnage": 0,
-    "AllowedLocations": "Head",
-    "DisallowedLocations": "All",
-    "CriticalComponent": false,
-    "Flags": ["not_broken"],
-    "IBLS": {"StorageSize": 1},
-    "ComponentTags": {
-      "items": ["component_type_stock"],
-      "tagSetSourceFile": ""
-    },
-  "BonusValueA": "","BonusValueB": "","PrefabIdentifier": "","BattleValue": 0
-  }
+    ]
+  },
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "showInTargetPreview": false,
+      "showInStatusPanel": false,
+      "nature": "Buff",
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "IRAllowMultiTargetEffect",
+        "Name": "Multiple Target Effect",
+        "Details": "Enables Multi-Target",
+        "Icon": "fcs"
+      },
+      "statisticData": {
+        "statName": "IRAllowMultiTarget",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    }
+  ],
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Flags": [
+    "not_broken"
+  ],
+  "IBLS": {
+    "StorageSize": 1
+  },
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "PrefabIdentifier": "",
+  "BattleValue": 0
+}
