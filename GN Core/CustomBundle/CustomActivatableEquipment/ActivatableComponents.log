@@ -1,0 +1,186 @@
+[16:42:15.971]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomBundle\CustomActivatableEquipment version: 0.0.0.150
+Settings = [{
+  "AdditionalInjuryReasonsTable": {
+    "10": "Component Fail",
+    "20": "NeuralImplants Injury"
+  },
+  "arcTextures": {
+    "arc90": "targeting_arc_90",
+    "arc60": "targeting_arc_60"
+  },
+  "debug": true,
+  "AIComponentUsefullModifyer": 0.3,
+  "AIComponentExtreamlyUsefulModifyer": 0.6,
+  "AIOffenceUsefullCoeff": 0.1,
+  "AIDefenceUsefullCoeff": 0.2,
+  "AIHeatCoeffCoeff": 0.8,
+  "AIOverheatCoeffCoeff": 0.6,
+  "ToolTipWarningFailChance": 0.2,
+  "ToolTipAlertFailChance": 0.4,
+  "StartupMinHeatRatio": 0.4,
+  "StartupByHeatControl": false,
+  "StoodUpPilotingRoll": true,
+  "StoodUpPilotingRollCoeff": 0.1,
+  "DefaultArmsAbsenceStoodUpMod": -0.1,
+  "DefaultAIUnsafeFailChanceMod": 0.5,
+  "LegAbsenceStoodUpMod": -0.1,
+  "AdditionalAssets": [],
+  "AIActivatableCheating": 0.8,
+  "auraUpdateFix": 1,
+  "auraUpdateMinTimeDelta": 2.0,
+  "auraUpdateMinPosDelta": 20.0,
+  "sensorsAura": {
+    "Id": "",
+    "Name": "",
+    "LineType": 0,
+    "isSpining": false,
+    "ReticleColor": "#FF00FF",
+    "Range": 0.0,
+    "RangeStatistic": "",
+    "RemoveOnSensorLock": false,
+    "NotApplyMoving": false,
+    "ApplyOnlyMoving": false,
+    "HideOnNotSelected": true,
+    "NotShowOnSelected": false,
+    "FloatieAtEndOfMove": true,
+    "ApplySelf": false,
+    "TrackAcivation": false,
+    "State": 2,
+    "AllyStealthAffection": 0,
+    "EnemyStealthAffection": 0,
+    "IsPositiveToAlly": false,
+    "IsNegativeToAlly": false,
+    "IsNegativeToEnemy": false,
+    "IsPositiveToEnemy": false,
+    "MinefieldDetector": false,
+    "OnFireEffects": [],
+    "onlineVFX": [],
+    "targetVFX": [],
+    "removeOwnerVFX": [],
+    "removeTargetVFX": [],
+    "ownerSFX": [],
+    "targetSFX": [],
+    "removeOwnerSFX": [],
+    "removeTargetSFX": [],
+    "statusEffects": []
+  },
+  "unaffectedByHeadHitStatName": "NoHeadDamage",
+  "auraStartupTime": 10.0,
+  "equipmentFlashFailChance": 0.25,
+  "componentHeatBarSize": 1.0,
+  "componentHeatBarBorderColor": {
+    "html": "#000000",
+    "alpha": 0.0
+  },
+  "componentHeatBarActivateColor": {
+    "html": "#FF0000",
+    "alpha": 1.0
+  },
+  "componentHeatBarDeactivateColor": {
+    "html": "#0000FF",
+    "alpha": 1.0
+  },
+  "_C3NetworkEncounterTags": [
+    "C3_network",
+    "C3i_network",
+    "C3n_network",
+    "C3AI_network",
+    "XenoLink"
+  ],
+  "controlHeatSinkSkipTags": [
+    "EnginePart"
+  ]
+}]
+Layer Name;VFXPhysics(8);Terrain(9);Utility(10);Obstruction(11);Combatant(12);VFXOnly(13);Decal(14);Light(15);World(16);UI_InWorld(17);UI_IgnoreMouseEvents(18);Characters(19);Space(20);Road(21);VFXPhysicsActive(22);Reflector(23);Head(24);Starmap(25);NoCollision(26);NewTerrain(27);ForceMouseEvents(28);(29);(30);(31);
+VFXPhysics(8);;X;;;X;X;;;;;;X;;;;;;;;X;;X;X;X;
+Terrain(9);X;X;X;X;X;;X;X;X;X;X;X;X;X;X;X;X;X;;X;;X;X;X;
+Utility(10);;X;X;X;X;;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+Obstruction(11);;X;X;X;X;;X;X;X;X;X;X;X;X;X;X;X;X;;X;;X;X;X;
+Combatant(12);X;X;X;X;X;;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+VFXOnly(13);X;;;;;;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+Decal(14);;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+Light(15);;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+World(16);;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+UI_InWorld(17);;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+UI_IgnoreMouseEvents(18);;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+Characters(19);X;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+Space(20);;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+Road(21);;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;X;X;;X;;X;X;X;
+VFXPhysicsActive(22);;X;;X;;;;;;;;;;;;X;X;X;;X;;X;X;X;
+Reflector(23);;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;;X;X;X;
+Head(24);;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;;X;X;X;
+Starmap(25);;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;;X;X;X;
+NoCollision(26);;;;;;;;;;;;;;;;;;;X;X;;X;X;X;
+NewTerrain(27);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;;X;X;X;
+ForceMouseEvents(28);;;;;;;;;;;;;;;;;;;;;;X;X;X;
+(29);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
+(30);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
+(31);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
+[16:42:16.252]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.Location not found
+[16:42:16.252]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldHaveTags not found
+[16:42:16.252]EffectManager.GetTargetStatCollections Prepare StatisticEffectData.ShouldNotHaveTags not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+ BaseComponentRef.LocalGUID not found
+[16:42:26.953]
+System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomActivatableEquipment.CAEAuraHelper.AddAuras (BattleTech.MechComponentDef def, System.Collections.Generic.List`1[T] auras) [0x00010] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
+  at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Postfix (BattleTech.MechComponentDef __instance, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00064] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
+[16:42:27.033]Gear_Cockpit_SLDF_Custom
+Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected character was encountered: ". Path 'CriticalComponent', line 44, position 4.
+  at Newtonsoft.Json.JsonTextReader.ParsePostValue (System.Boolean ignoreComments) [0x00182] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0005a] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JContainer.ReadContentFrom (Newtonsoft.Json.JsonReader r, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00226] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings options) [0x00030] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0006a] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Parse (System.String json, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0000c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Parse (System.String json) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Prefix (BattleTech.MechComponentDef __instance, System.String& json, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00081] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
+[16:42:27.119]
+System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomActivatableEquipment.CAEAuraHelper.AddAuras (BattleTech.MechComponentDef def, System.Collections.Generic.List`1[T] auras) [0x00010] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
+  at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Postfix (BattleTech.MechComponentDef __instance, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00064] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
+[16:42:27.122]
+System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomActivatableEquipment.CAEAuraHelper.AddAuras (BattleTech.MechComponentDef def, System.Collections.Generic.List`1[T] auras) [0x00010] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
+  at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Postfix (BattleTech.MechComponentDef __instance, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00064] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
+[16:42:27.123]
+System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomActivatableEquipment.CAEAuraHelper.AddAuras (BattleTech.MechComponentDef def, System.Collections.Generic.List`1[T] auras) [0x00010] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
+  at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Postfix (BattleTech.MechComponentDef __instance, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00064] in <3ef6e20d82a0406cb7e9d5286012f440>:0 
+[16:42:36.129]FinishedLoading
+ customResource:WeaponAddonDef
+ customResource:AuraDef
+ MechEngineer assembly found:MechEngineer, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null
+  System.RuntimeType type found
+  System.RuntimeType.Shared field found
+  System.RuntimeType.IgnoreShutdown method found
+[16:42:36.843]Settings.ApplyLocal
+ updating:debug
+Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected character was encountered: ". Path 'CriticalComponent', line 44, position 4.
+  at Newtonsoft.Json.JsonTextReader.ParsePostValue (System.Boolean ignoreComments) [0x00182] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0005a] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JContainer.ReadContentFrom (Newtonsoft.Json.JsonReader r, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00226] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings options) [0x00030] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0006a] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Parse (System.String json, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0000c] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Linq.JObject.Parse (System.String json) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at CustomActivatableEquipment.UpgradeDef_FromJSONAuras.Prefix (BattleTech.MechComponentDef __instance, System.String& json, CustomActivatableEquipment.AuraDefsParseState& __state) [0x00081] in <3ef6e20d82a0406cb7e9d5286012f440>:0 

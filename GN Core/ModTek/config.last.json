@@ -1,0 +1,58 @@
+{
+    "SearchModsInSubDirectories": true,
+    "ImplicitManifestShouldMergeJSON": true,
+    "ImplicitManifestShouldAppendText": false,
+    "ReplaceResetsMerges": true,
+    "NormalizeCsvIfAppending": true,
+    "DataManagerUnfreezeDelta": 2.0,
+    "DataManagerEverSpinnyDetectionTimespan": 30.0,
+    "DelayPrewarmToMainMenu": true,
+    "ShowDataManagerStatsInLoadingCurtain": true,
+    "ProfilerEnabled": false,
+    "BlockedMods": [
+        "FYLS"
+    ],
+    "IgnoreMissingMods": [
+        "FYLS"
+    ],
+    "MinimalLastConfig": true,
+    "Logging": {
+        "DebugLogDumpServerListen": "",
+        "LogUncaughtExceptions": true,
+        "LogExceptionInitializations": false,
+        "LogSqlQueryInitializations": false,
+        "LogSqlQueryExecutionsFromDapper": false,
+        "LogThreadStarts": true,
+        "LogStackTraces": false,
+        "LogStackTracesOnExceptions": true,
+        "DebugLogLevelSetters": false,
+        "UnityConsoleAppenderEnabled": false,
+        "ModLogAppendersEnabled": true,
+        "UnityConsoleAppender": {
+            "LogRotationCount": 1,
+            "AbsoluteTimeEnabled": false,
+            "AbsoluteTimeUseUtc": true,
+            "StartupTimeEnabled": false
+        },
+        "AsynchronousLoggingEnabled": true,
+        "LogFlushToDisk": true,
+        "MainLog": {
+            "LogRotationCount": 1,
+            "AbsoluteTimeEnabled": true,
+            "AbsoluteTimeUseUtc": true,
+            "StartupTimeEnabled": false
+        },
+        "MainLogFilePath": "battletech_log.txt",
+        "Logs": {
+            "ModTek.log": {
+                "LogRotationCount": 1,
+                "Include": [
+                    "ModTek"
+                ],
+                "AbsoluteTimeEnabled": true,
+                "AbsoluteTimeUseUtc": true,
+                "StartupTimeEnabled": false
+            }
+        }
+    }
+}

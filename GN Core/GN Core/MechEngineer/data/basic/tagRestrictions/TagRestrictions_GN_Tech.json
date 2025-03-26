@@ -1,0 +1,104 @@
+{
+    "Settings": [
+        {
+            "Tag": "emod_engineslots_GN_Drive",
+            "RequiredTags": [
+                "GNFrame"
+            ]
+        },
+        {
+            "Tag": "emod_engineslots_GN_DriveTau",
+            "RequiredTags": [
+                "GNFrameTau"
+            ]
+        },
+        {
+            "Tag": "GN",
+            "AnyTags": [
+                "emod_engineslots_GN_Drive",
+                "emod_engineslots_ParticleTank"
+            ]
+        },
+        {
+            "Tag": "GNT",
+            "AnyTags": [
+                "emod_engineslots_GN_DriveTau",
+                "emod_engineslots_ParticleTankTau",
+                "emod_engineslots_ParticleTankTau-Jet"
+            ]
+        },
+        {
+            "Tag": "emod_kit_GNHS",
+            "RequiredTags": [
+                "unit_ms"
+            ]
+        },
+        {
+            "Tag": "Gear_HeatSink_GN",
+            "RequiredTags": [
+                "emod_kit_GNHS"
+            ]
+        },
+        {
+            "Tag": "Gear_Cockpit_GN",
+                "RequiredTags": [
+                    "GNFrame"
+                ]
+        },
+        {
+            "Tag": "Gear_Armor_ECarbon",
+            "RequiredTags": [
+                "unit_ms"
+            ]
+        },
+        {
+            "Tag": "Gear_Armor_HeavyECarbon",
+            "RequiredTags": [
+                "unit_ms"
+            ]
+        },
+        {
+            "Tag": "Gear_Armor_TitaniumAlloy",
+            "RequiredTags": [
+                "unit_ms"
+            ]
+        },
+        {
+            "Tag": "Gear_Cockpit_ESensor",
+            "RequiredTags": [
+                "Gear_Cockpit_GN"
+            ]
+        },
+        {
+            "Tag": "Gear_GNSniperOptics",
+            "RequiredTags": [
+                "Gear_Cockpit_GN"
+            ]
+        },
+        {
+            "Tag": "GN_Vernier_L",
+            "RequiredTags": [
+                "GNFrame"
+            ]
+        },
+        {
+            "Tag": "MSFrame",
+            "RequiredTags": [
+                "unit_ms"
+            ]
+        },
+        {
+            "Tag": "Gear_GNSaber",
+            "AnyTags": [
+                "emod_engineslots_GN_Drive",
+                "emod_engineslots_ParticleTank"
+            ]
+        },
+        {
+            "Tag": "GNField",
+            "RequiredTags": [
+                "emod_engineslots_GN_Drive"
+            ]
+        }
+    ]
+}

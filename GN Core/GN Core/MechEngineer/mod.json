@@ -1,0 +1,70 @@
+{
+	"Name": "MechEngineer",
+	"Author": "Maintainer: CptMoore",
+	"Website": "https://github.com/BattletechModders/MechEngineer",
+
+	"Enabled": true,
+	"DependsOn": ["CustomComponents"],
+	"ConflictsWith": ["CustomSlots", "OnePointArmorStep", "Pansar"],
+	"DLL": "MechEngineer.dll",
+	"DLLEntryPoint": "MechEngineer.Control.Start",
+	
+	"LogSettings": {
+		"Enabled" : false
+	},
+	
+	"CustomResourceTypes": ["MEBonusDescriptions", "MEStatusEffects","CCCEquipLocationTag"],
+
+	"Manifest": [
+		{
+			"Type": "MEBonusDescriptions",
+			"Path": "bonusDescriptions/",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "MEStatusEffects",
+			"Path": "data/basic/statusEffects/",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "CCCategories",
+			"Path": "categories/",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "CCTagRestrictions",
+			"Path": "data/basic/tagRestrictions/",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "CCDefaults",
+			"Path": "defaults/",
+			"ShouldMergeJSON": false
+		},
+        {
+            "Type": "CCUnitTypes",
+            "Path": "data/basic/unitTypes/",
+            "ShouldMergeJSON": false
+        },
+		{
+            "Type": "CCCEquipLocationTag",
+            "Path": "data/basic/locations",
+            "ShouldMergeJSON": false
+        },
+		{
+			"Type": "UpgradeDef",
+			"Path": "defaults/internals/",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "HeatSinkDef",
+			"Path": "data/basic/engines/",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "HeatSinkDef",
+			"Path": "data/basic/engine_parts/",
+			"ShouldMergeJSON": false
+		}
+	]
+}
