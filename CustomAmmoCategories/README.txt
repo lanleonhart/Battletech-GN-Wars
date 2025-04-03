@@ -543,7 +543,7 @@ new fields
     "tempDesignMaskTurns": 99,                         - length in turns design mask and terrain vfx exists
     "tempDesignMaskCellRadius": 12,                    - radius in game cells 
 	                                                   NOTE: all values above have same apply logic as mine explosions. 
-    "statusEffects": [],                               - status effects array
+    "statusEffects": null,                               - status effects array
 	  "statusEffectsRangeFalloff": true,                 - range falloff for status effects - if true effect will be applience will be optional, 
 	                                                     chance is based on distance from center of effect. 
 	  "sticky": true                                     - it true on success hit deferred effect position links to target. Does not matter if it moves or become dead.

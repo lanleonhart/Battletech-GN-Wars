@@ -57,12 +57,7 @@
 			"Base_ValidateNotEnoughHardpoints": "Unit doesn't have enough {1} hardpoints in {5}",
 			"Base_AddInventorySize": "Can't install {0} - not enough free space at {1}"
 		},
-		"ColorTags": [
-			{
-				"Tag": "w/s/m/melee",
-				"Color": "#85DBF680"
-			}
-		],
+		"ColorTags": [],
 		"SorterMechInventoryDefault": 800,
 		"TagRestrictionDropValidateRequiredTags": false,
 		"TagRestrictionDropValidateIncompatibleTags": true,
@@ -114,5 +109,19 @@
 			"Enabled": true
 		}
 	},
-	"Manifest": []
+	"Manifest": [
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "advancedjsonmerge",
+			"ShouldMergeJSON": false
+		},
+		{
+            "Type": "CCUnitTypes",
+            "Path": "data/unittypes"
+        },
+		{
+			"Type": "CCHardpoints",
+			"Path": "data/hardpoints"
+		}
+	]
 }
