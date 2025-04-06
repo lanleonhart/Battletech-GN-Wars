@@ -1,83 +1,32 @@
 {
-	"Name": "GN Wars Weapons",
-	"Enabled": true,
-	"Hidden": false,
-	"Version": "1.0",
-    "CustomResourceTypes": [
-        "MEBonusDescriptions",
-        "MECriticalEffects",
-        "CCCategories",
-        "CCDefaults",
-        "CCTagRestrictions",
-        "CustomSVGIcon"
-
-    ],
-
+    "Name": "GN Wars Weapons",
+    "Enabled": true,
+    "Hidden": false,
+    "Version": "1.0",
+    "CustomResourceTypes": [],
     "DataAddendumEntries": [
-     
         {
             "name": "BattleTech.AmmoCategoryEnumeration",
             "path": "AmmoCategory.json"
         }
     ],
-        
-        "Manifest": [
+    "Manifest": [
         {
-        "Type": "WeaponDef",
-        "Path": "weapon"
+            "Type": "WeaponDef",
+            "Path": "Weapon/"
         },
         {
             "Type": "WeaponDef",
-            "Path": "StreamingAssets/data/weapon"
-            },
-            {
-                "Type": "UpgradeDef",
-                "Path": "StreamingAssets/data/upgrade"
-                },
-                {
-                    "Type": "HeatSinkDef",
-                    "Path": "StreamingAssets/data/upgrade/heatsinks"
-                },
-                {
-                    "Type": "JumpJetDef",
-                    "Path": "StreamingAssets/data/jumpjets"
-                },
-        
+            "Path": "Weapons Clan"
+        },
         {
-            "Type": "WeaponDef",
-            "Path": "Weapon"
-            },
-            {
-                "Type": "WeaponDef",
-                "Path": "VanillaWep"
-                },
-            {
-                "Type": "WeaponDef",
-                "Path": "Weapons Clan"
-                },
-                {
-                    "Type": "AmmunitionDef",
-                    "Path": "Ammunition"
-                },
-                {
-                    "Type": "AmmunitionBoxDef",
-                    "Path": "Ammobox"
-                },
-                {
-                    "Type": "AmmunitionDef",
-                    "Path": "StreamingAssets/data/ammunition"
-                },
-                {
-                    "Type": "AmmunitionBoxDef",
-                    "Path": "StreamingAssets/data/ammunitionBox"
-                }
-                
-
-        
+            "Type": "AmmunitionDef",
+            "Path": "Ammunition/"
+        },
+        {
+            "Type": "AmmunitionBoxDef",
+            "Path": "Ammobox/"
+        }
     ],
-    "DependsOn": [
-
-        "MechEngineer",
-    "CustomComponents"
-    ]
+    "DependsOn": []
 }
