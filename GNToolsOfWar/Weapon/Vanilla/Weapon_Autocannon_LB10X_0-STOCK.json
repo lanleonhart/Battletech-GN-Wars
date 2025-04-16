@@ -23,7 +23,7 @@
 "AmmoCategory" : "LBX10",
 "StartingAmmoCapacity" : 0,
 "HeatGenerated" : 10,
-"Damage" : 60,
+"Damage" : 1,
 "OverheatedDamageMultiplier" : 0,
 "EvasiveDamageMultiplier" : 0,
 "EvasivePipsIgnored" : 0,
@@ -60,8 +60,8 @@
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "lbx10",
-    "InventorySize" : 6,
-    "Tonnage" : 11,
+    "InventorySize" : 12,
+    "Tonnage" : 99,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -71,7 +71,8 @@
         "items" : [
             "component_type_stock",
             "range_long",
-            "component_type_lostech"
+            "component_type_lostech",
+			"BLACKLISTED"
         ],
         "tagSetSourceFile" : ""
     }

@@ -1,0 +1,78 @@
+{
+	"Description": {
+		"Id": "Ammunition_Sniper_Inferno",
+		"Name": "Sniper Ammo",
+		"UIName": "Inferno",
+		"Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "Sniper",
+	"HeatGenerated": 0,
+	"AIBattleValue": 90,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"IsArtillery": true,
+	"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
+	"ArtilleryReticleRadius" : 140,
+	"ArtilleryReticleText": "Sniper",
+	"AOECapable": true,
+	"AOERange": 140,
+	"AOEDamage": 90,
+	"AOEHeatDamage": 120,
+	"FireTerrainChance": 1,
+	"OverheatedDamageMultiplier": 1,
+	"AdditionalImpactVFX": "WFX_ExplosiveSmokeM",
+	"AdditionalImpactVFXScaleX": 2,
+	"AdditionalImpactVFXScaleY": 2,
+	"AdditionalImpactVFXScaleZ": 2,
+	"FireDurationWithoutForest": 4,
+	"FireTerrainStrength": 20,
+	"FireTerrainCellRadius": 10,
+	"FireOnSuccessHit": true,
+	"TrooperSquadDamageModifier": 2,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": 3,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Effect_InfernoSRMHeat",
+				"Name": "Inferno Gel",
+				"Details": "This unit is coated with burning chemicals, generating 6 extra heat each turn.",
+				"Icon": "fire-zone"
+			},
+			"statisticData": {
+				"statName": "HeatSinkCapacity",
+				"operation": "Int_Subtract",
+				"modValue": "6",
+				"modType": "System.Int32"
+			},
+			"nature": "Debuff"
+		}
+	]
+}
