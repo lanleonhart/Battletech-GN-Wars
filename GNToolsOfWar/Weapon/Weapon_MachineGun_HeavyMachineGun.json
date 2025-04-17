@@ -58,5 +58,37 @@
     "Tonnage": 1,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
-    "CriticalComponent": false
+    "CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": false,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": true,
+			"ShotsWhenFired": 1,
+			"FlatJammingChance": 0.1,
+			"HeatGenerated": 1
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": false,
+			"ShotsWhenFired": 2,
+			"FlatJammingChance": 0.2,
+			"HeatGenerated": 2
+		}
+	],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_close",
+			"MGArraySupported-Standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
 }

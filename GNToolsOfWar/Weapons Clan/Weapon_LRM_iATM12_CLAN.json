@@ -32,7 +32,7 @@
 	"EvasivePipsIgnored": 0,
 	"DamageVariance": 0,
 	"HeatDamage": 0,
-	"AccuracyModifier": 0,
+	"AccuracyModifier": -1,
 	"CriticalChanceMultiplier": 1,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
@@ -82,6 +82,8 @@
 			"UIName": "Indirect",
 			"isBaseMode": false,
 			"IndirectFireCapable": true,
+			"AlwaysIndirectVisuals": true,
+			"AccuracyModifier": 4,
 			"Streak": false,
 			"HitGenerator": "Cluster"
 		}
