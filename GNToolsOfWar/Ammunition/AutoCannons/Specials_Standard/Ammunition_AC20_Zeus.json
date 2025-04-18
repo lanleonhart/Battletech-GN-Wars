@@ -1,0 +1,101 @@
+{
+	"Description": {
+		"Id": "Ammunition_AC20_Zeus",
+		"Name": "AC/20 Ammo",
+		"UIName": "Zeus AAA",
+		"Details": "Large caliber ammunition designed for long range fire in an AC/20.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "AC20",
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 0.5,
+	"ISDamageModifier": 0.5,
+	"CriticalDamageModifier": 1.1,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Quirk_AAAccuracy",
+				"Name": "Targeting Computer",
+				"Details": "Improved overall accuracy.",
+				"Icon": "uixSvgIcon_ability_precisionstrike"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "ActorABSOLUTE_AeroUnit",
+				"operation": "Set",
+				"modValue": "-2",
+				"modType": "System.Single",
+				"targetCollection": "Weapon"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "FCS_AA_Counter",
+				"Name": "AA Strafe Counter Effect",
+				"Details": "AA Strafe Counter Effect.",
+				"Icon": "AdvancedTC"
+			},
+			"statisticData": {
+				"statName": "AAAFactor",
+				"operation": "Float_Add",
+				"modValue": "0.5",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "FCS_AA_Counter_On",
+				"Name": "AA Strafe Counter Effect",
+				"Details": "AA Strafe Counter Effect.",
+				"Icon": "AdvancedTC"
+			},
+			"statisticData": {
+				"statName": "UseAAAFactor",
+				"operation": "Set",
+				"modValue": "true",
+				"modType": "System.Boolean"
+			},
+			"nature": "Buff"
+		}
+	],
+	"ChassisTagsAccuracyModifiers": {
+		"TargetAcquired": -1
+	}
+}
