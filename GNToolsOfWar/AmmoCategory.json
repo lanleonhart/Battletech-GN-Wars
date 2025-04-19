@@ -491,7 +491,7 @@
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
 		},
 		{
-			"ID": 45,
+			"ID": 1000,
 			"Name": "Thumper",
 			"FriendlyName": "Thumper",
 			"IsBallistic": true,
@@ -505,7 +505,7 @@
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC10"
 		},
 		{
-			"ID": 46,
+			"ID": 1001,
 			"Name": "Sniper",
 			"FriendlyName": "Sniper",
 			"IsBallistic": true,
@@ -576,8 +576,8 @@
 		},
 		{
 			"ID": 51,
-			"Name": "LGauss",
-			"FriendlyName": "LGauss",
+			"Name": "LGAUSS",
+			"FriendlyName": "LGAUSS",
 			"IsBallistic": true,
 			"IsMissile": false,
 			"IsEnergy": false,
@@ -1037,7 +1037,7 @@
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
 		},
 		{
-			"ID": 9008,
+			"ID": 9000,
 			"Name": "SRMOS",
 			"FriendlyName": "SRMOS",
 			"IsBallistic": false,
@@ -1051,9 +1051,79 @@
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
 		},
 		{
-			"ID": 9009,
+			"ID": 9002,
 			"Name": "LRMOS",
 			"FriendlyName": "LRMOS",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": true,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 9003,
+			"Name": "AMRM",
+			"FriendlyName": "AMRM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": true,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
+		},
+		{
+			"ID": 9004,
+			"Name": "AVSRM",
+			"FriendlyName": "AVSRM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": true,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
+		},
+		{
+			"ID": 9005,
+			"Name": "AVSRM",
+			"FriendlyName": "AVSRM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": true,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
+		},
+		{
+			"ID": 9006,
+			"Name": "AIVLRM",
+			"FriendlyName": "AIVLRM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": true,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 9006,
+			"Name": "AVLRM",
+			"FriendlyName": "AVLRM",
 			"IsBallistic": false,
 			"IsMissile": true,
 			"IsEnergy": false,

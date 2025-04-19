@@ -1,4 +1,4 @@
-[19:06:35.488]Mech.CanEngageTarget searching
+[17:57:16.571]Mech.CanEngageTarget searching
  get_GameRep
  get_PilotableActorDef
  get_MechDef
@@ -176,127 +176,121 @@
   params:2
    BattleTech.ICombatant
    System.String&
-[19:06:35.825]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
-[19:06:35.825]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
-[19:06:42.617]System.ArgumentException: You can only patch implemented methods/constructors. Patch the declared method virtual float BattleTech.PreferEqualizeQuantityOverTeamFactor::EvaluateInfluenceMapFactorAtPosition(BattleTech.AbstractActor unit_unused, UnityEngine.Vector3 position, float angle_unused, BattleTech.MoveType moveType_unused, BattleTech.PathNode pathNode_unused) instead.
+[17:57:16.817]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[17:57:16.817]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[17:57:23.512]System.ArgumentException: You can only patch implemented methods/constructors. Patch the declared method virtual float BattleTech.PreferEqualizeQuantityOverTeamFactor::EvaluateInfluenceMapFactorAtPosition(BattleTech.AbstractActor unit_unused, UnityEngine.Vector3 position, float angle_unused, BattleTech.MoveType moveType_unused, BattleTech.PathNode pathNode_unused) instead.
   at HarmonyLib.PatchProcessor.Patch () [0x00051] in <60c035a0be4a4c6c95bfce57f6234a36>:0 
   at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer, HarmonyLib.HarmonyMethod ilmanipulator) [0x00033] in <60c035a0be4a4c6c95bfce57f6234a36>:0 
   at CustomUnits.InfluenceMapPositionFactorPatch.PatchAll (HarmonyLib.Harmony harmony) [0x00227] in <b4cee1c53b5640da9cb2cbc37b7d1691>:0 
-[19:06:42.776]CustomMech registered chrprfmech_barghest
-[19:06:42.776]CustomMech registered chrPrfComp_cubarghest_simgame
-[19:06:42.777]CustomMech registered chrprfmech_barghest_front
-[19:06:42.777]CustomMech registered chrPrfComp_barghest_front_simgame
-[19:06:42.777]CustomMech registered chrprfmech_barghest_rear
-[19:06:42.777]CustomMech registered chrPrfComp_barghest_rear_simgame
-[19:06:42.778]CustomMech registered chrprfmech_cuambassadorbase-001
-[19:06:42.778]CustomMech registered chrPrfComp_cuambassador_simgame
-[19:06:42.778]CustomMech registered chrprfmech_cudragoonbase-001
-[19:06:42.778]CustomMech registered chrPrfComp_cudragoon_simgame
-[19:06:42.784]CustomMech registered chrprfmech_cugreatturtlebase-001
-[19:06:42.784]CustomMech registered chrPrfComp_cugreatturtle_simgame
-[19:06:42.784]CustomMech registered chrprfmech_cugulonbase-001
-[19:06:42.784]CustomMech registered chrPrfComp_cugulon_simgame
-[19:06:42.784]CustomMech registered chrprfmech_cugunslingerbase-001
-[19:06:42.784]CustomMech registered chrPrfComp_cugunslinger_simgame
-[19:06:42.784]CustomMech registered chrprfmech_cuharpagosquadbase-001
-[19:06:42.784]CustomMech registered chrPrfComp_cuharpagosquad_simgame
-[19:06:42.784]CustomMech registered chrprfmech_cuharpagosquadtankbase-001
-[19:06:42.784]CustomMech registered chrPrfComp_cuharpagosquadtank_simgame
-[19:06:42.786]CustomMech registered chrprfmech_cuheliosbase-001
-[19:06:42.786]CustomMech registered chrPrfComp_cuhelios_simgame
-[19:06:42.786]CustomMech registered chrprfmech_cuironcladbase-001
-[19:06:42.786]CustomMech registered chrPrfComp_cuironclad_simgame
-[19:06:42.786]CustomMech registered chrprfmech_cukisobase-001
-[19:06:42.786]CustomMech registered chrPrfComp_cukiso_simgame
-[19:06:42.787]CustomMech registered chrprfmech_cusiroccobase-001
-[19:06:42.787]CustomMech registered chrPrfComp_cusirocco_simgame
-[19:06:42.787]CustomMech registered chrprfmech_cusirocco_front
-[19:06:42.787]CustomMech registered chrPrfComp_cusirocco_front_simgame
-[19:06:42.787]CustomMech registered chrprfmech_cusirocco_rear
-[19:06:42.787]CustomMech registered chrPrfComp_cusirocco_rear_simgame
-[19:06:42.787]CustomMech registered chrprfmech_cuslagmaidenbase-001
-[19:06:42.787]CustomMech registered chrPrfComp_cuslagmaiden_simgame
-[19:06:42.788]CustomMech registered chrprfmech_cutarantulabase-001
-[19:06:42.788]CustomMech registered chrPrfComp_cutarantulabase_simgame
-[19:06:42.788]CustomMech registered chrprfmech_cuverfolgerbase-001
-[19:06:42.788]CustomMech registered chrPrfComp_cuverfolger_simgame
-[19:06:42.788]CustomMech registered chrprfmech_cuvolkhbase-001
-[19:06:42.788]CustomMech registered chrPrfComp_cuvolkh_simgame
-[19:06:42.788]CustomMech registered chrprfmech_cuflashmanbase-001
-[19:06:42.788]CustomMech registered chrPrfComp_cuflashman_simgame
-[19:06:42.788]CustomMech registered chrprfmech_goliath
-[19:06:42.788]CustomMech registered chrPrfComp_cugoliath_simgame
-[19:06:42.789]CustomMech registered chrprfmech_curifleman3base-001
-[19:06:42.789]CustomMech registered chrPrfComp_curifleman3_simgame
-[19:06:42.789]CustomMech registered chrprfmech_scorpionmechbase-001
-[19:06:42.789]CustomMech registered chrPrfComp_scorpionmech_simgame
-[19:06:42.791]CustomMech registered chrprfmech_cuurbifobase-001
-[19:06:42.791]CustomMech registered chrPrfComp_cuurbifo_simgame
-[19:06:42.793]CustomMech registered chrprfmech_dixon_vtol
-[19:06:42.793]CustomMech registered chrPrfComp_cudixon_simgame
-[19:06:42.794]CustomMech registered chrprfmech_harpagos_tank
-[19:06:42.794]CustomMech registered chrPrfComp_cuharpagostank_simgame
-[19:06:42.794]CustomMech registered chrprfmech_horskr_vtol
-[19:06:42.794]CustomMech registered chrPrfComp_cuhorskr_simgame
-[19:06:42.794]CustomMech registered chrprfmech_ishtar_tank
-[19:06:42.794]CustomMech registered chrPrfComp_cuishtar_simgame
-[19:06:42.794]CustomMech registered chrprfmech_kamakiri_vtol
-[19:06:42.794]CustomMech registered chrPrfComp_cukamakiri_simgame
-[19:06:42.794]CustomMech registered chrprfmech_karr_vtol
-[19:06:42.794]CustomMech registered chrPrfComp_cukarr_simgame
-[19:06:42.795]CustomMech registered chrprfmech_markolab_tank
-[19:06:42.795]CustomMech registered chrPrfComp_markolab_simgame
-[19:06:42.795]CustomMech registered chrprfmech_overlord_dropship
-[19:06:42.795]CustomMech registered chrPrfComp_cuoverlord_simgame
-[19:06:42.795]CustomMech registered chrprfmech_perikirov_vtol
-[19:06:42.795]CustomMech registered chrPrfComp_cuperikirov_simgame
-[19:06:42.796]CustomMech registered chrprfmech_rakirov_vtol
-[19:06:42.796]CustomMech registered chrPrfComp_curakirov_simgame
-[19:06:42.796]CustomMech registered chrprfmech_rattler-fortress
-[19:06:42.796]CustomMech registered chrPrfComp_curattler_simgame
-[19:06:42.796]CustomMech registered chrprfmech_rattlersl-fortress
-[19:06:42.796]CustomMech registered chrPrfComp_curattlersl_simgame
-[19:06:42.796]CustomMech registered chrprfmech_redkite_vtol
-[19:06:42.796]CustomMech registered chrPrfComp_curedkite_simgame
-[19:06:42.796]CustomMech registered chrprfmech_strix_vtol
-[19:06:42.796]CustomMech registered chrPrfComp_custrix_simgame
-[19:06:42.797]CustomMech registered chrprfmech_union_dropship
-[19:06:42.797]CustomMech registered chrPrfComp_cuunion_simgame
-[19:06:42.797]CustomMech registered chrprfmech_unnsvin_vtol
-[19:06:42.797]CustomMech registered chrPrfComp_cuunnsvin_simgame
-[19:06:42.797]CustomMech registered chrprfmech_urbiecopter_vtol
-[19:06:42.797]CustomMech registered chrPrfComp_cuurbiecopter_simgame
-[19:06:42.797]CustomMech registered chrprfmech_warrior_vtol
-[19:06:42.797]CustomMech registered chrPrfComp_cuwarriorvtol_simgame
-[19:06:42.797]CustomMech registered chrprfmech_yellowjacket_vtol
-[19:06:42.797]CustomMech registered chrPrfComp_cuyellowjacket_simgame
-[19:06:42.799]CustomMech registered coastalcutter_vehicle_body
-[19:06:42.799]CustomMech registered chrPrfComp_coastalcutter_simgame
-[19:06:42.799]CustomMech registered chrprfmech_dropship_ball_turret
-[19:06:42.799]CustomMech registered chrPrfComp_cudropshipballturret_simgame
-[19:06:42.799]CustomMech registered chrprfmech_rattlersl_tower-turret
-[19:06:42.799]CustomMech registered chrPrfComp_curattlersl_tower_simgame
-[19:06:42.800]CustomMech registered chrprfmech_rattler_tower-turret
-[19:06:42.800]CustomMech registered chrPrfComp_curattler_tower_simgame
-[19:06:42.800]CustomMech registered chrprfmech_rattler_track_left_front-turret
-[19:06:42.800]CustomMech registered chrPrfComp_curattler_track_left_front_simgame
-[19:06:42.800]CustomMech registered chrprfmech_rattler_track_left_rear-turret
-[19:06:42.800]CustomMech registered chrPrfComp_curattler_track_left_rear_simgame
-[19:06:42.800]CustomMech registered chrprfmech_rattler_track_right_front-turret
-[19:06:42.800]CustomMech registered chrPrfComp_curattler_track_right_front_simgame
-[19:06:42.801]CustomMech registered chrprfmech_rattler_track_right_rear-turret
-[19:06:42.801]CustomMech registered chrPrfComp_curattler_track_right_rear_simgame
+[17:57:23.686]CustomMech registered chrprfmech_barghest
+[17:57:23.686]CustomMech registered chrPrfComp_cubarghest_simgame
+[17:57:23.687]CustomMech registered chrprfmech_barghest_front
+[17:57:23.687]CustomMech registered chrPrfComp_barghest_front_simgame
+[17:57:23.688]CustomMech registered chrprfmech_barghest_rear
+[17:57:23.688]CustomMech registered chrPrfComp_barghest_rear_simgame
+[17:57:23.688]CustomMech registered chrprfmech_cuambassadorbase-001
+[17:57:23.688]CustomMech registered chrPrfComp_cuambassador_simgame
+[17:57:23.689]CustomMech registered chrprfmech_cudragoonbase-001
+[17:57:23.689]CustomMech registered chrPrfComp_cudragoon_simgame
+[17:57:23.694]CustomMech registered chrprfmech_cugreatturtlebase-001
+[17:57:23.694]CustomMech registered chrPrfComp_cugreatturtle_simgame
+[17:57:23.694]CustomMech registered chrprfmech_cugulonbase-001
+[17:57:23.694]CustomMech registered chrPrfComp_cugulon_simgame
+[17:57:23.694]CustomMech registered chrprfmech_cugunslingerbase-001
+[17:57:23.694]CustomMech registered chrPrfComp_cugunslinger_simgame
+[17:57:23.695]CustomMech registered chrprfmech_cuharpagosquadbase-001
+[17:57:23.695]CustomMech registered chrPrfComp_cuharpagosquad_simgame
+[17:57:23.695]CustomMech registered chrprfmech_cuharpagosquadtankbase-001
+[17:57:23.695]CustomMech registered chrPrfComp_cuharpagosquadtank_simgame
+[17:57:23.695]CustomMech registered chrprfmech_cuheliosbase-001
+[17:57:23.695]CustomMech registered chrPrfComp_cuhelios_simgame
+[17:57:23.696]CustomMech registered chrprfmech_cuironcladbase-001
+[17:57:23.696]CustomMech registered chrPrfComp_cuironclad_simgame
+[17:57:23.696]CustomMech registered chrprfmech_cukisobase-001
+[17:57:23.696]CustomMech registered chrPrfComp_cukiso_simgame
+[17:57:23.696]CustomMech registered chrprfmech_cusiroccobase-001
+[17:57:23.696]CustomMech registered chrPrfComp_cusirocco_simgame
+[17:57:23.696]CustomMech registered chrprfmech_cusirocco_front
+[17:57:23.696]CustomMech registered chrPrfComp_cusirocco_front_simgame
+[17:57:23.697]CustomMech registered chrprfmech_cusirocco_rear
+[17:57:23.697]CustomMech registered chrPrfComp_cusirocco_rear_simgame
+[17:57:23.697]CustomMech registered chrprfmech_cuslagmaidenbase-001
+[17:57:23.697]CustomMech registered chrPrfComp_cuslagmaiden_simgame
+[17:57:23.697]CustomMech registered chrprfmech_cutarantulabase-001
+[17:57:23.697]CustomMech registered chrPrfComp_cutarantulabase_simgame
+[17:57:23.698]CustomMech registered chrprfmech_cuverfolgerbase-001
+[17:57:23.698]CustomMech registered chrPrfComp_cuverfolger_simgame
+[17:57:23.698]CustomMech registered chrprfmech_cuvolkhbase-001
+[17:57:23.698]CustomMech registered chrPrfComp_cuvolkh_simgame
+[17:57:23.698]CustomMech registered chrprfmech_cuflashmanbase-001
+[17:57:23.698]CustomMech registered chrPrfComp_cuflashman_simgame
+[17:57:23.698]CustomMech registered chrprfmech_goliath
+[17:57:23.698]CustomMech registered chrPrfComp_cugoliath_simgame
+[17:57:23.698]CustomMech registered chrprfmech_curifleman3base-001
+[17:57:23.698]CustomMech registered chrPrfComp_curifleman3_simgame
+[17:57:23.699]CustomMech registered chrprfmech_scorpionmechbase-001
+[17:57:23.699]CustomMech registered chrPrfComp_scorpionmech_simgame
+[17:57:23.701]CustomMech registered chrprfmech_cuurbifobase-001
+[17:57:23.701]CustomMech registered chrPrfComp_cuurbifo_simgame
+[17:57:23.703]CustomMech registered chrprfmech_dixon_vtol
+[17:57:23.703]CustomMech registered chrPrfComp_cudixon_simgame
+[17:57:23.704]CustomMech registered chrprfmech_harpagos_tank
+[17:57:23.704]CustomMech registered chrPrfComp_cuharpagostank_simgame
+[17:57:23.704]CustomMech registered chrprfmech_horskr_vtol
+[17:57:23.704]CustomMech registered chrPrfComp_cuhorskr_simgame
+[17:57:23.704]CustomMech registered chrprfmech_ishtar_tank
+[17:57:23.704]CustomMech registered chrPrfComp_cuishtar_simgame
+[17:57:23.704]CustomMech registered chrprfmech_kamakiri_vtol
+[17:57:23.704]CustomMech registered chrPrfComp_cukamakiri_simgame
+[17:57:23.705]CustomMech registered chrprfmech_karr_vtol
+[17:57:23.705]CustomMech registered chrPrfComp_cukarr_simgame
+[17:57:23.705]CustomMech registered chrprfmech_markolab_tank
+[17:57:23.705]CustomMech registered chrPrfComp_markolab_simgame
+[17:57:23.705]CustomMech registered chrprfmech_overlord_dropship
+[17:57:23.705]CustomMech registered chrPrfComp_cuoverlord_simgame
+[17:57:23.706]CustomMech registered chrprfmech_perikirov_vtol
+[17:57:23.706]CustomMech registered chrPrfComp_cuperikirov_simgame
+[17:57:23.706]CustomMech registered chrprfmech_rakirov_vtol
+[17:57:23.706]CustomMech registered chrPrfComp_curakirov_simgame
+[17:57:23.706]CustomMech registered chrprfmech_rattler-fortress
+[17:57:23.706]CustomMech registered chrPrfComp_curattler_simgame
+[17:57:23.706]CustomMech registered chrprfmech_rattlersl-fortress
+[17:57:23.706]CustomMech registered chrPrfComp_curattlersl_simgame
+[17:57:23.707]CustomMech registered chrprfmech_redkite_vtol
+[17:57:23.707]CustomMech registered chrPrfComp_curedkite_simgame
+[17:57:23.707]CustomMech registered chrprfmech_strix_vtol
+[17:57:23.707]CustomMech registered chrPrfComp_custrix_simgame
+[17:57:23.707]CustomMech registered chrprfmech_union_dropship
+[17:57:23.707]CustomMech registered chrPrfComp_cuunion_simgame
+[17:57:23.707]CustomMech registered chrprfmech_unnsvin_vtol
+[17:57:23.707]CustomMech registered chrPrfComp_cuunnsvin_simgame
+[17:57:23.707]CustomMech registered chrprfmech_urbiecopter_vtol
+[17:57:23.707]CustomMech registered chrPrfComp_cuurbiecopter_simgame
+[17:57:23.708]CustomMech registered chrprfmech_warrior_vtol
+[17:57:23.708]CustomMech registered chrPrfComp_cuwarriorvtol_simgame
+[17:57:23.708]CustomMech registered chrprfmech_yellowjacket_vtol
+[17:57:23.708]CustomMech registered chrPrfComp_cuyellowjacket_simgame
+[17:57:23.709]CustomMech registered coastalcutter_vehicle_body
+[17:57:23.709]CustomMech registered chrPrfComp_coastalcutter_simgame
+[17:57:23.710]CustomMech registered chrprfmech_dropship_ball_turret
+[17:57:23.710]CustomMech registered chrPrfComp_cudropshipballturret_simgame
+[17:57:23.710]CustomMech registered chrprfmech_rattlersl_tower-turret
+[17:57:23.710]CustomMech registered chrPrfComp_curattlersl_tower_simgame
+[17:57:23.710]CustomMech registered chrprfmech_rattler_tower-turret
+[17:57:23.710]CustomMech registered chrPrfComp_curattler_tower_simgame
+[17:57:23.710]CustomMech registered chrprfmech_rattler_track_left_front-turret
+[17:57:23.710]CustomMech registered chrPrfComp_curattler_track_left_front_simgame
+[17:57:23.711]CustomMech registered chrprfmech_rattler_track_left_rear-turret
+[17:57:23.711]CustomMech registered chrPrfComp_curattler_track_left_rear_simgame
+[17:57:23.711]CustomMech registered chrprfmech_rattler_track_right_front-turret
+[17:57:23.711]CustomMech registered chrPrfComp_curattler_track_right_front_simgame
+[17:57:23.711]CustomMech registered chrprfmech_rattler_track_right_rear-turret
+[17:57:23.711]CustomMech registered chrPrfComp_curattler_track_right_rear_simgame
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
- WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\Weapon_Autocannon_LONGTOM.json
-[19:07:51.836]HUDMechArmorReadout.BayShowMech null
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\Weapon_Autocannon_RAC10.json
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
- WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\Weapon_Autocannon_LONGTOM.json
-[19:07:54.501]HUDMechArmorReadout.BayShowMech null
-[19:07:54.542]PilotDef.DependenciesLoaded pilot_kbeta_arclight
-[19:07:54.562]PilotDef.DependenciesLoaded pilot_kbeta_kraken
-[19:07:54.577]PilotDef.DependenciesLoaded pilot_kbeta_wildfire
-[19:07:54.591]PilotDef.DependenciesLoaded pilot_kbeta_bulwark
-[19:11:59.856]HUDMechArmorReadout.DisplayedMechDef mechdef_annihilator_ANH-1A chassis:chassisdef_annihilator_ANH-1A isFake:False info:False
-[19:11:59.856]HUDMechArmorReadout.BayShowMech chassisdef_annihilator_ANH-1A
-[19:12:00.913]HUDMechArmorReadout.DisplayedMechDef mechdef_thunderhawk_DK-7X chassis:chassisdef_thunderhawk_DK-7X isFake:False info:False
-[19:12:00.913]HUDMechArmorReadout.BayShowMech chassisdef_thunderhawk_DK-7X
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapons Clan\Weapon_SRM_SRM4_Clan_OS.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\Weapon_Autocannon_RAC10.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapons Clan\Weapon_SRM_SRM4_Clan_OS.json
