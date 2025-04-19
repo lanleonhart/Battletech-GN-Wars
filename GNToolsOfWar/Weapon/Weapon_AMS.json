@@ -6,8 +6,8 @@
 			}
 		],
 		"BonusDescriptions": [
-			"AMS"     
-		  ]
+			"AMS"
+		]
 	},
 	"Auras": [
 		{
@@ -52,8 +52,6 @@
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 0,
 	"Instability": 0,
-	"IsAMS": true,
-	"IsAAMS": true,
 	"NotUseInMelee": true,
 	"AMSDamage": 1,
 	"WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
@@ -85,6 +83,8 @@
 			"Id": "On",
 			"UIName": "On",
 			"isBaseMode": true,
+			"IsAMS": true,
+			"IsAAMS": true,
 			"AMSShootsEveryAttack": false,
 			"ShotsWhenFired": 20,
 			"AMSHitChance": 0.25
@@ -93,11 +93,26 @@
 			"Id": "Overload",
 			"UIName": "Overload",
 			"isBaseMode": false,
+			"IsAMS": true,
+			"IsAAMS": true,
 			"AMSShootsEveryAttack": true,
 			"ShotsWhenFired": 30,
 			"AMSHitChance": 0.25,
 			"FlatJammingChance": 0.4,
 			"HeatGenerated": 2
+		},
+		{
+			"Id": "SelfDefense",
+			"UIName": "SelfDefense",
+			"isBaseMode": false,
+			"AMSDamage": 1,
+			"ShotsWhenFired": 30,
+			"AMSHitChance": 0.25,
+			"FlatJammingChance": 0.2,
+			"HeatGenerated": 2,
+			"IsAMS": true,
+			"IsAAMS": false,
+			"AMSShootsEveryAttack": true
 		},
 		{
 			"Id": "Off",
