@@ -1,4 +1,4 @@
-[17:57:16.571]Mech.CanEngageTarget searching
+[05:47:34.939]Mech.CanEngageTarget searching
  get_GameRep
  get_PilotableActorDef
  get_MechDef
@@ -176,121 +176,1575 @@
   params:2
    BattleTech.ICombatant
    System.String&
-[17:57:16.817]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
-[17:57:16.817]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
-[17:57:23.512]System.ArgumentException: You can only patch implemented methods/constructors. Patch the declared method virtual float BattleTech.PreferEqualizeQuantityOverTeamFactor::EvaluateInfluenceMapFactorAtPosition(BattleTech.AbstractActor unit_unused, UnityEngine.Vector3 position, float angle_unused, BattleTech.MoveType moveType_unused, BattleTech.PathNode pathNode_unused) instead.
+[05:47:35.381]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[05:47:35.381]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[05:47:51.575]System.ArgumentException: You can only patch implemented methods/constructors. Patch the declared method virtual float BattleTech.PreferEqualizeQuantityOverTeamFactor::EvaluateInfluenceMapFactorAtPosition(BattleTech.AbstractActor unit_unused, UnityEngine.Vector3 position, float angle_unused, BattleTech.MoveType moveType_unused, BattleTech.PathNode pathNode_unused) instead.
   at HarmonyLib.PatchProcessor.Patch () [0x00051] in <60c035a0be4a4c6c95bfce57f6234a36>:0 
   at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer, HarmonyLib.HarmonyMethod ilmanipulator) [0x00033] in <60c035a0be4a4c6c95bfce57f6234a36>:0 
   at CustomUnits.InfluenceMapPositionFactorPatch.PatchAll (HarmonyLib.Harmony harmony) [0x00227] in <b4cee1c53b5640da9cb2cbc37b7d1691>:0 
-[17:57:23.686]CustomMech registered chrprfmech_barghest
-[17:57:23.686]CustomMech registered chrPrfComp_cubarghest_simgame
-[17:57:23.687]CustomMech registered chrprfmech_barghest_front
-[17:57:23.687]CustomMech registered chrPrfComp_barghest_front_simgame
-[17:57:23.688]CustomMech registered chrprfmech_barghest_rear
-[17:57:23.688]CustomMech registered chrPrfComp_barghest_rear_simgame
-[17:57:23.688]CustomMech registered chrprfmech_cuambassadorbase-001
-[17:57:23.688]CustomMech registered chrPrfComp_cuambassador_simgame
-[17:57:23.689]CustomMech registered chrprfmech_cudragoonbase-001
-[17:57:23.689]CustomMech registered chrPrfComp_cudragoon_simgame
-[17:57:23.694]CustomMech registered chrprfmech_cugreatturtlebase-001
-[17:57:23.694]CustomMech registered chrPrfComp_cugreatturtle_simgame
-[17:57:23.694]CustomMech registered chrprfmech_cugulonbase-001
-[17:57:23.694]CustomMech registered chrPrfComp_cugulon_simgame
-[17:57:23.694]CustomMech registered chrprfmech_cugunslingerbase-001
-[17:57:23.694]CustomMech registered chrPrfComp_cugunslinger_simgame
-[17:57:23.695]CustomMech registered chrprfmech_cuharpagosquadbase-001
-[17:57:23.695]CustomMech registered chrPrfComp_cuharpagosquad_simgame
-[17:57:23.695]CustomMech registered chrprfmech_cuharpagosquadtankbase-001
-[17:57:23.695]CustomMech registered chrPrfComp_cuharpagosquadtank_simgame
-[17:57:23.695]CustomMech registered chrprfmech_cuheliosbase-001
-[17:57:23.695]CustomMech registered chrPrfComp_cuhelios_simgame
-[17:57:23.696]CustomMech registered chrprfmech_cuironcladbase-001
-[17:57:23.696]CustomMech registered chrPrfComp_cuironclad_simgame
-[17:57:23.696]CustomMech registered chrprfmech_cukisobase-001
-[17:57:23.696]CustomMech registered chrPrfComp_cukiso_simgame
-[17:57:23.696]CustomMech registered chrprfmech_cusiroccobase-001
-[17:57:23.696]CustomMech registered chrPrfComp_cusirocco_simgame
-[17:57:23.696]CustomMech registered chrprfmech_cusirocco_front
-[17:57:23.696]CustomMech registered chrPrfComp_cusirocco_front_simgame
-[17:57:23.697]CustomMech registered chrprfmech_cusirocco_rear
-[17:57:23.697]CustomMech registered chrPrfComp_cusirocco_rear_simgame
-[17:57:23.697]CustomMech registered chrprfmech_cuslagmaidenbase-001
-[17:57:23.697]CustomMech registered chrPrfComp_cuslagmaiden_simgame
-[17:57:23.697]CustomMech registered chrprfmech_cutarantulabase-001
-[17:57:23.697]CustomMech registered chrPrfComp_cutarantulabase_simgame
-[17:57:23.698]CustomMech registered chrprfmech_cuverfolgerbase-001
-[17:57:23.698]CustomMech registered chrPrfComp_cuverfolger_simgame
-[17:57:23.698]CustomMech registered chrprfmech_cuvolkhbase-001
-[17:57:23.698]CustomMech registered chrPrfComp_cuvolkh_simgame
-[17:57:23.698]CustomMech registered chrprfmech_cuflashmanbase-001
-[17:57:23.698]CustomMech registered chrPrfComp_cuflashman_simgame
-[17:57:23.698]CustomMech registered chrprfmech_goliath
-[17:57:23.698]CustomMech registered chrPrfComp_cugoliath_simgame
-[17:57:23.698]CustomMech registered chrprfmech_curifleman3base-001
-[17:57:23.698]CustomMech registered chrPrfComp_curifleman3_simgame
-[17:57:23.699]CustomMech registered chrprfmech_scorpionmechbase-001
-[17:57:23.699]CustomMech registered chrPrfComp_scorpionmech_simgame
-[17:57:23.701]CustomMech registered chrprfmech_cuurbifobase-001
-[17:57:23.701]CustomMech registered chrPrfComp_cuurbifo_simgame
-[17:57:23.703]CustomMech registered chrprfmech_dixon_vtol
-[17:57:23.703]CustomMech registered chrPrfComp_cudixon_simgame
-[17:57:23.704]CustomMech registered chrprfmech_harpagos_tank
-[17:57:23.704]CustomMech registered chrPrfComp_cuharpagostank_simgame
-[17:57:23.704]CustomMech registered chrprfmech_horskr_vtol
-[17:57:23.704]CustomMech registered chrPrfComp_cuhorskr_simgame
-[17:57:23.704]CustomMech registered chrprfmech_ishtar_tank
-[17:57:23.704]CustomMech registered chrPrfComp_cuishtar_simgame
-[17:57:23.704]CustomMech registered chrprfmech_kamakiri_vtol
-[17:57:23.704]CustomMech registered chrPrfComp_cukamakiri_simgame
-[17:57:23.705]CustomMech registered chrprfmech_karr_vtol
-[17:57:23.705]CustomMech registered chrPrfComp_cukarr_simgame
-[17:57:23.705]CustomMech registered chrprfmech_markolab_tank
-[17:57:23.705]CustomMech registered chrPrfComp_markolab_simgame
-[17:57:23.705]CustomMech registered chrprfmech_overlord_dropship
-[17:57:23.705]CustomMech registered chrPrfComp_cuoverlord_simgame
-[17:57:23.706]CustomMech registered chrprfmech_perikirov_vtol
-[17:57:23.706]CustomMech registered chrPrfComp_cuperikirov_simgame
-[17:57:23.706]CustomMech registered chrprfmech_rakirov_vtol
-[17:57:23.706]CustomMech registered chrPrfComp_curakirov_simgame
-[17:57:23.706]CustomMech registered chrprfmech_rattler-fortress
-[17:57:23.706]CustomMech registered chrPrfComp_curattler_simgame
-[17:57:23.706]CustomMech registered chrprfmech_rattlersl-fortress
-[17:57:23.706]CustomMech registered chrPrfComp_curattlersl_simgame
-[17:57:23.707]CustomMech registered chrprfmech_redkite_vtol
-[17:57:23.707]CustomMech registered chrPrfComp_curedkite_simgame
-[17:57:23.707]CustomMech registered chrprfmech_strix_vtol
-[17:57:23.707]CustomMech registered chrPrfComp_custrix_simgame
-[17:57:23.707]CustomMech registered chrprfmech_union_dropship
-[17:57:23.707]CustomMech registered chrPrfComp_cuunion_simgame
-[17:57:23.707]CustomMech registered chrprfmech_unnsvin_vtol
-[17:57:23.707]CustomMech registered chrPrfComp_cuunnsvin_simgame
-[17:57:23.707]CustomMech registered chrprfmech_urbiecopter_vtol
-[17:57:23.707]CustomMech registered chrPrfComp_cuurbiecopter_simgame
-[17:57:23.708]CustomMech registered chrprfmech_warrior_vtol
-[17:57:23.708]CustomMech registered chrPrfComp_cuwarriorvtol_simgame
-[17:57:23.708]CustomMech registered chrprfmech_yellowjacket_vtol
-[17:57:23.708]CustomMech registered chrPrfComp_cuyellowjacket_simgame
-[17:57:23.709]CustomMech registered coastalcutter_vehicle_body
-[17:57:23.709]CustomMech registered chrPrfComp_coastalcutter_simgame
-[17:57:23.710]CustomMech registered chrprfmech_dropship_ball_turret
-[17:57:23.710]CustomMech registered chrPrfComp_cudropshipballturret_simgame
-[17:57:23.710]CustomMech registered chrprfmech_rattlersl_tower-turret
-[17:57:23.710]CustomMech registered chrPrfComp_curattlersl_tower_simgame
-[17:57:23.710]CustomMech registered chrprfmech_rattler_tower-turret
-[17:57:23.710]CustomMech registered chrPrfComp_curattler_tower_simgame
-[17:57:23.710]CustomMech registered chrprfmech_rattler_track_left_front-turret
-[17:57:23.710]CustomMech registered chrPrfComp_curattler_track_left_front_simgame
-[17:57:23.711]CustomMech registered chrprfmech_rattler_track_left_rear-turret
-[17:57:23.711]CustomMech registered chrPrfComp_curattler_track_left_rear_simgame
-[17:57:23.711]CustomMech registered chrprfmech_rattler_track_right_front-turret
-[17:57:23.711]CustomMech registered chrPrfComp_curattler_track_right_front_simgame
-[17:57:23.711]CustomMech registered chrprfmech_rattler_track_right_rear-turret
-[17:57:23.711]CustomMech registered chrPrfComp_curattler_track_right_rear_simgame
+[05:47:51.613]CustomMech registered chrprfmech_barghest
+[05:47:51.613]CustomMech registered chrPrfComp_cubarghest_simgame
+[05:47:51.614]CustomMech registered chrprfmech_barghest_front
+[05:47:51.614]CustomMech registered chrPrfComp_barghest_front_simgame
+[05:47:51.614]CustomMech registered chrprfmech_barghest_rear
+[05:47:51.614]CustomMech registered chrPrfComp_barghest_rear_simgame
+[05:47:51.615]CustomMech registered chrprfmech_cuambassadorbase-001
+[05:47:51.615]CustomMech registered chrPrfComp_cuambassador_simgame
+[05:47:51.615]CustomMech registered chrprfmech_cudragoonbase-001
+[05:47:51.615]CustomMech registered chrPrfComp_cudragoon_simgame
+[05:47:51.619]CustomMech registered chrprfmech_cugreatturtlebase-001
+[05:47:51.619]CustomMech registered chrPrfComp_cugreatturtle_simgame
+[05:47:51.620]CustomMech registered chrprfmech_cugulonbase-001
+[05:47:51.620]CustomMech registered chrPrfComp_cugulon_simgame
+[05:47:51.620]CustomMech registered chrprfmech_cugunslingerbase-001
+[05:47:51.620]CustomMech registered chrPrfComp_cugunslinger_simgame
+[05:47:51.620]CustomMech registered chrprfmech_cuharpagosquadbase-001
+[05:47:51.620]CustomMech registered chrPrfComp_cuharpagosquad_simgame
+[05:47:51.621]CustomMech registered chrprfmech_cuharpagosquadtankbase-001
+[05:47:51.621]CustomMech registered chrPrfComp_cuharpagosquadtank_simgame
+[05:47:51.621]CustomMech registered chrprfmech_cuheliosbase-001
+[05:47:51.621]CustomMech registered chrPrfComp_cuhelios_simgame
+[05:47:51.621]CustomMech registered chrprfmech_cuironcladbase-001
+[05:47:51.621]CustomMech registered chrPrfComp_cuironclad_simgame
+[05:47:51.622]CustomMech registered chrprfmech_cukisobase-001
+[05:47:51.622]CustomMech registered chrPrfComp_cukiso_simgame
+[05:47:51.622]CustomMech registered chrprfmech_cusiroccobase-001
+[05:47:51.622]CustomMech registered chrPrfComp_cusirocco_simgame
+[05:47:51.622]CustomMech registered chrprfmech_cusirocco_front
+[05:47:51.622]CustomMech registered chrPrfComp_cusirocco_front_simgame
+[05:47:51.622]CustomMech registered chrprfmech_cusirocco_rear
+[05:47:51.622]CustomMech registered chrPrfComp_cusirocco_rear_simgame
+[05:47:51.622]CustomMech registered chrprfmech_cuslagmaidenbase-001
+[05:47:51.622]CustomMech registered chrPrfComp_cuslagmaiden_simgame
+[05:47:51.623]CustomMech registered chrprfmech_cutarantulabase-001
+[05:47:51.623]CustomMech registered chrPrfComp_cutarantulabase_simgame
+[05:47:51.623]CustomMech registered chrprfmech_cuverfolgerbase-001
+[05:47:51.623]CustomMech registered chrPrfComp_cuverfolger_simgame
+[05:47:51.623]CustomMech registered chrprfmech_cuvolkhbase-001
+[05:47:51.623]CustomMech registered chrPrfComp_cuvolkh_simgame
+[05:47:51.624]CustomMech registered chrprfmech_cuflashmanbase-001
+[05:47:51.624]CustomMech registered chrPrfComp_cuflashman_simgame
+[05:47:51.624]CustomMech registered chrprfmech_goliath
+[05:47:51.624]CustomMech registered chrPrfComp_cugoliath_simgame
+[05:47:51.624]CustomMech registered chrprfmech_curifleman3base-001
+[05:47:51.624]CustomMech registered chrPrfComp_curifleman3_simgame
+[05:47:51.624]CustomMech registered chrprfmech_scorpionmechbase-001
+[05:47:51.624]CustomMech registered chrPrfComp_scorpionmech_simgame
+[05:47:51.626]CustomMech registered chrprfmech_cuurbifobase-001
+[05:47:51.626]CustomMech registered chrPrfComp_cuurbifo_simgame
+[05:47:51.627]CustomMech registered chrprfmech_dixon_vtol
+[05:47:51.627]CustomMech registered chrPrfComp_cudixon_simgame
+[05:47:51.627]CustomMech registered chrprfmech_harpagos_tank
+[05:47:51.627]CustomMech registered chrPrfComp_cuharpagostank_simgame
+[05:47:51.628]CustomMech registered chrprfmech_horskr_vtol
+[05:47:51.628]CustomMech registered chrPrfComp_cuhorskr_simgame
+[05:47:51.628]CustomMech registered chrprfmech_ishtar_tank
+[05:47:51.628]CustomMech registered chrPrfComp_cuishtar_simgame
+[05:47:51.628]CustomMech registered chrprfmech_kamakiri_vtol
+[05:47:51.628]CustomMech registered chrPrfComp_cukamakiri_simgame
+[05:47:51.628]CustomMech registered chrprfmech_karr_vtol
+[05:47:51.628]CustomMech registered chrPrfComp_cukarr_simgame
+[05:47:51.629]CustomMech registered chrprfmech_markolab_tank
+[05:47:51.629]CustomMech registered chrPrfComp_markolab_simgame
+[05:47:51.629]CustomMech registered chrprfmech_overlord_dropship
+[05:47:51.629]CustomMech registered chrPrfComp_cuoverlord_simgame
+[05:47:51.629]CustomMech registered chrprfmech_perikirov_vtol
+[05:47:51.629]CustomMech registered chrPrfComp_cuperikirov_simgame
+[05:47:51.629]CustomMech registered chrprfmech_rakirov_vtol
+[05:47:51.629]CustomMech registered chrPrfComp_curakirov_simgame
+[05:47:51.630]CustomMech registered chrprfmech_rattler-fortress
+[05:47:51.630]CustomMech registered chrPrfComp_curattler_simgame
+[05:47:51.630]CustomMech registered chrprfmech_rattlersl-fortress
+[05:47:51.630]CustomMech registered chrPrfComp_curattlersl_simgame
+[05:47:51.630]CustomMech registered chrprfmech_redkite_vtol
+[05:47:51.630]CustomMech registered chrPrfComp_curedkite_simgame
+[05:47:51.630]CustomMech registered chrprfmech_strix_vtol
+[05:47:51.630]CustomMech registered chrPrfComp_custrix_simgame
+[05:47:51.631]CustomMech registered chrprfmech_union_dropship
+[05:47:51.631]CustomMech registered chrPrfComp_cuunion_simgame
+[05:47:51.631]CustomMech registered chrprfmech_unnsvin_vtol
+[05:47:51.631]CustomMech registered chrPrfComp_cuunnsvin_simgame
+[05:47:51.631]CustomMech registered chrprfmech_urbiecopter_vtol
+[05:47:51.631]CustomMech registered chrPrfComp_cuurbiecopter_simgame
+[05:47:51.631]CustomMech registered chrprfmech_warrior_vtol
+[05:47:51.631]CustomMech registered chrPrfComp_cuwarriorvtol_simgame
+[05:47:51.632]CustomMech registered chrprfmech_yellowjacket_vtol
+[05:47:51.632]CustomMech registered chrPrfComp_cuyellowjacket_simgame
+[05:47:51.632]CustomMech registered coastalcutter_vehicle_body
+[05:47:51.632]CustomMech registered chrPrfComp_coastalcutter_simgame
+[05:47:51.632]CustomMech registered chrprfmech_dropship_ball_turret
+[05:47:51.632]CustomMech registered chrPrfComp_cudropshipballturret_simgame
+[05:47:51.633]CustomMech registered chrprfmech_rattlersl_tower-turret
+[05:47:51.633]CustomMech registered chrPrfComp_curattlersl_tower_simgame
+[05:47:51.633]CustomMech registered chrprfmech_rattler_tower-turret
+[05:47:51.633]CustomMech registered chrPrfComp_curattler_tower_simgame
+[05:47:51.633]CustomMech registered chrprfmech_rattler_track_left_front-turret
+[05:47:51.633]CustomMech registered chrPrfComp_curattler_track_left_front_simgame
+[05:47:51.633]CustomMech registered chrprfmech_rattler_track_left_rear-turret
+[05:47:51.633]CustomMech registered chrPrfComp_curattler_track_left_rear_simgame
+[05:47:51.634]CustomMech registered chrprfmech_rattler_track_right_front-turret
+[05:47:51.634]CustomMech registered chrPrfComp_curattler_track_right_front_simgame
+[05:47:51.634]CustomMech registered chrprfmech_rattler_track_right_rear-turret
+[05:47:51.634]CustomMech registered chrPrfComp_curattler_track_right_rear_simgame
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\AmmoCategory.json
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
  WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\Weapon_Autocannon_RAC10.json
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
  WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapons Clan\Weapon_SRM_SRM4_Clan_OS.json
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\AmmoCategory.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
  WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\Weapon_Autocannon_RAC10.json
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
  WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapons Clan\Weapon_SRM_SRM4_Clan_OS.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ MechDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\mech\Weapon_Autocannon_SNIPER.json
+[05:48:49.678]Renderer.sharedMaterial set null scar03 (2)
+[05:48:49.678]Renderer.sharedMaterial set null scar03 (1)
+[05:48:49.738]Renderer.sharedMaterial set null scar02 (1)
+[05:48:49.738]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal (8)
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal (11)
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal (6)
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal (10)
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal (3)
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal (9)
+[05:48:55.488]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (12)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (4)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (5)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (7)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:48:55.503]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:48:59.878]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:49:02.338]Renderer.sharedMaterial set null scar03 (1)
+[05:49:02.374]Renderer.sharedMaterial set null scar02 (1)
+[05:49:02.416]Renderer.sharedMaterial set null BattleTech Decal (14)
+[05:49:02.500]Renderer.sharedMaterial set null scar02 (1)
+[05:49:02.537]Renderer.sharedMaterial set null scar01 (1)
+[05:49:02.622]Renderer.sharedMaterial set null BattleTech Decal (16)
+[05:49:02.696]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:49:02.750]Renderer.sharedMaterial set null scar02 (2)
+[05:49:02.750]Renderer.sharedMaterial set null scar02 (1)
+[05:49:02.750]Renderer.sharedMaterial set null BattleTech Decal (6)
+[05:49:02.827]Renderer.sharedMaterial set null scar03 (1)
+[05:49:02.866]Renderer.sharedMaterial set null BattleTech Decal (8)
+[05:49:02.995]Renderer.sharedMaterial set null BattleTech Decal (7)
+[05:49:03.025]Renderer.sharedMaterial set null scar01 (1)
+[05:49:03.105]Renderer.sharedMaterial set null scar03 (1)
+[05:49:03.105]Renderer.sharedMaterial set null scar01 (1)
+[05:49:03.260]Renderer.sharedMaterial set null BattleTech Decal (4)
+[05:49:03.603]Renderer.sharedMaterial set null BattleTech Decal (9)
+[05:49:03.674]Renderer.sharedMaterial set null BattleTech Decal (11)
+[05:49:04.007]Renderer.sharedMaterial set null scar02 (1)
+[05:49:04.007]Renderer.sharedMaterial set null BattleTech Decal (13)
+[05:49:04.139]Renderer.sharedMaterial set null scar01 (1)
+[05:49:04.139]Renderer.sharedMaterial set null scar01 (2)
+[05:49:04.605]Renderer.sharedMaterial set null scar03 (1)
+[05:49:05.060]Renderer.sharedMaterial set null BattleTech Decal (18)
+[05:49:05.302]Renderer.sharedMaterial set null BattleTech Decal
+[05:49:05.351]Renderer.sharedMaterial set null BattleTech Decal (15)
+[05:49:05.800]Renderer.sharedMaterial set null scar01 (4)
+[05:49:05.800]Renderer.sharedMaterial set null scar01 (3)
+[05:49:05.800]Renderer.sharedMaterial set null scar01 (5)
+[05:49:05.800]Renderer.sharedMaterial set null scar01 (2)
+[05:49:05.800]Renderer.sharedMaterial set null scar01 (1)
+[05:49:06.145]Renderer.sharedMaterial set null BattleTech Decal (3)
+[05:49:07.461]Renderer.sharedMaterial set null scar03 (1)
+[05:49:07.461]Renderer.sharedMaterial set null scar02 (1)
+[05:49:07.799]Renderer.sharedMaterial set null BattleTech Decal (12)
+[05:49:07.939]Renderer.sharedMaterial set null BattleTech Decal (5)
+[05:50:41.573]DataManager.PooledInstantiate_CustomMechRep_MechLab chrPrfComp_commando_simgame custRepDef:null
+[05:50:41.575]CustomPrefabHelper.Searching chrPrfComp_commando_simgame
+ setupAlternates:False
+ setupSquad:False
+ setupQuad:False
+[05:50:41.576]CustomActorRepresentationHelper.ProcessSimGame custom representation found:
+customPropertyBlock chrPrfComp_commando_simgame(Clone)
+[05:50:41.581]CustomMechCustomization.Init propertyBlock:chrPrfComp_commando_simgame(Clone)
+[05:50:41.584]CustomPaintPattern.Init default com_head_cockpit_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_head_cockpit 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_arm_clavicle_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_arm_clavicle 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_arm_forearm 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_arm_upperarm 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_leg_calf_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_leg_foot_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_leg_thigh_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_leg_toe0_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_leg_calf 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_leg_foot 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_leg_thigh 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_leg_toe0 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_arm_clavicle_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_arm_clavicle 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_arm_forearm 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_arm_upperarm 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_leg_calf_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_leg_foot_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_leg_thigh_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_leg_toe0_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_leg_calf 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_leg_foot 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_leg_thigh 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_leg_toe0 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_torso_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_torso_rear_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_torso 6
+[05:50:41.584]CustomPaintPattern.Init default com_left_torso_rear 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_torso_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_torso_rear_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_torso 6
+[05:50:41.584]CustomPaintPattern.Init default com_right_torso_rear 6
+[05:50:41.584]CustomPaintPattern.Init default com_centre_torso_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_centre_torso_pelvis_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_centre_torso_pelvis_rear_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_centre_torso_rear_dmg 6
+[05:50:41.584]CustomPaintPattern.Init default com_centre_torso 6
+[05:50:41.584]CustomPaintPattern.Init default com_centre_torso_pelvis 6
+[05:50:41.584]CustomPaintPattern.Init default com_centre_torso_pelvis_rear 6
+[05:50:41.584]CustomPaintPattern.Init default com_centre_torso_rear 6
+[05:50:41.586]CustomRepresentation.InitDestructable
+ no effective groups
+ chrPrfWeap_commando_centertorso_srm6_mh1 no effective groups
+ chrPrfWeap_commando_centertorso_srm6_mh1 no effective groups
+ chrPrfWeap_commando_centertorso_srm6_mh1 chrPrfWeap_commando_centertorso_srm6_mh1 chrPrfWeap_commando_rightarm_srm6_mh1 chrPrfWeap_commando_centertorso_srm6_mh1 chrPrfWeap_commando_rightarm_srm6_mh1 chrPrfWeap_commando_rightarm_flamer_eh2 chrPrfWeap_commando_centertorso_srm6_mh1 chrPrfWeap_commando_rightarm_srm6_mh1 chrPrfWeap_commando_rightarm_flamer_eh2 chrPrfWeap_commando_leftarm_laser_eh1 no effective groups
+ chrPrfWeap_commando_centertorso_srm6_mh1 chrPrfWeap_commando_rightarm_srm6_mh1 chrPrfWeap_commando_rightarm_flamer_eh2 chrPrfWeap_commando_leftarm_laser_eh1 no effective components
+[05:50:41.594]CustomPrefabHelper.Searching chrPrfWeap_commando_centertorso_srm6_mh1
+[05:50:41.596]CustomPaintPattern.Init default mesh 6
+[05:50:41.596]CustomPrefabHelper.Searching chrPrfWeap_commando_leftarm_laser_eh1
+[05:50:41.597]CustomPaintPattern.Init default chrMdlWeap_commando_left_arm_forearm_laser_eh1-001 6
+[05:50:41.597]CustomPrefabHelper.Searching chrPrfWeap_commando_rightarm_srm6_mh1
+[05:50:41.597]CustomPaintPattern.Init default chrMdlWeap_commando_right_arm_forearm_missile6_mh1 6
+[05:50:41.597]CustomPrefabHelper.Searching chrPrfWeap_commando_rightarm_flamer_eh2
+[05:50:41.597]CustomPaintPattern.Init default chrMdlWeap_commando_right_arm_forearm_flamer_eh2 6
+[05:50:41.598]CustomRepresentation.AttachWeaponsSimGame chrPrfComp_commando_simgame(Clone)
+ prefab chrPrfWeap_commando_centertorso_srm6_mh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrPrfWeap_commando_leftarm_laser_eh1
+   no custom hardpoint. parentTransform:j_LForearm
+ prefab chrPrfWeap_commando_rightarm_srm6_mh1
+   no custom hardpoint. parentTransform:j_RForearm
+ prefab chrPrfWeap_commando_rightarm_flamer_eh2
+   no custom hardpoint. parentTransform:j_RForearm
+[05:50:41.600]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_commando-base-v04-msk
+[05:50:41.600]PaintPattern: chrTxrMech_commando-base-v01-msk did not match target: chrTxrMech_commando-base-v04-msk, skipping.
+[05:50:41.600]PaintPattern: chrTxrMech_commando-base-v02-msk did not match target: chrTxrMech_commando-base-v04-msk, skipping.
+[05:50:41.600]PaintPattern: chrTxrMech_commando-base-v03-msk did not match target: chrTxrMech_commando-base-v04-msk, skipping.
+[05:50:41.600]Matched paintPattern: chrTxrMech_commando-base-v04-msk to paintTextureId: chrTxrMech_commando-base-v04-msk
+   camo mask texture.name:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:mesh texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:chrMdlWeap_commando_left_arm_forearm_laser_eh1-001 texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:chrMdlWeap_commando_right_arm_forearm_missile6_mh1 texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:chrMdlWeap_commando_right_arm_forearm_flamer_eh2 texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_head_cockpit_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_head_cockpit texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_arm_clavicle_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_arm_clavicle texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_arm_forearm texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_arm_upperarm texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_calf_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_foot_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_thigh_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_toe0_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_calf texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_foot texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_thigh texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_toe0 texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_arm_clavicle_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_arm_clavicle texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_arm_forearm texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_arm_upperarm texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_calf_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_foot_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_thigh_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_toe0_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_calf texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_foot texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_thigh texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_toe0 texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_torso_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_torso_rear_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_torso texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_torso_rear texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_torso_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_torso_rear_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_torso texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_torso_rear texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_pelvis_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_pelvis_rear_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_rear_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_pelvis texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_pelvis_rear texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_rear texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_head_cockpit_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_head_cockpit texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_arm_clavicle_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_arm_clavicle texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_arm_forearm texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_arm_upperarm texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_calf_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_foot_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_thigh_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_toe0_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_calf texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_foot texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_thigh texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_leg_toe0 texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_arm_clavicle_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_arm_clavicle texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_arm_forearm texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_arm_upperarm texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_calf_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_foot_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_thigh_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_toe0_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_calf texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_foot texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_thigh texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_leg_toe0 texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_torso_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_torso_rear_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_torso texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_left_torso_rear texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_torso_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_torso_rear_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_torso texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_right_torso_rear texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_pelvis_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_pelvis_rear_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_rear_dmg texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_pelvis texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_pelvis_rear texture:chrTxrMech_commando-base-v04-msk
+[05:50:41.601]CustomPaintPattern.ApplyPaintScheme 3 renderer:com_centre_torso_rear texture:chrTxrMech_commando-base-v04-msk
+  tag unit_release is not starting from MR-Resize-
+  tag unit_lance_assassin is not starting from MR-Resize-
+  tag unit_light is not starting from MR-Resize-
+  tag unit_mech is not starting from MR-Resize-
+  tag unit_legal is not starting from MR-Resize-
+  tag unit_range_medium is not starting from MR-Resize-
+  tag unit_ready is not starting from MR-Resize-
+  tag unit_role_scout is not starting from MR-Resize-
+  tag unit_speed_high is not starting from MR-Resize-
+  tag AuriganMercenaries is not starting from MR-Resize-
+  tag AuriganPirates is not starting from MR-Resize-
+  tag Circinus is not starting from MR-Resize-
+  tag ComStar is not starting from MR-Resize-
+  tag Davion is not starting from MR-Resize-
+  tag GrayDeathLegion is not starting from MR-Resize-
+  tag KellHounds is not starting from MR-Resize-
+  tag Kurita is not starting from MR-Resize-
+  tag Liao is not starting from MR-Resize-
+  tag Locals is not starting from MR-Resize-
+  tag MagistracyOfCanopus is not starting from MR-Resize-
+  tag Marian is not starting from MR-Resize-
+  tag Marik is not starting from MR-Resize-
+  tag NotLiao is not starting from MR-Resize-
+  tag NotMagistracyOfCanopus is not starting from MR-Resize-
+  tag NotTaurianConcordat is not starting from MR-Resize-
+  tag Outworld is not starting from MR-Resize-
+  tag Rasalhague is not starting from MR-Resize-
+  tag Steiner is not starting from MR-Resize-
+  tag TaurianConcordat is not starting from MR-Resize-
+  tag WordOfBlake is not starting from MR-Resize-
+  tag unit_piloting_type_generic_mech is not starting from MR-Resize-
+  tag unit_drop_type_generic_mech is not starting from MR-Resize-
+[05:50:41.603]BattleTech.Mech: Found prefab 'mechdef_commando_COM-3A' w/ prefab 'commando'
+[05:50:41.603]Setting Cache: mechdef_commando_COM-3A: [1.18,1.18,1.18]
+[05:50:41.632]HUDMechArmorReadout.BayShowMech null
+[05:50:41.640]HUDMechArmorReadout.BayShowMech null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+[05:50:41.734]HUDMechArmorReadout.DisplayedMechDef mechdef_commando_COM-3A chassis:chassisdef_commando_COM-3A isFake:False info:False
+[05:50:41.734]HUDMechArmorReadout.BayShowMech chassisdef_commando_COM-3A
+ maxHeight:0 minHeight:0
+[05:50:41.921]Core.Settings.IntelShowMood:False Core.Settings.IntelShowMiniMap:False
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+ mechDef is null
+[05:50:42.825]HUDMechArmorReadout.DisplayedMechDef mechdef_commando_COM-2D chassis:chassisdef_commando_COM-2D isFake:False info:False
+[05:50:42.825]HUDMechArmorReadout.BayShowMech chassisdef_commando_COM-2D
+[05:50:43.347]DataManager.PooledInstantiate_CustomMechRep_MechLab chrPrfComp_commando_simgame custRepDef:null
+[05:50:43.348]CustomPrefabHelper.Searching chrPrfComp_commando_simgame
+ setupAlternates:False
+ setupSquad:False
+ setupQuad:False
+[05:50:43.348]CustomActorRepresentationHelper.ProcessSimGame custom representation found:
+customPropertyBlock chrPrfComp_commando_simgame(Clone)
+[05:50:43.348]CustomMechCustomization.Init propertyBlock:chrPrfComp_commando_simgame(Clone)
+[05:50:43.348]CustomPaintPattern.Init default com_head_cockpit_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_head_cockpit 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_arm_clavicle_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_arm_clavicle 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_arm_forearm 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_arm_upperarm 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_leg_calf_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_leg_foot_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_leg_thigh_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_leg_toe0_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_leg_calf 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_leg_foot 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_leg_thigh 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_leg_toe0 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_arm_clavicle_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_arm_clavicle 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_arm_forearm 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_arm_upperarm 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_leg_calf_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_leg_foot_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_leg_thigh_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_leg_toe0_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_leg_calf 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_leg_foot 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_leg_thigh 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_leg_toe0 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_torso_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_torso_rear_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_torso 6
+[05:50:43.348]CustomPaintPattern.Init default com_left_torso_rear 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_torso_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_torso_rear_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_torso 6
+[05:50:43.348]CustomPaintPattern.Init default com_right_torso_rear 6
+[05:50:43.348]CustomPaintPattern.Init default com_centre_torso_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_centre_torso_pelvis_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_centre_torso_pelvis_rear_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_centre_torso_rear_dmg 6
+[05:50:43.348]CustomPaintPattern.Init default com_centre_torso 6
+[05:50:43.348]CustomPaintPattern.Init default com_centre_torso_pelvis 6
+[05:50:43.348]CustomPaintPattern.Init default com_centre_torso_pelvis_rear 6
+[05:50:43.348]CustomPaintPattern.Init default com_centre_torso_rear 6
+[05:50:43.348]CustomRepresentation.InitDestructable
+ no effective groups
+ chrPrfWeap_commando_centertorso_srm6_mh1 no effective groups
+ chrPrfWeap_commando_centertorso_srm6_mh1 no effective groups
+ chrPrfWeap_commando_centertorso_srm6_mh1 chrPrfWeap_commando_centertorso_srm6_mh1 chrPrfWeap_commando_rightarm_srm4_mh1 chrPrfWeap_commando_centertorso_srm6_mh1 chrPrfWeap_commando_rightarm_srm4_mh1 chrPrfWeap_commando_leftarm_laser_eh1 no effective components
+ chrPrfWeap_commando_centertorso_srm6_mh1 chrPrfWeap_commando_rightarm_srm4_mh1 chrPrfWeap_commando_leftarm_laser_eh1 no effective groups
+[05:50:43.350]CustomPrefabHelper.Searching chrPrfWeap_commando_leftarm_laser_eh1
+[05:50:43.350]CustomPaintPattern.Init default chrMdlWeap_commando_left_arm_forearm_laser_eh1-001 6
+[05:50:43.350]CustomPrefabHelper.Searching chrPrfWeap_commando_centertorso_srm6_mh1
+[05:50:43.350]CustomPaintPattern.Init default mesh 6
+[05:50:43.350]CustomPrefabHelper.Searching chrPrfWeap_commando_rightarm_srm4_mh1
+[05:50:43.350]CustomPaintPattern.Init default chrMdlWeap_commando_right_arm_forearm_missile4_mh1 6
+[05:50:43.350]CustomRepresentation.AttachWeaponsSimGame chrPrfComp_commando_simgame(Clone)
+ prefab chrPrfWeap_commando_leftarm_laser_eh1
+   no custom hardpoint. parentTransform:j_LForearm
+ prefab chrPrfWeap_commando_centertorso_srm6_mh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrPrfWeap_commando_rightarm_srm4_mh1
+   no custom hardpoint. parentTransform:j_RForearm
+[05:50:43.350]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]PaintPattern: chrTxrMech_commando-base-v01-msk did not match target: chrTxrMech_commando-base-v05-msk, skipping.
+[05:50:43.350]PaintPattern: chrTxrMech_commando-base-v02-msk did not match target: chrTxrMech_commando-base-v05-msk, skipping.
+[05:50:43.350]PaintPattern: chrTxrMech_commando-base-v03-msk did not match target: chrTxrMech_commando-base-v05-msk, skipping.
+[05:50:43.350]PaintPattern: chrTxrMech_commando-base-v04-msk did not match target: chrTxrMech_commando-base-v05-msk, skipping.
+[05:50:43.350]Matched paintPattern: chrTxrMech_commando-base-v05-msk to paintTextureId: chrTxrMech_commando-base-v05-msk
+   camo mask texture.name:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:mesh texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:chrMdlWeap_commando_left_arm_forearm_laser_eh1-001 texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:chrMdlWeap_commando_right_arm_forearm_missile4_mh1 texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_head_cockpit_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_head_cockpit texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_arm_clavicle_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_arm_clavicle texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_arm_forearm texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_arm_upperarm texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_calf_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_foot_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_thigh_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_toe0_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_calf texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_foot texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_thigh texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_toe0 texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_arm_clavicle_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_arm_clavicle texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_arm_forearm texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_arm_upperarm texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_calf_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_foot_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_thigh_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_toe0_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_calf texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_foot texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_thigh texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.350]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_toe0 texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_torso_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_torso_rear_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_torso texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_torso_rear texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_torso_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_torso_rear_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_torso texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_torso_rear texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_pelvis_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_pelvis_rear_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_rear_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_pelvis texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_pelvis_rear texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_rear texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_head_cockpit_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_head_cockpit texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_arm_clavicle_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_arm_clavicle texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_arm_forearm texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_arm_upperarm texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_calf_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_foot_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_thigh_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_toe0_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_calf texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_foot texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_thigh texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_leg_toe0 texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_arm_clavicle_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_arm_clavicle texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_arm_forearm texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_arm_upperarm texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_calf_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_foot_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_thigh_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_toe0_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_calf texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_foot texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_thigh texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_leg_toe0 texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_torso_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_torso_rear_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_torso texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_left_torso_rear texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_torso_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_torso_rear_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_torso texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_right_torso_rear texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_pelvis_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_pelvis_rear_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_rear_dmg texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_pelvis texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_pelvis_rear texture:chrTxrMech_commando-base-v05-msk
+[05:50:43.351]CustomPaintPattern.ApplyPaintScheme 4 renderer:com_centre_torso_rear texture:chrTxrMech_commando-base-v05-msk
+  tag unit_release is not starting from MR-Resize-
+  tag unit_mech is not starting from MR-Resize-
+  tag unit_legal is not starting from MR-Resize-
+  tag unit_light is not starting from MR-Resize-
+  tag unit_ready is not starting from MR-Resize-
+  tag unit_lance_assassin is not starting from MR-Resize-
+  tag unit_role_scout is not starting from MR-Resize-
+  tag unit_range_medium is not starting from MR-Resize-
+  tag unit_speed_high is not starting from MR-Resize-
+  tag NotLiao is not starting from MR-Resize-
+  tag Steiner is not starting from MR-Resize-
+  tag NotMagistracyOfCanopus is not starting from MR-Resize-
+  tag NotTaurianConcordat is not starting from MR-Resize-
+  tag unit_piloting_type_generic_mech is not starting from MR-Resize-
+  tag unit_drop_type_generic_mech is not starting from MR-Resize-
+[05:50:43.352]BattleTech.Mech: Found prefab 'mechdef_commando_COM-2D' w/ prefab 'commando'
+[05:50:43.352]Setting Cache: mechdef_commando_COM-2D: [1.18,1.18,1.18]
+[05:50:43.715]HUDMechArmorReadout.DisplayedMechDef mechdef_Hermes_HER-1A chassis:chassisdef_Hermes_HER-1A isFake:False info:False
+[05:50:43.715]HUDMechArmorReadout.BayShowMech chassisdef_Hermes_HER-1A
+[05:50:44.396]DataManager.PooledInstantiate_CustomMechRep_MechLab chrPrfComp_hermes_simgame custRepDef:null
+[05:50:44.396]CustomPrefabHelper.Searching chrPrfComp_hermes_simgame
+ setupAlternates:False
+ setupSquad:False
+ setupQuad:False
+[05:50:44.396]CustomActorRepresentationHelper.ProcessSimGame custom representation found:
+customPropertyBlock chrPrfComp_battlemaster_simgame(Clone)
+[05:50:44.396]CustomMechCustomization.Init propertyBlock:chrPrfComp_battlemaster_simgame(Clone)
+[05:50:44.396]CustomPaintPattern.Init default blr_head_cockpit_dmg 6
+[05:50:44.396]CustomPaintPattern.Init default blr_head_cockpit 6
+[05:50:44.396]CustomPaintPattern.Init default blr_left_arm_clavicle_dmg 6
+[05:50:44.396]CustomPaintPattern.Init default blr_left_arm_clavicle 6
+[05:50:44.396]CustomPaintPattern.Init default blr_left_arm_forearm 6
+[05:50:44.396]CustomPaintPattern.Init default blr_left_arm_upperarm 6
+[05:50:44.396]CustomPaintPattern.Init default blr_left_arm_upperarm_pad 6
+[05:50:44.396]CustomPaintPattern.Init default blr_left_leg_calf_dmg 6
+[05:50:44.396]CustomPaintPattern.Init default blr_left_leg_foot_dmg 6
+[05:50:44.396]CustomPaintPattern.Init default blr_left_leg_hip_armor_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_hip_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_talon1_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_thigh_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_toe0_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_calf 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_foot 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_hip 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_hip_armor 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_talon1 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_thigh 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_leg_toe0 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_arm_clavicle_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_arm_clavicle 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_arm_forearm 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_arm_upperarm 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_arm_upperarm_pad 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_calf_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_foot_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_hip_armor_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_hip_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_talon1_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_thigh_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_toe0_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_calf 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_foot 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_hip 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_hip_armor 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_talon1 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_thigh 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_leg_toe0 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_torso_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_torso_rear_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_torso 6
+[05:50:44.397]CustomPaintPattern.Init default blr_left_torso_rear 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_torso_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_torso_rear_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_torso 6
+[05:50:44.397]CustomPaintPattern.Init default blr_right_torso_rear 6
+[05:50:44.397]CustomPaintPattern.Init default blr_centre_torso_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_centre_torso_pelvis_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_centre_torso_pelvis_rear_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_centre_torso_rear_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_centre_torso_twist_dmg 6
+[05:50:44.397]CustomPaintPattern.Init default blr_centre_torso 6
+[05:50:44.397]CustomPaintPattern.Init default blr_centre_torso_pelvis 6
+[05:50:44.397]CustomPaintPattern.Init default blr_centre_torso_pelvis_rear 6
+[05:50:44.397]CustomPaintPattern.Init default blr_centre_torso_rear 6
+[05:50:44.397]CustomPaintPattern.Init default blr_centre_torso_twist 6
+[05:50:44.397]CustomRepresentation.InitDestructable
+ chrprfweap_hermes_centertorso_laser_eh1 no effective groups
+ chrprfweap_hermes_centertorso_laser_eh1 no effective groups
+ chrprfweap_hermes_centertorso_laser_eh1 no effective groups
+ chrprfweap_hermes_centertorso_laser_eh1 chrprfweap_hermes_centertorso_laser_eh1 chrprfweap_hermes_rightarm_laser_eh1[05:50:44.398]CustomPrefabHelper.Searching chrprfweap_hermes_centertorso_laser_eh1
+[05:50:44.398]CustomPaintPattern.Init default blr_left_arm_forearm_ac5_bh3 6
+[05:50:44.398]CustomPrefabHelper.Searching chrprfweap_hermes_leftarm_laser_eh1
+[05:50:44.398]CustomPaintPattern.Init default blr_left_arm_forearm_laser_eh1 6
+[05:50:44.398]CustomPrefabHelper.Searching chrprfweap_hermes_rightarm_laser_eh1
+[05:50:44.398]CustomPaintPattern.Init default blr_right_arm_forearm_laser_eh1 6
+[05:50:44.398]CustomRepresentation.AttachWeaponsSimGame chrPrfComp_battlemaster_simgame(Clone)
+ prefab chrprfweap_hermes_centertorso_laser_eh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrprfweap_hermes_leftarm_laser_eh1
+   no custom hardpoint. parentTransform:j_LForearm
+ prefab chrprfweap_hermes_rightarm_laser_eh1
+   no custom hardpoint. parentTransform:j_RForearm
+[05:50:44.398]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]PaintPattern: chrTxrMech_battlemaster-base-v01-msk did not match target: chrTxrMech_battlemaster-base-v03-msk, skipping.
+[05:50:44.398]PaintPattern: chrTxrMech_battlemaster-base-v02-msk did not match target: chrTxrMech_battlemaster-base-v03-msk, skipping.
+[05:50:44.398]Matched paintPattern: chrTxrMech_battlemaster-base-v03-msk to paintTextureId: chrTxrMech_battlemaster-base-v03-msk
+   camo mask texture.name:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm_ac5_bh3 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm_laser_eh1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_forearm_laser_eh1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.398]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:44.399]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist texture:chrTxrMech_battlemaster-base-v03-msk
+  tag unit_release is not starting from MR-Resize-
+  tag unit_armor_low is not starting from MR-Resize-
+  tag unit_hot is not starting from MR-Resize-
+  tag unit_jumpOK is not starting from MR-Resize-
+  tag unit_lance_vanguard is not starting from MR-Resize-
+  tag unit_legal is not starting from MR-Resize-
+  tag unit_light is not starting from MR-Resize-
+  tag unit_mech is not starting from MR-Resize-
+  tag unit_range_short is not starting from MR-Resize-
+  tag unit_role_scout is not starting from MR-Resize-
+  tag unit_speed_high is not starting from MR-Resize-
+  tag AuriganPirates is not starting from MR-Resize-
+  tag Kurita is not starting from MR-Resize-
+  tag Liao is not starting from MR-Resize-
+  tag Locals is not starting from MR-Resize-
+  tag Marik is not starting from MR-Resize-
+  tag unit_piloting_type_generic_mech is not starting from MR-Resize-
+  tag unit_drop_type_generic_mech is not starting from MR-Resize-
+[05:50:44.400]BattleTech.Mech: Using Default Size for 'mechdef_Hermes_HER-1A'
+[05:50:44.400]Setting Cache: mechdef_Hermes_HER-1A: [0.9,0.9,0.9]
+[05:50:47.617]Mech.GetLongArmorLocation Prefixnull
+[05:50:47.714]Mech.GetLongArmorLocation Prefixnull
+[05:50:47.739]Mech.GetLongArmorLocation Prefixnull
+[05:50:47.757]Mech.GetLongArmorLocation Prefixnull
+[05:50:48.476]HUDMechArmorReadout.DisplayedMechDef mechdef_jagermech_JM6-A chassis:chassisdef_jagermech_JM6-A isFake:False info:False
+[05:50:48.476]HUDMechArmorReadout.BayShowMech chassisdef_jagermech_JM6-A
+[05:50:49.046]DataManager.PooledInstantiate_CustomMechRep_MechLab chrPrfComp_jagermech_simgame custRepDef:null
+[05:50:49.046]CustomPrefabHelper.Searching chrPrfComp_jagermech_simgame
+ setupAlternates:False
+ setupSquad:False
+ setupQuad:False
+[05:50:49.046]CustomActorRepresentationHelper.ProcessSimGame custom representation found:
+customPropertyBlock chrPrfComp_jagermech_simgame(Clone)
+[05:50:49.046]CustomMechCustomization.Init propertyBlock:chrPrfComp_jagermech_simgame(Clone)
+[05:50:49.046]CustomPaintPattern.Init default jm6_head_cockpit_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_head_cockpit 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_arm_clavicle_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_arm_clavicle 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_arm_forearm 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_arm_upperarm 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_leg_calf_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_leg_foot_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_leg_hip_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_leg_thigh_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_leg_toe0_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_leg_calf 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_leg_foot 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_leg_hip 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_leg_thigh 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_leg_toe0 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_arm_clavicle_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_arm_clavicle 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_arm_forearm 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_arm_upperarm 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_leg_calf_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_leg_foot_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_leg_hip_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_leg_thigh_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_leg_toe0_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_leg_calf 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_leg_foot 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_leg_hip 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_leg_thigh 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_leg_toe0 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_torso_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_torso_rear_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_torso 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_left_torso_rear 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_torso_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_torso_rear_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_torso 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_right_torso_rear 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_centre_torso_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_centre_torso_midsection_twist_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_centre_torso_pelvis_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_centre_torso_pelvis_rear_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_centre_torso_rear_dmg 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_centre_torso 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_centre_torso_midsection_twist 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_centre_torso_pelvis 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_centre_torso_pelvis_rear 6
+[05:50:49.046]CustomPaintPattern.Init default jm6_centre_torso_rear 6
+[05:50:49.046]CustomRepresentation.InitDestructable
+ no effective groups
+ no effective groups
+ no effective groups
+ no effective groups
+ chrPrfWeap_jagermech_rightarm_lrm15_mh2 chrPrfWeap_jagermech_rightarm_lrm15_mh2 chrPrfWeap_jagermech_rightarm_ac2_bh1 chrPrfWeap_jagermech_rightarm_lrm15_mh2 chrPrfWeap_jagermech_rightarm_ac2_bh1 chrPrfWeap_jagermech_leftarm_lrm15_mh2 chrPrfWeap_jagermech_rightarm_lrm15_mh2 chrPrfWeap_jagermech_rightarm_ac2_bh1 chrPrfWeap_jagermech_leftarm_lrm15_mh2 chrPrfWeap_jagermech_leftarm_ac2_bh1 chrPrfWeap_jagermech_rightarm_lrm15_mh2 chrPrfWeap_jagermech_rightarm_ac2_bh1 chrPrfWeap_jagermech_leftarm_lrm15_mh2 chrPrfWeap_jagermech_leftarm_ac2_bh1 chrPrfWeap_jagermech_righttorso_laser_eh1[05:50:49.051]CustomPrefabHelper.Searching chrPrfWeap_jagermech_rightarm_lrm15_mh2
+[05:50:49.051]CustomPaintPattern.Init default jm6_right_arm_forearm_missile15_mh2 6
+[05:50:49.052]CustomPrefabHelper.Searching chrPrfWeap_jagermech_righttorso_laser_eh1
+[05:50:49.052]CustomPaintPattern.Init default jm6_right_torso_laser_eh1 6
+[05:50:49.052]CustomPrefabHelper.Searching chrPrfWeap_jagermech_lefttorso_laser_eh1
+[05:50:49.052]CustomPaintPattern.Init default jm6_left_torso_laser_eh1 6
+[05:50:49.052]CustomPrefabHelper.Searching chrPrfWeap_jagermech_leftarm_lrm15_mh2
+[05:50:49.052]CustomPaintPattern.Init default jm6_left_arm_forearm_missile15_mh2 6
+[05:50:49.052]CustomPrefabHelper.Searching chrPrfWeap_jagermech_leftarm_ac2_bh1
+[05:50:49.052]CustomPaintPattern.Init default jm6_left_arm_forearm_ac2_bh1 6
+[05:50:49.052]CustomPaintPattern.Init default barrel_ac2_bh1 6
+[05:50:49.053]CustomPrefabHelper.Searching chrPrfWeap_jagermech_rightarm_ac2_bh1
+[05:50:49.053]CustomPaintPattern.Init default jm6_right_arm_forearm_ac2_bh1 6
+[05:50:49.053]CustomPaintPattern.Init default barrel_ac2_bh004 6
+[05:50:49.053]CustomRepresentation.AttachWeaponsSimGame chrPrfComp_jagermech_simgame(Clone)
+ prefab chrPrfWeap_jagermech_rightarm_lrm15_mh2
+   no custom hardpoint. parentTransform:j_RForearm
+ prefab chrPrfWeap_jagermech_rightarm_ac2_bh1
+   no custom hardpoint. parentTransform:j_RForearm
+ prefab chrPrfWeap_jagermech_righttorso_laser_eh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrPrfWeap_jagermech_lefttorso_laser_eh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrPrfWeap_jagermech_leftarm_lrm15_mh2
+   no custom hardpoint. parentTransform:j_LForearm
+ prefab chrPrfWeap_jagermech_leftarm_ac2_bh1
+   no custom hardpoint. parentTransform:j_LForearm
+[05:50:49.053]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]PaintPattern: chrTxrMech_jagermech-base-v01-msk did not match target: chrTxrMech_jagermech-base-v03-msk, skipping.
+[05:50:49.053]PaintPattern: chrTxrMech_jagermech-base-v02-msk did not match target: chrTxrMech_jagermech-base-v03-msk, skipping.
+[05:50:49.053]Matched paintPattern: chrTxrMech_jagermech-base-v03-msk to paintTextureId: chrTxrMech_jagermech-base-v03-msk
+   camo mask texture.name:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_torso_laser_eh1 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_torso_laser_eh1 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_arm_forearm_missile15_mh2 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_arm_forearm_ac2_bh1 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:barrel_ac2_bh1 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_arm_forearm_missile15_mh2 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_arm_forearm_ac2_bh1 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:barrel_ac2_bh004 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_head_cockpit_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_head_cockpit texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_arm_clavicle_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_arm_clavicle texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_arm_forearm texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_arm_upperarm texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_calf_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_foot_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_hip_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_thigh_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_toe0_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_calf texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_foot texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_hip texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_thigh texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_toe0 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_arm_clavicle_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_arm_clavicle texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_arm_forearm texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_arm_upperarm texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_calf_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_foot_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_hip_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_thigh_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_toe0_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_calf texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_foot texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_hip texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_thigh texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_toe0 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_torso_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_torso_rear_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_torso texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_torso_rear texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_torso_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_torso_rear_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_torso texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_torso_rear texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_midsection_twist_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_pelvis_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_pelvis_rear_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_rear_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_midsection_twist texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_pelvis texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_pelvis_rear texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_rear texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_head_cockpit_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_head_cockpit texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_arm_clavicle_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_arm_clavicle texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_arm_forearm texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_arm_upperarm texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_calf_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_foot_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_hip_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_thigh_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_toe0_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_calf texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_foot texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_hip texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_thigh texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_leg_toe0 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_arm_clavicle_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_arm_clavicle texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_arm_forearm texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_arm_upperarm texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_calf_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_foot_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_hip_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_thigh_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_toe0_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_calf texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_foot texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_hip texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_thigh texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_leg_toe0 texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_torso_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_torso_rear_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_torso texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_left_torso_rear texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_torso_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_torso_rear_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_torso texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_right_torso_rear texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_midsection_twist_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_pelvis_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_pelvis_rear_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_rear_dmg texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_midsection_twist texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_pelvis texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_pelvis_rear texture:chrTxrMech_jagermech-base-v03-msk
+[05:50:49.053]CustomPaintPattern.ApplyPaintScheme 2 renderer:jm6_centre_torso_rear texture:chrTxrMech_jagermech-base-v03-msk
+  tag unit_mech is not starting from MR-Resize-
+  tag unit_legal is not starting from MR-Resize-
+  tag unit_heavy is not starting from MR-Resize-
+  tag unit_release is not starting from MR-Resize-
+  tag unit_lance_support is not starting from MR-Resize-
+  tag unit_role_sniper is not starting from MR-Resize-
+  tag unit_range_long is not starting from MR-Resize-
+  tag unit_indirectFire is not starting from MR-Resize-
+  tag unit_hot is not starting from MR-Resize-
+  tag unit_armor_low is not starting from MR-Resize-
+  tag unit_speed_low is not starting from MR-Resize-
+  tag Davion is not starting from MR-Resize-
+  tag unit_piloting_type_generic_mech is not starting from MR-Resize-
+  tag unit_drop_type_generic_mech is not starting from MR-Resize-
+[05:50:49.054]BattleTech.Mech: Found prefab 'mechdef_jagermech_JM6-A' w/ prefab 'jagermech'
+[05:50:49.054]Setting Cache: mechdef_jagermech_JM6-A: [1.11,1.11,1.11]
+[05:50:50.460]HUDMechArmorReadout.DisplayedMechDef mechdef_Whitworth_WTH-1S chassis:chassisdef_Whitworth_WTH-1S isFake:False info:False
+[05:50:50.460]HUDMechArmorReadout.BayShowMech chassisdef_Whitworth_WTH-1S
+[05:50:51.124]DataManager.PooledInstantiate_CustomMechRep_MechLab chrPrfComp_whitworth_simgame custRepDef:null
+[05:50:51.124]CustomPrefabHelper.Searching chrPrfComp_whitworth_simgame
+ setupAlternates:False
+ setupSquad:False
+ setupQuad:False
+[05:50:51.124]CustomActorRepresentationHelper.ProcessSimGame custom representation found:
+customPropertyBlock chrPrfComp_battlemaster_simgame(Clone)
+[05:50:51.124]CustomMechCustomization.Init propertyBlock:chrPrfComp_battlemaster_simgame(Clone)
+[05:50:51.124]CustomPaintPattern.Init default blr_head_cockpit_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_head_cockpit 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_arm_clavicle_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_arm_clavicle 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_arm_forearm 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_arm_upperarm 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_arm_upperarm_pad 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_calf_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_foot_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_hip_armor_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_hip_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_talon1_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_thigh_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_toe0_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_calf 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_foot 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_hip 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_hip_armor 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_talon1 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_thigh 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_leg_toe0 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_arm_clavicle_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_arm_clavicle 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_arm_forearm 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_arm_upperarm 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_arm_upperarm_pad 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_calf_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_foot_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_hip_armor_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_hip_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_talon1_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_thigh_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_toe0_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_calf 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_foot 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_hip 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_hip_armor 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_talon1 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_thigh 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_leg_toe0 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_torso_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_torso_rear_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_torso 6
+[05:50:51.124]CustomPaintPattern.Init default blr_left_torso_rear 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_torso_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_torso_rear_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_torso 6
+[05:50:51.124]CustomPaintPattern.Init default blr_right_torso_rear 6
+[05:50:51.124]CustomPaintPattern.Init default blr_centre_torso_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_centre_torso_pelvis_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_centre_torso_pelvis_rear_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_centre_torso_rear_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_centre_torso_twist_dmg 6
+[05:50:51.124]CustomPaintPattern.Init default blr_centre_torso 6
+[05:50:51.125]CustomPaintPattern.Init default blr_centre_torso_pelvis 6
+[05:50:51.125]CustomPaintPattern.Init default blr_centre_torso_pelvis_rear 6
+[05:50:51.125]CustomPaintPattern.Init default blr_centre_torso_rear 6
+[05:50:51.125]CustomPaintPattern.Init default blr_centre_torso_twist 6
+[05:50:51.125]CustomRepresentation.InitDestructable
+ no effective components
+ no effective groups
+ no effective groups
+ no effective groups
+ chrprfweap_whitworth_rightarm_laser_eh1 chrprfweap_whitworth_rightarm_laser_eh1 chrprfweap_whitworth_leftarm_laser_eh1 chrprfweap_whitworth_rightarm_laser_eh1 chrprfweap_whitworth_leftarm_laser_eh1 chrprfweap_whitworth_righttorso_lrm10_mh1[05:50:51.126]CustomPrefabHelper.Searching chrprfweap_whitworth_righttorso_lrm10_mh1
+[05:50:51.126]CustomPaintPattern.Init default blr_right_torso_ppc_eh3 6
+[05:50:51.126]CustomPrefabHelper.Searching chrprfweap_whitworth_rightarm_laser_eh1
+[05:50:51.126]CustomPaintPattern.Init default blr_right_arm_forearm_laser_eh1 6
+[05:50:51.126]CustomPrefabHelper.Searching chrprfweap_whitworth_lefttorso_lrm10_mh1
+[05:50:51.126]CustomPaintPattern.Init default blr_left_torso_missile10_mh1 6
+[05:50:51.126]CustomPrefabHelper.Searching chrprfweap_whitworth_leftarm_laser_eh1
+[05:50:51.126]CustomPaintPattern.Init default blr_left_arm_forearm_laser_eh1 6
+[05:50:51.126]CustomRepresentation.AttachWeaponsSimGame chrPrfComp_battlemaster_simgame(Clone)
+ prefab chrprfweap_whitworth_righttorso_lrm10_mh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrprfweap_whitworth_rightarm_laser_eh1
+   no custom hardpoint. parentTransform:j_RForearm
+ prefab chrprfweap_whitworth_lefttorso_lrm10_mh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrprfweap_whitworth_leftarm_laser_eh1
+   no custom hardpoint. parentTransform:j_LForearm
+[05:50:51.127]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]PaintPattern: chrTxrMech_battlemaster-base-v01-msk did not match target: chrTxrMech_battlemaster-base-v03-msk, skipping.
+[05:50:51.127]PaintPattern: chrTxrMech_battlemaster-base-v02-msk did not match target: chrTxrMech_battlemaster-base-v03-msk, skipping.
+[05:50:51.127]Matched paintPattern: chrTxrMech_battlemaster-base-v03-msk to paintTextureId: chrTxrMech_battlemaster-base-v03-msk
+   camo mask texture.name:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_ppc_eh3 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_missile10_mh1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm_laser_eh1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_forearm_laser_eh1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:51.127]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist texture:chrTxrMech_battlemaster-base-v03-msk
+  tag unit_release is not starting from MR-Resize-
+  tag unit_armor_high is not starting from MR-Resize-
+  tag unit_common is not starting from MR-Resize-
+  tag unit_lance_vanguard is not starting from MR-Resize-
+  tag unit_light is not starting from MR-Resize-
+  tag unit_mech is not starting from MR-Resize-
+  tag unit_legal is not starting from MR-Resize-
+  tag unit_range_short is not starting from MR-Resize-
+  tag unit_role_scout is not starting from MR-Resize-
+  tag unit_speed_high is not starting from MR-Resize-
+  tag Kurita is not starting from MR-Resize-
+  tag Rasalhague is not starting from MR-Resize-
+  tag unit_piloting_type_generic_mech is not starting from MR-Resize-
+  tag unit_drop_type_generic_mech is not starting from MR-Resize-
+[05:50:51.128]BattleTech.Mech: Using Default Size for 'mechdef_Whitworth_WTH-1S'
+[05:50:51.128]Setting Cache: mechdef_Whitworth_WTH-1S: [0.9,0.9,0.9]
+[05:50:53.034]HUDMechArmorReadout.DisplayedMechDef mechdef_Hermes_HER-1A chassis:chassisdef_Hermes_HER-1A isFake:False info:False
+[05:50:53.034]HUDMechArmorReadout.BayShowMech chassisdef_Hermes_HER-1A
+[05:50:53.566]DataManager.PooledInstantiate_CustomMechRep_MechLab chrPrfComp_hermes_simgame custRepDef:null
+[05:50:53.566]CustomPrefabHelper.Searching chrPrfComp_hermes_simgame
+ setupAlternates:False
+ setupSquad:False
+ setupQuad:False
+[05:50:53.566]CustomActorRepresentationHelper.ProcessSimGame custom representation found:
+customPropertyBlock chrPrfComp_battlemaster_simgame(Clone)
+[05:50:53.566]CustomMechCustomization.Init propertyBlock:chrPrfComp_battlemaster_simgame(Clone)
+[05:50:53.566]CustomPaintPattern.Init default blr_head_cockpit_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_head_cockpit 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_arm_clavicle_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_arm_clavicle 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_arm_forearm 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_arm_upperarm 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_arm_upperarm_pad 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_calf_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_foot_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_hip_armor_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_hip_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_talon1_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_thigh_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_toe0_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_calf 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_foot 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_hip 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_hip_armor 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_talon1 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_thigh 6
+[05:50:53.566]CustomPaintPattern.Init default blr_left_leg_toe0 6
+[05:50:53.566]CustomPaintPattern.Init default blr_right_arm_clavicle_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_right_arm_clavicle 6
+[05:50:53.566]CustomPaintPattern.Init default blr_right_arm_forearm 6
+[05:50:53.566]CustomPaintPattern.Init default blr_right_arm_upperarm 6
+[05:50:53.566]CustomPaintPattern.Init default blr_right_arm_upperarm_pad 6
+[05:50:53.566]CustomPaintPattern.Init default blr_right_leg_calf_dmg 6
+[05:50:53.566]CustomPaintPattern.Init default blr_right_leg_foot_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_hip_armor_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_hip_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_talon1_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_thigh_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_toe0_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_calf 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_foot 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_hip 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_hip_armor 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_talon1 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_thigh 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_leg_toe0 6
+[05:50:53.567]CustomPaintPattern.Init default blr_left_torso_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_left_torso_rear_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_left_torso 6
+[05:50:53.567]CustomPaintPattern.Init default blr_left_torso_rear 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_torso_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_torso_rear_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_torso 6
+[05:50:53.567]CustomPaintPattern.Init default blr_right_torso_rear 6
+[05:50:53.567]CustomPaintPattern.Init default blr_centre_torso_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_centre_torso_pelvis_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_centre_torso_pelvis_rear_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_centre_torso_rear_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_centre_torso_twist_dmg 6
+[05:50:53.567]CustomPaintPattern.Init default blr_centre_torso 6
+[05:50:53.567]CustomPaintPattern.Init default blr_centre_torso_pelvis 6
+[05:50:53.567]CustomPaintPattern.Init default blr_centre_torso_pelvis_rear 6
+[05:50:53.567]CustomPaintPattern.Init default blr_centre_torso_rear 6
+[05:50:53.567]CustomPaintPattern.Init default blr_centre_torso_twist 6
+[05:50:53.567]CustomRepresentation.InitDestructable
+ chrprfweap_hermes_centertorso_laser_eh1 no effective groups
+ chrprfweap_hermes_centertorso_laser_eh1 no effective groups
+ chrprfweap_hermes_centertorso_laser_eh1 no effective groups
+ chrprfweap_hermes_centertorso_laser_eh1 chrprfweap_hermes_centertorso_laser_eh1 chrprfweap_hermes_rightarm_laser_eh1[05:50:53.568]CustomPrefabHelper.Searching chrprfweap_hermes_centertorso_laser_eh1
+[05:50:53.568]CustomPaintPattern.Init default blr_left_arm_forearm_ac5_bh3 6
+[05:50:53.568]CustomPrefabHelper.Searching chrprfweap_hermes_leftarm_laser_eh1
+[05:50:53.568]CustomPaintPattern.Init default blr_left_arm_forearm_laser_eh1 6
+[05:50:53.568]CustomPrefabHelper.Searching chrprfweap_hermes_rightarm_laser_eh1
+[05:50:53.568]CustomPaintPattern.Init default blr_right_arm_forearm_laser_eh1 6
+[05:50:53.568]CustomRepresentation.AttachWeaponsSimGame chrPrfComp_battlemaster_simgame(Clone)
+ prefab chrprfweap_hermes_centertorso_laser_eh1
+   no custom hardpoint. parentTransform:j_COCKPIT
+ prefab chrprfweap_hermes_leftarm_laser_eh1
+   no custom hardpoint. parentTransform:j_LForearm
+ prefab chrprfweap_hermes_rightarm_laser_eh1
+   no custom hardpoint. parentTransform:j_RForearm
+[05:50:53.568]CustomMechCustomization.ApplyHeraldry gameObject: mesh  heraldryDef.Desc.Id:heraldrydef_company  paintTextureId:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]PaintPattern: chrTxrMech_battlemaster-base-v01-msk did not match target: chrTxrMech_battlemaster-base-v03-msk, skipping.
+[05:50:53.568]PaintPattern: chrTxrMech_battlemaster-base-v02-msk did not match target: chrTxrMech_battlemaster-base-v03-msk, skipping.
+[05:50:53.568]Matched paintPattern: chrTxrMech_battlemaster-base-v03-msk to paintTextureId: chrTxrMech_battlemaster-base-v03-msk
+   camo mask texture.name:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm_ac5_bh3 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm_laser_eh1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_forearm_laser_eh1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_head_cockpit texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_clavicle texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_forearm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_arm_upperarm_pad texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_calf texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_foot texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_hip_armor texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_talon1 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_thigh texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_leg_toe0 texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_left_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_right_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist_dmg texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_pelvis_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_rear texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.568]CustomPaintPattern.ApplyPaintScheme 2 renderer:blr_centre_torso_twist texture:chrTxrMech_battlemaster-base-v03-msk
+[05:50:53.570]BattleTech.Mech: Found Cached 'mechdef_Hermes_HER-1A'
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\AmmoCategory.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\Weapon_Autocannon_RAC10.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapons Clan\Weapon_SRM_SRM4_Clan_OS.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ MechDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\mech\Weapon_Autocannon_SNIPER.json
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal (8)
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal (11)
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal (6)
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal (10)
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal (3)
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal (9)
+[05:51:32.182]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (12)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (4)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (5)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (7)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (2)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:51:32.193]Renderer.sharedMaterial set null BattleTech Decal (1)
+[05:51:36.796]Renderer.sharedMaterial set null BattleTech Decal (1)
+ maxHeight:473.7715 minHeight:105.0064
+[05:53:35.278]Core.Settings.IntelShowMood:False Core.Settings.IntelShowMiniMap:False

@@ -1,0 +1,46 @@
+{
+    "Description" : {
+        "Id" : "CommanderGearEventOfficer",
+        "Name" : "Commander Gear",
+        "Details" : "You get a message from your Chief MechTech [[DM.BaseDescriptionDefs[Wulf_Lore_Yang],Yang]]:\r\n\r\n\"Commander {Commander.LastName}, we have managed to re-assemble that mech you had shipped up here. What a beauty she is. Those are some strings you must have pulled with your contacts back home.\"",
+        "Icon" : "uixTxrSpot_YangTalking.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [
+                "DONOTFIRE"
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Sweet.",
+                "Details" : "Lets open the toys.",
+                "Icon" : null
+            },
+            "RequirementList" : []
+           
+        }
+    ],
+    "PublishState" : "UNPUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : false,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}
