@@ -1,10 +1,4 @@
 {
-    "ShowLoadingScreenErrors": true,
-    "ShowErrorPopup": true,
-    "UseErrorWhiteList": true,
-    "ErrorWhitelist": [
-        "Data.DataManager [ERROR] ManifestEntry is null"
-    ],
     "SearchModsInSubDirectories": true,
     "ImplicitManifestShouldMergeJSON": true,
     "ImplicitManifestShouldAppendText": false,
@@ -14,6 +8,7 @@
     "DataManagerEverSpinnyDetectionTimespan": 30.0,
     "DelayPrewarmToMainMenu": true,
     "ShowDataManagerStatsInLoadingCurtain": true,
+    "ProfilerEnabled": false,
     "BlockedMods": [
         "FYLS"
     ],
@@ -22,146 +17,128 @@
     ],
     "MinimalLastConfig": true,
     "Logging": {
+        "DebugLogDumpServerListen": "",
         "LogUncaughtExceptions": true,
         "LogExceptionInitializations": false,
         "LogSqlQueryInitializations": false,
+        "LogSqlQueryExecutionsFromDapper": false,
         "LogThreadStarts": false,
         "LogStackTraces": false,
         "LogStackTracesOnExceptions": true,
-        "OverrideLoggerLevels": {
-            "UnityLoggerName": "Debug",
-            "Debugger": "Debug",
-            "AppDomain": "Debug",
-            "ModTek": 200
-        },
-        "IgnoreLoggerLogLevel": false,
         "DebugLogLevelSetters": false,
-        "SkipOriginalLoggers": true,
-        "IgnoreSkipForLoggers": [],
         "UnityConsoleAppenderEnabled": false,
+        "ModLogAppendersEnabled": true,
         "UnityConsoleAppender": {
             "LogRotationCount": 1,
-            "IndentNewLines": true,
-            "NormalizeNewLines": true,
-            "MessageSanitizerRegex": "[\\p{C}-[\\r\\n\\t]]+",
             "AbsoluteTimeEnabled": false,
             "AbsoluteTimeUseUtc": true,
-            "AbsoluteFormat": "HH:mm:ss.fffffff",
-            "StartupTimeEnabled": false,
-            "StartupTimeFormat": "hh':'mm':'ss'.'fffffff"
+            "StartupTimeEnabled": false
         },
         "AsynchronousLoggingEnabled": true,
+        "LogFlushToDisk": true,
         "MainLog": {
             "LogRotationCount": 1,
-            "Excludes": [
-                {
-                    "LoggerNames": [
-                        "ModTek"
-                    ]
-                }
+            "Exclude": [
+                "ModTek"
             ],
-            "IndentNewLines": true,
-            "NormalizeNewLines": true,
-            "MessageSanitizerRegex": "[\\p{C}-[\\r\\n\\t]]+",
             "AbsoluteTimeEnabled": true,
-            "AbsoluteTimeUseUtc": false,
-            "AbsoluteFormat": "HH:mm:ss.fffffff",
-            "StartupTimeEnabled": false,
-            "StartupTimeFormat": "hh':'mm':'ss'.'fffffff"
+            "AbsoluteTimeUseUtc": true,
+            "StartupTimeEnabled": false
         },
         "MainLogFilePath": "battletech_log.txt",
         "Logs": {
-            "ModTek.log": {
+            "ModTek_cleaned.log": {
                 "LogRotationCount": 1,
-                "Includes": [
-                    {
-                        "LoggerNames": [
-                            "ModTek"
-                        ]
-                    }
+                "Include": [
+                    "ModTek"
                 ],
-                "IndentNewLines": true,
-                "NormalizeNewLines": true,
-                "MessageSanitizerRegex": "[\\p{C}-[\\r\\n\\t]]+",
-                "AbsoluteTimeEnabled": true,
-                "AbsoluteTimeUseUtc": true,
-                "AbsoluteFormat": "HH:mm:ss.fffffff",
-                "StartupTimeEnabled": false,
-                "StartupTimeFormat": "hh':'mm':'ss'.'fffffff"
+                "AbsoluteTimeEnabled": false,
+                "AbsoluteTimeUseUtc": false,
+                "StartupTimeEnabled": false
             },
             "battletech_log_cleaned.txt": {
                 "LogRotationCount": 1,
-                "Excludes": [
-                    {
-                        "LoggerNames": [
-                            "ModTek"
-                        ]
-                    }
-                ],
-                "PrefixesToIgnore": [
+                "Exclude": [
                     "ModTek",
-                    "Unity [ERROR] Desired shader compiler platform",
-                    "Unity [LOG] Look rotation viewing vector is zero",
-                    "Unity [ERROR] Material doesn't have a color property",
-                    "Unity [WARNING] Parent of RectTransform is being set with parent property",
-                    "Unity [WARNING] The referenced script",
-                    "Unity [WARNING] Rejecting unit",
-                    "Unity [WARNING] Parent of RectTransform is being set with parent property",
-                    "Unity [WARNING] No DefaultCombatLeaderCastDefId specified for faction [Player1sMercUnit]",
-                    "Unity [WARNING] No DefaultCombatLeaderCastDefId specified for faction [Player2sMercUnit]",
-                    "Unity [ERROR] Bones do not match bindpose.",
-                    "Unity [ERROR] ================== ERROR! Found missing transforms",
-                    "Unity [WARNING] ERROR! Couldn't auto-setup",
-                    "Unity [WARNING] Could not retrieve member",
-                    "MapExport [ERROR] Out of bounds",
-                    "CombatLog.Hit [LOG] ???????? DIRECTION:",
-                    "Unity [WARNING] BoxColliders does not support negative scale or size",
-                    "AudioEvents [DEBUG] Audio Engine",
-                    "MechEngineer [LOG] Auto fixing chassisDef",
-                    "AudioEvents [DEBUG] OnApplicationFocus",
-                    "NetworkRandomValues [DEBUG] Seed",
-                    "NetworkRandomCallstacks [DEBUG] Seed",
-                    "UserSettings [DEBUG] Using existing cloud settings from save manager",
-                    "BattleTech.Services [DEBUG] [BattleTechParadoxAPI]",
-                    "Network.Client [LOG] Connection",
-                    "GameInfo [LOG] DEVELOPMENT FLAG NOT SET",
-                    "MechEngineer [LOG] settings loaded",
-                    "GameInfo [LOG] ProductName: BATTLETECH",
-                    "GameInfo [LOG] RELEASE FLAG SET",
-                    "DebugBridge",
-                    "CustomComponents [LOG] [CC]SimpleCustom",
-                    "LoginManager [LOG] Successfully authenticated with OPS. Moving onto ComStar connection proper.",
-                    "Data.AssetBundleManager [LOG] Trying to load AssetBundle:",
-                    "UserSettings [LOG] [LOG] User settings saved",
-                    "MechLab [WARNING] GetWeaponPrefabName failed to find a prefab name for unit",
+                    "<mod> [WARNING]",
+                    "Achievements [LOG]",
                     "Analytics [WARNING] Analytics Event requested with invalid IP",
                     "Analytics [WARNING] Request next called but no servers have been found",
                     "Analytics [WARNING] Request next called but reporting is disabled",
-                    "UI [WARNING] Singleton UIManagerFader",
-                    "CombatLog.Initialization [WARNING] Turret",
-                    "MechEngineer [WARNING] Unsupported weapon category for 667",
-                    "MechEngineer [WARNING] Unsupported weapon category for 666",
-                    "CustomComponents [DEBUG] [CC]Mech validation for NULL return",
-                    "CustomComponents [DEBUG] [CC]-- CustomComponents.Flags",
-                    "CustomComponents [DEBUG] [CC]-- CustomComponents.AutoLinked",
-                    "Data.DataManager [WARNING] LoadRequest for",
-                    "LewdableTanks [DEBUG] [LTMod]Fixing cost of",
+                    "AppDomain [DEBUG] UnhandledException",
+                    "AudioEvents [DEBUG] Audio Engine",
+                    "AudioEvents [DEBUG] OnApplicationFocus",
+                    "BattleTech.Services [DEBUG] [BattleTechParadoxAPI]",
+                    "CombatLog.Attacking [ERROR] ERROR!!! breakdown of Universal Modifier",
+                    "CombatLog.Hit [LOG] ???????? DIRECTION:",
                     "CombatLog.Initialization [ERROR] Error instantiating VFX",
-                    "PilotDef [WARNING] PilotDef already did Init From Save!",
-                    "Achievements [LOG]",
+                    "CombatLog.Initialization [WARNING] Turret",
+                    "CustomComponents [DEBUG]",
+                    "CustomComponents [LOG] SimpleCustom",
+                    "CustomComponents [WARNING] Don't know",
+                    "CustomComponents.CCLoading [TRACE]",
+                    "CustomComponents.CCLoadingSummary [TRACE]",
+                    "CustomComponents.ComponentInstall [TRACE]",
+                    "CustomComponents.CustomResource [TRACE]",
+                    "CustomComponents.DefaultHandle [TRACE]",
+                    "CustomComponents.DefaultsBuild [TRACE]",
+                    "CustomComponents.Hardpoints [TRACE]",
+                    "CustomComponents.Icons [TRACE]",
+                    "CustomComponents.InventoryOperations [TRACE]",
+                    "CustomComponents.MechValidation [TRACE] Mech validation for NULL return",
+                    "CustomComponents.UnitType [DEBUG]",
+                    "Data.AssetBundleManager [LOG] Trying to load AssetBundle:",
+                    "Data.DataManager [WARNING] LoadRequest for",
                     "DataLoader [DEBUG] Loading:",
+                    "DebugBridge",
+                    "GameInfo [LOG] DEVELOPMENT FLAG NOT SET",
+                    "GameInfo [LOG] ProductName: BATTLETECH",
+                    "GameInfo [LOG] RELEASE FLAG SET",
+                    "HarmonyX [ERROR] Failed to patch void",
+                    "HarmonyX [LOG]",
+                    "HarmonyX [TRACE]",
+                    "HarmonyX [WARNING] io.mission.customunits: You should only patch implemented methods/constructors to avoid issues.",
+                    "LewdableTanks [DEBUG] Fixing cost of",
+                    "LoginManager [LOG] Successfully authenticated with OPS. Moving onto ComStar connection proper.",
+                    "MapExport [ERROR] Out of bounds",
+                    "MechEngineer [DEBUG] set",
+                    "MechEngineer [ERROR] Can't find critical effect id",
+                    "MechEngineer [ERROR] Could not find bonus description",
+                    "MechEngineer [LOG] Auto fixing",
+                    "MechEngineer [LOG] settings loaded",
+                    "MechEngineer [WARNING] Unsupported weapon category for 666",
+                    "MechEngineer [WARNING] Unsupported weapon category for 667",
+                    "MechLab [WARNING] GetWeaponPrefabName failed to find a prefab name for unit",
+                    "Network.Client [LOG] Connection",
+                    "NetworkRandomCallstacks [DEBUG] Seed",
+                    "NetworkRandomValues [DEBUG] Seed",
+                    "PilotDef [WARNING] PilotDef already did Init From Save!",
                     "Save.Core.SaveSystem [DEBUG]",
+                    "UI [WARNING] Singleton UIManagerFader",
+                    "Unity [ERROR] ================== ERROR! Found missing transforms",
+                    "Unity [ERROR] Bones do not match bindpose.",
+                    "Unity [ERROR] Desired shader compiler platform",
                     "Unity [ERROR] Generating SIM GAME UID while still loading!",
-                    "Unity [WARNING] HBS Tooltip on UI Element"
+                    "Unity [ERROR] Material doesn't have a color property",
+                    "Unity [ERROR] ObjectDisposedException: Cannot access a disposed object.",
+                    "Unity [ERROR] RenderTexture.Create failed: format unsupported for random writes",
+                    "Unity [LOG] Look rotation viewing vector is zero",
+                    "Unity [WARNING] BoxColliders does not support negative scale or size",
+                    "Unity [WARNING] Could not retrieve member",
+                    "Unity [WARNING] ERROR! Couldn't auto-setup",
+                    "Unity [WARNING] HBS Tooltip on UI Element",
+                    "Unity [WARNING] No DefaultCombatLeaderCastDefId specified for faction [INVALID_UNSET]",
+                    "Unity [WARNING] No DefaultCombatLeaderCastDefId specified for faction [Player1sMercUnit]",
+                    "Unity [WARNING] No DefaultCombatLeaderCastDefId specified for faction [Player2sMercUnit]",
+                    "Unity [WARNING] Parent of RectTransform is being set with parent property",
+                    "Unity [WARNING] Rejecting unit",
+                    "Unity [WARNING] The referenced script",
+                    "UserSettings [DEBUG] Using existing cloud settings from save manager",
+                    "UserSettings [LOG] [LOG] User settings saved"
                 ],
-                "IndentNewLines": true,
-                "NormalizeNewLines": true,
-                "MessageSanitizerRegex": "[\\p{C}-[\\r\\n\\t]]+",
                 "AbsoluteTimeEnabled": true,
-                "AbsoluteTimeUseUtc": false,
-                "AbsoluteFormat": "HH:mm:ss.fffffff",
-                "StartupTimeEnabled": false,
-                "StartupTimeFormat": "hh':'mm':'ss'.'fffffff"
+                "AbsoluteTimeUseUtc": true,
+                "StartupTimeEnabled": false
             }
         }
     }

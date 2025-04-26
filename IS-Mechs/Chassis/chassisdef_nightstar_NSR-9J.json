@@ -1,0 +1,210 @@
+{
+    "Description": {
+        "Cost": 11300000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Nightstar",
+        "Id": "chassisdef_nightstar_NSR-9J",
+        "Name": "nightstar",
+        "Details": "The 2767 genesis of the Nightstar lies in the Amaris Civil War, when it was noticed that unit commanders, most of whom were piloting Marauder BattleMechs, were being targeted by troops loyal to Stefan Amaris. The 'Mech itself was only produced until the first year of the First Succession War, 2786, when both of the factories capable of producing the Nightstar were destroyed or had their engineers die - the Norse-Storm factory was savaged in a Marik raid, while the General Motors engineers on Kathil died in a freak accident. About three hundred years later, the Nightstar began production in both halves of the Federated Commonwealth and, since then, has become a popular 'Mech in both the AFFS and the LAAF",
+        "Icon": "Nightstar"
+    },
+    "MovementCapDefID": "movedef_banshee_BNC-3E",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_nightstar",
+    "PrefabIdentifier": "chrprfmech_nightstarbase-001",
+    "PrefabBase": "nightstar",
+    "Tonnage": 95,
+    "InitialTonnage": 9.5,
+    "weightClass": "ASSAULT",
+    "BattleValue": 9360000,
+    "Heatsinks": 0,
+    "TopSpeed": 120,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 130,
+    "MeleeInstability": 95,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 120,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 120,
+    "DFAInstability": 120,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 220,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 220,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 16,
+            "MaxArmor": 400,
+            "MaxRearArmor": 150,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 220,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 220,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "NSR-9J",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Juggernaut",
+    "YangsThoughts": ""
+}

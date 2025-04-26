@@ -1,0 +1,98 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "ART"
+			}
+		],
+		"BonusDescriptions": [
+			"ART",
+			"ARTDF: -4",
+			"RECOIL: 5",
+			"VARDMG: 20"
+		],
+		"InventorySorter": "00503"
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC20",
+	"MinRange": 250,
+	"MaxRange": 2000,
+	"RangeSplit": [
+		500,
+		1000,
+		1500
+	],
+	"AmmoCategory": "Sniper",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 30,
+	"Damage": 50,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 20,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1.5,
+	"RefireModifier": 3,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 5,
+	"Instability": 30,
+	"AMSImmune": true,
+	"FireTerrainChance": 0.0585,
+	"MinMissRadius": 50,
+	"MaxMissRadius": 115,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
+	"Description": {
+		"Cost": 1650000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "GM",
+		"Model": "Sniper Artillery",
+		"UIName": "Sniper Artillery",
+		"Id": "Weapon_Autocannon_Sniper",
+		"Name": "Sniper Artillery",
+		"Details": "The Sniper Rifle Artillery Piece is the smaller cousin to the Long Tom Artillery Piece designed by Armstrong Industries. As the second most-powerful tube artillery in the Inner Sphere, the Sniper can cripple or destroy most light and medium BattleMechs with a single hit. \n\n<b><color=#ffcc00>Uses Sniper Ammo.</color></b>",
+		"Icon": ""
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "artillery",
+	"BattleValue": 0,
+	"InventorySize": 11,
+	"Tonnage": 20,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"ImprovedBallistic": true,
+	"Modes": [
+		{
+			"Id": "indirectfire",
+			"UIName": "Indirect",
+			"isBaseMode": true,
+			"AlwaysIndirectVisuals": true,
+			"IndirectFireCapable": true,
+			"ForbiddenRange": 120
+		},
+		{
+			"Id": "directfire",
+			"UIName": "direct",
+			"isBaseMode": false,
+			"AlwaysIndirectVisuals": false,
+			"IndirectFireCapable": false,
+			"ForbiddenRange": 300,
+			"AccuracyModifier": 4
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme"
+		],
+		"tagSetSourceFile": ""
+	}
+}
