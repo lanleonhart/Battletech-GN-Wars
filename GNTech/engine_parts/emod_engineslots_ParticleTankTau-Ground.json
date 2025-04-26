@@ -1,0 +1,52 @@
+{
+"Custom": {
+  "Category": [
+    {
+      "CategoryID": "EngineShield"
+    }
+  ],
+  "WorkOrderCosts": {
+    "Install": {
+      "TechCost": "5 * [[Chassis.Tonnage]]",
+      "CBillCost": "227.6 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+    }
+  },
+  "Weights": {
+    "ReservedSlots": 4,
+    "EngineFactor": 0.70
+  },
+  "BonusDescriptions": [
+    "WTFactor: -30%",
+    "GNDRIVETAU"
+  ]
+},
+    "Description": {
+    "Cost": 2000000,
+    "Rarity": 12,
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "Particle Tank",
+    "UIName": "GN Particle Tank Tau",
+    "Id": "emod_engineslots_ParticleTankTau-Ground",
+    "Name": "GN Particle Tank",
+    "Details": "Developed to overcome the the limited availability of GN Tau Drives. Due to the limited amount of particles the Ground Variant powers Particle Weaponry without allowing for GN Particle flight",
+    "Icon": "GNDriveTau"
+  },
+  "BonusValueA": "",
+  "ComponentType": "HeatSink",
+  "ComponentSubType": "Heatsink",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 0,
+  "AllowedLocations": "CenterTorso",
+  "DisallowedLocations": "All",
+  "CriticalComponent": true,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "GN_Drive_Tau"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

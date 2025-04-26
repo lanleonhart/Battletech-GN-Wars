@@ -1,12 +1,45 @@
 {
-  "enableDropCosts" : false,
+  "enableDropCosts" : true,
   "enableAmmoCosts" : true,
-  "enableHeatCosts" : false,
+  "enableHeatCosts" : true,
   "costFactor" : 0.002,
-  "useCostByTons" : false,
+  "useCostByTons" : true,
   "dropCostPerTon" : 500,
   "roundToNearist" : 10000,
   "debug" : false,
   "trace" : false,
-  "heatSunkStat" : "CACOverrallHeatSinked"
+  "heatSunkStat" : "CACOverrallHeatSinked",
+  "diffMode" : "Company",
+  "valuePerHalfSkull" : 10000000,
+  "defaultMechsToCount" : 8,
+  "maxDifficulty" : 25,
+  "useDifficultyCostScaling" : true,
+  "useDiffRungs" : true,
+  "additionalUnitCount" : 0,
+  "diffWidgetRungs" : [
+  {
+    "rung" : 0,
+    "colour" : "#eeeee4"
+  },
+  {
+    "rung" : 1,
+    "colour" : "#97e81e"
+  },
+  {
+    "rung" : 2,
+    "colour" : "#e5e81e"
+  },
+  {
+    "rung" : 3,
+    "colour" : "#e8761e"
+  },
+  {
+    "rung" : 4,
+    "colour" : "#e82c1e"
+  },
+  {
+    "rung" : 5,
+    "colour" : "#FFFF00"
+  }
+]
 }

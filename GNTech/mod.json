@@ -1,8 +1,8 @@
 {
-    "Name": "GNTech",
-    "Enabled": true,
-    "Hidden": false,
-    "Version": "1.0",
+	"Name": "GNTech",
+	"Enabled": true,
+	"Hidden": false,
+	"Version": "1.0",
     "CustomResourceTypes": [
         "MEBonusDescriptions",
         "MECriticalEffects",
@@ -11,51 +11,57 @@
         "CCTagRestrictions",
         "CustomSVGIcon",
         "CustomActivatableEquipment",
-        "CustomComponents",
-        "CCCEquipLocationTag",
+        "CustomComponents", 
+        "CCCEquipLocationTag", 
         "CCUnitTypes"
     ],
-    "Manifest": [
+    "DataAddendumEntries": [
         {
-            "Type": "TagDef",
-            "Path": "StreamingAssets/data/"
-        },
+            "name": "BattleTech.WeaponCategoryEnumeration",
+            "path": "WeaponCategory.json"
+        }
+	],
+
+        "Manifest": [
+            {
+                "Type": "TagDef",
+                "Path": "StreamingAssets/data/"
+                },
         {
-            "Type": "WeaponDef",
-            "Path": "Weapons"
-        },
-        {
+        "Type": "WeaponDef",
+        "Path": "Weapons"
+    },  
+    {
             "Type": "ChassisDef",
             "Path": "Chassis/"
         },
         {
             "Type": "WeaponDef",
             "Path": "Weapons/"
-        },
+            },
         {
             "Type": "MechDef",
             "Path": "Mech/"
         },
         {
-            "Type": "UpgradeDef",
-            "Path": "Cockpit"
-        },
+			"Type": "UpgradeDef",
+			"Path": "Cockpit"
+		},
         {
-            "Type": "UpgradeDef",
-            "Path": "internals"
-        },
+			"Type": "UpgradeDef",
+			"Path": "internals"
+		},
         {
-            "Type": "UpgradeDef",
-            "Path": "ms-internals/"
-        },
+			"Type": "UpgradeDef",
+			"Path": "ms-internals/"
+		},
         {
             "Type": "SVGAsset",
             "Path": "icons/",
             "ShouldMergeJSON": false
         },
-        {
-            "Type": "JumpJetDef",
-            "Path": "Jumpjets"
+        {   "Type": "JumpJetDef",
+			"Path": "Jumpjets"
         },
         {
             "Type": "HeatSinkDef",
@@ -72,8 +78,8 @@
         {
             "Type": "AudioFile",
             "Path": "audio"
-        },
-        {
+          },
+          {
             "Type": "CCCategories",
             "Path": "categories",
             "ShouldMergeJSON": false
@@ -88,15 +94,18 @@
             "Path": "hardpoints"
         },
         {
-            "Type": "DesignMaskDef",
-            "Path": "designmask"
-        },
+			"Type": "DesignMaskDef",
+			"Path": "designmask"
+		},
         {
             "Type": "Sprite",
             "Path": "portraits"
-        }
+          }
+        
     ],
     "DependsOn": [
-        "MechEngineer"
+
+        "MechEngineer",
+    "CustomComponents"
     ]
 }

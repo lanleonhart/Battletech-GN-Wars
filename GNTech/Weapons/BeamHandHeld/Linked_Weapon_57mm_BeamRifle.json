@@ -1,0 +1,118 @@
+
+{
+  "Custom": {
+    "Category": [
+    {
+      "CategoryID": "HandHeld"
+    }
+  ],
+  "BonusDescriptions": [
+    "HH-WEAPON"
+  ],
+  "InventorySorter": "00100"
+},
+    "Type": "Laser",
+    "WeaponSubType": "LargeLaser",
+    "MinRange": 0,
+    "MaxRange": 600,
+    "RangeSplit": [
+      0,
+      250,
+      450
+    ],
+    "weaponCategoryID": "SpecialHandHeld",
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 10,
+    "Damage" : 65,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+    "ColorsTable": [
+      {
+        "C": "#e9fde4",
+        "I": 5
+      }
+    ],
+    "ProjectileScale": {
+      "x": 40,
+      "y": 40,
+      "z": 20
+    },
+    "ImprovedBallistic": true,
+    "ColorChangeRule": "t0",
+    "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Medium",
+    "FireDelayMultiplier": 0.5,
+    "preFireStartSFX": "SEEDbeam",
+    "preFireStopSFX": "",
+    "delayedSFX": "",
+    "delayedSFXDelay": 0,
+    "Description" : {
+        "Cost" : 1850000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Morgonote",
+        "Model" : "Beam Rifle",
+        "UIName" : "57mm Beam Rifle",
+        "Id" : "Linked_Weapon_57mm_BeamRifle",
+        "Name" : "57mm Beam Rifle",
+        "Details" : "Aile Strike's primary ranged combat weapon, it can be stored on the side skirt armor. The beam rifle can easily destroy a ZGMF-1017 GINN with one shot, but is mostly ineffective against suits with anti-beam coating. It has an additional handle that can shift to the side, and is often used for extra stability when the Aile Strike is firing its rifle rapidly",
+        "Icon" : "beamrifle"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 4,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "ProjectileSpeedMultiplier": 0.75,
+
+    "Modes": [
+      {
+        "Id": "Single",
+        "UIName": "Single",
+        "Description": "x1",
+        "isBaseMode": true,
+        "HeatGenerated": 0,
+        "RefireModifier": 1
+       
+      },
+      {
+        "Id": "Burst Fire",
+        "UIName": "Burst",
+        "Description": "3x",
+        "DamagePerShot": -25,
+        "ShotsWhenFired" : 2,
+        "isBaseMode": false,
+        "HeatGenerated": 0
+        
+      
+      }
+    ],
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_medium"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
