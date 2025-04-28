@@ -149,9 +149,9 @@
 
   /* Set name colour of overhead nameplate of Player / Enemy / Ally.  Default "#CFC", "#FBB", "#8FF".  Set to empty to not change (leave at white). */
 
-  "NameplateColourPlayer": "#BFB",
-  "NameplateColourEnemy": "#FBB",
-  "NameplateColourAlly": "#8FF",
+  "NameplateColourPlayer": "#80aaff",
+  "NameplateColourEnemy": "#ff0000",
+  "NameplateColourAlly": "#0044cc",
 
   /* Set armour colour of overhead nameplate of Player / Enemy / Ally.  Default "#CFC", "#FBB", "#8FF".  Set to empty to not change (leave at white). */
 
@@ -180,7 +180,7 @@
 
   /* Controls whether other firing lines are dotted.  Default all false. */
 
-  "LOSMeleeDotted": false,
+  "LOSMeleeDotted": true,
   "LOSClearDotted": false,
   "LOSBlockedPreDotted": false,
   "LOSBlockedPostDotted": false,
@@ -280,11 +280,11 @@
   /* Directional to hit modifiers.  Effective only if "Direction" is in the modifier factor list(s).  Default front 0, side -1, back -2. */
 
   "ToHitMechFromFront": 0,
-  "ToHitMechFromSide": 0,
-  "ToHitMechFromRear": 0,
+  "ToHitMechFromSide": -1,
+  "ToHitMechFromRear": -1,
   "ToHitVehicleFromFront": 0,
-  "ToHitVehicleFromSide": 0,
-  "ToHitVehicleFromRear": 0,
+  "ToHitVehicleFromSide": -1,
+  "ToHitVehicleFromRear": -1,
 
   /* Hit modifier after jumping, added on top of movement modifier (if any).  Effective only if "Jumped" is in the modifier factor list(s).  Default 0. */
 
