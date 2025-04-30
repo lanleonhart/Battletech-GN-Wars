@@ -1,17 +1,19 @@
-04:24:36.7001 INFO 2025-04-28 Loading AttackImprovementMod Version 3.1.0.44 @ C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomAmmoCategories/
-04:24:36.7001 INFO Game Version 1.9.1, Harmony Version 2.14.0.0, Mod Dll Version 3.1.0.44
+01:56:53.4498 INFO 2025-04-30 Loading AttackImprovementMod Version 3.1.0.44 @ E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomAmmoCategories/
+01:56:53.4498 INFO Game Version 1.9.1, Harmony Version 2.14.0.0, Mod Dll Version 3.1.0.44
 
-04:24:36.7410 INFO Harmony instance "Sheepy.BattleTechMod.AttackImprovementMod.StatFixes"
-04:24:36.7431 FINE Patched: BattleTech.WeaponDef Void FromJSON(System.String) [  : FixWeaponStats :  ]
-04:24:36.7487 FINE Patched: BattleTech.UI.CombatHUDActorNameDisplay Void RefreshInfo(BattleTech.VisibilityLevel) [  : ShowPilotWounds :  ]
-04:24:36.7507 FINE Patched: BattleTech.Pilot Void InjurePilot(System.String, Int32, Int32, BattleTech.DamageType, BattleTech.Weapon, BattleTech.AbstractActor) [  : RefreshPilotNames :  ]
-04:24:36.7507 INFO Nameplate colours: [#80AAFFFF, #FF0000FF, #0044CCFF]
-04:24:36.7527 FINE Patched: BattleTech.UI.CombatHUDNumFlagHex Void OnActorChanged() [  : SetNameplateColor :  ]
-04:24:36.7527 INFO Armor colours: [#BBFFBBFF, #FFBBBBFF, #88FFFFFF]
-04:24:36.7527 ERR  Cannot find CombatHUDPipBar.ShowValue(...) to patch 
-04:24:36.7538 FINE Patched: BattleTech.UI.CombatHUDNumFlagHex Void OnActorChanged() [ SetArmorBarOwner :  :  ]
-04:24:36.7594 INFO WARNING: Do NOT change settings here. This is just a log.
-04:24:36.7594 INFO Loaded Settings: {
+01:56:53.4804 INFO Harmony instance "Sheepy.BattleTechMod.AttackImprovementMod.StatFixes"
+01:56:53.4814 FINE Patched: BattleTech.WeaponDef Void FromJSON(System.String) [  : FixWeaponStats :  ]
+01:56:53.4854 FINE Patched: BattleTech.UI.CombatHUDActorNameDisplay Void RefreshInfo(BattleTech.VisibilityLevel) [  : ShowPilotWounds :  ]
+01:56:53.4874 FINE Patched: BattleTech.Pilot Void InjurePilot(System.String, Int32, Int32, BattleTech.DamageType, BattleTech.Weapon, BattleTech.AbstractActor) [  : RefreshPilotNames :  ]
+01:56:53.4874 INFO Nameplate colours: [#80AAFFFF, #FF0000FF, #0044CCFF]
+01:56:53.4894 FINE Patched: BattleTech.UI.CombatHUDNumFlagHex Void OnActorChanged() [  : SetNameplateColor :  ]
+01:56:53.4894 INFO Armor colours: [#BBFFBBFF, #FFBBBBFF, #88FFFFFF]
+01:56:53.4894 ERR  Cannot find CombatHUDPipBar.ShowValue(...) to patch 
+01:56:53.4894 FINE Patched: BattleTech.UI.CombatHUDNumFlagHex Void OnActorChanged() [ SetArmorBarOwner :  :  ]
+01:56:53.4936 FINE Patched: BattleTech.UI.CombatMovementReticle Void DrawPath(BattleTech.AbstractActor, Boolean, Boolean, UnityEngine.Vector3, Boolean) [  : ShowMeleeTerrainText :  ]
+01:56:53.4936 ERR  Cannot find CombatMovementReticle.drawJumpPath(...) to patch 
+01:56:53.4956 INFO WARNING: Do NOT change settings here. This is just a log.
+01:56:53.4956 INFO Loaded Settings: {
   "FixWeaponStats": true,
   "FixMultiTargetBackout": true,
   "AggressiveMultiTargetAssignment": false,
@@ -158,86 +160,84 @@
   "LogFolder": "",
   "SettingVersion": 2007000
 }
-04:24:36.7594 INFO WARNING: Do NOT change settings here. This is just a log.
-04:24:36.7594 FINE Patched: BattleTech.UI.CombatMovementReticle Void DrawPath(BattleTech.AbstractActor, Boolean, Boolean, UnityEngine.Vector3, Boolean) [  : ShowMeleeTerrainText :  ]
-04:24:36.7594 ERR  Cannot find CombatMovementReticle.drawJumpPath(...) to patch 
-04:24:36.7614 FINE Patched: BattleTech.UI.MovementDotMgr+MovementDot Void .ctor(CombatMovementReticle, DotType) [  : ScaleMovementDot :  ]
-04:24:36.7634 FINE Patched: BattleTech.UI.CombatMovementReticle Void Awake() [  : ColourMovementDot :  ]
-04:24:36.7699 FINE Patched: BattleTech.UI.HUDMechArmorReadout Void RefreshMechStructureAndArmor() [  : ShowStructureDamageThroughArmour :  ]
-04:24:36.7765 FINE Patched: BattleTech.UI.HUDMechArmorReadout Void UpdateMechStructureAndArmor(BattleTech.AttackDirection) [  : FixRearStructureDisplay :  ]
-04:24:36.7825 FINE Patched: BattleTech.UI.HUDMechArmorReadout Void Init(BattleTech.UI.CombatHUD, Boolean, Boolean, Boolean) [  : AddPaperDollSideLabel :  ]
-04:24:36.7887 FINE Patched: BattleTech.UI.CombatSelectionHandler Void BackOutOneStep(Boolean) [  : PreventMultiTargetBackout :  ]
-04:24:36.7897 FINE Patched: BattleTech.UI.SelectionStateFireMulti Boolean get_CanBackOut() [ OverrideMultiTargetCanBackout :  :  ]
-04:24:36.7917 FINE Patched: BattleTech.UI.SelectionStateFireMulti Void BackOut() [ OverrideMultiTargetBackout :  :  ]
-04:24:36.7937 FINE Patched: BattleTech.UI.SelectionStateFireMulti Void RemoveTargetedCombatant(BattleTech.ICombatant, Boolean) [ OverrideRemoveTargetedCombatant :  :  ]
-04:24:36.7947 FINE Patched: BattleTech.UI.CombatSelectionHandler Boolean ProcessSelectNext() [ CheckReverseNextSelection :  :  ]
-04:24:36.7962 FINE Patched: BattleTech.UI.CombatSelectionHandler Boolean ProcessSelectPrevious() [ CheckReversePrevSelection :  :  ]
-04:24:36.7992 FINE Patched: BattleTech.UI.SelectionStateFireMulti Int32 CycleWeapon(BattleTech.Weapon) [ OverrideMultiTargetCycle :  :  ]
-04:24:36.8012 FINE Patched: BattleTech.Pathing Void UpdateFreePath(UnityEngine.Vector3, UnityEngine.Vector3, Boolean, Boolean) [  : FixMoveDestinationHeight :  ]
-04:24:36.8042 FINE Patched: BattleTech.UI.CombatHUDTargetingComputer Void RefreshWeaponList() [  : EnhanceWeaponLoadout :  ]
-04:24:36.8088 FINE Patched: BattleTech.UI.CombatHUDWeaponSlot Void GenerateToolTipStrings() [  : UpdateWeaponTooltip :  ]
-04:24:36.8138 FINE Patched: BattleTech.UI.CombatHUDWeaponSlot Void RefreshDisplayedWeapon(BattleTech.ICombatant, System.Nullable`1[System.Int32], Boolean, Boolean) [  : UpdateWeaponDamage :  ]
-04:24:36.8147 FINE Patched: BattleTech.UI.SelectionStateFireMulti Void SetTargetedCombatant(BattleTech.ICombatant) [  : RefreshTotalDamage :  ]
-04:24:36.8179 FINE Patched: BattleTech.UI.CombatHUDWeaponSlot Void OnPointerUp(UnityEngine.EventSystems.PointerEventData) [  : RefreshTotalDamage :  ]
-04:24:36.8264 FINE Patched: BattleTech.UI.CombatSelectionHandler Void ProcessInput() [  : ToggleCallout :  ]
-04:24:36.8274 INFO Player direction marker = [#FFFFFFFF, #CCCCFFFF, #CCCCFFFF, #BBFFBBFF, #FFFFBBFF]
-04:24:36.8274 INFO Enemy  direction marker = [#FFFFFFFF, #CCCCFFFF, #CCCCFFFF, #FFBBBBFF, #FFFFBBFF]
-04:24:36.8274 INFO Target direction marker = [#FF4411FF, #FF4411FF, #FF4411FF, #FF4411FF, #FF4411FF]
-04:24:36.8314 FINE Patched: BattleTech.UI.AttackDirectionIndicator Void ShowAttackDirection(BattleTech.AttackDirection, Single, Boolean, Boolean) [ SaveDirectionMarker : SetDirectionMarker :  ]
-04:24:36.8359 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void Init(BattleTech.UI.CombatHUD) [  : ResizeLOS :  ]
-04:24:36.8399 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void Init(BattleTech.UI.CombatHUD) [  : CreateLOSTexture :  ]
-04:24:36.8537 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void DrawLine(UnityEngine.Vector3, UnityEngine.Quaternion, Boolean, BattleTech.AbstractActor, BattleTech.ICombatant, Boolean, Boolean, Boolean) [ SetupLOS : SetBlockedLOS :  ]
-04:24:36.8569 FINE Patched: BattleTech.UI.WeaponRangeIndicators UnityEngine.LineRenderer getLine() [  : FixLOSWidth :  ]
-04:24:36.8599 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void ShowLinesToAllEnemies(BattleTech.AbstractActor, UnityEngine.Vector3, UnityEngine.Quaternion, Boolean, Boolean, System.Collections.Generic.List`1[BattleTech.ICombatant], Boolean) [  : ShowBlockedLOS :  ]
-04:24:36.8609 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void ShowLineToTarget(BattleTech.AbstractActor, UnityEngine.Vector3, UnityEngine.Quaternion, BattleTech.AbstractActor, Boolean) [  : ShowBlockedLOS :  ]
-04:24:36.8634 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void Init(BattleTech.UI.CombatHUD) [  : InitIndicator :  ]
-04:24:36.8765 WARN Cannot found IL code to replace for SetIndirectSegments.
-04:24:36.8805 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void DrawLine(UnityEngine.Vector3, UnityEngine.Quaternion, Boolean, BattleTech.AbstractActor, BattleTech.ICombatant, Boolean, Boolean, Boolean) [  :  : ModifyArcPoints ]
-04:24:36.8835 WARN Cannot found IL code to replace for SetIndirectSegments.
-04:24:36.8845 FINE Patched: BattleTech.UI.CombatPathLine Void DrawJumpPath(BattleTech.AbstractActor, Boolean) [  :  : ModifyArcPoints ]
-04:24:36.8887 FINE Patched: BattleTech.UI.CombatHUDCalledShotPopUp Void UpdateMechDisplay() [  : ShowCalledLocationHP :  ]
-04:24:36.8896 FINE Patched: BattleTech.UI.CombatHUDCalledShotPopUp Void UpdateMechDisplay() [ FixBossHead : CleanupBossHead :  ]
-04:24:36.8927 FINE Patched: BattleTech.UI.CombatHUDCalledShotPopUp Void set_ShownAttackDirection(BattleTech.AttackDirection) [  : RecordAttackDirection :  ]
-04:24:36.8969 FINE Patched: BattleTech.UI.CombatHUDCalledShotPopUp System.String GetHitPercent(BattleTech.ArmorLocation, BattleTech.ArmorLocation) [ OverrideHUDMechCalledShotPercent :  :  ]
-04:24:36.8999 FINE Patched: BattleTech.UI.CombatHUDCalledShotPopUp System.String GetHitPercent(BattleTech.VehicleChassisLocations, BattleTech.VehicleChassisLocations) [ OverrideHUDVehicleCalledShotPercent :  :  ]
-04:24:36.9071 FINE Patched: BattleTech.Pathing System.Collections.Generic.List`1[BattleTech.PathNode] GetMeleeDestsForTarget(BattleTech.AbstractActor) [ SetMeleeTarget : ClearMeleeTarget :  ]
-04:24:36.9091 FINE Patched: BattleTech.Pathing System.Collections.Generic.List`1[BattleTech.PathNode] GetPathNodesForPoints(System.Collections.Generic.List`1[UnityEngine.Vector3], BattleTech.PathNodeGrid) [  : CheckMeleeVerticalOffset :  ]
-04:24:36.9121 FINE Patched: BattleTech.JumpPathing System.Collections.Generic.List`1[BattleTech.PathNode] GetDFADestsForTarget(BattleTech.AbstractActor, System.Collections.Generic.List`1[BattleTech.AbstractActor]) [ SetDFATarget : ClearMeleeTarget :  ]
-04:24:36.9141 FINE Patched: BattleTech.JumpPathing System.Collections.Generic.List`1[BattleTech.PathNode] GetPathNodesForPoints(System.Collections.Generic.List`1[UnityEngine.Vector3], System.Collections.Generic.List`1[BattleTech.AbstractActor]) [  : CheckMeleeVerticalOffset :  ]
-04:24:36.9158 FINE Patched: BattleTech.ToHit Single GetSteppedValue(Single, Single) [ ProcessNetBonusModifier :  :  ]
-04:24:36.9177 FINE Patched: BattleTech.ToHit Single GetUMChance(Single, Single) [ OverrideHitChanceStepNClamp :  :  ]
-04:24:36.9197 FINE Patched: BattleTech.ToHit Single GetSelfSpeedModifier(BattleTech.AbstractActor) [  : Preview_SelfSpeedModifier :  ]
-04:24:36.9207 FINE Patched: BattleTech.ToHit Single GetSelfSprintedModifier(BattleTech.AbstractActor) [  : Preview_SelfSprintedModifier :  ]
-04:24:36.9217 INFO ShowCorrectedHitChance auto-disabled because roll Correction is disabled.
-04:24:36.9227 FINE Patched: BattleTech.Team Void ProcessRandomRoll(Single, Boolean) [ BypassMissStreakBreaker :  :  ]
-04:24:36.9247 FINE Patched: BattleTech.UI.CombatHUDWeaponSlot Void SetHitChance(Single) [ OverrideDisplayedHitChance :  :  ]
-04:24:36.9262 FINE Patched: BattleTech.AbstractActor Single get_CalledShotBonusMultiplier() [  : FixCalledShotMultiplierSquare :  ]
-04:24:36.9292 FINE Patched: BattleTech.HitLocation System.Collections.Generic.Dictionary`2[BattleTech.ArmorLocation,System.Int32] GetMechHitTable(BattleTech.AttackDirection, Boolean) [  : RecordHitDirection :  ]
-04:24:36.9322 FINE Patched: BattleTech.HitLocation BattleTech.ArmorLocation GetHitLocation[ArmorLocation](System.Collections.Generic.Dictionary`2[BattleTech.ArmorLocation,System.Int32], Single, BattleTech.ArmorLocation, Single) [ PrefixMechCalledShot :  :  ]
-04:24:36.9342 FINE Patched: BattleTech.HitLocation BattleTech.VehicleChassisLocations GetHitLocation[VehicleChassisLocations](System.Collections.Generic.Dictionary`2[BattleTech.VehicleChassisLocations,System.Int32], Single, BattleTech.VehicleChassisLocations, Single) [ PrefixVehicleCalledShot :  :  ]
-04:24:36.9368 FINE Patched: BattleTech.HitLocation BattleTech.ArmorLocation GetHitLocation[ArmorLocation](System.Collections.Generic.Dictionary`2[BattleTech.ArmorLocation,System.Int32], Single, BattleTech.ArmorLocation, Single) [ ScaleMechHitTable : RestoreHeadToScaledHitTable :  ]
-04:24:36.9388 FINE Patched: BattleTech.HitLocation BattleTech.VehicleChassisLocations GetHitLocation[VehicleChassisLocations](System.Collections.Generic.Dictionary`2[BattleTech.VehicleChassisLocations,System.Int32], Single, BattleTech.VehicleChassisLocations, Single) [ ScaleVehicleHitTable :  :  ]
-04:24:36.9438 FINE Patched: BattleTech.Mech Boolean DamageLocation(Int32, BattleTech.WeaponHitInfo, BattleTech.ArmorLocation, BattleTech.Weapon, Single, Single, Int32, BattleTech.AttackImpactQuality, BattleTech.DamageType) [  : FixZombieMech :  ]
-04:24:36.9464 FINE Patched: BattleTech.Vehicle Boolean DamageLocation(BattleTech.WeaponHitInfo, Int32, BattleTech.VehicleChassisLocations, BattleTech.Weapon, Single, Single, BattleTech.AttackImpactQuality) [  : FixZombieVehicle :  ]
-04:24:36.9514 FINE Patched: BattleTech.Turret Boolean DamageLocation(BattleTech.WeaponHitInfo, BattleTech.BuildingLocation, BattleTech.Weapon, Single, Single) [  : FixZombieTurret :  ]
-04:24:36.9545 FINE Patched: BattleTech.Building Void DamageBuilding(BattleTech.WeaponHitInfo, Int32, BattleTech.Weapon, Single) [  : FixZombieBuilding :  ]
-04:24:36.9570 FINE Patched: BattleTech.UnityGameInstance Void InitUserSettings() [  : RunGameStarts :  ]
-04:24:36.9604 FINE Patched: BattleTech.SimGameState Void Init(BattleTech.GameInstance, SimGameType, Boolean, BattleTech.SimGameDifficulty) [  : RunCampaignStarts :  ]
-04:24:36.9634 FINE Patched: BattleTech.UI.CombatHUD Void Init(BattleTech.CombatGameState) [  : RunCombatStarts :  ]
-04:24:36.9643 FINE Patched: BattleTech.UI.CombatHUD Void OnCombatGameDestroyed() [  : RunCombatEnds :  ]
-04:24:52.6403 INFO Weapon_Laser_LargeLaserER_2-BlazeFire BonusValueA corrected.
-04:24:52.6433 INFO Weapon_Laser_LargeLaserPulse_2-Exostar BonusValueA seems to be already fixed.
-04:24:52.6630 INFO Weapon_Laser_MediumLaserER_2-BrightBloom BonusValueA seems to be already fixed.
-04:24:52.6665 INFO Weapon_Laser_MediumLaserPulse_2-Magna400P BonusValueA seems to be already fixed.
-04:24:52.6898 INFO Weapon_Laser_SmallLaserER_2-BlazeFire BonusValueA seems to be already fixed.
-04:24:52.7144 INFO Weapon_LRM_LRM10_2-Delta Instability seems to be already fixed.
-04:24:52.7256 INFO Weapon_LRM_LRM15_2-Delta Instability seems to be already fixed.
-04:24:52.7481 INFO Weapon_LRM_LRM5_2-Delta Instability seems to be already fixed.
-04:24:52.8277 INFO PPC debuff cloned.
-04:24:52.8378 INFO Weapon_PPC_PPCER_0-STOCK statusEffects seems to be already fixed.
-04:24:52.8388 INFO Weapon_PPC_PPCER_1-MagnaFirestar statusEffects seems to be already fixed.
-04:24:52.8408 INFO Weapon_PPC_PPCER_2-TiegartMagnum statusEffects seems to be already fixed.
-04:24:52.8886 INFO Weapon_SRM_SRM6_1-Holly AccuracyModifier seems to be already fixed.
-04:24:52.8906 INFO Last weapon checked.
-04:24:52.8906 INFO Weapon_SRM_SRM6_2-Holly AccuracyModifier seems to be already fixed.
-04:25:06.4979 INFO Detected Mods: 
+01:56:53.4956 INFO WARNING: Do NOT change settings here. This is just a log.
+01:56:53.4956 FINE Patched: BattleTech.UI.MovementDotMgr+MovementDot Void .ctor(CombatMovementReticle, DotType) [  : ScaleMovementDot :  ]
+01:56:53.4966 FINE Patched: BattleTech.UI.CombatMovementReticle Void Awake() [  : ColourMovementDot :  ]
+01:56:53.5031 FINE Patched: BattleTech.UI.HUDMechArmorReadout Void RefreshMechStructureAndArmor() [  : ShowStructureDamageThroughArmour :  ]
+01:56:53.5081 FINE Patched: BattleTech.UI.HUDMechArmorReadout Void UpdateMechStructureAndArmor(BattleTech.AttackDirection) [  : FixRearStructureDisplay :  ]
+01:56:53.5126 FINE Patched: BattleTech.UI.HUDMechArmorReadout Void Init(BattleTech.UI.CombatHUD, Boolean, Boolean, Boolean) [  : AddPaperDollSideLabel :  ]
+01:56:53.5176 FINE Patched: BattleTech.UI.CombatSelectionHandler Void BackOutOneStep(Boolean) [  : PreventMultiTargetBackout :  ]
+01:56:53.5186 FINE Patched: BattleTech.UI.SelectionStateFireMulti Boolean get_CanBackOut() [ OverrideMultiTargetCanBackout :  :  ]
+01:56:53.5201 FINE Patched: BattleTech.UI.SelectionStateFireMulti Void BackOut() [ OverrideMultiTargetBackout :  :  ]
+01:56:53.5221 FINE Patched: BattleTech.UI.SelectionStateFireMulti Void RemoveTargetedCombatant(BattleTech.ICombatant, Boolean) [ OverrideRemoveTargetedCombatant :  :  ]
+01:56:53.5231 FINE Patched: BattleTech.UI.CombatSelectionHandler Boolean ProcessSelectNext() [ CheckReverseNextSelection :  :  ]
+01:56:53.5241 FINE Patched: BattleTech.UI.CombatSelectionHandler Boolean ProcessSelectPrevious() [ CheckReversePrevSelection :  :  ]
+01:56:53.5261 FINE Patched: BattleTech.UI.SelectionStateFireMulti Int32 CycleWeapon(BattleTech.Weapon) [ OverrideMultiTargetCycle :  :  ]
+01:56:53.5281 FINE Patched: BattleTech.Pathing Void UpdateFreePath(UnityEngine.Vector3, UnityEngine.Vector3, Boolean, Boolean) [  : FixMoveDestinationHeight :  ]
+01:56:53.5316 FINE Patched: BattleTech.UI.CombatHUDTargetingComputer Void RefreshWeaponList() [  : EnhanceWeaponLoadout :  ]
+01:56:53.5988 FINE Patched: BattleTech.UI.CombatHUDWeaponSlot Void GenerateToolTipStrings() [  : UpdateWeaponTooltip :  ]
+01:56:53.6034 FINE Patched: BattleTech.UI.CombatHUDWeaponSlot Void RefreshDisplayedWeapon(BattleTech.ICombatant, System.Nullable`1[System.Int32], Boolean, Boolean) [  : UpdateWeaponDamage :  ]
+01:56:53.6044 FINE Patched: BattleTech.UI.SelectionStateFireMulti Void SetTargetedCombatant(BattleTech.ICombatant) [  : RefreshTotalDamage :  ]
+01:56:53.6064 FINE Patched: BattleTech.UI.CombatHUDWeaponSlot Void OnPointerUp(UnityEngine.EventSystems.PointerEventData) [  : RefreshTotalDamage :  ]
+01:56:53.6119 FINE Patched: BattleTech.UI.CombatSelectionHandler Void ProcessInput() [  : ToggleCallout :  ]
+01:56:53.6129 INFO Player direction marker = [#FFFFFFFF, #CCCCFFFF, #CCCCFFFF, #BBFFBBFF, #FFFFBBFF]
+01:56:53.6129 INFO Enemy  direction marker = [#FFFFFFFF, #CCCCFFFF, #CCCCFFFF, #FFBBBBFF, #FFFFBBFF]
+01:56:53.6129 INFO Target direction marker = [#FF4411FF, #FF4411FF, #FF4411FF, #FF4411FF, #FF4411FF]
+01:56:53.6159 FINE Patched: BattleTech.UI.AttackDirectionIndicator Void ShowAttackDirection(BattleTech.AttackDirection, Single, Boolean, Boolean) [ SaveDirectionMarker : SetDirectionMarker :  ]
+01:56:53.6194 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void Init(BattleTech.UI.CombatHUD) [  : ResizeLOS :  ]
+01:56:53.6214 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void Init(BattleTech.UI.CombatHUD) [  : CreateLOSTexture :  ]
+01:56:53.6309 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void DrawLine(UnityEngine.Vector3, UnityEngine.Quaternion, Boolean, BattleTech.AbstractActor, BattleTech.ICombatant, Boolean, Boolean, Boolean) [ SetupLOS : SetBlockedLOS :  ]
+01:56:53.6329 FINE Patched: BattleTech.UI.WeaponRangeIndicators UnityEngine.LineRenderer getLine() [  : FixLOSWidth :  ]
+01:56:53.6349 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void ShowLinesToAllEnemies(BattleTech.AbstractActor, UnityEngine.Vector3, UnityEngine.Quaternion, Boolean, Boolean, System.Collections.Generic.List`1[BattleTech.ICombatant], Boolean) [  : ShowBlockedLOS :  ]
+01:56:53.6369 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void ShowLineToTarget(BattleTech.AbstractActor, UnityEngine.Vector3, UnityEngine.Quaternion, BattleTech.AbstractActor, Boolean) [  : ShowBlockedLOS :  ]
+01:56:53.6379 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void Init(BattleTech.UI.CombatHUD) [  : InitIndicator :  ]
+01:56:53.6474 WARN Cannot found IL code to replace for SetIndirectSegments.
+01:56:53.6499 FINE Patched: BattleTech.UI.WeaponRangeIndicators Void DrawLine(UnityEngine.Vector3, UnityEngine.Quaternion, Boolean, BattleTech.AbstractActor, BattleTech.ICombatant, Boolean, Boolean, Boolean) [  :  : ModifyArcPoints ]
+01:56:53.6509 WARN Cannot found IL code to replace for SetIndirectSegments.
+01:56:53.6519 FINE Patched: BattleTech.UI.CombatPathLine Void DrawJumpPath(BattleTech.AbstractActor, Boolean) [  :  : ModifyArcPoints ]
+01:56:53.6549 FINE Patched: BattleTech.UI.CombatHUDCalledShotPopUp Void UpdateMechDisplay() [  : ShowCalledLocationHP :  ]
+01:56:53.6569 FINE Patched: BattleTech.UI.CombatHUDCalledShotPopUp Void UpdateMechDisplay() [ FixBossHead : CleanupBossHead :  ]
+01:56:53.6579 FINE Patched: BattleTech.UI.CombatHUDCalledShotPopUp Void set_ShownAttackDirection(BattleTech.AttackDirection) [  : RecordAttackDirection :  ]
+01:56:53.6604 FINE Patched: BattleTech.UI.CombatHUDCalledShotPopUp System.String GetHitPercent(BattleTech.ArmorLocation, BattleTech.ArmorLocation) [ OverrideHUDMechCalledShotPercent :  :  ]
+01:56:53.6634 FINE Patched: BattleTech.UI.CombatHUDCalledShotPopUp System.String GetHitPercent(BattleTech.VehicleChassisLocations, BattleTech.VehicleChassisLocations) [ OverrideHUDVehicleCalledShotPercent :  :  ]
+01:56:53.6684 FINE Patched: BattleTech.Pathing System.Collections.Generic.List`1[BattleTech.PathNode] GetMeleeDestsForTarget(BattleTech.AbstractActor) [ SetMeleeTarget : ClearMeleeTarget :  ]
+01:56:53.6699 FINE Patched: BattleTech.Pathing System.Collections.Generic.List`1[BattleTech.PathNode] GetPathNodesForPoints(System.Collections.Generic.List`1[UnityEngine.Vector3], BattleTech.PathNodeGrid) [  : CheckMeleeVerticalOffset :  ]
+01:56:53.6729 FINE Patched: BattleTech.JumpPathing System.Collections.Generic.List`1[BattleTech.PathNode] GetDFADestsForTarget(BattleTech.AbstractActor, System.Collections.Generic.List`1[BattleTech.AbstractActor]) [ SetDFATarget : ClearMeleeTarget :  ]
+01:56:53.6739 FINE Patched: BattleTech.JumpPathing System.Collections.Generic.List`1[BattleTech.PathNode] GetPathNodesForPoints(System.Collections.Generic.List`1[UnityEngine.Vector3], System.Collections.Generic.List`1[BattleTech.AbstractActor]) [  : CheckMeleeVerticalOffset :  ]
+01:56:53.6759 FINE Patched: BattleTech.ToHit Single GetSteppedValue(Single, Single) [ ProcessNetBonusModifier :  :  ]
+01:56:53.6779 FINE Patched: BattleTech.ToHit Single GetUMChance(Single, Single) [ OverrideHitChanceStepNClamp :  :  ]
+01:56:53.6794 FINE Patched: BattleTech.ToHit Single GetSelfSpeedModifier(BattleTech.AbstractActor) [  : Preview_SelfSpeedModifier :  ]
+01:56:53.6804 FINE Patched: BattleTech.ToHit Single GetSelfSprintedModifier(BattleTech.AbstractActor) [  : Preview_SelfSprintedModifier :  ]
+01:56:53.6814 INFO ShowCorrectedHitChance auto-disabled because roll Correction is disabled.
+01:56:53.6824 FINE Patched: BattleTech.Team Void ProcessRandomRoll(Single, Boolean) [ BypassMissStreakBreaker :  :  ]
+01:56:53.6834 FINE Patched: BattleTech.UI.CombatHUDWeaponSlot Void SetHitChance(Single) [ OverrideDisplayedHitChance :  :  ]
+01:56:53.6854 FINE Patched: BattleTech.AbstractActor Single get_CalledShotBonusMultiplier() [  : FixCalledShotMultiplierSquare :  ]
+01:56:53.6884 FINE Patched: BattleTech.HitLocation System.Collections.Generic.Dictionary`2[BattleTech.ArmorLocation,System.Int32] GetMechHitTable(BattleTech.AttackDirection, Boolean) [  : RecordHitDirection :  ]
+01:56:53.6899 FINE Patched: BattleTech.HitLocation BattleTech.ArmorLocation GetHitLocation[ArmorLocation](System.Collections.Generic.Dictionary`2[BattleTech.ArmorLocation,System.Int32], Single, BattleTech.ArmorLocation, Single) [ PrefixMechCalledShot :  :  ]
+01:56:53.6919 FINE Patched: BattleTech.HitLocation BattleTech.VehicleChassisLocations GetHitLocation[VehicleChassisLocations](System.Collections.Generic.Dictionary`2[BattleTech.VehicleChassisLocations,System.Int32], Single, BattleTech.VehicleChassisLocations, Single) [ PrefixVehicleCalledShot :  :  ]
+01:56:53.6939 FINE Patched: BattleTech.HitLocation BattleTech.ArmorLocation GetHitLocation[ArmorLocation](System.Collections.Generic.Dictionary`2[BattleTech.ArmorLocation,System.Int32], Single, BattleTech.ArmorLocation, Single) [ ScaleMechHitTable : RestoreHeadToScaledHitTable :  ]
+01:56:53.6949 FINE Patched: BattleTech.HitLocation BattleTech.VehicleChassisLocations GetHitLocation[VehicleChassisLocations](System.Collections.Generic.Dictionary`2[BattleTech.VehicleChassisLocations,System.Int32], Single, BattleTech.VehicleChassisLocations, Single) [ ScaleVehicleHitTable :  :  ]
+01:56:53.6994 FINE Patched: BattleTech.Mech Boolean DamageLocation(Int32, BattleTech.WeaponHitInfo, BattleTech.ArmorLocation, BattleTech.Weapon, Single, Single, Int32, BattleTech.AttackImpactQuality, BattleTech.DamageType) [  : FixZombieMech :  ]
+01:56:53.7014 FINE Patched: BattleTech.Vehicle Boolean DamageLocation(BattleTech.WeaponHitInfo, Int32, BattleTech.VehicleChassisLocations, BattleTech.Weapon, Single, Single, BattleTech.AttackImpactQuality) [  : FixZombieVehicle :  ]
+01:56:53.7044 FINE Patched: BattleTech.Turret Boolean DamageLocation(BattleTech.WeaponHitInfo, BattleTech.BuildingLocation, BattleTech.Weapon, Single, Single) [  : FixZombieTurret :  ]
+01:56:53.7074 FINE Patched: BattleTech.Building Void DamageBuilding(BattleTech.WeaponHitInfo, Int32, BattleTech.Weapon, Single) [  : FixZombieBuilding :  ]
+01:56:53.7084 FINE Patched: BattleTech.UnityGameInstance Void InitUserSettings() [  : RunGameStarts :  ]
+01:56:53.7108 FINE Patched: BattleTech.SimGameState Void Init(BattleTech.GameInstance, SimGameType, Boolean, BattleTech.SimGameDifficulty) [  : RunCampaignStarts :  ]
+01:56:53.7138 FINE Patched: BattleTech.UI.CombatHUD Void Init(BattleTech.CombatGameState) [  : RunCombatStarts :  ]
+01:56:53.7148 FINE Patched: BattleTech.UI.CombatHUD Void OnCombatGameDestroyed() [  : RunCombatEnds :  ]
+01:57:05.7384 INFO Detected Mods: 
+01:57:11.9011 INFO Weapon_LRM_LRM10_2-Delta Instability seems to be already fixed.
+01:57:11.9101 INFO Weapon_LRM_LRM15_2-Delta Instability seems to be already fixed.
+01:57:11.9275 INFO Weapon_LRM_LRM5_2-Delta Instability seems to be already fixed.
+01:57:11.9377 INFO Weapon_PPC_PPCER_0-STOCK statusEffects seems to be already fixed.
+01:57:11.9623 INFO PPC debuff cloned.
+01:57:11.9835 INFO Weapon_SRM_SRM6_1-Holly AccuracyModifier seems to be already fixed.
+01:57:11.9855 INFO Weapon_SRM_SRM6_2-Holly AccuracyModifier seems to be already fixed.
+01:57:11.9928 INFO Weapon_Laser_LargeLaserER_2-BlazeFire BonusValueA seems to be already fixed.
+01:57:11.9958 INFO Weapon_Laser_LargeLaserPulse_2-Exostar BonusValueA seems to be already fixed.
+01:57:11.9978 INFO Weapon_Laser_MediumLaserER_2-BrightBloom BonusValueA seems to be already fixed.
+01:57:11.9988 INFO Weapon_Laser_MediumLaserPulse_2-Magna400P BonusValueA seems to be already fixed.
+01:57:12.0013 INFO Weapon_Laser_SmallLaserER_2-BlazeFire BonusValueA seems to be already fixed.
+01:57:12.0053 INFO Weapon_PPC_PPCER_1-MagnaFirestar statusEffects seems to be already fixed.
+01:57:12.0063 INFO Last weapon checked.
+01:57:12.0073 INFO Weapon_PPC_PPCER_2-TiegartMagnum statusEffects seems to be already fixed.

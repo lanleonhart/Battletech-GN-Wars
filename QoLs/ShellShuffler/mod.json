@@ -1,0 +1,51 @@
+{
+    "Name": "ShellShuffler",
+    "DLL": "ShellShuffler.dll",
+
+	"Hidden": true,
+    "Version": "1.1.1.0",
+    "Description": "Shamelessly Shuffles Shells for Shooting Shenanigans",
+    "Author": "T-Bone",
+    "Website": "https://github.com/ajkroeg/ShellShuffler",
+    "ConflictsWith": [],
+    "CustomResourceTypes": [],
+
+	"Settings": {
+		"enableLogging": true,
+		"shuffleMechs": true,
+		"shuffleVehicles": true,
+		"shuffleTurrets": true,
+		"tagSetsUnion": true,
+		"chanceToShuffle": 0.45,
+		"unShuffledBins": 1,
+		"unitBlackList": [
+			"unit_noshuffle"
+		],
+		"blackListShuffleIn": [
+		    "Ammunition_SRM_Nuke2",
+            "Ammunition_SRM_Nuke",
+			"Ammo_AmmunitionBox_ArrowIV",
+			"Ammo_AmmunitionBox_LongTom_DC",
+            "Ammo_AmmunitionBox_Sniper_Nuke",
+            "Ammo_AmmunitionBox_Thumper_Elias"
+		],
+		"blackListShuffleOut": [
+			"Ammunition_SRM_Nuke2",
+            "Ammunition_SRM_Nuke",
+			"Ammo_AmmunitionBox_ArrowIV",
+			"Ammo_AmmunitionBox_LongTom_DC",
+            "Ammo_AmmunitionBox_Sniper_Nuke",
+            "Ammo_AmmunitionBox_Thumper_Elias"
+		],
+		"mechDefTagAmmoList": 
+			{
+			},
+		"factionAmmoList": 
+			{
+			},
+		"ammoWeight":
+			{
+			}
+	},
+    "Manifest": []
+}

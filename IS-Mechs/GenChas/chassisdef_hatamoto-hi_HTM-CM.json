@@ -1,0 +1,176 @@
+{
+    "Description": {
+        "Cost": 0,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "Unknown",
+        "Model": "",
+        "UIName": "Hatamoto-Hi HTM-CM",
+        "Id": "chassisdef_hatamoto-hi_HTM-CM",
+        "Name": "Hatamoto-Hi",
+        "Details": "",
+        "Icon": "HatamotoChi"
+    },
+    "MovementCapDefID": "movedef_atlas_AS7-D",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_hatamotochi",
+    "PrefabIdentifier": "chrPrfMech_hatamotochiBase-001",
+    "PrefabBase": "hatamotochi",
+    "Tonnage": 80,
+    "InitialTonnage": 8.0,
+    "weightClass": "ASSAULT",
+    "BattleValue": 1573,
+    "Heatsinks": 0,
+    "TopSpeed": 40,
+    "TurnRadius": 50,
+    "MaxJumpjets": 20,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 80,
+    "MeleeInstability": 80,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 90,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 90,
+    "DFAInstability": 90,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "HardpointCapacity": 1
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "HardpointCapacity": 1
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 260,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 250,
+            "MaxRearArmor": 90,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 16,
+            "MaxArmor": 340,
+            "MaxRearArmor": 160,
+            "InternalStructure": 125
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 250,
+            "MaxRearArmor": 90,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "HardpointCapacity": 1
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 260,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 340,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 340,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    ],
+    "VariantName": "HTM-CM",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Brawler",
+    "YangsThoughts": ""
+}

@@ -478,7 +478,7 @@ categories = {
                 "Ammo_AmmunitionBox_Generic_SRM": [1, 8]
             },
             "Ammo_CommonII": {
-                "Ammo_AmmunitionBox_MachineGun": [1, 9],
+                "AmmunitionBox_MachineGun": [1, 9],
                 "Ammo_AmmunitionBox_AMS": [1, 6],
                 "Ammo_AmmunitionBox_Generic_LB2X": [1, 5],
                 "Ammo_AmmunitionBox_Generic_LB5X": [1, 5],

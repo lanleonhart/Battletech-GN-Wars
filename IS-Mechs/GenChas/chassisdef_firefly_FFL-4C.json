@@ -1,0 +1,173 @@
+{
+    "Description": {
+        "Cost": 0,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "Unknown",
+        "Model": "",
+        "UIName": "Firefly FFL-4C",
+        "Id": "chassisdef_firefly_FFL-4C",
+        "Name": "Firefly",
+        "Details": "",
+        "Icon": "Firefly"
+    },
+    "MovementCapDefID": "movedef_locust_LCT-1V",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_firefly",
+    "PrefabIdentifier": "chrprfmech_fireflybase-001",
+    "PrefabBase": "firefly",
+    "Tonnage": 30,
+    "InitialTonnage": 3.0,
+    "weightClass": "LIGHT",
+    "BattleValue": 806,
+    "Heatsinks": 0,
+    "TopSpeed": 90,
+    "TurnRadius": 80,
+    "MaxJumpjets": 6,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 20,
+    "MeleeInstability": 20,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 30,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 30,
+    "DFAInstability": 30,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "HardpointCapacity": 1
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 3
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 20,
+            "MaxRearArmor": -1,
+            "InternalStructure": 5
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 22,
+            "MaxRearArmor": 30,
+            "InternalStructure": 7
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 16,
+            "MaxArmor": 30,
+            "MaxRearArmor": 50,
+            "InternalStructure": 10
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 22,
+            "MaxRearArmor": 30,
+            "InternalStructure": 7
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 20,
+            "MaxRearArmor": -1,
+            "InternalStructure": 5
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 28,
+            "MaxRearArmor": -1,
+            "InternalStructure": 7
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 28,
+            "MaxRearArmor": -1,
+            "InternalStructure": 7
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    ],
+    "VariantName": "FFL-4C",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Striker",
+    "YangsThoughts": ""
+}
