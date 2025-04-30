@@ -38,75 +38,82 @@
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 125,
-            "CurrentRearArmor": 30,
+            "CurrentArmor": 110,
+            "CurrentRearArmor": 35,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 125,
-            "AssignedRearArmor": 30,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": 35,
             "InventorySlots": 16
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 90,
+            "CurrentArmor": 55,
             "CurrentRearArmor": 25,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 90,
+            "AssignedArmor": 55,
             "AssignedRearArmor": 25,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 90,
+            "CurrentArmor": 55,
             "CurrentRearArmor": 25,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 90,
+            "AssignedArmor": 55,
             "AssignedRearArmor": 25,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 60,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 60,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 60,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 60,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1,
             "InventorySlots": 12
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 85,
+            "CurrentArmor": 75,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 85,
+            "AssignedArmor": 75,
             "AssignedRearArmor": -1,
             "InventorySlots": 6
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 85,
+            "CurrentArmor": 75,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 85,
+            "AssignedArmor": 75,
             "AssignedRearArmor": -1,
             "InventorySlots": 6
         }
     ],
     "inventory": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_kit_dhs",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_engine_250",
@@ -116,7 +123,21 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_engineslots_std",
+            "ComponentDefID": "emod_engineslots_xl_center",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "emod_engineslots_size3",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "emod_engineslots_size3",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
