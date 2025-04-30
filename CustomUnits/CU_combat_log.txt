@@ -1,4 +1,4 @@
-[05:56:56.723]Mech.CanEngageTarget searching
+[22:39:16.821]Mech.CanEngageTarget searching
  get_GameRep
  get_PilotableActorDef
  get_MechDef
@@ -176,147 +176,706 @@
   params:2
    BattleTech.ICombatant
    System.String&
-[05:56:56.983]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
-[05:56:56.984]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
-[05:57:04.658]System.ArgumentException: You can only patch implemented methods/constructors. Patch the declared method virtual float BattleTech.PreferEqualizeQuantityOverTeamFactor::EvaluateInfluenceMapFactorAtPosition(BattleTech.AbstractActor unit_unused, UnityEngine.Vector3 position, float angle_unused, BattleTech.MoveType moveType_unused, BattleTech.PathNode pathNode_unused) instead.
+[22:39:17.081]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[22:39:17.081]PlayerLanceSpawnerGameLogic.OnEnterActive.Prepare
+[22:39:25.209]System.ArgumentException: You can only patch implemented methods/constructors. Patch the declared method virtual float BattleTech.PreferEqualizeQuantityOverTeamFactor::EvaluateInfluenceMapFactorAtPosition(BattleTech.AbstractActor unit_unused, UnityEngine.Vector3 position, float angle_unused, BattleTech.MoveType moveType_unused, BattleTech.PathNode pathNode_unused) instead.
   at HarmonyLib.PatchProcessor.Patch () [0x00051] in <60c035a0be4a4c6c95bfce57f6234a36>:0 
   at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer, HarmonyLib.HarmonyMethod ilmanipulator) [0x00033] in <60c035a0be4a4c6c95bfce57f6234a36>:0 
   at CustomUnits.InfluenceMapPositionFactorPatch.PatchAll (HarmonyLib.Harmony harmony) [0x00227] in <b4cee1c53b5640da9cb2cbc37b7d1691>:0 
-[05:57:04.884]CustomMech registered chrprfmech_barghest
-[05:57:04.884]CustomMech registered chrPrfComp_cubarghest_simgame
-[05:57:04.886]CustomMech registered chrprfmech_barghest_front
-[05:57:04.886]CustomMech registered chrPrfComp_barghest_front_simgame
-[05:57:04.886]CustomMech registered chrprfmech_barghest_rear
-[05:57:04.886]CustomMech registered chrPrfComp_barghest_rear_simgame
-[05:57:04.886]CustomMech registered chrprfmech_cuambassadorbase-001
-[05:57:04.886]CustomMech registered chrPrfComp_cuambassador_simgame
-[05:57:04.887]CustomMech registered chrprfmech_cudragoonbase-001
-[05:57:04.887]CustomMech registered chrPrfComp_cudragoon_simgame
-[05:57:04.892]CustomMech registered chrprfmech_cugreatturtlebase-001
-[05:57:04.892]CustomMech registered chrPrfComp_cugreatturtle_simgame
-[05:57:04.892]CustomMech registered chrprfmech_cugulonbase-001
-[05:57:04.892]CustomMech registered chrPrfComp_cugulon_simgame
-[05:57:04.892]CustomMech registered chrprfmech_cugunslingerbase-001
-[05:57:04.892]CustomMech registered chrPrfComp_cugunslinger_simgame
-[05:57:04.893]CustomMech registered chrprfmech_cuharpagosquadbase-001
-[05:57:04.893]CustomMech registered chrPrfComp_cuharpagosquad_simgame
-[05:57:04.893]CustomMech registered chrprfmech_cuharpagosquadtankbase-001
-[05:57:04.893]CustomMech registered chrPrfComp_cuharpagosquadtank_simgame
-[05:57:04.894]CustomMech registered chrprfmech_cuheliosbase-001
-[05:57:04.894]CustomMech registered chrPrfComp_cuhelios_simgame
-[05:57:04.894]CustomMech registered chrprfmech_cuironcladbase-001
-[05:57:04.894]CustomMech registered chrPrfComp_cuironclad_simgame
-[05:57:04.894]CustomMech registered chrprfmech_cukisobase-001
-[05:57:04.894]CustomMech registered chrPrfComp_cukiso_simgame
-[05:57:04.894]CustomMech registered chrprfmech_cusiroccobase-001
-[05:57:04.894]CustomMech registered chrPrfComp_cusirocco_simgame
-[05:57:04.895]CustomMech registered chrprfmech_cusirocco_front
-[05:57:04.895]CustomMech registered chrPrfComp_cusirocco_front_simgame
-[05:57:04.895]CustomMech registered chrprfmech_cusirocco_rear
-[05:57:04.895]CustomMech registered chrPrfComp_cusirocco_rear_simgame
-[05:57:04.895]CustomMech registered chrprfmech_cuslagmaidenbase-001
-[05:57:04.895]CustomMech registered chrPrfComp_cuslagmaiden_simgame
-[05:57:04.896]CustomMech registered chrprfmech_cutarantulabase-001
-[05:57:04.896]CustomMech registered chrPrfComp_cutarantulabase_simgame
-[05:57:04.896]CustomMech registered chrprfmech_cuverfolgerbase-001
-[05:57:04.896]CustomMech registered chrPrfComp_cuverfolger_simgame
-[05:57:04.896]CustomMech registered chrprfmech_cuvolkhbase-001
-[05:57:04.896]CustomMech registered chrPrfComp_cuvolkh_simgame
-[05:57:04.896]CustomMech registered chrprfmech_cuflashmanbase-001
-[05:57:04.896]CustomMech registered chrPrfComp_cuflashman_simgame
-[05:57:04.897]CustomMech registered chrprfmech_goliath
-[05:57:04.897]CustomMech registered chrPrfComp_cugoliath_simgame
-[05:57:04.897]CustomMech registered chrprfmech_curifleman3base-001
-[05:57:04.897]CustomMech registered chrPrfComp_curifleman3_simgame
-[05:57:04.897]CustomMech registered chrprfmech_scorpionmechbase-001
-[05:57:04.897]CustomMech registered chrPrfComp_scorpionmech_simgame
-[05:57:04.900]CustomMech registered chrprfmech_cuurbifobase-001
-[05:57:04.900]CustomMech registered chrPrfComp_cuurbifo_simgame
-[05:57:04.903]CustomMech registered chrprfmech_ifrit_vtol
-[05:57:04.903]CustomMech registered chrPrfComp_cuifrit_simgame
-[05:57:04.903]CustomMech registered chrprfmech_cuturhan_tank
-[05:57:04.903]CustomMech registered chrPrfComp_cuturhan_simgame
-[05:57:04.903]CustomMech registered chrprfmech_dixon_vtol
-[05:57:04.903]CustomMech registered chrPrfComp_cudixon_simgame
-[05:57:04.903]CustomMech registered chrprfmech_harpagos_tank
-[05:57:04.903]CustomMech registered chrPrfComp_cuharpagostank_simgame
-[05:57:04.904]CustomMech registered chrprfmech_horskr_vtol
-[05:57:04.904]CustomMech registered chrPrfComp_cuhorskr_simgame
-[05:57:04.904]CustomMech registered chrprfmech_ishtar_tank
-[05:57:04.904]CustomMech registered chrPrfComp_cuishtar_simgame
-[05:57:04.904]CustomMech registered chrprfmech_kamakiri_vtol
-[05:57:04.904]CustomMech registered chrPrfComp_cukamakiri_simgame
-[05:57:04.904]CustomMech registered chrprfmech_karr_vtol
-[05:57:04.904]CustomMech registered chrPrfComp_cukarr_simgame
-[05:57:04.905]CustomMech registered chrprfmech_markolab_tank
-[05:57:04.905]CustomMech registered chrPrfComp_markolab_simgame
-[05:57:04.905]CustomMech registered chrprfmech_overlord_dropship
-[05:57:04.905]CustomMech registered chrPrfComp_cuoverlord_simgame
-[05:57:04.905]CustomMech registered chrprfmech_perikirov_vtol
-[05:57:04.905]CustomMech registered chrPrfComp_cuperikirov_simgame
-[05:57:04.906]CustomMech registered chrprfmech_rakirov_vtol
-[05:57:04.906]CustomMech registered chrPrfComp_curakirov_simgame
-[05:57:04.906]CustomMech registered chrprfmech_rattler-fortress
-[05:57:04.906]CustomMech registered chrPrfComp_curattler_simgame
-[05:57:04.906]CustomMech registered chrprfmech_rattlersl-fortress
-[05:57:04.906]CustomMech registered chrPrfComp_curattlersl_simgame
-[05:57:04.906]CustomMech registered chrprfmech_redkite_vtol
-[05:57:04.906]CustomMech registered chrPrfComp_curedkite_simgame
-[05:57:04.906]CustomMech registered chrprfmech_strix_vtol
-[05:57:04.906]CustomMech registered chrPrfComp_custrix_simgame
-[05:57:04.907]CustomMech registered chrprfmech_union_dropship
-[05:57:04.907]CustomMech registered chrPrfComp_cuunion_simgame
-[05:57:04.907]CustomMech registered chrprfmech_unnsvin_vtol
-[05:57:04.907]CustomMech registered chrPrfComp_cuunnsvin_simgame
-[05:57:04.907]CustomMech registered chrprfmech_urbiecopter_vtol
-[05:57:04.907]CustomMech registered chrPrfComp_cuurbiecopter_simgame
-[05:57:04.907]CustomMech registered chrprfmech_warrior_vtol
-[05:57:04.907]CustomMech registered chrPrfComp_cuwarriorvtol_simgame
-[05:57:04.908]CustomMech registered chrprfmech_yellowjacket_vtol
-[05:57:04.908]CustomMech registered chrPrfComp_cuyellowjacket_simgame
-[05:57:04.909]CustomMech registered coastalcutter_vehicle_body
-[05:57:04.909]CustomMech registered chrPrfComp_coastalcutter_simgame
-[05:57:04.910]CustomMech registered chrprfmech_dropship_ball_turret
-[05:57:04.910]CustomMech registered chrPrfComp_cudropshipballturret_simgame
-[05:57:04.910]CustomMech registered chrprfmech_rattlersl_chassis_left-turret
-[05:57:04.910]CustomMech registered chrPrfComp_curattlersl_chassis_left_simgame
-[05:57:04.910]CustomMech registered chrprfmech_rattlersl_chassis_rear-turret
-[05:57:04.910]CustomMech registered chrPrfComp_curattlersl_chassis_rear_simgame
-[05:57:04.910]CustomMech registered chrprfmech_rattlersl_chassis_right-turret
-[05:57:04.910]CustomMech registered chrPrfComp_curattlersl_chassis_right_simgame
-[05:57:04.910]CustomMech registered chrprfmech_rattlersl_tower-turret
-[05:57:04.910]CustomMech registered chrPrfComp_curattlersl_tower_simgame
-[05:57:04.910]CustomMech registered chrprfmech_rattler_chassis_left-turret
-[05:57:04.910]CustomMech registered chrPrfComp_curattler_chassis_left_simgame
-[05:57:04.911]CustomMech registered chrprfmech_rattler_chassis_rear-turret
-[05:57:04.911]CustomMech registered chrPrfComp_curattler_chassis_rear_simgame
-[05:57:04.911]CustomMech registered chrprfmech_rattler_chassis_right-turret
-[05:57:04.911]CustomMech registered chrPrfComp_curattler_chassis_right_simgame
-[05:57:04.911]CustomMech registered chrprfmech_rattler_tower-turret
-[05:57:04.911]CustomMech registered chrPrfComp_curattler_tower_simgame
-[05:57:04.911]CustomMech registered chrprfmech_rattler_track_left_front-turret
-[05:57:04.911]CustomMech registered chrPrfComp_curattler_track_left_front_simgame
-[05:57:04.911]CustomMech registered chrprfmech_rattler_track_left_rear-turret
-[05:57:04.911]CustomMech registered chrPrfComp_curattler_track_left_rear_simgame
-[05:57:04.912]CustomMech registered chrprfmech_rattler_track_right_front-turret
-[05:57:04.912]CustomMech registered chrPrfComp_curattler_track_right_front_simgame
-[05:57:04.912]CustomMech registered chrprfmech_rattler_track_right_rear-turret
-[05:57:04.912]CustomMech registered chrPrfComp_curattler_track_right_rear_simgame
+[22:39:25.410]CustomMech registered chrprfmech_barghest
+[22:39:25.410]CustomMech registered chrPrfComp_cubarghest_simgame
+[22:39:25.412]CustomMech registered chrprfmech_barghest_front
+[22:39:25.412]CustomMech registered chrPrfComp_barghest_front_simgame
+[22:39:25.412]CustomMech registered chrprfmech_barghest_rear
+[22:39:25.412]CustomMech registered chrPrfComp_barghest_rear_simgame
+[22:39:25.412]CustomMech registered chrprfmech_cuambassadorbase-001
+[22:39:25.412]CustomMech registered chrPrfComp_cuambassador_simgame
+[22:39:25.413]CustomMech registered chrprfmech_cudragoonbase-001
+[22:39:25.413]CustomMech registered chrPrfComp_cudragoon_simgame
+[22:39:25.419]CustomMech registered chrprfmech_cugreatturtlebase-001
+[22:39:25.419]CustomMech registered chrPrfComp_cugreatturtle_simgame
+[22:39:25.419]CustomMech registered chrprfmech_cugulonbase-001
+[22:39:25.419]CustomMech registered chrPrfComp_cugulon_simgame
+[22:39:25.420]CustomMech registered chrprfmech_cugunslingerbase-001
+[22:39:25.420]CustomMech registered chrPrfComp_cugunslinger_simgame
+[22:39:25.421]CustomMech registered chrprfmech_cuharpagosquadbase-001
+[22:39:25.421]CustomMech registered chrPrfComp_cuharpagosquad_simgame
+[22:39:25.421]CustomMech registered chrprfmech_cuharpagosquadtankbase-001
+[22:39:25.421]CustomMech registered chrPrfComp_cuharpagosquadtank_simgame
+[22:39:25.421]CustomMech registered chrprfmech_cuheliosbase-001
+[22:39:25.421]CustomMech registered chrPrfComp_cuhelios_simgame
+[22:39:25.422]CustomMech registered chrprfmech_cuironcladbase-001
+[22:39:25.422]CustomMech registered chrPrfComp_cuironclad_simgame
+[22:39:25.422]CustomMech registered chrprfmech_cukisobase-001
+[22:39:25.422]CustomMech registered chrPrfComp_cukiso_simgame
+[22:39:25.422]CustomMech registered chrprfmech_cusiroccobase-001
+[22:39:25.422]CustomMech registered chrPrfComp_cusirocco_simgame
+[22:39:25.423]CustomMech registered chrprfmech_cusirocco_front
+[22:39:25.423]CustomMech registered chrPrfComp_cusirocco_front_simgame
+[22:39:25.423]CustomMech registered chrprfmech_cusirocco_rear
+[22:39:25.423]CustomMech registered chrPrfComp_cusirocco_rear_simgame
+[22:39:25.423]CustomMech registered chrprfmech_cuslagmaidenbase-001
+[22:39:25.423]CustomMech registered chrPrfComp_cuslagmaiden_simgame
+[22:39:25.424]CustomMech registered chrprfmech_cutarantulabase-001
+[22:39:25.424]CustomMech registered chrPrfComp_cutarantulabase_simgame
+[22:39:25.425]CustomMech registered chrprfmech_cuverfolgerbase-001
+[22:39:25.425]CustomMech registered chrPrfComp_cuverfolger_simgame
+[22:39:25.425]CustomMech registered chrprfmech_cuvolkhbase-001
+[22:39:25.425]CustomMech registered chrPrfComp_cuvolkh_simgame
+[22:39:25.425]CustomMech registered chrprfmech_cuflashmanbase-001
+[22:39:25.425]CustomMech registered chrPrfComp_cuflashman_simgame
+[22:39:25.425]CustomMech registered chrprfmech_goliath
+[22:39:25.425]CustomMech registered chrPrfComp_cugoliath_simgame
+[22:39:25.426]CustomMech registered chrprfmech_curifleman3base-001
+[22:39:25.426]CustomMech registered chrPrfComp_curifleman3_simgame
+[22:39:25.426]CustomMech registered chrprfmech_scorpionmechbase-001
+[22:39:25.426]CustomMech registered chrPrfComp_scorpionmech_simgame
+[22:39:25.430]CustomMech registered chrprfmech_cuurbifobase-001
+[22:39:25.430]CustomMech registered chrPrfComp_cuurbifo_simgame
+[22:39:25.432]CustomMech registered chrprfmech_ifrit_vtol
+[22:39:25.432]CustomMech registered chrPrfComp_cuifrit_simgame
+[22:39:25.432]CustomMech registered chrprfmech_cuturhan_tank
+[22:39:25.432]CustomMech registered chrPrfComp_cuturhan_simgame
+[22:39:25.433]CustomMech registered chrprfmech_dixon_vtol
+[22:39:25.433]CustomMech registered chrPrfComp_cudixon_simgame
+[22:39:25.433]CustomMech registered chrprfmech_harpagos_tank
+[22:39:25.433]CustomMech registered chrPrfComp_cuharpagostank_simgame
+[22:39:25.433]CustomMech registered chrprfmech_horskr_vtol
+[22:39:25.433]CustomMech registered chrPrfComp_cuhorskr_simgame
+[22:39:25.433]CustomMech registered chrprfmech_ishtar_tank
+[22:39:25.433]CustomMech registered chrPrfComp_cuishtar_simgame
+[22:39:25.433]CustomMech registered chrprfmech_kamakiri_vtol
+[22:39:25.433]CustomMech registered chrPrfComp_cukamakiri_simgame
+[22:39:25.434]CustomMech registered chrprfmech_karr_vtol
+[22:39:25.434]CustomMech registered chrPrfComp_cukarr_simgame
+[22:39:25.434]CustomMech registered chrprfmech_markolab_tank
+[22:39:25.434]CustomMech registered chrPrfComp_markolab_simgame
+[22:39:25.434]CustomMech registered chrprfmech_overlord_dropship
+[22:39:25.434]CustomMech registered chrPrfComp_cuoverlord_simgame
+[22:39:25.435]CustomMech registered chrprfmech_perikirov_vtol
+[22:39:25.435]CustomMech registered chrPrfComp_cuperikirov_simgame
+[22:39:25.435]CustomMech registered chrprfmech_rakirov_vtol
+[22:39:25.435]CustomMech registered chrPrfComp_curakirov_simgame
+[22:39:25.435]CustomMech registered chrprfmech_rattler-fortress
+[22:39:25.435]CustomMech registered chrPrfComp_curattler_simgame
+[22:39:25.435]CustomMech registered chrprfmech_rattlersl-fortress
+[22:39:25.435]CustomMech registered chrPrfComp_curattlersl_simgame
+[22:39:25.436]CustomMech registered chrprfmech_redkite_vtol
+[22:39:25.436]CustomMech registered chrPrfComp_curedkite_simgame
+[22:39:25.436]CustomMech registered chrprfmech_strix_vtol
+[22:39:25.436]CustomMech registered chrPrfComp_custrix_simgame
+[22:39:25.436]CustomMech registered chrprfmech_union_dropship
+[22:39:25.436]CustomMech registered chrPrfComp_cuunion_simgame
+[22:39:25.436]CustomMech registered chrprfmech_unnsvin_vtol
+[22:39:25.436]CustomMech registered chrPrfComp_cuunnsvin_simgame
+[22:39:25.436]CustomMech registered chrprfmech_urbiecopter_vtol
+[22:39:25.436]CustomMech registered chrPrfComp_cuurbiecopter_simgame
+[22:39:25.437]CustomMech registered chrprfmech_warrior_vtol
+[22:39:25.437]CustomMech registered chrPrfComp_cuwarriorvtol_simgame
+[22:39:25.437]CustomMech registered chrprfmech_yellowjacket_vtol
+[22:39:25.437]CustomMech registered chrPrfComp_cuyellowjacket_simgame
+[22:39:25.439]CustomMech registered coastalcutter_vehicle_body
+[22:39:25.439]CustomMech registered chrPrfComp_coastalcutter_simgame
+[22:39:25.439]CustomMech registered chrprfmech_dropship_ball_turret
+[22:39:25.439]CustomMech registered chrPrfComp_cudropshipballturret_simgame
+[22:39:25.439]CustomMech registered chrprfmech_rattlersl_chassis_left-turret
+[22:39:25.439]CustomMech registered chrPrfComp_curattlersl_chassis_left_simgame
+[22:39:25.440]CustomMech registered chrprfmech_rattlersl_chassis_rear-turret
+[22:39:25.440]CustomMech registered chrPrfComp_curattlersl_chassis_rear_simgame
+[22:39:25.440]CustomMech registered chrprfmech_rattlersl_chassis_right-turret
+[22:39:25.440]CustomMech registered chrPrfComp_curattlersl_chassis_right_simgame
+[22:39:25.440]CustomMech registered chrprfmech_rattlersl_tower-turret
+[22:39:25.440]CustomMech registered chrPrfComp_curattlersl_tower_simgame
+[22:39:25.440]CustomMech registered chrprfmech_rattler_chassis_left-turret
+[22:39:25.440]CustomMech registered chrPrfComp_curattler_chassis_left_simgame
+[22:39:25.440]CustomMech registered chrprfmech_rattler_chassis_rear-turret
+[22:39:25.440]CustomMech registered chrPrfComp_curattler_chassis_rear_simgame
+[22:39:25.440]CustomMech registered chrprfmech_rattler_chassis_right-turret
+[22:39:25.440]CustomMech registered chrPrfComp_curattler_chassis_right_simgame
+[22:39:25.442]CustomMech registered chrprfmech_rattler_tower-turret
+[22:39:25.442]CustomMech registered chrPrfComp_curattler_tower_simgame
+[22:39:25.442]CustomMech registered chrprfmech_rattler_track_left_front-turret
+[22:39:25.442]CustomMech registered chrPrfComp_curattler_track_left_front_simgame
+[22:39:25.442]CustomMech registered chrprfmech_rattler_track_left_rear-turret
+[22:39:25.442]CustomMech registered chrPrfComp_curattler_track_left_rear_simgame
+[22:39:25.442]CustomMech registered chrprfmech_rattler_track_right_front-turret
+[22:39:25.442]CustomMech registered chrPrfComp_curattler_track_right_front_simgame
+[22:39:25.443]CustomMech registered chrprfmech_rattler_track_right_rear-turret
+[22:39:25.443]CustomMech registered chrPrfComp_curattler_track_right_rear_simgame
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
  WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\AmmoCategory.json
-[05:57:17.241]HUDMechArmorReadout.BayShowMech null
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
  WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\AmmoCategory.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ MechDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\mech\Weapon_Autocannon_SNIPER.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ ItemCollectionDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\DynamicShops\data\itemCollection_Armor.csv
 LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
  SVGAsset streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNTech\icons\Internals\GMShield.svg
-[05:57:24.027]HUDMechArmorReadout.BayShowMech null
-[05:57:24.056]PilotDef.DependenciesLoaded pilot_kbeta_arclight
-[05:57:24.074]PilotDef.DependenciesLoaded pilot_kbeta_kraken
-[05:57:24.087]PilotDef.DependenciesLoaded pilot_kbeta_wildfire
-[05:57:24.100]PilotDef.DependenciesLoaded pilot_kbeta_bulwark
-[05:57:27.094]HUDMechArmorReadout.DisplayedMechDef mechdef_atlas_AS7-D chassis:chassisdef_atlas_AS7-D isFake:False info:False
-[05:57:27.094]HUDMechArmorReadout.BayShowMech chassisdef_atlas_AS7-D
-[05:57:36.603]HUDMechArmorReadout.DisplayedMechDef mechdef_bandersnatch_BNDR-01B chassis:chassisdef_bandersnatch_BNDR-01B isFake:False info:False
-[05:57:36.603]HUDMechArmorReadout.BayShowMech chassisdef_bandersnatch_BNDR-01B
-[05:57:44.935]HUDMechArmorReadout.DisplayedMechDef mechdef_marauder_MAD-5D-DC chassis:chassisdef_marauder_MAD-5D-DC isFake:False info:False
-[05:57:44.935]HUDMechArmorReadout.BayShowMech chassisdef_marauder_MAD-5D-DC
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal (8)
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal (11)
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal (6)
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal (10)
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal (3)
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal (9)
+[22:40:27.122]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (12)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (4)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (5)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (7)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:40:27.139]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:40:31.817]Renderer.sharedMaterial set null BattleTech Decal (1)
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ WeaponDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNToolsOfWar\Weapon\AmmoCategory.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ MechDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\IS-Mechs\mech\Weapon_Autocannon_SNIPER.json
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ ItemCollectionDef streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\DynamicShops\data\itemCollection_Armor.csv
+LoadRequest.CompleteLoadTracker tracker: BattleTech.Data.LoadTracker loadSuccess False
+ SVGAsset streamingAssetsPath:E:/SteamLibrary/steamapps/common/BATTLETECH/BattleTech_Data/StreamingAssets path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\GNTech\icons\Internals\GMShield.svg
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal (8)
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal (11)
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal (6)
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal (10)
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal (3)
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal (9)
+[22:41:38.736]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal (12)
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal (4)
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal (5)
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.750]Renderer.sharedMaterial set null BattleTech Decal (7)
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal (2)
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:41:38.751]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:41:43.808]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:41:52.094]HUDMechArmorReadout.BayShowMech null
+[22:41:52.190]PilotDef.DependenciesLoaded commander
+[22:41:52.218]PilotDef.DependenciesLoaded pilot_sim_starter_medusa
+[22:41:52.228]PilotDef.DependenciesLoaded pilot_ronin_Wildfire
+[22:41:52.241]PilotDef.DependenciesLoaded pilot_backer_Miller
+[22:41:52.257]PilotDef.DependenciesLoaded pilot_backer_Brown
+[22:41:52.293]HUDMechArmorReadout.BayShowMech null
+[22:41:52.353]HUDMechArmorReadout.BayShowMech null
+[22:41:53.436]HUDMechArmorReadout.DisplayedMechDef mechdef_avatar_AV1-O chassis:chassisdef_avatar_AV1-O isFake:False info:False
+[22:41:53.436]HUDMechArmorReadout.BayShowMech chassisdef_avatar_AV1-O
+[22:41:54.280]HUDMechArmorReadout.DisplayedMechDef mechdef_gallowglas_GAL-1GLS chassis:chassisdef_gallowglas_GAL-1GLS isFake:False info:False
+[22:41:54.280]HUDMechArmorReadout.BayShowMech chassisdef_gallowglas_GAL-1GLS
+[22:41:55.344]HUDMechArmorReadout.DisplayedMechDef mechdef_centurion_CN10-W chassis:chassisdef_centurion_CN10-W isFake:False info:False
+[22:41:55.344]HUDMechArmorReadout.BayShowMech chassisdef_centurion_CN10-W
+[22:41:56.438]HUDMechArmorReadout.DisplayedMechDef mechdef_chimera_CMA-1S chassis:chassisdef_chimera_CMA-1S isFake:False info:False
+[22:41:56.438]HUDMechArmorReadout.BayShowMech chassisdef_chimera_CMA-1S
+SimGameState.StartContract postfix
+[22:42:02.363]GameInstance.LaunchContract
+[22:42:02.363]DeployManualHelper.CheckForDeps
+ request:pilot_deploy_director
+[22:42:02.433]DeployManualHelper.CheckForDeps base definitions loaded
+[22:42:02.434]DeployManualHelper.CheckDefinitiosDeps
+ mechdef deps
+[22:42:02.442]PilotDef.DependenciesLoaded pilot_deploy_director
+ DeployManualHelper.LoadCompleteCallback
+[22:42:03.736]GameInstance.LaunchContract
+[22:42:03.736]DeployManualHelper.CheckForDeps
+[22:42:04.355]CombatGameConstants.BuildClusterTables prefix
+[22:42:04.363]CombatGameConstants.BuildClusterTables postfix
+[22:42:07.342]PilotDef.DependenciesLoaded pilot_ronin_Wildfire
+[22:42:07.345]PilotDef.DependenciesLoaded pilot_backer_Brown
+[22:42:07.347]PilotDef.DependenciesLoaded commander
+[22:42:07.349]PilotDef.DependenciesLoaded pilot_backer_Miller
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_vehicle
+  unit_vehicle_apc
+  unit_noncombatant
+  unit_medium
+ excludedTags:
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_vehicle
+  unit_vehicle_apc
+  unit_noncombatant
+  unit_light
+ excludedTags:
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_vehicle
+  unit_vehicle_apc
+  unit_noncombatant
+  unit_light
+ excludedTags:
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_vehicle
+  unit_vehicle_apc
+  unit_noncombatant
+  unit_medium
+ excludedTags:
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_medium
+  unit_vehicle
+  steiner
+ excludedTags:
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_fallback
+ excludedTags:
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_mech
+  unit_lance_vanguard
+  steiner
+ excludedTags:
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_vehicle
+  steiner
+ excludedTags:
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_fallback
+ excludedTags:
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_mech
+  unit_lance_vanguard
+  steiner
+ excludedTags:
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_medium
+  unit_mech
+  steiner
+ excludedTags:
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_mech
+  unit_lance_assassin
+  steiner
+ excludedTags:
+  unit_assault
+  unit_heavy
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_mech
+  unit_medium
+  steiner
+ excludedTags:
+  unit_lance_vanguard
+  unit_lance_support
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_mech
+  unit_medium
+  steiner
+ excludedTags:
+  unit_lance_vanguard
+  unit_lance_support
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_mech
+  unit_lance_support
+  steiner
+ excludedTags:
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_mech
+  unit_lance_support
+  steiner
+ excludedTags:
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_mech
+  unit_lance_vanguard
+  steiner
+ excludedTags:
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_mech
+  steiner
+ excludedTags:
+  unit_noncombatant
+  unit_urbie
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_turret
+ excludedTags:
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_turret
+ excludedTags:
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_turret
+ excludedTags:
+  NoBiome_badlandsParched
+TagSetQueryExtensions.GetMatchingUnitDefs prefix
+ biome:badlandsParched
+ requiredTags:
+  unit_light
+  unit_turret
+ excludedTags:
+  NoBiome_badlandsParched
+[22:42:22.137]Renderer.sharedMaterial set null BattleTech Decal (1)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (1)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (73)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (5)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (2)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (38)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (22)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (72)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (55)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (44)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (2)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (52)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (14)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (42)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (18)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (23)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (51)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (7)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (1)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (2)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (14)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (64)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (4)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (21)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (63)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (6)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (4)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (27)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (58)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (59)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (67)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (60)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (10)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (16)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (5)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (1)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (7)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (7)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (13)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (31)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (9)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (5)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (1)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (3)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (50)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (41)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (68)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (18)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (28)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (49)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (54)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (32)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (3)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (75)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (26)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (47)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (10)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (4)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (61)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (29)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (3)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (19)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (6)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (43)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (23)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (57)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (8)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (17)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (25)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (46)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (6)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (29)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (17)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (8)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (62)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (71)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (78)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (40)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (5)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (75)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (53)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (1)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (59)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (83)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (15)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (52)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (62)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (63)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (42)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (57)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (82)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (29)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (22)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (49)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (45)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (76)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (26)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (74)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (10)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (39)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (67)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (86)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (48)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (16)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (54)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (21)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (7)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (3)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (8)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (11)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (35)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (24)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (79)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (14)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (68)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (32)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (25)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (30)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (31)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (88)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (36)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (18)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (38)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (13)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (81)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (51)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (85)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (77)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (84)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (44)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (55)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (43)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (6)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (2)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (28)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (47)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (58)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (73)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (4)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (72)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (34)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (70)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (46)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (2)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (66)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (20)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (17)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (87)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (12)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (50)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (56)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (64)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (19)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (33)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (69)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (3)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (23)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (60)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (61)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (65)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (9)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (1)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (37)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (27)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (41)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (80)
+[22:42:26.465]Renderer.sharedMaterial set null envPrfDecl_terrainDecal_badland_parched (4)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (28)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (69)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (8)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (25)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (24)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (9)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (53)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (16)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (33)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (10)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (4)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (8)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (7)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (5)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (12)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (6)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (11)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (35)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (20)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (15)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (9)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (48)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (20)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (27)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (24)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (74)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (39)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (2)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (8)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (3)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (26)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (21)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (13)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (71)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (3)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (10)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (12)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (7)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (6)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (65)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (56)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (22)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (11)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (40)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (70)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (1)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (30)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (45)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (9)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (11)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (36)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (9)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (5)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (4)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (19)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (37)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (34)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (15)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_roadDecals (2)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals (66)
+[22:42:26.465]Renderer.sharedMaterial set null envDecal_structureDecals
