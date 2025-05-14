@@ -1,0 +1,57 @@
+{
+  "Name": "GNCoreModule",
+  "Enabled": true,
+  "Hidden": false,
+  "Version": "1.0",
+  "DLL": "GNCore.dll",
+  "EntryMethod": "PlanetaryRework.ModEntry:Init",
+  "CustomResourceTypes": [
+    "MEBonusDescriptions",
+    "MECriticalEffects",
+    "CCCategories",
+    "CCDefaults",
+    "CCTagRestrictions",
+    "CustomSVGIcon",
+    "CustomActivatableEquipment",
+    "CustomComponents",
+    "CCCEquipLocationTag",
+    "CCUnitTypes"
+  ],
+  "DataAddendumEntries": [],
+  "Manifest": [
+    {
+      "Type": "TagDef",
+      "Path": "StreamingAssets/data/"
+    },
+    {
+      "Type": "SVGAsset",
+      "Path": "icons/",
+      "ShouldMergeJSON": false
+    },
+    {
+      "Type": "AudioFile",
+      "Path": "audio"
+    },
+    {
+      "Type": "DesignMaskDef",
+      "Path": "designmask"
+    },
+    {
+      "Type": "SimGameConstants",
+      "Path": "StreamingAssets/data/simGameConstants"
+    },
+    {
+      "Type": "ShipModuleUpgrade",
+      "Path": "StreamingAssets/data/shipUpgrades"
+    },
+    {
+      "Type": "Sprite",
+      "Path": "StreamingAssets/sprites"
+    },
+    {
+      "Type": "CustomTag",
+      "Path": "tags/"
+    }
+  ],
+  "DependsOn": []
+}

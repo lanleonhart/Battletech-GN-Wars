@@ -1,0 +1,39 @@
+{
+	"Name": "BiggerDrops",
+	"Enabled": true,
+	"Hidden": true,
+	"Version": "1.0.0",
+	"PackagedOn": "2019-11-12T00:00:00Z",
+	"DLL": "BiggerDrops.dll",
+	"DLLEntryPoint": "BiggerDrops.BiggerDrops.Init",
+	"ConflictsWith": [],
+	"DependsOn": [
+		"Mission Control",
+		"CustomUnits"
+	],
+	"DataAddendumEntries": [
+		{
+			"name": "BattleTech.ShipUpgradeCategoryEnumeration",
+			"path": "ShipUpgradeCategory.json"
+		}
+	],
+	"CustomResourceTypes": [
+		"DropSlotDef"
+	],
+	"Description": "BiggerDrops",
+	"Author": "JamieWolf",
+	"Website": "https://www.nexusmods.com/battletech/mods/XXX",
+	"Settings": {
+		"debugLog": true
+	},
+	"Manifest": [
+		{
+			"Type": "ShipModuleUpgrade",
+			"Path": "shipUpgrades"
+		},
+		{
+			"Type": "SimGameStatDescDef",
+			"Path": "statdesc"
+		}
+	]
+}
