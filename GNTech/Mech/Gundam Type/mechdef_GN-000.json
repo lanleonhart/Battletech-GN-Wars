@@ -9,8 +9,8 @@
         "Model": null,
         "UIName": "0 Gundam GN-000",
         "Id": "mechdef_GN-000",
-        "Name": "0 Gundam",
-        "Details": "",
+        "Name": "0 Gundam Full Armor",
+        "Details": "This machine is an upgraded version of the GN-000, boasting increased firepower at expense for mobility. ",
         "Icon": "0Gundam"
     },
     "simGameMechPartCost": 5500000,
@@ -39,9 +39,9 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 180,
+            "CurrentArmor": 240,
             "CurrentRearArmor": 40,
-            "CurrentInternalStructure": 980,
+            "CurrentInternalStructure": 90,
             "AssignedArmor": 180,
             "AssignedRearArmor": 40,
             "InventorySlots": 12
@@ -59,7 +59,7 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 180,
+            "CurrentArmor": 240,
             "CurrentRearArmor": 40,
             "CurrentInternalStructure": 80,
             "AssignedArmor": 180,
@@ -132,14 +132,6 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_GNSaber",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_Standard_Thruster",
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
@@ -194,7 +186,7 @@
             "unit_heavy",
             "unit_release",
             "unit_ready",
-            "unit_ComStar"
+            "unit_comstar"
         ],
         "tagSetSourceFile": ""
     }
