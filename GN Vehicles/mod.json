@@ -1,0 +1,52 @@
+{
+	"Name": "GN Vehicles",
+	"Enabled": true,
+	"Hidden": false,
+	"Version": "1.0",
+    	"CustomResourceTypes": [
+        "MEBonusDescriptions",
+        "MEStatusEffects",
+        "CCCategories",
+        "CCDefaults",
+        "CCTagRestrictions",
+        "CustomSVGIcon"
+    ],
+    "DataAddendumEntries": [
+	],
+
+        "Manifest": [
+        {
+			"Type": "UpgradeDef",
+			"Path": "Internals"
+		},
+        {
+            "Type": "HeatSinkDef",
+            "Path": "VehicleEngines"
+        },
+        {
+            "Type": "HeatSinkDef",
+            "Path": "VehicleCooling"
+        },
+        {
+			"Type": "VehicleDef",
+			"Path": "VehicleDef"
+		},
+		{
+			"Type": "VehicleChassisDef",
+			"Path": "VehicleChassisDef"
+		},
+        {
+			"Type": "MovementCapabilitiesDef",
+			"Path": "tankmovement"
+		},
+        		{
+			"Type": "Sprite",
+			"Path": "Vehicle Icons"
+		},
+				{
+			"Type": "PathingCapabilitiesDef",
+			"Path": "pathing"
+		}
+    ],
+    "DependsOn": ["CustomComponents"]
+}

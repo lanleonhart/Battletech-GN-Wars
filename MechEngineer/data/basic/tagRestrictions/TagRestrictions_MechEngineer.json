@@ -1,203 +1,151 @@
 {
-	"Settings": [
-		{
-			"Tag": "emod_case",
-			"IncompatibleTags": [
-				"emod_case2"
-			]
-		},
-		{
-			"Tag": "ArmHandActuator",
-			"RequiredTagsOnSameLocation": [
-				"ArmLowerActuator"
-			]
-		},
-		{
-			"Tag": "SHS",
-			"RequiredTags": [
-				"HSKit"
-			],
-			"IncompatibleTags": [
+    "Settings": [
+        {
+            "Tag": "emod_case",
+            "IncompatibleTags": [
+                "emod_case2"
+            ]
+        },
+        {
+            "Tag": "ArmHandActuator",
+            "RequiredTagsOnSameLocation": [
+                "ArmLowerActuator"
+            ]
+        },
+        {
+            "Tag": "SHS",
+            "RequiredTags": [
+                "HSKit"
+            ],
+            "IncompatibleTags": [
 				"DHSKit",
 				"CDHSKit",
 				"LHSKit",
 				"GNHSKit"
-			]
-		},
-		{
-			"Tag": "DHS",
-			"RequiredTags": [
-				"DHSKit"
-			],
-			"IncompatibleTags": [
-				"HSKit",
+            ]
+        },
+        {
+            "Tag": "DHS",
+            "RequiredTags": [
+                "DHSKit"
+            ],
+            "IncompatibleTags": [
+                "HSKit",
 				"CDHSKit",
 				"LHSKit",
 				"GNHSKit"
-			]
-		},
-		{
-			"Tag": "CDHS",
-			"RequiredTags": [
-				"CDHSKit"
-			],
-			"IncompatibleTags": [
-				"HSKit",
+            ]
+        },
+        {
+            "Tag": "CDHS",
+            "RequiredTags": [
+                "CDHSKit"
+            ],
+            "IncompatibleTags": [
+                "HSKit",
 				"DHSKit",
 				"LHSKit",
 				"GNHSKit"
-			]
-		},
-		{
-			"Tag": "LHS",
-			"RequiredTags": [
+            ]
+        },
+        {
+            "Tag": "LHS",
+            "RequiredTags": [
+                "LHSKit"
+            ],
+            "IncompatibleTags": [
+                "HSKit",
+				"DHSKit",
+				"CDHSKit",
+				"GNHSKit"
+            ]
+        },
+        {
+            "Tag": "GNHS",
+            "RequiredTags": [
+                "GNHSKit"
+            ],
+            "IncompatibleTags": [
+                "HSKit",
+				"DHSKit",
+				"CDHSKit",
 				"LHSKit"
-			],
-			"IncompatibleTags": [
-				"HSKit",
-				"DHSKit",
-				"CDHSKit",
-				"GNHSKit"
-			]
-		},
-		{
-			"Tag": "GNHS",
-			"RequiredTags": [
-				"GNHSKit"
-			],
-			"IncompatibleTags": [
-				"HSKit",
-				"DHSKit",
-				"CDHSKit",
-				"LHSKit"
-			]
-		},
-		{
-			"Tag": "FreezerDHS",
-			"RequiredTags": [
-				"HSKit"
-			],
-			"IncompatibleTags": [
+				
+            ]
+        },
+        {
+            "Tag": "FreezerDHS",
+            "RequiredTags": [
+                "HSKit"
+            ],
+            "IncompatibleTags": [
 				"DHSKit",
 				"CDHSKit",
 				"LHSKit",
 				"GNHSKit"
-			]
-		},
-		{
-			"Tag": "BHS",
-			"RequiredTags": [
-				"HSKit"
-			],
-			"IncompatibleTags": [
+            ]
+        },
+        {
+            "Tag": "BHS",
+            "RequiredTags": [
+                "HSKit"
+            ],
+            "IncompatibleTags": [
 				"SHS",
 				"DHSKit",
 				"CDHSKit",
 				"LHSKit",
 				"GNHSKit"
-			]
-		},
-		{
-			"Tag": "AIVSRM",
-			"RequiredTags": [
-				"ArtemisIV"
-			],
-			"IncompatibleTags": [
+            ]
+        },
+        {
+            "Tag": "AIVSRM",
+            "RequiredTags": [
+                "ArtemisIV"
+				
+            ],
+            "IncompatibleTags": [
 				"SpecialSRM",
 				"AVSRM"
-			]
-		},
-		{
-			"Tag": "AIVLRM",
-			"RequiredTags": [
-				"ArtemisIV"
-			],
-			"IncompatibleTags": [
+            ]
+        },
+        {
+            "Tag": "AIVLRM",
+            "RequiredTags": [
+                "ArtemisIV"
+            ],
+            "IncompatibleTags": [
 				"SpecialLRM",
 				"AVLRM"
-			]
-		},
-		{
-			"Tag": "APOLLOMRM",
-			"RequiredTags": [
-				"Apollo"
-			],
-			"IncompatibleTags": [
+            ]
+        },
+        {
+            "Tag": "APOLLOMRM",
+            "RequiredTags": [
+                "Apollo"
+            ],
+            "IncompatibleTags": [
 				"MRM"
-			]
-		},
-		{
-			"Tag": "AVSRM",
-			"RequiredTags": [
-				"ArtemisV"
-			],
-			"IncompatibleTags": [
+            ]
+        },
+        {
+            "Tag": "AVSRM",
+            "RequiredTags": [
+                "ArtemisV"
+				
+            ],
+            "IncompatibleTags": [
 				"SpecialSRM"
-			]
-		},
-		{
-			"Tag": "AVLRM",
-			"RequiredTags": [
-				"ArtemisV"
-			],
-			"IncompatibleTags": [
+            ]
+        },
+        {
+            "Tag": "AVLRM",
+            "RequiredTags": [
+                "ArtemisV"
+            ],
+            "IncompatibleTags": [
 				"SpecialLRM"
-			]
-		},
-		{
-			"Tag": "TarCompLightMech",
-			"IncompatibleTags": [
-				"TarComp",
-				"AESArm",
-				"AESLeg"
-			],
-			"RequiredTags": [
-				"LightMech"
-			]
-		},
-		{
-			"Tag": "TarCompSuperMech",
-			"IncompatibleTags": [
-				"TarComp",
-				"AESArm",
-				"AESLeg"
-			],
-			"RequiredTags": [
-				"SuperMech"
-			]
-		},
-		{
-			"Tag": "TarCompAssaultMech",
-			"IncompatibleTags": [
-				"TarComp",
-				"AESArm",
-				"AESLeg"
-			],
-			"RequiredTags": [
-				"AssaultMech"
-			]
-		},
-		{
-			"Tag": "TarCompHeavyMech",
-			"IncompatibleTags": [
-				"TarComp",
-				"AESArm",
-				"AESLeg"
-			],
-			"RequiredTags": [
-				"HeavyMech"
-			]
-		},
-		{
-			"Tag": "TarCompMediumMech",
-			"IncompatibleTags": [
-				"TarComp",
-				"AESArm",
-				"AESLeg"
-			],
-			"RequiredTags": [
-				"MediumMech"
-			]
-		}
-	]
+            ]
+        }
+    ]
 }

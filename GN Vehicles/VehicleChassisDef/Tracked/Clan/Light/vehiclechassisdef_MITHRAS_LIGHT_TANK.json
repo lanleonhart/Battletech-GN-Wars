@@ -1,0 +1,122 @@
+{
+  "Description": {
+    "Id": "vehiclechassisdef_MITHRAS_LIGHT_TANK",
+    "Name": "Mithras Light Tank",
+    "Details": "",
+    "Icon": "MANTICORE",
+    "Cost": 868750,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "MovementCapDefID": "movedef_6-9cv",
+  "PathingCapDefID": "pathingdef_light_tracked",
+  "HardpointDataDefID": "hardpointdatadef_smmithras",
+  "PrefabIdentifier": "chrprfvhcl_smmithras",
+  "PrefabBase": "smmithras",
+  "Tonnage": 25,
+  "weightClass": "LIGHT",
+  "BattleValue": 868750,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 45,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 5
+    }
+  ]
+}

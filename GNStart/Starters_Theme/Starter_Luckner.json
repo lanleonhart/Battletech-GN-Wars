@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_Luckner",
+				"Name": "Luckner",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 1,
+				"CareerScoreModifier": 0.0,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Coromodir"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Vehicle,itemCollection_Vehicle,itemCollection_Vehicle,itemCollection_Vehicle,itemCollection_Vehicle"
+					},
+					  {
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "AuriganRestoration:100"
+					  }
+				]
+			}
+		}
+	]
+}

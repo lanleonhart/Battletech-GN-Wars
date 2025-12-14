@@ -1,0 +1,138 @@
+{
+  "Description": {
+    "Id": "vehiclechassisdef_ATHENA_COMBAT_VEHICLE",
+    "Name": "Athena Combat Vehicle",
+    "Details": "",
+    "Icon": "MANTICORE",
+    "Cost": 4239375,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "MovementCapDefID": "movedef_3-5cv",
+  "PathingCapDefID": "pathingdef_heavy_tracked",
+  "HardpointDataDefID": "hardpointdatadef_athena",
+  "PrefabIdentifier": "chrprfvhcl_athena",
+  "PrefabBase": "athena",
+  "Tonnage": 75,
+  "weightClass": "HEAVY",
+  "BattleValue": 4239375,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 190,
+      "InternalStructure": 7
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 7
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 7
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 120,
+      "InternalStructure": 7
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 150,
+      "InternalStructure": 7
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "Description": {
+    "Id": "vehiclechassisdef_DEMOLISHER_HEAVY_TANK_CLAN",
+    "Name": "Demolisher Heavy Tank (Clan)",
+    "Details": "",
+    "Icon": "Demolisher",
+    "Cost": 5409000,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "MovementCapDefID": "movedef_3-5cv",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_demolisher",
+  "PrefabIdentifier": "chrPrfVhcl_demolisher",
+  "PrefabBase": "demolisher",
+  "Tonnage": 80,
+  "weightClass": "ASSAULT",
+  "BattleValue": 5409000,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 240,
+      "InternalStructure": 8
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 200,
+      "InternalStructure": 8
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 200,
+      "InternalStructure": 8
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 120,
+      "InternalStructure": 8
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 150,
+      "InternalStructure": 8
+    }
+  ]
+}

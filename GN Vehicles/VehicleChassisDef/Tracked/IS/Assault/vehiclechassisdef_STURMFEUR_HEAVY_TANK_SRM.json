@@ -1,0 +1,142 @@
+{
+  "Description": {
+    "Id": "vehiclechassisdef_STURMFEUR_HEAVY_TANK_SRM",
+    "Name": "SturmFeur Heavy Tank (SRM)",
+    "Details": "",
+    "Icon": "Strum Feuer",
+    "Cost": 2213063,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "MovementCapDefID": "movedef_3-5cv",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_sturmfeur",
+  "PrefabIdentifier": "chrprfvhcl_sturmfeur",
+  "PrefabBase": "sturmfeur",
+  "Tonnage": 85,
+  "weightClass": "ASSAULT",
+  "BattleValue": 2213063,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Missile",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 330,
+      "InternalStructure": 8
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 330,
+      "InternalStructure": 8
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 330,
+      "InternalStructure": 8
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 240,
+      "InternalStructure": 8
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 330,
+      "InternalStructure": 8
+    }
+  ]
+}

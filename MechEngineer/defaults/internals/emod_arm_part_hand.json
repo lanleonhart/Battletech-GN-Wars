@@ -5,7 +5,7 @@
             "CarryHandCapacityPercent: 5"
         ],
         "Category" : { "CategoryID" : "ArmHandActuator" },
-        "Flags" : [ "autorepair", "not_broken" ,"inv_unlimited" ]
+        "Flags" : [ "autorepair", "not_broken" ]
 	},
     "Description" : {
         "Cost" : 30000,
@@ -60,7 +60,9 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "BLACKLISTED",
+            "component_type_stock",
+            "noautofix"
         ],
         "tagSetSourceFile" : ""
     }

@@ -1,238 +1,239 @@
 {
-    "MechTags": {
-        "items": [
-            "AuriganMercenaries",
-            "AuriganPirates",
-            "Circinus",
-            "GrayDeathLegion",
-            "KellHounds",
-            "Kurita",
-            "Locals",
-            "MagistracyOfCanopus",
-            "Marian",
-            "Marik",
-            "Outworld",
-            "Rasalhague",
-            "TaurianConcordat",
-            "WordOfBlake",
-            "unit_dlc",
-            "unit_mech",
-            "unit_medium",
-            "unit_ready",
-            "unit_release"
-        ],
-        "tagSetSourceFile": ""
-    },
-    "ChassisID": "chassisdef_vulcan_VT-5M",
-    "HeraldryID": null,
-    "Description": {
-        "Cost": 4910000,
-        "Rarity": 3,
-        "Purchasable": true,
-        "Manufacturer": "Unknown",
-        "Model": "",
-        "UIName": "Vulcan VT-5M",
-        "Id": "mechdef_vulcan_VT-5M",
-        "Name": "Vulcan",
-        "Details": "",
-        "Icon": "Vulcan"
-    },
-    "simGameMechPartCost": 982000,
-    "Version": 1,
-    "Locations": [
-        {
-            "DamageLevel": "Functional",
-            "Location": "Head",
-            "CurrentArmor": 40,
-            "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 15,
-            "AssignedArmor": 40,
-            "AssignedRearArmor": -1,
-            "InventorySlots": 6
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "CenterTorso",
-            "CurrentArmor": 50,
-            "CurrentRearArmor": 30,
-            "CurrentInternalStructure": 60,
-            "AssignedArmor": 50,
-            "AssignedRearArmor": 30,
-            "InventorySlots": 16
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "RightTorso",
-            "CurrentArmor": 40,
-            "CurrentRearArmor": 20,
-            "CurrentInternalStructure": 50,
-            "AssignedArmor": 40,
-            "AssignedRearArmor": 20,
-            "InventorySlots": 12
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "LeftTorso",
-            "CurrentArmor": 40,
-            "CurrentRearArmor": 20,
-            "CurrentInternalStructure": 50,
-            "AssignedArmor": 40,
-            "AssignedRearArmor": 20,
-            "InventorySlots": 12
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "RightArm",
-            "CurrentArmor": 30,
-            "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 30,
-            "AssignedArmor": 30,
-            "AssignedRearArmor": -1,
-            "InventorySlots": 12
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "LeftArm",
-            "CurrentArmor": 30,
-            "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 30,
-            "AssignedArmor": 30,
-            "AssignedRearArmor": -1,
-            "InventorySlots": 12
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "RightLeg",
-            "CurrentArmor": 50,
-            "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 50,
-            "AssignedArmor": 50,
-            "AssignedRearArmor": -1,
-            "InventorySlots": 6
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "LeftLeg",
-            "CurrentArmor": 50,
-            "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 50,
-            "AssignedArmor": 50,
-            "AssignedRearArmor": -1,
-            "InventorySlots": 6
-        }
+  "MechTags": {
+    "items": [
+      "AuriganMercenaries",
+      "AuriganPirates",
+      "Circinus",
+      "GrayDeathLegion",
+      "KellHounds",
+      "Kurita",
+      "Locals",
+      "MagistracyOfCanopus",
+      "Marian",
+      "Marik",
+      "Outworld",
+      "Rasalhague",
+      "TaurianConcordat",
+      "WordOfBlake",
+      "unit_dlc",
+      "unit_mech",
+      "unit_medium",
+      "unit_ready",
+      "unit_release",
+      "unit_jumpOK"
     ],
-    "inventory": [
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_engine_240",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_engineslots_std",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_structureslots_endosteel",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_kit_dhs",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_JumpJet_Medium",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_JumpJet_Medium",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Medium",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Medium",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Medium",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Medium",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "AmmunitionBox_MachineGun",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        }
-    ]
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_vulcan_VT-5M",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 4910000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "Unknown",
+    "Model": "",
+    "UIName": "Vulcan VT-5M",
+    "Id": "mechdef_vulcan_VT-5M",
+    "Name": "Vulcan",
+    "Details": "",
+    "Icon": "Vulcan"
+  },
+  "simGameMechPartCost": 982000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": -1,
+      "InventorySlots": 6
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 60,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": 30,
+      "InventorySlots": 16
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": 20,
+      "InventorySlots": 12
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": 20,
+      "InventorySlots": 12
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 30,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 30,
+      "AssignedRearArmor": -1,
+      "InventorySlots": 12
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 30,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 30,
+      "AssignedRearArmor": -1,
+      "InventorySlots": 12
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": -1,
+      "InventorySlots": 6
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": -1,
+      "InventorySlots": 6
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_240",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engineslots_std",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_endosteel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_kit_dhs",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_JumpJet_Medium",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_JumpJet_Medium",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Medium",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Medium",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Medium",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Medium",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "AmmunitionBox_MachineGun",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
 }

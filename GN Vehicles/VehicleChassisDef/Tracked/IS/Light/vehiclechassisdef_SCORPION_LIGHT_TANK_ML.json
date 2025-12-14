@@ -1,0 +1,122 @@
+{
+  "Description": {
+    "Id": "vehiclechassisdef_SCORPION_LIGHT_TANK_ML",
+    "Name": "Scorpion Light Tank (ML)",
+    "Details": "",
+    "Icon": "ScorpionTank",
+    "Cost": 288958,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "MovementCapDefID": "movedef_4-6cv",
+  "PathingCapDefID": "pathingdef_light_tracked",
+  "HardpointDataDefID": "hardpointdatadef_scorpion",
+  "PrefabIdentifier": "chrPrfVhcl_scorpion",
+  "PrefabBase": "scorpion",
+  "Tonnage": 25,
+  "weightClass": "LIGHT",
+  "BattleValue": 288958,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 55,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 55,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 5
+    }
+  ]
+}
