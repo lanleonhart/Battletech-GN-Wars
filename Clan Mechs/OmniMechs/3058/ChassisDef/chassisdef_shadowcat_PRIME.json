@@ -234,7 +234,7 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "Ballistic",
 					"Omni": true
 				},
 				{
@@ -254,7 +254,16 @@
 		},
 		{
 			"Location": "LeftTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 110,
@@ -263,7 +272,16 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 16,
 			"MaxArmor": 140,
@@ -273,6 +291,10 @@
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": true
+				},
 				{
 					"WeaponMountID": "Energy",
 					"Omni": true
@@ -292,7 +314,11 @@
 					"Omni": true
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
 					"Omni": true
 				}
 			],
