@@ -1,0 +1,109 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "Gauss"
+      }
+    ],
+    "BonusDescriptions": [],
+    "Flags": [
+      "not_broken"
+    ],
+    "ComponentExplosion": {
+      "ExplosionDamagePerAmmo": 3.0,
+      "HeatDamagePerAmmo": 1.5,
+      "StabilityDamagePerAmmo": 0.75
+    },
+    "IBLS": {
+      "StorageSize": 3
+    }
+  },
+  "Category": "Ballistic",
+  "Type": "Gauss",
+  "WeaponSubType": "Gauss",
+  "MinRange": 0,
+  "MaxRange": 550,
+  "RangeSplit": [
+    90,
+    275,
+    400
+  ],
+  "AmmoCategory": "RGauss",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 10,
+  "Damage": 40,
+  "HeatDamage": 0,
+  "Instability": 1.5,
+  "DamageVariance": 0,
+  "AccuracyModifier": -3,
+  "EvasivePipsIgnored": 1,
+  "RefireModifier": 0,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "CriticalChanceMultiplier": 1.4,
+  "DistantVariance": 0.5,
+  "DistantVarianceReversed": false,
+  "AOECapable": false,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "BallisticDamagePerPallet": true,
+  "DamageNotDivided": true,
+  "ImprovedBallistic": true,
+  "IndirectFireCapable": false,
+  "AttackRecoil": 2,
+  "FireDelayMultiplier": 1,
+  "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+  "Description": {
+    "Cost": 2175600,
+    "Rarity": 10,
+    "Purchasable": true,
+    "Manufacturer": "Nordfjord",
+    "Model": "R-Gauss",
+    "UIName": "Repeating Gauss Rifle",
+    "Id": "Weapon_Gauss_RepeatingGaussRifle",
+    "Name": "Repeating Gauss Rifle",
+    "Details": "Featuring the ability to fire multiple rounds, at the expense of maximum firing range.",
+    "Icon": "GAUSS"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Gauss",
+  "BattleValue": 0,
+  "InventorySize": 8,
+  "Tonnage": 12,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Modes": [
+        {
+      "Id": "x1",
+      "UIName": "x1",
+      "isBaseMode": true,
+      "ShotsWhenFired": 0,
+      "HeatGenerated": 0
+    },
+    {
+      "Id": "x2",
+      "UIName": "x2",
+      "isBaseMode": false,
+      "HeatGenerated": 4,
+      "ShotsWhenFired": 1
+    },
+    {
+      "Id": "x3",
+      "UIName": "x3",
+      "isBaseMode": true,
+      "HeatGenerated": 8,
+      "ShotsWhenFired": 2
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_standard"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -1093,20 +1093,6 @@
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
 		},
 		{
-			"ID": 2048,
-			"Name": "APGauss",
-			"FriendlyName": "AP Gauss",
-			"IsBallistic": true,
-			"IsMissile": false,
-			"IsEnergy": false,
-			"IsSupport": true,
-			"UsesInternalAmmo": false,
-			"UIColorRef": "Ballistic",
-			"FallbackUIColor": null,
-			"Icon": "BallisticHardpointIcon",
-			"OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
-		},
-		{
 			"ID": 9005,
 			"Name": "AVSRM",
 			"FriendlyName": "AVSRM",
@@ -1147,6 +1133,20 @@
 			"FallbackUIColor": null,
 			"Icon": "BallisticHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC10"
+		},
+				{
+			"ID": 9009,
+			"Name": "RGauss",
+			"FriendlyName": "RGauss",
+			"IsBallistic": true,
+			"IsMissile": false,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": true,
+			"UIColorRef": "Ballistic",
+			"FallbackUIColor": null,
+			"Icon": "BallisticHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
 		}
 	]
 }
