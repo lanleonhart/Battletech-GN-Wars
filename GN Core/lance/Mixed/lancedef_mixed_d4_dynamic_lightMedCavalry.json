@@ -13,6 +13,7 @@
       "items": [
          "lance_type_dynamic",
          "lance_type_mixed",
+         "lance_type_notallvehicles",
          "lance_bracket_low",
          "lance_type_cavalry",
          "lance_type_light",
@@ -29,6 +30,7 @@
             "items": [
                "unit_mech",
                "unit_light",
+               "unit_legal",
                "{CUR_TEAM.faction}"
             ],
             "tagSetSourceFile": "Tags/UnitTags"
@@ -48,7 +50,10 @@
          "excludedPilotTagSet": {
             "items": null,
             "tagSetSourceFile": "Tags/PilotTags"
-         }
+         },
+         "unitSimGameID": null,
+         "pilotSimGameID": null,
+         "locked": false
       },
       {
          "unitType": "Vehicle",
@@ -58,6 +63,7 @@
             "items": [
                "unit_vehicle",
                "unit_medium",
+               "unit_legal",
                "{CUR_TEAM.faction}"
             ],
             "tagSetSourceFile": "Tags/UnitTags"
@@ -75,7 +81,10 @@
          "excludedPilotTagSet": {
             "items": null,
             "tagSetSourceFile": "Tags/PilotTags"
-         }
+         },
+         "unitSimGameID": null,
+         "pilotSimGameID": null,
+         "locked": false
       },
       {
          "unitType": "Mech",
@@ -85,6 +94,7 @@
             "items": [
                "unit_mech",
                "unit_medium",
+               "unit_legal",
                "{CUR_TEAM.faction}"
             ],
             "tagSetSourceFile": "Tags/UnitTags"
@@ -104,7 +114,10 @@
          "excludedPilotTagSet": {
             "items": null,
             "tagSetSourceFile": "Tags/PilotTags"
-         }
+         },
+         "unitSimGameID": null,
+         "pilotSimGameID": null,
+         "locked": false
       },
       {
          "unitType": "Vehicle",
@@ -114,6 +127,7 @@
             "items": [
                "unit_vehicle",
                "unit_medium",
+               "unit_legal",
                "{CUR_TEAM.faction}"
             ],
             "tagSetSourceFile": "Tags/UnitTags"
@@ -131,7 +145,10 @@
          "excludedPilotTagSet": {
             "items": null,
             "tagSetSourceFile": "Tags/PilotTags"
-         }
+         },
+         "unitSimGameID": null,
+         "pilotSimGameID": null,
+         "locked": false
       }
    ]
 }

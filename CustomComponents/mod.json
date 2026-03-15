@@ -1,28 +1,15 @@
 {
 	"Name": "CustomComponents",
 	"Author": "Denadan",
-	"Website": "https://github.com/Denadan/CustomComponents",
+	"Website": "https://github.com/BattletechModders/CustomComponents",
+
 	"Enabled": true,
-	"Hidden": true,
-	"Version": "2.0.4.0",
 	"DependsOn": [],
 	"DLL": "CustomComponents.dll",
 	"DLLEntryPoint": "CustomComponents.Control.Init",
-	"CustomResourceTypes": [
-		"CCCategories",
-		"CCDefaults",
-		"CCTagRestrictions",
-		"CustomSVGIcon",
-		"CCHardpoints",
-		"CCCEquipLocationTag",
-		"CCUnitTypes"
-	],
-	"DataAddendumEntries": [
-        {
-            "name": "BattleTech.WeaponCategoryEnumeration",
-            "path": "WeaponCategory.json"
-		}
-    ],
+
+	"CustomResourceTypes": [ "CCCategories", "CCDefaults", "CCTagRestrictions", "CustomSVGIcon", "CCHardpoints", "CCCEquipLocationTag", "CCUnitTypes" ],
+
 	"Settings": {
 		"DEBUG_ValidateMechDefs": false,
 		"DEBUG_ShowOnlyErrors": false,
@@ -31,11 +18,13 @@
 		"DEBUG_ShowLoadedCategory": false,
 		"DEBUG_ShowLoadedDefaults": false,
 		"DEBUG_ShowLoadedAlLocations": false,
-		"DEBUG_ShowLoadedHardpoints": false,
+		"DEBUG_ShowLoadedHardpoints": true,
 		"DEBUG_EnableAllTags": false,
 		"DEBUG_ShowMechUT": false,
 		"DEBUG_DropValidationDisabled": false,
+
 		"Message": {
+
 			"WrongWeaponCount": "Cannot equip more then {0} weapons",
 			"Flags_InvaildComponent": "{0} is placeholder, remove it",
 			"Flags_DestroyedComponent": "{0} is destroyed, replace it",
@@ -57,13 +46,16 @@
 			"Base_ValidateNotEnoughHardpoints": "Unit doesn't have enough {1} hardpoints in {5}",
 			"Base_AddInventorySize": "Can't install {0} - not enough free space at {1}"
 		},
+
+
 		"ColorTags": [],
-		"SorterMechInventoryDefault": 800,
+
 		"TagRestrictionDropValidateRequiredTags": false,
 		"TagRestrictionDropValidateIncompatibleTags": true,
 		"UseDefaultFixedColor": false,
 		"AddWeightToCategory": true,
-		"BaseECMValidation": false,
+		"BaseECMValidation": true,
+
 		"DefaultFlagBackgroundColor": "UpgradeColor",
 		"InvalidFlagBackgroundColor": "Red",
 		"PreinstalledOverlayCColor": {
@@ -74,42 +66,37 @@
 		},
 		"DefaultFlagOverlayCColor": {
 			"R": 180,
-			"G": 255,
+			"G": 180,
 			"B": 180,
 			"A": 40
 		},
+
 		"HardpointDescriptionColor": "#008000",
 		"CategoryDescriptionColor": "#008000",
-		"TestEnableAllTags": false,
-		"OmniTechFlag": "OmniMech",
+
+		"OmniTechFlag": "cc_omnitech",
 		"OmniTechCostBySize": false,
 		"OmniTechInstallCost": 1,
-		"OverrideSalvageGeneration": false,
+
+		"OverrideSalvageGeneration": true,
 		"NoLootCTDestroyed": false,
+
 		"OverrideRecoveryChance": true,
 		"SalvageUnrecoveredMech": true,
 		"BaseRecoveryChance": 0.6,
-		"LimbRecoveryPenalty": 0.08,
-		"TorsoRecoveryPenalty": 0.2,
+		"LimbRecoveryPenalty": 0.05,
+		"TorsoRecoveryPenalty": 0.1,
 		"HeadRecoveryPenaly": 0,
-		"EjectRecoveryBonus": 0.5,
+		"EjectRecoveryBonus": 0.25,
+
 		"OverrideMechPartCalculation": true,
 		"CenterTorsoDestroyedParts": 1,
 		"SalvageArmWeight": 0.75,
 		"SalvageLegWeight": 0.75,
 		"SalvageTorsoWeight": 1,
-		"SalvageHeadWeight": 0.33,
-		"CheckWeaponCount": true,
-		"MaxWeaponCount": 40,
-		"WrongWeaponCountMessage": "Cannot equip more then {0} weapons",
-		"IgnoreValidationTags": [
-			"fake_vehicle_chassis"
-		],
-		"InvalidInventory": {
-			"Enabled": true
-		}
+		"SalvageHeadWeight": 0.5
 	},
-	"Manifest": [
+	"Manifest" : [
 		{
 			"Type": "AdvancedJSONMerge",
 			"Path": "advancedjsonmerge",
@@ -123,12 +110,5 @@
 			"Type": "CCHardpoints",
 			"Path": "data/hardpoints"
 		}
-	],
-	"Logs": {
-		"CustomComponents.log": {
-			"Include": [
-				"CustomComponents"
-			]
-		}	
-}
+	]
 }
