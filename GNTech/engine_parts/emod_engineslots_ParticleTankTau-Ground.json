@@ -1,26 +1,32 @@
 {
-"Custom": {
-  "Category": [
-    {
-      "CategoryID": "EngineShield"
-    }
-  ],
-  "WorkOrderCosts": {
-    "Install": {
-      "TechCost": "5 * [[Chassis.Tonnage]]",
-      "CBillCost": "227.6 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "EngineShield"
+      }
+    ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "5 * [[Chassis.Tonnage]]",
+        "CBillCost": "227.6 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    },
+    "Weights": {
+      "ReservedSlots": 4,
+      "EngineFactor": 0.7
+    },
+    "BonusDescriptions": [
+      "WTFactor: -30%",
+      "GNDRIVETAU"
+    ],
+    "InventorySorter": "04680",
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
-  "Weights": {
-    "ReservedSlots": 4,
-    "EngineFactor": 0.70
-  },
-  "BonusDescriptions": [
-    "WTFactor: -30%",
-    "GNDRIVETAU"
-  ]
-},
-    "Description": {
+  "Description": {
     "Cost": 2000000,
     "Rarity": 12,
     "Purchasable": false,

@@ -1,13 +1,5 @@
 {
   "Custom": {
-    "Category": {
-      "CategoryID": "Gyro"
-    },
-    "BonusDescriptions": [
-      "GyroTH: +20",
-      "GyroStab: -5%",
-      "GyroWT:+25%"
-    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.75 * [[Chassis.Tonnage]]",
@@ -19,7 +11,13 @@
     ],
     "Weights": {
       "GyroFactor": 1.25
-    }
+    },
+    "Category": [
+      {
+        "CategoryID": "Gyro"
+      }
+    ],
+    "InventorySorter": "08723"
   },
   "Description": {
     "Cost": 0,

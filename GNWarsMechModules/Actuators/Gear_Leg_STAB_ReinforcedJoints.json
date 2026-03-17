@@ -1,21 +1,19 @@
 {
   "Custom": {
-    "Category": [
-      {
-        "CategoryID": "LegUpperActuator"
-      }
-    ],
-    "BonusDescriptions": [
-      "GyroStab: -10",
-      "GyroTH: 5"
-    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.4 * [[Chassis.Tonnage]]",
         "CBillCost": "25 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
     },
-    "Flags": []
+    "Flags": [
+      "not_broken"
+    ],
+    "Category": [
+      {
+        "CategoryID": "LegActuator"
+      }
+    ]
   },
   "StatName": null,
   "Description": {
@@ -100,5 +98,6 @@
       "component_type_stock"
     ],
     "tagSetSourceFile": ""
-  }
+  },
+  "Category": "LegActuator"
 }

@@ -1,14 +1,5 @@
 {
   "Custom": {
-    "Category": [
-      {
-        "CategoryID": "Armor"
-      }
-    ],
-    "BonusDescriptions": [
-      "ARMORWT: -20%",
-      "SLOT: -21"
-    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.4 * [[Chassis.Tonnage]]",
@@ -20,7 +11,17 @@
     },
     "Weights": {
       "ArmorFactor": 0.8
-    }
+    },
+    "Flags": [
+      "ignore_damage",
+      "no_salvage"
+    ],
+    "Category": [
+      {
+        "CategoryID": "Armor"
+      }
+    ],
+    "InventorySorter": "08737"
   },
   "Description": {
     "Cost": 250000,

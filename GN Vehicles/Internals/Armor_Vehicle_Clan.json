@@ -1,13 +1,14 @@
 {
   "Custom": {
-    "Category": {
-      "CategoryID": "Armor"
-    },
     "Color": "DarkGray",
     "Flags": [
-      "not_broken",
-      "no_salvage",
-      "autorepair"
+      "ignore_damage",
+      "no_salvage"
+    ],
+    "Category": [
+      {
+        "CategoryID": "VehicleInternal"
+      }
     ]
   },
   "Description": {
@@ -39,5 +40,6 @@
       "component_type_stock"
     ],
     "tagSetSourceFile": ""
-  }
+  },
+  "Category": "VehicleInternal"
 }

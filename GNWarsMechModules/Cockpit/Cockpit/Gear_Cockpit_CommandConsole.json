@@ -1,29 +1,23 @@
 {
   "Custom": {
-    "Category": [
-      {
-        "CategoryID": "Cockpit"
-      },
-      {
-        "CategoryID": "LifeSupportA"
-      },
-      {
-        "CategoryID": "LifeSupportB"
-      }
-    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.5 * [[Chassis.Tonnage]]",
         "CBillCost": "12.5 * [[Chassis.Tonnage]]"
       }
     },
-    "BonusDescriptions": [],
     "CriticalEffects": {
       "DeathMethod": "PilotKilled"
     },
     "Flags": [
       "not_broken"
-    ]
+    ],
+    "Category": [
+      {
+        "CategoryID": "Cockpit"
+      }
+    ],
+    "InventorySorter": "08751"
   },
   "StatName": null,
   "RelativeModifier": 0,

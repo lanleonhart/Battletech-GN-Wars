@@ -1,8 +1,5 @@
 {
   "Custom": {
-    "Category": {
-      "CategoryID": "Gyro"
-    },
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.75 * [[Chassis.Tonnage]]",
@@ -10,9 +7,14 @@
       }
     },
     "Flags": [
-      "not_broken",
-      "no_salvage"
-    ]
+      "not_broken"
+    ],
+    "Category": [
+      {
+        "CategoryID": "Gyro"
+      }
+    ],
+    "InventorySorter": "08725"
   },
   "Description": {
     "Cost": 0,

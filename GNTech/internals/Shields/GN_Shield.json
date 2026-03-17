@@ -1,5 +1,5 @@
 {
-  "Custom":{
+  "Custom": {
     "Category": [
       {
         "CategoryID": "MS"
@@ -18,44 +18,48 @@
       "HH-SHIELD",
       "DMGREDUCTION: 10,10,10"
     ],
-      "ActivatableComponent": {
-        "ButtonName": "GN Shield",
-        "CanActivateAfterMove": true,
-        "CanActivateAfterFire": false,
-        "CanNotBeActivatedManualy": false,
-        "NoUniqueCheck": true,
-        "statusEffects": [
-          {
-            "durationData": {
-              "duration": -1,
-              "stackLimit": -1
-            },
-            "targetingData": {
-              "effectTargetsCreator": true,
-              "effectTriggerType": "Passive",
-              "effectTargetType": "Creator",
-              "showInTargetPreview": true,
-              "showInStatusPanel": true
-            },
-            "effectType": "StatisticEffect",
-            "Description": {
-              "Id": "GN Shield",
-              "Name": "GN Shield",
-              "Details": "GN Shield reduces incoming damage by 30%",
-              "Icon": "shield"
-            },
-            "nature": "Buff",
-            "statisticData": {
-              "statName": "DamageReductionMultiplierAll",
-              "operation": "Float_Multiply",
-              "modValue": "0.9",
-              "modType": "System.Single"
-            }
+    "ActivatableComponent": {
+      "ButtonName": "GN Shield",
+      "CanActivateAfterMove": true,
+      "CanActivateAfterFire": false,
+      "CanNotBeActivatedManualy": false,
+      "NoUniqueCheck": true,
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTargetsCreator": true,
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": true,
+            "showInStatusPanel": true
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "GN Shield",
+            "Name": "GN Shield",
+            "Details": "GN Shield reduces incoming damage by 30%",
+            "Icon": "shield"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "DamageReductionMultiplierAll",
+            "operation": "Float_Multiply",
+            "modValue": "0.9",
+            "modType": "System.Single"
           }
-        ]
-      }
-    
-    
+        }
+      ]
+    },
+    "InventorySorter": "09100",
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    }
   },
   "Description": {
     "Cost": 830000,
@@ -80,16 +84,11 @@
   "AllowedLocations": "LeftArm",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [
-  ],
+  "statusEffects": [],
   "ComponentTags": {
     "items": [
       "component_type_stock"
-     
     ],
     "tagSetSourceFile": ""
+  }
 }
-}
-
-
-  

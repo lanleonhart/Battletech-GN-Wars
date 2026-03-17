@@ -1,13 +1,5 @@
 {
   "Custom": {
-    "BonusDescriptions": [
-      "StructureWT: +25%",
-      "Structure: +50%",
-      "CRIT-RES: +50%"
-    ],
-    "Category": {
-      "CategoryID": "Structure"
-    },
     "Weights": {
       "StructureFactor": 1.25
     },
@@ -19,7 +11,17 @@
         "TechCost": "0.55 * [[Chassis.Tonnage]]",
         "CBillCost": "14 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
-    }
+    },
+    "Flags": [
+      "ignore_damage",
+      "no_salvage"
+    ],
+    "Category": [
+      {
+        "CategoryID": "Structure"
+      }
+    ],
+    "InventorySorter": "08710"
   },
   "Description": {
     "Cost": 500000,

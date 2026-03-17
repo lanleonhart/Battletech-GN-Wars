@@ -1,12 +1,5 @@
 {
   "Custom": {
-    "BonusDescriptions": [
-      "StructureWT: -50%",
-      "Structure: -50%"
-    ],
-    "Category": {
-      "CategoryID": "Structure"
-    },
     "ArmorStructureChanges": {
       "StructureFactor": 0.5
     },
@@ -18,7 +11,17 @@
         "TechCost": "0.55 * [[Chassis.Tonnage]]",
         "CBillCost": "14 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
-    }
+    },
+    "Flags": [
+      "ignore_damage",
+      "no_salvage"
+    ],
+    "Category": [
+      {
+        "CategoryID": "Structure"
+      }
+    ],
+    "InventorySorter": "08718"
   },
   "Description": {
     "Cost": 625000,

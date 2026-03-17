@@ -1,198 +1,198 @@
 {
-    "Description": {
-        "Cost": 7396000,
-        "Rarity": 3,
-        "Purchasable": true,
-        "Manufacturer": "Unknown",
-        "Model": "",
-        "UIName": "JagerMech JM6-DGr",
-        "Id": "chassisdef_jagermech_JM6-DGr",
-        "Name": "JagerMech",
-        "Details": "",
-        "Icon": "JagerMech"
+  "Description": {
+    "Cost": 7396000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "Unknown",
+    "Model": "",
+    "UIName": "JagerMech JM6-DGr",
+    "Id": "chassisdef_jagermech_JM6-DGr",
+    "Name": "JagerMech",
+    "Details": "",
+    "Icon": "Jagermech"
+  },
+  "MovementCapDefID": "movedef_rifleman_RFL-4D",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_jagermech",
+  "PrefabIdentifier": "chrPrfMech_jagermechBase-001",
+  "PrefabBase": "jagermech",
+  "Tonnage": 65,
+  "InitialTonnage": 6.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 1661,
+  "Heatsinks": 0,
+  "TopSpeed": 30,
+  "TurnRadius": 60,
+  "MaxJumpjets": 20,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 6,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 60,
+  "MeleeInstability": 60,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 70,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 70,
+  "DFAInstability": 70,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "HardpointCapacity": 1
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
     },
-    "MovementCapDefID": "movedef_rifleman_RFL-4D",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_jagermech",
-    "PrefabIdentifier": "chrPrfMech_jagermechBase-001",
-    "PrefabBase": "jagermech",
-    "Tonnage": 65,
-    "InitialTonnage": 6.5,
-    "weightClass": "HEAVY",
-    "BattleValue": 1661,
-    "Heatsinks": 0,
-    "TopSpeed": 30,
-    "TurnRadius": 60,
-    "MaxJumpjets": 20,
-    "Stability": 160,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 1,
-    "SensorRangeMultiplier": 1,
-    "Signature": 0,
-    "Radius": 6,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 60,
-    "MeleeInstability": 60,
-    "MeleeToHitModifier": 0,
-    "DFADamage": 70,
-    "DFAToHitModifier": 0,
-    "DFASelfDamage": 70,
-    "DFAInstability": 70,
-    "Locations": [
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
         {
-            "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "HardpointCapacity": 1
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 6,
-            "MaxArmor": 45,
-            "MaxRearArmor": -1,
-            "InternalStructure": 15
-        },
-        {
-            "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 80,
-            "MaxRearArmor": -1,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 170,
-            "MaxRearArmor": 50,
-            "InternalStructure": 75
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 16,
-            "MaxArmor": 180,
-            "MaxRearArmor": 50,
-            "InternalStructure": 105
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 170,
-            "MaxRearArmor": 50,
-            "InternalStructure": 75
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 80,
-            "MaxRearArmor": -1,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 6,
-            "MaxArmor": 120,
-            "MaxRearArmor": -1,
-            "InternalStructure": 75
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 6,
-            "MaxArmor": 120,
-            "MaxRearArmor": -1,
-            "InternalStructure": 75
+          "WeaponMount": "Ballistic",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 14,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -4,
-            "y": 13,
-            "z": 0
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 14,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 0
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 0
-        }
-    ],
-    "VariantName": "JM6-DGr",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
     },
-    "StockRole": "Sniper",
-    "YangsThoughts": ""
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 170,
+      "MaxRearArmor": 50,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 16,
+      "MaxArmor": 180,
+      "MaxRearArmor": 50,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 170,
+      "MaxRearArmor": 50,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 13,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "JM6-DGr",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper",
+  "YangsThoughts": ""
 }

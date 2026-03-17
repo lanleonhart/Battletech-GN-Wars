@@ -1,334 +1,365 @@
 {
-   "MechTags": {
-      "items": [
-         "AuriganMercenaries",
-         "AuriganPirates",
-         "Circinus",
-         "ClanNovaCat",
-         "ComStar",
-         "Davion",
-         "GrayDeathLegion",
-         "KellHounds",
-         "Kurita",
-         "Liao",
-         "Locals",
-         "MagistracyOfCanopus",
-         "Marian",
-         "Marik",
-         "Outworld",
-         "Rasalhague",
-         "Steiner",
-         "TaurianConcordat",
-         "WordOfBlake",
-         "unit_assault",
-         "unit_mech",
-         "unit_ready",
-         "unit_release",
-         "unit_indirectFire"
-      ],
-      "tagSetSourceFile": ""
-   },
-   "ChassisID": "chassisdef_atlas_AS7-K",
-   "HeraldryID": null,
-   "Description": {
-      "Cost": 2620000,
-      "Rarity": 3,
-      "Purchasable": true,
-      "Manufacturer": "Unknown",
-      "Model": "",
-      "UIName": "Atlas AS7-K",
-      "Id": "mechdef_atlas_AS7-K",
-      "Name": "Atlas",
-      "Details": "",
-      "Icon": "Atlas"
-   },
-   "simGameMechPartCost": 524000,
-   "Version": 1,
-   "Locations": [
-      {
-         "DamageLevel": "Functional",
-         "Location": "Head",
-         "CurrentArmor": 45,
-         "CurrentRearArmor": -1,
-         "CurrentInternalStructure": 15,
-         "AssignedArmor": 45,
-         "AssignedRearArmor": -1,
-         "InventorySlots": 6
-      },
-      {
-         "DamageLevel": "Functional",
-         "Location": "CenterTorso",
-         "CurrentArmor": 235,
-         "CurrentRearArmor": 70,
-         "CurrentInternalStructure": 155,
-         "AssignedArmor": 235,
-         "AssignedRearArmor": 70,
-         "InventorySlots": 16
-      },
-      {
-         "DamageLevel": "Functional",
-         "Location": "RightTorso",
-         "CurrentArmor": 160,
-         "CurrentRearArmor": 50,
-         "CurrentInternalStructure": 105,
-         "AssignedArmor": 160,
-         "AssignedRearArmor": 50,
-         "InventorySlots": 12
-      },
-      {
-         "DamageLevel": "Functional",
-         "Location": "LeftTorso",
-         "CurrentArmor": 160,
-         "CurrentRearArmor": 50,
-         "CurrentInternalStructure": 105,
-         "AssignedArmor": 160,
-         "AssignedRearArmor": 50,
-         "InventorySlots": 12
-      },
-      {
-         "DamageLevel": "Functional",
-         "Location": "RightArm",
-         "CurrentArmor": 170,
-         "CurrentRearArmor": -1,
-         "CurrentInternalStructure": 85,
-         "AssignedArmor": 170,
-         "AssignedRearArmor": -1,
-         "InventorySlots": 12
-      },
-      {
-         "DamageLevel": "Functional",
-         "Location": "LeftArm",
-         "CurrentArmor": 170,
-         "CurrentRearArmor": -1,
-         "CurrentInternalStructure": 85,
-         "AssignedArmor": 170,
-         "AssignedRearArmor": -1,
-         "InventorySlots": 12
-      },
-      {
-         "DamageLevel": "Functional",
-         "Location": "RightLeg",
-         "CurrentArmor": 205,
-         "CurrentRearArmor": -1,
-         "CurrentInternalStructure": 105,
-         "AssignedArmor": 205,
-         "AssignedRearArmor": -1,
-         "InventorySlots": 6
-      },
-      {
-         "DamageLevel": "Functional",
-         "Location": "LeftLeg",
-         "CurrentArmor": 205,
-         "CurrentRearArmor": -1,
-         "CurrentInternalStructure": 105,
-         "AssignedArmor": 205,
-         "AssignedRearArmor": -1,
-         "InventorySlots": 6
-      }
-   ],
-   "inventory": [
-      {
-         "MountedLocation": "CenterTorso",
-         "ComponentDefID": "emod_engine_300",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "CenterTorso",
-         "ComponentDefID": "emod_engineslots_xl_center",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "RightTorso",
-         "ComponentDefID": "emod_engineslots_size3",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftTorso",
-         "ComponentDefID": "emod_engineslots_size3",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "CenterTorso",
-         "ComponentDefID": "emod_structureslots_standard",
-         "ComponentDefType": "Upgrade",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "Head",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "CenterTorso",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftTorso",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "RightTorso",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftArm",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "RightArm",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftLeg",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "RightLeg",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftLeg",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "RightLeg",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftTorso",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "CenterTorso",
-         "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-         "ComponentDefType": "HeatSink",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "RightTorso",
-         "ComponentDefID": "emod_case",
-         "ComponentDefType": "Upgrade",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "RightTorso",
-         "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
-         "ComponentDefType": "Weapon",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftTorso",
-         "ComponentDefID": "Ammo_AmmunitionBox_AMS",
-         "ComponentDefType": "AmmunitionBox",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftTorso",
-         "ComponentDefID": "emod_case",
-         "ComponentDefType": "Upgrade",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftTorso",
-         "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
-         "ComponentDefType": "Weapon",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftTorso",
-         "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-         "ComponentDefType": "AmmunitionBox",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "RightArm",
-         "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
-         "ComponentDefType": "Weapon",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "RightArm",
-         "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-         "ComponentDefType": "AmmunitionBox",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftArm",
-         "ComponentDefID": "Weapon_AMS",
-         "ComponentDefType": "Weapon",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "LeftArm",
-         "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
-         "ComponentDefType": "Weapon",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "CenterTorso",
-         "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
-         "ComponentDefType": "Weapon",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      },
-      {
-         "MountedLocation": "CenterTorso",
-         "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
-         "ComponentDefType": "Weapon",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
-      }
-   ]
+  "MechTags": {
+    "items": [
+      "AuriganMercenaries",
+      "AuriganPirates",
+      "Circinus",
+      "ClanNovaCat",
+      "ComStar",
+      "Davion",
+      "GrayDeathLegion",
+      "KellHounds",
+      "Kurita",
+      "Liao",
+      "Locals",
+      "MagistracyOfCanopus",
+      "Marian",
+      "Marik",
+      "Outworld",
+      "Rasalhague",
+      "Steiner",
+      "TaurianConcordat",
+      "WordOfBlake",
+      "unit_assault",
+      "unit_mech",
+      "unit_ready",
+      "unit_release",
+      "unit_indirectFire",
+      "AuriganDirectorate",
+      "AuriganRestoration",
+      "Axumite",
+      "Castile",
+      "Chainelane",
+      "ClanBurrock",
+      "ClanCloudCobra",
+      "ClanCoyote",
+      "ClanDiamondShark",
+      "ClanFireMandrill",
+      "ClanGhostBear",
+      "ClanGoliathScorpion",
+      "ClanHellsHorses",
+      "ClanIceHellion",
+      "ClanJadeFalcon",
+      "ClanSmokeJaguar",
+      "ClanSnowRaven",
+      "ClanStarAdder",
+      "ClanSteelViper",
+      "ClanWolf",
+      "Delphi",
+      "Elysia",
+      "Hanse",
+      "Illyrian",
+      "Ives",
+      "JarnFolk",
+      "Lothian",
+      "Oberon",
+      "Rim",
+      "Tortuga",
+      "Valkyrate"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_atlas_AS7-K",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 2620000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "Unknown",
+    "Model": "",
+    "UIName": "Atlas AS7-K",
+    "Id": "mechdef_atlas_AS7-K",
+    "Name": "Atlas",
+    "Details": "",
+    "Icon": "Atlas"
+  },
+  "simGameMechPartCost": 524000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1,
+      "InventorySlots": 6
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 235,
+      "CurrentRearArmor": 70,
+      "CurrentInternalStructure": 155,
+      "AssignedArmor": 235,
+      "AssignedRearArmor": 70,
+      "InventorySlots": 16
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 160,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 160,
+      "AssignedRearArmor": 50,
+      "InventorySlots": 12
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 160,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 160,
+      "AssignedRearArmor": 50,
+      "InventorySlots": 12
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 170,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 85,
+      "AssignedArmor": 170,
+      "AssignedRearArmor": -1,
+      "InventorySlots": 12
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 170,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 85,
+      "AssignedArmor": 170,
+      "AssignedRearArmor": -1,
+      "InventorySlots": 12
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 205,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 205,
+      "AssignedRearArmor": -1,
+      "InventorySlots": 6
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 205,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 205,
+      "AssignedRearArmor": -1,
+      "InventorySlots": 6
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_300",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engineslots_xl_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_case",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_AMS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_case",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_AMS",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
 }

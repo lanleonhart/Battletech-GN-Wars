@@ -1,28 +1,14 @@
 {
   "Custom": {
-    "Category": [
-      {
-        "CategoryID": "LegHip"
-      },
-      {
-        "CategoryID": "LegUpperActuator"
-      },
-      {
-        "CategoryID": "LegLowerActuator"
-      }
-    ],
-    "BonusDescriptions": [
-      "StructureWT: -75%",
-      "Structure: -50%",
-      "GyroStab: -10%"
-    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.4 * [[Chassis.Tonnage]]",
         "CBillCost": "25 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
     },
-    "Flags": []
+    "Flags": [
+      "not_broken"
+    ]
   },
   "StatName": null,
   "Description": {

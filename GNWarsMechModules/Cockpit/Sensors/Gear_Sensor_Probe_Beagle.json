@@ -1,23 +1,20 @@
 {
   "Custom": {
-    "Category": [
-      {
-        "CategoryID": "SensorsB"
-      },
-      {
-        "CategoryID": ""
-      }
-    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.8 * [[Chassis.Tonnage]]",
         "CBillCost": "30 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
     },
-    "BonusDescriptions": [
-      "",
-      ""
-    ]
+    "Flags": [
+      "not_broken"
+    ],
+    "Category": [
+      {
+        "CategoryID": "Cockpit"
+      }
+    ],
+    "InventorySorter": "08758"
   },
   "Description": {
     "Cost": 75000,

@@ -1,24 +1,19 @@
 {
   "Custom": {
-    "Category": [
-      {
-        "CategoryID": "ArmUpperActuator"
-      },
-      {
-        "CategoryID": "ArmLowerActuator"
-      }
-    ],
-    "BonusDescriptions": [
-      "ACC: +1",
-      "ARC: 210"
-    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.4 * [[Chassis.Tonnage]]",
         "CBillCost": "25 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
     },
-    "Flags": []
+    "Flags": [
+      "not_broken"
+    ],
+    "Category": [
+      {
+        "CategoryID": "ArmActuator"
+      }
+    ]
   },
   "StatName": null,
   "Description": {
@@ -104,5 +99,6 @@
       "component_type_stock"
     ],
     "tagSetSourceFile": ""
-  }
+  },
+  "Category": "ArmActuator"
 }

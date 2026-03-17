@@ -2,18 +2,23 @@
   "Custom": {
     "Category": [
       {
-        "CategoryID": "Upgrade"
+        "CategoryID": "Cockpit"
       },
       {
         "CategoryID": "SensorsA"
       }
     ],
-
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.45 * [[Chassis.Tonnage]]",
         "CBillCost": "12.5 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
+    },
+    "InventorySorter": "09020",
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Description": {

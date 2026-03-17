@@ -1,20 +1,25 @@
 {
-"Custom": {
-  "Category": [
-    {
-      "CategoryID": "EngineShield"
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "EngineShield"
+      }
+    ],
+    "Weights": {
+      "ReservedSlots": 4,
+      "EngineFactor": 0.8
+    },
+    "BonusDescriptions": [
+      "WTFactor: -20%"
+    ],
+    "InventorySorter": "04650",
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
-  ],
-  "Weights": {
-    "ReservedSlots": 4,
-    "EngineFactor": 0.80
   },
-  "BonusDescriptions": [
-    "WTFactor: -20%"
-    
-  ]
-},
-    "Description": {
+  "Description": {
     "Cost": 8000000,
     "Rarity": 12,
     "Purchasable": false,
@@ -38,8 +43,7 @@
   "CriticalComponent": false,
   "statusEffects": [],
   "ComponentTags": {
-    "items": [
-    ],
+    "items": [],
     "tagSetSourceFile": ""
   }
 }

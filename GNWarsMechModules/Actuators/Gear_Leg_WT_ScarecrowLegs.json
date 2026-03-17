@@ -1,21 +1,5 @@
 {
   "Custom": {
-    "Category": [
-      {
-        "CategoryID": "LegHip"
-      },
-      {
-        "CategoryID": "LegUpperActuator"
-      },
-      {
-        "CategoryID": "LegLowerActuator"
-      }
-    ],
-    "BonusDescriptions": [
-      "StructureWT: -75%",
-      "Structure: -50%",
-      "GyroStab: -10%"
-    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.4 * [[Chassis.Tonnage]]",
@@ -33,7 +17,14 @@
     "Weights": {
       "StructureFactor": 0.25
     },
-    "Flags": []
+    "Flags": [
+      "not_broken"
+    ],
+    "Category": [
+      {
+        "CategoryID": "LegActuator"
+      }
+    ]
   },
   "StatName": null,
   "Description": {
@@ -119,5 +110,6 @@
       "component_type_stock"
     ],
     "tagSetSourceFile": ""
-  }
+  },
+  "Category": "LegActuator"
 }

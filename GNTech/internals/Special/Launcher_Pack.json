@@ -9,36 +9,39 @@
       }
     ],
     "BonusDescriptions": [],
-    "Flags": [
-      "not_broken"
-    ],
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    },
     "Linked": {
-     "Links": [
-      {
-            "ComponentDefId": "Launcher_Pod",
-            "Location": "RightTorso"
-          },
-          {
-            "ComponentDefId": "Launcher_Telescoping_Arm",
-            "Location": "LeftTorso"
-          },
-          {
-            "ComponentDefId": "Agni_320mm_HIC",
-            "ComponentDefType": "Weapon",
-            "Location": "LeftArm"
-          },
-          {
-            "ComponentDefId": "120mm_Vulcan",
-            "ComponentDefType": "Weapon",
-            "Location": "RightTorso"
-          },
-          {
-            "ComponentDefId": "350mm_GunLauncher",
-            "ComponentDefType": "Weapon",
-            "Location": "RightTorso"
-          }
-        ]
-      }
+      "Links": [
+        {
+          "ComponentDefId": "Launcher_Pod",
+          "Location": "RightTorso"
+        },
+        {
+          "ComponentDefId": "Launcher_Telescoping_Arm",
+          "Location": "LeftTorso"
+        },
+        {
+          "ComponentDefId": "Agni_320mm_HIC",
+          "ComponentDefType": "Weapon",
+          "Location": "LeftArm"
+        },
+        {
+          "ComponentDefId": "120mm_Vulcan",
+          "ComponentDefType": "Weapon",
+          "Location": "RightTorso"
+        },
+        {
+          "ComponentDefId": "350mm_GunLauncher",
+          "ComponentDefType": "Weapon",
+          "Location": "RightTorso"
+        }
+      ]
+    },
+    "InventorySorter": "09100"
   },
   "Description": {
     "Cost": 350000,
@@ -66,7 +69,8 @@
   "statusEffects": [],
   "ComponentTags": {
     "items": [
-      "component_type_stock"],
+      "component_type_stock"
+    ],
     "tagSetSourceFile": ""
   }
 }

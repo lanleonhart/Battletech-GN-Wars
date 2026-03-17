@@ -1,17 +1,5 @@
 {
   "Custom": {
-    "Category": [
-      {
-        "CategoryID": "LegFootActuator"
-      }
-    ],
-    "BonusDescriptions": [
-      "GyroStab: -15",
-      "ACC: +1",
-      "WALKACT: -90",
-      "RUNACT: -90",
-      "BULLWARK"
-    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.4 * [[Chassis.Tonnage]]",
@@ -173,7 +161,14 @@
         }
       ]
     },
-    "Flags": []
+    "Flags": [
+      "not_broken"
+    ],
+    "Category": [
+      {
+        "CategoryID": "LegActuator"
+      }
+    ]
   },
   "StatName": null,
   "Description": {
@@ -205,5 +200,6 @@
       "component_type_stock"
     ],
     "tagSetSourceFile": ""
-  }
+  },
+  "Category": "LegActuator"
 }

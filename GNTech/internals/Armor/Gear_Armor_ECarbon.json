@@ -3,33 +3,39 @@
     "Category": [
       {
         "CategoryID": "MS"
-        },
-        {
-          "CategoryID": "Armor"
-          }
-      ],
-      "BonusDescriptions": [
-        "ARMORWT: +5%",
-        "SLOT: -10",
-        "DMGREDUCTION: 15,15,15",
-        "MSARMOR"
+      },
+      {
+        "CategoryID": "Armor"
+      }
+    ],
+    "BonusDescriptions": [
+      "ARMORWT: +5%",
+      "SLOT: -10",
+      "DMGREDUCTION: 15,15,15",
+      "MSARMOR"
     ],
     "Weights": {
-			"ArmorFactor": 1.05
-		},
+      "ArmorFactor": 1.05
+    },
     "DynamicSlots": {
-			"ReservedSlots": 10,
-			"BackgroundColor": "GoldHalf",
-			"ShowIcon": false,
-			"NameText": "E-Carbon Armor",
-			"BonusAText": "Dynamic Slot",
-			"BonusBText": " "
-		},
+      "ReservedSlots": 10,
+      "BackgroundColor": "GoldHalf",
+      "ShowIcon": false,
+      "NameText": "E-Carbon Armor",
+      "BonusAText": "Dynamic Slot",
+      "BonusBText": " "
+    },
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.66 * [[Chassis.Tonnage]]",
         "CBillCost": "60.6 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
+    },
+    "InventorySorter": "09100",
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Description": {
@@ -94,10 +100,7 @@
     "items": [
       "component_type_stock",
       "unit_ms"
-      
     ],
     "tagSetSourceFile": ""
   }
 }
-
-

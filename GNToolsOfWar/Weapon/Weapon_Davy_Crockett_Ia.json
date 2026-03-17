@@ -1,110 +1,116 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "SRM"
-			}
-		],
-		"Lootable": "Weapon_SRM_SRM6_0-Stock",
-		"BonusDescriptions": [
-			"InfCrockett"
-		]
-	},
-	"weaponCategoryID": "Missile",
-	"Type": "SRM",
-	"WeaponSubType": "SRM2",
-	"MinRange": 300,
-	"MaxRange": 1100,
-	"RangeSplit": [
-		300,
-		500,
-		900
-	],
-	"AmmoCategory": "DC-I",
-	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 4,
-	"Damage": 16,
-	"OverheatedDamageMultiplier": 0,
-	"EvasiveDamageMultiplier": 0,
-	"EvasivePipsIgnored": 0,
-	"DamageVariance": 0,
-	"HeatDamage": 0,
-	"AccuracyModifier": 0,
-	"CriticalChanceMultiplier": 1,
-	"APArmorShardsMod": 0.35,
-	"APMaxArmorThickness": 40,
-	"APCriticalChanceMultiplier": 0.03,
-	"AOECapable": false,
-	"IndirectFireCapable": true,
-	"RefireModifier": 0,
-	"ShotsWhenFired": 1,
-	"ProjectilesPerShot": 1,
-	"AttackRecoil": 1,
-	"Instability": 2,
-	"FireTerrainChance": 0.01,
-	"StatusEffectsPerHit": true,
-	"MissileVolleySize": 1,
-	"ImprovedBallistic": true,
-	"FireDelayMultiplier": 0.1,
-	"ProjectileSpeedMultiplier": 1.6,
-	"MissileHealth": 8,
-	"WeaponEffectID": "WeaponEffect-Weapon_SRM2",
-	"Description": {
-		"Cost": 42000,
-		"Rarity": 10,
-		"Purchasable": true,
-		"Manufacturer": "Pafftek Industries",
-		"Model": "Davy Crockett IA",
-		"UIName": "Davy Crockett Infantry launcher",
-		"Id": "Weapon_Davy_Crockett_Ia",
-		"Name": "Davy Crockett IA",
-		"Details": "A rack designed arround the infantry Davy Crockett IA and the Infantry Elias missile.  However this launcher is capable via mode switching to also fire 2 SRM missiles as if it was a heavy SRM-2.",
-		"Icon": "Art-illery"
-	},
-	"BonusValueA": "",
-	"BonusValueB": "",
-	"ComponentType": "Weapon",
-	"ComponentSubType": "Weapon",
-	"PrefabIdentifier": "srm2",
-	"BattleValue": 0,
-	"InventorySize": 2,
-	"Tonnage": 2,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"Modes": [
-		{
-			"Id": "On",
-			"UIName": "Nuke",
-			"isBaseMode": false
-		},
-		{
-			"Id": "SRM",
-			"UIName": "SRM",
-			"isBaseMode": true,
-			"IndirectFireCapable": false,
-			"DamagePerShot": -8.0,
-			"MinRange": -300.0,
-			"MaxRange": -740.0,
-			"ShortRange": -210.0,
-			"MediumRange": -320.0,
-			"LongRange": -630.0,
-			"StatusEffectsPerHit": true,
-			"AmmoCategory": "SRM",
-			"WeaponEffectID": "WeaponEffect-Weapon_SRM2",
-			"Instability": 3,
-			"MissileHealth": 2,
-			"ShotsWhenFired": 1
-		}
-	],
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock",
-			"range_standard",
-			"NoDejaVu",
-			"NOSALVAGE"
-		],
-		"tagSetSourceFile": ""
-	}
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SRM"
+      }
+    ],
+    "Lootable": "Weapon_SRM_SRM6_0-Stock",
+    "BonusDescriptions": [
+      "InfCrockett"
+    ],
+    "InventorySorter": "00800",
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    }
+  },
+  "weaponCategoryID": "Missile",
+  "Type": "SRM",
+  "WeaponSubType": "SRM2",
+  "MinRange": 300,
+  "MaxRange": 1100,
+  "RangeSplit": [
+    300,
+    500,
+    900
+  ],
+  "AmmoCategory": "DC-I",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 4,
+  "Damage": 16,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "APArmorShardsMod": 0.35,
+  "APMaxArmorThickness": 40,
+  "APCriticalChanceMultiplier": 0.03,
+  "AOECapable": false,
+  "IndirectFireCapable": true,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 2,
+  "FireTerrainChance": 0.01,
+  "StatusEffectsPerHit": true,
+  "MissileVolleySize": 1,
+  "ImprovedBallistic": true,
+  "FireDelayMultiplier": 0.1,
+  "ProjectileSpeedMultiplier": 1.6,
+  "MissileHealth": 8,
+  "WeaponEffectID": "WeaponEffect-Weapon_SRM2",
+  "Description": {
+    "Cost": 42000,
+    "Rarity": 10,
+    "Purchasable": true,
+    "Manufacturer": "Pafftek Industries",
+    "Model": "Davy Crockett IA",
+    "UIName": "Davy Crockett Infantry launcher",
+    "Id": "Weapon_Davy_Crockett_Ia",
+    "Name": "Davy Crockett IA",
+    "Details": "A rack designed arround the infantry Davy Crockett IA and the Infantry Elias missile.  However this launcher is capable via mode switching to also fire 2 SRM missiles as if it was a heavy SRM-2.",
+    "Icon": "Art-illery"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "srm2",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 2,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Modes": [
+    {
+      "Id": "On",
+      "UIName": "Nuke",
+      "isBaseMode": false
+    },
+    {
+      "Id": "SRM",
+      "UIName": "SRM",
+      "isBaseMode": true,
+      "IndirectFireCapable": false,
+      "DamagePerShot": -8.0,
+      "MinRange": -300.0,
+      "MaxRange": -740.0,
+      "ShortRange": -210.0,
+      "MediumRange": -320.0,
+      "LongRange": -630.0,
+      "StatusEffectsPerHit": true,
+      "AmmoCategory": "SRM",
+      "WeaponEffectID": "WeaponEffect-Weapon_SRM2",
+      "Instability": 3,
+      "MissileHealth": 2,
+      "ShotsWhenFired": 1
+    }
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_standard",
+      "NoDejaVu",
+      "NOSALVAGE"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

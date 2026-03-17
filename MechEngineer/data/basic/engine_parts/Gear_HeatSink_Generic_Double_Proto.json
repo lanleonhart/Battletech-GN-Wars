@@ -1,54 +1,55 @@
 {
-    "Custom": {
+  "Custom": {
     "Category": [
-        {
-          "CategoryID": "HeatSink"
-        },
-        {
-          "CategoryID": "DHS"
-        }		
+      {
+        "CategoryID": "HeatSink"
+      },
+      {
+        "CategoryID": "DHS"
+      }
     ],
-        "BonusDescriptions": [
-            "HEATSINK: -6",
-            "DHSK"
+    "BonusDescriptions": [
+      "HEATSINK: -6",
+      "DHSK"
     ],
-		"EngineHeatSink": {
-			"FullName": "Double Heat Sinks",
-			"Abbreviation": "DHS",
-			"Tag": "DHS"
-		},
-		"HeatSinkCapacity": 1
-},
-    "DissipationCapacity" : 6,
-    "Description" : {
-        "Cost" : 630000,
-        "Rarity" : 100,
-        "Purchasable" : false,
-        "Manufacturer" : "Generic",
-        "Model" : "Double",
-        "UIName" : "Prototype Heat Sink (D)",
-        "Id" : "Gear_HeatSink_Generic_Double_Proto",
-        "Name" : "Prototype Double Heat Sink (D)",
-        "Details" : "Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
-        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    "EngineHeatSink": {
+      "FullName": "Double Heat Sinks",
+      "Abbreviation": "DHS",
+      "Tag": "DHS"
     },
-    "BonusValueA" : "",
-    "BonusValueB" : "",
-    "ComponentType" : "HeatSink",
-    "ComponentSubType" : "Heatsink",
-    "PrefabIdentifier" : "",
-    "BattleValue" : 0,
-    "InventorySize" : 3,
-    "Tonnage" : 1,
-    "AllowedLocations" : "All",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "statusEffects" : null,
-    "ComponentTags" : {
-        "items" : [
-            "component_type_stock",
-            "component_type_lostech"
-        ],
-        "tagSetSourceFile" : ""
-    }
+    "HeatSinkCapacity": 1,
+    "InventorySorter": "04000"
+  },
+  "DissipationCapacity": 6,
+  "Description": {
+    "Cost": 630000,
+    "Rarity": 100,
+    "Purchasable": false,
+    "Manufacturer": "Generic",
+    "Model": "Double",
+    "UIName": "Prototype Heat Sink (D)",
+    "Id": "Gear_HeatSink_Generic_Double_Proto",
+    "Name": "Prototype Double Heat Sink (D)",
+    "Details": "Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
+    "Icon": "uixSvgIcon_equipment_Heatsink"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "HeatSink",
+  "ComponentSubType": "Heatsink",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 1,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": null,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

@@ -17,19 +17,6 @@
         }
       },
       {
-        "Icon": "GN",
-        "Tooltip": "Show GN Weapons",
-        "Filter": {
-          "ComponentTypes": [
-						"Weapon"
-          ],
-          "Categories": [
-            "GN",
-            "GNT"
-          ]
-        }
-      },
-      {
         "Icon": "uixSvgIcon_weapon_Energy",
         "Tooltip": "Show Energy weapons",
         "Filter": {
@@ -99,6 +86,7 @@
         ],
           "Categories": [
             "SRM",
+            "RL",
             "MRM",
             "ATM"
           ]
@@ -114,6 +102,19 @@
           "Categories": [
             "LRM",
             "TBOLT"
+          ]
+        }
+      },
+      {
+        "Icon": "GN",
+        "Tooltip": "Show GN Weapons",
+        "Filter": {
+          "ComponentTypes": [
+						"Weapon"
+          ],
+          "Categories": [
+            "GN",
+            "GNT"
           ]
         }
       },
@@ -227,14 +228,15 @@
       },
       {
         "Icon": "uixSvgIcon_weapon_Missile",
-        "Tooltip": "Show SRM and Narc ammo",
+        "Tooltip": "Show SRM, MRM, and ATM ammo",
         "Filter": {
           "ComponentTypes": [
             "AmmunitionBox"
           ],
           "Categories": [
             "SRM",
-            "MRM"
+            "MRM",
+            "ATM"
 
             
           ]
@@ -242,15 +244,14 @@
       },
       {
         "Icon": "uixSvgIcon_weapon_Missile",
-        "Tooltip": "Show LRM, MRM, and Thunderbolt ammo",
+        "Tooltip": "Show LRM, and Thunderbolt ammo",
         "Filter": {
           "ComponentTypes": [
             "AmmunitionBox"
           ],
           "Categories": [
            "TBOLT",
-           "LRM",
-           "ATM"
+           "LRM"
           ]
         }
       },
@@ -306,23 +307,8 @@
             "EngineShield",
             "EnginePart"
           ],
-          "NotCategories": []
-        }
-      },
-      {
-        "Tag": "",
-        "Icon": "CATCoolingkit",
-        "Tooltip": "Cooling Kits",
-        "Filter": {
-          "ComponentTypes": [
-            "HeatSink"
-          ],
-          "Categories": [
-            "Cooling",
-            "EngineHeatBlock"
-          ],
           "NotCategories": [
-          
+            "Cooling"
           ]
         }
       },
@@ -388,46 +374,11 @@
             "Quirk"
           ]
         }
-      },
-      {
-        "Icon": "uixSvgIcon_equipment_ActuatorArm",
-        "Tag": "",
-        "Tooltip": "Show Arm Upgrade",
-        "Filter": {
-          "ComponentTypes": [
-            "Upgrade"
-          ],
-          "Categories": [
-            "ArmShoulder",
-            "ArmUpperActuator",
-            "ArmLowerActuator",
-            "ArmHandActuator"
-          ],
-          "NotCategories": [
-            "Quirk"
-          ]
-        }
-      },
-      {
-        "Icon": "uixSvgIcon_equipment_ActuatorLeg",
-        "Tag": "",
-        "Tooltip": "Show Leg Upgrade",
-        "Filter": {
-          "ComponentTypes": [
-            "Upgrade"
-          ],
-          "Categories": [
-            "LegHip",
-            "LegUpperActuator",
-            "LegLowerActuator",
-            "LegFootActuator"
-          ]
-        }
       }
     ]
   },
   {
-    "Caption": "EQUIP",
+    "Caption": "Equipment",
     "Filter": {
       "ComponentTypes": [
         "JumpJet",
@@ -449,8 +400,7 @@
           ],
           "Categories": [
             "JumpJets",
-            "Thruster",
-            "StandardJJ"
+            "Thruster"
           ]
         }
       },
@@ -512,13 +462,13 @@
           ],
           "Categories": [
             "Optical Sensors",
-            "Gyro",
             "Upgrade"
           ],
           "NotCategories": [
             "Quirk",
             "Armor",
-            "Structure"
+            "Structure",
+             "Gyro"
           ]
         }
       },

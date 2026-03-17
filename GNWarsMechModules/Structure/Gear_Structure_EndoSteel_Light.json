@@ -1,10 +1,5 @@
 {
   "Custom": {
-    "Category": [
-      {
-        "CategoryID": "Structure"
-      }
-    ],
     "Weights": {
       "StructureFactor": 0.6
     },
@@ -13,7 +8,17 @@
         "TechCost": "0.55 * [[Chassis.Tonnage]]",
         "CBillCost": "14 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
-    }
+    },
+    "Flags": [
+      "ignore_damage",
+      "no_salvage"
+    ],
+    "Category": [
+      {
+        "CategoryID": "Structure"
+      }
+    ],
+    "InventorySorter": "08713"
   },
   "Description": {
     "Cost": 1000000,

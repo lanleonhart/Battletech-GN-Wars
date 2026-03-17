@@ -1,58 +1,56 @@
 {
-    "Custom": {
-		"Category" : [
-			{
-				"CategoryID": "SRM"
-			},
-			{
-				"CategoryID": "SpecialSRM"
-			}
-		],	
-        "Flags": {
-            "flags": [
-                "not_broken"
-            ]
-        },
-        "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 8,
-            "StabilityDamagePerAmmo": 2
-        },
-		"BonusDescriptions": [
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 150
-		}
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SRMAmmo"
+      }
+    ],
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     },
-    "AmmoID": "Ammunition_SRM_LK",
-    "Capacity": 50,
-    "Description": {
-        "Cost": 190000,
-        "Rarity": 1,
-        "Purchasable": true,
-        "Manufacturer": "Generic",
-        "Model": "SRM",
-        "UIName": "Ammo SRM L-K[H]",
-        "Id": "Ammo_AmmunitionBox_SRM_LK_H",
-        "Name": "SRM L-K Ammo[H]",
-        "Details": "Listen Kill Missiles gain extra accuracy but cost signficantly more than standard missile rounds of the same type.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 50 shots.",
-        "Icon": "uixSvgIcon_ammoBox_Missile"
+    "ComponentExplosion": {
+      "ExplosionDamagePerAmmo": 8,
+      "StabilityDamagePerAmmo": 2
     },
-	"BonusValueA": "1 EVA ignored",
-	"BonusValueB": "",
-    "ComponentType": "AmmunitionBox",
-    "ComponentSubType": "Ammunition",
-    "PrefabIdentifier": "",
-    "BattleValue": 0,
-    "InventorySize": 1,
-    "Tonnage": 0.5,
-    "AllowedLocations": "All",
-    "DisallowedLocations": "All",
-    "CriticalComponent": false,
-    "statusEffects": [],
-    "ComponentTags": {
-        "items": [
-            "component_type_stock"
-        ],
-        "tagSetSourceFile": ""
-    }
+    "BonusDescriptions": [],
+    "AmmoCost": {
+      "PerUnitCost": 150
+    },
+    "InventorySorter": "02818"
+  },
+  "AmmoID": "Ammunition_SRM_LK",
+  "Capacity": 50,
+  "Description": {
+    "Cost": 190000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "SRM",
+    "UIName": "Ammo SRM L-K[H]",
+    "Id": "Ammo_AmmunitionBox_SRM_LK_H",
+    "Name": "SRM L-K Ammo[H]",
+    "Details": "Listen Kill Missiles gain extra accuracy but cost signficantly more than standard missile rounds of the same type.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 50 shots.",
+    "Icon": "uixSvgIcon_ammoBox_Missile"
+  },
+  "BonusValueA": "1 EVA ignored",
+  "BonusValueB": "",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Category": "SRMAmmo"
 }
