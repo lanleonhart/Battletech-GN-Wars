@@ -96,11 +96,21 @@
 		"SalvageTorsoWeight": 1,
 		"SalvageHeadWeight": 0.5
 	},
+	"DataAddendumEntries": [
+						{
+			"name": "BattleTech.WeaponCategoryEnumeration",
+			"path": "WeaponCategory.json"
+		}
+	],
 	"Manifest" : [
 		{
 			"Type": "AdvancedJSONMerge",
 			"Path": "advancedjsonmerge",
 			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "CCCategories",
+			"Path": "data/categories"
 		},
 		{
             "Type": "CCUnitTypes",

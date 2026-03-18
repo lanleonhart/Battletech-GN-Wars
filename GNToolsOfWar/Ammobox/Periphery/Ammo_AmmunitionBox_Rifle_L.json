@@ -10,6 +10,11 @@
       "flags": [
         "not_broken"
       ]
+    },
+    "ComponentExplosion": {
+      "ExplosionDamagePerAmmo": 10,
+      "HeatDamagePerAmmo": 3,
+      "StabilityDamagePerAmmo": 1
     }
   },
   "AmmoID": "Ammunition_LRifle",
@@ -23,7 +28,7 @@
     "UIName": "Light Rifle Ammo",
     "Id": "Ammo_AmmunitionBox_LRifle",
     "Name": "Light Rifle Ammo",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 15 shots.",
+    "Details": "Ammo Bins contain the rounds needed for Light Rifle weaponry, with at least one bin required per weapon type. \n\nLight Rifle Ammo Bins each contain 15 rounds and may feed multiple weapons.\n\nAmmo Bins will explode and destroy their installed location when they receive a Critical Hit.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
   "BonusValueA": "",
