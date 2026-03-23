@@ -1,0 +1,316 @@
+{
+	"Settings": [
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-HipCrit1-{location}",
+				"Name": "{side} Hip Damaged (1)",
+				"Details": "Hip actuator critical hit reduces movement speed by 10%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "MoveMultiplier",
+				"operation": "Float_Subtract",
+				"modValue": "0.1",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-HipCrit1-{location}-stab",
+				"Name": "{side} Hip Damaged (1) - Stability",
+				"Details": "Hip actuator damage compromises balance, lowering stability by 5%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Multiply",
+				"modValue": "0.95",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-HipCrit2-{location}",
+				"Name": "{side} Hip Damaged (2)",
+				"Details": "Severe hip actuator damage reduces movement speed by 20%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "MoveMultiplier",
+				"operation": "Float_Subtract",
+				"modValue": "0.2",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-HipCrit2-{location}-stab",
+				"Name": "{side} Hip Damaged (2) - Stability",
+				"Details": "Severe hip damage significantly compromises balance, lowering stability by 10%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Multiply",
+				"modValue": "0.9",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-UpperLegCrit1-{location}",
+				"Name": "{side} Upper Leg Damaged (1)",
+				"Details": "Upper leg actuator critical hit reduces movement speed by 10%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "MoveMultiplier",
+				"operation": "Float_Subtract",
+				"modValue": "0.1",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-UpperLegCrit1-{location}-stab",
+				"Name": "{side} Upper Leg Damaged (1) - Stability",
+				"Details": "Upper leg actuator damage impairs balance, lowering stability by 5%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Multiply",
+				"modValue": "0.95",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-UpperLegCrit2-{location}",
+				"Name": "{side} Upper Leg Damaged (2)",
+				"Details": "Severe upper leg actuator damage reduces movement speed by 20%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "MoveMultiplier",
+				"operation": "Float_Subtract",
+				"modValue": "0.2",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-UpperLegCrit2-{location}-stab",
+				"Name": "{side} Upper Leg Damaged (2) - Stability",
+				"Details": "Severe upper leg damage impairs balance, lowering stability by 5%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Multiply",
+				"modValue": "0.95",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-LowerLegCrit1-{location}",
+				"Name": "{side} Lower Leg Damaged (1)",
+				"Details": "Lower leg actuator critical hit reduces movement speed by 10%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "MoveMultiplier",
+				"operation": "Float_Subtract",
+				"modValue": "0.1",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-LowerLegCrit1-{location}-stab",
+				"Name": "{side} Lower Leg Damaged (1) - Stability",
+				"Details": "Lower leg actuator damage impairs balance, lowering stability by 5%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Multiply",
+				"modValue": "0.95",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-LowerLegCrit2-{location}",
+				"Name": "{side} Lower Leg Damaged (2)",
+				"Details": "Severe lower leg actuator damage reduces movement speed by 20%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "MoveMultiplier",
+				"operation": "Float_Subtract",
+				"modValue": "0.2",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-LowerLegCrit2-{location}-stab",
+				"Name": "{side} Lower Leg Damaged (2) - Stability",
+				"Details": "Severe lower leg damage impairs balance, lowering stability by 5%.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"statisticData": {
+				"effectsPersistAfterDestruction": true,
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Multiply",
+				"modValue": "0.95",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		}
+	]
+}

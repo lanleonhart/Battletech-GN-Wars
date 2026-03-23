@@ -1,0 +1,50 @@
+{
+   "Version": 1,
+   "Description": {
+      "Id": "turretdef_Standard_Hellhound",
+      "Name": "Hellhound Standard Turret",
+      "Details": "Standard turret with balanced weapon loadout",
+      "Icon": "uixSvgIcon_equipment_Gyro",
+      "Cost": 100000,
+      "Rarity": 0,
+      "Purchasable": false
+   },
+   "ChassisID": "turretchassisdef_Standard_Hellhound",
+   "TurretTags": {
+      "items": [
+         "unit_turret",
+         "unit_standard"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "CurrentArmor": 150,
+   "CurrentInternalStructure": 50,
+   "AssignedArmor": 150,
+   "DamageLevel": "Functional",
+   "inventory": [
+      {
+         "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+         "ComponentDefType": "Weapon",
+         "HardpointSlot": 0,
+         "DamageLevel": "Functional"
+      },
+      {
+         "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+         "ComponentDefType": "Weapon",
+         "HardpointSlot": 1,
+         "DamageLevel": "Functional"
+      },
+      {
+         "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+         "ComponentDefType": "Weapon",
+         "HardpointSlot": 2,
+         "DamageLevel": "Functional"
+      },
+      {
+         "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+         "ComponentDefType": "Weapon",
+         "HardpointSlot": 3,
+         "DamageLevel": "Functional"
+      }
+   ]
+}

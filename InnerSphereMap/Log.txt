@@ -766,3 +766,20 @@ Date :05/04/2025 14:33:31
 
 -----------------------------------------------------------------------------
 
+STARSYSTEM BROKEN: starsystemdef_Bellatrix
+Date :03/18/2026 19:37:55
+
+-----------------------------------------------------------------------------
+
+Message :Object reference not set to an instance of an object<br/>
+StackTrace :  at BattleTech.Shop.OnItemCollectionRetrieved (BattleTech.ItemCollectionDef def) [0x0000c] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.SimGameState.RequestItem[ItemType] (System.String id, System.Action`1[T] callback, BattleTech.BattleTechResourceType resourceType) [0x0004e] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.Shop.Initialize (System.Collections.Generic.List`1[T] collections, BattleTech.Shop+ShopType shopType, BattleTech.Shop+RefreshType refreshShop) [0x00042] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.Shop.Rehydrate (BattleTech.SimGameState sim, BattleTech.StarSystem system, System.Collections.Generic.List`1[T] collections, BattleTech.Shop+RefreshType refreshShop, BattleTech.Shop+ShopType shopType) [0x0001a] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.Shop..ctor (BattleTech.SimGameState sim, BattleTech.StarSystem system, System.Collections.Generic.List`1[T] collections, BattleTech.Shop+RefreshType refreshShop, BattleTech.Shop+ShopType shopType) [0x00027] in <4184af8dbeb44635831353f4d349631c>:0 
+  at BattleTech.StarSystem..ctor (BattleTech.StarSystemDef def, BattleTech.SimGameState state) [0x000ac] in <4184af8dbeb44635831353f4d349631c>:0 
+  at InnerSphereMap.SimGameState_InitializeDataFromDefs_Patch.Prefix (BattleTech.SimGameState __instance) [0x00055] in <215e8ead4c61442f9aa4f5c6959cadab>:0 
+Date :03/18/2026 19:37:55
+
+-----------------------------------------------------------------------------
+

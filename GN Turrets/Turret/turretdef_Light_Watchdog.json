@@ -1,0 +1,62 @@
+{
+   "Version": 1,
+   "Description": {
+      "Id": "turretdef_Light_Watchdog",
+      "Name": "Watchdog Light Turret",
+      "Details": "Light turret with balanced weapon loadout",
+      "Icon": "uixSvgIcon_equipment_Gyro",
+      "Cost": 50000,
+      "Rarity": 0,
+      "Purchasable": false
+   },
+   "ChassisID": "turretchassisdef_Light_Watchdog",
+   "TurretTags": {
+      "items": [
+         "unit_turret",
+         "unit_light"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "CurrentArmor": 100,
+   "CurrentInternalStructure": 25,
+   "AssignedArmor": 100,
+   "DamageLevel": "Functional",
+   "inventory": [
+      {
+         "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
+         "ComponentDefType": "Weapon",
+         "HardpointSlot": 0,
+         "DamageLevel": "Functional"
+      },
+      {
+         "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+         "ComponentDefType": "Weapon",
+         "HardpointSlot": 1,
+         "DamageLevel": "Functional"
+      },
+      {
+         "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+         "ComponentDefType": "Weapon",
+         "HardpointSlot": 2,
+         "DamageLevel": "Functional"
+      },
+      {
+         "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+         "ComponentDefType": "Weapon",
+         "HardpointSlot": 3,
+         "DamageLevel": "Functional"
+      },
+      {
+         "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+         "ComponentDefType": "AmmunitionBox",
+         "HardpointSlot": -1,
+         "DamageLevel": "Functional"
+      },
+      {
+         "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+         "ComponentDefType": "AmmunitionBox",
+         "HardpointSlot": -1,
+         "DamageLevel": "Functional"
+      }
+   ]
+}

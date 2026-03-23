@@ -1,6 +1,6 @@
-[03:43:05.676]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomVoices version: 0.0.0.24
+[01:07:25.366]Initing... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomVoices version: 0.0.0.24
 
-[03:43:05.790]AudioEngine.Init libbass version: 2.4.17.0 platform:Microsoft Windows NT 10.0.26200.0
+[01:07:25.432]AudioEngine.Init libbass version: 2.4.17.0 platform:Microsoft Windows NT 10.0.26200.0
  Devices:6
   [0] No sound Type:0 driver:null IsEnabled:True IsInitialized:False IsDefault:False
   [1] Default Type:Headphones driver:null IsEnabled:True IsInitialized:False IsDefault:True
@@ -10,39 +10,180 @@
   [5] CABLE Input (VB-Audio Virtual Cable) Type:Speakers driver:{0.0.0.00000000}.{4d3515d1-e48b-468d-aaef-24454c0c4f8f} IsEnabled:True IsInitialized:False IsDefault:False
   Trying init -1 device
    success
-[03:43:17.447]FinishedLoading
+[01:07:48.715]FinishedLoading
  Game root folder:E:\SteamLibrary\steamapps\common\BATTLETECH
  customResource:VoicePackDef
  customResource:AudioFile
  customResource:AudioFileSettings
-[03:43:17.450]CustomMusicHelper.Init start
-[03:43:17.473]CustomMusicHelper.Init finish
-[03:43:18.919]UIManager.Awake
+[01:07:48.718]CustomMusicHelper.Init start
+[01:07:55.367]Log flushing
+[01:07:55.846]CustomMusicInited.Init finish
+[01:07:57.324]UIManager.Awake
  AudioEngine.Instance:not null
-[03:43:22.256]AudioEventManager.LoadAudioSettings
+[01:08:00.412]AudioEventManager.LoadAudioSettings
  AudioEngine(-802).Instance.MasterVolume:1
  AudioEngine(-802).Instance.MusicBus.volume:0
  AudioEngine(-802).Instance.VoiceVolume.volume:1
  AudioEngine(-802).Instance.CombatBus.volume:1
  AudioEngine(-802).Instance.AmbienceVolume.volume:1
-[03:43:22.257]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
-[03:43:22.403]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
-[03:43:31.086]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:2
-[03:43:32.251]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:3
-[03:43:32.350]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:4
-[03:43:35.676]Log flushing
-[03:43:40.271]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:5
-[03:43:40.320]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:6
-[03:43:42.987]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:7
-[03:43:56.376]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:8
-[03:43:56.427]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:9
-[03:43:56.701]WwiseManager.PostEventById 390458608:AudioEventList_ui_ui_generic_confirm result:10
-[03:43:57.325]WwiseManager.PostEventById 390458608:AudioEventList_ui_ui_generic_confirm result:11
-[03:43:57.703]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:12
-[03:43:58.005]WwiseManager.PostEventById 390458608:AudioEventList_ui_ui_generic_confirm result:13
-[03:43:58.679]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:14
-[03:43:59.723]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:15
-[03:44:01.668]WwiseManager.SuspendSoundEngine
-[03:44:05.677]Log flushing
-[03:44:10.172]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:16
-[03:44:35.677]Log flushing
+[01:08:00.414]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
+[01:08:00.567]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
+[01:08:09.305]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:2
+[01:08:10.304]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:3
+[01:08:10.421]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:4
+[01:08:10.454]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:5
+[01:08:10.738]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:6
+[01:08:10.958]WwiseManager.PostEventById 390458608:AudioEventList_ui_ui_generic_confirm result:7
+[01:08:11.221]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:8
+[01:08:11.537]WwiseManager.PostEventById 88994342:AudioEventList_ui_ui_generic_hover result:9
+[01:08:11.807]WwiseManager.PostEventById 390458608:AudioEventList_ui_ui_generic_confirm result:10
+[01:08:16.908]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:11
+[01:08:17.220]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:12
+[01:08:19.414]WwiseManager.SuspendSoundEngine
+[01:08:25.368]Log flushing
+[01:08:55.369]Log flushing
+[01:09:08.575]WwiseManager.WakeupSoundEngine
+[01:09:08.597]WwiseManager.SuspendSoundEngine
+[01:09:10.168]WwiseManager.PostEventById 4029002589:AudioEventList_ui_ui_sim_menu_appear result:13
+[01:09:10.523]AudioEventManager.SetMusicState menu_main in_menus None stopOldMusic:False custMusicIsPlayed:False
+[01:09:10.588]WwiseManager.PostEventById 961970741:AudioEventList_ui_ui_sim_whoosh_room_change result:14
+[01:09:10.589]WwiseManager.PostEventById 1987049447:AudioEventList_ambiences_ambiences_stop result:15
+[01:09:10.590]WwiseManager.PostEventById 1596568133:AudioEventList_ambiences_ambiences_start result:16
+[01:09:10.590]AudioEventManager.SetMusicState nothing in_menus None stopOldMusic:False custMusicIsPlayed:False
+[01:09:10.625]WwiseManager.PostEventById 961970741:AudioEventList_ui_ui_sim_whoosh_room_change result:17
+[01:09:10.625]WwiseManager.PostEventById 1987049447:AudioEventList_ambiences_ambiences_stop result:18
+[01:09:10.625]WwiseManager.PostEventById 1596568133:AudioEventList_ambiences_ambiences_start result:19
+[01:09:10.625]AudioEventManager.SetMusicState nothing in_menus None stopOldMusic:False custMusicIsPlayed:False
+[01:09:10.685]SGCharacterCreationNamePanel.Awake
+ pronounSelector is not null
+ rect:(x:-199.00, y:-42.00, width:398.00, height:42.00)
+ bracket_btm_tr:(0.0, -174.0, 0.0)
+ f_bear02:F. Bear
+ f_creep01:F. creep
+ f_glum01_russian:F.glum russ
+ f_overload01:F.overload
+ f_pro01:F.pro
+ f_pro01_brit:F.brit
+ f_pro02_asian:F.asian
+ f_kamea:F.kamea
+ f_pro02_irish:F.irish
+ f_pro04_midwest:F.midweast
+ f_pro05_tanesha:F.tanesha
+ f_pro06_tough:F.tough
+ f_pro07:F.pro N7
+ m_bear01:M.bear
+ m_ermy01:M.ermy
+ m_overload02:M.overload
+ m_pro01_stark_chad:M.stark chad
+ m_pro02_david:M.david
+ m_pro03_brit:M.brit
+ m_pro04_brad:M.brad
+ m_pro05_rick:M.rick
+ m_pro06_matthew:M.matthew
+ m_pro07_allan:M.allan
+ m_rizzo01:M.rizzo
+ m_vizzini01:M.vissini
+ m_raju:M.raju
+ pilot_player_computer:AI
+[01:09:11.767]WwiseManager.PostEventById 1280583203:AudioEventList_vo_vo_stop_pilots result:20
+[01:09:11.768]UIManager:lightTheme
+[01:09:11.768]WwiseManager.PostEventById 3651348061:AudioEventList_vo_vo_play_pilots result:21
+[01:09:11.771]AudioEventManager.SetMusicState character_creation character_creation_start alive stopOldMusic:False custMusicIsPlayed:False
+[01:09:12.327]WwiseManager.PostEventById 2496623122:AudioEventList_ui_ui_sim_travel_ping_play result:22
+[01:09:25.370]Log flushing
+[01:09:28.047]WwiseManager.PostEventById 1280583203:AudioEventList_vo_vo_stop_pilots result:23
+[01:09:28.048]UIManager:lightTheme
+[01:09:28.048]WwiseManager.PostEventById 3651348061:AudioEventList_vo_vo_play_pilots result:24
+[01:09:28.131]WwiseManager.PostEventById 1280583203:AudioEventList_vo_vo_stop_pilots result:25
+[01:09:28.131]UIManager:lightTheme
+[01:09:28.131]WwiseManager.PostEventById 3651348061:AudioEventList_vo_vo_play_pilots result:26
+[01:09:28.132]SGCharacterCreationWidget.CreatePilot voice:f_bear02
+[01:09:29.031]WwiseManager.WakeupSoundEngine
+[01:09:29.988]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:27
+[01:09:30.127]AudioEventManager.SetMusicState character_creation character_creation_end alive stopOldMusic:False custMusicIsPlayed:False
+[01:09:32.799]WwiseManager.PostEventById 961970741:AudioEventList_ui_ui_sim_whoosh_room_change result:28
+[01:09:32.799]WwiseManager.PostEventById 1987049447:AudioEventList_ambiences_ambiences_stop result:29
+[01:09:32.799]WwiseManager.PostEventById 1596568133:AudioEventList_ambiences_ambiences_start result:30
+[01:09:32.799]AudioEventManager.SetMusicState Sim_Game argo alive stopOldMusic:False custMusicIsPlayed:False
+[01:09:32.838]WwiseManager.PostEventById 4029002589:AudioEventList_ui_ui_sim_menu_appear result:31
+[01:09:32.842]WwiseManager.PostEventById 2496623122:AudioEventList_ui_ui_sim_travel_ping_play result:32
+[01:09:32.848]Pilot.Init commander
+[01:09:32.856]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:33
+[01:09:32.915]WwiseManager.SuspendSoundEngine
+[01:09:55.370]Log flushing
+[01:10:25.370]Log flushing
+[01:10:55.370]Log flushing
+[01:11:14.276]WwiseManager.WakeupSoundEngine
+[01:11:14.780]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:34
+[01:11:15.010]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:35
+[01:11:15.023]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:36
+[01:11:16.133]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:37
+[01:11:16.633]WwiseManager.PostEventById 961970741:AudioEventList_ui_ui_sim_whoosh_room_change result:38
+[01:11:16.633]WwiseManager.PostEventById 1987049447:AudioEventList_ambiences_ambiences_stop result:39
+[01:11:16.633]WwiseManager.PostEventById 1596568133:AudioEventList_ambiences_ambiences_start result:40
+[01:11:16.633]AudioEventManager.SetMusicState Sim_Game Navigation alive stopOldMusic:False custMusicIsPlayed:False
+[01:11:16.640]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:41
+[01:11:17.239]WwiseManager.SuspendSoundEngine
+[01:11:20.297]WwiseManager.WakeupSoundEngine
+[01:11:20.920]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:42
+[01:11:21.144]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:43
+[01:11:25.370]Log flushing
+[01:11:55.371]Log flushing
+[01:12:25.371]Log flushing
+[01:12:55.372]Log flushing
+[01:12:57.934]WwiseManager.SuspendSoundEngine
+[01:13:25.372]Log flushing
+[01:13:55.373]Log flushing
+[01:14:21.221]WwiseManager.WakeupSoundEngine
+[01:14:22.245]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:44
+[01:14:22.850]WwiseManager.PostEventById 1667154735:AudioEventList_ui_ui_sim_back result:45
+[01:14:23.700]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:46
+[01:14:24.042]WwiseManager.PostEventById 961970741:AudioEventList_ui_ui_sim_whoosh_room_change result:47
+[01:14:24.042]WwiseManager.PostEventById 1987049447:AudioEventList_ambiences_ambiences_stop result:48
+[01:14:24.042]WwiseManager.PostEventById 1596568133:AudioEventList_ambiences_ambiences_start result:49
+[01:14:24.042]AudioEventManager.SetMusicState Sim_Game Command_Center alive stopOldMusic:False custMusicIsPlayed:False
+[01:14:24.046]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:50
+[01:14:25.373]Log flushing
+[01:14:36.346]WwiseManager.SuspendSoundEngine
+[01:14:46.057]WwiseManager.WakeupSoundEngine
+[01:14:46.501]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:51
+[01:14:46.890]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:52
+[01:14:47.534]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:53
+[01:14:47.701]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:54
+[01:14:48.102]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:55
+[01:14:48.350]WwiseManager.PostEventById 961970741:AudioEventList_ui_ui_sim_whoosh_room_change result:56
+[01:14:48.350]WwiseManager.PostEventById 1987049447:AudioEventList_ambiences_ambiences_stop result:57
+[01:14:48.350]WwiseManager.PostEventById 1596568133:AudioEventList_ambiences_ambiences_start result:58
+[01:14:48.350]AudioEventManager.SetMusicState Sim_Game argo alive stopOldMusic:False custMusicIsPlayed:False
+[01:14:48.502]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:59
+[01:14:49.520]WwiseManager.PostEventById 4029002589:AudioEventList_ui_ui_sim_menu_appear result:60
+[01:14:49.524]WwiseManager.PostEventById 2496623122:AudioEventList_ui_ui_sim_travel_ping_play result:61
+[01:14:50.351]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:62
+[01:14:50.554]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:63
+[01:14:50.935]WwiseManager.PostEventById 961970741:AudioEventList_ui_ui_sim_whoosh_room_change result:64
+[01:14:50.935]WwiseManager.PostEventById 1987049447:AudioEventList_ambiences_ambiences_stop result:65
+[01:14:50.935]WwiseManager.PostEventById 1596568133:AudioEventList_ambiences_ambiences_start result:66
+[01:14:50.935]AudioEventManager.SetMusicState Sim_Game Command_Center alive stopOldMusic:False custMusicIsPlayed:False
+[01:14:50.941]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:67
+[01:14:51.510]WwiseManager.PostEventById 3103349592:AudioEventList_ui_ui_sim_object_hover result:68
+[01:14:52.721]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:69
+[01:14:52.771]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:70
+[01:14:52.820]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:71
+[01:14:52.970]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:72
+[01:14:53.054]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:73
+[01:14:53.104]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:74
+[01:14:53.252]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:75
+[01:14:53.353]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:76
+[01:14:53.472]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:77
+[01:14:53.722]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:78
+[01:14:54.049]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:79
+[01:14:54.084]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:80
+[01:14:54.104]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:81
+[01:14:54.739]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:82
+[01:14:55.187]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:83
+[01:14:55.204]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:84
+[01:14:55.373]Log flushing
+[01:14:56.272]WwiseManager.PostEventById 116313428:AudioEventList_ui_ui_sim_menu_hover result:85
+[01:14:56.818]WwiseManager.PostEventById 2274902470:AudioEventList_ui_ui_sim_menu_select result:86
+[01:14:57.763]WwiseManager.SuspendSoundEngine
+[01:15:25.374]Log flushing

@@ -1,0 +1,40 @@
+{
+	"Name": "GN Turrets",
+	"Enabled": true,
+	"Hidden": false,
+	"Version": "1.0",
+    	"CustomResourceTypes": [
+        "MEBonusDescriptions",
+        "MEStatusEffects",
+        "CCCategories",
+        "CCDefaults",
+        "CCTagRestrictions",
+        "CustomSVGIcon"
+    ],
+    "DataAddendumEntries": [
+	],
+
+        "Manifest": [
+{
+  "Type": "UpgradeDef",
+  "Path": "TurretInternals"
+},
+{
+  "Type": "HeatSinkDef",
+  "Path": "TurretHeatSink"
+},
+{
+  "Type": "TurretChassisDef",
+  "Path": "TurretChassis"
+},
+{
+  "Type": "TurretDef",
+  "Path": "Turret"
+},
+{
+  "Type": "PilotDef",
+  "Path": "pilot"
+}
+    ],
+    "DependsOn": ["CustomComponents"]
+}

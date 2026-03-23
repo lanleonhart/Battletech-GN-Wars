@@ -7,7 +7,7 @@
   "EntryMethod": "PlanetaryRework.ModEntry:Init",
   "CustomResourceTypes": [
     "MEBonusDescriptions",
-    "MECriticalEffects",
+    "MEStatusEffects",
     "CCCategories",
     "CCDefaults",
     "CCTagRestrictions",
@@ -19,6 +19,16 @@
   ],
   "DataAddendumEntries": [],
   "Manifest": [
+    {
+      "Type": "MEStatusEffects",
+      "Path": "settings/criticalEffects/",
+      "ShouldMergeJSON": false
+    },
+    {
+      "Type": "CCCategories",
+      "Path": "settings/CriticalCategories/",
+      "ShouldMergeJSON": false
+    },
     {
       "Type": "TagDef",
       "Path": "StreamingAssets/data/"
@@ -69,5 +79,5 @@
      "Path": "StreamingAssets/simGameConstants/"
     }
   ],
-  "DependsOn": []
+  "DependsOn": ["CustomComponents"]
 }

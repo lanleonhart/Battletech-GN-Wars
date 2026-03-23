@@ -1,0 +1,93 @@
+{
+	"Description" : {
+		"Id" : "turretchassisdef_Light_Longshot",
+		"Name" : "Longshot Turret Chassis",
+		"Details" : "Light turret chassis designed for long-range suppression",
+		"Icon" : "TURRET",
+		"Cost" : 50000,
+		"Rarity" : 0,
+		"Purchasable" : false
+	},
+	"MovementCapDefID" : "",
+	"PathingCapDefID" : "",
+   	"HardpointDataDefID" : "hardpointdatadef_turretlightlaser",
+	"PrefabIdentifier" : "chrPrfTrt_turretLightLaser",
+	"PrefabBase" : "turretLightLaser",
+	"weightClass" : "LIGHT",
+    "Tonnage" : 75,
+    "InventorySlots" : 20,
+    "MaxArmor" : 300,
+    "MaxInternalStructure" : 25,
+    "BattleValue" : 100,
+	"SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 1,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+    "Radius" : 4,
+    "FiringArcDegrees" : 360,
+	"Hardpoints" : [
+		{
+			"WeaponMount" : "Energy",
+			"Omni" : false
+		},
+		{
+			"WeaponMount" : "Energy",
+			"Omni" : false
+		},
+		{
+			"WeaponMount" : "Ballistic",
+			"Omni" : false
+		},
+		{
+			"WeaponMount" : "Ballistic",
+			"Omni" : false
+		},
+		{
+			"WeaponMount" : "Ballistic",
+			"Omni" : false
+		},
+		{
+			"WeaponMount" : "Ballistic",
+			"Omni" : false
+		}
+	],
+	"LOSSourcePositions" : [
+		{
+		    "x" : -2,
+		    "y" : 8,
+		    "z" : 0
+	    },
+		{
+		    "x" : 2,
+		    "y" : 8,
+		    "z" : 0
+	    }
+	],
+	"LOSTargetPositions" : [
+		{
+		    "x" : -2,
+		    "y" : 8,
+		    "z" : 0
+		},
+		{
+		    "x" : 2,
+		    "y" : 8,
+		    "z" : 0
+		},
+		{
+		    "x" : 0,
+		    "y" : 8,
+		    "z" : -2
+		},
+		{
+		    "x" : 0,
+		    "y" : 8,
+		    "z" : 2
+		},
+		{
+		    "x" : 0.0,
+		    "y" : 4,
+		    "z" : 0
+	    }
+	]
+}

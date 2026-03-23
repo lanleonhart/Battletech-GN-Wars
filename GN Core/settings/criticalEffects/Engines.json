@@ -1,0 +1,54 @@
+{
+	"Settings": [
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-EngineCrit1",
+				"Name": "Engine Damaged (1)",
+				"Details": "Engine critical damage causes heat buildup, +10 heat per turn.",
+				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+			},
+			"statisticData": {
+				"statName": "HeatSinkCapacity",
+				"operation": "Int_Subtract",
+				"modValue": "10",
+				"modType": "System.Int32"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-EngineCrit2",
+				"Name": "Engine Damaged (2)",
+				"Details": "Severe engine damage causes major heat buildup, +25 heat per turn.",
+				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+			},
+			"statisticData": {
+				"statName": "HeatSinkCapacity",
+				"operation": "Int_Subtract",
+				"modValue": "25",
+				"modType": "System.Int32"
+			},
+			"nature": "Debuff"
+		}
+	]
+}

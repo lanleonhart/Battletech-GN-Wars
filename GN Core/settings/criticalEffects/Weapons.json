@@ -1,0 +1,64 @@
+{
+	"Settings": [
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "ComponentEffects-{uid}-AccuracyPenalty1",
+				"Name": "Weapon Damaged (1)",
+				"Details": "Critical damage to weapon systems impairs targeting, -1 accuracy.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"statisticData": {
+				"statName": "Accuracy",
+				"operation": "Float_Add",
+				"modValue": "1",
+				"modType": "System.Single",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "ComponentEffects-{uid}-AccuracyPenalty2",
+				"Name": "Weapon Damaged (2)",
+				"Details": "Multiple critical hits severely damage weapon systems, -2 accuracy.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"statisticData": {
+				"statName": "Accuracy",
+				"operation": "Float_Add",
+				"modValue": "2",
+				"modType": "System.Single",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"nature": "Debuff"
+		}
+	]
+}

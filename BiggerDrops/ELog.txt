@@ -1,6 +1,6 @@
-[03:43:11.079]BiggerDrop log inited... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\BiggerDrops version: 0.0.0.3
-[03:43:18.794]FinishedLoading
-[03:43:18.794]CustomUnitsAPI.CustomUnitsDetected
+[01:07:30.220]BiggerDrop log inited... E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\BiggerDrops version: 0.0.0.3
+[01:07:57.030]FinishedLoading
+[01:07:57.031]CustomUnitsAPI.CustomUnitsDetected
  CustomUnits, Version=0.0.0.197, Culture=neutral, PublicKeyToken=null
   setLancesCount found
   setLanceData found
@@ -9,7 +9,7 @@
   BaysCount not found
   PushDropLayout found
  CU API detected:True CU API v2 detected:True
-[03:43:18.794]customResource:DropSlotDef
+[01:07:57.031]customResource:DropSlotDef
  Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_mech_ms.json
  id:default_mech_ms
  {
@@ -34,8 +34,8 @@
   "combineLanceWith": [],
   "Description": {
     "Id": "default_mech_slot",
-    "Name": "MECH SLOT",
-    "Details": "This type of drop slots can be used for mechs",
+    "Name": "UNIVERSAL SLOT",
+    "Details": "This type of drop slots can be used for mechs and vehicles",
     "Icon": ""
   },
   "Disabled": false,
@@ -113,9 +113,27 @@
   "Disabled": false,
   "PlayerControl": true,
   "difficultyWeight": 1.0,
-  "StatName": "BD_UnknownSlotType",
+  "StatName": "BiggerDrops_AdditionalMechTankSlots",
   "Order": 1,
   "SeparateLance": false,
+  "HotDrop": false
+}
+ Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_slot_lance2.json
+ id:default_omni_slot_lance2
+ {
+  "combineLanceWith": [],
+  "Description": {
+    "Id": "default_omni_slot_lance2",
+    "Name": "UNIVERSAL SLOT",
+    "Details": "This type of drop slots can be used for all chassis",
+    "Icon": ""
+  },
+  "Disabled": false,
+  "PlayerControl": true,
+  "difficultyWeight": 1.0,
+  "StatName": "BiggerDrops_AdditionalOmniSlots",
+  "Order": 2,
+  "SeparateLance": true,
   "HotDrop": false
 }
  Path:E:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_omni_slot_NoMS.json
@@ -155,5 +173,22 @@
   "HotDrop": false
 }
 Log flushing
+failed to find slotdef: default_mech_ms
+failed to find slotdef: default_omni_slot
+failed to find slotdef: default_omni_slot_lance2
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+[01:14:56.818]LanceConfiguratorPanel.SetData postfix 6
 Log flushing
 Log flushing
