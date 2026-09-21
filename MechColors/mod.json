@@ -1,0 +1,38 @@
+{
+    "Name": "MechColors",
+    "Enabled": true,
+    "Hidden": false,
+    "Version": "1.3.0",
+    "Description": "Replaces the heraldry colour picker with a fully configurable palette from colors.json.",
+    "Author": "Aegis",
+    "Website": "",
+    "Contact": "",
+
+    "DLL": "MechColors.dll",
+    "DLLEntryPoint": "MechColors.MechColorsMod.Init",
+
+    "DependsOn": [],
+    "ConflictsWith": [],
+
+    "Settings": {
+        "addPalette": true,
+        "hideVanilla": true,
+
+        "applyToCompany": false,
+        "primary": {
+            "color": "#BAD7D5",
+            "smoothness": 0.35,
+            "metallic": 0.08
+        },
+        "secondary": {
+            "color": "#33383D",
+            "smoothness": 0.45,
+            "metallic": 0.45
+        },
+        "accent": {
+            "color": "#EE4B2B",
+            "smoothness": 0.40,
+            "metallic": 0.10
+        }
+    }
+}
