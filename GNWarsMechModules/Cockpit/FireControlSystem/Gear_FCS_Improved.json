@@ -1,0 +1,109 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+    "BonusDescriptions": [
+      "SkillGunnery: +1",
+      "NightVision",
+      "FCS"
+    ],
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    },
+    "IBLS": {
+      "StorageSize": 1
+    },
+    "InventorySorter": "05000"
+  },
+  "Description": {
+    "Cost": 100000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "NAIS",
+    "Model": "TrueShot",
+    "UIName": "Improved FCS",
+    "Id": "Gear_FCS_Improved",
+    "Name": "Improved Fire Control System",
+    "Details": "NAIS TrueShot fire control system provides enhanced targeting capabilities with integrated night vision systems. This upgrade became standard for upgraded Inner Sphere mechs following the Clan Invasion.",
+    "Icon": "Sensors"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Improved_NightVision",
+        "Name": "Improved FCS: Night Vision",
+        "Details": "PASSIVE: Enables Night Vision",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "statisticData": {
+        "statName": "LV_NIGHT_VISION",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 2
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Improved_Gunnery",
+        "Name": "Improved FCS: Increased Gunnery",
+        "Details": "Buffs Gunnery Skill",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "statName": "Gunnery",
+        "operation": "Int_Add",
+        "modValue": "1",
+        "modType": "System.Int32",
+        "targetCollection": "Pilot"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

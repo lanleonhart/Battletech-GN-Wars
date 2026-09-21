@@ -1,0 +1,54 @@
+{
+	"Settings": [
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-GyroCrit",
+				"Name": "Gyro Damaged",
+				"Details": "Gyro critical damage severely impairs stability systems, -50% unsteady threshold.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"statisticData": {
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Multiply",
+				"modValue": "0.5",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CriticalEffect-GyroDestroyed",
+				"Name": "Gyro Destroyed",
+				"Details": "Gyro destruction eliminates all stability control, mech becomes permanently unstable.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"statisticData": {
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Multiply",
+				"modValue": "0.0",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_DCombine",
+				"Name": "Drac Combine",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 1,
+				"CareerScoreModifier": 0.0,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Luthien,Ljugarn,Delacruz,Macksburg,Jarett,Hyperion"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_InnerSphere_A,itemCollection_Mechs_InnerSphere_B,itemCollection_Mechs_InnerSphere_Kurita_A,itemCollection_Mechs_InnerSphere_Kurita_B,itemCollection_Vehicles_InnerSphere_A,itemCollection_Vehicles_InnerSphere_A,itemCollection_Vehicles_InnerSphere_B,itemCollection_Vehicles_InnerSphere_B"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "Kurita:100"
+					}
+				]
+			}
+		}
+	]
+}

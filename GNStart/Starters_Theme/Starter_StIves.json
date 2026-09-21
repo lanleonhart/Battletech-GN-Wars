@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_StIves",
+				"Name": "St. Ives",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 1,
+				"CareerScoreModifier": 0.0,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "St.Ives,Maladar,Indicass,Tallin,Vestallas"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_InnerSphere_A,itemCollection_Mechs_InnerSphere_B,itemCollection_Mechs_InnerSphere_Liao_A,itemCollection_Mechs_InnerSphere_Liao_B,itemCollection_Vehicles_InnerSphere_A,itemCollection_Vehicles_InnerSphere_A,itemCollection_Vehicles_InnerSphere_B,itemCollection_Vehicles_InnerSphere_B"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "StIves:100"
+					}
+				]
+			}
+		}
+	]
+}

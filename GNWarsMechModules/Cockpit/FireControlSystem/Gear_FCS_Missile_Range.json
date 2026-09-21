@@ -1,0 +1,112 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+    "BonusDescriptions": [
+      "MissileRange: +15%",
+      "MissileMinRange: -15%",
+      "FCS"
+    ],
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    },
+    "IBLS": {
+      "StorageSize": 1
+    },
+    "InventorySorter": "05000"
+  },
+  "Description": {
+    "Cost": 120000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "Octagon",
+    "Model": "Longbow",
+    "UIName": "FCS Missile Range",
+    "Id": "Gear_FCS_Missile_Range",
+    "Name": "Missile Range FCS",
+    "Details": "The Octagon Longbow Fire Director revolutionized missile warfare by providing extended tracking and guidance capabilities, allowing LRMs and SRMs to engage targets at unprecedented ranges.",
+    "Icon": "Sensors"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Missile_MaxRange",
+        "Name": "FCS Missile Range: Increased Max Range",
+        "Details": "+15% Max Range for Missile Weapons",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "statName": "MaxRange",
+        "operation": "Float_Multiply",
+        "modValue": "1.15",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Missile"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Missile_MinRange",
+        "Name": "FCS Missile Range: Reduced Min Range",
+        "Details": "-15% Min Range for Missile Weapons",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "statName": "MinRange",
+        "operation": "Float_Multiply",
+        "modValue": "0.85",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Missile"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

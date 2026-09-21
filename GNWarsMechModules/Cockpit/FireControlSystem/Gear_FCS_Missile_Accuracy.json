@@ -1,0 +1,113 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+    "BonusDescriptions": [
+      "MissileAcc: +1",
+      "Clustering: +10%",
+      "FCS"
+    ],
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    },
+    "IBLS": {
+      "StorageSize": 1
+    },
+    "InventorySorter": "05000"
+  },
+  "Description": {
+    "Cost": 120000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "Octagon",
+    "Model": "Tracker",
+    "UIName": "FCS Missile Accuracy",
+    "Id": "Gear_FCS_Missile_Accuracy",
+    "Name": "Missile Accuracy FCS",
+    "Details": "The Octagon Tracker provides enhanced missile guidance and targeting, improving both accuracy and clustering for tighter impact patterns on target.",
+    "Icon": "Sensors"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Missile_Accuracy",
+        "Name": "FCS Missile Accuracy: Improved Missile Accuracy",
+        "Details": "+1 Accuracy for Missile Weapons",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "abilifierId": "AccuracyModifierFilter",
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Missile"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Missile_Clustering",
+        "Name": "FCS Missile Accuracy: Improved Clustering",
+        "Details": "+10% Clustering for Missile Weapons",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "statName": "ClusteringModifier",
+        "operation": "Float_Add",
+        "modValue": "0.1",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Missile"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

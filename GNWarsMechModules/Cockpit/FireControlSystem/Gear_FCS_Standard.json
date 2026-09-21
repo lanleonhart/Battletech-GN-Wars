@@ -1,0 +1,81 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+    "BonusDescriptions": [
+      "Sight: +2.5%",
+      "FCS"
+    ],
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    },
+    "IBLS": {
+      "StorageSize": 1
+    },
+    "InventorySorter": "05000"
+  },
+  "Description": {
+    "Cost": 50000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Mk.I",
+    "UIName": "Standard FCS",
+    "Id": "Gear_FCS_Standard",
+    "Name": "Standard Fire Control System",
+    "Details": "A basic fire control system upgrade providing improved optical targeting and visual acquisition systems. While not as advanced as specialized systems, it offers reliable vision enhancement over stock equipment.",
+    "Icon": "Sensors"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Standard_Vision",
+        "Name": "Standard FCS: Increased Vision Range Multiplier",
+        "Details": "Increased Vision Range",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+      },
+      "statisticData": {
+        "statName": "SpotterDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.025",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

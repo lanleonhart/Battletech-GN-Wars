@@ -1,0 +1,113 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+    "BonusDescriptions": [
+      "BallisticAcc: +1",
+      "Recoil: -1",
+      "FCS"
+    ],
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    },
+    "IBLS": {
+      "StorageSize": 1
+    },
+    "InventorySorter": "05000"
+  },
+  "Description": {
+    "Cost": 120000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "Defiance Industries",
+    "Model": "Sharpshooter",
+    "UIName": "FCS Ballistic Accuracy",
+    "Id": "Gear_FCS_Ballistic_Accuracy",
+    "Name": "Ballistic Accuracy FCS",
+    "Details": "The Sharpshooter Suite combines recoil dampening and precision targeting into a single package, making it the gold standard for ballistic weapon platforms requiring pinpoint accuracy.",
+    "Icon": "Sensors"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Ballistic_Accuracy",
+        "Name": "FCS Ballistic Accuracy: Improved Ballistic Accuracy",
+        "Details": "+1 Accuracy for Ballistic Weapons",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "abilifierId": "AccuracyModifierFilter",
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Ballistic"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Ballistic_Recoil",
+        "Name": "FCS Ballistic Accuracy: Reduced Recoil",
+        "Details": "-1 Recoil for Ballistic Weapons",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "statName": "RecoilModifier",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Ballistic"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+    "BonusDescriptions": [
+      "SkillGunnery: +2",
+      "Accuracy: +1",
+      "NightVision",
+      "FCS",
+      "Clan"
+    ],
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    },
+    "IBLS": {
+      "StorageSize": 1
+    },
+    "InventorySorter": "05000"
+  },
+  "Description": {
+    "Cost": 250000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "Clan",
+    "Model": "Predator TC",
+    "UIName": "Advanced FCS",
+    "Id": "Gear_FCS_Advanced",
+    "Name": "Advanced Fire Control System",
+    "Details": "The Predator-Class targeting computer represents the pinnacle of Clan fire control technology. Combining advanced neural interfaces with predictive targeting algorithms, it provides both enhanced pilot performance and weapon accuracy.",
+    "Icon": "Sensors"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Advanced_NightVision",
+        "Name": "Advanced FCS: Night Vision",
+        "Details": "PASSIVE: Enables Night Vision",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "statisticData": {
+        "statName": "LV_NIGHT_VISION",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 2
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Advanced_Gunnery",
+        "Name": "Advanced FCS: Increased Gunnery",
+        "Details": "Buffs Gunnery Skill",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "statName": "Gunnery",
+        "operation": "Int_Add",
+        "modValue": "2",
+        "modType": "System.Int32",
+        "targetCollection": "Pilot"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Advanced_Accuracy",
+        "Name": "Advanced FCS: Improved Weapon Accuracy",
+        "Details": "+1 Accuracy for all weapons",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "abilifierId": "AccuracyModifierFilter",
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

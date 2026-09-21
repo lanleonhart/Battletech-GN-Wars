@@ -1,0 +1,112 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+    "BonusDescriptions": [
+      "BallisticRange: +10%",
+      "BallisticMinRange: -10%",
+      "FCS"
+    ],
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    },
+    "IBLS": {
+      "StorageSize": 1
+    },
+    "InventorySorter": "05000"
+  },
+  "Description": {
+    "Cost": 120000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "Defiance Industries",
+    "Model": "B-Pod Mk.III",
+    "UIName": "FCS Ballistic Range",
+    "Id": "Gear_FCS_Ballistic_Range",
+    "Name": "Ballistic Range FCS",
+    "Details": "Defiance Industries' Ballistic Projection Optimization Device (B-Pod) extends the effective range of autocannons and gauss rifles through advanced trajectory calculation and barrel harmonics compensation.",
+    "Icon": "Sensors"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Ballistic_MaxRange",
+        "Name": "FCS Ballistic Range: Increased Max Range",
+        "Details": "+10% Max Range for Ballistic Weapons",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "statName": "MaxRange",
+        "operation": "Float_Multiply",
+        "modValue": "1.1",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Ballistic"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect_FCS_Ballistic_MinRange",
+        "Name": "FCS Ballistic Range: Reduced Min Range",
+        "Details": "-10% Min Range for Ballistic Weapons",
+        "Icon": "targeting"
+      },
+      "statisticData": {
+        "statName": "MinRange",
+        "operation": "Float_Multiply",
+        "modValue": "0.9",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Ballistic"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

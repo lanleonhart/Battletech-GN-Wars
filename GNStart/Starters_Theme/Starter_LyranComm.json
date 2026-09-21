@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_LyranComm",
+				"Name": "Lyran Comm",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 1,
+				"CareerScoreModifier": 0.0,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Tharkad,Arcturus,Donegal,Hesperus,Derf"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_InnerSphere_A,itemCollection_Mechs_InnerSphere_B,itemCollection_Mechs_InnerSphere_Steiner_A,itemCollection_Mechs_InnerSphere_Steiner_B,itemCollection_Vehicles_InnerSphere_A,itemCollection_Vehicles_InnerSphere_A,itemCollection_Vehicles_InnerSphere_B,itemCollection_Vehicles_InnerSphere_B"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "Steiner:100"
+					}
+				]
+			}
+		}
+	]
+}
