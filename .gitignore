@@ -43,3 +43,16 @@ GN Core/GNCore.dll.old
 *.md
 *.txt
 *.txt
+
+# Files the mods write as the game runs. They are regenerated on every launch,
+# are never shipped to players (see build\modpack.json "generated"), and only
+# create churn if tracked.
+CustomFilters/Settings.help.json
+CustomFilters/Settings.last.json
+ModTek/config.help.json
+ModTek/config.last.json
+
+# MissionMusicSelector scans this folder for whatever the player drops in.
+# Tracks are the player's own; do not redistribute audio here.
+MissionMusicSelector/Music/*
+!MissionMusicSelector/Music/_README.txt

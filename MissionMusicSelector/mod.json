@@ -1,0 +1,33 @@
+{
+	"Name": "MissionMusicSelector",
+	"Enabled": true,
+	"Version": "0.2.0",
+	"Description": "Adds MISSION MUSIC and MECH LAB THEME dropdowns to Settings > Audio. Pick any base-game soundtrack for a mission, or play your own audio files in the Mech Bay by dropping them in this mod's Music folder.",
+	"Author": "John",
+	"DLL": "MissionMusicSelector.dll",
+	"DLLEntryPoint": "MissionMusicSelector.Core.Init",
+	"DependsOn": [],
+	"ConflictsWith": [],
+	"Settings": {
+		"debugLog": true,
+
+		"instantSwitch": true,
+		"applyOnSelect": true,
+
+		"includeUnusedAtmospheric": true,
+
+		"scrollableAudioPanel": true,
+		"scrollExtraHeight": 200.0,
+		"silenceBuiltInMechLab": true,
+		"customThemeVolume": 1.0,
+
+		"dumpPanelHierarchy": false,
+
+		"labelWidth": 130.0,
+		"dropdownWidth": 230.0,
+		"dropdownHeight": 32.0,
+		"dropdownRightMargin": -12.0,
+
+		"popupHeight": 300.0
+	}
+}
