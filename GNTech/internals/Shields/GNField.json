@@ -26,59 +26,6 @@
       "FailCheckOnActivationEnd": true,
       "CanNotBeActivatedManualy": false,
       "statusEffects": [
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTargetsCreator": true,
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": true,
-            "showInStatusPanel": true
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "GNField",
-            "Name": "GN Field",
-            "Details": "GN Field reduce All Damage Taken.",
-            "Icon": "GNField"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "DamageReductionMultiplierAll",
-            "operation": "Float_Multiply",
-            "modValue": "0.4",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "GN Field",
-            "Name": "Increased Heat",
-            "Details": "Heat generation from active GN Field",
-            "Icon": "uixSvgIcon_equipment_ThermalExchanger"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "EndMoveHeat",
-            "operation": "Int_Add",
-            "modValue": "+15",
-            "modType": "System.Int32"
-          }
-        }
       ],
       "offlineStatusEffects": []
     },
@@ -92,6 +39,9 @@
           "Location": "LeftTorso"
         }
       ]
+    },
+    "GNParticle": {
+      "ActiveDrainPerTurn": 15
     },
     "InventorySorter": "09100",
     "Flags": {
@@ -144,96 +94,13 @@
       "targetSFX": [],
       "removeOwnerSFX": [],
       "removeTargetSFX": [],
-      "statusEffects": [
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
-            "effectTargetType": "AlliesWithinRange",
-            "range": 0.0,
-            "forcePathRebuild": false,
-            "forceVisRebuild": false,
-            "showInTargetPreview": false,
-            "showInStatusPanel": true
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "StatusEffect_GN-field",
-            "Name": "GN Field",
-            "Details": "GN Field generates a 35 meter bubble protecting allied machines from incoming fire. ",
-            "Icon": "GNField"
-          },
-          "statisticData": {
-            "statName": "DamageReductionMultiplierAll",
-            "operation": "Float_Multiply",
-            "modValue": "0.0",
-            "modType": "System.Single"
-          },
-          "nature": "Buff"
-        }
-      ]
-    },
-    {
-      "Id": "GN-Field-Bubble",
-      "Name": "GN Field Bubble",
-      "ReticleColor": "#18c96e",
-      "Range": 35,
-      "RemoveOnSensorLock": false,
-      "State": "Online",
-      "ApplySelf": true,
-      "AllyStealthAffection": "None",
-      "EnemyStealthAffection": "None",
-      "IsPositiveToAlly": false,
-      "IsNegativeToEnemy": false,
-      "ownerVFX": [],
-      "targetVFX": [],
-      "removeOwnerVFX": [],
-      "removeTargetVFX": [],
-      "ownerSFX": [],
-      "targetSFX": [],
-      "removeOwnerSFX": [],
-      "removeTargetSFX": [],
-      "statusEffects": [
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
-            "effectTargetType": "AlliesWithinRange",
-            "range": 0.0,
-            "forcePathRebuild": false,
-            "forceVisRebuild": false,
-            "showInTargetPreview": false,
-            "showInStatusPanel": true
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "StatusEffect_GN-Field",
-            "Name": "GN Field",
-            "Details": "GN Field applies a penalty to self + allies to hit % whilst under protection.",
-            "Icon": "GNField"
-          },
-          "statisticData": {
-            "statName": "AccuracyModifier",
-            "operation": "Float_Add",
-            "modValue": "50.0",
-            "modType": "System.Single"
-          },
-          "nature": "Buff"
-        }
-      ]
+      "statusEffects": []
     }
   ],
   "ComponentTags": {
     "items": [
-      "component_type_stock"
+      "component_type_stock",
+      "GNField"
     ],
     "tagSetSourceFile": ""
   }

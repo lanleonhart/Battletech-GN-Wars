@@ -1,6 +1,6 @@
 {
   "DebugMode": true,
-  "VersionCheck": true,
+  "VersionCheck": false,
   "EnableSkirmishMode": true,
   "DebugSkirmishMode": false,
   "EnableFlashpointOverrides": false,
@@ -55,7 +55,7 @@
       "EnemySpawnInfluencePerHalfSkullBelow": -0.1,
       "AllySpawnInfluencePerHalfSkullBelow": 0.1
     },
-    "DisableAllies": false,
+    "DisableAllies": true,
     "DisableEnemies": false
   },
   "ExtendedLances": {
@@ -91,30 +91,30 @@
       {
         "MapId": "mapGeneral_frigidSteppes_iTnd",
         "ContractTypeName": "CaptureBase",
-        "IncreaseBoundarySizeByPercentage": 0.99
+        "IncreaseBoundarySizeByPercentage": 1.99
       },
       {
         "MapId": "mapGeneral_icyOutpost_iGlc",
         "ContractTypeName": "CaptureBase",
-        "IncreaseBoundarySizeByPercentage": 0.99
+        "IncreaseBoundarySizeByPercentage": 1.99
       },
       {
         "MapId": "mapGeneral_highPeak_iGlc",
         "ContractTypeName": "SimpleBattle",
-        "IncreaseBoundarySizeByPercentage": 0.99
+        "IncreaseBoundarySizeByPercentage": 1.99
       },
       {
         "ContractTypeName": "FireMission",
-        "IncreaseBoundarySizeByPercentage": 0.99
+        "IncreaseBoundarySizeByPercentage": 1.99
       },
       {
         "MapId": "mapGeneral_desertDam_aDes",
         "ContractTypeName": "SimpleBattle",
-        "IncreaseBoundarySizeByPercentage": 0.99
+        "IncreaseBoundarySizeByPercentage": 1.99
       },
       {
         "ContractTypeName": "AmbushConvoy",
-        "IncreaseBoundarySizeByPercentage": 0.99
+        "IncreaseBoundarySizeByPercentage": 1.99
       }
     ]
   },
@@ -141,7 +141,7 @@
   "Spawners": {
     "SpawnLanceAtEdgeBoundary": {
       "MinBuffer": 100,
-      "MaxBuffer": 300
+      "MaxBuffer": 200
     }
   },
   "Misc": {

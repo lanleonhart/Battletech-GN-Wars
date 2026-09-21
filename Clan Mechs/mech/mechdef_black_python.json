@@ -5,6 +5,8 @@
       "unit_omni",
       "unit_heavy",
       "unit_mech",
+      "unit_release",
+      "unit_ready",
       "ClanBurrock",
       "ClanCloudCobra",
       "ClanCoyote",
@@ -21,8 +23,7 @@
       "ClanStarAdder",
       "ClanSteelViper",
       "ClanWolf",
-      "unit_release",
-      "unit_ready"
+      "ClansGeneric"
     ]
   },
   "ChassisID": "chassisdef_black_python",
@@ -250,6 +251,28 @@
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_FCS_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Sensors_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
     }
   ]
 }

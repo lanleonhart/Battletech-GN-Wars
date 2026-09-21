@@ -339,7 +339,33 @@
   "AllowedLocations": "CenterTorso",
   "DisallowedLocations": "All",
   "CriticalComponent": true,
-  "statusEffects": [],
+  "statusEffects": [{
+  "effectType": "StatisticEffect",
+  "nature": "Buff",
+  "durationData": {
+    "duration": -1,
+    "stackLimit": -1
+  },
+  "targetingData": {
+    "effectTriggerType": "Passive",
+    "effectTargetType": "Creator",
+    "showInStatusPanel": false,
+    "showInTargetPreview": false,
+    "hideApplicationFloatie": true
+  },
+  "Description": {
+    "Id": "StatusEffect-GNDrive-ParticleRegen",
+    "Name": "GN Particle Regen",
+    "Details": "The GN Drive regenerates GN Particles each round.",
+    "Icon": "uixSvgIcon_equipment_Gyro"
+  },
+  "statisticData": {
+    "statName": "GNParticleRegen",
+    "operation": "Float_Add",
+    "modValue": "12",
+    "modType": "System.Single"
+  }
+}],
   "ComponentTags": {
     "items": [
       "GN_Drive"

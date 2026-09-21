@@ -5,7 +5,7 @@
 			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
 			"Action": "ArrayAdd",
 			"Value": {
-				"ID": "diff_Terra",
+				"ID": "diff_ComStar",
 				"Name": "ComStar",
 				"TelemetryEventDesc": "",
 				"DifficultyValue": 1,
@@ -14,18 +14,18 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingSystems",
-						"ConstantValue": "Terra"
+						"ConstantValue": "Terra,Jardine(Herakleion2822+),Versailles(Taussen2822+),Sharpe(Obeedah3025+)"
 					},
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_Light,itemCollection_Mechs_Generic_LightB,itemCollection_Mechs_Generic_Medium,itemCollection_Mechs_Generic_MediumB"
+						"ConstantValue": "itemCollection_Mechs_InnerSphere_A,itemCollection_Mechs_InnerSphere_A,itemCollection_Mechs_InnerSphere_B,itemCollection_Mechs_InnerSphere_B,itemCollection_Vehicles_InnerSphere_A,itemCollection_Vehicles_InnerSphere_A,itemCollection_Vehicles_InnerSphere_B,itemCollection_Vehicles_InnerSphere_B"
 					},
-					  {
+					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "FactionReputation",
 						"ConstantValue": "ComStar:100"
-					  }
+					}
 				]
 			}
 		}
