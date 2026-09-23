@@ -48,20 +48,20 @@
       "DamageLevel": "Functional",
       "Location": "Head",
       "CurrentArmor": 45,
-      "CurrentRearArmor": 0,
+      "CurrentRearArmor": -1.0,
       "CurrentInternalStructure": 15,
       "AssignedArmor": 45,
-      "AssignedRearArmor": 0,
+      "AssignedRearArmor": -1.0,
       "InventorySlots": 6
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftArm",
       "CurrentArmor": 60,
-      "CurrentRearArmor": 0,
+      "CurrentRearArmor": -1.0,
       "CurrentInternalStructure": 60,
       "AssignedArmor": 60,
-      "AssignedRearArmor": 0,
+      "AssignedRearArmor": -1.0,
       "InventorySlots": 12
     },
     {
@@ -98,30 +98,30 @@
       "DamageLevel": "Functional",
       "Location": "RightArm",
       "CurrentArmor": 60,
-      "CurrentRearArmor": 0,
+      "CurrentRearArmor": -1.0,
       "CurrentInternalStructure": 60,
       "AssignedArmor": 60,
-      "AssignedRearArmor": 0,
+      "AssignedRearArmor": -1.0,
       "InventorySlots": 12
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
       "CurrentArmor": 95,
-      "CurrentRearArmor": 0,
+      "CurrentRearArmor": -1.0,
       "CurrentInternalStructure": 80,
       "AssignedArmor": 95,
-      "AssignedRearArmor": 0,
+      "AssignedRearArmor": -1.0,
       "InventorySlots": 6
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
       "CurrentArmor": 95,
-      "CurrentRearArmor": 0,
+      "CurrentRearArmor": -1.0,
       "CurrentInternalStructure": 80,
       "AssignedArmor": 95,
-      "AssignedRearArmor": 0,
+      "AssignedRearArmor": -1.0,
       "InventorySlots": 6
     }
   ],
@@ -156,14 +156,14 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_Hand_Clan",
+      "ComponentDefID": "emod_arm_part_hand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Hand_Clan",
+      "ComponentDefID": "emod_arm_part_hand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -266,6 +266,28 @@
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Sensors_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "emod_arm_part_lower",
+      "SimGameUID": null,
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "emod_arm_part_lower",
       "SimGameUID": null,
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
