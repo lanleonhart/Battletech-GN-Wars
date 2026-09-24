@@ -62,3 +62,17 @@ MissionMusicSelector/Music/*
 
 # A mod save that belongs in <game>\ModSaves, not inside a mod folder. It shipped to every player.
 ModSaves/
+
+# Files the mods write as the game runs. This checkout doubles as a live mod folder, so they
+# reappear constantly; none of them ship (build\modpack.json "generated" excludes them too).
+modstate.json
+stack_sequence.txt
+*.last.json
+*.help.json
+*.log
+*.bak
+log.txt
+ELog.txt
+Log_*.txt
+*_log.txt
+*_log.*.txt
