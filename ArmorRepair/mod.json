@@ -1,0 +1,27 @@
+{
+  "Name": "Armor",
+  "Enabled": true,
+  "Hidden": true,
+  "DependsOn": [
+    "CustomComponents"
+  ],
+  "Version": "1.1",
+  "Description": "Prevents mech armor lost in combat from being automatically replaced for free at the end of battle. Instead generate a work order to replace it, optionally costed by mech tonnage, and optionally creating work orders to repair structure damage as well.",
+  "Author": "Life",
+  "Website": "github.com/citizenSnippy/ArmorRepair",
+  "PackagedOn": "2018-07-08T22:00:00.0000001-01:00",
+  "ConflictsWith": [
+  ],
+  "Settings": {
+    "debug": false,
+    "enableStructureRepair": true,
+    "scaleStructureCostByTonnage": true,
+    "scaleArmorCostByTonnage": true,
+    "enableAutoRepairPrompt": true,
+    "autoRepairMechsWithDestroyedComponents": true,
+    "ArmorCategory": "Armor",
+    "StructureCategory": "Structure",
+    "RepairCostByTag": []
+  },
+  "DLL": "ArmorRepair.dll"
+}

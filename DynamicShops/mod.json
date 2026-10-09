@@ -22,7 +22,6 @@
 		"ReplaceBlackMarket": true,
 		"FactionShopOnEveryPlanet": true,
 		"OverrideFactionShopOwner": true,
-		"EmptyShopSystemTag": "planet_other_empty",
 		"BlackMarketSystemTag": "planet_other_blackmarket",
 		"GenericFactions": [
 			{
@@ -85,16 +84,13 @@
 					"ClanWolf"
 				]
 			}
-		]
+		],
+		"EmptyPlanetTag": "planet_other_empty"
 	},
 	"Manifest": [
 		{
 			"Type": "ItemCollectionDef",
 			"Path": "data"
-		},
-		{
-			"Type": "ItemCollectionDef",
-			"Path": "factories"
 		},
 		{
 			"Type": "DShopDef",
