@@ -6,9 +6,10 @@
       }
     ],
     "BonusDescriptions": [
-      "ECM: 3",
-      "Probe: 2",
-      "E-JAM: 1"
+      "EWS-Field: 2, 2, 1, 180",
+      "Probe: 1",
+      "AdvSensors: 1",
+      "Minefield Detection"
     ],
     "ActivatableComponent": {
       "CanNotBeActivatedManualy": true,
@@ -79,18 +80,20 @@
       "statusEffects": []
     },
     {
-      "Id": "ECM_Aura",
-      "Name": "ECM",
-      "ReticleColor": "#a31aff",
+      "Id": "GN_EWS_Field",
+      "Name": "ECM FIELD",
+      "ReticleColor": "#00f2ff",
       "Range": 180,
-      "HideOnNotSelected": false,
       "RemoveOnSensorLock": false,
       "State": "Persistent",
       "ApplySelf": false,
-      "AllyStealthAffection": "PositiveOne",
+      "HideOnNotSelected": false,
+      "AllyStealthAffection": "None",
       "EnemyStealthAffection": "None",
       "IsPositiveToAlly": true,
+      "IsNegativeToAlly": false,
       "IsNegativeToEnemy": false,
+      "IsPositiveToEnemy": false,
       "ownerVFX": [],
       "targetVFX": [],
       "removeOwnerVFX": [],
@@ -103,45 +106,49 @@
         {
           "durationData": {
             "duration": -1,
-            "stackLimit": -1
+            "stackLimit": -1,
+            "uniqueEffectIdStackLimit": 1
           },
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "AlliesWithinRange",
-            "forceVisRebuild": true,
             "showInTargetPreview": false,
-            "showInStatusPanel": false
+            "showInStatusPanel": false,
+            "forceVisRebuild": true,
+            "specialRules": "NotSet"
           },
           "effectType": "StatisticEffect",
           "Description": {
-            "Id": "LV_ECM_SHIELD",
-            "Name": "Warfare Suite / Aura ECM: Increased Allies ECM Shield",
-            "Details": "Ally ECM Shield",
+            "Id": "GN_EWS_Cover",
+            "Name": "EWS Cover",
+            "Details": "Inside a friendly EWS field: ECM shield +2.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
+          "nature": "Buff",
           "statisticData": {
             "statName": "LV_ECM_SHIELD",
             "operation": "Int_Add",
-            "modValue": "3",
+            "modValue": "2",
             "modType": "System.Int32"
-          },
-          "nature": "Buff"
+          }
         }
       ]
     },
     {
-      "Id": "ECCM_Aura",
+      "Id": "GN_EWS_Counter",
       "Name": "ECCM",
-      "ReticleColor": "#a31aff",
+      "ReticleColor": "#00f2ff",
       "Range": 180,
-      "HideOnNotSelected": false,
       "RemoveOnSensorLock": false,
       "State": "Persistent",
       "ApplySelf": false,
+      "HideOnNotSelected": false,
       "AllyStealthAffection": "None",
-      "EnemyStealthAffection": "Nullify",
+      "EnemyStealthAffection": "None",
       "IsPositiveToAlly": false,
+      "IsNegativeToAlly": false,
       "IsNegativeToEnemy": true,
+      "IsPositiveToEnemy": false,
       "ownerVFX": [],
       "targetVFX": [],
       "removeOwnerVFX": [],
@@ -154,133 +161,31 @@
         {
           "durationData": {
             "duration": -1,
-            "stackLimit": -1
+            "stackLimit": -1,
+            "uniqueEffectIdStackLimit": 1
           },
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "EnemiesWithinRange",
-            "forceVisRebuild": true,
             "showInTargetPreview": false,
-            "showInStatusPanel": false
+            "showInStatusPanel": false,
+            "forceVisRebuild": true,
+            "specialRules": "NotSet"
           },
           "effectType": "StatisticEffect",
           "Description": {
-            "Id": "LV_ECCM_SHIELD",
-            "Name": "Warfare Suite / Aura ECCM: Decreased Enemies ECM Shield",
-            "Details": "ECCM Shield Reduction",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Id": "GN_EWS_Counter",
+            "Name": "EWS Counter-ECM",
+            "Details": "Inside an enemy EWS field: ECM shield -1.",
+            "Icon": "uixSvgIcon_action_sensorlock"
           },
+          "nature": "Debuff",
           "statisticData": {
             "statName": "LV_ECM_SHIELD",
             "operation": "Int_Add",
             "modValue": "-1",
             "modType": "System.Int32"
-          },
-          "nature": "Debuff"
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "Description": {
-            "Id": "ECM_disrupt_C3",
-            "Name": "Warfare Suite / Aura ECCM: ECM Disrupts C3",
-            "Details": "C3 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "statName": "ADD_ENCOUNTER_TAG_C3_network",
-            "operation": "Float_Add",
-            "modValue": "-2",
-            "modType": "System.Single"
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff"
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "Description": {
-            "Id": "ECM_disrupt_C3i",
-            "Name": "Warfare Suite / Aura ECCM: ECM Disrupts C3i",
-            "Details": "C3 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "statName": "ADD_ENCOUNTER_TAG_C3i_network",
-            "operation": "Float_Add",
-            "modValue": "-2",
-            "modType": "System.Single"
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff"
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "Description": {
-            "Id": "ECM_disrupt_C3n",
-            "Name": "Warfare Suite / Aura ECCM: ECM Disrupts C3 Nova",
-            "Details": "C3 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "statName": "ADD_ENCOUNTER_TAG_C3n_network",
-            "operation": "Float_Add",
-            "modValue": "-2",
-            "modType": "System.Single"
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff"
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "Description": {
-            "Id": "ECM_disrupt_C3AI",
-            "Name": "Warfare Suite / Aura ECCM: ECM Disrupts C3 AI",
-            "Details": "C3 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "statName": "ADD_ENCOUNTER_TAG_C3AI_network",
-            "operation": "Float_Add",
-            "modValue": "-2",
-            "modType": "System.Single"
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff"
+          }
         }
       ]
     }
@@ -351,7 +256,7 @@
       "statisticData": {
         "statName": "LV_PROBE_CARRIER",
         "operation": "Int_Add",
-        "modValue": "2",
+        "modValue": "1",
         "modType": "System.Int32"
       },
       "nature": "Buff"
@@ -402,7 +307,7 @@
       },
       "nature": "Buff",
       "statisticData": {
-        "statName": "SpotterDistanceAbsolute",
+        "statName": "SpotterDistanceMultiplier",
         "operation": "Float_Multiply",
         "modValue": "1.1",
         "modType": "System.Single"
@@ -430,33 +335,7 @@
       "statisticData": {
         "statName": "LV_ECM_SHIELD",
         "operation": "Int_Add",
-        "modValue": "1",
-        "modType": "System.Int32"
-      }
-    },
-    {
-      "durationData": {
-        "duration": -1,
-        "stackLimit": -1
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "effectTargetType": "Creator",
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "ECMPassiveJam",
-        "Name": "Warfare Suite: Decreased ECM Jamming",
-        "Details": "Passive Jamming Protection",
-        "Icon": "uixSvgIcon_equipment_Gyro"
-      },
-      "nature": "Buff",
-      "statisticData": {
-        "statName": "LV_ECM_JAMMED",
-        "operation": "Int_Add",
-        "modValue": "-1",
+        "modValue": "2",
         "modType": "System.Int32"
       }
     }

@@ -1,5 +1,43 @@
 {
   "ToHit": {
-    "ToHitMovingPipUMs": [ 2, 4, 6, 7, 8, 9, 10, 11 ]
+    "ToHitMovingPipUMs": [
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "Visibility": {
+    "SensorLockAntiStealthEffect": {
+      "durationData": {
+        "duration": 1,
+        "ticksOnEndOfRound": true,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTargetType": "SingleTarget",
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "SensorLockAntiStealthEffect",
+        "Name": "SENSOR LOCK: ECM SUPPRESSED",
+        "Details": "Sensor Lock strips 2 points of ECM shielding from this unit for 1 round.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "LV_PROBE_PING",
+        "operation": "Int_Add",
+        "modValue": "2",
+        "modType": "System.Int32"
+      }
+    }
   }
 }
