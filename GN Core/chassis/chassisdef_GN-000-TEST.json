@@ -18,17 +18,23 @@
                     {
                         "Prefab": "vf11lam_vjets_left_leg",
                         "Attach": "j_LHeel",
-                        "JetsAttachPoints": [ "jetAttachPoint" ]
+                        "JetsAttachPoints": [
+                            "jetAttachPoint"
+                        ]
                     },
                     {
                         "Prefab": "vf11lam_vjets_right_leg",
                         "Attach": "j_RHeel",
-                        "JetsAttachPoints": [ "jetAttachPoint" ]
+                        "JetsAttachPoints": [
+                            "jetAttachPoint"
+                        ]
                     },
                     {
                         "Prefab": "vf11lam_vjets_torso",
                         "Attach": "j_Spine2",
-                        "JetsAttachPoints": [ "jetAttachPoint" ]
+                        "JetsAttachPoints": [
+                            "jetAttachPoint"
+                        ]
                     }
                 ]
             }
@@ -57,7 +63,14 @@
     "Heatsinks": 30,
     "MaxJumpjets": 4,
     "Stability": 160,
-    "StabilityDefenses": [ 0, 0, 0, 0, 0, 0 ],
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
     "SpotterDistanceMultiplier": 1,
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
@@ -84,7 +97,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
-                { "WeaponMountID": "SpecialHandHeld", "Omni": false }
+                {
+                    "WeaponMountID": "SpecialHandHeld",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
@@ -95,7 +111,10 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-                { "WeaponMountID": "MSHardPoint", "Omni": false }
+                {
+                    "WeaponMountID": "MSHardPoint",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
@@ -115,7 +134,10 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
-                { "WeaponMountID": "MSHardPoint", "Omni": false }
+                {
+                    "WeaponMountID": "MSHardPoint",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
@@ -126,7 +148,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-                { "WeaponMountID": "SpecialHandHeld", "Omni": false }
+                {
+                    "WeaponMountID": "SpecialHandHeld",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
@@ -154,20 +179,54 @@
         }
     ],
     "LOSSourcePositions": [
-        { "x": 0,  "y": 13.5, "z":  1 },
-        { "x": 3,  "y": 13,   "z": -1 },
-        { "x": -3, "y": 13,   "z": -1 }
+        {
+            "x": 0,
+            "y": 13.5,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": -1
+        }
     ],
     "LOSTargetPositions": [
-        { "x": 0,   "y": 13.5, "z":  1 },
-        { "x": 3,   "y": 13,   "z": -1 },
-        { "x": -3,  "y": 13,   "z": -1 },
-        { "x": 2.5, "y": 7,    "z": -2.5 },
-        { "x": -2.5,"y": 7,    "z": -2.5 }
+        {
+            "x": 0,
+            "y": 13.5,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": 2.5,
+            "y": 7,
+            "z": -2.5
+        },
+        {
+            "x": -2.5,
+            "y": 7,
+            "z": -2.5
+        }
     ],
     "VariantName": "GN-000-TEST",
     "ChassisTags": {
-        "items": ["mr-resize-1.04", "unit_Gundam"],
+        "items": [
+            "mr-resize-1.04"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "GN Battlemech",
