@@ -1,14 +1,14 @@
 {
     "Name": "CombatVFX",
-    "Version": "0.2.0",
-    "Description": "Universal ballistic deflection system. Every mech in combat has a chance to deflect incoming ballistic projectiles based on weapon damage, firing distance, mech weight class, and armor. Rounds that hit the ground may ricochet into nearby mechs. All behaviour tunable via settings.json.",
+    "Version": "0.3.0",
+    "Description": "Recipe-driven weapon effects from the Effects Studio (drop a recipe into effects\\ and tag a weapon vfx_<recipe>), plus a universal ballistic deflection system. Every mech in combat has a chance to deflect incoming ballistic projectiles based on weapon damage, firing distance, mech weight class, and armor. Rounds that hit the ground may ricochet into nearby mechs. All behaviour tunable via settings.json.",
     "Author": "LanLeonhart",
     "Website": "",
     "Contact": "",
     "Enabled": true,
 
-    "DLL": "BallisticEffects.dll",
-    "DLLEntryPoint": "BallisticEffects.ModEntry.Init",
+    "DLL": "CombatVFX.dll",
+    "DLLEntryPoint": "CombatVFX.ModEntry.Init",
 
     "DependsOn": [
         "ModTek"
@@ -17,14 +17,14 @@
     "ConflictsWith": [],
 
     "Manifest": [
-        { "Type": "ChassisDef",  "Path": "chassis/" },
-        { "Type": "MechDef",     "Path": "mech/"    }
     ],
 
     "Comment_Settings": "Settings below are the fallback defaults. The active configuration is read from settings.json in this mod folder by ModTek and passed to Init.",
 
     "Settings": {
         "TestMode": false,
+        "FxTestHotkey": false,
+        "FxTagPrefix": "vfx_",
 
         "DeflectRadius": 6.5,
         "GlancingAngleBonus": 0.20,
@@ -59,6 +59,6 @@
 
         "GroundDeflectEnabled":        true,
         "GroundDeflectDamageFraction": 0.35,
-        "GroundDeflectMaxBounceRange": 250.0
+        "GroundDeflectMaxBounceRange": 80.0
     }
 }
