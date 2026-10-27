@@ -32,8 +32,8 @@
       }
     },
     "BonusDescriptions": [
-      "EXPLODE",
-      "HeatGen: -25%"
+      "HeatGen: -25%",
+      "FAILBLAST: 100"
     ],
     "ActivatableComponent": {
       "ButtonName": "F.Cooling System",
@@ -41,6 +41,7 @@
       "FailRoundsStart": 1,
       "FailChancePerTurn": 0.09,
       "SelfCrit": true,
+      "FailStabDamage": 100,
       "FailCheckOnActivationEnd": true,
       "FailPilotingBase": 10,
       "FailPilotingMult": 0.0001,
@@ -58,13 +59,13 @@
             "effectTriggerType": "Passive",
             "effectTargetType": "Creator",
             "showInTargetPreview": false,
-            "showInStatusPanel": false
+            "showInStatusPanel": true
           },
           "effectType": "StatisticEffect",
           "Description": {
-            "Id": "PDHSKitHeatGen",
-            "Name": "Heat Sink Kit (Prototype): Decreased Heat Generated",
-            "Details": "Heat generation reduced by 25%.",
+            "Id": "StatusEffect-ForcedCooler-HeatGen",
+            "Name": "FORCED COOLING",
+            "Details": "Forced Cooling engaged: weapon heat -25%. Its failure chance rises every round it stays on.",
             "Icon": "uixSvgIcon_equipment_ThermalExchanger"
           },
           "nature": "Buff",
@@ -94,7 +95,7 @@
     "UIName": "Forced Cooling System",
     "Id": "Gear_ForcedCooler",
     "Name": "Forced Cooling",
-    "Details": "Forced Cooling System provides active cooling. Higher cooling effieciency at the risk of failure which would cause a large explosion.",
+    "Details": "The Forced Cooling System drives coolant hard through the 'Mech. While engaged, weapons generate 25% less heat. Every round it stays on raises the chance of failure. A failure destroys the system, and the blast can knock the 'Mech off its feet.",
     "Icon": "coolantvent"
   },
   "BonusValueA": "",

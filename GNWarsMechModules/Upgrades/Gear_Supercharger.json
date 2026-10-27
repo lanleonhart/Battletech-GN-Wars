@@ -16,92 +16,63 @@
         "TechCost": "0.8 * [[Chassis.Tonnage]]",
         "CBillCost": "85 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
+    },
+    "BonusDescriptions": [
+      "WALKACT: +50%",
+      "RUNACT: +50%",
+      "FAILBLAST: 100"
+    ],
+    "ActivatableComponent": {
+      "ButtonName": "Supercharger",
+      "FailFlatChance": 0.03,
+      "FailRoundsStart": 1,
+      "FailChancePerTurn": 0.09,
+      "SelfCrit": true,
+      "FailStabDamage": 100,
+      "FailCheckOnActivationEnd": true,
+      "FailPilotingBase": 10,
+      "FailPilotingMult": 0.0001,
+      "ActivationMessage": "ENGAGED",
+      "DeactivationMessage": "OFF",
+      "CanNotBeActivatedManualy": false,
+      "NoUniqueCheck": true,
+      "statusEffects": [
+        {
+          "Description": {
+            "Id": "StatusEffect-Supercharger-WalkSpeed",
+            "Name": "SUPERCHARGER",
+            "Details": "Supercharger engaged: Walk and Run distance +50%. Its failure chance rises every round it stays on.",
+            "Icon": "supercharger"
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Buff",
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "forcePathRebuild": true,
+            "showInTargetPreview": true,
+            "showInStatusPanel": true,
+            "hideApplicationFloatie": true
+          },
+          "statisticData": {
+            "statName": "WalkSpeed",
+            "operation": "Float_Multiply",
+            "modValue": "1.50",
+            "modType": "System.Single",
+            "additionalRules": "NotSet",
+            "targetCollection": "NotSet",
+            "targetWeaponCategory": "NotSet",
+            "targetWeaponType": "NotSet",
+            "targetAmmoCategory": "NotSet",
+            "targetWeaponSubType": "NotSet"
+          }
+        }
+      ]
     }
-  },
-  "BonusDescriptions": [
-    "EXPLODE"
-  ],
-  "ActivatableComponent": {
-    "ButtonName": "Supercharger",
-    "FailFlatChance": 0.03,
-    "FailRoundsStart": 1,
-    "FailChancePerTurn": 0.09,
-    "SelfCrit": true,
-    "FailCheckOnActivationEnd": true,
-    "FailPilotingBase": 10,
-    "FailPilotingMult": 0.0001,
-    "ActivationMessage": "WARNING!",
-    "DeactivationMessage": "Nominal",
-    "CanNotBeActivatedManualy": false,
-    "NoUniqueCheck": true,
-    "statusEffects": [
-      {
-        "Description": {
-          "Id": "StatusEffect-TSM-SprintSpeed",
-          "Name": "PROTOTYPE TRIPLE MYOMER",
-          "Details": "This unit's improved myomer muscle technology improves its movement speed by [AMT].",
-          "Icon": "UixSvgIcon_specialEquip_System"
-        },
-        "effectType": "StatisticEffect",
-        "nature": "Buff",
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false,
-          "hideApplicationFloatie": true
-        },
-        "statisticData": {
-          "statName": "RunSpeed",
-          "operation": "Float_Multiply",
-          "modValue": "1.50",
-          "modType": "System.Single",
-          "additionalRules": "NotSet",
-          "targetCollection": "NotSet",
-          "targetWeaponCategory": "NotSet",
-          "targetWeaponType": "NotSet",
-          "targetAmmoCategory": "NotSet",
-          "targetWeaponSubType": "NotSet"
-        }
-      },
-      {
-        "Description": {
-          "Id": "StatusEffect-TSM-WalkSpeed",
-          "Name": "PROTOTYPE TRIPLE MYOMER",
-          "Details": "This unit's improved myomer muscle technology improves its movement speed by [AMT].",
-          "Icon": "UixSvgIcon_specialEquip_System"
-        },
-        "effectType": "StatisticEffect",
-        "nature": "Buff",
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "Creator",
-          "showInTargetPreview": true,
-          "showInStatusPanel": true,
-          "hideApplicationFloatie": true
-        },
-        "statisticData": {
-          "statName": "WalkSpeed",
-          "operation": "Float_Multiply",
-          "modValue": "1.50",
-          "modType": "System.Single",
-          "additionalRules": "NotSet",
-          "targetCollection": "NotSet",
-          "targetWeaponCategory": "NotSet",
-          "targetWeaponType": "NotSet",
-          "targetAmmoCategory": "NotSet",
-          "targetWeaponSubType": "NotSet"
-        }
-      }
-    ]
   },
   "Description": {
     "Cost": 3000000,
@@ -109,10 +80,10 @@
     "Purchasable": false,
     "Manufacturer": "Super",
     "Model": "Standard",
-    "UIName": "Super Charger",
+    "UIName": "Supercharger",
     "Id": "Gear_Supercharger",
-    "Name": "Super Charger",
-    "Details": "Super Charger enchances the mobility of the mech while active. Risks exploding during prolonged usage",
+    "Name": "Supercharger",
+    "Details": "A Supercharger forces more power out of the engine for a burst of speed. While engaged, the 'Mech walks and runs 50% farther. Every round it stays on raises the chance of failure. A failure destroys the Supercharger, and the blast can knock the 'Mech off its feet.",
     "Icon": "supercharger"
   },
   "BonusValueA": "",

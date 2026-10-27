@@ -89,6 +89,50 @@
               "Color": "#FFFFFF"
             }
         }
+      },
+      {
+        "Name": "PartialWing",
+        "DisplayName": "Partial Wing",
+        "BaseLimits": [
+          {
+            "Max": 1
+          }
+        ],
+        "UnitLimits": [
+          {
+            "UnitType": "Vehicle",
+            "Limits": [
+              {
+                "Location": "All",
+                "Max": 0
+              }
+            ]
+          },
+          {
+            "UnitType": "Squad",
+            "Limits": [
+              {
+                "Location": "All",
+                "Max": 0
+              }
+            ]
+          },
+          {
+            "UnitType": "Quad",
+            "Limits": [
+              {
+                "Location": "All",
+                "Max": 0
+              }
+            ]
+          }
+        ],
+        "DefaultCustoms": {
+            "RGBColor": "#566d79",
+            "TRGBColor": {
+              "Color": "#FFFFFF"
+            }
+        }
       }
     ]
   }

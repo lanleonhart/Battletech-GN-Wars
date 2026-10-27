@@ -3,240 +3,48 @@
     "Category": [
       {
         "CategoryID": "Upgrade"
+      },
+      {
+        "CategoryID": "PartialWing"
       }
     ],
-    "WorkOrderCosts": {
-      "Install": {
-        "TechCost": "0.075 * [[Chassis.Tonnage]]",
-        "CBillCost": "18 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
-      }
-    },
-    "BonusDescriptions": [
-      "WALKACT: +50%",
-      "MeleeDmg: +50%"
-    ],
-    "ActivatableComponent": {
-      "ButtonName": "TSM",
-      "AutoActivateOnHeat": 32,
-      "AutoDeactivateOnHeat": 27,
-      "CanNotBeActivatedManualy": true,
-      "NoUniqueCheck": true,
-      "statusEffects": [
+    "Linked": {
+      "Links": [
         {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "TSM_Damage_Weapon",
-            "Name": "TSM Activatable: Increased Physical Weapon Damage",
-            "Details": "Damage Modifier",
-            "Icon": "uixSvgIcon_equipment_ActuatorArm"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "CBTBE_Physical_Weapon_Target_Damage_Multi",
-            "operation": "Float_Multiply",
-            "modValue": "1.5",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "TSM_Stability_Weapon",
-            "Name": "TSM Activatable: Increased Physical Weapon Stability Damage",
-            "Details": "Damage Modifier",
-            "Icon": "uixSvgIcon_equipment_ActuatorArm"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "CBTBE_Physical_Weapon_Target_Instability_Multi",
-            "operation": "Float_Multiply",
-            "modValue": "1.25",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "TSM_Damage_Punch",
-            "Name": "TSM Activatable: Increased Punch Damage",
-            "Details": "Damage Modifier",
-            "Icon": "uixSvgIcon_equipment_ActuatorArm"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "CBTBE_Punch_Target_Damage_Multi",
-            "operation": "Float_Multiply",
-            "modValue": "1.5",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "TSM_Stability_Punch",
-            "Name": "TSM Activatable: Increased Punch Stability Damage",
-            "Details": "Damage Modifier",
-            "Icon": "uixSvgIcon_equipment_ActuatorArm"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "CBTBE_Punch_Target_Instability_Multi",
-            "operation": "Float_Multiply",
-            "modValue": "1.25",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "TSM_Damage_Kick",
-            "Name": "TSM Activatable: Increased Kick Damage",
-            "Details": "Damage Modifier",
-            "Icon": "uixSvgIcon_equipment_ActuatorArm"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "CBTBE_Kick_Target_Damage_Multi",
-            "operation": "Float_Multiply",
-            "modValue": "1.5",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "TSM_Stability_Kick",
-            "Name": "TSM Activatable: Increased Kick Stability Damage",
-            "Details": "Damage Modifier",
-            "Icon": "uixSvgIcon_equipment_ActuatorArm"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "CBTBE_Kick_Target_Instability_Multi",
-            "operation": "Float_Multiply",
-            "modValue": "1.25",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "TSMActive1",
-            "Name": "TSM Activatable: Increased Walk Speed",
-            "Details": "Stronger Melee and faster Movement",
-            "Icon": "uixSvgIcon_equipment_ActuatorArm"
-          },
-          "statisticData": {
-            "statName": "WalkSpeed",
-            "operation": "Float_Add",
-            "modValue": "60",
-            "modType": "System.Single"
-          },
-          "nature": "Buff"
+          "ComponentDefId": "Linked_Partialwing",
+          "Location": "LeftTorso"
         }
       ]
     },
-    "DynamicSlots": {
-      "ReservedSlots": 5,
-      "ShowIcon": false,
-      "NameText": "TSM",
-      "BonusAText": "Dynamic Slot",
-      "BonusBText": " "
+    "Weights": {
+      "StructureFactor": 1.7
     },
-    "Flags": {
-      "flags": [
-        "not_broken"
-      ]
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.4 * [[Chassis.Tonnage]]",
+        "CBillCost": "25 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
     },
-    "IBLS": {
-      "StorageSize": 6
-    },
+    "BonusDescriptions": [
+      "JJ: +25%",
+      "HEATSINK: +6"
+    ],
+    "Flags": [
+      "not_broken"
+    ],
     "InventorySorter": "09020"
   },
-  "StatName": null,
-  "RelativeModifier": 0,
-  "AbsoluteModifier": 0,
   "Description": {
-    "Cost": 1600000,
+    "Cost": 600000,
     "Rarity": 5,
     "Purchasable": true,
-    "Manufacturer": "Ares-Bergan",
-    "Model": "",
-    "UIName": "Triple Strength Myomer",
+    "Manufacturer": "Generic",
+    "Model": "Partial Wing",
+    "UIName": "Partial Wing",
     "Id": "Gear_Partialwing",
-    "Name": "Triple Strenght Myomer ",
-    "Details": "Triple Strength Myomer is bulkier and also more expensive than standard myomer. It can be used in the muscles of BattleMechs instead of standard myomer, and delivers significantly improved performance when the 'Mech has hit a certain heat threshold. Under these conditions the Mech will move faster and deal more damage with physical attacks. This effectively means that a 50 ton 'Mech can hit as hard as a 100 ton 'Mech in melee combat, and a 100 ton 'Mech is absolutely devastating.",
-    "Icon": "MASC"
+    "Name": "Partial Wing",
+    "Details": "Fixed aerofoil wings on both side torsos. They stretch every jump by 25% and add 6 heat sinking. They only help a 'Mech that already has jump jets. Uses 3 slots in each side torso and weighs 7% of the 'Mech's tonnage.",
+    "Icon": "uixSvgIcon_action_jump"
   },
   "BonusValueA": "",
   "BonusValueB": "",
@@ -244,12 +52,65 @@
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
   "BattleValue": 0,
-  "InventorySize": 1,
+  "InventorySize": 3,
   "Tonnage": 0,
-  "AllowedLocations": "All",
-  "DisallowedLocations": "Head",
+  "AllowedLocations": "RightTorso",
+  "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "PartialWing-JumpRange",
+        "Name": "Partial Wing: Jump Range",
+        "Details": "Jump range x1.25.",
+        "Icon": "uixSvgIcon_action_jump"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "JumpDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.25",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "PartialWing-Cooling",
+        "Name": "Partial Wing: Air Cooling",
+        "Details": "+6 heat sinking from air flowing over the wings.",
+        "Icon": "uixSvgIcon_equipment_Heatsink"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Add",
+        "modValue": "6",
+        "modType": "System.Int32"
+      }
+    }
+  ],
   "ComponentTags": {
     "items": [
       "component_type_stock"
