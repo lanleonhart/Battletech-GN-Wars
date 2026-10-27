@@ -2,7 +2,7 @@
     "id": "pilotQuirkDef_pilot_nearsighted",
     "tag": "pilot_nearsighted",
     "quirkName": "Near Sighted",
-    "description": "Has trouble seeing at a distance.\nIn combat: -15% visibility to enemies. Salary +15%.",
+    "description": "Has trouble seeing at a distance.\nIn combat: -15% spotting range. Salary +15%.",
 "effectData": [
   {
     "durationData": {
@@ -17,14 +17,14 @@
     },
     "effectType": "StatisticEffect",
     "Description": {
-      "Id": "Stealth_Visibility_Decrease_Stealth",
-      "Name": "Lootable Chameleon LPS Activatable: Decreased Visual Signature",
-      "Details": "Visibility Statuseffect.",
+      "Id": "NearSightedSpottingQuirk",
+      "Name": "Near Sighted",
+      "Details": "This pilot spots enemies at a shorter range.",
       "Icon": "uixSvgIcon_equipment_TTS"
     },
-    "nature": "Buff",
+    "nature": "Debuff",
     "statisticData": {
-      "statName": "SpottingVisibilityMultiplier",
+      "statName": "SpotterDistanceMultiplier",
       "operation": "Float_Multiply",
       "modValue": "0.85",
       "modType": "System.Single"

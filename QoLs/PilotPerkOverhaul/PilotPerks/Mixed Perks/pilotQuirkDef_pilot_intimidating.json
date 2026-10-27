@@ -2,34 +2,8 @@
     "id": "pilotQuirkDef_pilot_intimidating",
     "tag": "pilot_intimidating",
     "quirkName": "Intimidating",
-    "description": "Their reputation unsettles friend and foe alike.\nSalary +30%. No other effect.",
+    "description": "Their reputation unsettles friend and foe alike.\n-1 Morale while employed. In combat: enemies +10% panic chance. Salary +30%.",
 "effectData": [
-    {
-        "durationData": {
-          "duration": -1,
-          "stackLimit": -1
-        },
-        "targetingData": {
-          "effectTriggerType": "Passive",
-          "effectTargetType": "AllLanceMates",
-          "showInTargetPreview": false,
-          "showInStatusPanel": false
-        },
-        "effectType": "StatisticEffect",
-        "Description": {
-          "Id": "ResolveGainLance",
-          "Name": "Lance Resolve Generation",
-          "Details": "Provides a bonus to actions that generate Morale.",
-          "Icon": "uixSvgIcon_equipment_Cockpit"
-        },
-        "nature": "Buff",
-        "statisticData": {
-          "statName": "resolveGenBaseMult",
-          "operation": "Float_Multiply",
-          "modValue": "0.95",
-          "modType": "System.Single"
-        }
-      },
       {
         "durationData": {
           "duration": -1,
@@ -37,27 +11,33 @@
         },
         "targetingData": {
           "effectTriggerType": "Passive",
-          "effectTargetType": "EnemiesWithinRange",
+          "effectTargetType": "AllEnemies",
           "showInTargetPreview": false,
           "showInStatusPanel": false
         },
         "effectType": "StatisticEffect",
         "Description": {
-          "Id": "IntimidatedPenalty",
-          "Name": "Inflict Enemies With Panic Chance",
-          "Details": "Debilitated",
-          "Icon": "uixSvgIcon_equipment_Cockpit"
+          "Id": "IntimidatingPanicQuirk",
+          "Name": "Intimidated",
+          "Details": "Facing this pilot unsettles the enemy.",
+          "Icon": "uixSvgIcon_specialEquip_System"
         },
-        "nature": "Buff",
+        "nature": "Debuff",
         "statisticData": {
           "statName": "PanicStatMultiplier",
           "operation": "Float_Multiply",
-          "modValue": "1.25",
+          "modValue": "1.10",
           "modType": "System.Single"
         }
-    }
+      }
 ],
   "quirkEffects": [
+    {
+      "type": "Morale",
+      "modifier": -1.0,
+      "secondaryModifier": 0.0,
+      "affectedIds": []
+    },
     {
       "type": "PilotCostFactor",
       "modifier": 0.30,

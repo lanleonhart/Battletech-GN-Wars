@@ -2,7 +2,7 @@
   "id": "pilotQuirkDef_pilot_klutz",
   "tag": "pilot_klutz",
   "quirkName": "Klutz",
-  "description": "Lacks coordination and is prone to accidents.\nIn combat: +1 evasion gained when moving.",
+  "description": "Lacks coordination and is prone to accidents.\nIn combat: +1 evasion gained when moving, Unsteady threshold -5.",
   "effectData": [
     {
       "durationData": {
@@ -32,26 +32,27 @@
     },
     {
       "durationData": {
-        "duration": 1,
+        "duration": -1,
         "stackLimit": -1
       },
       "targetingData": {
-        "effectTriggerType": "OnWeaponFire",
+        "effectTriggerType": "Passive",
         "effectTargetType": "Creator",
+        "showInTargetPreview": false,
         "showInStatusPanel": false
       },
       "effectType": "StatisticEffect",
-      "nature": "Buff",
       "Description": {
-        "Id": "WeaponEffect-SelfknockdownCheck_OnFire",
-        "Name": "Rotary AC/10 RISC / x3: Increased Self Knockdown on Fire",
-        "Details": "Tubthumping",
-        "Icon": "uixSvgIcon_run_n_gun"
+        "Id": "KlutzUnsteadyQuirk",
+        "Name": "Clumsy",
+        "Details": "This pilot goes unsteady sooner.",
+        "Icon": "uixSvgIcon_equipment_Gyro"
       },
+      "nature": "Debuff",
       "statisticData": {
-        "statName": "SelfknockdownCheck_OnFire",
-        "operation": "Float_Add",
-        "modValue": "0.04",
+        "statName": "UnsteadyThreshold",
+        "operation": "Float_Subtract",
+        "modValue": "5.0",
         "modType": "System.Single"
       }
     }

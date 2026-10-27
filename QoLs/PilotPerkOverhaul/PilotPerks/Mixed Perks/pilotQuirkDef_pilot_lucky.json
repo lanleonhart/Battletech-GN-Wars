@@ -2,7 +2,7 @@
   "id": "pilotQuirkDef_pilot_lucky",
   "tag": "pilot_lucky",
   "quirkName": "Lucky",
-  "description": "Has an uncanny streak of luck on the battlefield.\nIn combat: +2 max evasion. Salary +12%.",
+  "description": "Has an uncanny streak of luck on the battlefield.\nIn combat: +2 max evasion, attacks against them -1 Accuracy. Salary +12%.",
   "effectData": [
     {
       "durationData": {
@@ -35,16 +35,16 @@
       },
       "targetingData": {
         "effectTriggerType": "Passive",
-        "effectTargetType": "EnemiesWithinRange",
+        "effectTargetType": "Creator",
         "showInTargetPreview": false,
         "showInStatusPanel": false
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-ChanceToHit",
-        "Name": " Hit Chance Against Unit",
-        "Details": "All attacks against this units suffer a penalty",
-        "Icon": "uixSvgIcon_equipment_Gyro"
+        "Id": "LuckyToHitQuirk",
+        "Name": "Lucky",
+        "Details": "Shots aimed at this pilot have a habit of going astray. +[AMT] difficulty to hit.",
+        "Icon": "uixSvgIcon_specialEquip_System"
       },
       "nature": "Buff",
       "statisticData": {
