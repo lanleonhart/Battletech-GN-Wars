@@ -59,9 +59,9 @@
     },
     {
       "Description" : {
-          "Id" : "StatusEffect-TSM-SprintSpeed",
-          "Name" : "PROTOTYPE TRIPLE MYOMER",
-          "Details" : "This unit's improved myomer muscle technology improves its movement speed by [AMT].",
+          "Id" : "QuirkCriminalRun",
+          "Name" : "Criminal",
+          "Details" : "Run distance +8%",
           "Icon" : "UixSvgIcon_specialEquip_System"
       },
       "effectType" : "StatisticEffect",
@@ -78,9 +78,9 @@
           "hideApplicationFloatie" : true
       },
       "statisticData" : {
-          "statName" : "RunSpeed",
-          "operation" : "Float_Multiply",
-          "modValue" : "1.08",
+          "statName" : "CBTBE_RunMultiMod",
+          "operation" : "Float_Add",
+          "modValue" : "0.12",
           "modType" : "System.Single"
       }
     }
