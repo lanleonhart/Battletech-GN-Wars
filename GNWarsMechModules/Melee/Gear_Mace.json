@@ -5,6 +5,10 @@
         "CategoryID": "Upgrade"
       }
     ],
+    "BonusDescriptions": [
+      "MeleeDamage: 0.75/t",
+      "MeleeStabilityDamage: 1.25/t"
+    ],
     "InventorySorter": "09020",
     "Flags": {
       "flags": [
@@ -21,7 +25,7 @@
     "UIName": "Handheld Mace",
     "Id": "Gear_Mace",
     "Name": "Handheld Mace",
-    "Details": "A handheld melee weapon. Requires hand actuators",
+    "Details": "A handheld mace for close combat. Each blow deals 0.75 damage and 1.25 stability damage per ton of 'Mech, strikes the upper body like a punch, and leaves the target unsteady. Needs a working hand actuator.",
     "Icon": "GNSaber"
   },
   "ComponentType": "Upgrade",
@@ -30,12 +34,143 @@
   "BattleValue": 0,
   "InventorySize": 4,
   "Tonnage": 3,
-  "AllowedLocations": "All",
+  "AllowedLocations": "Arms",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "BonusValueA": "",
   "BonusValueB": "",
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "PunchIsPhysical",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Punch_Is_Physical_Weapon",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Mace_Table",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Location_Table",
+        "operation": "Set",
+        "modValue": "PUNCH",
+        "modType": "System.String"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Mace_DmgPerTon",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Target_Damage_Per_Attacker_Ton",
+        "operation": "Set",
+        "modValue": "0.75",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Mace_StabPerTon",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Target_Instability_Per_Attacker_Ton",
+        "operation": "Set",
+        "modValue": "1.25",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Mace_Unsteady",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Unsteady_Target_On_Hit",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    }
+  ],
   "ComponentTags": {
     "items": [
       "component_type_stock"

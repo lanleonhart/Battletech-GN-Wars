@@ -5,6 +5,10 @@
         "CategoryID": "Upgrade"
       }
     ],
+    "BonusDescriptions": [
+      "DMGREDUCTION: 5,5,5",
+      "MELEE-RES: 25%"
+    ],
     "InventorySorter": "09020",
     "Flags": {
       "flags": [
@@ -21,7 +25,7 @@
     "UIName": "Small Shield",
     "Id": "Gear_SShield",
     "Name": "Small Shield",
-    "Details": "A Handheld shield. Requires hand actuators",
+    "Details": "A handheld shield. It cuts all incoming damage by 5% and damage from punches, kicks and melee weapons by 25%. Needs a working hand actuator.",
     "Icon": "GNSaber"
   },
   "ComponentType": "Upgrade",
@@ -30,12 +34,117 @@
   "BattleValue": 0,
   "InventorySize": 4,
   "Tonnage": 4,
-  "AllowedLocations": "All",
+  "AllowedLocations": "Arms",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "BonusValueA": "",
   "BonusValueB": "",
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "SShield_All",
+        "Name": "",
+        "Details": "",
+        "Icon": "shield"
+      },
+      "statisticData": {
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": "0.95",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "SShield_Punch_Damage",
+        "Name": "",
+        "Details": "",
+        "Icon": "shield"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Punch_Target_Damage_Reduction_Multi",
+        "operation": "Float_Multiply",
+        "modValue": "0.75",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "SShield_Kick_Damage",
+        "Name": "",
+        "Details": "",
+        "Icon": "shield"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Kick_Target_Damage_Reduction_Multi",
+        "operation": "Float_Multiply",
+        "modValue": "0.75",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "SShield_Physical_Weapon_Damage",
+        "Name": "",
+        "Details": "",
+        "Icon": "shield"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Target_Damage_Reduction_Multi",
+        "operation": "Float_Multiply",
+        "modValue": "0.75",
+        "modType": "System.Single"
+      }
+    }
+  ],
   "ComponentTags": {
     "items": [
       "component_type_stock"

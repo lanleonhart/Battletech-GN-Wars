@@ -5,6 +5,11 @@
         "CategoryID": "Upgrade"
       }
     ],
+    "BonusDescriptions": [
+      "MeleeDamage: 0.75/t",
+      "MeleeStabilityDamage: 0.5/t",
+      "MeleeAccuracy: +1"
+    ],
     "InventorySorter": "09020",
     "Flags": {
       "flags": [
@@ -21,7 +26,7 @@
     "UIName": "Handheld Sword",
     "Id": "Gear_Sword",
     "Name": "Handheld Sword",
-    "Details": "A handheld melee weapon. Requires hand actuators",
+    "Details": "A handheld sword for close combat. Each blow deals 0.75 damage and 0.5 stability damage per ton of 'Mech, strikes the upper body like a punch, and gets +1 Accuracy. Needs a working hand actuator.",
     "Icon": "GNSaber"
   },
   "ComponentType": "Upgrade",
@@ -30,12 +35,143 @@
   "BattleValue": 0,
   "InventorySize": 4,
   "Tonnage": 2,
-  "AllowedLocations": "All",
+  "AllowedLocations": "Arms",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "BonusValueA": "",
   "BonusValueB": "",
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "PunchIsPhysical",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Punch_Is_Physical_Weapon",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Sword_Table",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Location_Table",
+        "operation": "Set",
+        "modValue": "PUNCH",
+        "modType": "System.String"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Sword_DmgPerTon",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Target_Damage_Per_Attacker_Ton",
+        "operation": "Set",
+        "modValue": "0.75",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Sword_StabPerTon",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Target_Instability_Per_Attacker_Ton",
+        "operation": "Set",
+        "modValue": "0.5",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Sword_AttackMod",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Attack_Mod",
+        "operation": "Int_Add",
+        "modValue": "-1",
+        "modType": "System.Int32"
+      }
+    }
+  ],
   "ComponentTags": {
     "items": [
       "component_type_stock"
