@@ -8,6 +8,9 @@
         "CategoryID": "SensorsA"
       }
     ],
+    "BonusDescriptions": [
+      "AMS-HIT: +20%"
+    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.45 * [[Chassis.Tonnage]]",
@@ -30,7 +33,7 @@
     "UIName": "TC Missile Defence",
     "Id": "Gear_TargetingComputer_Missile_Defence",
     "Name": "Targeting Computer",
-    "Details": "A head-mounted targeting computer. This model has no effect yet.",
+    "Details": "A head-mounted targeting computer that tracks incoming missiles for the 'Mech's anti-missile systems. AMS on this 'Mech hits 20% more often. It has no effect without AMS.",
     "Icon": "fcs"
   },
   "CriticalHitStates": {
@@ -46,12 +49,12 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false,
             "effectTargetsCreator": true
           },
-          "showInTargetPreview": false,
-          "showInStatusPanel": false,
-          "nature": "Debuff",
           "effectType": "StatisticEffect",
+          "nature": "Debuff",
           "Description": {
             "Id": "TCMD_Crit",
             "Name": "",
@@ -59,10 +62,12 @@
             "Icon": "fcs"
           },
           "statisticData": {
-            "statName": "AAAFactor",
-            "operation": "Float_Divide",
-            "modValue": "4.0",
-            "modType": "System.Single"
+            "statName": "CAC_AMSHitChance_Mod",
+            "operation": "Float_Multiply",
+            "modValue": "0.7",
+            "modType": "System.Single",
+            "targetCollection": "Weapon",
+            "targetWeaponCategory": "AntiPersonnel"
           }
         }
       }
@@ -76,23 +81,25 @@
       },
       "targetingData": {
         "effectTriggerType": "Passive",
-        "effectTargetType": "Creator"
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
       },
-      "showInTargetPreview": false,
-      "showInStatusPanel": false,
-      "nature": "Buff",
       "effectType": "StatisticEffect",
+      "nature": "Buff",
       "Description": {
-        "Id": "AAAFactorMultiplier",
+        "Id": "TCMD_AMSHitChance",
         "Name": "",
         "Details": "",
         "Icon": "fcs"
       },
       "statisticData": {
-        "statName": "AAAFactor",
+        "statName": "CAC_AMSHitChance_Mod",
         "operation": "Float_Multiply",
-        "modValue": "2.0",
-        "modType": "System.Single"
+        "modValue": "1.2",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "AntiPersonnel"
       }
     }
   ],

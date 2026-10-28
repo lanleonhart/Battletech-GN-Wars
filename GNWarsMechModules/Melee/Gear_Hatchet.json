@@ -5,6 +5,10 @@
         "CategoryID": "Upgrade"
       }
     ],
+    "BonusDescriptions": [
+      "MeleeDamage: 1/t",
+      "MeleeStabilityDamage: 1/t"
+    ],
     "InventorySorter": "09020",
     "Flags": {
       "flags": [
@@ -21,7 +25,7 @@
     "UIName": "Hatchet",
     "Id": "Gear_Hatchet",
     "Name": "Hatchet",
-    "Details": "A massive hatchet carried in a 'Mech's arm for close combat.",
+    "Details": "A massive hatchet carried in a 'Mech's arm for close combat. Each blow deals 1 damage and 1 stability damage per ton of 'Mech, and strikes the upper body like a punch.",
     "Icon": "GNSaber"
   },
   "ComponentType": "Upgrade",
@@ -35,7 +39,112 @@
   "CriticalComponent": false,
   "BonusValueA": "",
   "BonusValueB": "",
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "PunchIsPhysical",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Punch_Is_Physical_Weapon",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Hatchet_Table",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Location_Table",
+        "operation": "Set",
+        "modValue": "PUNCH",
+        "modType": "System.String"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Hatchet_DmgPerTon",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Target_Damage_Per_Attacker_Ton",
+        "operation": "Set",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Hatchet_StabPerTon",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Target_Instability_Per_Attacker_Ton",
+        "operation": "Set",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
   "ComponentTags": {
     "items": [
       "component_type_stock"

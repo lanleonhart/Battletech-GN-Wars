@@ -8,6 +8,9 @@
         "CategoryID": "SensorsA"
       }
     ],
+    "BonusDescriptions": [
+      "Accuracy: +1"
+    ],
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "0.45 * [[Chassis.Tonnage]]",
@@ -30,7 +33,7 @@
     "UIName": "TC Advanced",
     "Id": "Gear_TargetingComputer_Advanced",
     "Name": "Targeting Computer",
-    "Details": "A head-mounted targeting computer. This model has no effect yet.",
+    "Details": "A head-mounted targeting computer that steadies the aim of every weapon on the 'Mech.",
     "Icon": "Icon"
   },
   "CriticalHitStates": {
@@ -41,26 +44,29 @@
         "StatusEffect": {
           "durationData": {
             "duration": -1,
-            "stackLimit": -1
+            "stackLimit": 1
           },
           "targetingData": {
-            "effectTargetsCreator": true,
             "effectTriggerType": "Passive",
-            "effectTargetType": "Creator"
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false,
+            "effectTargetsCreator": true
           },
           "effectType": "StatisticEffect",
+          "nature": "Debuff",
           "Description": {
-            "Id": "",
+            "Id": "TCAdv_Crit",
             "Name": "",
             "Details": "",
-            "Icon": ""
+            "Icon": "fcs"
           },
-          "nature": "Debuff",
           "statisticData": {
-            "statName": "",
-            "operation": "",
-            "modValue": "",
-            "modType": ""
+            "statName": "AccuracyModifier",
+            "operation": "Float_Add",
+            "modValue": "2.0",
+            "modType": "System.Single",
+            "targetCollection": "Weapon"
           }
         }
       }
@@ -69,26 +75,29 @@
   "statusEffects": [
     {
       "durationData": {
-        "stackLimit": -1,
-        "duration": -1
+        "duration": -1,
+        "stackLimit": 1
       },
       "targetingData": {
         "effectTriggerType": "Passive",
-        "effectTargetType": "Creator"
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
       },
       "effectType": "StatisticEffect",
+      "nature": "Buff",
       "Description": {
-        "Id": "",
+        "Id": "TCAdv_Accuracy",
         "Name": "",
         "Details": "",
-        "Icon": ""
+        "Icon": "fcs"
       },
-      "nature": "Debuff",
       "statisticData": {
-        "statName": "",
-        "operation": "",
-        "modValue": "",
-        "modType": ""
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
       }
     }
   ],

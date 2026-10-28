@@ -5,6 +5,9 @@
         "CategoryID": "Upgrade"
       }
     ],
+    "BonusDescriptions": [
+      "CLAWRAKE"
+    ],
     "InventorySorter": "09020",
     "Flags": {
       "flags": [
@@ -21,7 +24,7 @@
     "UIName": "Claws",
     "Id": "Gear_Claw",
     "Name": "Claws",
-    "Details": "Heavy claws built for close combat.",
+    "Details": "Heavy claws built for close combat. Each melee attack rakes twice, and each strike deals 0.4 damage per ton of 'Mech to a separate location. The claws replace the hand, so no hand actuator is needed.",
     "Icon": "GNSaber"
   },
   "ComponentType": "Upgrade",
@@ -30,12 +33,169 @@
   "BattleValue": 0,
   "InventorySize": 3,
   "Tonnage": 3,
-  "AllowedLocations": "All",
+  "AllowedLocations": "Arms",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "BonusValueA": "",
   "BonusValueB": "",
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "PunchIsPhysical",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Punch_Is_Physical_Weapon",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Claw_IgnoreActuators",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Ignore_Actuators",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Claw_Table",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Location_Table",
+        "operation": "Set",
+        "modValue": "PUNCH",
+        "modType": "System.String"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Claw_ExtraHits",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Extra_Hits_Count",
+        "operation": "Set",
+        "modValue": "1",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Claw_DmgPerTon",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Target_Damage_Per_Attacker_Ton",
+        "operation": "Set",
+        "modValue": "0.4",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "Claw_StabPerTon",
+        "Name": "",
+        "Details": "",
+        "Icon": "GNSaber"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Target_Instability_Per_Attacker_Ton",
+        "operation": "Set",
+        "modValue": "0.5",
+        "modType": "System.Single"
+      }
+    }
+  ],
   "ComponentTags": {
     "items": [
       "component_type_stock"
