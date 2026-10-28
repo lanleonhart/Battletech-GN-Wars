@@ -30,7 +30,7 @@
     "UIName": "GN Particle Dispersion",
     "Id": "GN_Antenna",
     "Name": "GN Antenna",
-    "Details": "This Antenna allows the dispersal of GN Particles over wide area, the Particles have an adverse reaction on Enemy Sensors.",
+    "Details": "This antenna disperses GN Particles into a 120 m field around the 'Mech while Particle Dispersion is ON. Attacks against allied units inside the field, this 'Mech included, get -2 Accuracy. Fields from several antennas do not stack.",
     "Icon": "GNAntenna"
   },
   "BonusValueA": "",
@@ -49,14 +49,14 @@
       "Id": "GN-Particle-Dispersion",
       "Name": "GN Particle Dispersion",
       "ReticleColor": "#18c96e",
-      "Range": 800,
+      "Range": 120,
       "RemoveOnSensorLock": false,
       "State": "Online",
-      "ApplySelf": false,
+      "ApplySelf": true,
       "AllyStealthAffection": "None",
       "EnemyStealthAffection": "None",
       "IsPositiveToAlly": true,
-      "IsNegativeToEnemy": true,
+      "IsNegativeToEnemy": false,
       "ownerVFX": [],
       "targetVFX": [],
       "removeOwnerVFX": [],
@@ -69,12 +69,12 @@
         {
           "durationData": {
             "duration": -1,
-            "stackLimit": -1
+            "stackLimit": 1
           },
           "targetingData": {
             "effectTriggerType": "Passive",
             "specialRules": "NotSet",
-            "effectTargetType": "EnemiesWithinRange",
+            "effectTargetType": "AlliesWithinRange",
             "range": 0.0,
             "forcePathRebuild": false,
             "forceVisRebuild": false,
@@ -85,13 +85,13 @@
           "Description": {
             "Id": "StatusEffect_GN-field",
             "Name": "GN Field",
-            "Details": "GN Field generates a 35 meter bubble protecting allied machines from incoming fire. ",
+            "Details": "Inside an allied GN Field: attacks against this unit get -2 Accuracy.",
             "Icon": "GNField"
           },
           "statisticData": {
-            "statName": "AccuracyModifier",
+            "statName": "ToHitThisActor",
             "operation": "Float_Add",
-            "modValue": "-2.0",
+            "modValue": "2.0",
             "modType": "System.Single"
           },
           "nature": "Buff"
