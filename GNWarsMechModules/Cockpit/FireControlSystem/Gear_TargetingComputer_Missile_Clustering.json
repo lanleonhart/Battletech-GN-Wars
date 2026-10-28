@@ -1,5 +1,8 @@
 {
   "Custom": {
+    "BonusDescriptions": [
+        "MSL-CLUSTER: +10%"
+    ],
     "Category": [
       {
         "CategoryID": ""
@@ -30,7 +33,7 @@
     "UIName": "TC Missile Clustering",
     "Id": "Gear_TargetingComputer_Missile_Clustering",
     "Name": "Targeting Computer",
-    "Details": "grey_text_description",
+    "Details": "A head-mounted targeting computer that tightens missile spreads, so more missiles strike the same location.",
     "Icon": "fcs"
   },
   "CriticalHitStates": {
@@ -54,8 +57,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "TCMC_Crit",
-            "Name": "Targeting Computer: Decreased Clustering Modifier",
-            "Details": "Decreases the clustering of this unit Missile weapon systems",
+            "Name": "",
+            "Details": "",
             "Icon": "fcs"
           },
           "statisticData": {
@@ -84,8 +87,8 @@
       "nature": "Buff",
       "Description": {
         "Id": "MissileClusteringModifierEffect",
-        "Name": "Targeting Computer: Clustering Modifier",
-        "Details": "Increases the clustering of this unit Missile weapon systems",
+        "Name": "",
+        "Details": "",
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "statisticData": {

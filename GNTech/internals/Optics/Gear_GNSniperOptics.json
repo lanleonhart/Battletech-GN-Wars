@@ -26,8 +26,11 @@
       "SNIPERMODE",
       "ACC: +3",
       "SNIPERMODEARC: 15",
-      "VISDIST: 500",
-      "SENSRANGE: 500"
+      "Sight: +66%",
+      "Sensors: +22%",
+      "SNIPERSIGHT: +66%",
+      "SNIPERSENSORS: +25%",
+      "SNIPERROOT"
     ],
     "ActivatableComponent": {
       "CanActivateAfterMove": false,
@@ -56,8 +59,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "SensorRangeIncrease",
-            "Name": "SensorRangeIncrease",
-            "Details": "Increased Sight/Sensors.",
+            "Name": "",
+            "Details": "",
             "Icon": "uixSvgIcon_equipment_Cockpit"
           },
           "nature": "Buff",
@@ -82,8 +85,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "SpottingIncrease500",
-            "Name": "SPOTTING DISTANCE INCREASED",
-            "Details": "Increases spotting distance by 500m.",
+            "Name": "",
+            "Details": "",
             "Icon": "uixSvgIcon_equipment_Cockpit"
           },
           "nature": "Buff",
@@ -135,8 +138,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-Flight-Mode-WalkSpeed",
-            "Name": "Flight Mode Boost",
-            "Details": "Flight Mode gains a movement bonus.",
+            "Name": "Sniper Mode",
+            "Details": "The 'Mech cannot move while in Sniper Mode.",
             "Icon": "uixSvgIcon_equipment_Gyro"
           },
           "nature": "Buff",
@@ -162,8 +165,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "SniperModeRunDebuff",
-            "Name": "Sniping Mode",
-            "Details": "Sniping mode",
+            "Name": "",
+            "Details": "",
             "Icon": "uixSvgIcon_equipment_Gyro"
           },
           "nature": "Buff",
@@ -189,7 +192,7 @@
           "Description": {
             "Id": "SnipingBonus",
             "Name": "Sniper Mode Accuracy Buff",
-            "Details": "Weapon attacks suffer +3 accuracy.",
+            "Details": "Weapon attacks get +3 Accuracy.",
             "Icon": "uixSvgIcon_equipment_Gyro"
           },
           "nature": "Buff",
@@ -250,8 +253,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "SensorRangeIncrease",
-        "Name": "SensorRangeIncrease",
-        "Details": "Increased Sight/Sensors.",
+        "Name": "",
+        "Details": "",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
@@ -276,8 +279,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "SpottingIncrease500",
-        "Name": "SPOTTING DISTANCE INCREASED",
-        "Details": "Increases spotting distance by 500m.",
+        "Name": "",
+        "Details": "",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
       "nature": "Buff",
