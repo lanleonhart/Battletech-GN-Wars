@@ -24,66 +24,293 @@
 		"OverrideFactionShopOwner": true,
 		"BlackMarketSystemTag": "planet_other_blackmarket",
 		"GenericFactions": [
-			{
-				"Name": "InnerSphere",
-				"Members": [
-					"Davion",
-					"Steiner",
-					"Liao",
-					"Kurita",
-					"ComStar",
-					"Ives",
-					"WordOfBlake"
-				]
-			},
-			{
-				"Name": "Periphery",
-				"Members": [
-					"TaurianConcordat",
-					"MagistracyOfCanopus",
-					"AuriganDirectorate",
-					"AuriganRestoration",
-					"Axumite",
-					"Castile",
-					"Chainelane",
-					"Circinus",
-					"Delphi",
-					"Elysia",
-					"Hanse",
-					"Illyrian",
-					"JarnFolk",
-					"Lothian",
-					"MagistracyOfCanopus",
-					"Oberon",
-					"Outworld",
-					"Rasalhague",
-					"Tortuga",
-					"Valkyrate",
-					"Rim"
-				]
-			},
-			{
-				"Name": "AllClans",
-				"Members": [
-					"ClanBurrock",
-					"ClanCloudCobra",
-					"ClanCoyote",
-					"ClanDiamondShark",
-					"ClanFireMandrill",
-					"ClanGhostBear",
-					"ClanGoliathScorpion",
-					"ClanHellsHorses",
-					"ClanIceHellion",
-					"ClanJadeFalcon",
-					"ClanNovaCat",
-					"ClansGeneric",
-					"ClanSmokeJaguar",
-					"ClanSnowRaven",
-					"ClanStarAdder",
-					"ClanSteelViper",
-					"ClanWolf"
-				]
-			}
+		    {
+		        "Name": "InnerSphere",
+		        "Members": [
+		            "Davion",
+		            "Steiner",
+		            "Liao",
+		            "Kurita",
+		            "ComStar",
+		            "St. Ives",
+		            "Word"
+		        ]
+		    },
+		    {
+		        "Name": "Periphery",
+		        "Members": [
+		            "the Taurians",
+		            "the Magistracy",
+		            "the Directorate",
+		            "the Coalition",
+		            "Axumite",
+		            "Castile",
+		            "Chainelane",
+		            "Circinus",
+		            "New Delphi",
+		            "Elysia",
+		            "Hanse",
+		            "Illyria",
+		            "JarnFolk",
+		            "Lothia",
+		            "Oberon",
+		            "Outworlds",
+		            "Rasalhague",
+		            "Tortuga",
+		            "Valkyrate",
+		            "Rim"
+		        ]
+		    },
+		    {
+		        "Name": "AllClans",
+		        "Members": [
+		            "Burrock",
+		            "Cloud Cobra",
+		            "Coyote",
+		            "Diamond Shark",
+		            "Fire Mandrill",
+		            "Ghost Bear",
+		            "Goliath Scorpion",
+		            "Hell's Horses",
+		            "Ice Hellion",
+		            "Jade Falcon",
+		            "Nova Cat",
+		            "Clans",
+		            "Smoke Jaguar",
+		            "Snow Raven",
+		            "Star Adder",
+		            "Steel Viper",
+		            "Wolf"
+		        ]
+		    },
+		    {
+		        "Name": "AuriganDirectorate",
+		        "Members": [
+		            "the Directorate"
+		        ]
+		    },
+		    {
+		        "Name": "AuriganMercenaries",
+		        "Members": [
+		            "Darius"
+		        ]
+		    },
+		    {
+		        "Name": "AuriganPirates",
+		        "Members": [
+		            "the pirates"
+		        ]
+		    },
+		    {
+		        "Name": "AuriganRestoration",
+		        "Members": [
+		            "the Coalition"
+		        ]
+		    },
+		    {
+		        "Name": "Betrayers",
+		        "Members": [
+		            "the Betrayers"
+		        ]
+		    },
+		    {
+		        "Name": "ClanBurrock",
+		        "Members": [
+		            "Burrock"
+		        ]
+		    },
+		    {
+		        "Name": "ClanCloudCobra",
+		        "Members": [
+		            "Cloud Cobra"
+		        ]
+		    },
+		    {
+		        "Name": "ClanCoyote",
+		        "Members": [
+		            "Coyote"
+		        ]
+		    },
+		    {
+		        "Name": "ClanDiamondShark",
+		        "Members": [
+		            "Diamond Shark"
+		        ]
+		    },
+		    {
+		        "Name": "ClanFireMandrill",
+		        "Members": [
+		            "Fire Mandrill"
+		        ]
+		    },
+		    {
+		        "Name": "ClanGhostBear",
+		        "Members": [
+		            "Ghost Bear"
+		        ]
+		    },
+		    {
+		        "Name": "ClanGoliathScorpion",
+		        "Members": [
+		            "Goliath Scorpion"
+		        ]
+		    },
+		    {
+		        "Name": "ClanHellsHorses",
+		        "Members": [
+		            "Hell's Horses"
+		        ]
+		    },
+		    {
+		        "Name": "ClanIceHellion",
+		        "Members": [
+		            "Ice Hellion"
+		        ]
+		    },
+		    {
+		        "Name": "ClanJadeFalcon",
+		        "Members": [
+		            "Jade Falcon"
+		        ]
+		    },
+		    {
+		        "Name": "ClanNovaCat",
+		        "Members": [
+		            "Nova Cat"
+		        ]
+		    },
+		    {
+		        "Name": "ClanSmokeJaguar",
+		        "Members": [
+		            "Smoke Jaguar"
+		        ]
+		    },
+		    {
+		        "Name": "ClanSnowRaven",
+		        "Members": [
+		            "Snow Raven"
+		        ]
+		    },
+		    {
+		        "Name": "ClanStarAdder",
+		        "Members": [
+		            "Star Adder"
+		        ]
+		    },
+		    {
+		        "Name": "ClanSteelViper",
+		        "Members": [
+		            "Steel Viper"
+		        ]
+		    },
+		    {
+		        "Name": "ClanWolf",
+		        "Members": [
+		            "Wolf"
+		        ]
+		    },
+		    {
+		        "Name": "ClansGeneric",
+		        "Members": [
+		            "Clans"
+		        ]
+		    },
+		    {
+		        "Name": "Delphi",
+		        "Members": [
+		            "New Delphi"
+		        ]
+		    },
+		    {
+		        "Name": "HouseNakano",
+		        "Members": [
+		            "House Nakano"
+		        ]
+		    },
+		    {
+		        "Name": "Illyrian",
+		        "Members": [
+		            "Illyria"
+		        ]
+		    },
+		    {
+		        "Name": "Ives",
+		        "Members": [
+		            "St. Ives"
+		        ]
+		    },
+		    {
+		        "Name": "Locals",
+		        "Members": [
+		            "the Locals"
+		        ]
+		    },
+		    {
+		        "Name": "Lothian",
+		        "Members": [
+		            "Lothia"
+		        ]
+		    },
+		    {
+		        "Name": "MagistracyCentrella",
+		        "Members": [
+		            "the Magistracy"
+		        ]
+		    },
+		    {
+		        "Name": "MagistracyOfCanopus",
+		        "Members": [
+		            "the Magistracy"
+		        ]
+		    },
+		    {
+		        "Name": "MajestyMetals",
+		        "Members": [
+		            "Majesty"
+		        ]
+		    },
+		    {
+		        "Name": "Marian",
+		        "Members": [
+		            "the Hegemony"
+		        ]
+		    },
+		    {
+		        "Name": "MercenaryReviewBoard",
+		        "Members": [
+		            "the MRB"
+		        ]
+		    },
+		    {
+		        "Name": "Nautilus",
+		        "Members": [
+		            "Nautilus Base Defenses"
+		        ]
+		    },
+		    {
+		        "Name": "NoFaction",
+		        "Members": [
+		            "Abandoned"
+		        ]
+		    },
+		    {
+		        "Name": "Outworld",
+		        "Members": [
+		            "Outworlds"
+		        ]
+		    },
+		    {
+		        "Name": "TaurianConcordat",
+		        "Members": [
+		            "the Taurians"
+		        ]
+		    },
+		    {
+		        "Name": "WordOfBlake",
+		        "Members": [
+		            "Word"
+		        ]
+		    }
 		],
 		"EmptyPlanetTag": "planet_other_empty"
 	},
