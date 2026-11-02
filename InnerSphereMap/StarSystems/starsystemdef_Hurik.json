@@ -16,16 +16,14 @@
       "planet_climate_terran",
       "planet_pop_large",
       "planet_civ_innersphere",
-      "planet_progress_3",
-      "planet_industry_agriculture",
-      "planet_other_hub",
-      "planet_industry_research",
-      "planet_industry_rich",
-      "planet_industry_recreation",
       "planet_event_pox",
-      "planet_other_megacity",
       "planet_name_hurik",
-      "planet_faction_liao"
+      "planet_tradehub",
+      "planet_service_shipyard",
+      "planet_service_hiringhall",
+      "planet_econ_agricultural",
+      "planet_econ_industrial",
+      "planet_other_blackmarket"
     ],
     "tagSetSourceFile": ""
   },
@@ -142,7 +140,9 @@
   ],
   "factionShopOwnerID": "Liao",
   "FactionShopItems": null,
-  "BlackMarketShopItems": null,
+  "BlackMarketShopItems": [
+    "itemCollection_faction_AuriganPirates"
+  ],
   "CoreSystemID": "starsystemdef_Hurik",
   "StartingSystemModes": [
     "KAMEA_CAMPAIGN",

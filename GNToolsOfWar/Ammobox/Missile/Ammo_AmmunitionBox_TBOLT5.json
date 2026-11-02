@@ -6,9 +6,9 @@
       }
     ],
     "ComponentExplosion": {
-      "ExplosionDamagePerAmmo": 2.0,
-      "HeatDamagePerAmmo": 1,
-      "StabilityDamagePerAmmo": 0
+      "ExplosionDamagePerAmmo": 2.5,
+      "HeatDamagePerAmmo": 0.75,
+      "StabilityDamagePerAmmo": 0.25
     },
     "InventorySorter": "03300",
     "Flags": {
@@ -17,10 +17,10 @@
       ]
     }
   },
-  "AmmoID": "Ammunition_TBOLT5",
-  "Capacity": 20,
+  "AmmoID": "Ammunition_TBOLT",
+  "Capacity": 60,
   "Description": {
-    "Cost": 20000,
+    "Cost": 40000,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",
@@ -45,7 +45,7 @@
   "CriticalComponent": false,
   "statusEffects": [],
   "ComponentTags": {
-    "items": [
+    "items": ["BLACKLISTED", 
       "ammunitionbox_type_advanced"
     ],
     "tagSetSourceFile": ""
